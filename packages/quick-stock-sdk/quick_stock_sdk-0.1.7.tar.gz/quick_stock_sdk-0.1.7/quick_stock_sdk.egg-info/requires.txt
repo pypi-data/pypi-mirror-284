@@ -1,0 +1,6 @@
+requests
+pandas
+tushare
+numpy
+lxml
+cssselect
