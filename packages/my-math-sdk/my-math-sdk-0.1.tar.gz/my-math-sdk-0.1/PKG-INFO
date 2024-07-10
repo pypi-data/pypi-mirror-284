@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: my-math-sdk
+Version: 0.1
+Summary: A simple math operations SDK
+Home-page: https://github.com/prasannalaxmi200/samplesdk
+Author: KODELA PRASANNA LAXMI
+Author-email: prasannalaxmi175@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Math SDK
+
+A simple SDK for basic mathematical operations.
+
+## Installation
+
+You can install the package using:
+
+```sh
+pip install math_sdk
