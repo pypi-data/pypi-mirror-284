@@ -1,0 +1,8 @@
+README.md
+setup.py
+spidermagic/__init__.py
+spidermagic/spidermagic.py
+spidermagic.egg-info/PKG-INFO
+spidermagic.egg-info/SOURCES.txt
+spidermagic.egg-info/dependency_links.txt
+spidermagic.egg-info/top_level.txt

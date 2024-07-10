@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: spidermagic
+Version: 0.0.1
+Summary: 爬虫需要用到的操作,后续或进行完善
+Home-page: 
+Author: jocre
+Author-email: 2323769863@qq.com
+Maintainer: jocre
+Maintainer-email: 2323769863@qq.com
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+
+测试发布第三方库,后续或进行完善
