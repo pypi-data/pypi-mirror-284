@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: prossa
+Version: 1.1.0
+Summary: A library for checking data processing techniques applicable on a dataset
+Author-email: Fosberg Addai <your.fosberg1addai@gmail.com>
+License: MIT License
+        
+        Copyright (c) [2024] [Procca Version 1.0.0]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        
+        
+        
+Project-URL: Homepage, https://github.com/yourusername/prossa
+Keywords: data,analysis,preprocessing,Machine Learning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pip-tools ; extra == 'test'
+Requires-Dist: bumpver ; extra == 'test'
+Provides-Extra: where
+Requires-Dist: src ; extra == 'where'
+
+# Prossa
+
+Prossa is a library for checking data processing techniques applicable on a dataset.
+
+## Installation
+
+You can install Prossa using pip:
+
+```
+pip install prossa
+```
+
+## Usage
+
+Here's a quick example of how to use Prossa:
+
+```python
+import pandas as pd
+from prossa import analyze_dataset
+from prossa import check_outliers
+
+# Load your dataset
+df = pd.read_csv('your_dataset.csv')
+
+# Analyze the dataset
+analyze_dataset(df)
+
+#also you can check if there are outliers in the dataset
+outlier = outliers = check_outliers(df)
+print(outlier)
+```
+
+For more detailed usage instructions, please refer to the documentation.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
