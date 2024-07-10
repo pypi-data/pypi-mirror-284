@@ -1,0 +1,8 @@
+sdmx1>=2.15.0
+starlette
+
+[tests]
+pytest>=8
+pytest-cov
+sdmx1[tests]
+starlette[full]
