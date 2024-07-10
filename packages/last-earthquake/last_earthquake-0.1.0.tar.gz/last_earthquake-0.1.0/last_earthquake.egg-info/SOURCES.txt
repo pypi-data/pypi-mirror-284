@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+last_earthquake.egg-info/PKG-INFO
+last_earthquake.egg-info/SOURCES.txt
+last_earthquake.egg-info/dependency_links.txt
+last_earthquake.egg-info/top_level.txt
+recent_earthquake/__init__.py
