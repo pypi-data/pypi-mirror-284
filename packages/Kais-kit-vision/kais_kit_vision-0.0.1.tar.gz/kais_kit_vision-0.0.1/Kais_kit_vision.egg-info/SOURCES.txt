@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+Kais_kit_vision.egg-info/PKG-INFO
+Kais_kit_vision.egg-info/SOURCES.txt
+Kais_kit_vision.egg-info/dependency_links.txt
+Kais_kit_vision.egg-info/not-zip-safe
+Kais_kit_vision.egg-info/top_level.txt
