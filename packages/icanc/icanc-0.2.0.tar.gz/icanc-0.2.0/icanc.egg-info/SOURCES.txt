@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+icanc/__init__.py
+icanc/icanc.py
+icanc.egg-info/PKG-INFO
+icanc.egg-info/SOURCES.txt
+icanc.egg-info/dependency_links.txt
+icanc.egg-info/entry_points.txt
+icanc.egg-info/requires.txt
+icanc.egg-info/top_level.txt
