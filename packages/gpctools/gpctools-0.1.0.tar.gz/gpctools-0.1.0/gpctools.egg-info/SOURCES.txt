@@ -1,0 +1,6 @@
+README.md
+setup.py
+gpctools.egg-info/PKG-INFO
+gpctools.egg-info/SOURCES.txt
+gpctools.egg-info/dependency_links.txt
+gpctools.egg-info/top_level.txt
