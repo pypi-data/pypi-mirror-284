@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: lit_commit_cb
+Version: 0.0.1
+Author-email: Quentin Febvre <quentin.febvre@gmail.com>
+Project-URL: Repository, https://gist.github.com/quentinf00/a4ce9f74ff84470b8158d27d202430f7
+Requires-Dist: lightning
+Requires-Dist: GitPython
+
