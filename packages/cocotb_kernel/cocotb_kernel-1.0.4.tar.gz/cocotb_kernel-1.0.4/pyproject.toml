@@ -1,0 +1,64 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "cocotb_kernel"
+authors = [
+    {name = "Matthew Michilot", email = "matthew.michilot@gmail.com"}
+]
+readme = "README.md"
+dependencies = ["cocotb>=1.8.1"]
+requires-python = ">=3.10,<4"
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Framework :: cocotb",
+    "Framework :: Jupyter",
+    "Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)"
+]
+dynamic = ["version", "description"]
+
+[project.urls]
+Source = "https://github.com/mmichilot/cocotb_kernel"
+
+[project.optional-dependencies]
+lint = [
+    "ruff ~= 0.5.0",
+    "mypy ~= 1.10.0"
+]
+
+[tool.ruff]
+line-length = 100
+indent-width = 4
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+
+[tool.ruff.lint]
+select = [
+    "F",   # pyflakes
+    "E",   # pycodestyle
+    "I",   # isort
+    "ANN", # flake8 type annotations
+    "RUF", # ruff-specific rules
+]
+fixable = ["ALL"]
+ignore = ["ANN101"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.isort]
+known-first-party = [
+    "cocotb_kernel"
+]
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+disallow_untyped_defs = true
