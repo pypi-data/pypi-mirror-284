@@ -1,0 +1,3 @@
+[console_scripts]
+cloud=cq_sdk_test.my_SDK:_fire_entrypoint
+
