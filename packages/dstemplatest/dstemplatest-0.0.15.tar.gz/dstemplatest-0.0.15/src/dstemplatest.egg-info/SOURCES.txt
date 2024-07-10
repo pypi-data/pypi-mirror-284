@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/dstemplatest/__init__.py
+src/dstemplatest/constants.py
+src/dstemplatest/structure.py
+src/dstemplatest.egg-info/PKG-INFO
+src/dstemplatest.egg-info/SOURCES.txt
+src/dstemplatest.egg-info/dependency_links.txt
+src/dstemplatest.egg-info/requires.txt
+src/dstemplatest.egg-info/top_level.txt
