@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+jsonproto/__init__.py
+jsonproto/jsonproto.py
+jsonproto.egg-info/PKG-INFO
+jsonproto.egg-info/SOURCES.txt
+jsonproto.egg-info/dependency_links.txt
+jsonproto.egg-info/entry_points.txt
+jsonproto.egg-info/requires.txt
+jsonproto.egg-info/top_level.txt
+test/__init__.py
+test/sanity_test.py
