@@ -1,0 +1,6 @@
+requests
+websocket-client
+fastapi-slim
+uvicorn
+wsproto
+cryptography
