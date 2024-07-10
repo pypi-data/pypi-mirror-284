@@ -1,0 +1,26 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cache="http://namespaces.zope.org/cache"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    >
+
+  <plone:service
+      method="GET"
+      factory=".get.StickyBlocksGet"
+      for="zope.interface.Interface"
+      permission="zope2.View"
+      name="@sticky-blocks"
+      />
+
+  <adapter
+      factory=".get.StickyBlocks"
+      name="sticky-blocks"
+      />
+
+  <cache:ruleset
+      for=".get.StickyBlocksGet"
+      ruleset="plone.content.dynamic"
+      />
+
+</configure>

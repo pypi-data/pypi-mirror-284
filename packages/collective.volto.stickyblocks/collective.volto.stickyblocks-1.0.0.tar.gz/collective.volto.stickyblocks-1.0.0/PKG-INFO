@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: collective.volto.stickyblocks
+Version: 1.0.0
+Summary: Sticky blocks configurable tract
+Home-page: https://github.com/collective/collective.volto.stickyblocks
+Author: RedTurtle
+Author-email: info@redturtle.it
+License: GPL version 2
+Project-URL: PyPI, https://pypi.org/project/collective.volto.stickyblocks/
+Project-URL: Source, https://github.com/collective/collective.volto.stickyblocks
+Project-URL: Tracker, https://github.com/collective/collective.volto.stickyblocks/issues
+Description: =============================
+        collective.volto.stickyblocks
+        =============================
+        
+        Sticky blocks configurable tract which speds on the child elements.
+        Extended description in the frontend package `volto-sticky-blocks <https://github.com/collective/volto-sticky-blocks>`_
+        
+        
+        Volto Integration
+        =================
+        
+        This product works with `volto-sticky-blocks <https://github.com/collective/volto-sticky-blocks>`_ frontend package
+        
+        Translations
+        ------------
+        
+        This product has been translated into
+        
+        - Italian
+        
+        
+        Installation
+        ------------
+        
+        Install collective.volto.stickyblocks by adding it to your buildout::
+        
+            [buildout]
+        
+            ...
+        
+            eggs =
+                collective.volto.stickyblocks
+        
+        
+        and then running ``bin/buildout``
+        
+        
+        
+        Contributors
+        ------------
+        
+        Put your name here, you deserve it!
+        
+        - folix-01
+        
+        
+        Contribute
+        ----------
+        
+        - Issue Tracker: https://github.com/collective/collective.volto.stickyblocks/issues
+        - Source Code: https://github.com/collective/collective.volto.stickyblocks
+        
+        Support
+        -------
+        
+        If you are having issues, please let us know.
+        We have a mailing list located at: info@redturtle.it
+        
+        
+        License
+        -------
+        
+        The project is licensed under the GPLv2.
+        
+        Authors
+        -------
+        
+        This product was developed by **RedTurtle Technology** team.
+        
+        .. image:: https://avatars1.githubusercontent.com/u/1087171?s=100&v=4
+           :alt: RedTurtle Technology Site
+           :target: http://www.redturtle.it/
+        
+        
+        Contributors
+        ============
+        
+        - RedTurtle, info@redturtle.it
+        
+        
+        Changelog
+        =========
+        
+        
+        1.0.0 (2024-07-10)
+        ------------------
+        
+        - Initial release.
+          [RedTurtle]
+        
+Keywords: Python Plone CMS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone :: 5.2
+Classifier: Framework :: Plone :: 6.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: >=3.7
+Provides-Extra: test
