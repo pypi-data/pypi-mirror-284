@@ -1,0 +1,2 @@
+[console_scripts]
+create-template = dstemplatest.structure:main
