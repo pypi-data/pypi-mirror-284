@@ -1,0 +1,2 @@
+[console_scripts]
+freecell_solver = freecell_solver.__main__:main
