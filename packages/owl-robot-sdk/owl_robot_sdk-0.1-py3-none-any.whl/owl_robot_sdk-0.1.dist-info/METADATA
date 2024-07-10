@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: owl-robot-sdk
+Version: 0.1
+Summary: A python client library to operate OWL Robot in Gazebo and MoveIt.
+Home-page: UNKNOWN
+Author: Lentin Joseph
+Author-email: lentin@orangewood.co
+License: Orangewood Labs Inc. 
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# OWLSim Client
+
+A python module to operate the OWLRobot on Gazebo and MoveIt. 
+
+OWLRobot running in Gazebo with MoveIt can be controlled using high level APIs.
+
+## Usage #
+To get started, you can follow the below steps to start using the OwlSimClient :
+
+1. Install the module by running the following command in terminal.
+
+```
+pip install owl-robot-sdk
+
+```
+
+
