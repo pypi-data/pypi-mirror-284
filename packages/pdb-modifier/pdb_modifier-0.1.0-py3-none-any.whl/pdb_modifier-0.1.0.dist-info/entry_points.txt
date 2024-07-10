@@ -1,0 +1,2 @@
+[console_scripts]
+modify-pdb = pdb_modifier.modify:modify_pdb
