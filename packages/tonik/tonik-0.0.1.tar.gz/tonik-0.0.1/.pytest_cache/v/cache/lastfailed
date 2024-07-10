@@ -1,0 +1,9 @@
+{
+  "lib/python3.10/site-packages/numpy": true,
+  "lib/python3.10/site-packages/pandas": true,
+  "lib/python3.10/site-packages/xarray/tests/datatree": true,
+  "lib64/python3.10/site-packages/h5py/tests": true,
+  "lib64/python3.10/site-packages/numpy": true,
+  "lib64/python3.10/site-packages/pandas": true,
+  "lib64/python3.10/site-packages/xarray/tests": true
+}

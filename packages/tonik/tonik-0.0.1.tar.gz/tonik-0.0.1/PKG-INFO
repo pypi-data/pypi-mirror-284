@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tonik
+Version: 0.0.1
+Summary: A collection of tools to integrate with GNS Science's time series classification platform.
+Project-URL: Homepage, https://github.com/tsc-tools/tonik
+Project-URL: Issues, https://github.com/tsc-tools/tonik/issues
+Author-email: Yannik Behr <y.behr@gns.cri.nz>, Christof Mueller <c.mueller@gns.cri.nz>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: h5netcdf
+Requires-Dist: h5py
+Requires-Dist: netcdf4
+Requires-Dist: pandas
+Requires-Dist: pytest
+Requires-Dist: xarray
+Description-Content-Type: text/markdown
+
+# Time series classification tools
+A collection of tools to integrate with GNS Science's time series classification platform.
