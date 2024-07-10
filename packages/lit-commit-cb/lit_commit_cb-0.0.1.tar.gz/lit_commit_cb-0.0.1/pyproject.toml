@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+version = "0.0.1"
+name = "lit_commit_cb"
+authors=[
+  {name = "Quentin Febvre", email = "quentin.febvre@gmail.com"},
+]
+dependencies=[
+  "lightning",
+  "GitPython",
+]
+
+[project.urls]
+Repository="https://gist.github.com/quentinf00/a4ce9f74ff84470b8158d27d202430f7"
+
+
+[tool.setuptools]
+py-modules=["lit_commit_cb"]
+

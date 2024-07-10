@@ -1,0 +1,7 @@
+lit_commit_cb.py
+pyproject.toml
+lit_commit_cb.egg-info/PKG-INFO
+lit_commit_cb.egg-info/SOURCES.txt
+lit_commit_cb.egg-info/dependency_links.txt
+lit_commit_cb.egg-info/requires.txt
+lit_commit_cb.egg-info/top_level.txt
