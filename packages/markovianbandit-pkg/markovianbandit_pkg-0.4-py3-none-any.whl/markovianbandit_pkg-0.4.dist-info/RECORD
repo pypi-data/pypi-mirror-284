@@ -1,0 +1,8 @@
+markovianbandit/__init__.py,sha256=3m34kqTsHEOx1zwM9pLU0B4dbgqNHDaM3msoCnr9Xq4,30
+markovianbandit/markovianbandit.py,sha256=8aMBp6j_FNfDl14pKLCWGx_ZTHjmSE13JtmGknrLMuQ,11345
+markovianbandit/whittle_computation.py,sha256=W7qHcgCqTWC0GkeSSZr72jlpkygJEKfi5Bkq2nXTK4M,7648
+markovianbandit_pkg-0.4.dist-info/LICENSE,sha256=YFue0vqApYcBfVu2MlfjIRwmcFHTdgns79OhG7FQ7Rs,1071
+markovianbandit_pkg-0.4.dist-info/METADATA,sha256=S8W8_FUS0Y1_1R26ZMgFboU2NF-WYhd22D8YvWAuh9s,2970
+markovianbandit_pkg-0.4.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+markovianbandit_pkg-0.4.dist-info/top_level.txt,sha256=lFIXQsI_AKGe2fnh07108F3Alm1Tbls0l_HiFsG6PjE,16
+markovianbandit_pkg-0.4.dist-info/RECORD,,
