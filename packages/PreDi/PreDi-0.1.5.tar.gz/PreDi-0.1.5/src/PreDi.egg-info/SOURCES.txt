@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/PreDi.egg-info/PKG-INFO
+src/PreDi.egg-info/SOURCES.txt
+src/PreDi.egg-info/dependency_links.txt
+src/PreDi.egg-info/requires.txt
+src/PreDi.egg-info/top_level.txt
+src/predi.egg-info/PKG-INFO
+src/predi.egg-info/SOURCES.txt
+src/predi.egg-info/dependency_links.txt
+src/predi.egg-info/requires.txt
+src/predi.egg-info/top_level.txt
