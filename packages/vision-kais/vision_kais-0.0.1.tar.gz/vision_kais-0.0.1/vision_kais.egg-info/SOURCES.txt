@@ -1,0 +1,12 @@
+setup.py
+package/__init__.py
+package/common.py
+package/roblang.py
+package/socketfunc.py
+package/visionfunc.py
+vision_kais.egg-info/PKG-INFO
+vision_kais.egg-info/SOURCES.txt
+vision_kais.egg-info/dependency_links.txt
+vision_kais.egg-info/not-zip-safe
+vision_kais.egg-info/requires.txt
+vision_kais.egg-info/top_level.txt

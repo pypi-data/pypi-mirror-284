@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: vision_kais
+Version: 0.0.1
+Summary: vision function written by kais
+Home-page: UNKNOWN
+Author: misil han
+Author-email: coko980715@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: kais,vision
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
