@@ -1,0 +1,45 @@
+name: build docs
+
+on:
+  workflow_call:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.head_ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUNBUFFERED: '1'
+  FORCE_COLOR: '1'
+  PYTHON_VERSION: "3.10"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        # Fetch all history for applying timestamps to every page
+        fetch-depth: 0
+
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install Hatch
+      uses: pypa/hatch@install
+
+    - name: Build documentation
+      run: hatch run docs:build
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: documentation
+        path: site
