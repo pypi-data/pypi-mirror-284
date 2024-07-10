@@ -1,0 +1,3 @@
+[console_scripts]
+node-setup = node_setup_tool.main:createDir
+
