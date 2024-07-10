@@ -1,0 +1,4 @@
+[console_scripts]
+make_tracks_file = pygenometracks.makeTracksFile:main
+pgt = pygenometracks.plotTracks:main
+pyGenomeTracks = pygenometracks.plotTracks:main
