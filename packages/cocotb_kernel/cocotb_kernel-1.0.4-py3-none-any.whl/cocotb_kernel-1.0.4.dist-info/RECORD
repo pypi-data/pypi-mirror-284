@@ -1,0 +1,8 @@
+cocotb_kernel/__init__.py,sha256=nJ8XNU1r6BAMySVQJbZYeXvGrFOB_muqtUoNeXInqwU,55
+cocotb_kernel/__main__.py,sha256=MSnrhXHXIjDZsZZSAFBal2PwcjYMbhCLAzNznBDh_h0,2640
+cocotb_kernel/install.py,sha256=qX3-ANCciSBUJohIutPiO_BzBJ3HLa2MbQa5NdXV6sU,1916
+cocotb_kernel/module.py,sha256=99kTAMpkRsVfW_IHY_P7HzPXePrc8UifBTlEMqJccd0,2050
+cocotb_kernel-1.0.4.dist-info/LICENSE,sha256=ZBq0p2BqW3mXaB6lKlktZrkcbieaR4KnCMQ2DwNcK8U,1083
+cocotb_kernel-1.0.4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+cocotb_kernel-1.0.4.dist-info/METADATA,sha256=ooISFsNNNygqcA5AyHt8DfPIyr5AFGkF28S84uGMoms,3810
+cocotb_kernel-1.0.4.dist-info/RECORD,,
