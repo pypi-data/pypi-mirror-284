@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pdb_modifier
+Version: 0.1.0
+Summary: A simple package to modify PDB files
+Home-page: https://github.com/RustamBB/pdb_modifier
+Author: Rustam
+Author-email: rustam2592@gmail.com
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# pdb_modifier
+
+A simple Python package to modify PDB files by adding " F F F" at the end of coordinate lines.
+
+## Installation
+
+```bash
+pip install pdb_modifier
