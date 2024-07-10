@@ -1,0 +1,4 @@
+stimulsoft-reports==2024.3.2
+
+[ext]
+stimulsoft-reports[ext]==2024.3.2
