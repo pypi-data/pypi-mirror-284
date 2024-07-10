@@ -1,0 +1,11 @@
+utf/UnicodeData.txt,sha256=HNz5Ptx0iVu9YJ6alrS4UrhL8w6o7W1z_-YSJEXqT4c,2175447
+utf/__init__.py,sha256=1iAWeINlEcdE3JemrLMlyj6sh4KPZ5ZwOrG4EI50ZOw,5816
+utf/__main__.py,sha256=dgtT12QR4w-fZq3B-bX9zIiGsICP1PoJPJSAOo89Wno,86
+utf/emoji-en-US.json,sha256=q6YcO8Fd1RuQe9rgY25Ga-cD7OULdDRC8Ck4or9h9oQ,178623
+utf/generate_db.py,sha256=QW05SUn6LhQq63L9JmiPaNAadnAbvebiVwtC2ZBgFf4,14624
+utf/utf.tcss,sha256=c8D4xlHpa31cOrWGahzeFhLjjgWs16eh8C-zUZowkVQ,559
+utf_cli-0.2.0.dist-info/METADATA,sha256=RsWFDcdWiTXy4ObEIOHzDU5XJLdUnJMqqPvCeGKf9Bs,1654
+utf_cli-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+utf_cli-0.2.0.dist-info/entry_points.txt,sha256=K7D3W1lP_g2Hu1FbgcEqzwblFqItYEO2ujxNDccQIzs,42
+utf_cli-0.2.0.dist-info/licenses/LICENSE.txt,sha256=A0mG1gmw4wAQCBH8axmOurWypXsEmv9qOm0c7_qG9wA,1098
+utf_cli-0.2.0.dist-info/RECORD,,
