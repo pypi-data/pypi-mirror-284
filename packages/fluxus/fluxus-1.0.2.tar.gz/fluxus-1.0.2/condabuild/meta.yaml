@@ -1,0 +1,46 @@
+package:
+  name: fluxus
+  version: {{ environ.get('FLUXUS_BUILD_FLUXUS_VERSION') }}
+
+source:
+  path: ../
+
+build:
+  noarch: python
+  script: "flit install --deps none"
+
+requirements:
+  host:
+    - pip >=21
+    - python {{ environ.get('FLUXUS_V_PYTHON') }}
+    - flit =3
+  run:
+    - matplotlib-base {{ environ.get('FLUXUS_V_MATPLOTLIB') }}
+    - pandas {{ environ.get('FLUXUS_V_PANDAS') }}
+    - python {{ environ.get('FLUXUS_V_PYTHON') }}
+    - gamma-pytools {{ environ.get('FLUXUS_V_GAMMA_PYTOOLS') }}
+    - typing_inspect {{ environ.get('FLUXUS_V_TYPING_INSPECT') }}
+
+test:
+  imports:
+    - fluxus
+  requires:
+    - pytest ~= 8.2
+    # additional requirements of gamma-pytools
+    - numpy         {{ environ.get('FLUXUS_V_NUMPY', '[False]') }}
+  commands:
+    - conda list
+    - python -c "import fluxus; import os; assert fluxus.__version__ == os.environ['FLUXUS_BUILD_FLUXUS_VERSION']"
+    - cd "${FLUXUS_PATH}/fluxus"
+    - pytest -vs test
+
+about:
+  home: https://github.com/BCG-X-Official/fluxus
+  license: Apache Software License v2.0
+  license_file: LICENSE
+  description: |
+    A collection of generic FLUXUS extensions and tools, used across GAMMA's open-source
+    libraries.
+  dev_url: https://github.com/BCG-X-Official/fluxus
+  doc_url: https://bcg-x-official.github.io/fluxus/
+  doc_source_url: https://github.com/BCG-X-Official/fluxus/blob/develop/README.rst
