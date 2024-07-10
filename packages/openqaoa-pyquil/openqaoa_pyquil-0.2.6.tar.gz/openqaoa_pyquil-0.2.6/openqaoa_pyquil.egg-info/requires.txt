@@ -1,0 +1,2 @@
+openqaoa-core==0.2.6
+pyquil
