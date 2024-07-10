@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "rawabs2rel"
+version = "1.1.0"
+description = "Yo Mama"
+authors = ["Ameer Arsala <ameer.arsala03@gmail.com>"]
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
