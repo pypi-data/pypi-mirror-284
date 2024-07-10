@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/minh_dep_trai_pro.egg-info/PKG-INFO
+src/minh_dep_trai_pro.egg-info/SOURCES.txt
+src/minh_dep_trai_pro.egg-info/dependency_links.txt
+src/minh_dep_trai_pro.egg-info/top_level.txt
+src/mypackage/__init__.py
+src/mypackage/main.py
