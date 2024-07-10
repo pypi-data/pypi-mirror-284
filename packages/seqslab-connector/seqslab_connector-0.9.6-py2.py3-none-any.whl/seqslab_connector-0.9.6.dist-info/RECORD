@@ -1,0 +1,13 @@
+seqslab/__init__.py,sha256=CpM6ZXpJD9xhKbnyppA_QNpZ9Zvx3Ery-wB47vYSWGk,22
+seqslab/hive.py,sha256=sNRaT1iIpwhM12OZoN_s-beGxNa-L4--mP6zJT_GQgY,2752
+seqslab/sqlalchemy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seqslab/sqlalchemy/hive.py,sha256=lQ5vveBZl-Ef0KBK5wsZAF0rG5NdOdB9-DCaM_yhl4w,3231
+seqslab/superset/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seqslab/superset/seqslab.py,sha256=HV4NorcaPOWS9dR-e0UaL-1LAe5HK24-wERqQ7L1bUo,2251
+seqslab_connector-0.9.6.data/data/requirements/requirements.txt,sha256=WfzlqDC_a8L99F0E7pEJtdpN_7erR_nPOcxrA_yoo4I,47
+seqslab_connector-0.9.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+seqslab_connector-0.9.6.dist-info/METADATA,sha256=LFA_5iM0Y2shkeywIo9hH6HUhMf_3NEhBIPt9XW461o,2791
+seqslab_connector-0.9.6.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+seqslab_connector-0.9.6.dist-info/entry_points.txt,sha256=Mye5iWzMQkHiKnvZSiwbWgv1J43xEhNx9_7lJ5bFyWo,166
+seqslab_connector-0.9.6.dist-info/top_level.txt,sha256=E7lUurfzNBI9GtoY7shyRIRun5T0VuTISV_Y-Kl2P1E,8
+seqslab_connector-0.9.6.dist-info/RECORD,,
