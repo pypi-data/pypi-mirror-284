@@ -1,0 +1,8 @@
+node_modules
+jcl_datalist/labextension
+**/node_modules
+**/lib
+**/package.json
+venv/
+.venv/
+build/
