@@ -1,0 +1,7 @@
+pixel_font_knife/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixel_font_knife/glyph_file_util.py,sha256=Jf5pCcroTnis7RChgIaYrEhHDyXs5TG7mmukIUiP8QM,5615
+pixel_font_knife/mono_bitmap.py,sha256=PKMPLjjDS888SkYemPQ8xWFI77hW7DUDWP50VKtu8KA,6528
+pixel_font_knife-0.0.5.dist-info/METADATA,sha256=ETBWhIn0O7mvUgnw8dUv8DhMWwJluJTug_rmyn1EpCw,1283
+pixel_font_knife-0.0.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pixel_font_knife-0.0.5.dist-info/licenses/LICENSE,sha256=2jfBihyJsb2X45u73Tvp1E9k5cCVFTwxhGOxa03pzQw,1064
+pixel_font_knife-0.0.5.dist-info/RECORD,,
