@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: quick-stock-sdk
+Version: 0.1.7
+Summary: A quick stock SDK for retrieving stock prices and information
+Home-page: 
+Author: liao que
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: tushare
+Requires-Dist: numpy
+Requires-Dist: lxml
+Requires-Dist: cssselect
+
+# Quick Stock SDK
+
+A quick stock SDK for retrieving stock prices and information.
+
+## Installation
+
+You can install this module using pip:
+
+
+ python setup.py sdist bdist_wheel  
+twine upload dist/*              
