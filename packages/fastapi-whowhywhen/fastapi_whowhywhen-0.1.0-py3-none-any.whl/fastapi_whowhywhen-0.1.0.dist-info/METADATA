@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: fastapi-whowhywhen
+Version: 0.1.0
+Summary: WhoWhyWhen middleware for FastAPI
+Home-page: https://github.com/navig-me/fastapi-whowhywhen
+Author: Mihir Khandekar
+Author-email: mihirkhandekar@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: httpx
+Requires-Dist: starlette
+
+# fastapi-whowhywhen
+
+WhoWhyWhen middleware for FastAPI. Create a WhoWhyWhen account at https://whowhywhen.com/ and get your API key.
+
+## Installation
+
+```bash
+pip install fastapi-whowhywhen
+```
+
+## Usage
+```python
+from fastapi import FastAPI
+from fastapi_whowhywhen import WhoWhyWhenMiddleware
+
+app = FastAPI()
+
+app.add_middleware(
+    WhoWhyWhenMiddleware,
+    api_key="YOUR_API_KEY"
+)
+
+@app.get("/")
+async def root():
+    return {"message": "Hello, World!"}
+```
