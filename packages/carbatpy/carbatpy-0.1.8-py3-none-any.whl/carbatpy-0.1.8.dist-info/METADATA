@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: carbatpy
+Version: 0.1.8
+Summary: Calculate and optimize Carnot Batteries (Thermal energy storage)
+Author: Burak Atakan
+Author-email: b.atakan@uni-duisburg.de
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: coolprop (>=6.6.0,<7.0.0)
+Requires-Dist: ctrefprop (>=0.10.2,<0.11.0)
+Requires-Dist: graphviz (>=0.20.3,<0.21.0)
+Requires-Dist: matplotlib (>=3.9.1,<4.0.0)
+Requires-Dist: numpy (>=2.0.0,<3.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: paretoset (>=1.2.3,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: scipy (>=1.14.0,<2.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
