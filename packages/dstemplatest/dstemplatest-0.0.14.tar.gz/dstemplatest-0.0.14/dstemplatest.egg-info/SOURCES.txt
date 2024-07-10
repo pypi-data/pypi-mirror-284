@@ -1,0 +1,7 @@
+README.md
+setup.py
+dstemplatest.egg-info/PKG-INFO
+dstemplatest.egg-info/SOURCES.txt
+dstemplatest.egg-info/dependency_links.txt
+dstemplatest.egg-info/requires.txt
+dstemplatest.egg-info/top_level.txt
