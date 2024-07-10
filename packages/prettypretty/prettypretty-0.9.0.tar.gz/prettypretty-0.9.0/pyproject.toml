@@ -1,0 +1,47 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+
+[project]
+name = "prettypretty"
+description = "Applying 2020s color science to 1970s terminal user interfaces"
+keywords = ["awesome", "terminal", "color", "ANSI escape code", "terminal user interface"]
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Apache 2.0"}
+authors = [{name = "Robert Grimm", email="rgrimm@alum.mit.edu"}]
+dynamic = ["version"]
+
+
+[project.optional-dependencies]
+dev = ["matplotlib", "pyright"]
+doc = [
+    "sphinx",
+    "sphinxcontrib-autoprogram",
+    "sphinx-copybutton",
+    "sphinx_design",
+    "sphinx-rtd-theme",
+    "matplotlib",
+]
+
+
+[project.urls]
+repository = "https://github.com/apparebit/prettypretty"
+package = "https://pypi.org/project/prettypretty/"
+documentation= "https://apparebit.github.io/prettypretty/"
+
+
+[tool.maturin]
+python-source = "."
+python-packages = ["prettypretty"]
+# Keep consistent with name of module function in src/lib.rs:
+module-name = "prettypretty.color"
+bindings = "pyo3"
+features = ["pyffi"]
+
+
+[tool.pyright]
+include = ["prettypretty/**/*.py", "prettypretty/**/*.pyi", "test/*.py", "runtest.py"]
+typeCheckingMode = "strict"
+pythonVersion = "3.11"
