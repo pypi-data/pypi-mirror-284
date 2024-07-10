@@ -1,0 +1,5 @@
+include README.md
+include my_rabbitmq_package/__init__.py
+include my_rabbitmq_package/publisher.py
+include my_rabbitmq_package/consumer.py
+recursive-include tests *.py
