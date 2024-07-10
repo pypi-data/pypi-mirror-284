@@ -1,0 +1,14 @@
+ansys/api/meshing/prime/VERSION,sha256=2_CXjsK1h6XWGH_cxBzOn_LA647vrboOtR84QKtu60Y,5
+ansys/api/meshing/prime/__init__.py,sha256=3Z5N0vgsujpFbuxNcpW_SkbsDdhrx2UnzTpzpXDSeBc,259
+ansys/api/meshing/prime/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansys/api/meshing/prime/v1/prime.proto,sha256=t_gRw7Ucc9u7rCHaLlCiCUfI3t7LxN9F2qjLrxcM_WY,1350
+ansys/api/meshing/prime/v1/prime_pb2.py,sha256=uxzo1HrMqplMvvaDgSKASk1DaB6zMf0QqtbxrUcI2JI,6482
+ansys/api/meshing/prime/v1/prime_pb2.pyi,sha256=1jlz-9LkrAqllj-Licsi4gXKGRPqhOxuoftLS3u0XsQ,5006
+ansys/api/meshing/prime/v1/prime_pb2_grpc.py,sha256=b8EGTLCPrboRR9-lZh6ABWLJDohrZjaNbHGThBrR45w,10106
+ansys/api/meshing/prime/v1/prime_pb2_grpc.pyi,sha256=CKAjtGRgS2Mc_FFay7bwslKNXxiUk3YS02nBOQTi2-Q,2714
+ansys_api_meshing_prime-0.1.3.dist-info/LICENSE,sha256=qQWivZ12ETN5l3QxvTARY-QI5eoRRlyHdwLlAj0Bg5I,1089
+ansys_api_meshing_prime-0.1.3.dist-info/METADATA,sha256=-LjvWaXri_XtmmY5kDpRWA99qBaWiZn66WKZQYnZdng,2007
+ansys_api_meshing_prime-0.1.3.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+ansys_api_meshing_prime-0.1.3.dist-info/entry_points.txt,sha256=aOVuyKRvK5m1UCqZMSyjFxtOUkQfhVYlfqWeXmzrf94,93
+ansys_api_meshing_prime-0.1.3.dist-info/top_level.txt,sha256=9rw0UJ0mtof2GA3U8RpqYo6EmbpfE8-wo3NoX6SlYtg,6
+ansys_api_meshing_prime-0.1.3.dist-info/RECORD,,
