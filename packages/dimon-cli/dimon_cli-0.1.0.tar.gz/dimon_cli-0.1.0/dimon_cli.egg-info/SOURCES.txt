@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dimon_cli.egg-info/PKG-INFO
+dimon_cli.egg-info/SOURCES.txt
+dimon_cli.egg-info/dependency_links.txt
+dimon_cli.egg-info/entry_points.txt
+dimon_cli.egg-info/requires.txt
+dimon_cli.egg-info/top_level.txt
