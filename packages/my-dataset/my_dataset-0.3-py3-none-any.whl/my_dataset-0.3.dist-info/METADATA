@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: my-dataset
+Version: 0.3
+Summary: My Dataset Package
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+
+# My Dataset Package
+
+This package provides a dataset for multi-class image classification with 13 classes.
+
+
