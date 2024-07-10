@@ -1,0 +1,10 @@
+vision/__init__.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+vision/common.py,sha256=inDvJqIIBzcnMCCllyUcxsvH_9DdcZ6WEms4ujl-GUE,2630
+vision/roblang.py,sha256=8EwOR2CUNxM2oIV6x8Jl-OIH81X4wGS_srmpHZA9h7k,9453
+vision/socketfunc.py,sha256=Ih5E07zWU5tLmrewTPhqm1knnkxHXkQ4G4HPDtZqAQs,1796
+vision/vision.py,sha256=bLTB6s-2k8i4HMSzgkS2239Vp34mT37uNTxlcAwwn90,489
+vision/visionfunc.py,sha256=ICmQh_4cJVRIuSMI0-y_eO4OsBTbuBNyYFhrLrKS5y8,4077
+kais_kit_vision_02-0.0.1.dist-info/METADATA,sha256=cjdoZHk81ARhkSLAK4HSGHhWYPZWwJcP9gmCUqZMbmw,246
+kais_kit_vision_02-0.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+kais_kit_vision_02-0.0.1.dist-info/top_level.txt,sha256=7oY95o3_IqVxghZA_6hrcpJ0M05dhvTYgJdh-NCf-PQ,7
+kais_kit_vision_02-0.0.1.dist-info/RECORD,,
