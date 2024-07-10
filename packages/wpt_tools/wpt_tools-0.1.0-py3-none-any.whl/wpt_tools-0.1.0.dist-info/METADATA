@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: wpt_tools
+Version: 0.1.0
+Summary: 
+License: AGPL-3.0
+Author: t-sasatani
+Author-email: sasatani.dev@gmail.com
+Requires-Python: >=3.10,<3.12
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.7.0,<4.0.0)
+Requires-Dist: myst-parser (>=3.0.1,<4.0.0)
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Requires-Dist: pillow (>=10.2.0,<11.0.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: scikit-learn (>=1.2.1,<2.0.0)
+Requires-Dist: scikit-rf (>=0.32.0,<0.33.0)
+Requires-Dist: scipy (>=1.12,<2.0)
+Requires-Dist: sphinx (>=7.3.7,<8.0.0)
+Requires-Dist: sphinx-rtd-theme (>=2.0.0,<3.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# wpt_tools
