@@ -1,0 +1,8 @@
+supersat/__init__.py,sha256=l9sPTSAFGUNQK1rHmHoM3JUM_PrQJfnGgzO_0TIv078,56
+supersat/loss.py,sha256=zkBJUSpd4GwkVpjY1mCTKNJhB-VdWjqH3_GLuoZDLGc,5790
+supersat/model.py,sha256=la3TAUTlLkWYx0lj6VDjTLM3utlp-cR_zPFqmXBWUdc,12005
+supersat/utils.py,sha256=Utl_EnUJxgJGPzHVnczRBuH2LARRUGP0wS3xbMlj6jk,3862
+supersat-0.0.3.dist-info/LICENSE,sha256=YdB4BQMkMzWuKvXRIpQR4g91IQ_pwA5PSH2lNM97zFI,1070
+supersat-0.0.3.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+supersat-0.0.3.dist-info/METADATA,sha256=KrLtFME8qbOI-s4nwTHJPV2o_ePvIv8hr6WXUrS9sG0,3122
+supersat-0.0.3.dist-info/RECORD,,
