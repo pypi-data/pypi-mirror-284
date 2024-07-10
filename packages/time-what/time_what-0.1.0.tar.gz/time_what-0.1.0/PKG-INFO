@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: time-what
+Version: 0.1.0
+Summary: 
+Author: Marc
+Requires-Python: >=3.14,<4.0
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Time What?
+
+Reusable timing code that handles unit conversion,
+pretty printing time and re-entrant timers.
+
