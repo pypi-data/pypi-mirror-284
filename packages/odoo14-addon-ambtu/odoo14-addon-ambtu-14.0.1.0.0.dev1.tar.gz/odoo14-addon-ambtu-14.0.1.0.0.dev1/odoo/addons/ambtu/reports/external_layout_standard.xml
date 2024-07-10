@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="ambtu_external_layout_standard"
+        inherit_id="web.external_layout_standard"
+        priority="110"
+    >
+        <xpath expr="//div[1]" position="replace">
+            <div
+                t-attf-class="header o_company_#{company.id}_layout"
+                t-att-style="report_header_style"
+            >
+                <div class="row">
+                    <div class="col-3 mb4">
+                        <img
+                            t-if="company.logo"
+                            t-att-src="image_data_uri(company.logo)"
+                            style="max-height: 130px;"
+                            alt="Logo"
+                        />
+                    </div>
+                    <div class="col-6" name="company_address">
+                        <div
+                            style="position:absolute;top:30px;font-weight: bold;"
+                            t-field="company.partner_id"
+                            t-options='{"widget": "contact", "fields": ["vat", "mobile", "website", "address", "name"], "no_marker": true}'
+                        />
+                    </div>
+                </div>
+            </div>
+        </xpath>
+        <xpath expr="//div/div[hasclass('text-center')]" position="replace">
+            <div id="footer_image" class="row" style="width: 100%; margin: 0 auto;">
+                <img src="ambtu/static/src/img/footer.png" style="width:100%;" />
+            </div>
+        </xpath>
+    </template>
+</odoo>
