@@ -1,0 +1,9 @@
+pg_lo_storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pg_lo_storage/fields.py,sha256=aBALdzRkTbCc1uvDVbwm6jG3Oev8wa-OND3x3Z_RyaQ,936
+pg_lo_storage/storage.py,sha256=Blk-lTaBW1jfIS_Iu0X6Z6uyd53E7ZSkrs8I0MOJovg,12956
+pg_lo_storage/views.py,sha256=SPbwKbPT8WcbM0mKhwScFGBdlLTHV-6TUuhRrHvukiY,3352
+pg_lo_storage-0.1.7.dist-info/LICENSE,sha256=ZCGxPmVx4yzgnQ9uO2ByBObu3o53-r1Yk_JxGeq-UUk,1064
+pg_lo_storage-0.1.7.dist-info/METADATA,sha256=wiSDekNOKOzgNX9gwQ8kw5BgCIzqCTF8TlaqAWcagiE,3852
+pg_lo_storage-0.1.7.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+pg_lo_storage-0.1.7.dist-info/top_level.txt,sha256=WbMTcRvpHrVVPOESzGgkeewbL6XMzN6eT2LgjhKuk6A,14
+pg_lo_storage-0.1.7.dist-info/RECORD,,
