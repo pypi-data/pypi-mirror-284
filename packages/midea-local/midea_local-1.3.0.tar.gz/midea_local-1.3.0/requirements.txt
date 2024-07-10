@@ -1,0 +1,7 @@
+aiofiles
+aiohttp
+build
+defusedxml
+ifaddr
+pycryptodome
+platformdirs
