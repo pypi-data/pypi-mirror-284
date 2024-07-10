@@ -1,0 +1,15 @@
+dsgp4/__init__.py,sha256=lFnu6EaC88hwg8HzIHozrINpzXy7O8ZEl3yuN7akGak,429
+dsgp4/initl.py,sha256=DbCx0C7noDFAPF_fCeXKccRtCbONkCqRcBW8oFq3-WM,1664
+dsgp4/newton_method.py,sha256=ScWAVOkTh1qEmgP6kidTIIlBDZy9x6dcO4p9lG6fFoU,11156
+dsgp4/plot.py,sha256=O4NNw0N7irpwdgb02Z9fRQFB1O1xKQLjVxcb7edirYU,7428
+dsgp4/sgp4.py,sha256=XxsIXq3Ky6nnN24h-rm0C14HsnUUuyXV8lkpNTZqbMQ,7450
+dsgp4/sgp4_batched.py,sha256=OP7Bd-W0bPZH77jXxT4a5xOYRXiHqHvs72SHzFJSknc,8252
+dsgp4/sgp4init.py,sha256=Zrgw73bh0qsgeu8jjI-6XQmkPhP9dVkYQEbOavlg3DA,10733
+dsgp4/sgp4init_batch.py,sha256=3BSNE3gaE3Gm35N1FCsrV0RAX-JKzQ3xUuzsqu9ichI,14585
+dsgp4/tle.py,sha256=0FI002_c8DQE_F346sKHDCygzXL4BGLWDpuARbflRYc,17578
+dsgp4/util.py,sha256=RPgoAWpOpqfKCTYZ4EqCxo5easDrxTofFaxDd6p0Y0I,19063
+dsgp4-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dsgp4-1.0.1.dist-info/METADATA,sha256=_xOKSBHf5G9Kk80lrnQ4UAC8t0ZRXIAgDOOMNezOj94,5502
+dsgp4-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dsgp4-1.0.1.dist-info/top_level.txt,sha256=KnyI6xdMlAUdDqvNQfCRBZhsXOVeojoy6VvHS-ylqHE,6
+dsgp4-1.0.1.dist-info/RECORD,,
