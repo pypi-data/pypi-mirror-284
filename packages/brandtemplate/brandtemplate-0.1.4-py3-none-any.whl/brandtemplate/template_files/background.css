@@ -1,0 +1,4 @@
+
+.slide-background-content { background-image: url(./background.svg); background-size: 100% 100% !important; background-position: 0% 0% !important; }
+.section-slide .slide-background-content { background-image: url(./section-background.svg); background-size: 100% 100% !important; background-position: 0% 0% !important; }
+.thank-you-slide .slide-background-content { background-image: url(./thank-you-background.svg); background-size: 100% 100% !important; background-position: 0% 0% !important; }
