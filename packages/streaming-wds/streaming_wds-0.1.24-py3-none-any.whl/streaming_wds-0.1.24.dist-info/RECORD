@@ -1,0 +1,17 @@
+streaming_wds/__init__.py,sha256=hcIa5A6AwhrPhu_FSJufj4nskP_q0VinL5m0D2OLJRA,257
+streaming_wds/_version.py,sha256=T0ojuTgCP2YXC3kbv5ugN5jbqbVjf70YDxvdeIV5kTs,413
+streaming_wds/dataloader.py,sha256=HarSJhDNjAJglmTUgYYVyAfeqnI4pAdWkXisrA_ypMI,7587
+streaming_wds/dataset.py,sha256=jnPBPEgXQIZE7kBY2yREZIprLnQCeutTWQo2cnvA8zk,12873
+streaming_wds/decoders.py,sha256=0H0BjbR5Y0G5KlyLG3KrCwODU8_lezoZprokaiSQh6s,2162
+streaming_wds/utils.py,sha256=x0rzAW86SM7ik-X5CeSa4LQ3SOSYyKesrQKql432FiU,6755
+streaming_wds/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streaming_wds/core/cache.py,sha256=ayMq3Nn4erdfj7_LQ4f8X4uMXrmj8rfgVrTgw8Skbpo,12939
+streaming_wds/core/downloader.py,sha256=Koe5huOxPUC6dpkMbgutksqoeBQVtGq-jBCmESvpvDo,9631
+streaming_wds/core/extractor.py,sha256=m_lrKwly4km9r898VBOevVg1KB1qgF-FN-nt_txSrAs,6973
+streaming_wds/core/sharder.py,sha256=dK41X82aRbHJkWe-APds446ly52aY4iJ8rAKa7fO24U,6343
+streaming_wds/core/types.py,sha256=qHxCOs9xOus8YxGxYjDSXqgLjFObdaLgAmLtLnmgY8o,4179
+streaming_wds-0.1.24.dist-info/LICENSE,sha256=KiRfWrsrczVMui5_LWydtCaJaoKcWcE6qkYxd8f1k6A,1057
+streaming_wds-0.1.24.dist-info/METADATA,sha256=xzA_pO5yp_LMznjO9NclU_3UxLMdEmQ9-dPwvYDE_U8,3726
+streaming_wds-0.1.24.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+streaming_wds-0.1.24.dist-info/top_level.txt,sha256=_hGaN-GI3aXhzzkMtTGPGg0Y5ca8CgB5wBL8wsEL8Po,14
+streaming_wds-0.1.24.dist-info/RECORD,,
