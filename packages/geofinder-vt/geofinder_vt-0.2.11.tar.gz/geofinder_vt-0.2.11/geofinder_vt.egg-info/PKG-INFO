@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: geofinder-vt
+Version: 0.2.11
+Summary: A brief description of your package
+Home-page: https://github.com/nathan846/geofindervt
+Author: Your Name
+Author-email: vaidhyanathan@vt.edu
+License: UNKNOWN
+Description: # UserInterface_ComputerVision_GoPro
+        This is collaboration with Dr. Junghwan Kim (Department of Geography@Virginia Tech) to create a user friendly desktop application that uses pre-trained Computer Vision models on geographical video files (captured by GoPro).
+        
+        # Application Title: Geospatial Image on Map Viewer
+        
+        [√] Extract image frames from video files
+        
+        [] Run pre-trained computer vision models on image frames
+        
+        [] Display the results on a map
+        
+        [] User Interface
+        
+        [] User Manual
+        
+        [] Demo Video
+        
+        [] Presentation Slides
+        
+        [] Final Report
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
