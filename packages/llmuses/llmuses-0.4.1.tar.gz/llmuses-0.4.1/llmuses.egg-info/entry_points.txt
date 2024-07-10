@@ -1,0 +1,3 @@
+[console_scripts]
+llmuses = llmuses.cli.cli:run_cmd
+
