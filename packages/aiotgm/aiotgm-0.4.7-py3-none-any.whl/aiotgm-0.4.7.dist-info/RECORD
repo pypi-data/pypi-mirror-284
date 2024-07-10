@@ -1,0 +1,13 @@
+aiotgm/__init__.py,sha256=umCpFKr-ZVXvl0eK0vA9JAgES-RWacgWDGNHnXrPmv0,320
+aiotgm/api.py,sha256=nQZIwXpmWble0w8wXBjRexUh5N_An6hsIj0hgXxM4mc,28562
+aiotgm/client.py,sha256=TK86iBHmoivxZfiasIzPbYNBqAWTxdkg92Y8ZvV7AGc,302521
+aiotgm/constants.py,sha256=PAI5b7-gxWaq8aUIga-HbHVw-J6sVd3GuIHK9mIDObI,4176
+aiotgm/logging.py,sha256=yAU-i3GzzO2mqPDueH2F9eXoP9XvMzmtc6uv1g-uaE8,740
+aiotgm/types.py,sha256=d0mgmc28GABYJ2praZyS6u8NlHAunC3aEuBO68QCfpU,435889
+aiotgm/update_manager.py,sha256=lccfMFAVUaMC1qMA-8754M0XyFfyefi_ik5wH-0edKw,9152
+aiotgm/utils.py,sha256=cbXHzh78xCc7SphVsQN0cbpe_kEDYS7lGmwnd-tui9U,623
+aiotgm-0.4.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+aiotgm-0.4.7.dist-info/METADATA,sha256=AAgAP706a-2ES8EOgyM81U2laOIl52smjQl4V61oQvs,42071
+aiotgm-0.4.7.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+aiotgm-0.4.7.dist-info/top_level.txt,sha256=TbxqSVhPmmPlaQnU2vIx_7MaFNNvWYFHgepAw1UgCzI,7
+aiotgm-0.4.7.dist-info/RECORD,,
