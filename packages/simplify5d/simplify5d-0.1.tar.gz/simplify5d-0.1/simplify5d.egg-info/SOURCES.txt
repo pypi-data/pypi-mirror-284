@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+simplify5d/__init__.py
+simplify5d/simplify5d.py
+simplify5d.egg-info/PKG-INFO
+simplify5d.egg-info/SOURCES.txt
+simplify5d.egg-info/dependency_links.txt
+simplify5d.egg-info/requires.txt
+simplify5d.egg-info/top_level.txt
