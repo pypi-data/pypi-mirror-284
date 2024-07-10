@@ -1,0 +1,6 @@
+[project]
+
+name = "capfit"
+version = "0.0.0"
+description = "Coming soon"
+authors = [{name = "Michele Cappellari", email = "michele.cappellari@physics.ox.ac.uk"},]
