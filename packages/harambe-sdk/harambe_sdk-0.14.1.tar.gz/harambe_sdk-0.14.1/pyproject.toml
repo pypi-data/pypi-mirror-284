@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "harambe-sdk"
+version = "0.14.1"
+description = "Data extraction SDK for Playwright 🐒🍌"
+authors = ["awtkns <hello@awtkns.com>"]
+readme = "README.md"
+packages = [
+    { include = "harambe", from = "." },
+]
+
+
+[tool.poetry.dependencies]
+pydantic = "^2.7.4"
+python = "^3.11"
+playwright = "^1.44.0"
+setuptools = "^69.5.1"
+beautifulsoup4 = "^4.12.3"
+dateparser = "^1.2.0"
+requests = "^2.32.3"
+playwright-stealth = "^1.0.6" # TODO: self host this package
+aiohttp = "^3.9.5"
+email-validator = "^2.2.0"
+phonenumbers = "^8.13.39"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.10"
+mypy = "^1.10.1"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.4"
+pytest-cov = "^4.1.0"
+pytest-asyncio = "^0.21.2"
+pytest-mock = "^3.14.0"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+allow_subclassing_any = true
+allow_untyped_calls = true
+pretty = true
+show_error_codes = true
+implicit_reexport = true
+allow_untyped_decorators = true
+warn_unused_ignores = false
+warn_return_any = false
+namespace_packages = true
+files = "harambe"
+exclude = ["tests", "extractors"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
