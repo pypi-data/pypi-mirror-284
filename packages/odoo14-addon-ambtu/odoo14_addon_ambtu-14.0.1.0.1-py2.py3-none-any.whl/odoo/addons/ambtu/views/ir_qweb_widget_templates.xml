@@ -1,0 +1,80 @@
+<odoo>
+<template id="contact_name" inherit_id="base.contact_name" priority="110">
+    <xpath expr="//div" position="replace">
+        <div t-if="'name' in fields">
+            <span itemprop="name" t-esc="name" /> - <span t-esc="vat" />
+        </div>
+    </xpath>
+</template>
+<template id="contact" inherit_id="base.contact" priority="110">
+    <xpath expr="//address" position="replace">
+        <address
+                t-ignore="true"
+                class="mb-0"
+                itemscope="itemscope"
+                itemtype="http://schema.org/Organization"
+            >
+            <t t-if="object.country_id.name_position != 'after'">
+                <t t-call="ambtu.contact_name" />
+            </t>
+            <div
+                    itemprop="address"
+                    itemscope="itemscope"
+                    itemtype="http://schema.org/PostalAddress"
+                >
+                <div
+                        t-if="address and 'address' in fields"
+                        class="d-flex align-items-baseline"
+                    >
+                    <span
+                            class="w-100 o_force_ltr d-block"
+                            itemprop="streetAddress"
+                            t-raw="address.replace('\n', ', ')"
+                        />
+                </div>
+                <div t-if="phone and 'phone' in fields"><i
+                            t-if="not options.get('no_marker') or options.get('phone_icons')"
+                            class='fa fa-phone fa-fw'
+                            role="img"
+                            aria-label="Phone"
+                            title="Phone"
+                        /> <span
+                            class="o_force_ltr"
+                            itemprop="telephone"
+                            t-esc="phone"
+                        /></div>
+                <div t-if="mobile and 'mobile' in fields"><i
+                            t-if="not options.get('no_marker') or options.get('phone_icons')"
+                            class='fa fa-mobile fa-fw'
+                            role="img"
+                            aria-label="Mobile"
+                            title="Mobile"
+                        /> <span
+                            class="o_force_ltr"
+                            itemprop="telephone"
+                            t-esc="mobile"
+                        /></div>
+                <div t-if="website and 'website' in fields">
+                    <i
+                            t-if="not options.get('no_marker')"
+                            class='fa fa-globe'
+                            role="img"
+                            aria-label="Website"
+                            title="Website"
+                        />
+                    <a
+                            t-att-href="website and '%s%s' % ('https://' if '://' not in website else '',website)"
+                        ><span itemprop="website" t-esc="website" /></a>
+                </div>
+                <div t-if="email and 'email' in fields"><i
+                            t-if="not options.get('no_marker')"
+                            class='fa fa-envelope fa-fw'
+                            role="img"
+                            aria-label="Email"
+                            title="Email"
+                        /> <span itemprop="email" t-esc="email" /></div>
+            </div>
+        </address>
+    </xpath>
+</template>
+</odoo>
