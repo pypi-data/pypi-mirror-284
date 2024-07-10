@@ -1,0 +1,2 @@
+[console_scripts]
+tl-cli = tracelynx.__main__:main
