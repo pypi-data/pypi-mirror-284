@@ -1,0 +1,9 @@
+gov_cli/__init__.py,sha256=PLYBf5gVAZsoBvkmDvr7NgVYPsfiMpCq6I3pjGX3ls0,49
+gov_cli/__main__.py,sha256=08VZb75Ob6EEeSAJpqO8mfEkvbxpXZ3w-9Osv0svFIc,26489
+gov_cli/gov_cli.py,sha256=gE1IAsg3OzONMa_pTnqX57gAldPSy1e5uT-G4gmcgGs,27464
+gov_cli/main.py,sha256=08VZb75Ob6EEeSAJpqO8mfEkvbxpXZ3w-9Osv0svFIc,26489
+gov_cli-0.3.dist-info/METADATA,sha256=Rmc7Pysk99siHtNABWNmjKqs7Obwasoven_PK5ouaWY,1482
+gov_cli-0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gov_cli-0.3.dist-info/entry_points.txt,sha256=T4vRN9tDvHJNfGLN3FmpIwkHV4tFQS6G0b9DaWcNZrY,41
+gov_cli-0.3.dist-info/top_level.txt,sha256=aB6xzjQsXRJcFP80Q9j5VKaYHQa_kE_D6EiEP0Zac34,8
+gov_cli-0.3.dist-info/RECORD,,
