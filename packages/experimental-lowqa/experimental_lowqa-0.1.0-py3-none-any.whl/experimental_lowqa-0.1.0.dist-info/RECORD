@@ -1,0 +1,11 @@
+experimental_lowqa/__init__.py,sha256=ks_XzJY0I9dZPuN5oCGmvJlbuY9l5Ibwpe7ZSVD7aOI,291
+experimental_lowqa/app.py,sha256=fZNXFFkoyg3Lha-aSvQ6wzSaHsxtM_52LhYj7YVX9-M,822
+experimental_lowqa/dev_requirements.txt,sha256=LpWKNscFIVK6o_DD5fwsDVg3AjjVGGHGrqvOLMh4BaM,119
+experimental_lowqa/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+experimental_lowqa/requirements.txt,sha256=LgnjeR6taZ2U8t-wuuvFQHeThJij-YElZEhQzSEBUcU,9
+experimental_lowqa/commands/all.py,sha256=Pexoc2lu3owRrpervVo_Q0oUdJNMoaFXhqmwUCEg3Fo,398
+experimental_lowqa-0.1.0.dist-info/LICENSE,sha256=okYCYhGsx_BlzvFdoNVBVpw_Cfb4SOqHA_VAARml4Hc,1071
+experimental_lowqa-0.1.0.dist-info/METADATA,sha256=pbWIcRndCzmm9f2072l-Tx7zH2ObjBw399cDQFmTRxU,3118
+experimental_lowqa-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+experimental_lowqa-0.1.0.dist-info/top_level.txt,sha256=kbeXLl0aiz3_94ikT0sDIcWji1xOTnLKvmuxnrz587k,19
+experimental_lowqa-0.1.0.dist-info/RECORD,,
