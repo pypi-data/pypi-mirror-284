@@ -1,0 +1,11 @@
+prossa/__init__.py,sha256=85cF5NKCAOXvojpJVeXxSaHaG8KcKawW3jujqIRlCQ0,521
+prossa/__main__.py,sha256=TiapcmFuqx9Kdr4EMmIVByxcChjmrK4jgGW4Bw-0lEQ,426
+prossa/analyzer.py,sha256=nJLUXcE-JqT30WMUznwe_3F3jrZILdijJ5fs2nZSHfE,11626
+prossa/config.toml,sha256=9BwfXjlo44E5bAfc0oTt7gO9HePCnjc82kj9YjP6R-Q,112
+prossa/utils.py,sha256=P-9SLOG4RRpFepNkeKEeLa4msLrBx3r4cNPMl_aUh8A,3046
+prossa-1.0.0.dist-info/LICENSE,sha256=QDO0AJdt-4O-wGR-_Nt-Sx7pX6GdXt38sXtm0zpnOns,1100
+prossa-1.0.0.dist-info/METADATA,sha256=3WdpC09FAjNSyRJG9PQzp_KwM6Ri_i1KsgI9wba8O3U,2941
+prossa-1.0.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+prossa-1.0.0.dist-info/entry_points.txt,sha256=6EJnZTG9EfSQcKeEHYUB9Gm284kMNXJWibme5yeioa0,48
+prossa-1.0.0.dist-info/top_level.txt,sha256=YxCiUAXZTOoQUVgkSfkvADBM1WVdXh3PCxPy9lB1J0w,7
+prossa-1.0.0.dist-info/RECORD,,
