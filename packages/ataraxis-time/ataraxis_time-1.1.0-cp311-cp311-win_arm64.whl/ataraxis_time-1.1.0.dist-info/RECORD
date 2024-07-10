@@ -1,0 +1,16 @@
+ataraxis_time/__init__.py,sha256=pOPW6YfEt4OT0ety3ON5mfz0QNDwWFhWfxwReejXqvA,400
+ataraxis_time/precision_timer/__init__.py,sha256=tjKdJ49A_FrVYidXBFnRYd8Z7RULPuar9tgREtPMpiY,513
+ataraxis_time/precision_timer/timer_benchmark.py,sha256=1u5LcIzUuuOWhaacrRvJi7imBj4IeJzbsobbzv3mFFA,11120
+ataraxis_time/precision_timer/timer_benchmark.pyi,sha256=xbTF-sdFKoq_MRN7lDEu_FsXjeKHix4-Dm318IQmtes,866
+ataraxis_time/precision_timer/timer_class.py,sha256=cpKL42s00b-VVVx6Xi56yz9Oja-F-i_cRcofuxUrYY4,9164
+ataraxis_time/precision_timer/timer_class.pyi,sha256=Z-drHF5xqIDmaPx8IG1KIWsCWMPXxHOlhkS51V0Qrbo,6823
+ataraxis_time/precision_timer_ext.cp311-win_amd64.pyd,sha256=DDexmlSz2DHG4h_PEQPNwYNnIyW5M8mQPKdQmT8OUjs,93184
+ataraxis_time/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ataraxis_time/time_helpers/__init__.py,sha256=rksNGROwT8KQipX8lFYHEXt7pDxthP9vspAsyQ2q9ts,263
+ataraxis_time/time_helpers/helper_functions.py,sha256=U0dMtfkSJSJwwUYaUJ8m2FwKhb9JpMBdR5Z397llllg,10751
+ataraxis_time/time_helpers/helper_functions.pyi,sha256=z8pGtF-BrSD6KwxACXdSPjJH_lxOYusaPunRYzKQoVo,3821
+ataraxis_time-1.1.0.dist-info/METADATA,sha256=TaNwn_U3WBOzJYzwSGMXKuMEiMyZYWv05vntJUC3plA,56283
+ataraxis_time-1.1.0.dist-info/WHEEL,sha256=VX46YprtCDx2cgVb_n4235mafSeP5MI1eC-w2itJi20,105
+ataraxis_time-1.1.0.dist-info/entry_points.txt,sha256=6HX2YUdO_T14smWBFCHh76k6wFlXDeaBjzsFBr7bH4c,61
+ataraxis_time-1.1.0.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+ataraxis_time-1.1.0.dist-info/RECORD,,
