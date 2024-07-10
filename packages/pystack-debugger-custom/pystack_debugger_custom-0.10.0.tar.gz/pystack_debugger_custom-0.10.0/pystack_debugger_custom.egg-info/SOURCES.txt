@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pystack.py
+setup.cfg
+setup.py
+pystack_debugger_custom.egg-info/PKG-INFO
+pystack_debugger_custom.egg-info/SOURCES.txt
+pystack_debugger_custom.egg-info/dependency_links.txt
+pystack_debugger_custom.egg-info/entry_points.txt
+pystack_debugger_custom.egg-info/not-zip-safe
+pystack_debugger_custom.egg-info/requires.txt
+pystack_debugger_custom.egg-info/top_level.txt
