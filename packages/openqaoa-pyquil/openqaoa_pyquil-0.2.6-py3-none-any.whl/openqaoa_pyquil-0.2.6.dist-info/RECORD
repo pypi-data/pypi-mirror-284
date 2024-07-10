@@ -1,0 +1,14 @@
+openqaoa_pyquil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openqaoa_pyquil/_version.py,sha256=Oz5HbwHMyE87nmwV80AZzpkJPf-wBg7eDuJr_BXZkhU,22
+openqaoa_pyquil/backend_config.py,sha256=eSke5WCCEq2ZIPt8teYAODmnfKKKwF1ugLh8CEEI7Qs,742
+openqaoa_pyquil/backends/__init__.py,sha256=bF18Gz9KSzgOuuK7NENykHfOnq5b0zpOoSWFWZvTym8,152
+openqaoa_pyquil/backends/devices.py,sha256=z3fo3heob1SrmS3K1fEW7ssgf5tKOieoF2gdc49TH3M,4529
+openqaoa_pyquil/backends/gates_pyquil.py,sha256=PjUboqqcgLbcbv-gPgENw3YOwPMD5USznWtZa1ZDSLo,3164
+openqaoa_pyquil/backends/qaoa_pyquil_qpu.py,sha256=9TP2ijJzNfShGB5qM4Pu_joKXOaPQN2WmEyLXOjtskM,14794
+openqaoa_pyquil/backends/qaoa_pyquil_sim.py,sha256=K00b_Nf0saRPFeE7gXGwKl-iql6jmBb9sbAwmEjD-J8,5716
+openqaoa_pyquil-0.2.6.dist-info/LICENSE,sha256=165EdiQ2Ql1ZOWe1z0yYZApYWqx7oLa9ZxEK0eAlA6k,1058
+openqaoa_pyquil-0.2.6.dist-info/METADATA,sha256=Kp2DAbabQrUJkMqfzNh0ilVor8PQNPViJGw5-I30O8w,4890
+openqaoa_pyquil-0.2.6.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+openqaoa_pyquil-0.2.6.dist-info/entry_points.txt,sha256=Crl6MxSpcqXg8B8SVLK59UjpS7OeZnk67El3IPnRx2Y,59
+openqaoa_pyquil-0.2.6.dist-info/top_level.txt,sha256=eec4cAjxO7InU8zOTF2bTPH2htxw9q6LtVse1vwTlM8,16
+openqaoa_pyquil-0.2.6.dist-info/RECORD,,
