@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+my_dataset/__init__.py
+my_dataset/dataset.py
+my_dataset.egg-info/PKG-INFO
+my_dataset.egg-info/SOURCES.txt
+my_dataset.egg-info/dependency_links.txt
+my_dataset.egg-info/requires.txt
+my_dataset.egg-info/top_level.txt

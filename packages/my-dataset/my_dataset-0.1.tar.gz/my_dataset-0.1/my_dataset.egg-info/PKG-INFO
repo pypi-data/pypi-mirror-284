@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: my_dataset
+Version: 0.1
+Summary: A dataset package for multi-class image classification
+Home-page: https://github.com/yourusername/my_dataset
+Author: Your Name
+Author-email: your.email@example.com
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+
+# My Dataset Package
+
+This package provides a dataset for multi-class image classification with 13 classes.
