@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: RxBagExtractor
+Version: 0.1.0
+Summary: Filter OCR text from prescriptions to extract drug-related texts
+Home-page: https://github.com/sanakang0615/RxBagExtractor
+Author: sanakang
+Author-email: sanakang0615@kaist.ac.kr
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
