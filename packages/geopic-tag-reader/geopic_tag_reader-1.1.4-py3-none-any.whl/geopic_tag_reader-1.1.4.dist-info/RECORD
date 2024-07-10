@@ -1,0 +1,16 @@
+geopic_tag_reader/__init__.py,sha256=zLdhGKNL3q4dQIfKf-VkD4eCHKS2fkt6FB9aAXG9dQk,47
+geopic_tag_reader/camera.py,sha256=Nw6dQjnrUCCOXujjk8Y7IwjJPMuDf4DAGCmHk0LDfEg,1975
+geopic_tag_reader/i18n.py,sha256=LOLBj7eB_hpHTc5XdMP97EoWdD2kgmkP_uvJJDKEVsU,342
+geopic_tag_reader/main.py,sha256=NJFDdPlyj0HvBcPABTVPqdSPm0SP3lnW4HF1fmhONY4,3550
+geopic_tag_reader/model.py,sha256=rsWVE3T1kpNsKXX8iv6xb_3PCVY6Ea7iU9WOqUgXklU,129
+geopic_tag_reader/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geopic_tag_reader/reader.py,sha256=4tk-qvN-mBryp8FbtG9smQkSlWDjWZU1CDedm07MqP0,25746
+geopic_tag_reader/writer.py,sha256=HdZenoY_5Qv1Kq0jedCJhVFDYsv0iQaCzB6necU_LrY,8793
+geopic_tag_reader/translations/geopic_tag_reader.pot,sha256=RtDbYW3vAcKF9A7xa7Sm-fDgY0Pshk7YGU09m1zAos0,3590
+geopic_tag_reader/translations/en/LC_MESSAGES/geopic_tag_reader.po,sha256=kQCZRKxUld8MZW1GLn0_baAj7PdTOyhr2_RPlidGjQQ,4870
+geopic_tag_reader/translations/fr/LC_MESSAGES/geopic_tag_reader.po,sha256=VG_7k8g4o07IFYoUvSeMHQRYpswgVRV8eKp0ITf4DYU,6148
+geopic_tag_reader-1.1.4.dist-info/entry_points.txt,sha256=c9YwjCNhxveDf-61_aSRlzcpoutvM6KQCerlzaVt_JU,64
+geopic_tag_reader-1.1.4.dist-info/LICENSE,sha256=oHWDwXkJJb9zJzThMN3F9Li4yFhz1qxOUByouY7L3bI,1070
+geopic_tag_reader-1.1.4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+geopic_tag_reader-1.1.4.dist-info/METADATA,sha256=xsEaBKzk3f8LTHeC8Fim6pylURDA7Phi7szLkYNvMn0,4578
+geopic_tag_reader-1.1.4.dist-info/RECORD,,
