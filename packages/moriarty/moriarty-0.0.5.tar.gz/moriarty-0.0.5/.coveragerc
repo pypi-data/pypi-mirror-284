@@ -1,0 +1,9 @@
+[run]
+omit =
+    */tests/*
+    */alembic/*
+    **/cli.py
+    **/impl/*
+    **/mock/*
+    moriarty/matrix/operator_/daemon.py
+    **/tools.py
