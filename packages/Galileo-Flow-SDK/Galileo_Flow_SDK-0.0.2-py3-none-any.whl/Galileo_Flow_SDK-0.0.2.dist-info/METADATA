@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Galileo-Flow-SDK
+Version: 0.0.2
+Summary: Reading a flow rate from Galileo Flow Sensor
+Home-page: UNKNOWN
+Author: Galileo (MIC)
+Author-email: <galileo@microfluidic.fr>
+License: UNKNOWN
+Requires-Dist: pyserial
+
+
+A class-based interface to the Galileo Flow Sensor
+
