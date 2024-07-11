@@ -1,0 +1,57 @@
+
+# SPDX-License-Identifier: Apache-2.0
+# Copyright Contributors to the ODPi Egeria project.
+[build-system]
+#requires = ["setuptools", "wheel"]
+requires = ["poetry-core"]
+#build-backend = "setuptools.build_meta"
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "pyegeria"
+version = "0.5.0"
+license = 'Apache 2.0'
+authors = ["Dan Wolfson <dan.wolfson@pdr-associates.com>"]
+readme = "README.md"
+description = "A python client for Egeria"
+keywords = ["egeria", "metadata", "governance"]
+homepage = "https://github.com/odpi/egeria-python"
+
+repository = "https://github.com/odpi/egeria-python"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+ ]
+packages = [
+    { include = "src/pyegeria"},
+    { include = "examples/widgets/catalog_user" },
+    { include = "examples/widgets/developer" },
+    { include = "examples/widgets/operational"},
+    { include = "examples/widgets/personal_organizer"}
+    ]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+validators = "^0.22.0"
+pytest = "^8.0.0"
+rich = "^13.7.0"
+httpx = "^0.26.0"
+setuptools = "^69.0.3"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.0"
+
+
+[tool.poetry.scripts]
+    view_server_status = "examples.widgets.operational.view_server_status:main"
+    view_my_todos = "examples.widgets.personal_organizer.view_my_todos:main"
+    list_asset_types = "examples.widgets.developer.list_asset_types:main"
+
+
+
+
+
