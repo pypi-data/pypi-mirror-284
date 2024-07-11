@@ -1,0 +1,13 @@
+colrag/__init__.py,sha256=8WXM9IyrAQ7x2V1Yd7edFOtQ2EExYtTnH-MjbI5p0f8,453
+colrag/cli.py,sha256=lFSH8yeoI3HhB-ad5DRG-prwlX-5eq9qTXh-EOcxZ74,3616
+colrag/config.py,sha256=5gTJH0Gj9VK4WP-fi7G0-cIutNFh1j6wUyyuKZE8XjI,756
+colrag/indexer.py,sha256=oNbZqvRbLJPD1__JpKop4eNY4UvDYHLKMzak4Fdat-w,5678
+colrag/logger.py,sha256=1OG9FzQYIqH2agID323xfBIRPT8AT9f3uNJaN6_6YRw,427
+colrag/plugins/__init__.py,sha256=tTN0gDmqlGaUXu2hADzvy3JV8-VpJW-GbeUrD1o_PwI,702
+colrag/plugins/base.py,sha256=Xy3gbawoz2RGIIRUN7x8DsrRmXY5ZDpedxP417sh9BI,252
+colrag/retriever.py,sha256=3lRN14Nks-UEl-zhu_qDJPdLqwmMJ-S-TdEOZevwIqo,2037
+colrag/utils.py,sha256=dtmYQD6A2jcVzT_eNQmhS91Thy74DS_Mh4xRv9gbxFw,1057
+colrag-0.1.0.dist-info/METADATA,sha256=E2dDBnjiaMTwg-AA8GGFH0-I6G7Vok3C62kkm17Io0g,3110
+colrag-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+colrag-0.1.0.dist-info/entry_points.txt,sha256=pCc99eALTG2Fpp-7IuMfb1hbaO8tRGl5rKez5gJ3qp4,41
+colrag-0.1.0.dist-info/RECORD,,
