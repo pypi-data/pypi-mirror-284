@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: stop-iter
+Version: 0.2.2
+Summary: 
+Author: Cristian Garcia
+Author-email: cgarcia.e88@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# stop_iter
+
+``stop_iter`` takes an iterable and returns a new iterable that can be safely stopped using ``SIGINT``. This is useful when you have a long-running computation, such as machine learning training loops, that you want to be able to stop without losing all of the work that has been done so far.
+
+## Installation
+
+```bash
+pip install stop_iter
+```
+
+## Usage
+The following code will print the integers until you press ``Ctrl+C`` and then print "infinity".
+
+```python
+from stop_iter import stop_iter
+
+def integers():
+  count = 0
+  while True:
+    yield (count := count + 1)
+
+for n in stop_iter(integers()):
+  print(n)
+
+print("\ninfinity")
+```
+
