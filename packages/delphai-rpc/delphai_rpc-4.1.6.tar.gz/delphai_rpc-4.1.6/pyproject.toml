@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "delphai-rpc"
+version = "4.1.6"
+description = "Queue-based RPC client and server"
+authors = ["Anton Ryzhov <anton@delphai.com>"]
+readme = "README.md"
+packages = [{include = "delphai_rpc"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aio-pika = { version = "^9.1.4" }
+pydantic = { version = "^2.2" }
+msgpack = { version = "^1.0.5" }
+prometheus-client = "^0.20.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
