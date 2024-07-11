@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+llm_master.egg-info/PKG-INFO
+llm_master.egg-info/SOURCES.txt
+llm_master.egg-info/dependency_links.txt
+llm_master.egg-info/requires.txt
+llm_master.egg-info/top_level.txt
+tests/__init__.py
+tests/test_llm_master.py
