@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: SpeechToTextSTT
+Version: 1.0
+Summary: This is a speech-to-text package
+Author: Sakib Khan
+Author-email: mo.khansakib@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+
