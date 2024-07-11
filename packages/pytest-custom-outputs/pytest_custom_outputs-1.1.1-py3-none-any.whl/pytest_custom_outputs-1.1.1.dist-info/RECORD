@@ -1,0 +1,8 @@
+pytest_custom_outputs/__init__.py,sha256=H9aVsRExy95srKOPLLestnjnjH9sG_fWqYLOYoOp3eA,77
+pytest_custom_outputs/custom_outputs.py,sha256=FODF2_3TYPGEgaZc_PD-RcCKOaJqHdJJ-LYfiik9Cbc,3627
+pytest_custom_outputs-1.1.1.dist-info/LICENSE,sha256=c3mAmka1l1pbLtJEyQ1nfVzvOT_ug9ViycQLA9cdr_I,1501
+pytest_custom_outputs-1.1.1.dist-info/METADATA,sha256=o6K2SPwdPTdyKTRXTWn4oWSBrk8J-u5QpPb5wTkk3_0,14809
+pytest_custom_outputs-1.1.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+pytest_custom_outputs-1.1.1.dist-info/entry_points.txt,sha256=QFaTXk9KeXezqZMChPE-o1no5c2y9fPRpT_Av7RxXy0,65
+pytest_custom_outputs-1.1.1.dist-info/top_level.txt,sha256=F30sCjAY4gYPY4M2VJC5sHUoy1w8RqpCNdcDY8Euuas,22
+pytest_custom_outputs-1.1.1.dist-info/RECORD,,
