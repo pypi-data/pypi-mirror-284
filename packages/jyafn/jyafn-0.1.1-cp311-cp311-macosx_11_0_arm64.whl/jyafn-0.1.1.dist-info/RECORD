@@ -1,0 +1,10 @@
+jyafn-0.1.1.dist-info/METADATA,sha256=DNJVDsH7Uh3TLox_txTtUfhL6ONhrf1o6sB7v2Zsi9U,5797
+jyafn-0.1.1.dist-info/WHEEL,sha256=-HBPyKL0fho_7EkuvW7lZ_9sWuQ_YOSfy6je_BocKwA,105
+jyafn-0.1.1.dist-info/entry_points.txt,sha256=xxlU2-mA4RsGrH0HvggvIeMWQjkG-kZn0zFMFNrM88E,39
+jyafn/describe.py,sha256=HlEd3L6xAHv8tltcgLj8bMaWX_BNOUoOgNsDE8jwr48,3400
+jyafn/__init__.py,sha256=q5UqCgp2WWn05yQFO0ih973XF2WpRF3a9qTBhhBqylM,15022
+jyafn/cli.py,sha256=HkyUjVKcuId_sIG54XxpyaXXnnLGunUN4Nt4yjfXqWw,3558
+jyafn/np_dropin.py,sha256=BGlpWTEkWF6dnct637RlbsToZY1wPwgGgHWSEhPO8T4,4311
+jyafn/jyafn.pyi,sha256=LabX7aizfXzdghJdtBRbI3Q-bw1RXpdDdPLUovfV8_s,20289
+jyafn/jyafn.cpython-311-darwin.so,sha256=Ce_eQEYyk4nHiR0RX1-6TzejN3B6F21PXOtNv-EXz9I,2619408
+jyafn-0.1.1.dist-info/RECORD,,
