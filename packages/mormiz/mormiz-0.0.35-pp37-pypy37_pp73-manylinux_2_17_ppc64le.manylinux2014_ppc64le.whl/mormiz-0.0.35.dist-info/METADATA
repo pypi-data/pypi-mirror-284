@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mormiz
+Version: 0.0.35
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: mormiz is a an Arabic Tokenizer
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Mormiz
+# Mormiz
+# Mormiz
+# TODO:
+
