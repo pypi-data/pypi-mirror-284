@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ahuella
+Version: 0.0.1
+Summary: module for api.hella.team
+Home-page: https://github.com/tembz/ahuella
+Author: tembz&tenkawaa
+Author-email: tembz@vk.com
+Keywords: hella
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Асинхронный типизированный модуль для работы с api.hella.team
+
+```python
+import asyncio
+
+from ahuella import HellaApi
+
+hella = HellaApi("YOU TOKEN")
+
+
+async def first_request():
+  stickers = await hella.get_stickers(user_id=323)
+  print(stickers.items.free.count)
+  # >>> 50
+
+asyncio.run(first_request())
+```
+
+## Установка
+```shell
+pip install ahuella
+```
