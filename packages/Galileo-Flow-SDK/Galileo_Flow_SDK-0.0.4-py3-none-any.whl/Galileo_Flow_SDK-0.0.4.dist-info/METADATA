@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: Galileo-Flow-SDK
+Version: 0.0.4
+Summary: Reading a flow rate from Galileo Flow Sensor
+Home-page: UNKNOWN
+Author: Galileo (MIC)
+Author-email: <galileo@microfluidic.fr>
+License: UNKNOWN
+Keywords: python,galileo
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial
+
+A class-based interface to the Galileo Flow Sensor
+
+
+Example 1. Reading a flow rate
+
+First, insert the cartridge to the Base and power on the sensor using type-C USB connector. Make sure that all three flgas on the screen is green.
+
+Next, check the COMPORT number of the sensor. In Windows, you can open the Device Manager and find the COMPORT under Com Ports:
+
+
+Finally,
+
+you can write the following line to read the flow rate every second:
+
+```python
+import Galileo-Flow-SDK
+galileo_sensor = GalileoFlowSDK("COM18")
+
+while(1):
+    time.sleep(1)
+    print('flow is ' , galileo_sensor.read_flow())
+```
+
+
