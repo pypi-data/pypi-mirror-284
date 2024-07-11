@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mtkruto
+Version: 0.2.3
+Summary: Python client for MTKruto Server
+Author: Roj
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.9.5,<4.0.0)
+Description-Content-Type: text/markdown
+
+# MTKruto Python
+
+> Python library for interacting with MTKruto Server
+
+## Installation
+
+```shell
+pip install mtkruto
+```
+
+## Examples
+
+Be sure to check out the [examples/](./examples/) directory.
+
+## API Reference
+
+<https://python.mtkru.to>
+
