@@ -1,0 +1,11 @@
+.gitignore
+LICENSE.txt
+README.md
+requirements.txt
+setup.py
+.github/workflows/test.yml
+bittest/__init__.py
+bittest.egg-info/PKG-INFO
+bittest.egg-info/SOURCES.txt
+bittest.egg-info/dependency_links.txt
+bittest.egg-info/top_level.txt
