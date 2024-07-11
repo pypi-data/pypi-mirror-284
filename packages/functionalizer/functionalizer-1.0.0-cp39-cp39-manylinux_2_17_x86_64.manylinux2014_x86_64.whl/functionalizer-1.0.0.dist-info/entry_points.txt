@@ -1,0 +1,7 @@
+[console_scripts]
+functionalizer = functionalizer.commands:functionalize_parallel
+fz = functionalizer.commands:functionalize
+parquet-compare = functionalizer.tools.compare:run
+parquet-compare-ns = functionalizer.tools.compare_nodesets:compare_nodesets
+parquet-coalesce = functionalizer.tools.coalesce:run
+
