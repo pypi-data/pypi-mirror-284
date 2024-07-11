@@ -1,0 +1,17 @@
+ci/environment.yml,sha256=OzTO5aTfzirFobAM6TmzJXZ622liCwIzreZH-x7n4mU,394
+roms_tools/__init__.py,sha256=9MiZw2yYthIwOrktbOKwNptyZPmMV4_p4aCK4HymzUM,489
+roms_tools/_version.py,sha256=FGsmFbZ942cZk42U_qHqxgRCbsD--5Vld_eR6xKJ-mQ,72
+roms_tools/setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roms_tools/setup/atmospheric_forcing.py,sha256=A6wPmEfjeCIO3tu4TLt4Sul_J6AnF_peWZdON3I_6iw,34790
+roms_tools/setup/datasets.py,sha256=0Hcsr7VzE-jo51kSMZ0ltHnIqc3fHe2v9lAC6ig2rH0,1943
+roms_tools/setup/fill.py,sha256=8Klt77rkJqyXQ54TUv75KK_5iHcAwH-3bBtO3eoBieM,8701
+roms_tools/setup/grid.py,sha256=p8AgCzUx5CkuxFcjFX6X65pYwEyOzxslx_nZDNJd-M4,26449
+roms_tools/setup/plot.py,sha256=LZjTB4NHpXGsju_VZSCBwTfyox08nXHh6TkqmNBvz5Y,1809
+roms_tools/setup/tides.py,sha256=aOez64Zv6MM1VFs1WIClKPpSg9vySvogqfqbg2eHKHA,20942
+roms_tools/setup/topography.py,sha256=hj_IEbMTaazEtp6rrNbqAtGgPesWcCs8eHko0XHEhJg,8010
+roms_tools/tests/test_setup.py,sha256=L90eM0IroRhYQ8ZY9BVOyUQND41lzdJKB_y2n7Aihmc,5102
+roms_tools-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+roms_tools-0.1.0.dist-info/METADATA,sha256=XtN4Icf1h7Sh_ZbL9OFNCr9wIkvRpqTuo95szsLNtcg,2567
+roms_tools-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+roms_tools-0.1.0.dist-info/top_level.txt,sha256=aAf4T4nYQSkay5iKJ9kmTjlDgd4ETdp9OSlB4sJdt8Y,19
+roms_tools-0.1.0.dist-info/RECORD,,
