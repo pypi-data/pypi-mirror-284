@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+setup.py
+bscp_python_sdk.egg-info/PKG-INFO
+bscp_python_sdk.egg-info/SOURCES.txt
+bscp_python_sdk.egg-info/dependency_links.txt
+bscp_python_sdk.egg-info/top_level.txt
