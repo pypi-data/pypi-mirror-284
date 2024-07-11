@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: maquina_escribir
+Version: 0.0.2
+Summary: Una maquina de escribir simple
+Author: Miguel Durán
+Description-Content-Type: text/markdown
+
+# maquina de escribir
+
+simula una maquina de escribir al mostrar el texto
