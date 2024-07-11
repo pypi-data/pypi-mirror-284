@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.3
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: gutow@uwosh.edu
+author_name: Jonathan Gutow
+has_binder: false
+has_settings: false
+kind: frontend
+labextension_name: jupyterpidaq-menu
+project_short_description: Convenience menu for JupyterPiDAQ that runs in Jupyter
+    Lab and Notebook >=7.
+python_name: jupyterpidaq_menu
+repository: https://github.com/JupyterPhysSciLab/JupyterPiDAQ_Menu.git
+test: true
+
