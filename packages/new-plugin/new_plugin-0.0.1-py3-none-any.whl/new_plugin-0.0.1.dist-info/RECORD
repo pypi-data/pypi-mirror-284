@@ -1,0 +1,12 @@
+migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+new_plugin/__init__.py,sha256=2MuLA7UsGfhj85vsHNR84JoRbKsWl3G9Ugc_0JxeAkk,386
+new_plugin/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+new_plugin/apps.py,sha256=sWIIYL6Y2vss0RJlOq1g2gCEtgGZvLmhXCTyUGao-q8,151
+new_plugin/forms.py,sha256=16wj9VeoR6Q5ojv2PEeH5Lj_GQzdxMcwNZQ8CaPDuN4,122
+new_plugin/urls.py,sha256=F0n9ZT4o-BaKE8iPvWfs4R_xIZUfx62nUXz2J3UOXjM,245
+new_plugin/views.py,sha256=yEB1OvPa0Wuw5aY6GReQN0dKl6sV_PCqRtvum9tSZDo,491
+new_plugin-0.0.1.dist-info/METADATA,sha256=9_hNhR4IvA1SCKBGozJ2zPphhylcJWulHHzh0jDCWhY,217
+new_plugin-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+new_plugin-0.0.1.dist-info/entry_points.txt,sha256=tPmtj45MRi_HSs_xkhuDO197UcExvKmFQz2zA0WwFu0,33
+new_plugin-0.0.1.dist-info/top_level.txt,sha256=ohogp-bEQ7aDbHrAU_04lteOZAa7wrKwZ0FOcno9Lno,22
+new_plugin-0.0.1.dist-info/RECORD,,

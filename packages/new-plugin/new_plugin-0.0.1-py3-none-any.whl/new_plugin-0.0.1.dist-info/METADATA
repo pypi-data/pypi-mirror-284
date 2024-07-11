@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: new-plugin
+Version: 0.0.1
+Summary: LOL KEK CHEBUREK
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: django
+Requires-Dist: testy
+Requires-Dist: rest-framework
+
+UNKNOWN
+
