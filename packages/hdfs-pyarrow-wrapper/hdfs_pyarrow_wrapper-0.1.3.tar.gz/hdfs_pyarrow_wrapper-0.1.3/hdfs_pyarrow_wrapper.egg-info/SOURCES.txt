@@ -1,0 +1,9 @@
+README.md
+setup.py
+hdfs_pyarrow_wrapper/__init__.py
+hdfs_pyarrow_wrapper/hdfs_client_test.py
+hdfs_pyarrow_wrapper/hdfs_utils.py
+hdfs_pyarrow_wrapper.egg-info/PKG-INFO
+hdfs_pyarrow_wrapper.egg-info/SOURCES.txt
+hdfs_pyarrow_wrapper.egg-info/dependency_links.txt
+hdfs_pyarrow_wrapper.egg-info/top_level.txt
