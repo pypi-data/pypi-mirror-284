@@ -1,0 +1,17 @@
+README.md
+setup.py
+MITREAttackScrapper/__init__.py
+MITREAttackScrapper/superclass.py
+MITREAttackScrapper.egg-info/PKG-INFO
+MITREAttackScrapper.egg-info/SOURCES.txt
+MITREAttackScrapper.egg-info/dependency_links.txt
+MITREAttackScrapper.egg-info/top_level.txt
+MITREAttackScrapper/mitigations/__init__.py
+MITREAttackScrapper/mitigations/enterprise.py
+MITREAttackScrapper/tactics/__init__.py
+MITREAttackScrapper/tactics/enterprise.py
+MITREAttackScrapper/techniques/__init__.py
+MITREAttackScrapper/techniques/enterprise.py
+MITREAttackScrapper/utils/__init__.py
+MITREAttackScrapper/utils/mitre_id_validator.py
+MITREAttackScrapper/utils/scrapping_helper.py
