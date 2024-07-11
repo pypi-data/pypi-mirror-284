@@ -1,0 +1,2 @@
+[console_scripts]
+myjwt = myjwt.myjwt_cli:myjwt_cli
