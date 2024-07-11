@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xml_augmenter
+Version: 0.0.1
+Summary: Simple XML file augmentation handler for segmentation based CV tasks
+Author: nastics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==2.0.0
+Requires-Dist: opencv_python==4.10.0.84
+
+This is a very simple script that can be used to augment xml files
+Does the math and all!
