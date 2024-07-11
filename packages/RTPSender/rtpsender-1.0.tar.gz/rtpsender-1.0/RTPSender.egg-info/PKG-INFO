@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: RTPSender
+Version: 1.0
+Summary: A SDK for sending RTP streams
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: scapy
+Requires-Dist: opencv-python
+Requires-Dist: av
+Requires-Dist: pydub
+
+## usage examples
+```python
+from RTPSender import RTPSender
+
+rtpSender = RTPSender("127.0.0.1", 7777)
+rtpSender.send_video_rtp("image.png")
+rtpSender.send_audio_rtp("audio.wav")
+```
