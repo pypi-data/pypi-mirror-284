@@ -1,0 +1,11 @@
+
+[html]
+requests
+tqdm
+pandas
+click
+jinja2
+numpy<2
+
+[test]
+pytest
