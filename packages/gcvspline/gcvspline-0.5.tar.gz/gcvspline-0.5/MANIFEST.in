@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include runtests.py
+include example/*.py
+include example/*.ipynb
+include gcvspline/*.f
+include gcvspline/*.py
+include gcvspline/tests/*.py
