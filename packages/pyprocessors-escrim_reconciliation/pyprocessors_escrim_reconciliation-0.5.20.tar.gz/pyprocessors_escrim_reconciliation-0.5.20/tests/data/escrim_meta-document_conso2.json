@@ -1,0 +1,777 @@
+{
+  "text": "Les  forces  russes  souffriraient  d\u2019importantes  p\u00e9nuries  de\nmunitions selon les services de renseignement am\u00e9ricains...\nSelon  la  Directrice  du  renseignement  national  des  \u00c9tats-Unis,  Avril\nHaines, la Russie \u00e9prouve des difficult\u00e9s \u00e0 mener des assauts de grande\nenvergure en raison d'une p\u00e9nurie de munitions. Mme Haines, qui dirige\nle renseignement national, a d\u00e9clar\u00e9 jeudi \u00e0 la commission des Forces\narm\u00e9es du S\u00e9nat que des combats acharn\u00e9s se poursuivaient dans l'est\nde l'Ukraine entre les forces russes et les forces ukrainiennes. Mais elle\na ajout\u00e9 que les forces russes ont  gagn\u00e9 moins de territoire en avril\nqu'au cours des trois mois pr\u00e9c\u00e9dents, alors qu'elles semblaient passer\nd'op\u00e9rations offensives \u00e0 des op\u00e9rations d\u00e9fensives le long des lignes de\nfront. \u00ab Les forces russes sont confront\u00e9es \u00e0 d'importantes p\u00e9nuries de\nmunitions et  sont  soumises \u00e0 d'importantes contraintes en termes de\npersonnel \u00bb a d\u00e9clar\u00e9 Mme Haines. Elle a ajout\u00e9 qu'il  sera de plus en\nplus difficile pour la Russie de soutenir des op\u00e9rations offensives, m\u00eame\nmodestes, \u00e0 moins qu'elle ne lance une mobilisation obligatoire et qu'elle\nn'obtienne des approvisionnements substantiels en munitions de la part\nde pays tiers, en plus des livraisons actuelles de l'Iran et d'autres pays.\nS'agissant de l'\u00e9ventualit\u00e9 que la Russie utilise des armes nucl\u00e9aires,\nelle  a  d\u00e9clar\u00e9 :  \u00ab C'est  tr\u00e8s  peu  probable  selon  notre  \u00e9valuation\nactuelle \u00bb. Mme Haines a \u00e9galement indiqu\u00e9 que les forces ukrainiennes\n\u00e9taient encore en train de finaliser les priorit\u00e9s sp\u00e9cifiques, le calendrier\net l'ampleur de l'offensive, et que l'aide occidentale serait cruciale pour\npr\u00e9parer les plans et les troupes.",
+  "identifier": "76b51810b0f8570103648eb40d4342a1",
+  "title": "unknown test document",
+  "sourceText": null,
+  "boundaries": null,
+  "metadata": {
+    "language": "fr"
+  },
+  "altTexts": null,
+  "properties": null,
+  "sentences": [
+    {
+      "start": 0,
+      "end": 123,
+      "metadata": null,
+      "categories": null
+    },
+    {
+      "start": 124,
+      "end": 319,
+      "metadata": null,
+      "categories": null
+    },
+    {
+      "start": 320,
+      "end": 546,
+      "metadata": null,
+      "categories": null
+    },
+    {
+      "start": 547,
+      "end": 780,
+      "metadata": null,
+      "categories": null
+    },
+    {
+      "start": 781,
+      "end": 949,
+      "metadata": null,
+      "categories": null
+    },
+    {
+      "start": 950,
+      "end": 1282,
+      "metadata": null,
+      "categories": null
+    },
+    {
+      "start": 1283,
+      "end": 1441,
+      "metadata": null,
+      "categories": null
+    },
+    {
+      "start": 1442,
+      "end": 1689,
+      "metadata": null,
+      "categories": null
+    }
+  ],
+  "annotations": [
+    {
+      "start": 5,
+      "end": 19,
+      "labelName": "unite_militaire",
+      "label": "Unite Militaire",
+      "text": "forces  russes",
+      "score": 0.9701870381832123,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 13,
+      "end": 19,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "russes",
+      "score": 0.9648900032043457,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 64,
+      "end": 73,
+      "labelName": "meta_equipement",
+      "label": "META Equipement",
+      "text": "munitions",
+      "score": 0.49732255935668945,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 84,
+      "end": 120,
+      "labelName": "unite_militaire",
+      "label": "Unite Militaire",
+      "text": "services de renseignement am\u00e9ricains",
+      "score": 0.6888472735881805,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 110,
+      "end": 120,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "am\u00e9ricains",
+      "score": 0.9775770306587219,
+      "properties": null,
+      "terms": [
+        {
+          "identifier": "Q30",
+          "lexicon": "wikidata",
+          "preferredForm": "United States",
+          "score": 0.0729,
+          "properties": {
+            "wikidataId": "Q30",
+            "P625": {
+              "latitude": 39.828175,
+              "longitude": -98.5795,
+              "precision": 1e-06,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "1377936"
+          }
+        }
+      ],
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 151,
+      "end": 191,
+      "labelName": "unite_militaire",
+      "label": "Unite Militaire",
+      "text": "renseignement  national  des  \u00c9tats-Unis",
+      "score": 0.766057088971138,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 181,
+      "end": 191,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "\u00c9tats-Unis",
+      "score": 0.7769700686136881,
+      "properties": null,
+      "terms": [
+        {
+          "identifier": "Q30",
+          "lexicon": "wikidata",
+          "preferredForm": "United States",
+          "score": 0.1984,
+          "properties": {
+            "wikidataId": "Q30",
+            "P625": {
+              "latitude": 39.828175,
+              "longitude": -98.5795,
+              "precision": 1e-06,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "1377936"
+          }
+        }
+      ],
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 194,
+      "end": 206,
+      "labelName": "personne",
+      "label": "Personne",
+      "text": "Avril\nHaines",
+      "score": 0.6986420154571533,
+      "properties": null,
+      "terms": [
+        {
+          "identifier": "Q14525857",
+          "lexicon": "wikidata",
+          "preferredForm": "Avril Haines",
+          "score": 0.8735,
+          "properties": {
+            "wikidataId": "Q14525857",
+            "wikipediaExternalRef": "13728946"
+          }
+        }
+      ],
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 211,
+      "end": 217,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "Russie",
+      "score": 0.9586168527603149,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 309,
+      "end": 318,
+      "labelName": "meta_equipement",
+      "label": "META Equipement",
+      "text": "munitions",
+      "score": 0.5900442004203796,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 324,
+      "end": 330,
+      "labelName": "personne",
+      "label": "Personne",
+      "text": "Haines",
+      "score": 0.983256459236145,
+      "properties": null,
+      "terms": [
+        {
+          "identifier": "Q14525857",
+          "lexicon": "wikidata",
+          "preferredForm": "Avril Haines",
+          "score": 0.8735,
+          "properties": {
+            "wikidataId": "Q14525857",
+            "wikipediaExternalRef": "13728946"
+          }
+        }
+      ],
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 346,
+      "end": 368,
+      "labelName": "unite_militaire",
+      "label": "Unite Militaire",
+      "text": "renseignement national",
+      "score": 0.9436235427856445,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 391,
+      "end": 428,
+      "labelName": "personne_morale",
+      "label": "Personne Morale",
+      "text": "commission des Forces\narm\u00e9es du S\u00e9nat",
+      "score": 0.8610546092192332,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 478,
+      "end": 494,
+      "labelName": "lieu",
+      "label": "Lieu",
+      "text": "est\nde l'Ukraine",
+      "score": 0.7768591046333313,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 505,
+      "end": 518,
+      "labelName": "unite_militaire",
+      "label": "Unite Militaire",
+      "text": "forces russes",
+      "score": 0.9734688401222229,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 512,
+      "end": 518,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "russes",
+      "score": 0.9721393585205078,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 526,
+      "end": 545,
+      "labelName": "unite_militaire",
+      "label": "Unite Militaire",
+      "text": "forces ukrainiennes",
+      "score": 0.96015465259552,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 533,
+      "end": 545,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "ukrainiennes",
+      "score": 0.9241237640380859,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 574,
+      "end": 587,
+      "labelName": "unite_militaire",
+      "label": "Unite Militaire",
+      "text": "forces russes",
+      "score": 0.9740613698959351,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 581,
+      "end": 587,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "russes",
+      "score": 0.9896209239959717,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 764,
+      "end": 779,
+      "labelName": "lieu",
+      "label": "Lieu",
+      "text": "lignes de\nfront",
+      "score": 0.7587903340657552,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 787,
+      "end": 800,
+      "labelName": "unite_militaire",
+      "label": "Unite Militaire",
+      "text": "forces russes",
+      "score": 0.9717480540275574,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 794,
+      "end": 800,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "russes",
+      "score": 0.9721853137016296,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 846,
+      "end": 855,
+      "labelName": "meta_equipement",
+      "label": "META Equipement",
+      "text": "munitions",
+      "score": 0.47023195028305054,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 942,
+      "end": 948,
+      "labelName": "personne",
+      "label": "Personne",
+      "text": "Haines",
+      "score": 0.9919669032096863,
+      "properties": null,
+      "terms": [
+        {
+          "identifier": "Q14525857",
+          "lexicon": "wikidata",
+          "preferredForm": "Avril Haines",
+          "score": 0.8735,
+          "properties": {
+            "wikidataId": "Q14525857",
+            "wikipediaExternalRef": "13728946"
+          }
+        }
+      ],
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 1010,
+      "end": 1016,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "Russie",
+      "score": 0.9105513095855713,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 1186,
+      "end": 1195,
+      "labelName": "meta_equipement",
+      "label": "META Equipement",
+      "text": "munitions",
+      "score": 0.8049295544624329,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 1260,
+      "end": 1264,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "Iran",
+      "score": 0.6315283179283142,
+      "properties": null,
+      "terms": [
+        {
+          "identifier": "Q794",
+          "lexicon": "wikidata",
+          "preferredForm": "Iran",
+          "score": 0.1529,
+          "properties": {
+            "wikidataId": "Q794",
+            "P625": {
+              "latitude": 32,
+              "longitude": 53,
+              "precision": 1,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "1510"
+          }
+        }
+      ],
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 1318,
+      "end": 1324,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "Russie",
+      "score": 0.9667659401893616,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 1337,
+      "end": 1353,
+      "labelName": "meta_equipement",
+      "label": "META Equipement",
+      "text": "armes nucl\u00e9aires",
+      "score": 0.9388083815574646,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 1337,
+      "end": 1353,
+      "labelName": "type_d_equipements",
+      "label": "Type d'\u00e9quipement",
+      "text": "armes nucl\u00e9aires",
+      "score": 0.9984368979930878,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 1446,
+      "end": 1452,
+      "labelName": "personne",
+      "label": "Personne",
+      "text": "Haines",
+      "score": 0.9874746203422546,
+      "properties": null,
+      "terms": [
+        {
+          "identifier": "Q14525857",
+          "lexicon": "wikidata",
+          "preferredForm": "Avril Haines",
+          "score": 0.8735,
+          "properties": {
+            "wikidataId": "Q14525857",
+            "wikipediaExternalRef": "13728946"
+          }
+        }
+      ],
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 1481,
+      "end": 1500,
+      "labelName": "unite_militaire",
+      "label": "Unite Militaire",
+      "text": "forces ukrainiennes",
+      "score": 0.9819706380367279,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 1488,
+      "end": 1500,
+      "labelName": "loc_org",
+      "label": "G\u00e9opolitique",
+      "text": "ukrainiennes",
+      "score": 0.9796727895736694,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 1681,
+      "end": 1688,
+      "labelName": "unite_militaire",
+      "label": "Unite Militaire",
+      "text": "troupes",
+      "score": 0.7296016812324524,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 2405,
+      "end": 2414,
+      "labelName": "type_d_equipements",
+      "label": "Type d'\u00e9quipement",
+      "text": "munitions",
+      "score": 0.9957249164581299,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 2405,
+      "end": 2414,
+      "labelName": "type_d_equipements",
+      "label": "Type d'\u00e9quipement",
+      "text": "munitions",
+      "score": 0.9957249164581299,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 2405,
+      "end": 2414,
+      "labelName": "type_d_equipements",
+      "label": "Type d'\u00e9quipement",
+      "text": "munitions",
+      "score": 0.9957249164581299,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 2405,
+      "end": 2414,
+      "labelName": "type_d_equipements",
+      "label": "Type d'\u00e9quipement",
+      "text": "munitions",
+      "score": 0.9957249164581299,
+      "properties": null,
+      "terms": null,
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    },
+    {
+      "start": 487,
+      "end": 494,
+      "labelName": "lieu",
+      "label": "Lieu",
+      "text": "Ukraine",
+      "score": 0.4745,
+      "properties": null,
+      "terms": [
+        {
+          "identifier": "Q212",
+          "lexicon": "wikidata",
+          "preferredForm": "Ukraine",
+          "score": 0.4745,
+          "properties": {
+            "wikidataId": "Q212",
+            "P625": {
+              "latitude": 49,
+              "longitude": 32,
+              "precision": 1,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "3083"
+          }
+        }
+      ],
+      "createdBy": null,
+      "createdDate": null,
+      "modifiedBy": null,
+      "modifiedDate": null,
+      "status": null
+    }
+  ],
+  "categories": null
+}

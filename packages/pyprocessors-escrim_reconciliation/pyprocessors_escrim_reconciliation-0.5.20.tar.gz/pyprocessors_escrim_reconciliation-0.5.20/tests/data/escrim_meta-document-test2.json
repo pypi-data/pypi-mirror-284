@@ -1,0 +1,798 @@
+{
+  "text": "Les  forces  russes  souffriraient  d’importantes  pénuries  de\nmunitions selon les services de renseignement américains...\nSelon  la  Directrice  du  renseignement  national  des  États-Unis,  Avril\nHaines, la Russie éprouve des difficultés à mener des assauts de grande\nenvergure en raison d'une pénurie de munitions. Mme Haines, qui dirige\nle renseignement national, a déclaré jeudi à la commission des Forces\narmées du Sénat que des combats acharnés se poursuivaient dans l'est\nde l'Ukraine entre les forces russes et les forces ukrainiennes. Mais elle\na ajouté que les forces russes ont  gagné moins de territoire en avril\nqu'au cours des trois mois précédents, alors qu'elles semblaient passer\nd'opérations offensives à des opérations défensives le long des lignes de\nfront. « Les forces russes sont confrontées à d'importantes pénuries de\nmunitions et  sont  soumises à d'importantes contraintes en termes de\npersonnel » a déclaré Mme Haines. Elle a ajouté qu'il  sera de plus en\nplus difficile pour la Russie de soutenir des opérations offensives, même\nmodestes, à moins qu'elle ne lance une mobilisation obligatoire et qu'elle\nn'obtienne des approvisionnements substantiels en munitions de la part\nde pays tiers, en plus des livraisons actuelles de l'Iran et d'autres pays.\nS'agissant de l'éventualité que la Russie utilise des armes nucléaires,\nelle  a  déclaré :  « C'est  très  peu  probable  selon  notre  évaluation\nactuelle ». Mme Haines a également indiqué que les forces ukrainiennes\nétaient encore en train de finaliser les priorités spécifiques, le calendrier\net l'ampleur de l'offensive, et que l'aide occidentale serait cruciale pour\npréparer les plans et les troupes.",
+  "metadata": {
+    "language": "fr"
+  },
+  "sentences": [
+    {
+      "start": 0,
+      "end": 123
+    },
+    {
+      "start": 124,
+      "end": 319
+    },
+    {
+      "start": 320,
+      "end": 546
+    },
+    {
+      "start": 547,
+      "end": 780
+    },
+    {
+      "start": 781,
+      "end": 949
+    },
+    {
+      "start": 950,
+      "end": 1282
+    },
+    {
+      "start": 1283,
+      "end": 1441
+    },
+    {
+      "start": 1442,
+      "end": 1689
+    }
+  ],
+  "annotations": [
+    {
+      "start": 5,
+      "end": 19,
+      "labelName": "unite_militaire",
+      "score": 0.9701870381832123,
+      "label": "Unite Militaire",
+      "text": "forces  russes"
+    },
+    {
+      "start": 13,
+      "end": 19,
+      "labelName": "loc_org",
+      "score": 0.9648900032043457,
+      "label": "Géopolitique",
+      "text": "russes"
+    },
+    {
+      "start": 64,
+      "end": 73,
+      "labelName": "meta_equipement",
+      "score": 0.49732255935668945,
+      "label": "META Equipement",
+      "text": "munitions"
+    },
+    {
+      "start": 84,
+      "end": 120,
+      "labelName": "unite_militaire",
+      "score": 0.6888472735881805,
+      "label": "Unite Militaire",
+      "text": "services de renseignement américains"
+    },
+    {
+      "start": 110,
+      "end": 120,
+      "labelName": "loc_org",
+      "score": 0.9775770306587219,
+      "label": "Géopolitique",
+      "text": "américains"
+    },
+    {
+      "start": 110,
+      "end": 120,
+      "labelName": "wiki_lieu",
+      "score": 0.0729,
+      "terms": [
+        {
+          "identifier": "Q30",
+          "lexicon": "wikidata",
+          "preferredForm": "United States",
+          "score": 0.0729,
+          "properties": {
+            "wikidataId": "Q30",
+            "P625": {
+              "latitude": 39.828175,
+              "longitude": -98.5795,
+              "precision": 0.000001,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "1377936"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "américains"
+    },
+    {
+      "sentence": true,
+      "labelName": "sentence",
+      "start": 124,
+      "end": 319
+    },
+    {
+      "start": 151,
+      "end": 191,
+      "labelName": "unite_militaire",
+      "score": 0.766057088971138,
+      "label": "Unite Militaire",
+      "text": "renseignement  national  des  États-Unis"
+    },
+    {
+      "start": 181,
+      "end": 191,
+      "labelName": "loc_org",
+      "score": 0.7769700686136881,
+      "label": "Géopolitique",
+      "text": "États-Unis"
+    },
+    {
+      "start": 181,
+      "end": 191,
+      "labelName": "wiki_lieu",
+      "score": 0.1984,
+      "terms": [
+        {
+          "identifier": "Q30",
+          "lexicon": "wikidata",
+          "preferredForm": "United States",
+          "score": 0.1984,
+          "properties": {
+            "wikidataId": "Q30",
+            "P625": {
+              "latitude": 39.828175,
+              "longitude": -98.5795,
+              "precision": 0.000001,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "1377936"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "États-Unis"
+    },
+    {
+      "start": 194,
+      "end": 206,
+      "labelName": "personne",
+      "score": 0.6986420154571533,
+      "label": "Personne",
+      "text": "Avril\nHaines"
+    },
+    {
+      "start": 194,
+      "end": 206,
+      "labelName": "personne",
+      "score": 0.8735,
+      "terms": [
+        {
+          "identifier": "Q14525857",
+          "lexicon": "wikidata",
+          "preferredForm": "Avril Haines",
+          "score": 0.8735,
+          "properties": {
+            "wikidataId": "Q14525857",
+            "wikipediaExternalRef": "13728946"
+          }
+        }
+      ],
+      "label": "Personne",
+      "text": "Avril\nHaines"
+    },
+    {
+      "start": 200,
+      "end": 206,
+      "labelName": "classe_d_equipement",
+      "score": 1,
+      "terms": [
+        {
+          "identifier": "warships7466",
+          "lexicon": "equipment_classes",
+          "preferredForm": "USS Haines"
+        }
+      ],
+      "label": "Classe d'équipement",
+      "text": "Haines"
+    },
+    {
+      "start": 211,
+      "end": 217,
+      "labelName": "loc_org",
+      "score": 0.9586168527603149,
+      "label": "Géopolitique",
+      "text": "Russie"
+    },
+    {
+      "start": 309,
+      "end": 318,
+      "labelName": "meta_equipement",
+      "score": 0.5900442004203796,
+      "label": "META Equipement",
+      "text": "munitions"
+    },
+    {
+      "start": 324,
+      "end": 330,
+      "labelName": "personne",
+      "score": 0.983256459236145,
+      "label": "Personne",
+      "text": "Haines"
+    },
+    {
+      "start": 324,
+      "end": 330,
+      "labelName": "classe_d_equipement",
+      "score": 1,
+      "terms": [
+        {
+          "identifier": "warships7466",
+          "lexicon": "equipment_classes",
+          "preferredForm": "USS Haines"
+        }
+      ],
+      "label": "Classe d'équipement",
+      "text": "Haines"
+    },
+    {
+      "start": 346,
+      "end": 368,
+      "labelName": "unite_militaire",
+      "score": 0.9436235427856445,
+      "label": "Unite Militaire",
+      "text": "renseignement national"
+    },
+    {
+      "start": 391,
+      "end": 428,
+      "labelName": "personne_morale",
+      "score": 0.8610546092192332,
+      "label": "Personne Morale",
+      "text": "commission des Forces\narmées du Sénat"
+    },
+    {
+      "start": 478,
+      "end": 494,
+      "labelName": "lieu",
+      "score": 0.7768591046333313,
+      "label": "Lieu",
+      "text": "est\nde l'Ukraine"
+    },
+    {
+      "start": 487,
+      "end": 494,
+      "labelName": "wiki_lieu",
+      "score": 0.4745,
+      "terms": [
+        {
+          "identifier": "Q212",
+          "lexicon": "wikidata",
+          "preferredForm": "Ukraine",
+          "score": 0.4745,
+          "properties": {
+            "wikidataId": "Q212",
+            "P625": {
+              "latitude": 49,
+              "longitude": 32,
+              "precision": 1,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "3083"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "Ukraine"
+    },
+    {
+      "start": 505,
+      "end": 518,
+      "labelName": "unite_militaire",
+      "score": 0.9734688401222229,
+      "label": "Unite Militaire",
+      "text": "forces russes"
+    },
+    {
+      "start": 512,
+      "end": 518,
+      "labelName": "loc_org",
+      "score": 0.9721393585205078,
+      "label": "Géopolitique",
+      "text": "russes"
+    },
+    {
+      "start": 526,
+      "end": 545,
+      "labelName": "unite_militaire",
+      "score": 0.96015465259552,
+      "label": "Unite Militaire",
+      "text": "forces ukrainiennes"
+    },
+    {
+      "start": 533,
+      "end": 545,
+      "labelName": "loc_org",
+      "score": 0.9241237640380859,
+      "label": "Géopolitique",
+      "text": "ukrainiennes"
+    },
+    {
+      "sentence": true,
+      "labelName": "sentence",
+      "start": 547,
+      "end": 780
+    },
+    {
+      "start": 574,
+      "end": 587,
+      "labelName": "unite_militaire",
+      "score": 0.9740613698959351,
+      "label": "Unite Militaire",
+      "text": "forces russes"
+    },
+    {
+      "start": 581,
+      "end": 587,
+      "labelName": "loc_org",
+      "score": 0.9896209239959717,
+      "label": "Géopolitique",
+      "text": "russes"
+    },
+    {
+      "start": 764,
+      "end": 779,
+      "labelName": "lieu",
+      "score": 0.7587903340657552,
+      "label": "Lieu",
+      "text": "lignes de\nfront"
+    },
+    {
+      "start": 787,
+      "end": 800,
+      "labelName": "unite_militaire",
+      "score": 0.9717480540275574,
+      "label": "Unite Militaire",
+      "text": "forces russes"
+    },
+    {
+      "start": 794,
+      "end": 800,
+      "labelName": "loc_org",
+      "score": 0.9721853137016296,
+      "label": "Géopolitique",
+      "text": "russes"
+    },
+    {
+      "start": 846,
+      "end": 855,
+      "labelName": "meta_equipement",
+      "score": 0.47023195028305054,
+      "label": "META Equipement",
+      "text": "munitions"
+    },
+    {
+      "start": 942,
+      "end": 948,
+      "labelName": "personne",
+      "score": 0.9919669032096863,
+      "label": "Personne",
+      "text": "Haines"
+    },
+    {
+      "start": 942,
+      "end": 948,
+      "labelName": "classe_d_equipement",
+      "score": 1,
+      "terms": [
+        {
+          "identifier": "warships7466",
+          "lexicon": "equipment_classes",
+          "preferredForm": "USS Haines"
+        }
+      ],
+      "label": "Classe d'équipement",
+      "text": "Haines"
+    },
+    {
+      "sentence": true,
+      "labelName": "sentence",
+      "start": 950,
+      "end": 1282
+    },
+    {
+      "start": 1010,
+      "end": 1016,
+      "labelName": "loc_org",
+      "score": 0.9105513095855713,
+      "label": "Géopolitique",
+      "text": "Russie"
+    },
+    {
+      "start": 1186,
+      "end": 1195,
+      "labelName": "meta_equipement",
+      "score": 0.8049295544624329,
+      "label": "META Equipement",
+      "text": "munitions"
+    },
+    {
+      "start": 1260,
+      "end": 1264,
+      "labelName": "loc_org",
+      "score": 0.6315283179283142,
+      "label": "Géopolitique",
+      "text": "Iran"
+    },
+    {
+      "start": 1260,
+      "end": 1264,
+      "labelName": "wiki_lieu",
+      "score": 0.1529,
+      "terms": [
+        {
+          "identifier": "Q794",
+          "lexicon": "wikidata",
+          "preferredForm": "Iran",
+          "score": 0.1529,
+          "properties": {
+            "wikidataId": "Q794",
+            "P625": {
+              "latitude": 32,
+              "longitude": 53,
+              "precision": 1,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "1510"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "Iran"
+    },
+    {
+      "start": 1318,
+      "end": 1324,
+      "labelName": "loc_org",
+      "score": 0.9667659401893616,
+      "label": "Géopolitique",
+      "text": "Russie"
+    },
+    {
+      "start": 1337,
+      "end": 1353,
+      "labelName": "meta_equipement",
+      "score": 0.9388083815574646,
+      "label": "META Equipement",
+      "text": "armes nucléaires"
+    },
+    {
+      "start": 1337,
+      "end": 1353,
+      "labelName": "type_d_equipements",
+      "score": 0.9984368979930878,
+      "label": "Type d'équipement",
+      "text": "armes nucléaires"
+    },
+    {
+      "sentence": true,
+      "labelName": "sentence",
+      "start": 1442,
+      "end": 1689
+    },
+    {
+      "start": 1446,
+      "end": 1452,
+      "labelName": "personne",
+      "score": 0.9874746203422546,
+      "label": "Personne",
+      "text": "Haines"
+    },
+    {
+      "start": 1446,
+      "end": 1452,
+      "labelName": "classe_d_equipement",
+      "score": 1,
+      "terms": [
+        {
+          "identifier": "warships7466",
+          "lexicon": "equipment_classes",
+          "preferredForm": "USS Haines"
+        }
+      ],
+      "label": "Classe d'équipement",
+      "text": "Haines"
+    },
+    {
+      "start": 1481,
+      "end": 1500,
+      "labelName": "unite_militaire",
+      "score": 0.9819706380367279,
+      "label": "Unite Militaire",
+      "text": "forces ukrainiennes"
+    },
+    {
+      "start": 1488,
+      "end": 1500,
+      "labelName": "loc_org",
+      "score": 0.9796727895736694,
+      "label": "Géopolitique",
+      "text": "ukrainiennes"
+    },
+    {
+      "start": 1681,
+      "end": 1688,
+      "labelName": "unite_militaire",
+      "score": 0.7296016812324524,
+      "label": "Unite Militaire",
+      "text": "troupes"
+    },
+    {
+      "start": 1900,
+      "end": 1906,
+      "labelName": "wiki_lieu",
+      "score": 0.0729,
+      "terms": [
+        {
+          "identifier": "Q159",
+          "lexicon": "wikidata",
+          "preferredForm": "Russia",
+          "score": 0.0729,
+          "properties": {
+            "wikidataId": "Q159",
+            "P625": {
+              "latitude": 66.41666666666667,
+              "longitude": 94.25,
+              "precision": 0.016666666666666666,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "2549"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "russes"
+    },
+    {
+      "start": 1900,
+      "end": 1906,
+      "labelName": "wiki_lieu",
+      "score": 0.0729,
+      "terms": [
+        {
+          "identifier": "Q159",
+          "lexicon": "wikidata",
+          "preferredForm": "Russia",
+          "score": 0.0729,
+          "properties": {
+            "wikidataId": "Q159",
+            "P625": {
+              "latitude": 66.41666666666667,
+              "longitude": 94.25,
+              "precision": 0.016666666666666666,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "2549"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "russes"
+    },
+    {
+      "start": 1900,
+      "end": 1906,
+      "labelName": "wiki_lieu",
+      "score": 0.0729,
+      "terms": [
+        {
+          "identifier": "Q159",
+          "lexicon": "wikidata",
+          "preferredForm": "Russia",
+          "score": 0.0729,
+          "properties": {
+            "wikidataId": "Q159",
+            "P625": {
+              "latitude": 66.41666666666667,
+              "longitude": 94.25,
+              "precision": 0.016666666666666666,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "2549"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "russes"
+    },
+    {
+      "start": 1900,
+      "end": 1906,
+      "labelName": "wiki_lieu",
+      "score": 0.0729,
+      "terms": [
+        {
+          "identifier": "Q159",
+          "lexicon": "wikidata",
+          "preferredForm": "Russia",
+          "score": 0.0729,
+          "properties": {
+            "wikidataId": "Q159",
+            "P625": {
+              "latitude": 66.41666666666667,
+              "longitude": 94.25,
+              "precision": 0.016666666666666666,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "2549"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "russes"
+    },
+    {
+      "start": 2021,
+      "end": 2033,
+      "labelName": "wiki_lieu",
+      "score": 0.0763,
+      "terms": [
+        {
+          "identifier": "Q212",
+          "lexicon": "wikidata",
+          "preferredForm": "Ukraine",
+          "score": 0.0763,
+          "properties": {
+            "wikidataId": "Q212",
+            "P625": {
+              "latitude": 49,
+              "longitude": 32,
+              "precision": 1,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "3083"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "ukrainiennes"
+    },
+    {
+      "start": 2021,
+      "end": 2033,
+      "labelName": "wiki_lieu",
+      "score": 0.0763,
+      "terms": [
+        {
+          "identifier": "Q212",
+          "lexicon": "wikidata",
+          "preferredForm": "Ukraine",
+          "score": 0.0763,
+          "properties": {
+            "wikidataId": "Q212",
+            "P625": {
+              "latitude": 49,
+              "longitude": 32,
+              "precision": 1,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "3083"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "ukrainiennes"
+    },
+    {
+      "start": 2405,
+      "end": 2414,
+      "labelName": "type_d_equipements",
+      "score": 0.9957249164581299,
+      "label": "Type d'équipement",
+      "text": "munitions"
+    },
+    {
+      "start": 2405,
+      "end": 2414,
+      "labelName": "type_d_equipements",
+      "score": 0.9957249164581299,
+      "label": "Type d'équipement",
+      "text": "munitions"
+    },
+    {
+      "start": 2405,
+      "end": 2414,
+      "labelName": "type_d_equipements",
+      "score": 0.9957249164581299,
+      "label": "Type d'équipement",
+      "text": "munitions"
+    },
+    {
+      "start": 2405,
+      "end": 2414,
+      "labelName": "type_d_equipements",
+      "score": 0.9957249164581299,
+      "label": "Type d'équipement",
+      "text": "munitions"
+    },
+    {
+      "start": 2539,
+      "end": 2545,
+      "labelName": "wiki_lieu",
+      "score": 0.1524,
+      "terms": [
+        {
+          "identifier": "Q159",
+          "lexicon": "wikidata",
+          "preferredForm": "Russia",
+          "score": 0.1524,
+          "properties": {
+            "wikidataId": "Q159",
+            "P625": {
+              "latitude": 66.41666666666667,
+              "longitude": 94.25,
+              "precision": 0.016666666666666666,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "2549"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "Russie"
+    },
+    {
+      "start": 2539,
+      "end": 2545,
+      "labelName": "wiki_lieu",
+      "score": 0.1524,
+      "terms": [
+        {
+          "identifier": "Q159",
+          "lexicon": "wikidata",
+          "preferredForm": "Russia",
+          "score": 0.1524,
+          "properties": {
+            "wikidataId": "Q159",
+            "P625": {
+              "latitude": 66.41666666666667,
+              "longitude": 94.25,
+              "precision": 0.016666666666666666,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "2549"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "Russie"
+    },
+    {
+      "start": 2539,
+      "end": 2545,
+      "labelName": "wiki_lieu",
+      "score": 0.1524,
+      "terms": [
+        {
+          "identifier": "Q159",
+          "lexicon": "wikidata",
+          "preferredForm": "Russia",
+          "score": 0.1524,
+          "properties": {
+            "wikidataId": "Q159",
+            "P625": {
+              "latitude": 66.41666666666667,
+              "longitude": 94.25,
+              "precision": 0.016666666666666666,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "2549"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "Russie"
+    }
+  ],
+  "identifier": "76b51810b0f8570103648eb40d4342a1",
+  "title": "unknown test document"
+}

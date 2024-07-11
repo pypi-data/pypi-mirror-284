@@ -1,0 +1,258 @@
+{
+  "text": "Environ 300 personnes ont protesté samedi contre l'exercice dans le nord de l'Allemagne, arguant qu'il réaffirmait le rejet de négocier avec la Russie et aggravait une situation.\nNouvelles sanctions américaines contre des Nord-Coréens impliqués dans le développement de\nmissiles balistiques...\n",
+  "metadata": {
+    "language": "fr"
+  },
+  "sentences": [
+    {
+      "start": 0,
+      "end": 178
+    },
+    {
+      "start": 179,
+      "end": 293
+    }
+  ],
+  "annotations": [
+    {
+      "start": 8,
+      "end": 11,
+      "labelName": "classe_d_equipement",
+      "score": 1,
+      "terms": [
+        {
+          "identifier": "aircrafts1997",
+          "lexicon": "equipment_classes",
+          "preferredForm": "Q106361863"
+        }
+      ],
+      "label": "Classe d'équipement",
+      "text": "300"
+    },
+    {
+      "start": 68,
+      "end": 87,
+      "labelName": "lieu",
+      "score": 0.6345416009426117,
+      "label": "Lieu",
+      "text": "nord de l'Allemagne"
+    },
+    {
+      "start": 68,
+      "end": 75,
+      "labelName": "kill",
+      "score": 1,
+      "terms": [
+        {
+          "identifier": "nord de",
+          "lexicon": "kill",
+          "preferredForm": "nord de"
+        }
+      ],
+      "label": "Kill",
+      "text": "nord de"
+    },
+    {
+      "start": 78,
+      "end": 87,
+      "labelName": "wiki_lieu",
+      "score": 0.1524,
+      "terms": [
+        {
+          "identifier": "Q183",
+          "lexicon": "wikidata",
+          "preferredForm": "Allemagne",
+          "score": 0.1524,
+          "properties": {
+            "wikidataId": "Q183",
+            "P625": {
+              "latitude": 51,
+              "longitude": 10,
+              "precision": 1,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "1590005"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "Allemagne"
+    },
+    {
+      "start": 144,
+      "end": 150,
+      "labelName": "loc_org",
+      "score": 0.9657410383224487,
+      "label": "Géopolitique",
+      "text": "Russie"
+    },
+    {
+      "start": 144,
+      "end": 150,
+      "labelName": "wiki_lieu",
+      "score": 0.1524,
+      "terms": [
+        {
+          "identifier": "Q159",
+          "lexicon": "wikidata",
+          "preferredForm": "Russie",
+          "score": 0.1524,
+          "properties": {
+            "wikidataId": "Q159",
+            "P625": {
+              "latitude": 66.41666666666667,
+              "longitude": 94.25,
+              "precision": 0.016666666666666666,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "2549"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "Russie"
+    },
+    {
+      "sentence": true,
+      "labelName": "sentence",
+      "start": 179,
+      "end": 293
+    },
+    {
+      "start": 179,
+      "end": 188,
+      "labelName": "personne",
+      "score": 0.2078,
+      "terms": [
+        {
+          "identifier": "Q160333",
+          "lexicon": "wikidata",
+          "preferredForm": "Prosper Mérimée",
+          "score": 0.2078,
+          "properties": {
+            "wikidataId": "Q160333",
+            "wikipediaExternalRef": "47551"
+          }
+        }
+      ],
+      "label": "Personne",
+      "text": "Nouvelles"
+    },
+    {
+      "start": 199,
+      "end": 210,
+      "labelName": "loc_org",
+      "score": 0.7843815088272095,
+      "label": "Géopolitique",
+      "text": "américaines"
+    },
+    {
+      "start": 199,
+      "end": 210,
+      "labelName": "wiki_lieu",
+      "score": 0.0729,
+      "terms": [
+        {
+          "identifier": "Q30",
+          "lexicon": "wikidata",
+          "preferredForm": "États-Unis",
+          "score": 0.0729,
+          "properties": {
+            "wikidataId": "Q30",
+            "P625": {
+              "latitude": 39.828175,
+              "longitude": -98.5795,
+              "precision": 0.000001,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "1377936"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "américaines"
+    },
+    {
+      "start": 222,
+      "end": 234,
+      "labelName": "loc_org",
+      "score": 0.9070083101590475,
+      "label": "Géopolitique",
+      "text": "Nord-Coréens"
+    },
+    {
+      "start": 222,
+      "end": 227,
+      "labelName": "classe_d_equipement",
+      "score": 1,
+      "terms": [
+        {
+          "identifier": "warships8371",
+          "lexicon": "equipment_classes",
+          "preferredForm": "Nord"
+        }
+      ],
+      "label": "Classe d'équipement",
+      "text": "Nord-"
+    },
+    {
+      "start": 222,
+      "end": 227,
+      "labelName": "kill",
+      "score": 1,
+      "terms": [
+        {
+          "identifier": "Nord",
+          "lexicon": "kill",
+          "preferredForm": "Nord"
+        }
+      ],
+      "label": "Kill",
+      "text": "Nord-"
+    },
+    {
+      "start": 222,
+      "end": 226,
+      "labelName": "wiki_lieu",
+      "score": 0.0729,
+      "terms": [
+        {
+          "identifier": "Q12661",
+          "lexicon": "wikidata",
+          "preferredForm": "Nord (département français)",
+          "score": 0.0729,
+          "properties": {
+            "wikidataId": "Q12661",
+            "P625": {
+              "latitude": 50.621388888889,
+              "longitude": 3.0322222222222,
+              "precision": 0.00027777777777778,
+              "globe": "http://www.wikidata.org/entity/Q2"
+            },
+            "wikipediaExternalRef": "1967025"
+          }
+        }
+      ],
+      "label": "Wiki Lieu",
+      "text": "Nord"
+    },
+    {
+      "start": 270,
+      "end": 290,
+      "labelName": "meta_equipement",
+      "score": 0.7403483986854553,
+      "label": "META Equipement",
+      "text": "missiles balistiques"
+    },
+    {
+      "start": 270,
+      "end": 290,
+      "labelName": "type_d_equipements",
+      "score": 0.9972298443317413,
+      "label": "Type d'équipement",
+      "text": "missiles balistiques"
+    }
+  ],
+  "identifier": "d8431704ff4d240960b6b6488fbc1d8b",
+  "title": "unknown test document"
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "text": "Environ 300 personnes ont protest\u00e9 samedi contre l'exercice dans le nord de l'Allemagne, arguant qu'il r\u00e9affirmait le rejet de n\u00e9gocier avec la Russie et aggravait une situation.\nNouvelles sanctions am\u00e9ricaines contre des Nord-Cor\u00e9ens impliqu\u00e9s dans le d\u00e9veloppement de\nmissiles balistiques...\n",
+    "identifier": "SHERPA-XXX7",
+    "title": "unknown test document",
+    "metadata": {
+      "language": "fr"
+    },
+    "sentences": [
+      {
+        "start": 0,
+        "end": 178
+      },
+      {
+        "start": 179,
+        "end": 293
+      }
+    ],
+    "annotations": [
+      {
+        "start": 68,
+        "end": 87,
+        "labelName": "lieu",
+        "label": "Lieu",
+        "text": "nord de l'Allemagne",
+        "score": 0.6345416009426117
+      },
+      {
+        "start": 144,
+        "end": 150,
+        "labelName": "loc_org",
+        "label": "G\u00e9opolitique",
+        "text": "Russie",
+        "score": 0.9657410383224487,
+        "terms": [
+          {
+            "identifier": "Q159",
+            "lexicon": "wikidata",
+            "preferredForm": "Russie",
+            "score": 0.1524,
+            "properties": {
+              "wikidataId": "Q159",
+              "P625": {
+                "latitude": 66.41666666666667,
+                "longitude": 94.25,
+                "precision": 0.016666666666666666,
+                "globe": "http://www.wikidata.org/entity/Q2"
+              },
+              "wikipediaExternalRef": "2549"
+            }
+          }
+        ]
+      },
+      {
+        "start": 199,
+        "end": 210,
+        "labelName": "loc_org",
+        "label": "G\u00e9opolitique",
+        "text": "am\u00e9ricaines",
+        "score": 0.7843815088272095,
+        "terms": [
+          {
+            "identifier": "Q30",
+            "lexicon": "wikidata",
+            "preferredForm": "\u00c9tats-Unis",
+            "score": 0.0729,
+            "properties": {
+              "wikidataId": "Q30",
+              "P625": {
+                "latitude": 39.828175,
+                "longitude": -98.5795,
+                "precision": 1e-06,
+                "globe": "http://www.wikidata.org/entity/Q2"
+              },
+              "wikipediaExternalRef": "1377936"
+            }
+          }
+        ]
+      },
+      {
+        "start": 222,
+        "end": 234,
+        "labelName": "loc_org",
+        "label": "G\u00e9opolitique",
+        "text": "Nord-Cor\u00e9ens",
+        "score": 0.9070083101590475
+      },
+      {
+        "start": 270,
+        "end": 290,
+        "labelName": "meta_equipement",
+        "label": "META Equipement",
+        "text": "missiles balistiques",
+        "score": 0.7403483986854553
+      },
+      {
+        "start": 270,
+        "end": 290,
+        "labelName": "type_d_equipements",
+        "label": "Type d'\u00e9quipement",
+        "text": "missiles balistiques",
+        "score": 0.9972298443317413
+      },
+      {
+        "start": 78,
+        "end": 87,
+        "labelName": "lieu",
+        "label": "Lieu",
+        "text": "Allemagne",
+        "score": 0.1524,
+        "terms": [
+          {
+            "identifier": "Q183",
+            "lexicon": "wikidata",
+            "preferredForm": "Allemagne",
+            "score": 0.1524,
+            "properties": {
+              "wikidataId": "Q183",
+              "P625": {
+                "latitude": 51,
+                "longitude": 10,
+                "precision": 1,
+                "globe": "http://www.wikidata.org/entity/Q2"
+              },
+              "wikipediaExternalRef": "1590005"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
