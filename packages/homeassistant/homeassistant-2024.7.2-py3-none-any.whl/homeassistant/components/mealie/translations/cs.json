@@ -1,0 +1,102 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Slu\u017eba je ji\u017e nastavena"
+        },
+        "error": {
+            "cannot_connect": "Nepoda\u0159ilo se p\u0159ipojit",
+            "invalid_auth": "Neplatn\u00e9 ov\u011b\u0159en\u00ed",
+            "unknown": "Neo\u010dek\u00e1van\u00e1 chyba"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_token": "Token API",
+                    "host": "URL"
+                },
+                "data_description": {
+                    "host": "Adresa URL va\u0161\u00ed instance Mealie."
+                }
+            }
+        }
+    },
+    "entity": {
+        "calendar": {
+            "breakfast": {
+                "name": "Sn\u00eddan\u011b"
+            },
+            "dinner": {
+                "name": "Ve\u010de\u0159e"
+            },
+            "lunch": {
+                "name": "Ob\u011bd"
+            },
+            "side": {
+                "name": "Dezert"
+            }
+        }
+    },
+    "exceptions": {
+        "add_item_error": {
+            "message": "P\u0159i p\u0159id\u00e1v\u00e1n\u00ed polo\u017eky do {shopping_list_name} do\u0161lo k chyb\u011b."
+        },
+        "connection_error": {
+            "message": "Chyba p\u0159i p\u0159ipojov\u00e1n\u00ed k instanci Mealie."
+        },
+        "delete_item_error": {
+            "message": "P\u0159i maz\u00e1n\u00ed polo\u017eky v {shopping_list_name} do\u0161lo k chyb\u011b."
+        },
+        "end_date_before_start_date": {
+            "message": "Datum ukon\u010den\u00ed mus\u00ed b\u00fdt pozd\u011bj\u0161\u00ed ne\u017e datum zah\u00e1jen\u00ed."
+        },
+        "integration_not_found": {
+            "message": "Integrace \"{target}\" nebyla nalezena v registru."
+        },
+        "item_not_found_error": {
+            "message": "Polo\u017eka {shopping_list_item} nebyla nalezena."
+        },
+        "not_loaded": {
+            "message": "{target} nen\u00ed na\u010dten."
+        },
+        "recipe_not_found": {
+            "message": "Recept s ID nebo s \"{recipe_id}\" nebyl nalezen."
+        },
+        "update_item_error": {
+            "message": "P\u0159i aktualizaci polo\u017eky v {shopping_list_name} do\u0161lo k chyb\u011b."
+        }
+    },
+    "services": {
+        "get_mealplan": {
+            "description": "Z\u00edskat j\u00eddeln\u00ed\u010dek od Mealie",
+            "fields": {
+                "config_entry_id": {
+                    "description": "Vyberte instanci Mealie, ze kter\u00e9 chcete z\u00edskat j\u00eddeln\u00ed\u010dek",
+                    "name": "Instance Mealie"
+                },
+                "end_date": {
+                    "description": "Kone\u010dn\u00e9 datum na\u010dten\u00ed dat (v\u00fdchoz\u00ed: dnes).",
+                    "name": "Datum ukon\u010den\u00ed"
+                },
+                "start_date": {
+                    "description": "Datum zah\u00e1jen\u00ed z\u00edsk\u00e1v\u00e1n\u00ed dat (v\u00fdchoz\u00ed: dnes).",
+                    "name": "Datum zah\u00e1jen\u00ed"
+                }
+            },
+            "name": "Z\u00edskat j\u00eddeln\u00ed\u010dek"
+        },
+        "get_recipe": {
+            "description": "Z\u00edsk\u00e1 recept od Mealie.",
+            "fields": {
+                "config_entry_id": {
+                    "description": "Vyberte instanci Mealie, ze kter\u00e9 chcete z\u00edskat j\u00eddeln\u00ed\u010dek",
+                    "name": "Instance Mealie"
+                },
+                "recipe_id": {
+                    "description": "ID receptu, kter\u00fd chcete z\u00edskat.",
+                    "name": "ID receptu"
+                }
+            },
+            "name": "Z\u00edskat recept"
+        }
+    }
+}

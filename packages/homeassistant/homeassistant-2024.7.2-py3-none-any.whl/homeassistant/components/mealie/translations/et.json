@@ -1,0 +1,102 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Teenus on juba seadistatud"
+        },
+        "error": {
+            "cannot_connect": "\u00dchendamine nurjus",
+            "invalid_auth": "Tuvastamine nurjus",
+            "unknown": "Ootamatu t\u00f5rge"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_token": "API v\u00f5ti",
+                    "host": "URL"
+                },
+                "data_description": {
+                    "host": "Mealie eksemplari URL."
+                }
+            }
+        }
+    },
+    "entity": {
+        "calendar": {
+            "breakfast": {
+                "name": "Hommikus\u00f6\u00f6k"
+            },
+            "dinner": {
+                "name": "\u00d5htus\u00f6\u00f6k"
+            },
+            "lunch": {
+                "name": "L\u00f5unas\u00f6\u00f6k"
+            },
+            "side": {
+                "name": "Oode"
+            }
+        }
+    },
+    "exceptions": {
+        "add_item_error": {
+            "message": "\u00dcksuse {shopping_list_name} lisamisel ilmnes t\u00f5rge."
+        },
+        "connection_error": {
+            "message": "Viga Mealie eksemplariga \u00fchenduse loomisel."
+        },
+        "delete_item_error": {
+            "message": "\u00dcksuse {shopping_list_name} kustutamisel ilmnes t\u00f5rge."
+        },
+        "end_date_before_start_date": {
+            "message": "L\u00f5pu kuup\u00e4ev peab olema hilisem kui alguskuup\u00e4ev."
+        },
+        "integration_not_found": {
+            "message": "Sidumist \"{target}\" ei leitud registrist"
+        },
+        "item_not_found_error": {
+            "message": "\u00dcksust {shopping_list_item} ei leitud."
+        },
+        "not_loaded": {
+            "message": "{target} pole laaditud."
+        },
+        "recipe_not_found": {
+            "message": "Retsepti ID v\u00f5i kirjeldusega ` {recipe_id} ` ei leitud."
+        },
+        "update_item_error": {
+            "message": "\u00dcksuse v\u00e4rskendamisel nimekirjas {shopping_list_name}ilmnes t\u00f5rge."
+        }
+    },
+    "services": {
+        "get_mealplan": {
+            "description": "Hangi Mealiest toitumiskava",
+            "fields": {
+                "config_entry_id": {
+                    "description": "Vali Mealie eksemplar, et saada toitumiskava",
+                    "name": "Mealie eksemplar"
+                },
+                "end_date": {
+                    "description": "Hangitavate andmete l\u00f5pu kuup\u00e4ev (vaikimisi: t\u00e4na).",
+                    "name": "L\u00f5pu kuup\u00e4ev"
+                },
+                "start_date": {
+                    "description": "Hangitavate andmete alguskuup\u00e4ev (vaikimisi: t\u00e4na).",
+                    "name": "Alguse kuup\u00e4ev"
+                }
+            },
+            "name": "Hangi toitumiskava"
+        },
+        "get_recipe": {
+            "description": "Hangi retsept Mealie'st",
+            "fields": {
+                "config_entry_id": {
+                    "description": "Vali Mealie eksemplar, et saada toitumiskava",
+                    "name": "Mealie eksemplar"
+                },
+                "recipe_id": {
+                    "description": "Hangitava retsepti ID v\u00f5i kirjeldus",
+                    "name": "Retsepti ID v\u00f5i kirjeldus"
+                }
+            },
+            "name": "Hangi retsept"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "host": "L'URL della tua istanza Mealie."
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "item_not_found_error": {
+            "message": "Oggetto {shopping_list_item} non trovato."
+        }
+    },
+    "services": {
+        "get_mealplan": {
+            "fields": {
+                "config_entry_id": {
+                    "name": "Istanza Mealie"
+                }
+            }
+        }
+    }
+}

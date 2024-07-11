@@ -1,0 +1,102 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Der Dienst ist bereits konfiguriert"
+        },
+        "error": {
+            "cannot_connect": "Verbindung fehlgeschlagen",
+            "invalid_auth": "Ung\u00fcltige Authentifizierung",
+            "unknown": "Unerwarteter Fehler"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_token": "API-Token",
+                    "host": "URL"
+                },
+                "data_description": {
+                    "host": "Die URL deiner Mealie-Instanz."
+                }
+            }
+        }
+    },
+    "entity": {
+        "calendar": {
+            "breakfast": {
+                "name": "Fr\u00fchst\u00fcck"
+            },
+            "dinner": {
+                "name": "Abendessen"
+            },
+            "lunch": {
+                "name": "Mittagessen"
+            },
+            "side": {
+                "name": "Seite"
+            }
+        }
+    },
+    "exceptions": {
+        "add_item_error": {
+            "message": "Beim Hinzuf\u00fcgen eines Artikels zu {shopping_list_name} ist ein Fehler aufgetreten."
+        },
+        "connection_error": {
+            "message": "Fehler beim Verbinden mit der Mealie-Instanz."
+        },
+        "delete_item_error": {
+            "message": "Beim L\u00f6schen eines Artikels in {shopping_list_name} ist ein Fehler aufgetreten."
+        },
+        "end_date_before_start_date": {
+            "message": "Das Enddatum muss nach dem Startdatum liegen."
+        },
+        "integration_not_found": {
+            "message": "Integration \u201e{target}\u201c nicht in der Registrierung gefunden."
+        },
+        "item_not_found_error": {
+            "message": "Artikel {shopping_list_item} nicht gefunden."
+        },
+        "not_loaded": {
+            "message": "{target} ist nicht geladen."
+        },
+        "recipe_not_found": {
+            "message": "Rezept mit ID oder Slug \u201e{recipe_id}\u201c nicht gefunden."
+        },
+        "update_item_error": {
+            "message": "Beim Aktualisieren eines Artikels in {shopping_list_name} ist ein Fehler aufgetreten."
+        }
+    },
+    "services": {
+        "get_mealplan": {
+            "description": "Hole den Essensplan von Mealie",
+            "fields": {
+                "config_entry_id": {
+                    "description": "W\u00e4hle die Mealie-Instanz aus, von der du den Speiseplan abrufen m\u00f6chtest",
+                    "name": "Mealie-Instanz"
+                },
+                "end_date": {
+                    "description": "Das Enddatum der abzurufenden Daten (Standard: heute).",
+                    "name": "Enddatum"
+                },
+                "start_date": {
+                    "description": "Das Startdatum der abzurufenden Daten (Standard: heute).",
+                    "name": "Startdatum"
+                }
+            },
+            "name": "Essensplan abrufen"
+        },
+        "get_recipe": {
+            "description": "Rezept von Mealie holen",
+            "fields": {
+                "config_entry_id": {
+                    "description": "W\u00e4hle die Mealie-Instanz aus, von der du den Speiseplan abrufen m\u00f6chtest",
+                    "name": "Mealie-Instanz"
+                },
+                "recipe_id": {
+                    "description": "Die Rezept-ID oder der Slug des abzurufenden Rezepts.",
+                    "name": "Rezept-ID oder Slug"
+                }
+            },
+            "name": "Rezept abrufen"
+        }
+    }
+}
