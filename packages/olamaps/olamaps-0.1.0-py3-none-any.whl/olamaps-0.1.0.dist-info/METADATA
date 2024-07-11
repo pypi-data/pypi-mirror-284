@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: olamaps
+Version: 0.1.0
+Summary: Python client library for Ola Maps API Web Services
+Author: adayush
+Author-email: adayush0@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.9.5,<4.0.0)
+Requires-Dist: pytest (>=8.2.2,<9.0.0)
+Requires-Dist: pytest-asyncio (>=0.23.7,<0.24.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+
