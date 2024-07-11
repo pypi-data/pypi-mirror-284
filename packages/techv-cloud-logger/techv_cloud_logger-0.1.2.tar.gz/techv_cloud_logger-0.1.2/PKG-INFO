@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: techv_cloud_logger
+Version: 0.1.2
+Summary: A logger implementation for AWS, GCP, and local logging.
+Author: TechVedika
+Author-email: ibrarhussain.ansari@techvedika.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: boto3
+Requires-Dist: google-cloud-logging
+Requires-Dist: python-dotenv
+Requires-Dist: colorama
