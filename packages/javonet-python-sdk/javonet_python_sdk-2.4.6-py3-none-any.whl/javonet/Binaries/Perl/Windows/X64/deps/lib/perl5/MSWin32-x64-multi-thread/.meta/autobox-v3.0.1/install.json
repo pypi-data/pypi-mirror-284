@@ -1,0 +1,1 @@
+{"dist":"autobox-v3.0.1","pathname":"C/CH/CHOCOLATE/autobox-v3.0.1.tar.gz","version":"3.000001","provides":{"autobox":{"file":"lib/autobox.pm","version":"3.000001"},"autobox::universal":{"file":"lib/autobox/universal.pm"}},"name":"autobox","target":"autobox::universal"}
