@@ -1,0 +1,10 @@
+recursive-include xpuz/locales/*/LC_MESSAGES *.mo
+recursive-include xpuz/locales/*/cwords *
+recursive-include xpuz/app/static *
+recursive-include xpuz/app/templates *
+recursive-include xpuz/base_cwords *
+recursive-include xpuz/assets *
+recursive-include xpuz/data *
+include xpuz/babel.cfg
+include xpuz/template.config.ini
+include RENAMED.md
