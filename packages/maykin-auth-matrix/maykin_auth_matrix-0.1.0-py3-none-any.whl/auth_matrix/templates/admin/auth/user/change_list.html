@@ -1,0 +1,27 @@
+{% extends "admin/change_list.html" %}
+
+{% block extrastyle %}
+{{ block.super }}
+<style>
+    .extra {
+        padding: 1em;
+    }
+
+    .is-flex {
+        display: flex;
+    }
+</style>
+{% endblock extrastyle %}
+
+
+{% block pagination %}
+    {{ block.super }}
+    {% if request.user.is_superuser %}
+    <div class='extra is-flex'>
+        <h3>Extra Actions :</h3>
+        <a href="{% url 'authorization_matrix' %}" class="button mt">
+            Show  the authorization matrix
+        </a>
+    </div>
+    {% endif %}
+{% endblock pagination %}

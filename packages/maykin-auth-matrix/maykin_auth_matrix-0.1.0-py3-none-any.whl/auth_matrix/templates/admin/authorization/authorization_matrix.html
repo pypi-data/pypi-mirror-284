@@ -1,0 +1,66 @@
+{% extends "admin/base_site.html" %}
+
+{% block extrastyle %}
+{{ block.super }}
+<style>
+    .matrix-table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+    .matrix-table th,
+    .matrix-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    }
+
+    .matrix-table th {
+    background-color: #f2f2f2;
+    }
+    td.cell-center{
+    text-align: center !important;
+    font-weight: bold;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1> Authorization Matrix </h1>
+
+<h2>User-Group Matrix</h1>
+<table class="matrix-table">
+    <tr>
+        <th>User</th>
+        {% for group in groups %}
+        <th>{{ group.name }}</th>
+        {% endfor %}
+    </tr>
+    {% for row in user_group_matrix %}
+    <tr>
+        <td>{{ row.user.username }}</td>
+        {% for in_group in row.groups %}
+        <td class="cell-center">{% if in_group %}x{% endif %}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Group-Permission Matrix</h1>
+<table class="matrix-table">
+    <tr>
+        <th>Permission</th>
+        {% for group in groups %}
+        <th>{{ group.name }}</th>
+        {% endfor %}
+    </tr>
+    {% for row in group_permission_matrix %}
+    <tr>
+        <td>{{ row.permission.name }}</td>
+        {% for has_permission in row.groups %}
+        <td class="cell-center">{% if has_permission %}x{% endif %}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+{% endblock content %}

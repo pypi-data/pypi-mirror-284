@@ -1,0 +1,15 @@
+auth_matrix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auth_matrix/admin.py,sha256=5HVEd5REYmOfE55LZsF7DB3tG0C410ouUW9RZoDxt0Q,4143
+auth_matrix/admin_urls.py,sha256=S67sR6e0LDJJVsKtElG4aRdvhkr7ReUW4vB5MSHv-9E,213
+auth_matrix/admin_views.py,sha256=Q1Xtb3hKUrgmIOfBw2cpqqqiA8wKs9uRD-C43lbfwj4,1380
+auth_matrix/apps.py,sha256=8vE8CG_xWcQZXxjIaHdZtp-WC815fQLI0Me2ZzDMQX0,96
+auth_matrix/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auth_matrix/templates/admin/accounts/user/change_list.html,sha256=3UkElFoZrkWij9p3YATc_SSVtM-1t165LKtHYREtpAw,539
+auth_matrix/templates/admin/auth/group/change_list.html,sha256=3UkElFoZrkWij9p3YATc_SSVtM-1t165LKtHYREtpAw,539
+auth_matrix/templates/admin/auth/user/change_list.html,sha256=3UkElFoZrkWij9p3YATc_SSVtM-1t165LKtHYREtpAw,539
+auth_matrix/templates/admin/authorization/authorization_matrix.html,sha256=gsgtLIImLhpJW-_YvC3vI_y1keEyak10LY6iJyAMjwA,1440
+maykin_auth_matrix-0.1.0.dist-info/LICENSE,sha256=87pUHaou8NqIUh5tMpEmPuogLtiHVZGuAhucRdLUk8g,1052
+maykin_auth_matrix-0.1.0.dist-info/METADATA,sha256=JJrev9x0G3-THGedtwInwliRkUtKlcFErlU0A_basek,5224
+maykin_auth_matrix-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+maykin_auth_matrix-0.1.0.dist-info/top_level.txt,sha256=zLinq1j_I0H_W5vEQ6QuyIf_BF_SFml7GYYWYt9vbOY,12
+maykin_auth_matrix-0.1.0.dist-info/RECORD,,
