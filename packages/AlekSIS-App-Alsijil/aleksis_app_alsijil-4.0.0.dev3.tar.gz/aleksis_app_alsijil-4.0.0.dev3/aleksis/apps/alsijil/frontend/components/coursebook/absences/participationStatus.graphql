@@ -1,0 +1,55 @@
+mutation updateParticipationStatuses(
+  $input: [BatchPatchParticipationStatusInput]!
+) {
+  updateParticipationStatuses(input: $input) {
+    items: participationStatuses {
+      id
+      isOptimistic
+      relatedDocumentation {
+        id
+      }
+      absenceReason {
+        id
+        name
+        shortName
+        colour
+      }
+      tardiness
+    }
+  }
+}
+
+mutation touchDocumentation($documentationId: ID!) {
+  touchDocumentation(documentationId: $documentationId) {
+    items: documentation {
+      id
+      participations {
+        id
+        person {
+          id
+          firstName
+          fullName
+        }
+        absenceReason {
+          id
+          name
+          shortName
+          colour
+        }
+        notesWithExtraMark {
+          id
+          extraMark {
+            id
+            showInCoursebook
+          }
+        }
+        notesWithNote {
+          id
+          note
+        }
+        tardiness
+        isOptimistic
+      }
+    }
+  }
+}
