@@ -1,0 +1,14 @@
+phone_gen/__init__.py,sha256=Y5cbwoi5vsQr-f5kFFTOcnixvdkjbM0EVx9pK928NDs,1030
+phone_gen/__version__.py,sha256=96JBYmXxBxLCNRKu95ffLFKQM_rv11Js4FJh3Rt8e6I,413
+phone_gen/_generator.py,sha256=8W9FyuqZcrDz4Xqg0wzIIRqwdtxMGxdgdjWQSMLUWmE,10422
+phone_gen/alt_patterns.py,sha256=gE9k33zvsMv3T8mYGAvf3NTYufpwE1mFSVHck1GHzKU,562
+phone_gen/cli.py,sha256=brzMtp-t239RILDyHncnrjPzSW1AbC63-EOBFOaloxU,1478
+phone_gen/country_name.py,sha256=xYNKONAw1hONMZtMfocQNd6nB8OeLBShDedb8EjjinM,16599
+phone_gen/iso3.py,sha256=cVwoh2nbY2wGzcTAkrV2P5ISpGgtRHCExrWsq9Gl1vY,6932
+phone_gen/patterns.py,sha256=hnMySJnLAoRJczIlRXxpEiBFLhR446UqPzTpr-Oi6V8,88658
+phone_gen-2.4.10.dist-info/LICENSE,sha256=rIUWZBoK2vPxnSn6Gm25N4HK7E9aKf97fMlmimBBioM,1067
+phone_gen-2.4.10.dist-info/METADATA,sha256=nD196ts2yUHAgpxxnhXn1Bw4SUqi7kG_zjdRTDRARic,4729
+phone_gen-2.4.10.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+phone_gen-2.4.10.dist-info/entry_points.txt,sha256=6q_-1g_rYfSzGAkzJSByjU58pSaos8aAcDUlCSgVQbo,49
+phone_gen-2.4.10.dist-info/top_level.txt,sha256=cX_kXxByWyh_ur7NKWya4UviV7vSqkVhZrJrFi4637s,10
+phone_gen-2.4.10.dist-info/RECORD,,
