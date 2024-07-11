@@ -1,0 +1,7 @@
+hdlfs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hdlfs/hdlfs.py,sha256=eF5NTqP_W32j-_aOX6GnICV0V5y3vRGZcTJ0Vl0EaX0,18839
+hdlfs/hdlfsystem.py,sha256=zjwOaSzLX_D8uciSMjA4Dw01C-8uBWs0pb1g7UgJfqU,2616
+pyhdlfs-0.0.7.dist-info/METADATA,sha256=3k75t8cVN8mm2RUiAbgTXhkOKnogSGGclGIrIpmUYPc,8490
+pyhdlfs-0.0.7.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pyhdlfs-0.0.7.dist-info/entry_points.txt,sha256=qjGMcVCn6hJOmcW0s_7GK3ixOAYj8F22n0i2C2ZeZlI,44
+pyhdlfs-0.0.7.dist-info/RECORD,,
