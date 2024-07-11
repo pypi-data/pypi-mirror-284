@@ -1,0 +1,19 @@
+perplexity.tools.perplexity_api_tool.get_perplexity_result:
+  function: get_perplexity_result
+  inputs:
+    url:
+      type:
+      - string
+    api_key:
+      type:
+      - string
+    model:
+      type:
+      - string
+    chat_input:
+      type:
+      - string
+  module: perplexity.tools.perplexity_api_tool
+  name: perplexity response tool
+  description: This is perplexity response tool
+  type: python

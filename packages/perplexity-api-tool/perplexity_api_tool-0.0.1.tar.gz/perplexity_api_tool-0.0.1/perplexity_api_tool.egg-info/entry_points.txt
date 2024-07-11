@@ -1,0 +1,2 @@
+[package_tools]
+perplexity_api_tool = perplexity.tools.utils:list_package_tools
