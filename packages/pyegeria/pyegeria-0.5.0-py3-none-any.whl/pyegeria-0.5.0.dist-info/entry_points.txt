@@ -1,0 +1,5 @@
+[console_scripts]
+list_asset_types=examples.widgets.developer.list_asset_types:main
+view_my_todos=examples.widgets.personal_organizer.view_my_todos:main
+view_server_status=examples.widgets.operational.view_server_status:main
+
