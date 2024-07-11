@@ -1,0 +1,10 @@
+pocketbase/__init__.py,sha256=PxiWwVTQr991N6uvojk5B4Ih-r6bHkXZtLISQKYWL6g,26
+pocketbase/pb.py,sha256=J4PBDyClqoHwqYDI5a2JbxK_JSzi3hZTGc87HahOMso,1492
+pocketbase/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pocketbase/db/collection.py,sha256=6R_3HvUMJ3PxF5tsyqCSdtplVKFeyircclfj-eHhrKY,3127
+pocketbase/deps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pocketbase/deps/auths.py,sha256=IjbzB-QvZqZRYawF7fMYuAf4zh_jYmx_7dtMzZxZpb4,720
+pocketpybase-0.1.3.dist-info/METADATA,sha256=aD-OtreuITXMBDOUc0o1kAbjvXxUBvm6C3k88hqOZgc,1836
+pocketpybase-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pocketpybase-0.1.3.dist-info/top_level.txt,sha256=0L8hQHrpYoKnBRhuwkTb6oVGYmaJ3tg9Dmi6mCxWHxk,11
+pocketpybase-0.1.3.dist-info/RECORD,,
