@@ -1,0 +1,2 @@
+[console_scripts]
+treezor = tree:main
