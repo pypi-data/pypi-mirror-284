@@ -1,0 +1,4 @@
+boto3
+google-cloud-logging
+python-dotenv
+colorama
