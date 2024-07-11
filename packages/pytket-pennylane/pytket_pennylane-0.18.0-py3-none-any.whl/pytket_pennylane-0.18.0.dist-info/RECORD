@@ -1,0 +1,10 @@
+pytket/extensions/pennylane/__init__.py,sha256=9gbPkSbnEJPkR7UCJ-SUDF-iY_OEmPjeeZoCvWpvP7A,731
+pytket/extensions/pennylane/_metadata.py,sha256=lSkzLA1EXfq0M1zyTLcIik0ywaYfV2b2gosokUlVshg,73
+pytket/extensions/pennylane/pennylane_convert.py,sha256=hem1m0S089ogCAGcdqlVfL75i2zI1o7kgTm74M2MDB4,3600
+pytket/extensions/pennylane/pytket_device.py,sha256=1FNmqAaIwlEugLX8eqG0nbEbKIbFqF1lQ1yDCPQ3iPc,6657
+pytket_pennylane-0.18.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytket_pennylane-0.18.0.dist-info/METADATA,sha256=JgA-MC5dwsq-sNAngUwpXh8-3Ara3h5llcZ4e1l59lo,4267
+pytket_pennylane-0.18.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+pytket_pennylane-0.18.0.dist-info/entry_points.txt,sha256=QMxmLaiyW0CkB11ix3y_UssMos9bA3y6PmfwVLFvZM8,83
+pytket_pennylane-0.18.0.dist-info/top_level.txt,sha256=GsvCQQpJ7P8Vrx4ydtbjs36yufXiD59vSbbQFtFgcQ0,7
+pytket_pennylane-0.18.0.dist-info/RECORD,,
