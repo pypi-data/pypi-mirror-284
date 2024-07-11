@@ -1,0 +1,7 @@
+README.md
+setup.py
+optimizacionelipaquete.egg-info/PKG-INFO
+optimizacionelipaquete.egg-info/SOURCES.txt
+optimizacionelipaquete.egg-info/dependency_links.txt
+optimizacionelipaquete.egg-info/requires.txt
+optimizacionelipaquete.egg-info/top_level.txt
