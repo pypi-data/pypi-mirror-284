@@ -1,0 +1,10 @@
+eclipse_zenoh-1.0.0a4.dist-info/METADATA,sha256=8E-H7wO6LS0wtybBeqdeDxr4gjY3xsThR_62Fwx-ilw,6344
+eclipse_zenoh-1.0.0a4.dist-info/WHEEL,sha256=AIJRCpHlPkmNqwQG-VvbmvNUTaAlmozkR8WHjPH8Bi4,94
+eclipse_zenoh-1.0.0a4.dist-info/license_files/LICENSE,sha256=bfA36L5rA6VZwYOLaJZ-uwEhggVgwDaxsd2PeMblc0A,24830
+eclipse_zenoh-1.0.0a4.dist-info/license_files/NOTICE.md,sha256=KbiACT5v2OzXY9lpOBxhFExU9lYMAazsjKgzVlV6vHg,1293
+zenoh/handlers.pyi,sha256=SSUReM9iGFx-xVb8t3gVEYQrFtucveQQac_JtNGl3bA,1839
+zenoh/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zenoh/__init__.py,sha256=HzXSLBaGstZy8sg6DRNfV_7LfrBMnXWqkG03-slgAoM,487
+zenoh/__init__.pyi,sha256=mYxVcQFN92dhArsMT-OMoVmMRGqj6PMniz01Q1osL3U,38397
+zenoh/zenoh.pyd,sha256=dyoelplY8joKMDAsz2vVHa8XgqU22rywVCyhv_-tUY4,19178496
+eclipse_zenoh-1.0.0a4.dist-info/RECORD,,
