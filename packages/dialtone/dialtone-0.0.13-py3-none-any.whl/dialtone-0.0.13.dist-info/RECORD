@@ -1,0 +1,9 @@
+dialtone/__init__.py,sha256=BzGZ6jP-VbUWZ99ay2ItxEG-gMvI8CQ6WLUKlLayu0U,158
+dialtone/async_dialtone.py,sha256=_gYIuVV04XUa8iXDzPlFk_MK27pGbDazq3oAWNTKbBY,6727
+dialtone/dialtone.py,sha256=iZ_dH-t20V12rORmYVbRMfvdRg1uNL01EX9iiMGQXlw,6519
+dialtone/types.py,sha256=8bcUYhE3oCTRcFVUlFBxG1he-3PPkZMlYaBdlocpyec,10190
+dialtone/utils.py,sha256=wz1rIXnZCZIDNDJDZ8pr2676zXrvpwLJnfe2SWuGsXw,2392
+dialtone-0.0.13.dist-info/LICENSE,sha256=nkjYLrQQyuCDGqYFA_mS0I_bQQOSP7DtLiPKoqtno5k,1068
+dialtone-0.0.13.dist-info/METADATA,sha256=hqazFf0l8rUadU540OuITGRs5EXzx-5_mobid4vpJ2s,2605
+dialtone-0.0.13.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dialtone-0.0.13.dist-info/RECORD,,
