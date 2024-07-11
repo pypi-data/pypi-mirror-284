@@ -1,0 +1,14 @@
+myjwt/Exception.py,sha256=hgJkjrpeN5GNJ6RzdcUoshSPYc4cdqCW4i42eTeVPZs,576
+myjwt/__init__.py,sha256=lLHYwiE0Ad3SQE8Vc5OdtZc2-5f3p9pJazmviRFZlDk,99
+myjwt/modify_jwt.py,sha256=QCqBcjMKXyXEH3Ic1ouBUX2KC1hNkmu_SA6ciWqZRDU,4847
+myjwt/myjwt_cli.py,sha256=xbRfmI1ijPUiq-KFP65asR5_jtosa-IK3RzDQv8nyLw,9780
+myjwt/user_interface.py,sha256=oMA5sdcu73fjvyNb_8-CK_KHU1pzJFQk3B1L3t5EpEI,9984
+myjwt/utils.py,sha256=0rl95tC4QXh1yUI2E8VT5tXn98vZ8yOP2kodB7WdAWQ,4542
+myjwt/variables.py,sha256=eRHKl2C1CWfSJ25t7l3vslLL4N9nMJxSJTyvD9WEkPM,4794
+myjwt/vulnerabilities.py,sha256=sAuvjzk5tgeGFpSPDRgC0rOvCEXMxulBSIoOkvfM8LE,8048
+myjwt-2.1.0.dist-info/LICENSE,sha256=cBQbMTZejTR9dGN-DyRAYYWwPvkHu5sEK0cI_kB0g4s,1074
+myjwt-2.1.0.dist-info/METADATA,sha256=jzxr8tnjwpU5vaQjls1ryAnuDRO759kJLtTCFhUkuto,14234
+myjwt-2.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+myjwt-2.1.0.dist-info/entry_points.txt,sha256=fAWZPsG2qNLgjk3xX_UXl-5FIPUXz621jHgodtFpAKI,52
+myjwt-2.1.0.dist-info/top_level.txt,sha256=gxLBQSwbSVhpc1T-zw0BuiMOdOLoVxaYyb1qKTZtYPQ,6
+myjwt-2.1.0.dist-info/RECORD,,
