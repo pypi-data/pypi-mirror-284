@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+InfluxAlert.egg-info/PKG-INFO
+InfluxAlert.egg-info/SOURCES.txt
+InfluxAlert.egg-info/dependency_links.txt
+InfluxAlert.egg-info/not-zip-safe
+InfluxAlert.egg-info/top_level.txt
+tests/test.py
