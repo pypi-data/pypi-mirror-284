@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run eval_func",
+            "type": "shell",
+            "command": "python3 -m tests.eval_func",
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "run add_prime",
+            "type": "shell",
+            "command": "python3 -m bin.add_prime",
+            "problemMatcher": [],
+            "group": {
+                "kind": "none",
+                "isDefault": true
+            }
+        }
+    ]
+}
