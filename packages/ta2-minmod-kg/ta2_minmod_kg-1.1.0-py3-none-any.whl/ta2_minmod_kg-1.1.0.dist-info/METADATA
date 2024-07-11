@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ta2-minmod-kg
+Version: 1.1.0
+Summary: code repository for TA2 Knowledge Graph (MinMod) construction & deployment
+License: MIT
+Author: Binh Vu
+Author-email: bvu687@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.111.0,<0.112.0)
+Requires-Dist: networkx (>=2.8.8,<3.0.0)
+Requires-Dist: statickg (>=1.5.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# ta2-minmod-kg
+code repository for TA2 Knowledge Graph (MinMod) construction &amp; deployment
+
+## Repository Structure
+
+- `/validators` (https://github.com/DARPA-CRITICALMAAS/ta2-minmod-kg/tree/main/validators): 
+  - This directory holds python scripts that are used for validating the format of json and ttl files before the data gets added to a knowledge graph
+- `/generator` (https://github.com/DARPA-CRITICALMAAS/ta2-minmod-kg/tree/main/generator):
+    - This directory holds python scripts that are used for generating ttl files that are used for adding data to knowledge graph
+- `/deployment` (https://github.com/DARPA-CRITICALMAAS/ta2-minmod-kg/tree/main/deployment):
+    - This directory contains the script that runs on a virtual machine and deploys the generated ttl files to SPARQL endpoint
+
