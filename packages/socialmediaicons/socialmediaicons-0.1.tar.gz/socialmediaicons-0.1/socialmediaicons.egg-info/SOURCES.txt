@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+setup.py
+Streamlit-socialmedia/Streamlit_socialmedia.py
+Streamlit-socialmedia/__init__.py
+socialmediaicons.egg-info/PKG-INFO
+socialmediaicons.egg-info/SOURCES.txt
+socialmediaicons.egg-info/dependency_links.txt
+socialmediaicons.egg-info/entry_points.txt
+socialmediaicons.egg-info/requires.txt
+socialmediaicons.egg-info/top_level.txt

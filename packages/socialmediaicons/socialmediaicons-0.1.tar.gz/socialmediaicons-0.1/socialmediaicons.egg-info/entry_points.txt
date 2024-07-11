@@ -1,0 +1,2 @@
+[console_scripts]
+streamlit_socialmedia = streamlit_socialmedia.__main__:main
