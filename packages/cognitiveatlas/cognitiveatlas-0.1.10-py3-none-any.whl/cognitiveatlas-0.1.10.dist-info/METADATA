@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cognitiveatlas
+Version: 0.1.10
+Summary: python wrapper for the cognitive atlas (cognitiveatlas.org) RESTful API
+Home-page: https://github.com/CognitiveAtlas/cogat-python
+Author: Poldracklab
+Author-email: rblair2@stanford.edu
+License: MIT
+Keywords: cogniive atlas cognition behavioral paradigm ontology
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+
