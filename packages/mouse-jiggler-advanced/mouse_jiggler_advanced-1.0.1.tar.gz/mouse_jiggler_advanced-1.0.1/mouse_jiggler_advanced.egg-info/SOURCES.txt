@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+mouse_jiggler_advanced.egg-info/PKG-INFO
+mouse_jiggler_advanced.egg-info/SOURCES.txt
+mouse_jiggler_advanced.egg-info/dependency_links.txt
+mouse_jiggler_advanced.egg-info/entry_points.txt
+mouse_jiggler_advanced.egg-info/requires.txt
+mouse_jiggler_advanced.egg-info/top_level.txt
