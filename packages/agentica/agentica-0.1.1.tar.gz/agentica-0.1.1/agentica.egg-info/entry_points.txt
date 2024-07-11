@@ -1,0 +1,3 @@
+[console_scripts]
+agentica = agentica.cli:main
+

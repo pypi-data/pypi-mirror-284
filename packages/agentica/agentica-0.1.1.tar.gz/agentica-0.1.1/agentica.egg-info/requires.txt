@@ -1,0 +1,6 @@
+loguru
+beautifulsoup4
+fire
+openai
+python-dotenv
+pydantic
