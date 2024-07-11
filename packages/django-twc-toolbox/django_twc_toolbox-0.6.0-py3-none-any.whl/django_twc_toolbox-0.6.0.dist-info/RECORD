@@ -1,0 +1,16 @@
+django_twc_toolbox/__init__.py,sha256=tDmJrCoMnTWOaUAnBYBY48wsSarsN9Di9ROGO67UwBE,91
+django_twc_toolbox/admin.py,sha256=GYuolFzhkCRkzmeQN1jEoIVtBgpj_Jhep5v4iBwEszE,1418
+django_twc_toolbox/apps.py,sha256=D2FSyXayq46YBCuywG-zUSedNAHWFG2D3wIsLu2E3y0,178
+django_twc_toolbox/fields.py,sha256=IJdlfq26Cp2RZtpj1xukL6BNyKYUOK7LwZBLQ7LpAdY,260
+django_twc_toolbox/models.py,sha256=4ndaA0n1BwxQYIyskUDFbyt0GWiyk_GX1x1KHwle8p0,3539
+django_twc_toolbox/paginator.py,sha256=dPESeN66tO0PCMrl0NTp_SdD8r3RdV2nl4hMphVqRYE,10825
+django_twc_toolbox/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_twc_toolbox/types.py,sha256=S8fICyIL9zw1yeKrDm0yF64647T0wgnOc8aj6McZ5CI,620
+django_twc_toolbox/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_twc_toolbox/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_twc_toolbox/management/commands/createsuperuser.py,sha256=F3nAlRqrD6mTFhJ53jn65gwo07MAZHckcM9UPkuXYyk,860
+django_twc_toolbox-0.6.0.dist-info/METADATA,sha256=Iv04mBmMhF03_AljeoVeY70QlATSKXzr3B2K7mGFF1M,4868
+django_twc_toolbox-0.6.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+django_twc_toolbox-0.6.0.dist-info/licenses/AUTHORS.md,sha256=pTEWsGysn8B0Zp5Z0POWlB11KNwtSmPhDjadNVq--7E,47
+django_twc_toolbox-0.6.0.dist-info/licenses/LICENSE,sha256=FdZMz6vbhB-ED2GVlYRwrdBMVlSMXYNhWa2q7KK_5IY,1068
+django_twc_toolbox-0.6.0.dist-info/RECORD,,
