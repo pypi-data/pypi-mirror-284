@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nuvo_tuner
+Version: 0.9
+Summary: Python API for talking to Nuvo radio tuners
+Home-page: https://github.com/brmccrary/pynuvo_tuner
+Author: bmccrary
+Author-email: bmccrary@shcircuit.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial>=3.4
+
+# pynuvo
+Python3 interface implementation for Nuvo radio tuners
+
+## Notes
+This is for use with [Home-Assistant](http://home-assistant.io)
+
+## Usage
+```python
+
+```
