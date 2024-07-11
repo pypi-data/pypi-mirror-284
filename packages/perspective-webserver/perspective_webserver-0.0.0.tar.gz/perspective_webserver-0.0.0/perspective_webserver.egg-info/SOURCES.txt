@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+perspective_webserver.egg-info/PKG-INFO
+perspective_webserver.egg-info/SOURCES.txt
+perspective_webserver.egg-info/dependency_links.txt
+perspective_webserver.egg-info/top_level.txt
