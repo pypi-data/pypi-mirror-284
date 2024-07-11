@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ghog
+Version: 0.0.1
+Summary: Processor and utilities the Groundhog ground penetrating radar system.
+Author: Michael Christoffersen
+Author-email: mchristo28@gmail.com
+Project-URL: documentation, https://github.com/mchristoffersen/ghog/wiki
+Project-URL: repository, https://github.com/mchristoffersen/ghog
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: h5py
+Requires-Dist: pyproj
+Requires-Dist: tqdm
+
+# groundhog
+Software for ground-based radar sounder using an impulse source and an Ettus X310 to receive.
+
+control - control software for the radar (runs the X310)  
+process - processing software
