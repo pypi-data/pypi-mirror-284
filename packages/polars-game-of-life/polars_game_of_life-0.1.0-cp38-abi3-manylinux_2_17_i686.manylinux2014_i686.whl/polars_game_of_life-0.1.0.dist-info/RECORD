@@ -1,0 +1,7 @@
+polars_game_of_life-0.1.0.dist-info/METADATA,sha256=XBW8dN0V-Mya45iWBlr18CEivPOlbeA8r84rc0_BHdw,1578
+polars_game_of_life-0.1.0.dist-info/WHEEL,sha256=awDQAKagYP93OOzGrYTZyQ-_ZLCeXo00dn_DWfYPK9s,123
+polars_game_of_life-0.1.0.dist-info/license_files/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+game_of_life/__init__.py,sha256=xXSKN7W6gW66ss6tFnIbciwBVka_2byJ6Am8h7H375U,3558
+game_of_life/utils.py,sha256=LkGZXjOBXriHf8d9zwKf55rFeGJduar2Ox73l9Htgz8,2363
+game_of_life/game_of_life.abi3.so,sha256=9RE4zH7jKvUZn-rvffbOZmpc9qMXV2X8gv7jQSDWIqE,15941012
+polars_game_of_life-0.1.0.dist-info/RECORD,,
