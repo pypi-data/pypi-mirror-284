@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+patha_svarantaranam/__init__.py
+patha_svarantaranam/tts.py
+patha_svarantaranam.egg-info/PKG-INFO
+patha_svarantaranam.egg-info/SOURCES.txt
+patha_svarantaranam.egg-info/dependency_links.txt
+patha_svarantaranam.egg-info/requires.txt
+patha_svarantaranam.egg-info/top_level.txt
