@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/stringops/__init__.py
+src/stringops/exceptions.py
+src/stringops/manipulation.py
+src/stringops/read.py
+src/stringops.egg-info/PKG-INFO
+src/stringops.egg-info/SOURCES.txt
+src/stringops.egg-info/dependency_links.txt
+src/stringops.egg-info/top_level.txt
+tests/test_manipulations.py
+tests/test_read.py
