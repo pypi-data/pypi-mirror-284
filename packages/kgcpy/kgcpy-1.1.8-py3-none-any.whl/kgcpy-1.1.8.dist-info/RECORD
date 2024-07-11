@@ -1,0 +1,12 @@
+kgcpy/__init__.py,sha256=anjtjL47WNt18PBPUwBqdYABK1FT4N2fA6xqfmvp_OE,5431
+kgcpy/df_quantile.csv,sha256=ChwrVmCyQaVhfbClXyV3UUuFPLfiSNYidOfNJSVhJeU,3465
+kgcpy/kg_zoneNum.csv,sha256=Jl7AvygZEpHqStZbReE-h203pZXXW62oJOIrnoV9_Mo,315
+kgcpy/kgcities.csv,sha256=fzuY-ae3VBy8WyFuIH7jdzMYKduubhxG40mX36SQbuU,5698
+kgcpy/kmz_int_reshape.png,sha256=QoEFcTYcDaFB1y011LAnjFtAwQmwwweIH9uBUFgWp90,451255
+kgcpy/test_functions.py,sha256=r_L5DlMf8iZ4n6M9OpUIzAmkTHHUFnEJtbrANEbysu8,3925
+kgcpy/zipcodes.csv,sha256=zO6HtSw5MZJlaHXpCCF2lzBPRw6AHOgfzsHMx4KapXM,1081849
+kgcpy-1.1.8.dist-info/LICENSE.txt,sha256=9biXssb66GqvExW125IyxLT6hoUmoDG92BimV-YbTUM,1520
+kgcpy-1.1.8.dist-info/METADATA,sha256=uLzxxgcdgBQcxJEuXJNDWAlOKwAhG8VB_3Q__OX2ZMA,5147
+kgcpy-1.1.8.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+kgcpy-1.1.8.dist-info/top_level.txt,sha256=Ubel7FqlomyLYGzTJtSDUmojapD-FrE_ttB1dj7tdPs,6
+kgcpy-1.1.8.dist-info/RECORD,,
