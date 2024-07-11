@@ -1,0 +1,8 @@
+include *.rst
+include LICENSE
+include auth_matrix/py.typed
+recursive-include auth_matrix *.html
+recursive-include auth_matrix *.txt
+recursive-include auth_matrix *.po
+global-exclude __pycache__
+global-exclude *.py[co]
