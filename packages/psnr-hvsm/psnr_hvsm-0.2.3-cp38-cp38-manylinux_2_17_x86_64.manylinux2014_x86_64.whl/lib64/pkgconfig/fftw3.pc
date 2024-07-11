@@ -1,0 +1,11 @@
+prefix=/tmp/tmp1f4f_joq/wheel/platlib
+exec_prefix=/tmp/tmp1f4f_joq/wheel/platlib
+libdir=/tmp/tmp1f4f_joq/wheel/platlib/lib64
+includedir=/tmp/tmp1f4f_joq/wheel/platlib/include
+
+Name: FFTW
+Description: fast Fourier transform library
+Version: 3.3.9
+Libs: -L${libdir} -lfftw3 
+Libs.private: -lm
+Cflags: -I${includedir}
