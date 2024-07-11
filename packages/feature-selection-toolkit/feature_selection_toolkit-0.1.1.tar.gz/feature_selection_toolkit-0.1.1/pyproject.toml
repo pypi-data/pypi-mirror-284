@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "feature-selection-toolkit"
+version = "0.1.1"
+description = "A comprehensive toolkit for feature selection using various statistical and machine learning methods."
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [
+    {name = "Mevlüt Başaran", email = "mevlutbasaran01@gmail.com"},
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "tqdm",
+    "joblib",
+    "matplotlib",
+    "statsmodels",
+]
+
+[project.urls]
+Homepage = "https://github.com/mevlt01001/feature_selection_toolkit"
+Issues = "https://github.com/mevlt01001/feature_selection_toolkit/issues"
