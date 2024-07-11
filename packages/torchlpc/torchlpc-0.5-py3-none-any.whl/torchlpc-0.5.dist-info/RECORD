@@ -1,0 +1,9 @@
+torchlpc/__init__.py,sha256=irzZ7zUQ_UJsesEs9wGTpdb6DVZMH_frNRwb0gL_B4Q,1065
+torchlpc/core.py,sha256=QWXd33k-iWfj-gJ_age2yBT-ZZi6gjaqftrPKxtptj4,7477
+torchlpc/parallel_scan.py,sha256=JZ6_KPZJbuX6IhdKObPj4WvTXsS65Tui-j8LKKUD2EM,5150
+torchlpc/recurrence.py,sha256=jzHnapJT8tBScL0MQlQRlDTX-nZK9GOp0Jxg4fZ4XL4,2063
+torchlpc-0.5.dist-info/LICENSE,sha256=4sLgZciAgtck5ljCyY9cry16NqbX9LEfRZzpxpBIBl0,1068
+torchlpc-0.5.dist-info/METADATA,sha256=4H2e9lgkKfD0PxDsBcDq5F882PvLamjq8r1iTYv6S-0,6051
+torchlpc-0.5.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+torchlpc-0.5.dist-info/top_level.txt,sha256=CcnbSZVB-_ddExQ9kMfurDgf0Ym4OC3g3zPcreUZtwg,9
+torchlpc-0.5.dist-info/RECORD,,
