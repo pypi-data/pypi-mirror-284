@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: plinear
+Version: 0.1.2
+Summary: parallel neural network layer for binarization of ternarization - quantized layers from the beginning
+License: MIT
+Author: your_name
+Author-email: your_email@example.com
+Requires-Python: ==3.10.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy (==1.25.2)
+Requires-Dist: torch (==2.2.2)
+Requires-Dist: torchaudio (==2.2.2)
+Requires-Dist: torchvision (==0.17.2)
+Description-Content-Type: text/markdown
+
+# plinear
+Github for parrallel - linear layer
+
