@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: colorate_console
+Version: 0.1.1
+Summary: Colorateur de textes dans un terminal
+Author: Bouquet Cédric
+Author-email: cedric-bouquet-7@outlook.fr
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
