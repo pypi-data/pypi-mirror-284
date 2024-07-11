@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: day_date
+Version: 0.3.5
+Summary: Calcule le jour de la semaine d'une date donnée
+Author: Bouquet Cédric
+Author-email: cedric-bouquet-7@outlook.fr
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+
