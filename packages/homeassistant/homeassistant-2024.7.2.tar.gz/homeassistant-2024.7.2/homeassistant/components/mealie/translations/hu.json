@@ -1,0 +1,102 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "A szolg\u00e1ltat\u00e1s m\u00e1r konfigur\u00e1lva van"
+        },
+        "error": {
+            "cannot_connect": "Sikertelen csatlakoz\u00e1s",
+            "invalid_auth": "\u00c9rv\u00e9nytelen hiteles\u00edt\u00e9s",
+            "unknown": "V\u00e1ratlan hiba"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_token": "API Token",
+                    "host": "URL"
+                },
+                "data_description": {
+                    "host": "A Mealie p\u00e9ld\u00e1ny\u00e1nak URL-je."
+                }
+            }
+        }
+    },
+    "entity": {
+        "calendar": {
+            "breakfast": {
+                "name": "Reggeli"
+            },
+            "dinner": {
+                "name": "Vacsora"
+            },
+            "lunch": {
+                "name": "Eb\u00e9d"
+            },
+            "side": {
+                "name": "Oldal"
+            }
+        }
+    },
+    "exceptions": {
+        "add_item_error": {
+            "message": "Hiba t\u00f6rt\u00e9nt egy elem hozz\u00e1ad\u00e1sakor a(z) {shopping_list_name} bev\u00e1s\u00e1rl\u00f3list\u00e1hoz."
+        },
+        "connection_error": {
+            "message": "Hiba a Mealie p\u00e9ld\u00e1nyhoz val\u00f3 csatlakoz\u00e1skor."
+        },
+        "delete_item_error": {
+            "message": "Hiba t\u00f6rt\u00e9nt egy elem t\u00f6rl\u00e9sekor a(z) {shopping_list_name} bev\u00e1s\u00e1rl\u00f3list\u00e1ban."
+        },
+        "end_date_before_start_date": {
+            "message": "A befejez\u00e9s d\u00e1tum\u00e1nak a kezd\u00e9s d\u00e1tuma ut\u00e1n kell lennie."
+        },
+        "integration_not_found": {
+            "message": "A(z) \"{target}\" integr\u00e1ci\u00f3 nem tal\u00e1lhat\u00f3 a nyilv\u00e1ntart\u00e1sban."
+        },
+        "item_not_found_error": {
+            "message": "A(z) {shopping_list_item} elem nem tal\u00e1lhat\u00f3."
+        },
+        "not_loaded": {
+            "message": "{target} nincs bet\u00f6ltve."
+        },
+        "recipe_not_found": {
+            "message": "A(z) `{recipe_id}` azonos\u00edt\u00f3val vagy sluggal recept nem tal\u00e1lhat\u00f3."
+        },
+        "update_item_error": {
+            "message": "Hiba t\u00f6rt\u00e9nt egy elem friss\u00edt\u00e9sekor a(z) {shopping_list_name} bev\u00e1s\u00e1rl\u00f3list\u00e1ban."
+        }
+    },
+    "services": {
+        "get_mealplan": {
+            "description": "Szerezzen \u00e9tkez\u00e9si tervet Mealie-t\u0151l",
+            "fields": {
+                "config_entry_id": {
+                    "description": "V\u00e1lassza ki a Mealie p\u00e9ld\u00e1nyt, ahonnan \u00e9tkez\u00e9si tervet szeretne kapni",
+                    "name": "Mealie p\u00e9ld\u00e1ny"
+                },
+                "end_date": {
+                    "description": "A lek\u00e9rend\u0151 adatok v\u00e9gd\u00e1tuma (alap\u00e9rtelmezett: ma).",
+                    "name": "Befejez\u00e9s d\u00e1tuma"
+                },
+                "start_date": {
+                    "description": "A lek\u00e9rend\u0151 adatok kezd\u0151 d\u00e1tuma (alap\u00e9rtelmezett: ma).",
+                    "name": "Kezd\u00e9s d\u00e1tuma"
+                }
+            },
+            "name": "\u00c9tkez\u00e9si terv beszerz\u00e9se"
+        },
+        "get_recipe": {
+            "description": "Szerezze be a receptet Mealie-t\u0151l",
+            "fields": {
+                "config_entry_id": {
+                    "description": "V\u00e1lassza ki a Mealie p\u00e9ld\u00e1nyt, ahonnan \u00e9tkez\u00e9si tervet szeretne kapni",
+                    "name": "Mealie p\u00e9ld\u00e1ny"
+                },
+                "recipe_id": {
+                    "description": "A lek\u00e9rend\u0151 recept azonos\u00edt\u00f3ja vagy slugja.",
+                    "name": "Recept azonos\u00edt\u00f3 vagy slug"
+                }
+            },
+            "name": "Recept lek\u00e9r\u00e9se"
+        }
+    }
+}
