@@ -1,0 +1,13 @@
+wordsprobability/__init__.py,sha256=oet_Zq4zh_lzQSSfEIbDOrDpveVieVJ3DNoUGBK0Nzc,111
+wordsprobability/main.py,sha256=kUiCwK3tELuy-iIu-zrfZ2JpsMC36djr2QA8BrMb0vU,3235
+wordsprobability/models/__init__.py,sha256=biqj4KyJXw9yfszbjzKGj-Mihip48WwLPiaxM_-jwBQ,809
+wordsprobability/models/bow_lm.py,sha256=aBop60JDHgjBjRXM4BRS5e5Cgr3O24kGkQN_qZ8uY8A,7519
+wordsprobability/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordsprobability/utils/constants.py,sha256=raXwt9txpEVs-C9YFNEvd-sdGuNRkY5oRnvy_aOGut4,179
+wordsprobability/utils/utils.py,sha256=B4M5HwPsuq919Zip29FNWGt1Y7qupvxFNquAiwHYbsk,222
+wordsprobability-0.17.dist-info/LICENSE,sha256=wcd3avDNYqRIHiaDjboirFxHBN1D2j2k4pIqhD-Lhic,1071
+wordsprobability-0.17.dist-info/METADATA,sha256=nXbklU7y4ClH5vklZI_C_M6DHyuPLJ8u6h2rL6KCq9s,2767
+wordsprobability-0.17.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+wordsprobability-0.17.dist-info/entry_points.txt,sha256=cC7zHQ3fb7WI6XW37TOPQpIDv-IG-XGOQgDXo9C79go,64
+wordsprobability-0.17.dist-info/top_level.txt,sha256=JSQYGFDtOX-XGFudUS_Twwr67GJU4c-UaWYRN6MaYt4,17
+wordsprobability-0.17.dist-info/RECORD,,
