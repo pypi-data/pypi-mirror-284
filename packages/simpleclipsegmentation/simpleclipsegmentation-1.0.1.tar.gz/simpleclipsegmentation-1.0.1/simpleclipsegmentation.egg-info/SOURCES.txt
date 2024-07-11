@@ -1,0 +1,9 @@
+setup.py
+segmentdetect/__init__.py
+segmentdetect/gui.py
+segmentdetect/segmenter.py
+simpleclipsegmentation.egg-info/PKG-INFO
+simpleclipsegmentation.egg-info/SOURCES.txt
+simpleclipsegmentation.egg-info/dependency_links.txt
+simpleclipsegmentation.egg-info/requires.txt
+simpleclipsegmentation.egg-info/top_level.txt
