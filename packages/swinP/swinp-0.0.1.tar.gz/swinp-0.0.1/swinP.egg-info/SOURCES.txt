@@ -1,0 +1,8 @@
+setup.py
+swinP/__init__.py
+swinP/add.py
+swinP/subtract.py
+swinP.egg-info/PKG-INFO
+swinP.egg-info/SOURCES.txt
+swinP.egg-info/dependency_links.txt
+swinP.egg-info/top_level.txt
