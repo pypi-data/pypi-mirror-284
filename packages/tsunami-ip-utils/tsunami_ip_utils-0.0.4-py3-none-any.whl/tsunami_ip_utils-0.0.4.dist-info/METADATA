@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tsunami-ip-utils
+Version: 0.0.4
+Summary: A tool for visualizing similarity data from the SCALE code: TSUNAMI-IP
+License: MIT
+Author: Matthew Louis
+Author-email: matthewlouis31@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dash
+Requires-Dist: flask
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: plotly (>=5.22.0,<5.23.0)
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: uncertainties
+Project-URL: Documentation, https://tsunami-ip-utils.readthedocs.io
+Project-URL: Homepage, https://github.com/mlouis9/tsunami_ip_utils
+Project-URL: Issues, https://github.com/mlouis9/tsunami_ip_utils/issues
+Description-Content-Type: text/markdown
+
+Nothing here yet
