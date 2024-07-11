@@ -1,0 +1,2 @@
+from univariable import metodosbasadosenladerivada
+from univariable import metodoseliminacionderegiones

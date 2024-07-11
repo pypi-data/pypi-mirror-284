@@ -1,0 +1,2 @@
+from multivariable import metodosdirectos
+from multivariable import metodosgradiente
