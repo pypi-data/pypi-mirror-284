@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/convolog.py
+src/convolog.egg-info/PKG-INFO
+src/convolog.egg-info/SOURCES.txt
+src/convolog.egg-info/dependency_links.txt
+src/convolog.egg-info/top_level.txt
