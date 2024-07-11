@@ -1,0 +1,50 @@
+# cdrc
+
+`cdrc` is a Python wrapper client library designed to connect to the CriticalMAAS Data Repository (CDR) and programmatically pull data. It can build GeoJSON files and GeoPackages for features extracted from COGs (Cloud Optimized GeoTIFF files of maps).
+
+CDR github:
+https://github.com/DARPA-CRITICALMAAS/cdr
+
+## Features
+
+- Connect to the CDR with a token
+- Pull data programmatically from COGs
+- Build GeoJSON files
+- Build GeoPackages
+- Download COG images in pixel space and projected COGs if features are projected
+
+## Installation
+
+To install the `cdrc` library, use pip:
+
+```
+pip install cdrc
+```
+
+## Running cdrc
+
+To import the library and download data as a geopackage or geojson files you can run.
+```
+from cdrc import CDRClient
+
+client = CDRClient(token="your bearer token")
+
+cog_id = "specify what cog you want"
+system =  "system_name"
+system_version = "0.0.1"
+
+client.build_geopackage(
+    cog_id=cog_id,
+    feature_types=['polygon', 'point', 'line'],
+    system_versions=[(system, system_verison)],
+    validated=None
+)
+```
+This command will download data from the cdr for each type provided in the feature_types array. It will try to get georeferened data if available. 
+
+
+validated parameter will filter if validated or not. None will return both validated and not validated features/legend_items.
+
+
+This can be a lot of data and take a long time to complete so if you only care about certain feature types or data from specific versions those should be set. 
+
