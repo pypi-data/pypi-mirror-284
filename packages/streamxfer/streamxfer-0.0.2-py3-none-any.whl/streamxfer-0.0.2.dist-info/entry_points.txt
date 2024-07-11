@@ -1,0 +1,4 @@
+[console_scripts]
+stx = streamxfer.cli.main:cli
+stx-escape = streamxfer.cli.mssql_escape:cli
+
