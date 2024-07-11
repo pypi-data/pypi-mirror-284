@@ -1,0 +1,6 @@
+setup.py
+mastermind_tk.egg-info/PKG-INFO
+mastermind_tk.egg-info/SOURCES.txt
+mastermind_tk.egg-info/dependency_links.txt
+mastermind_tk.egg-info/entry_points.txt
+mastermind_tk.egg-info/top_level.txt
