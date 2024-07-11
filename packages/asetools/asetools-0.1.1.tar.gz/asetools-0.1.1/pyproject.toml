@@ -1,0 +1,66 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "asetools"
+version = "0.1.1"
+description = "Tools to work with Aseprite files"
+authors = [
+    { name = "Aurelien Gateau", email = "mail@agateau.com" },
+]
+dependencies = [
+    "Pillow==10.0.1",
+    "pypng==0.0.20",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+]
+keywords = [
+    "aseprite",
+    "image",
+    "conversion",
+]
+
+[project.license]
+text = "Apache 2.0"
+
+[project.urls]
+Homepage = "https://gitlab.com/agateau/asetools"
+Repository = "https://gitlab.com/agateau/asetools"
+
+[project.scripts]
+asesplit = "asetools.asesplit:main"
+aseinfo = "asetools.aseinfo:main"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+tests = [
+    "pytest",
+]
+typing = [
+    "pyright==1.1.370",
+]
+doc = [
+    "cogapp>=3.4.1",
+]
+
+[tool.pdm.scripts]
+update-readme = "cog -P -r README.md"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "UP",
+    "B",
+    "SIM",
+]
