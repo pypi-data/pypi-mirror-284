@@ -1,0 +1,6 @@
+.devcontainer/
+.git/
+.github/
+docker/
+!docker/entrypoint.sh
+tests/
