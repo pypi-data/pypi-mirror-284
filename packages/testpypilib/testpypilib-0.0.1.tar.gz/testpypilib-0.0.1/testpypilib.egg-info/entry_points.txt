@@ -1,0 +1,2 @@
+[console_scripts]
+testpypilib-hello = testpypilib:function_uses_numpy

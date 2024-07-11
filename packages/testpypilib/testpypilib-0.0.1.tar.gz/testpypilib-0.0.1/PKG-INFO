@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: testpypilib
+Version: 0.0.1
+Summary: small description
+Home-page: https://https://wooordhunt.ru/
+Author: Author Name
+Author-email: AuthorName@emai.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+Special readme-file for python package
+
+line 0
+
+line 1
+
+line 2
+

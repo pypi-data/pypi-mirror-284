@@ -1,0 +1,10 @@
+README.md
+setup.py
+testpypilib/__init__.py
+testpypilib/pypilib.py
+testpypilib.egg-info/PKG-INFO
+testpypilib.egg-info/SOURCES.txt
+testpypilib.egg-info/dependency_links.txt
+testpypilib.egg-info/entry_points.txt
+testpypilib.egg-info/requires.txt
+testpypilib.egg-info/top_level.txt
