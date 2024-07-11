@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: SyncVision
+Version: 1.1.0
+Summary: A package for image registration using SIFT, ORB, and IntFeat.
+Home-page: https://github.com/ashu1069/MoonMetaSync
+Author: Ashutosh Kumar
+Author-email: ak1825@rit.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+Requires-Dist: scikit-learn
+Requires-Dist: scikit-image
+Requires-Dist: Pillow
+
+# SyncVision
+
+SyncVision is a Python package for image processing that allows users to compare two images using different image registration methods. The package supports SIFT, ORB, and IntFeat registration methods and provides metrics such as PSNR and SSIM to evaluate the quality of the registered images.
+
+IntFeat is an image registration method that combines high-level features from SIFT and low-level features from ORB into a single vector space to apply registration on any two images.
+
+## Installation
+
+You can install SyncVision via pip:
+
+```
+pip install SyncVision
+```
+
+For command line inference, use:
+```
+process_images <image1_path> <image2_path> <method>
+
+```

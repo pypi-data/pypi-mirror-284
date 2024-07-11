@@ -1,0 +1,13 @@
+README.md
+setup.py
+SyncVision/__init__.py
+SyncVision/main.py
+SyncVision/metrics.py
+SyncVision/registration.py
+SyncVision.egg-info/PKG-INFO
+SyncVision.egg-info/SOURCES.txt
+SyncVision.egg-info/dependency_links.txt
+SyncVision.egg-info/requires.txt
+SyncVision.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
