@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: TrAS
+Version: 0.1.0
+Summary: Translation Utilities
+Home-page: https://github.com/Uncover-F/TAS/tree/Uncover
+Author: Circuitbreaker08, Uncover
+Author-email: circuitbreaker08@gmail.com
+License: https://github.com/Uncover-F/TAS/blob/Uncover/LICENSE
+Requires-Dist: requests
+
