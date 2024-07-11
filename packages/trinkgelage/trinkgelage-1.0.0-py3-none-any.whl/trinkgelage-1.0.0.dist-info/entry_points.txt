@@ -1,0 +1,2 @@
+[console_scripts]
+trinkgelage-demo = trinkgelage.launchers.demo:main
