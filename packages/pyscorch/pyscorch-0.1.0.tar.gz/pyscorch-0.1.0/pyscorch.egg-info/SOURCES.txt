@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyscorch/__init__.py
+pyscorch/cli.py
+pyscorch.egg-info/PKG-INFO
+pyscorch.egg-info/SOURCES.txt
+pyscorch.egg-info/dependency_links.txt
+pyscorch.egg-info/entry_points.txt
+pyscorch.egg-info/requires.txt
+pyscorch.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cli.py
