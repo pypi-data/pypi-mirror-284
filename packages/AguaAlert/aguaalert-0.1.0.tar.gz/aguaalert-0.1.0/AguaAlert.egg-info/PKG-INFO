@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: AguaAlert
+Version: 0.1.0
+Summary: Sistema de predicción de niveles de aguas subterráneas utilizando datos de precipitación.
+Home-page: https://github.com/yourusername/AguaAlert
+Author: José Rodríguez, Anderson Pineda, Andriana Espinoza, Cesar Villavicencio, Jhon Castillo
+Author-email: jdrodriguez30@utpl.edu.ec
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==1.24.1
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: statsmodels
+Requires-Dist: scipy
+Requires-Dist: openpyxl
+
+# AguaAlertEC
+
+AguaAlert estÃ¡ dirigido a los Gobiernos AutÃ³nomos Descentralizados Municipales, universidades y demÃ¡s instituciones que necesiten una evaluaciÃ³n rÃ¡pida de los principales cauces de una ciudad afectada por las lluvias intensas y con la cual podrÃ¡n generar acciones inmediatas y a largo plazo para la recuperaciÃ³n de estas zonas frente a las afectaciones identificadas.
