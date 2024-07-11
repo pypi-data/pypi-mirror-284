@@ -1,0 +1,15 @@
+setup.py
+migrations/__init__.py
+new_plugin/__init__.py
+new_plugin/admin.py
+new_plugin/apps.py
+new_plugin/forms.py
+new_plugin/urls.py
+new_plugin/views.py
+new_plugin.egg-info/PKG-INFO
+new_plugin.egg-info/SOURCES.txt
+new_plugin.egg-info/dependency_links.txt
+new_plugin.egg-info/entry_points.txt
+new_plugin.egg-info/not-zip-safe
+new_plugin.egg-info/requires.txt
+new_plugin.egg-info/top_level.txt
