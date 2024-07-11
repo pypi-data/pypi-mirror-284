@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+perspective_jupyter.egg-info/PKG-INFO
+perspective_jupyter.egg-info/SOURCES.txt
+perspective_jupyter.egg-info/dependency_links.txt
+perspective_jupyter.egg-info/top_level.txt
