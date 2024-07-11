@@ -1,0 +1,9 @@
+README.md
+setup.py
+SecretResources/__init__.py
+SecretResources/core.py
+SecretResources.egg-info/PKG-INFO
+SecretResources.egg-info/SOURCES.txt
+SecretResources.egg-info/dependency_links.txt
+SecretResources.egg-info/requires.txt
+SecretResources.egg-info/top_level.txt
