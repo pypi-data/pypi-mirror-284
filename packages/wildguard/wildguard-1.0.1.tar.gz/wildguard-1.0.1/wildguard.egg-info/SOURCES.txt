@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+tests/test_sanity_check.py
+wildguard/__init__.py
+wildguard/utils.py
+wildguard/wildguard.py
+wildguard.egg-info/PKG-INFO
+wildguard.egg-info/SOURCES.txt
+wildguard.egg-info/dependency_links.txt
+wildguard.egg-info/requires.txt
+wildguard.egg-info/top_level.txt
