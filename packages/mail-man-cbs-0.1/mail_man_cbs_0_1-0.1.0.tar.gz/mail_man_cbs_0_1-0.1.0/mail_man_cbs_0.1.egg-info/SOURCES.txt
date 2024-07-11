@@ -1,0 +1,11 @@
+README.md
+setup.py
+mail/__init__.py
+mail/file_meta.py
+mail/sender.py
+mail_man_cbs_0.1.egg-info/PKG-INFO
+mail_man_cbs_0.1.egg-info/SOURCES.txt
+mail_man_cbs_0.1.egg-info/dependency_links.txt
+mail_man_cbs_0.1.egg-info/requires.txt
+mail_man_cbs_0.1.egg-info/top_level.txt
+test/test_email_sender.py
