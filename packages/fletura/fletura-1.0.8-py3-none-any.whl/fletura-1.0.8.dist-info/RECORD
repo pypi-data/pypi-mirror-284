@@ -1,0 +1,13 @@
+fletura/__init__.py,sha256=2_91ow_VVdfptZF4KLu5WJRNGfB71PyDoTec9_vYf10,205
+fletura/card.py,sha256=Qq5DZSo9NRf42vjeSlfuupWKtOaDaVqtC81eV4E_E6Y,4832
+fletura/dock.py,sha256=qPAzq-cs_L03bFN5wOAAlGElZ_DtufvWfx4B-oVQXtk,2823
+fletura/neumoflet.py,sha256=qm5DcuhseKKz3UQAicmzWwVWhl36kXPXj0E-Kd8No4w,4080
+fletura/paper.py,sha256=Ob9CInFww4qSXLB_poNiguGwKOvWDIiLtUIZeR1JDn8,2214
+fletura/rating.py,sha256=5HlfjRcIaz1YBAdifLlPyHZMeZv7EfGsR7sjmexYjtU,5597
+fletura/switch.py,sha256=Bq2LtI-UxXkCAjm8_HcoK1R19MkbGjMO74OdLCDgxOY,4749
+fletura/timeline.py,sha256=F9k8Yz7XSXYBHiJq4IllOkqkovNjym1XeAEJWwDDWYI,6470
+fletura-1.0.8.dist-info/LICENSE,sha256=R46NvtDP0jQTlDUxL9rOpvbcgs50kY_afA-JSCr8uM8,1092
+fletura-1.0.8.dist-info/METADATA,sha256=bkiye9Uz_Lj8yAXAa8zpyaL8Ju3oMfOxyzdAGN4APg0,18663
+fletura-1.0.8.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+fletura-1.0.8.dist-info/top_level.txt,sha256=tfFtKAQ93PAs0bZS3VrWAcSquFi1K1juGk6iGh1dHlk,8
+fletura-1.0.8.dist-info/RECORD,,
