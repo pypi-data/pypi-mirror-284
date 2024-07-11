@@ -1,0 +1,8 @@
+README.md
+setup.py
+maquina_escribir.egg-info/PKG-INFO
+maquina_escribir.egg-info/SOURCES.txt
+maquina_escribir.egg-info/dependency_links.txt
+maquina_escribir.egg-info/top_level.txt
+typer/__init__.py
+typer/maquina_escribir.py
