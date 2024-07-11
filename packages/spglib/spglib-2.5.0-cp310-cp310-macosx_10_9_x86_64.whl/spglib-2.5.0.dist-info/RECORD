@@ -1,0 +1,13 @@
+spglib/_version.py,sha256=22tfRM9OwFMNZpfbY5SwhehtT_8ljy__s8iqxgveimE,411
+spglib/__init__.py,sha256=2H2g8DxYd_HmsfukJ21ZDmbFUZ7qv4x2RGQoab163Os,2696
+spglib/_spglib.cpython-310-darwin.so,sha256=bBqSeNJKVqoYNWJcOumTpzQs9LSkSAJdmohbsdapwvw,73728
+spglib/spglib.py,sha256=SNGtj282sW_EciauieTAzwxU_QwNlX5Shxihfz3bHpU,67832
+spglib/include/spglib.h,sha256=5TcW7PQ8gLiQ28pDWAR0rvcy1j4C9UQpAJQUUhfRPTU,27948
+spglib/.dylibs/libsymspg.2.5.0.dylib,sha256=qoT_vxH3ybidoR6utBPq7zbDGH31vpjoPtKHW_ejbIQ,1927056
+spglib/lib/libsymspg.2.dylib,sha256=_9td7wpfIDr7I86Ok7smqTGAClnXuxEUMAkgOi203Vg,1873432
+spglib/lib/libsymspg.2.5.0.dylib,sha256=_9td7wpfIDr7I86Ok7smqTGAClnXuxEUMAkgOi203Vg,1873432
+spglib/lib/libsymspg.dylib,sha256=_9td7wpfIDr7I86Ok7smqTGAClnXuxEUMAkgOi203Vg,1873432
+spglib-2.5.0.dist-info/RECORD,,
+spglib-2.5.0.dist-info/WHEEL,sha256=F-tcqUhWlcOicSZ1nIToHIRTf1YEIujBBqS-V14i7Wk,114
+spglib-2.5.0.dist-info/METADATA,sha256=cR-3jzT2X35_kU_7a8bahyzuPe2qyLn4raD9wegW1Go,4228
+spglib-2.5.0.dist-info/licenses/COPYING,sha256=t2dryHVLmzqvuy0TyRMeH3Oin1eoagUE1VDJiU3CaDM,1467
