@@ -1,0 +1,4 @@
+[console_scripts]
+aseinfo = asetools.aseinfo:main
+asesplit = asetools.asesplit:main
+
