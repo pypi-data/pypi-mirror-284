@@ -1,0 +1,9 @@
+setup.py
+REDCapLLT.egg-info/PKG-INFO
+REDCapLLT.egg-info/SOURCES.txt
+REDCapLLT.egg-info/dependency_links.txt
+REDCapLLT.egg-info/entry_points.txt
+REDCapLLT.egg-info/requires.txt
+REDCapLLT.egg-info/top_level.txt
+redcapllt/__init__.py
+redcapllt/translator.py
