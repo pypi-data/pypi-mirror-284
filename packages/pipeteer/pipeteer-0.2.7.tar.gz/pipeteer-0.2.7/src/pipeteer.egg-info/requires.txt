@@ -1,0 +1,12 @@
+haskellian
+lazy-loader
+
+[client]
+httpx
+
+[http]
+fastapi
+httpx
+
+[server]
+fastapi
