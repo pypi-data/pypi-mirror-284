@@ -1,0 +1,2 @@
+[console_scripts]
+pulla = pulla.main:main
