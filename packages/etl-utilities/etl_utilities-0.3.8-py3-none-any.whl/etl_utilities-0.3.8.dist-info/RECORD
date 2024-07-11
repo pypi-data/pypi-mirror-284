@@ -1,0 +1,15 @@
+etl/__about__.py,sha256=Xt-1-Of8tZpTIyK1BNQozRcCEDLgjS1-5Kj2W0KZyNE,23
+etl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etl/database/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etl/database/connector.py,sha256=DhGVgZ_mxdn1j4LjPLPgCALShwqvGMi1NECGsFxo9sY,961
+etl/database/loader.py,sha256=BU8mu2qag89IiAx_pgpd_53J4SnZPYvTJr-7dL3FSno,7493
+etl/dataframe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etl/dataframe/analyzer.py,sha256=ILQKyI9iODngRh0N6svQHhArQvr6Fpf2FQcHZ7Zm1tQ,1298
+etl/dataframe/cleaner.py,sha256=Zm3gH7eUwlvu0xpC15zOMi_uz-E9KWJAZxRANU5OoO0,5243
+etl/query/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etl/query/inserter.py,sha256=OJBvDZKOPxUBqBA5fRysEweHiG9Wc5LJGzU2vRSTp3c,3012
+etl/query/maker.py,sha256=tMEfnUKKnUG5E47xYUGABwc33mxahIwb1zdjF7Dr2yw,4690
+etl_utilities-0.3.8.dist-info/METADATA,sha256=_kKWbXQJnm4z8cuWv_E8KovgG512XgBEJCk-N5KLAC8,6452
+etl_utilities-0.3.8.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+etl_utilities-0.3.8.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+etl_utilities-0.3.8.dist-info/RECORD,,
