@@ -1,0 +1,5 @@
+matplotlib
+scipy
+numpy
+numba
+grgrlib>=0.1.13
