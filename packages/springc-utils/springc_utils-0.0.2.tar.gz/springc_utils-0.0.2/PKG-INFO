@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: springc_utils
+Version: 0.0.2
+Summary: A successful sign for python setup
+Home-page: https://github.com/SpringCCC/myutils
+Author: SpringC
+Author-email: jiqimaohw@gmail.com
+License: MIT Licence
+Keywords: pip,SpringC
+Platform: any
+Requires-Dist: numpy
+
+A successful sign for python setup
