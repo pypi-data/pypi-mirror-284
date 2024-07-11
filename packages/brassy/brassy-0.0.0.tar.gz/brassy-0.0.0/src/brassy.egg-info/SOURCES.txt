@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/brassy/brass.py
+src/brassy.egg-info/PKG-INFO
+src/brassy.egg-info/SOURCES.txt
+src/brassy.egg-info/dependency_links.txt
+src/brassy.egg-info/top_level.txt
+test/test.py
