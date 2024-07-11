@@ -1,0 +1,4 @@
+[console_scripts]
+drd=drd.main:claude_cli
+drd-gui=drd.run_gui:main
+
