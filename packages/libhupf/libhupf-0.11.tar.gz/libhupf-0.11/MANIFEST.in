@@ -1,0 +1,4 @@
+include license.txt
+recursive-include libhupf/inc *.h
+recursive-include libhupf/src *.cpp
+include libhupf/gcc/*
