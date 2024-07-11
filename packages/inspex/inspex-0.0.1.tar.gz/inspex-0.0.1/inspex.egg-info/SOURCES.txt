@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+inspex/automl.py
+inspex/classifiers.py
+inspex/preprocessing.py
+inspex/regressers.py
+inspex.egg-info/PKG-INFO
+inspex.egg-info/SOURCES.txt
+inspex.egg-info/dependency_links.txt
+inspex.egg-info/requires.txt
+inspex.egg-info/top_level.txt
+tests/test_preprocessing.py
