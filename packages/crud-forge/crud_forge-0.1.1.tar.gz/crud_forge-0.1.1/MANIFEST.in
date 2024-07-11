@@ -1,0 +1,7 @@
+
+include docs/images/*.svg
+include docs/images/pkgs.svg
+
+include README.md
+include LICENSE
+
