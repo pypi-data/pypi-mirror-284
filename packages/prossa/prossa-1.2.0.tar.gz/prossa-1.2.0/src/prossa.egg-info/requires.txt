@@ -1,0 +1,16 @@
+pandas
+numpy
+scipy
+
+[dev]
+pytest
+pip-tools
+bumpver
+
+[test]
+pytest
+pip-tools
+bumpver
+
+[where]
+src

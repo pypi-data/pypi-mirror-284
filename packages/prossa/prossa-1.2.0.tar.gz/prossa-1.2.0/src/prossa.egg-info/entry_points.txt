@@ -1,0 +1,2 @@
+[console_scripts]
+prossa = prossa.__main__:main
