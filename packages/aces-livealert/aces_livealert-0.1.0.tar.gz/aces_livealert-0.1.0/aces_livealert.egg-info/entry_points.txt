@@ -1,0 +1,2 @@
+[console_scripts]
+aces_livealert = aces_livealert:app
