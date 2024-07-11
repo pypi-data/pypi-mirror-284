@@ -1,0 +1,11 @@
+certifi
+charset-normalizer
+idna
+Jinja2
+MarkupSafe
+marshmallow
+packaging
+PyYAM
+redis
+requests
+urllib3
