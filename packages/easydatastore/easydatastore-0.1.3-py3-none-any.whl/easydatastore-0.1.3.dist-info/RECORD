@@ -1,0 +1,14 @@
+easydatastore/__init__.py,sha256=aGJ1LOBami50y5mWVeYqb2vwsC4U2Xn0PcNIEvhWfCM,67
+easydatastore/__init__.pyi,sha256=anQjOGjG5_ivhl3YNoHIuTRfQ78L5fRwWmTLhwtuA1c,71
+easydatastore/_meta.py,sha256=hEvTtLOn3bzWIQ3hr_Q5sILQNht71V2f4VN1OBAdtyI,8656
+easydatastore/_meta.pyi,sha256=tL7odPS5joxX-tbY7xhIjyAMiS3CMMwPllk_v2x6A1Q,1838
+easydatastore/column.py,sha256=q-H8SuhIu-6cPmMwz0bZJRM5e-iBtw7LM_SKv0X3Myg,7041
+easydatastore/column.pyi,sha256=aH9xL708LLBUNpU1KyE1k_vn72osF937pl4o6w3Gll8,1522
+easydatastore/exceptions.py,sha256=ZoGlWY3ChHdFZd2CMINmvDfIdfIQB84puq0GjmstAg4,429
+easydatastore/exceptions.pyi,sha256=-5GkTEeRw7zHWsiwbxSH2wk8KaKh5S9xDvY_ewdfK7w,134
+easydatastore/table.py,sha256=0v33LU2l6lNPqvq5Z_4G5PiVsuNdx4bSTINFffT_zFM,4028
+easydatastore/table.pyi,sha256=yA0znT85R6rPAJIjuA1orKzt4Veou7Cp83YdEgqnH4I,1006
+easydatastore-0.1.3.dist-info/LICENSE,sha256=b9Lq9gKaOuM0nQenbI8UzkytbIT2vBLu24Mr2aA0DE0,1066
+easydatastore-0.1.3.dist-info/METADATA,sha256=aElp7q_JRjotwD-CYQPkGCHsrQ16PhmxBom4l-GyJxA,3039
+easydatastore-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+easydatastore-0.1.3.dist-info/RECORD,,
