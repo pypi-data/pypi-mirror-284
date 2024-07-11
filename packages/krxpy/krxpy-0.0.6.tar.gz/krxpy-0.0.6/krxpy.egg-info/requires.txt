@@ -1,0 +1,5 @@
+pytip
+pandas
+lxml
+tqdm
+requests
