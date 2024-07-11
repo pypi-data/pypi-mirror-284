@@ -1,0 +1,13 @@
+domsdatabasen/__init__.py,sha256=rcmxiTRfo15vKb8YnR1VTRiaeW7GgmQp43Jvw68jY4w,160
+domsdatabasen/_constants.py,sha256=aFxKPtV78y5Ej_PKZweVZo8Wh-2NuEQQp7K8lgw3xSA,406
+domsdatabasen/_exceptions.py,sha256=lCbQxcNyK2xUzX_P2hf8akk3f5L5NzcXzkLJZK6SWFk,98
+domsdatabasen/_text_extraction.py,sha256=MjT1qxknL_e069z4dL7u2hG9kK8yk2gM1RpuyBpoJ8M,96408
+domsdatabasen/_utils.py,sha256=fEi40lOhCFcR0vx9X-wIHlRukF7LEHWECzk35uyqmAY,1623
+domsdatabasen/_xpaths.py,sha256=feqKedZaq_OVXB4o038i2ePFGDjti2meJp8c4AeRXdk,2170
+domsdatabasen/dataset_builder.py,sha256=7x5UdfaKpfWPnYHhku8aebmQrc8gzF7O0jplQz1XusM,5647
+domsdatabasen/processor.py,sha256=iGIbmT7iYBE8jkcm1g9VckoEI1TybWT40TnP1PcJLvE,6336
+domsdatabasen/scraper.py,sha256=2rlw-IDerxl-aMkORaWFuFZe6nM09uKRi3brPQz5uzE,10806
+domsdatabasen-0.1.4.dist-info/LICENSE,sha256=9oS0uyLi47KDzSFZlEpB6EthyiSFh6yNtdQQv_55_Ng,1080
+domsdatabasen-0.1.4.dist-info/METADATA,sha256=kN7O1frNi4qKGx3GQjzNZ1sLypo2et_HO9wkcq8t2xs,6151
+domsdatabasen-0.1.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+domsdatabasen-0.1.4.dist-info/RECORD,,
