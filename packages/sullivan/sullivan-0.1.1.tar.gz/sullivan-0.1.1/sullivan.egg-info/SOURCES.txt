@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sullivan/__init__.py
+sullivan/cli.py
+sullivan.egg-info/PKG-INFO
+sullivan.egg-info/SOURCES.txt
+sullivan.egg-info/dependency_links.txt
+sullivan.egg-info/entry_points.txt
+sullivan.egg-info/requires.txt
+sullivan.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cli.py
