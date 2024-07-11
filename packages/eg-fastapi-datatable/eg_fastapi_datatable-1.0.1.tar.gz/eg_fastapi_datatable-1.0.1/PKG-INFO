@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: eg-fastapi-datatable
+Version: 1.0.1
+Summary: Fastapi Datatable
+Author: vicram10
+Author-email: victor.ramirez@egeek.com.py
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Requires-Dist: SQLAlchemy>=2.0

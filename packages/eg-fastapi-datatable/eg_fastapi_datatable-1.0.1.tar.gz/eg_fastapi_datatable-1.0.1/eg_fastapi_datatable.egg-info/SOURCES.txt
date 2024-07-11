@@ -1,0 +1,9 @@
+README.md
+setup.py
+eg-fastapi-datatable/__init__.py
+eg-fastapi-datatable/datatable.py
+eg_fastapi_datatable.egg-info/PKG-INFO
+eg_fastapi_datatable.egg-info/SOURCES.txt
+eg_fastapi_datatable.egg-info/dependency_links.txt
+eg_fastapi_datatable.egg-info/requires.txt
+eg_fastapi_datatable.egg-info/top_level.txt
