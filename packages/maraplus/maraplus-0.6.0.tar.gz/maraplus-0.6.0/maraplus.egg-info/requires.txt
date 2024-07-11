@@ -1,0 +1,8 @@
+marabunta>=0.12.0
+mergedeep>=1.3.4
+PyYAML>=6.0.1
+setuptools>=70.3.0
+
+[test]
+pytest
+mock
