@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+autogradercpp/__init__.py
+autogradercpp/ansi_colors.py
+autogradercpp/autograder.py
+autogradercpp/diff.py
+autogradercpp/exceptions.py
+autogradercpp/file_handler.py
+autogradercpp.egg-info/PKG-INFO
+autogradercpp.egg-info/SOURCES.txt
+autogradercpp.egg-info/dependency_links.txt
+autogradercpp.egg-info/top_level.txt
