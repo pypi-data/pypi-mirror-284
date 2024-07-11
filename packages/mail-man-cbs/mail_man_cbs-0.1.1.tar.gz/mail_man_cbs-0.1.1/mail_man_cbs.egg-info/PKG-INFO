@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mail_man_cbs
+Version: 0.1.1
+Summary: First mailman example
+Author: Cabysis
+Requires-Dist: requests==2.32.3
