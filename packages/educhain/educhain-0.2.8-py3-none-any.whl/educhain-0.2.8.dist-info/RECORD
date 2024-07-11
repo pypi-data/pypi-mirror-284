@@ -1,0 +1,11 @@
+.DS_Store,sha256=6aUpNNXraCU9q_3aiTlx5tKXr3XWOGyB4vYD5Qrn-Q0,6148
+educhain/__init__.py,sha256=g8xSHTmWuOCmmadPhe_eMqf4tXnp8TmksHrj33JwDxE,263
+educhain/content_engine.py,sha256=YiNRjqNaTQFPotemDaMTm8Swnviet40E-30ubB_X1cE,3952
+educhain/models.py,sha256=aEPo4qor7LrwJakBYJCmVcf8yB3zU8MdXxjZdN-C8JE,4869
+educhain/qna_engine.py,sha256=pHlIWEWuQZk-S0YaWDH98rVl1e5jSV3VquzqEtEHEWw,7408
+educhain/utils.py,sha256=nIm7TRwJFURjk95EbrijrNGFiXhWmBpFG3DU0lk-HlA,3081
+educhain-0.2.8.dist-info/LICENSE,sha256=12ceGEo6dkPpiEkJh9atjQSwhsKPff8wPNo9O4y2gxc,1066
+educhain-0.2.8.dist-info/METADATA,sha256=LdigsGkkbfkGAaBuX4HalFEcLedNzUQAHK3TbTyKpL8,3773
+educhain-0.2.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+educhain-0.2.8.dist-info/top_level.txt,sha256=inyLxsE82ng3_abRnEJdyXT0DjmDQjJS7D0bYPD_btM,9
+educhain-0.2.8.dist-info/RECORD,,
