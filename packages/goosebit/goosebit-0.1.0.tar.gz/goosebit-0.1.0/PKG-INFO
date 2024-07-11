@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: goosebit
+Version: 0.1.0
+Summary: 
+Author: Upstream Data
+Author-email: brett@upstreamdata.ca
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aerich (>=0.7.2,<0.8.0)
+Requires-Dist: aiofiles (>=24.1.0,<25.0.0)
+Requires-Dist: fastapi[uvicorn] (>=0.111.0,<0.112.0)
+Requires-Dist: itsdangerous (>=2.2.0,<3.0.0)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: passlib[bcrypt] (>=1.7.4,<2.0.0)
+Requires-Dist: python-jose (>=3.3.0,<4.0.0)
+Requires-Dist: python-multipart (>=0.0.9,<0.0.10)
+Requires-Dist: tortoise-orm (>=0.21.4,<0.22.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Description-Content-Type: text/markdown
+
+# goosebit
+<img src="docs/img/goosebit-logo.png?raw=true" style="width: 100px; height: 100px; display: block;">
+
+---
+
+A simplistic remote update server.
+
+
+## Setup
+
+To set up, install the dependencies in `pyproject.toml` with `poetry install`.  Then you can run GooseBit by running `main.py`.
+
+## Initial Startup
+
+The first time you start GooseBit, you should change the default username and password inside `goosebit/settings.py`, as well as generate a new secret key.
+The default login credentials for testing are `admin@goosebit.local`, `admin`.
