@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+igibson_eval.egg-info/PKG-INFO
+igibson_eval.egg-info/SOURCES.txt
+igibson_eval.egg-info/dependency_links.txt
+igibson_eval.egg-info/not-zip-safe
+igibson_eval.egg-info/requires.txt
+igibson_eval.egg-info/top_level.txt
