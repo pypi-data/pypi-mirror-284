@@ -1,0 +1,9 @@
+rich
+requests
+configparser
+pathlib
+pandas
+openpyxl
+tqdm
+cachetools
+inquirer
