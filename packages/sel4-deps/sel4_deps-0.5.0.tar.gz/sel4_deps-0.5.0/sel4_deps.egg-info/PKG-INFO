@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sel4-deps
+Version: 0.5.0
+Summary: Metapackage for downloading build dependencies for the seL4 microkernel
+Home-page: https://sel4.systems
+Author: TrustworthySystems
+Author-email: pypi@trustworthy.systems
+License: BSD2
+Requires-Dist: six
+Requires-Dist: future
+Requires-Dist: jinja2
+Requires-Dist: lxml
+Requires-Dist: ply
+Requires-Dist: psutil
+Requires-Dist: bs4
+Requires-Dist: pyelftools
+Requires-Dist: sh
+Requires-Dist: pexpect
+Requires-Dist: pyyaml>=5.1
+Requires-Dist: jsonschema
+Requires-Dist: pyfdt
+Requires-Dist: cmake-format==0.4.5
+Requires-Dist: guardonce
+Requires-Dist: autopep8==2.3.1
+Requires-Dist: libarchive-c
