@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: treezor
+Version: 0.1.1
+Summary: Permet de lister les dossiers d'un répertoire
+Author: Bouquet Cédric
+Author-email: cedric-bouquet-7@outlook.fr
+Classifier: Programming Language :: Python :: 3
+Requires: bigtree
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+README.md
+setup.py
+tree.py
+treezor.egg-info/PKG-INFO
+treezor.egg-info/SOURCES.txt
+treezor.egg-info/dependency_links.txt
+treezor.egg-info/entry_points.txt
+treezor.egg-info/top_level.txt
