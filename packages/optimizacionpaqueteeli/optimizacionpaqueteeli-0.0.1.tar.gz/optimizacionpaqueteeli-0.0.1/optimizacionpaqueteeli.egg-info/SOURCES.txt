@@ -1,0 +1,5 @@
+setup.py
+optimizacionpaqueteeli.egg-info/PKG-INFO
+optimizacionpaqueteeli.egg-info/SOURCES.txt
+optimizacionpaqueteeli.egg-info/dependency_links.txt
+optimizacionpaqueteeli.egg-info/top_level.txt
