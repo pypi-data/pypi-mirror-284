@@ -1,0 +1,10 @@
+guolei_py3_database/__init__.py,sha256=PQJenJxldvm-VqHereVoZZcah_0MV2vLjsczzOFeKPY,4548
+guolei_py3_database/duckdb.py,sha256=1is0nxuss3880WGL4rOjgoorK_l80slLnugYn_EQOic,4367
+guolei_py3_database/pymysql.py,sha256=WUEJzQiUboLvbygxfh3NGWUne17cR9coaQhqxab1Klk,8568
+guolei_py3_database/sqlite3.py,sha256=WCumLiunQNRHbIb4BQQrcg5bQOnZfFDuRyl0OL2P1cg,7565
+guolei_py3_database/strictredis.py,sha256=kkvzdZq4I7xm3exg407lomSApgzhU6o5LLnSJ_91CJ4,2402
+guolei_py3_database-0.0.22.dist-info/LICENSE,sha256=8KKNhftKNTfcOA9HplnjPYnrWMyY4t2p8nwzDEqsT_Q,1063
+guolei_py3_database-0.0.22.dist-info/METADATA,sha256=fVtTxePN_M1jAMn0KPEX1wO650BWThs6p7bAWaIsu_s,2285
+guolei_py3_database-0.0.22.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+guolei_py3_database-0.0.22.dist-info/top_level.txt,sha256=aWbwrR5wg0yktojbAFQDQCNPHbv7TYrGw9FwqMUQfbY,20
+guolei_py3_database-0.0.22.dist-info/RECORD,,
