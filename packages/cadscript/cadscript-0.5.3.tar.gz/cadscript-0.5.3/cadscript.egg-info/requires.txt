@@ -1,0 +1,2 @@
+numpy<2
+cadquery>=2.4
