@@ -1,0 +1,17 @@
+toolshop/__init__.py,sha256=JBCxS45zNE3XxKjv0iBpJcLq5PiZbwoDqSlz_4CUTts,68
+toolshop/agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolshop/agent/agent.py,sha256=xkIwdbrcurgXcaC_t-bCswFrYy8bAagsyGGVd627ycw,3219
+toolshop/agent/instructions.py,sha256=r3pypSZguxV3zmMN15ghRD1KbreUwOPotmKQCO0v5Z0,2378
+toolshop/cli/cli.py,sha256=UKW8iBTJlcZYBNM2b4W-N3XKjkqdxEzdObj0TsIbb_A,576
+toolshop/core/base.py,sha256=61QlHDjUt5934lu3ZXQb0S5HYAo7jRShImgyUQHdnno,6424
+toolshop/core/logging.py,sha256=qLGbRgG1zv5kS0tawF8Zc7Oex-Huf-d2xLEWa8SHiH4,1007
+toolshop/core/meta.py,sha256=xpLueRv78B8oa5U0y9bDr_7HFj3vA4aDW7X1_793hCg,490
+toolshop/tools/data.py,sha256=b8pgqszA_jEtQRGlPuiZsqlGiHJfOex62XHzfxw6xeY,2026
+toolshop/tools/file.py,sha256=y8yh-aE-snhrtClFFY1xKWtUKzqJj6qm3QgG5H7ajK4,11824
+toolshop/tools/gcp.py,sha256=wONl2U0MTmZdimKbLaNdiGKKX-oydq0TRC7XS4iUpNo,2835
+toolshop/tools/misc.py,sha256=dCDHqTqZZFRbmn89H5X9ZQ4Rxl-cgVu4Poqi9ux_rT4,649
+toolshop/tools/terminal.py,sha256=QToS1TZGPeD6qXw8pZ4rXtfC-YSEXqltf2_2W7bGBVA,2749
+toolshop-0.1.3.dist-info/METADATA,sha256=Ktj62FiY1Mx6eXhxQuZbjnlMGkjDgRGD3q7l_FRCPMw,3759
+toolshop-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+toolshop-0.1.3.dist-info/entry_points.txt,sha256=BZJn9lSAUGPhvYr4hCBmAfRpqFH6VoCoMShm-FOkNjM,48
+toolshop-0.1.3.dist-info/RECORD,,
