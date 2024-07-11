@@ -1,0 +1,94 @@
+from exechain.exechain import *
+
+
+def get_package_path():
+    import tomllib
+    with open("pyproject.toml", 'rb') as file:
+        data = tomllib.load(file)
+        VERSION = data['project']['version']
+    
+    return VERSION, f"./dist/exechain-{VERSION}-py3-none-any.whl"
+
+VERSION, PACKAGE = get_package_path()
+
+set_var("VERSION", VERSION)
+set_var("PACKAGE", PACKAGE)
+
+
+Target("all",
+    dependencies=[
+        TargetRef("package")
+    ]
+)
+
+Target("build",
+    dependencies=[
+        TargetRef("{{PACKAGE}}")
+    ]
+)
+
+Target("{{PACKAGE}}",
+    dependencies=[
+        *make_targets_for_files("./src", pattern="*.py"),
+        Target("pyproject.toml"),
+        Target("LICENSE.md")
+    ],
+    recept=[
+        Shell(f"pyproject-build")
+    ]
+)
+
+Target("force-build",
+    recept=[
+        Shell(f"pyproject-build")
+    ]
+)
+
+Target("package",
+    dependencies=[
+        TargetRef("build")
+    ]
+)
+
+Target("install",
+    dependencies = [
+        TargetRef("package")
+    ],
+    recept = [
+        Shell("pip3 install {{PACKAGE}}")
+    ]
+)
+
+Target("reinstall",
+    dependencies = [
+        TargetRef("package")
+    ],
+    recept = [
+        Shell("pip3 install {{PACKAGE}} --force-reinstall")
+    ]
+)
+
+Target("clean",
+    recept=[
+        Remove("dist"),
+        Remove("src/exechain.egg-info")
+    ]
+)
+
+Target("test",
+    recept=[
+        Shell("python3 ./tests/test.py -v")
+    ]
+)
+
+Target("publish",
+    dependencies = [
+        TargetRef("clean"),
+        TargetRef("test"),
+        TargetRef("package")
+    ],
+    recept = [
+        Shell("python3 -m twine upload --repository gitverse ./dist/*"),
+        Shell("python3 -m twine upload --repository pypi ./dist/*")
+    ]
+)

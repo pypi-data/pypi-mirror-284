@@ -1,0 +1,9 @@
+requests
+Jinja2>=3.0.0
+
+[dev]
+black
+pylint
+
+[test]
+pytest

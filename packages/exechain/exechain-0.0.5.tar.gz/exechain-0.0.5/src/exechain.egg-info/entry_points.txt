@@ -1,0 +1,3 @@
+[console_scripts]
+ech = exechain.cli.exechainmake:cli
+exechain-make = exechain.cli.exechainmake:cli
