@@ -1,0 +1,14 @@
+pystempel/__init__.py,sha256=io5euI5diRLpzsa4dJVYMgUvIParD-6TvH52fYnwvLY,29
+pystempel/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pystempel/data/original/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pystempel/data/original/stemmer_20000.tbl.gz,sha256=uXgYZjGPZMOMZhdN1bO-Y9Ry5ZRFufFleBItzG8PZ68,385710
+pystempel/data/polimorf/LICENSE.txt,sha256=gsZk4Jo129DlfjJWfWqlDf-w1dykZuILSx3-bu9rM4Y,1574
+pystempel/data/polimorf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pystempel/data/polimorf/stemmer_polimorf.tbl.gz,sha256=Z6TxwL_7Qv5GY2gNjEyihju3qxI-ofwBevgEkd4TiQg,2313747
+pystempel/egothor.py,sha256=Fe8DtMKTf84WErfOzLJsc1NUSJ5AbLDxb-r7V8lkzpw,34255
+pystempel/stemmer.py,sha256=k2ejzD1zHrDqEhCFmvy-3QllBjL_UkqoVZ9AX4tJego,4376
+pystempel/streams.py,sha256=IioVoFgnMwKwKQV3Z5SpiOzn8WTh-Rg-HKERvywKqPg,2817
+pystempel-2.0.0.dist-info/LICENSE.txt,sha256=k9ImqfcthyZDJI79bXMRN77gBQAo47N8P1OA4gWeMqY,724
+pystempel-2.0.0.dist-info/METADATA,sha256=05HyrCmYuZMPKFzYwmnxoDO1AbtH7Bm4__bAqROKHgI,8495
+pystempel-2.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pystempel-2.0.0.dist-info/RECORD,,
