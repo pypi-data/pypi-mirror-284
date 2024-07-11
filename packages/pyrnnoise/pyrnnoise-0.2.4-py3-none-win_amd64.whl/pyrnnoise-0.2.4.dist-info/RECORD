@@ -1,0 +1,11 @@
+pyrnnoise-0.2.4.data/purelib/pyrnnoise/__init__.py,sha256=F1JiDixNo7fHbRq0ODMeLt-rPpGNvzCUbn4BTDzyIaA,647
+pyrnnoise-0.2.4.data/purelib/pyrnnoise/cli.py,sha256=t4ezDuYPKkHhj5Sung-IcUFARyyPUMwD1IX26v8zu78,1056
+pyrnnoise-0.2.4.data/purelib/pyrnnoise/frame_queue.py,sha256=4S67sUNhy1QGae8tKzpWPJE0aEQREon1zDmCfmKfP5E,1572
+pyrnnoise-0.2.4.data/purelib/pyrnnoise/pyrnnoise.py,sha256=ZWq4mvlwPVIrVIk_gfbbtJAABLWdYSjzC13Mmq-9JBM,5192
+pyrnnoise-0.2.4.data/purelib/pyrnnoise/rnnoise.dll,sha256=cKrHo1LgTtHGKlZsfcqXOizUBpqyI_M6P0cV6xyezGg,5604864
+pyrnnoise-0.2.4.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+pyrnnoise-0.2.4.dist-info/METADATA,sha256=Pg6MBYtQEk1nbJNgdoenfSCadwYfsKNc5vgtez87Kv0,575
+pyrnnoise-0.2.4.dist-info/WHEEL,sha256=zcwxXftXNaa7Py7OZ-3wt1up99qExiwX5ARyT17by5k,99
+pyrnnoise-0.2.4.dist-info/entry_points.txt,sha256=z8ixRvP5sl3WC0L62YeQaxHeQSqWZdqgG0Nb-BByETQ,47
+pyrnnoise-0.2.4.dist-info/top_level.txt,sha256=_2ZZpJrj3mpll2U2B991Czzkwf5GkG5BhLdPYM1lBu0,10
+pyrnnoise-0.2.4.dist-info/RECORD,,
