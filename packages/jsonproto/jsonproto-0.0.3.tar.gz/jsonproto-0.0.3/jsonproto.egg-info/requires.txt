@@ -1,0 +1,6 @@
+protobuf
+
+[dev]
+pytest
+tox
+ruff

@@ -1,0 +1,2 @@
+[console_scripts]
+jsonproto = jsonproto.jsonproto:main
