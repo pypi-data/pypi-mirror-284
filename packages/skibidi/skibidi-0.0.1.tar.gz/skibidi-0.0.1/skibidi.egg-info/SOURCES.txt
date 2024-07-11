@@ -1,0 +1,7 @@
+README.md
+setup.py
+skibidi/__init__.py
+skibidi.egg-info/PKG-INFO
+skibidi.egg-info/SOURCES.txt
+skibidi.egg-info/dependency_links.txt
+skibidi.egg-info/top_level.txt
