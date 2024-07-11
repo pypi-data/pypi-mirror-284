@@ -1,0 +1,4 @@
+[console_scripts]
+_import_and_call_function = taskflows.service.exec:_import_and_call_function
+_import_and_run_docker_service = taskflows.service.exec:_import_and_run_docker_service
+tf = taskflows.admin:cli
