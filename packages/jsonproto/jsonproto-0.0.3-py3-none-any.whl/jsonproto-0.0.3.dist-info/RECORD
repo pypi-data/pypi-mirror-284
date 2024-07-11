@@ -1,0 +1,10 @@
+jsonproto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonproto/jsonproto.py,sha256=6T5Da5kQgSU3R4daweYrJr8kUvJsW8P7vPejEvf-ZlQ,5013
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/sanity_test.py,sha256=bbdUfzNP9wmDf2ZpD07uOiR-C1BYHoDkqtrqKqPvLFY,2812
+jsonproto-0.0.3.dist-info/LICENSE,sha256=58XSmd3anxv5VNb3hnpYRQ71yXPbL3LO5fO3XUT4hc0,1071
+jsonproto-0.0.3.dist-info/METADATA,sha256=1ozJxi5fdldyn9cUm9ITBedJY_5PAlZjL5lyhaP8ZaE,2268
+jsonproto-0.0.3.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+jsonproto-0.0.3.dist-info/entry_points.txt,sha256=PsmnpS2p-4XwKOwXmNanvK8yp9Qi3wvSNfAkqD9p3eU,55
+jsonproto-0.0.3.dist-info/top_level.txt,sha256=KqJ1fYs4WRkTTMpniLaSDysjRcmIvhs8OxSJVBjS20o,15
+jsonproto-0.0.3.dist-info/RECORD,,
