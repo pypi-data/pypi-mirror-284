@@ -1,0 +1,17 @@
+.o_limit_cell,
+.o_limit_cell > * {
+    /* Altura máxima deseada para el contenido menos el margin-bottom de los párrafos*/
+    max-height: calc(100px - 12px);
+    
+    overflow: hidden; /* Oculta el contenido que sobresale */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos (...) al final del texto truncado */
+    white-space: nowrap; /* Evita que el texto se desborde a la siguiente línea */
+}
+
+.o_limit_cell_arrow {
+    float: right;
+    font-size: 20px;
+    color: #9b9b9b;
+    min-width: 20px;
+    text-align: center;
+}
