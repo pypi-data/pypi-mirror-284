@@ -1,0 +1,2 @@
+[console_scripts]
+quick-django-docker-setup = quick_django_docker_setup.main:main
