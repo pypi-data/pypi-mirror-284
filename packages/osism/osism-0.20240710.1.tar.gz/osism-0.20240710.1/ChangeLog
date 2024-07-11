@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.20240710.1
+-------------
+
+* Run kubernetes plays on the kubernetes worker (#954)
