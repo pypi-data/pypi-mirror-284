@@ -1,0 +1,15 @@
+ahuella/__init__.py,sha256=EgNvyrDTJcP2Khf7ttfjQ2BrEir0qK6B-pSQQr4a5mM,64
+ahuella/aiohttp.py,sha256=QUMnM8fDlMlikACUjBlIfmyv3JMRAik3qjqPS-46bKc,1300
+ahuella/api.py,sha256=ArG_XLjn9gTFWyFFdqFqohWLKPeJeYD2Hrm24IJ1LLo,1764
+ahuella/exceptions.py,sha256=SuyLI3EMOrTVlkFrM2n3wvFZj4yIf2TjfEz92P3_EMY,74
+ahuella/models.py,sha256=lfwhZxhnQEYgLHzD-TiyiBF26E2yzVpXEIQGk7T-ZOE,1192
+ahuella/v1.py,sha256=VCkqSsZUEev-CeRZrWa0N-UT2RwiviaE6f9sxJC9kS0,2405
+ahuella/v2.py,sha256=io5puSOnEga6or1Dt6RqrRynzZoJ250pAT-U5c5RRSI,2352
+ahuella/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ahuella/models/v1.py,sha256=5Ww3HSubEEy74GKdjMKYHH9iopFBxZmL1c7toEUhGxE,725
+ahuella/models/v2.py,sha256=ZI7jQpNAf5ArIqicUPUpBDjCLXm-MPz3ntP3PSfIoRQ,923
+ahuella-0.0.2.dist-info/LICENSE,sha256=lH6Qe7HWlc3nk9U-sYAfXjvIKC1KENfoIw9OiGJe2oY,1063
+ahuella-0.0.2.dist-info/METADATA,sha256=HNRB_fVhSWW_KXPddxD9BD9XypOUYIqW1ACgJFbTlx4,918
+ahuella-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ahuella-0.0.2.dist-info/top_level.txt,sha256=TelOw0FwDVZ9lJcdHxK0QmYYnD43ZYfr7QkACEFBjlg,8
+ahuella-0.0.2.dist-info/RECORD,,
