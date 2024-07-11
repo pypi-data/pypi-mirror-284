@@ -1,0 +1,24 @@
+Metadata-Version: 2.3
+Name: shaplh
+Version: 1.0.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Shapley Hierarchical Models
+
+'shaplyh' - an extremely fast implementation of true hierarchical shapley trees as described by Robert Loots Et al. in [Shapley Hierarchical Model](https://www.thorpope.eu/sites/default/files/SHAPLEYTree.pdf)
+We've implemented a small modular compressed footprint allowing users to build on top of already staged structures. Most work is done up front, allowing for fast resulting shapley calls which is particularly useful in interactive client facing tools.
+Methods:
+    shparse(<df>, <full_path_to_repo>)    -> vec<refs>
+        - stage data
+    shcluster(svec, <full_path_to_repo>) -> ref
+        - hierarchy definition
+    shstage(_df, <full_path_to_repo>) -> ref
+        - stage refs
+    shmerget(refa, refbv, <full_path_to_repo>) -> ref
+        - merge refs
+    shapley(refa, refbv,<full_path_to_repo>) -> vec<ref>
+
