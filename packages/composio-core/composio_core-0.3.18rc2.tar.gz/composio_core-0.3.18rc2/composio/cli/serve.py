@@ -1,0 +1,34 @@
+"""Serve the tooling server."""
+
+import os
+import click
+
+from composio.cli.context import Context, pass_context
+from uvicorn import run
+
+
+@click.command(name="serve")
+@click.option(
+    "-h",
+    "--host",
+    type=str,
+    help="Specify host string",
+    default="localhost",
+)
+@click.option(
+    "-p",
+    "--port",
+    type=int,
+    help="Specify port number",
+    default=8000,
+)
+@pass_context
+def _serve(context: Context, host: str, port: int) -> None:
+    """Start the tooling server"""
+    from composio.server.api import create_app
+
+    run(
+        app=create_app(),
+        host=host,
+        port=port,
+    )
