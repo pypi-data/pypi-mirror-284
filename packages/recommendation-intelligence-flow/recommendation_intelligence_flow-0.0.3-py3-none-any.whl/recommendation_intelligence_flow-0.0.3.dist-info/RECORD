@@ -1,0 +1,12 @@
+recommendation/__init__.py,sha256=bpT73UG7mZL_JjEqMwbYx6q69jA8J5Jcoul1LcDokhA,81
+recommendation/tools/__init__.py,sha256=bpT73UG7mZL_JjEqMwbYx6q69jA8J5Jcoul1LcDokhA,81
+recommendation/tools/recommendation_api_tool.py,sha256=n6e470M0_aWYXkkPkB6nSuY0NXV7L977B13EiZQa-GQ,1973
+recommendation/tools/utils.py,sha256=JfavnyUYcJGy1XlVOOlkRB-FFWuMOaRSRWpYGieMxTQ,535
+recommendation/yamls/recommendation_api_tool.yaml,sha256=e7QCrxTcMY3K1-WgRDACa1Uu8UPhlYUXR5me1JhdQnY,546
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_recommendation_api_tool.py,sha256=cSrqnfFWNwYRg6IZF1BMYdjqJZDacKOp9qsZ5GFkJ-k,893
+recommendation_intelligence_flow-0.0.3.dist-info/METADATA,sha256=GkTn7FTkG5BZmXT_HY_NWH3c66fLdgWM40TJXVEQGrU,182
+recommendation_intelligence_flow-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+recommendation_intelligence_flow-0.0.3.dist-info/entry_points.txt,sha256=-wXOuaEbQe-X-jYXHVjEEZEoswl4miOLv5Ip9EXKcqw,88
+recommendation_intelligence_flow-0.0.3.dist-info/top_level.txt,sha256=fwyi_3PW_5IAydiKNXkj1zwfRBuvuKeSXyfPAkvECKU,21
+recommendation_intelligence_flow-0.0.3.dist-info/RECORD,,
