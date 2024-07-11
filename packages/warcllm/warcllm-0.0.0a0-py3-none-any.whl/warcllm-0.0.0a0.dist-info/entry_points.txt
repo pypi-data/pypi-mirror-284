@@ -1,0 +1,2 @@
+[console_scripts]
+warcllm = warcllm.cli:cli

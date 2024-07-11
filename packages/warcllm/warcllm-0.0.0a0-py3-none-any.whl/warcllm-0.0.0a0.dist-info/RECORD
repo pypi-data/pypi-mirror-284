@@ -1,0 +1,10 @@
+warcllm/__init__.py,sha256=5ka_ue9d1DFAsiwX9HqEZhT0PvMv8rykVanHNYU1AYY,41
+warcllm/__main__.py,sha256=EQhdjaghxgwceVGOg5lXV99kh2rrq-d5L0_WLLXIaGA,71
+warcllm/__version__.py,sha256=Hm9YdCOIs4Ja8WuNm7rzZdxbzl_WCmLvsPkrVMA9Lxw,83
+warcllm/cli.py,sha256=OSq0b22PR-aOB27XFe0qrVerdKTnqWx_GjzLMLw7auM,224
+warcllm-0.0.0a0.dist-info/LICENSE,sha256=u01MsjL2hSO4i1905XVjth-3k_17wlg3gyscwiTUBoU,1529
+warcllm-0.0.0a0.dist-info/METADATA,sha256=sSGvFBALFC7-ItHDIU8DGDKc9sRMkGghOWKCT7Md8n4,2010
+warcllm-0.0.0a0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+warcllm-0.0.0a0.dist-info/entry_points.txt,sha256=P29q3GBk7fTAhnzqrNIlXDw_DJs2g8gbhuj4EP9RGJ8,44
+warcllm-0.0.0a0.dist-info/top_level.txt,sha256=4NAR_2S-J-U9xp7LGNV3T9pOWM9FS5kYumegmRATsrY,8
+warcllm-0.0.0a0.dist-info/RECORD,,
