@@ -1,0 +1,1 @@
+from maquina_escribir import maquina
