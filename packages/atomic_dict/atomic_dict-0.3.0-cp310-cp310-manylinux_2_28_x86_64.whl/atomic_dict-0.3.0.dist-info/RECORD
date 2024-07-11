@@ -1,0 +1,7 @@
+atomic_dict/__init__.py,sha256=1I4jlyPLVAYge0Ukx6--qD24FL8186z0GCklft1IIas,86
+atomic_dict/atomic_dict_c.cpython-310-x86_64-linux-gnu.so,sha256=vkkJ4lGLDYNK87W77ZGHHQV-UAkGqpZXIRGFj_Kmo1E,72968
+atomic_dict/core.py,sha256=BJ-YPveEDxwZ73MRE4_VSKdOmGxqKx2pYQORjbY-tgs,2469
+atomic_dict-0.3.0.dist-info/LICENSE,sha256=Gh5P2o84krQBwRgKY0q6Xw8CwtAylHBaTqpOhvMakkY,1505
+atomic_dict-0.3.0.dist-info/METADATA,sha256=vAx_rdY5dNNMvaEPXB5Lp3fVZrvKzYRqdvcCpzhZKso,2077
+atomic_dict-0.3.0.dist-info/WHEEL,sha256=dzKmTNUpsl04id_ls0PDKw9P7ziJcdNnroDQOJTjdYk,110
+atomic_dict-0.3.0.dist-info/RECORD,,
