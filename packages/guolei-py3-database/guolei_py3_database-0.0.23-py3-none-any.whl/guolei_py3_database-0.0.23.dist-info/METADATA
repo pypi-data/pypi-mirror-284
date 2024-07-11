@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: guolei-py3-database
+Version: 0.0.23
+Summary: guolei python3 database library
+Home-page: https://github.com/guolei19850528/guolei_py3_database
+Author: guolei
+Author-email: 174000902@qq.com
+License: MIT
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyMySQL
+Requires-Dist: redis
+Requires-Dist: duckdb
+Requires-Dist: diskcache
+Requires-Dist: addict
+Requires-Dist: retrying
+Requires-Dist: pydantic
+
+## 介绍
+
+**guolei python3 database library**
+
+
+
+## 软件架构
+
+~python 3.*
+
+## 安装教程
+
+```shell
+pip install guolei-py3-database
+```
+
+## 目录说明
+### pymysql 示例
+
+```python
+from guolei_py3_database import pymysql as gl_pymysql
+
+database=gl_pymysql.Database(connect_args=(), connect_kwargs={})
+
+# must be call
+database.open_connect()
+
+database.execute()
+database.executemany()
+database.transaction()
+database.rowcount()
+database.lastrowid()
+database.fetchone()
+database.fetchall()
+
+# must be call
+database.close_connect()
+
+
+```
+
+
+
+
