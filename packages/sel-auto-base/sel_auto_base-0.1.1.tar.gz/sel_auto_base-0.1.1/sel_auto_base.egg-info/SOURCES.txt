@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sel_auto_base.egg-info/PKG-INFO
+sel_auto_base.egg-info/SOURCES.txt
+sel_auto_base.egg-info/dependency_links.txt
+sel_auto_base.egg-info/requires.txt
+sel_auto_base.egg-info/top_level.txt
