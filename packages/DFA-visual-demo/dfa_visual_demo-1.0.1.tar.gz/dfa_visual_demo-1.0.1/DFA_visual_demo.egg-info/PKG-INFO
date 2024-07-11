@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: DFA-visual-demo
+Version: 1.0.1
+Summary: A basic DFA/NFA visualization tool only for homework purposes
+Author: Spiros Maggioros
+License-File: LICENCE.txt
