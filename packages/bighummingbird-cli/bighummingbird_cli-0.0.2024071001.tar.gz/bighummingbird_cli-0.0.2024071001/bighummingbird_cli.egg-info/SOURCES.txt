@@ -1,0 +1,5 @@
+setup.py
+bighummingbird_cli.egg-info/PKG-INFO
+bighummingbird_cli.egg-info/SOURCES.txt
+bighummingbird_cli.egg-info/dependency_links.txt
+bighummingbird_cli.egg-info/top_level.txt
