@@ -1,0 +1,32 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="fireraven",
+    version="0.1.0",
+    description="A versatile toolset for analytics and guardrails in safety-critical AI systems.",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    author="Philippe Maisonneuve",
+    author_email="contact@fireraven.ai",
+    url="https://gitlab.com/fireravenai/packages/python",
+    packages=find_packages(),
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Science/Research",
+        "Intended Audience :: Healthcare Industry",
+        "Intended Audience :: Manufacturing",
+        "Intended Audience :: Financial and Insurance Industry",
+        "Topic :: Software Development :: Libraries",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Scientific/Engineering :: Information Analysis",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "License :: OSI Approved :: Apache Software License",
+    ],
+    python_requires='>=3.6',
+)
