@@ -1,0 +1,3 @@
+[console_scripts]
+demcompare = demcompare.demcompare:main
+demcompare-tiles = demcompare.demcompare_tiles:main
