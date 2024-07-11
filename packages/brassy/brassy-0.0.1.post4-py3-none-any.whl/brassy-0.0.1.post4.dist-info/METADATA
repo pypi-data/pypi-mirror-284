@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: brassy
+Version: 0.0.1.post4
+Summary: Builds release notes from yaml files for sane software development
+Author: Gwyn Uttmark
+Author-email: biosafetylevel5@gmail.com
+Requires-Python: >=3.8
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: doc
+Requires-Dist: pygit2
+Requires-Dist: rich
+Requires-Dist: rich-argparse
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: sphinxcontrib-napoleon ; extra == "doc"
+Requires-Dist: sphinxcontrib-runcmd ; extra == "doc"
+Project-URL: Homepage, https://github.com/biosafetylvl5/brass
+Project-URL: Issues, https://github.com/biosafetylvl5/brass/issues
+Description-Content-Type: text/markdown
+
+# BRASS: Build Release Assembler for Sane Software
+
+There's only one [file](brass/brass.py).
+
+The docs live here: https://biosafetylvl5.github.io/brass/
+
+## Install
+
+``` bash
+pip3 install git+https://github.com/biosafetylvl5/brass.git
+```
+
+or
+
+``` bash
+pip install git+https://github.com/biosafetylvl5/brass.git
+```
+
