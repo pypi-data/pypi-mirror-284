@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+softpro_elk_grpc_logger/__init__.py
+softpro_elk_grpc_logger/logger.py
+softpro_elk_grpc_logger.egg-info/PKG-INFO
+softpro_elk_grpc_logger.egg-info/SOURCES.txt
+softpro_elk_grpc_logger.egg-info/dependency_links.txt
+softpro_elk_grpc_logger.egg-info/top_level.txt
