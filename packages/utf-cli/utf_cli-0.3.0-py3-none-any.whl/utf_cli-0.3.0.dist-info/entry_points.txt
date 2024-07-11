@@ -1,0 +1,2 @@
+[console_scripts]
+utf = utf.__main__:main
