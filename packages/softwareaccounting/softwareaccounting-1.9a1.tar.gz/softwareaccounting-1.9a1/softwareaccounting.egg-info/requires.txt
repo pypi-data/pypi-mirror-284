@@ -1,0 +1,6 @@
+httplib2
+peewee
+PyYAML
+
+[sams-post-receiver]
+Flask
