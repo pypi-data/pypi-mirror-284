@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+tests/test_warcllm.py
+warcllm/__init__.py
+warcllm/__main__.py
+warcllm/__version__.py
+warcllm/cli.py
+warcllm.egg-info/PKG-INFO
+warcllm.egg-info/SOURCES.txt
+warcllm.egg-info/dependency_links.txt
+warcllm.egg-info/entry_points.txt
+warcllm.egg-info/requires.txt
+warcllm.egg-info/top_level.txt

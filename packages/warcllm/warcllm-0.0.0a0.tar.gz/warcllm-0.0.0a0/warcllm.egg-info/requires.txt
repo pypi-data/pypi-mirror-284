@@ -1,0 +1,11 @@
+llm
+click
+setuptools
+pip
+warcdb
+
+[test]
+pytest
+pytest-cov
+black
+ruff
