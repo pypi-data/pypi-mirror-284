@@ -1,0 +1,19 @@
+templates:
+  - cflags.template 
+  - csflags.template
+  - main.template
+  - Makefile.template
+  - objects.template
+  - odflags.template
+  - sources.template
+  - toolchain.template
+
+modules:
+  - cflags.mk 
+  - csflags.mk
+  - main.c
+  - Makefile
+  - objects.mk
+  - odflags.mk
+  - sources.mk
+  - toolchain.mk
