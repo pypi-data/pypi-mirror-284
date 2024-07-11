@@ -1,0 +1,52 @@
+# Temporary and binary files
+*~
+*.py[cod]
+*.so
+*.cfg
+!setup.cfg
+*.orig
+*.log
+*.pot
+__pycache__/*
+.cache/*
+.*.swp
+*/.ipynb_checkpoints/*
+metastore_db
+spark-warehouse
+var
+
+# Project files
+.ropeproject
+.project
+.pydevproject
+.settings
+
+# Package files
+*.egg
+*.eggs/
+.installed.cfg
+*.egg-info
+
+# Java files
+*.class
+
+# Unittest and coverage
+htmlcov/*
+.coverage
+.tox
+junit.xml
+coverage.xml
+
+# Build and docs folder/files
+build/*
+dist/*
+sdist/*
+docs/api/*
+docs/build/*
+cover/*
+MANIFEST
+spack-*
+.vscode/
+
+# Auxilliary files
+tags

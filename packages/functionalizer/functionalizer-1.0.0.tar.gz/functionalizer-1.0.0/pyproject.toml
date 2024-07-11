@@ -1,0 +1,84 @@
+[build-system]
+requires = ["scikit-build-core[pyproject]", "setuptools_scm", "cmake", "ninja"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "functionalizer"
+dynamic = ["version"]
+description = "A PySpark implementation of the Blue Brain Project Functionalizer"
+license = {"file" = "LICENSE.txt"}
+authors = [{"name" = "BlueBrain HPC", "email" = "bbp-ou-hpc@epfl.ch"}]
+maintainers = [
+    {"name" = "Matthias Wolf", "email" = "matthias.wolf@epfl.ch"},
+    {"name" = "Fernando Pereira", "email" = "fernando.pereira@epfl.ch"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+    "License :: OSI Approved :: Apache Software License",
+]
+readme = "README.rst"
+dependencies = [
+    "fz-td-recipe>=0.1.3.dev0",
+    "h5py",
+    "hdfs",
+    "jprops",
+    "morphio",
+    "mpi4py",
+    "libsonata",
+    "numpy<2",
+    "packaging",
+    "pandas",
+    "pyarrow<15",
+    "pyspark>=3",
+]
+
+[project.scripts]
+functionalizer = "functionalizer.commands:functionalize_parallel"
+fz = "functionalizer.commands:functionalize"
+parquet-compare = "functionalizer.tools.compare:run"
+parquet-compare-ns = "functionalizer.tools.compare_nodesets:compare_nodesets"
+parquet-coalesce = "functionalizer.tools.coalesce:run"
+
+[project.urls]
+Homepage = "https://github.com/BlueBrain/functionalizer"
+Repository = "https://github.com/BlueBrain/functionalizer"
+Issues = "https://github.com/BlueBrain/functionalizer/issues"
+Tracker = "https://github.com/BlueBrain/functionalizer/issues"
+
+[tool.scikit-build]
+wheel.packages = ["src/sparkmanager", "src/functionalizer"]
+cmake.source-dir = "src/functionalizer/filters/udfs"
+metadata.version.provider = "scikit_build_core.metadata.setuptools_scm"
+
+[tool.setuptools_scm]  # Section required
+
+[tool.ruff]
+line-length = 100
+exclude = ["deps", "venv"]
+
+[tool.ruff.lint]
+select = ["D", "E", "F", "I", "PL"]
+pydocstyle.convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"doc/source/*" = ["D"]
+"tests/*" = ["D", "PLR2004"]
+
+[tool.ruff.lint.pylint]
+max-args = 8
+
+[tool.black]
+extend-exclude = 'deps\/.*$'
+line_length = 100
+
+[tool.cibuildwheel]
+skip = ["cp3{6,7,8}-*", "pp*", "*-win32", "*-manylinux_i686", "*-musllinux_i686", "*-musllinux_x86_64", "*-musllinux_aarch64"]
+# MPI needed for testing with mpi4py
+before-all = "yum install -y openmpi3-devel java-11-openjdk"
+environment = { MPICC="/usr/lib64/openmpi3/bin/mpicc" }
+# Remove setuptools with Spark v4 - v3 has implicit dependency on distutils
+test-requires = ["pytest", "mock", "setuptools"]
+test-command = "pytest --run-slow {project}/tests"
