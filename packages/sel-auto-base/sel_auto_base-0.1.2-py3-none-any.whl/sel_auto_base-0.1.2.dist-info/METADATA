@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sel-auto-base
+Version: 0.1.2
+Summary: A basic Selenium wrapper for Python
+Author: QAR-LEAF PRIVATE LIMITED
+Author-email: support@qarleaf.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: selenium
+
