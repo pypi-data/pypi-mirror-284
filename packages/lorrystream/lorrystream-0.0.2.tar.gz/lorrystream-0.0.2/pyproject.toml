@@ -1,0 +1,273 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools>=42", # At least v42 of setuptools required.
+  "versioningit",
+]
+
+[tool.versioningit.vcs]
+method = "git"
+default-tag = "0.0.0"
+
+[project]
+name = "lorrystream"
+description = "A lightweight and polyglot stream-processing library, to be used as a data backplane-, message relay-, or pipeline-subsystem."
+readme = "README.rst"
+keywords = [
+  "amqp",
+  "data",
+  "export",
+  "import",
+  "mqtt",
+  "pandas",
+  "rdbms",
+  "sql",
+  "stream",
+]
+license = { text = "LGPL 3, EUPL 1.2" }
+authors = [
+  { name = "Andreas Motl", email = "andreas.motl@panodata.org" },
+  { name = "Richard Pobering", email = "richard.pobering@panodata.org" },
+]
+requires-python = ">=3.9"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Customer Service",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Education",
+  "Intended Audience :: End Users/Desktop",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: Manufacturing",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: System Administrators",
+  "Intended Audience :: Telecommunications Industry",
+  "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
+  "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+  "Operating System :: MacOS :: MacOS X",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: Unix",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Adaptive Technologies",
+  "Topic :: Communications",
+  "Topic :: Database",
+  "Topic :: Documentation",
+  "Topic :: Education",
+  "Topic :: Internet",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Office/Business",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Software Development :: Embedded Systems",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Object Brokering",
+  "Topic :: Software Development :: Pre-processors",
+  "Topic :: Software Development :: Quality Assurance",
+  "Topic :: Software Development :: Testing",
+  "Topic :: Software Development :: Version Control",
+  "Topic :: System :: Archiving",
+  "Topic :: System :: Benchmark",
+  "Topic :: System :: Clustering",
+  "Topic :: System :: Distributed Computing",
+  "Topic :: System :: Hardware",
+  "Topic :: System :: Logging",
+  "Topic :: System :: Monitoring",
+  "Topic :: System :: Networking",
+  "Topic :: System :: Systems Administration",
+  "Topic :: Text Processing",
+  "Topic :: Utilities",
+]
+dynamic = [
+  "version",
+]
+dependencies = [
+  "boltons",
+  "click<9",
+  "colorama<1",
+  "colorlog",
+  "dask",
+  "funcy",
+  "influxdb",
+  "influxdb-client[ciso]",
+  "paho-mqtt",
+  "pandas<2.3",
+  "pika<1.4",
+  "sqlalchemy==2.0.*",
+  "sqlalchemy-cratedb==0.38.0",
+  "streamz",
+  "toolz",
+]
+[project.optional-dependencies]
+develop = [
+  "black<25",
+  "mypy<1.11",
+  "pika-stubs<0.2",
+  "poethepoet<0.28",
+  "pyproject-fmt<3",
+  "ruff<0.5",
+  "validate-pyproject<0.19",
+]
+release = [
+  "build<2",
+  "twine<6",
+]
+test = [
+  "cratedb-toolkit[testing]==0.0.15",
+  "pytest<9",
+  "pytest-asyncio-cooperative",
+  "pytest-cov<6",
+  "pytest-mqtt<0.5",
+  "testcontainer-python-rabbitmq==0.4.*",
+]
+[project.urls]
+Changelog = "https://github.com/daq-tools/lorrystream/blob/main/CHANGES.rst"
+Documentation = "https://github.com/daq-tools/lorrystream"
+Homepage = "https://github.com/daq-tools/lorrystream"
+Issues = "https://github.com/daq-tools/lorrystream/issues"
+Repository = "https://github.com/daq-tools/lorrystream"
+[project.scripts]
+lorry = "lorrystream.cli:cli"
+[project.entry-points."streamz.sinks"]
+dataframe_to_sql = "lorrystream.streamz.sinks:dataframe_to_sql"
+[project.entry-points."streamz.sources"]
+from_amqp = "lorrystream.streamz.sources:from_amqp"
+from_mqtt_plus = "lorrystream.streamz.sources:from_mqtt_plus"
+
+[tool.black]
+line-length = 120
+extend-exclude = "lorrystream/streamz/amqp.py"
+
+[tool.coverage.run]
+branch = false
+omit = [
+  "tests/*",
+]
+source = ["lorrystream"]
+
+[tool.coverage.report]
+fail_under = 0
+show_missing = true
+
+[tool.mypy]
+packages = ["lorrystream"]
+exclude = [
+  "lorrystream/streamz/amqp_async.py",
+  "lorrystream/streamz/amqp_blocking.py",
+]
+check_untyped_defs = true
+ignore_missing_imports = true
+implicit_optional = true
+install_types = true
+non_interactive = true
+
+[tool.pytest.ini_options]
+#addopts = "-rA --verbosity=3 --cov --cov-report=term-missing --cov-report=xml"
+addopts = "-rA --verbosity=3"
+minversion = "2.0"
+log_level = "DEBUG"
+log_cli_level = "DEBUG"
+log_format = "%(asctime)-15s [%(name)-24s] %(levelname)-8s: %(message)s"
+testpaths = [
+  "lorrystream",
+  "tests",
+]
+xfail_strict = true
+markers = [
+  "slow",
+]
+
+[tool.ruff]
+line-length = 120
+
+lint.select = [
+  # Bandit
+  "S",
+  # Bugbear
+  "B",
+  # Builtins
+  "A",
+  # comprehensions
+  "C4",
+  # eradicate
+  "ERA",
+  # flake8-2020
+  "YTT",
+  # isort
+  "I",
+  # pandas-vet
+  "PD",
+  # print
+  "T20",
+  # Pycodestyle
+  "E",
+  "W",
+  # Pyflakes
+  "F",
+  # return
+  "RET",
+]
+
+lint.extend-ignore = [
+  # zip() without an explicit strict= parameter
+  "B905",
+  # df is a bad variable name. Be kinder to your future self.
+  "PD901",
+  # Unnecessary variable assignment before `return` statement
+  "RET504",
+  # Unnecessary `elif` after `return` statement
+  "RET505",
+]
+
+extend-exclude = [
+  "lorrystream/streamz/amqp_async.py",
+  "lorrystream/streamz/amqp_blocking.py",
+  "amqp-to-mqtt.py",
+  "workbench.py",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"]  # Use of `assert` detected
+"examples/*" = ["T201"]  # Allow `print`
+"lorrystream/util/about.py" = ["T201"]  # Allow `print`
+
+[tool.setuptools.packages.find]
+namespaces = false
+
+
+# ===================
+# Tasks configuration
+# ===================
+
+[tool.poe.tasks]
+
+check = [
+  "lint",
+  "test",
+]
+
+format = [
+  { cmd = "black ." },
+  # Configure Ruff not to auto-fix (remove!):
+  # unused imports (F401), unused variables (F841), `print` statements (T201), and commented-out code (ERA001).
+  { cmd = "ruff check --fix --ignore=ERA --ignore=F401 --ignore=F841 --ignore=T20 --ignore=ERA001 ." },
+  { cmd = "pyproject-fmt --keep-full-version pyproject.toml" },
+]
+
+lint = [
+  { cmd = "ruff check ." },
+  { cmd = "black --check ." },
+  { cmd = "validate-pyproject pyproject.toml" },
+  { cmd = "mypy" },
+]
+
+release = [
+  { cmd = "python -m build" },
+  { cmd = "twine upload --skip-existing dist/*" },
+]
+
+test = { cmd = "pytest" }
