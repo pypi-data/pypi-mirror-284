@@ -1,0 +1,2 @@
+[console_scripts]
+starlineage = starlineage.cli:main
