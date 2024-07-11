@@ -1,0 +1,9 @@
+geoarrow/types/__init__.py,sha256=pEJ8Pt-Py2VsZkq_1Nlp6eamNXZRtkkMq0T_M3v0ZYI,736
+geoarrow/types/constants.py,sha256=qaJiTmLv1tLJi9L_pSrYI8V28kSRLnYjxssTnpyNXFo,6332
+geoarrow/types/crs.py,sha256=JqwcCar2Vuh6myheytfP5twV3IraJWyukhPEsHTkTPs,7639
+geoarrow/types/type_pyarrow.py,sha256=Aifcab-LXUpbN-6AAVRSmclMAAaloX5Dioh17aBtGEQ,19203
+geoarrow/types/type_spec.py,sha256=b_-67rB-i7kFWQ9tK1OWqqcBbv6woC6I9HeD9wQX02k,19183
+geoarrow_types-0.2.0.dist-info/METADATA,sha256=XvZWxeYw_fSayHoGEQTVqAmdz10yuUhf4LCZxSKGZWI,370
+geoarrow_types-0.2.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+geoarrow_types-0.2.0.dist-info/top_level.txt,sha256=bFC1ZysYtHL-ycMZqyByqF3dVVpzpQrKMWUv9d1lqKQ,9
+geoarrow_types-0.2.0.dist-info/RECORD,,
