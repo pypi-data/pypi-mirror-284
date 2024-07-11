@@ -1,0 +1,8 @@
+toml
+tencentcloud-sdk-python
+poprogress
+pofile
+pandas
+pocode
+huaweicloudsdkocr
+huaweicloudsdkcore
