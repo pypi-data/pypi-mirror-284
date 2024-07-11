@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ipdd
+Version: 3.0
+Summary: Download images from Google search
+Home-page: https://piggaga.github.io/piggaga
+Author: 豬嘎嘎
+Author-email: piggaga.company@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Google Image Downloader
+
+A simple module to download images from Google search.
+
+## 安裝
+
+```sh
+pip install ipdd
+
+

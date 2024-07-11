@@ -1,0 +1,10 @@
+README.md
+setup.py
+ipdd/__init__.py
+ipdd/downloader.py
+ipdd.egg-info/PKG-INFO
+ipdd.egg-info/SOURCES.txt
+ipdd.egg-info/dependency_links.txt
+ipdd.egg-info/entry_points.txt
+ipdd.egg-info/requires.txt
+ipdd.egg-info/top_level.txt

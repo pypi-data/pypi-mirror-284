@@ -1,0 +1,2 @@
+[console_scripts]
+ipdd = ipdd.downloader:download
