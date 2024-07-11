@@ -1,0 +1,6 @@
+README.md
+setup.py
+paqueteoptimizacion_isabellajb.egg-info/PKG-INFO
+paqueteoptimizacion_isabellajb.egg-info/SOURCES.txt
+paqueteoptimizacion_isabellajb.egg-info/dependency_links.txt
+paqueteoptimizacion_isabellajb.egg-info/top_level.txt
