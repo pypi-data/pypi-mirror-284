@@ -1,0 +1,22 @@
+recommendation.tools.recommendation_api_tool.get_recommendation_intelligence_flow_api:
+  function: get_recommendation_intelligence_flow_api
+  inputs:
+    allowed:
+      type:
+      - bool
+    chat_input:
+      type:
+      - string
+    end_point:
+      type:
+      - string
+    api_key:
+      type:
+      - string
+    deployment_name:
+      type:
+      - string
+  module: recommendation.tools.recommendation_api_tool
+  name: recommendation intelligence prompt flow
+  description: This is recommendation intelligence prompt flow tool
+  type: python
