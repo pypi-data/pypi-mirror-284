@@ -1,0 +1,2 @@
+[console_scripts]
+cli-name = example_package_lorenzomag:main
