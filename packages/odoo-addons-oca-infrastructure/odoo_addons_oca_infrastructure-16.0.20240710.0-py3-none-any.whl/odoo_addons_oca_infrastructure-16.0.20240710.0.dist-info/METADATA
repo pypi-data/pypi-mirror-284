@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: odoo-addons-oca-infrastructure
+Version: 16.0.20240710.0
+Summary: Meta package for oca-infrastructure Odoo addons
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 16.0
+Requires-Dist: odoo-addon-base-dns-infrastructure <16.1dev,>=16.0dev
+
+UNKNOWN
