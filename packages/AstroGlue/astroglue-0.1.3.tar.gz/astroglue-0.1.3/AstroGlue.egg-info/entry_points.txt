@@ -1,0 +1,2 @@
+[console_scripts]
+AstroGlue = AstroGlue.__main__:main
