@@ -1,0 +1,11 @@
+xaitk_jatic/__init__.py,sha256=Ix2Igzsmyp1WALYxRUQ6Ar0rVkRGyvqtxvYaGusihoY,253
+xaitk_jatic/interop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xaitk_jatic/interop/image_classification.py,sha256=K3TyuBhWNaLa2fF46Jb11zMLturQ25DUhe0-S5061EU,2278
+xaitk_jatic/interop/object_detection.py,sha256=xqcHu9H1vx8MwA_UIJbc3dzXp719hWpRHIMtaXigSOg,3333
+xaitk_jatic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xaitk_jatic/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xaitk_jatic-0.1.1.dist-info/LICENSE,sha256=4AU_dZipGb8IRaqaLdPM3tRbyOkWiVzC-VCcVL9sq5M,10176
+xaitk_jatic-0.1.1.dist-info/METADATA,sha256=nEXhEVG5JTYGivoFPFlJ3kJaXRqVxIYSB0_OOc3wiWk,3165
+xaitk_jatic-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+xaitk_jatic-0.1.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xaitk_jatic-0.1.1.dist-info/RECORD,,

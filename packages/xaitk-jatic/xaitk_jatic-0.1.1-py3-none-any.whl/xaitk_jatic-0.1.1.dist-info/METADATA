@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: xaitk-jatic
+Version: 0.1.1
+Summary: Integration package to support interfacing, implementation and example needs for the JATIC.
+Author: Kitware, Inc.
+Author-email: xaitk@kitware.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: notebooks
+Requires-Dist: jupyter (>=1.0.0) ; extra == "notebooks"
+Requires-Dist: maite (>=0.5.0,<0.6.0)
+Requires-Dist: numpy (>=1.22,<1.25) ; python_version >= "3.8" and python_version < "3.9"
+Requires-Dist: numpy (>=1.25,<2.0) ; python_version >= "3.9" and python_version < "3.12"
+Requires-Dist: numpy (>=1.26,<2.0) ; python_version >= "3.12" and python_version < "3.13"
+Requires-Dist: scipy (<1.11.1) ; python_full_version >= "3.8.1" and python_full_version < "3.9.0"
+Requires-Dist: scipy (>=1.10.0) ; python_version >= "3.9"
+Requires-Dist: setuptools (>=65.6.3)
+Requires-Dist: xaitk-saliency (>=0.8.2)
+Description-Content-Type: text/markdown
+
+# XAITK JATIC Integrations
+
+## Description
+"Bucket" to house various examples and resources related to
+[`xaitk-saliency`](https://github.com/xaitk/xaitk-saliency)
+integration and scaling for JATIC use as part of the JATIC program.
+
+## Installation
+The following steps assumes the source tree has been acquired locally.
+
+Install the current version via pip:
+```bash
+pip install .
+```
+
+Alternatively, [Poetry](https://python-poetry.org/) can also be used:
+```bash
+poetry install
+```
+
+## Usage
+We provide a number of examples based on Jupyter notebooks in the
+`./examples/` directory to show usage of the `xaitk-saliency`
+package with other tools in the ML ecosystem. Similarly, demo
+notebooks associated with each increment can be found in `./demos/`.
+
+Reflections on integrating `xaitk-saliency` with these tools can be
+found in `./docs/platform_reflections/`.
+
+## Documentation
+Documentation snapshots for releases as well as the latest master are hosted on
+ReadTheDocs.
+
+The sphinx-based documentation may also be built locally for the most
+up-to-date reference:
+```bash
+# Install dependencies
+poetry install
+# Navigate to the documentation root.
+cd docs
+# Build the docs.
+poetry run make html
+# Open in your favorite browser!
+firefox _build/html/index.html
+```
+
+## Contributing
+
+- We follow the general guidelines outlined in the
+[JATIC Software Development Plan](https://gitlab.jatic.net/jatic/docs/sdp/-/blob/main/Branch,%20Merge,%20Release%20Strategy.md).
+- The Git Flow branching strategy is used.
+- See `docs/releasing/release_process.rst` for detailed release information.
+- See `CONTRIBUTING.md` for additional contributing information.
+
+## License
+Apache 2.0
+
+**POC**: Brian Hu @brian.hu
+**DPOC**: Paul Tunison @paul.tunison
+
