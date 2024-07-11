@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+kgcpy/__init__.py
+kgcpy/df_quantile.csv
+kgcpy/kg_zoneNum.csv
+kgcpy/kgcities.csv
+kgcpy/kmz_int_reshape.png
+kgcpy/test_functions.py
+kgcpy/zipcodes.csv
+kgcpy.egg-info/PKG-INFO
+kgcpy.egg-info/SOURCES.txt
+kgcpy.egg-info/dependency_links.txt
+kgcpy.egg-info/requires.txt
+kgcpy.egg-info/top_level.txt
