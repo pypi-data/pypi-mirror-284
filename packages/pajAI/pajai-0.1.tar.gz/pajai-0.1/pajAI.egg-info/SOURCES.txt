@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pajAI/__init__.py
+pajAI/ad_manager.py
+pajAI.egg-info/PKG-INFO
+pajAI.egg-info/SOURCES.txt
+pajAI.egg-info/dependency_links.txt
+pajAI.egg-info/entry_points.txt
+pajAI.egg-info/requires.txt
+pajAI.egg-info/top_level.txt
+tests/test_ad_manager.py
