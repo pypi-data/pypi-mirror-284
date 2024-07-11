@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/ailecs_nightwatch.egg-info/PKG-INFO
+src/ailecs_nightwatch.egg-info/SOURCES.txt
+src/ailecs_nightwatch.egg-info/dependency_links.txt
+src/ailecs_nightwatch.egg-info/top_level.txt
+src/pythonproject1/__init__.py
