@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: orm-study
+Version: 0.0.1
+Summary: cli library for studying python in ormcamp
+Home-page: https://github.com/jungminchae/orm-study
+License: MIT
+Keywords: orm-study,Python,orm-camp,education
+Author: jungminchae
+Author-email: minchae3618@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: typer (>=0.12.3,<0.13.0)
+Project-URL: Repository, https://github.com/jungminchae/orm-study
+Description-Content-Type: text/markdown
+
+# ORM STUDY
+
+Python 초보 학습자를 위한 Python 퀴즈 라이브러리입니다. 터미널에서 실행하는 Python 문제은행입니다.
+
