@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+khmer2number/__init__.py
+khmer2number.egg-info/PKG-INFO
+khmer2number.egg-info/SOURCES.txt
+khmer2number.egg-info/dependency_links.txt
+khmer2number.egg-info/requires.txt
+khmer2number.egg-info/top_level.txt
