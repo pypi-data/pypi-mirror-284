@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+flask-mongo-crud/__init__.py
+flask-mongo-crud/requirements.txt
+flask_mongo_crud.egg-info/PKG-INFO
+flask_mongo_crud.egg-info/SOURCES.txt
+flask_mongo_crud.egg-info/dependency_links.txt
+flask_mongo_crud.egg-info/requires.txt
+flask_mongo_crud.egg-info/top_level.txt
