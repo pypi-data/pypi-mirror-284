@@ -1,0 +1,7 @@
+tests/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+tests/test_llm_master.py,sha256=9pG9mgV_JUqf1q6uiU_FwwUZtzEC9cu5PgONNKTiQrI,4361
+llm_master-0.1.0.dist-info/LICENSE,sha256=2THpglwCSts063WJ3KJeAhBQRe60crl2JRPOzurJxfQ,1110
+llm_master-0.1.0.dist-info/METADATA,sha256=HbEOnM85sNg_3eTIji3WNkFsGx8oXcnMu68_k1XOKdc,4609
+llm_master-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+llm_master-0.1.0.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+llm_master-0.1.0.dist-info/RECORD,,
