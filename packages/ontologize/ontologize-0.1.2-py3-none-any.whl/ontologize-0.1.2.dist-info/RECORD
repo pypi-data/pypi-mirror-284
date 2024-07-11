@@ -1,0 +1,12 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+__main__.py,sha256=76LzlluTJENsnsIPl64-EG1ml7J3JvxOrQAYCLXtsZw,86
+biocyc.py,sha256=QWKSk00_HAwj3szLWJqoK9lhhyVcJbgOSRzFyaoWtXQ,5372
+cli.py,sha256=biICNrrKGMqbTUBpK2c6nltJnZfIAhw4ecX6avnqB7E,4329
+defaults.py,sha256=M9JLEwgezrQhqSo82uhtu7jwbOaQ_yL9oGj6OPHfPIQ,14
+ontology.py,sha256=FoiB4ZLPaTtBKwXh59dfzHvE0gLR0lGBD1HGXyu-21Y,10178
+ontologize-0.1.2.dist-info/LICENSE,sha256=vTkn45GedTLyg0YBClFaFFIzSVZ-ws9lFt7bQs8iCO4,1070
+ontologize-0.1.2.dist-info/METADATA,sha256=k60vGYL0DzTdvR5OeQOPOeX0pP5p5yDJftTyHh7t2Yc,5322
+ontologize-0.1.2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+ontologize-0.1.2.dist-info/entry_points.txt,sha256=3UUAfeO3y-95cvPja_qilYrTJSv4zLen7R6QvQFgWqQ,56
+ontologize-0.1.2.dist-info/top_level.txt,sha256=P9_TtuskwMBMq1TbJKNFmT2bYmdVWSkm1L3-Z0TLifI,47
+ontologize-0.1.2.dist-info/RECORD,,
