@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: python-diver
+Version: 1.0
+Summary: Pydiver: ecological diversity analysis in Python
+Home-page: http://pydiver.readthedocs.io/
+Download-URL: http://github.com/andim/pydiver
+Author: Andreas Tiffeau-Mayer
+Author-email: andimscience@gmail.com
+Maintainer: Andreas Tiffeau-Mayer
+Maintainer-email: andimscience@gmail.com
+License: MIT
+Platform: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE
+Requires-Dist: numpy
+
+
+# PyDiver: ecological diversity analysis in Python
+
+PyDiver is a lightweight software package for calculating Simpson diversity with error bars.
+
+It provides a reference implementation of the unbiased variance estimates proposed in [Tiffeau-Mayer 2024](https://doi.org/10.1103/PhysRevE.109.064411).
+
+## Installation
+
+The quickest way to install Pyrepseq is via pip:
+
+`pip install python-diver`
+
+Note that this package is called python-diver on PyPI.
+
+## Documentation and examples
+
+You can find API documentation on [readthedocs](https://pydiver.readthedocs.io/en/latest/?badge=latest).
+You can also create a local copy of the API documentation by running:
+
+```bash
+make html
+```
+
+in the docs folder.
+
+You can find usage examples by looking at the code in the [pub_simpsonvar](https://github.com/andim/pydiver/tree/main/pub_simpsonvar) directory.
