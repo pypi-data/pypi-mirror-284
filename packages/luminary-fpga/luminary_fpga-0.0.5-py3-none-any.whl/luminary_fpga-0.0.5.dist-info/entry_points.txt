@@ -1,0 +1,3 @@
+[console_scripts]
+luminary=luminary_fpga.commands.cli:main
+
