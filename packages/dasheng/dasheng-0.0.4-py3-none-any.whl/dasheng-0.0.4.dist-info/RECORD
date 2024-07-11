@@ -1,0 +1,13 @@
+dasheng/__init__.py,sha256=zahyFgfR4gygOU4yHyyr8JtmN6XAKdTTniqLIQDMids,153
+dasheng/prepare/wavlist_to_tar.py,sha256=1jtXO5XQuDRduxInRjMVRvT2641oAhCzV03lQo8m_BU,3883
+dasheng/pretrained/pretrained.py,sha256=PZoYuj7Ifs_splGTHukBa6sGAd672SZ9E0v8QR8m1vE,4403
+dasheng/train/audiowebdataset.py,sha256=wzHSSMebnMTwqoAwKZGDHIV7KjIkRGKAtiYPhn_Ec_Y,5190
+dasheng/train/models.py,sha256=Ts7kqE7ezl2GJXGbNNbMSgclOmbM82spOxxZVti__3s,25002
+dasheng/train/train.py,sha256=63oZcoXwNgXakyF664IjQ5EOFUq-34lNjQ1n4Rihgqs,9057
+dasheng/train/utils.py,sha256=g0W0NIm_d3Xm7BGzfdET2wZzR5UJA4RIt7yfwryZUeY,3758
+dasheng-0.0.4.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+dasheng-0.0.4.dist-info/METADATA,sha256=3qzUUa37_50Gemfy9QxyDBldmIAHN27A84Q2QhyPpts,21850
+dasheng-0.0.4.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+dasheng-0.0.4.dist-info/entry_points.txt,sha256=TY_oyKn8Mb3ytNpHfBdRsY0PozD3xTif8SvK-fAGaYM,71
+dasheng-0.0.4.dist-info/top_level.txt,sha256=f69mGBlaidaUrOYvLlwDW8_Moxfy-69ETRy1KhenCjs,8
+dasheng-0.0.4.dist-info/RECORD,,
