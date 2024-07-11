@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+whyerror/__init__.py
+whyerror/cli.py
+whyerror.egg-info/PKG-INFO
+whyerror.egg-info/SOURCES.txt
+whyerror.egg-info/dependency_links.txt
+whyerror.egg-info/entry_points.txt
+whyerror.egg-info/requires.txt
+whyerror.egg-info/top_level.txt
