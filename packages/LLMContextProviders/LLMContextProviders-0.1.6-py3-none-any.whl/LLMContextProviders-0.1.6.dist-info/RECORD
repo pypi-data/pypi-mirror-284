@@ -1,0 +1,12 @@
+llm_context_providers/__init__.py,sha256=aqiEjEW2ZosZ9Ybma0BapU26KOI2r1zM4mU1L97gQkg,256
+llm_context_providers/asana_context_provider.py,sha256=VkWyOmMc7s3Y9c8jx_uhSq5H-IBbFa1tacm75zmsKBc,9173
+llm_context_providers/context_manager.py,sha256=XdjpFzp5vaS6PHf3QvuYzq1C3A5Sj742Mbv_yKzMiQw,2659
+llm_context_providers/context_provider.py,sha256=6WG2r1K7cm1gMy4At014oEo3fwFlUoVjQqvKIPcyp3Q,1412
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_asana_context_provider.py,sha256=w3LJwE8pldWPBqbm4wHuKf_jWzzw-CyYM_3RFUTu9uw,3849
+tests/test_context_manager.py,sha256=HUrFg-hMGefQbFmJFed3OZ0bhNtSJ2oPPJvchn4NQSc,2349
+LLMContextProviders-0.1.6.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+LLMContextProviders-0.1.6.dist-info/METADATA,sha256=X2jElJ1L3LD-GorNBOydsWDdjqXcMbrlVIQ2M-iFHco,6213
+LLMContextProviders-0.1.6.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+LLMContextProviders-0.1.6.dist-info/top_level.txt,sha256=m4EfQL19T5-iCuF0Oy2Ph_oBcafVCQ63WctbgCLpspk,28
+LLMContextProviders-0.1.6.dist-info/RECORD,,
