@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+aocov/__init__.py
+aocov/covariance.py
+aocov.egg-info/PKG-INFO
+aocov.egg-info/SOURCES.txt
+aocov.egg-info/dependency_links.txt
+aocov.egg-info/requires.txt
+aocov.egg-info/top_level.txt
