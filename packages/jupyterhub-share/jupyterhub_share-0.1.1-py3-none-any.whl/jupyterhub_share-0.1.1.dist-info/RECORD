@@ -1,0 +1,8 @@
+jupyterhub_share/__init__.py,sha256=pg_e9ZkGhz78741z7NC4HmeQ0KEsVKzQyP5VVsiGEk4,125
+jupyterhub_share/_version.py,sha256=TBS6qy-HXrrAJhYIUeNzQr3jPSSWDM6dJL6zlmK-zgI,154
+jupyterhub_share/api.py,sha256=_da-f66q19HW7KMiklUbKb05mSFPT2YUcw-XhRnqokg,3108
+jupyterhub_share/orm.py,sha256=u7uAYJ55jq-W5Ck99vTH8HYChiLn0fg_g2k82JgT1lg,1032
+jupyterhub_share-0.1.1.dist-info/METADATA,sha256=qWtyuW-xLhkj4ge6jYLn1aM2zoNq2IvOu4RqXAioVWw,2905
+jupyterhub_share-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+jupyterhub_share-0.1.1.dist-info/licenses/LICENSE,sha256=dk2Yc1sUc5TLag7h0BsSuhEKOfhznVUW3pD6Ssg4pVA,1517
+jupyterhub_share-0.1.1.dist-info/RECORD,,
