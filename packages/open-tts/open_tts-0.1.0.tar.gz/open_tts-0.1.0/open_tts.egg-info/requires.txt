@@ -1,0 +1,4 @@
+requests
+playsound
+colorama
+beautifulsoup4
