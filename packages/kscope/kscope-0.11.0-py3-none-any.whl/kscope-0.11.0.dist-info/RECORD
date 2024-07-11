@@ -1,0 +1,9 @@
+kscope/__init__.py,sha256=1bVkmHh7K2tBX3huwTk00xWRavKwWJ_s2hrmW_ahl7g,227
+kscope/hooks.py,sha256=gvMzCT7oVQuluEk_DIY-5ESMGRZM41N4X8vLW705KPI,513
+kscope/kaleidoscope_sdk.py,sha256=eq8dN5pocYVKDiVYp0ZnAQwde7t-tzpkQ26kMKJTgkA,7334
+kscope/utils.py,sha256=Dcdh2m4c64AZFanXJKzMiFJhzPZr8qSWEBEE7VfCrxE,1874
+kscope-0.11.0.dist-info/LICENSE,sha256=lPBNyELLGbhMTJZJobf39aCuQA73vXAzSPUR2Gh0jS0,1073
+kscope-0.11.0.dist-info/METADATA,sha256=1DGbAjB3E9Mf2E6h1O25cXokXoMNmKjLpq700sCe7HA,5706
+kscope-0.11.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+kscope-0.11.0.dist-info/top_level.txt,sha256=jlIq-KDf5FtHsggAf2txvN298ZmzbIPujXnodaAQc1I,7
+kscope-0.11.0.dist-info/RECORD,,
