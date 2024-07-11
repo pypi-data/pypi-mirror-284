@@ -1,0 +1,16 @@
+conan_unified_api/__init__.py,sha256=sdqwX9Lb77bfOuZtSurclubQwgCuSL5hcF43tYZzdNM,931
+conan_unified_api/common.py,sha256=1UE6uuT-5XQFQ7rIX_WmoS_pUOKyVLm9vC6uMeZah7M,15604
+conan_unified_api/conanV1.py,sha256=G9mMVKVBdXsinBnrd2oTwu0BlGDRTEWWPj34RPCDezc,19867
+conan_unified_api/conanV2.py,sha256=VSpTAFkV1DBeus8_pw3NTMrWSBA74416v9eAeYpvNVI,20995
+conan_unified_api/types.py,sha256=v5oxKceUxjnNFwzMhhB6iHYMX5khZLDULf93naQQHxU,3713
+conan_unified_api/unified_api.py,sha256=k9ugfwptlSA0mk0CSY8ahXw6NXveQpdtQo-ugH_YEvs,13359
+conan_unified_api/base/__init__.py,sha256=ceCYAk8bPmH_BoB7Lp8_npIzjGVp8aCOz0oArgPNM5E,406
+conan_unified_api/base/helper.py,sha256=4BwlcM4OikmqcrJOvc3vRTNnPSyIhNfQhu80e_TSCLA,1874
+conan_unified_api/base/logger.py,sha256=wycEZNe06QlQ-SFao2zHDTHXCyipCdX_k5oKvsGTrOI,1430
+conan_unified_api/base/typing.py,sha256=06acZoi1mToSn06JkjMqUQsTtv0fxW7FII7ZIDQTIo8,1595
+conan_unified_api/cache/conan_cache.py,sha256=fZk8o7usmTn7Enl7l3cbRtnBj7mR2xaoWV-OaA1Wg6s,9668
+conan_unified_api-0.1.0a1.dist-info/LICENSE,sha256=3fbJQRK7RfO927j1UKOcNnH3kDncf5AETJ0jbsa99uo,1065
+conan_unified_api-0.1.0a1.dist-info/METADATA,sha256=GOcTOLtg8SpJsWPYlb9u1zK3K84qehuPD8bhIEjY9g0,2445
+conan_unified_api-0.1.0a1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+conan_unified_api-0.1.0a1.dist-info/top_level.txt,sha256=3j5vNdkD12Ig6YyMsoF58Al1xZgxIt1yJlVclUUTJDI,18
+conan_unified_api-0.1.0a1.dist-info/RECORD,,
