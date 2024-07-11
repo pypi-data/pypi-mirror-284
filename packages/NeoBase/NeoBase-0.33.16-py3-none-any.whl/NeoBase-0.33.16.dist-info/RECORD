@@ -1,0 +1,11 @@
+neobase/__init__.py,sha256=_5kmt01_YkdhGcGGn6TvKeRLQv0rcUyHvSYg0huPah4,96
+neobase/__main__.py,sha256=VAKR1PFkbggZd146UvlitTGER2COBhriLt_U71STNTc,4302
+neobase/_version.py,sha256=SZ5iTJimKsUyhUKa6kx_hZB1WS-ni-dFDmjKNq7a-x0,24
+neobase/neobase.py,sha256=9rRD-_-t1BpSl8HxESBjiJElD8aEUddRK9RtlbO9jm0,16344
+neobase/optd_por_public.csv,sha256=vf2R0GIXg2_ydWfqveVufmz4r-nCA_DggZT1nxcJ89Y,12583030
+NeoBase-0.33.16.dist-info/LICENSE,sha256=qj4sIc8SNMG5iqJkG4M4cjaG98LJfOWr_oxannOhPZk,11311
+NeoBase-0.33.16.dist-info/METADATA,sha256=akx9qaASnbEdvbNLIZvjjRwQFPw6NVlrW7fq1qoF9x4,4423
+NeoBase-0.33.16.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+NeoBase-0.33.16.dist-info/entry_points.txt,sha256=lNes7a1yLmkZbJDbQwqQY-ZDKM3nA_lrPGZviNgN03A,50
+NeoBase-0.33.16.dist-info/top_level.txt,sha256=Ke85R4L6ni3P0FbXh3Mk1H6-6Uy1enDrwNrGZZHqB-k,8
+NeoBase-0.33.16.dist-info/RECORD,,
