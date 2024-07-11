@@ -1,0 +1,4 @@
+[console_scripts]
+ghog_mkgpkg = ghog.bin.ghog_mkgpkg:main
+ghog_mkh5 = ghog.bin.ghog_mkh5:main
+ghog_mkqlook = ghog.bin.ghog_mkqlook:main
