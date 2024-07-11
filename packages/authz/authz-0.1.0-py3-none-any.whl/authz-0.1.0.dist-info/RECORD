@@ -1,0 +1,8 @@
+authz/__init__.py,sha256=X5phK-9qlu6IETWrp30r3XcVf8R46jVrT1rtU463ND0,455
+authz/auth.py,sha256=b1C5P5P9QGgAx8rMT5B8S0BPEQX7CS0D5HKBsSamJ7o,2843
+authz/base.py,sha256=jzO-gBC89tq7Zf71NjM3w6LPjG7DwkZ6fhblJB0dfNA,4730
+authz/oauth2.py,sha256=3uPlFq_MWi3SINFk788J0mPkNT3QsmSF3eTrJd1SSxg,4691
+authz-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+authz-0.1.0.dist-info/METADATA,sha256=VV-rvJ31RXyFM2pBIg6qmZm-PJ98Z9_9OeLxHhV62d0,4150
+authz-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+authz-0.1.0.dist-info/RECORD,,
