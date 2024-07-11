@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+solspec/automl.py
+solspec/classifiers.py
+solspec/preprocessing.py
+solspec/regressers.py
+solspec.egg-info/PKG-INFO
+solspec.egg-info/SOURCES.txt
+solspec.egg-info/dependency_links.txt
+solspec.egg-info/requires.txt
+solspec.egg-info/top_level.txt
+tests/test_preprocessing.py
