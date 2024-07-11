@@ -1,0 +1,3 @@
+[console_scripts]
+brass=brassy.brass:run_from_cli
+
