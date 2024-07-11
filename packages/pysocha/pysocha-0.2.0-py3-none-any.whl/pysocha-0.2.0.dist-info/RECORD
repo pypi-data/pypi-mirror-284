@@ -1,0 +1,11 @@
+pysocha/__init__.py,sha256=kaGMDBNKR1JxsPCA8ER6OTdZ1sJP6GGACF23OA1JX6w,1369
+pysocha/__main__.py,sha256=iKbFhzLN2XC4yRbkkwnMfLwJRRDxoXvSlIo0Vj6nU8s,83
+pysocha/atom.py,sha256=D40S6F779HS1DLBgRlMDfXqsA4biTgWpHD2Hkcereko,629
+pysocha/build.py,sha256=lldrVtf-IkdcNMx8jqn_a7lHs4KIjm4Zs6ToXaXXC4k,13975
+pysocha/config.py,sha256=8YlMoXiJkXShY6DNDX6QiDhJf517ptfpRXespdK2Gzw,856
+pysocha/markdown.py,sha256=A60uk1hEju7RRmRnuSnhbX4AhAp-g_3apNoD1uAAAik,678
+pysocha/preview.py,sha256=diwSpuDTczts3DGKpnGjleBrR-P5KfHOju2pI3jzbPg,1141
+pysocha-0.2.0.dist-info/METADATA,sha256=KwhTa6XYoBAI2riGmFNGCJd_QNc0lcbPr28PzdzjJW8,665
+pysocha-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pysocha-0.2.0.dist-info/entry_points.txt,sha256=iyC_dtNuFpxqyo55McZemkofmxe23mcudLxhS5FOXU8,41
+pysocha-0.2.0.dist-info/RECORD,,
