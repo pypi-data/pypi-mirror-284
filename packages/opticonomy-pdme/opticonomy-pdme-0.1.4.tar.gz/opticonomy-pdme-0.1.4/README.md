@@ -1,0 +1,58 @@
+# Opticonomy Prompt Driven Model Evaluation (PDME)
+
+## Step 1: Installation and Environment
+
+### Install Package
+  ```
+  pip install opticonomy-pdme
+  ```
+
+### Create and Activate the Virtual Environment
+- Set up a Python virtual environment and activate it (Linux):
+  ```
+  python3 -m venv .venv
+  source .venv/bin/activate
+  ```
+
+- Set up a Python virtual environment and activate it (Windows/VS Code / Bash):
+  ```
+  python -m venv venv
+  source venv/Scripts/activate
+  ```
+  
+- Install dependencies from the `requirements.txt` file:
+  ```
+  pip install -r requirements.txt
+  ```
+
+### Sample Use Cases
+### Storytelling
+ ```
+python pdme_client.py --eval_model openai/gpt-3.5-turbo-0125 --test_model openai-community/gpt2 --seed_1 "an old Englishman" --seed_2 "finding happiness" --seed_3 "rain" --seed_4 "old cars"
+python pdme_client.py --eval_model openai/gpt-3.5-turbo-0125 --test_model distilbert/distilgpt2 --seed_1 "an old Englishman" --seed_2 "finding happiness" --seed_3 "rain" --seed_4 "old cars"
+python pdme_client.py --eval_model openai/gpt-4o --test_model --test_model distilbert/distilgpt2 --seed_1 "an old Englishman" --seed_2 "finding happiness" --seed_3 "rain" --seed_4 "old cars"
+python pdme_client.py --eval_model openai/gpt-4o --test_model openai-community/gpt2 --seed_1 "an old Englishman" --seed_2 "finding happiness" --seed_3 "rain" --seed_4 "old cars"
+ ```
+
+ ## Overview
+
+The method uses a single text generation AI, referred to as eval model, to evaluate any other text generation AI on any topic, and the evaluation works like this:
+
+1. We write a text prompt for what questions the eval model should generate, and provide seeds that are randomly picked to generate a question.
+2. The question is sent to the AI model being tested, and it generates a response.
+3. Likewise, the eval model also generates an answer to the same question.
+4. The eval model then uses a text prompt we write, to compare the two answers and pick the winner. (This model does not necessarily have to be the same as the eval model, but it does simplify inference)
+
+This method allows us to evaluate models for any topic, such as: storytelling, programming, finance, and QnA.
+
+## Technical Description
+
+See above for the installation and running instructions.
+
+### Example Use Case
+
+Let’s say you want to evaluate a model's ability to write stories, PDME should be possible to use in the following way:
+
+1. **Bootstrap Prompt** - First generate a bootstrap prompt using random seeds, e.g.
+
+(continue....)
