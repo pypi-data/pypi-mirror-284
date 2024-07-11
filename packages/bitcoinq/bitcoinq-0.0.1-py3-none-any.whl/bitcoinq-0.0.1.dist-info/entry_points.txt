@@ -1,0 +1,8 @@
+[console_scripts]
+btq = btq.cli:main
+btq_generate_genesis = btq.tools.generate_genesis:main
+btq_grpc_proxy = btq.grpcProxy:main
+btq_measure = btq.measure:main
+btq_start = btq.main:main
+btq_walletd = btq.daemon.walletd:main
+start_btq = btq.main:main
