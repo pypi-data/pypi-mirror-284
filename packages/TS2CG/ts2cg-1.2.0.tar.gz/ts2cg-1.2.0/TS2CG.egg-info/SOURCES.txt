@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+TS2CG/__init__.py
+TS2CG/wrapper.py
+TS2CG.egg-info/PKG-INFO
+TS2CG.egg-info/SOURCES.txt
+TS2CG.egg-info/dependency_links.txt
+TS2CG.egg-info/entry_points.txt
+TS2CG.egg-info/top_level.txt
