@@ -1,0 +1,3 @@
+[console_scripts]
+run-MO-opt = hyperford.optimise.Run_Borg_main:main
+run-SO-opt = hyperford.optimise.Run_SingleDE_main:main

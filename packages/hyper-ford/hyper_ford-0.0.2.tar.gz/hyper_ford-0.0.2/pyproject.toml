@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "hyper-ford"
+version = "0.0.2"  # Update version number for each new release
+description = "HYdroPowER Simulation and Optimization Toolbox"
+authors = [{ name = "Veysel Yildiz", email = "vyildiz1@sheffield.ac.uk" }]
+license = { text = "MIT License" }
+keywords = ["hydropower", "optimization", "simulation", "toolbox"]
+requires-python = ">=3.9"
+readme = "README.md"
+dependencies = [
+    "numpy",
+    "platypus-opt",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "pymoo"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+# Add the scripts section here
+[project.scripts]
+run-MO-opt = "hyperford.optimise.Run_Borg_main:main"
+run-SO-opt = "hyperford.optimise.Run_SingleDE_main:main"
