@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "syncfile"
+version = "0.3.1.2"
+authors = [
+  { name="ECSDevs", email="psbash@groupmail.com" },
+]
+description = "Simple file synchronization service (clients in the same package)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENCE"}
+maintainers = [
+  {name = "originalFactor", email = "2438926613@qq.com" }
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "dnspython",
+  "httpx",
+  "pydantic"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ECSDevs/FileSync"
+"Bug Tracker" = "https://github.com/ECSDevs/FileSync/issues"
+"Support Me" = "https://afdian.net/a/Syncfile_transfer_tool"
