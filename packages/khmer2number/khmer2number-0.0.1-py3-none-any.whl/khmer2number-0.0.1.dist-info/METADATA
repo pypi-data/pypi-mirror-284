@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: khmer2number
+Version: 0.0.1
+Summary: Khmer word to number converter.
+Home-page: https://github.com/seanghay/khmer2number
+Author: Seanghay Yath
+Author-email: seanghay.dev@gmail.com
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: >3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyparsing
+
+## Khmer2Number
+
+Khmer word to number converter.
+
+```shell
+pip install khmer2number
+```
+
+```python
+from khmer2number import parse
+
+tokens = "លោក បាន ទទួល លុយ ចំនួន ដក មួយ រយ ចុច សាមសិប ពីរ រៀល".split()
+print(list(parse(tokens)))
+# => ['លោក', 'បាន', 'ទទួល', 'លុយ', 'ចំនួន', -100, 'ចុច', 32, 'រៀល']
+```
