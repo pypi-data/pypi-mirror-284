@@ -1,0 +1,58 @@
+.kmviz-tab-header {
+  top:0;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  opacity: 1;
+  background-color: white;
+}
+
+.kmviz-tabs {
+  margin-top: 35px;
+}
+
+.kmviz-gselect {
+  width: 150px;
+}
+
+.kmviz-gselect-group {
+  position: fixed;
+  top: 2px;
+  right: 1px;
+  z-index: 11;
+}
+
+.kmviz-dmc-number-input {
+  width: 100px;
+}
+
+.kmviz-dmc-user-number-input {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kmviz-dmc-text-input {
+  width: 100%;
+}
+
+.kmviz-dmc-text-input-root {
+  text-align: center;
+}
+
+.kmviz-dmc-select-input-root {
+  text-align: center;
+}
+
+.kmviz-dmc-numeric-input-root {
+  text-align: center;
+}
+
+.kmviz-dmc-select {
+  width: 100%;
+}
+
+.kmviz-dmc-figure-select {
+  width: 150px;
+}
+
