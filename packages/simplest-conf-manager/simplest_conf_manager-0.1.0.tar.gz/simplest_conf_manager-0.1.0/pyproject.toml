@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "simplest-conf-manager"
+version = "0.1.0"
+description = ""
+authors = ["matthew-shtyasek <shtyasek2003@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+toml = "^0.10.2"
+pydantic = "^2.8.2"
+setuptools = "^70.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
