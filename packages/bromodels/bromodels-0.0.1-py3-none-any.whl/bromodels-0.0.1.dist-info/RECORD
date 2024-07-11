@@ -1,0 +1,16 @@
+bromodels/__init__.py,sha256=b5wnfFKu5fK5sgi4JfcGYFo9V3TVy8Xmf6TxjGAWfTM,381
+bromodels/_version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+bromodels/GTM/GTM_LITHO_CLASS_table.csv,sha256=XCDyAoAmElKDvedCcgo1Mm7Qwq08Vpb9FZnK8p4ZaXA,422
+bromodels/GTM/GTM_STR_UNIT_table.csv,sha256=H6UDak8oyGwRmZnx1_F6YHN2UQ9FHEd8_2OpI88SPMQ,6645
+bromodels/GTM/GeoTop.py,sha256=f2s-KQ_kHHu_rRcgziHv_BhcnQ9Lz6pLlqoM8lEsX8U,3030
+bromodels/GTM/__init__.py,sha256=Y8v8pHX7sButsVqS5_5XnMDSdwYhFibPfLMrFk7d8Ns,273
+bromodels/GTM/data.py,sha256=pOm6EHXoOxb30aY-Q4jCdM0Yujx2b60Hk1eyIgfKWi4,14238
+bromodels/HGM/HGM_STR_table.csv,sha256=bOWWRg-QrBqKALdZQA9AqJ4cSAKPXcGlsXIk4eHBIP4,10675
+bromodels/HGM/Regis.py,sha256=rjedavhgNnvDDXmSk-9h0YaQPirvKqpZSkVwqf9xg6U,5123
+bromodels/HGM/__init__.py,sha256=b4NFwXEjRz3LC3bVqikE45Oxcf-D2KvntvN-_HOERyg,244
+bromodels/HGM/data.py,sha256=RcqGEEq48ECApUSYFKdluYBtbGN_zn69hbg5cD9TczI,19477
+bromodels-0.0.1.dist-info/LICENSE,sha256=DCNDc83j9S9uXJUSuRi2laPM7jQV47LMHp0jTfl2WGA,1061
+bromodels-0.0.1.dist-info/METADATA,sha256=Lc1EFT0arsb4SxrGhl1p6udgAecWArFzkR7P_ovDN24,2989
+bromodels-0.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+bromodels-0.0.1.dist-info/top_level.txt,sha256=uaQL88pKg2lmU4XDSZ0baYzJkTMmTJjaizOQLfI1s1Q,10
+bromodels-0.0.1.dist-info/RECORD,,
