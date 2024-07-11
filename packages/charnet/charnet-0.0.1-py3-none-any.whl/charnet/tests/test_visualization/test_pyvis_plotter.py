@@ -1,0 +1,59 @@
+import matplotlib.colors as mcolors
+from pyvis.network import Network
+
+
+def plot_graph_pyvis(graph):
+    # Create a Pyvis network graph
+    g = Network(height="800px", width="100%", bgcolor="#222222", font_color="white", notebook=True, directed=True)
+    g.toggle_physics(True)
+    g.force_atlas_2based()
+
+    # Convert colors to hex
+    def to_hex(color):
+        return mcolors.to_hex(color)
+
+    # Normalize edge weights
+    edge_weights = [data['weight'] for _, _, data in graph.edges(data=True)]
+    if edge_weights:
+        min_weight, max_weight = min(edge_weights), max(edge_weights)
+        normalized_weights = {
+            (u, v): (data['weight'] - min_weight) / (max_weight - min_weight) * 10 + 1
+            for u, v, data in graph.edges(data=True)
+        }
+    else:
+        normalized_weights = {}
+
+    # Normalize node sizes
+    node_counts = [data['count'] for _, data in graph.nodes(data=True)]
+    if node_counts:
+        min_count, max_count = min(node_counts), max(node_counts)
+        normalized_sizes = {
+            node: (data['count'] - min_count) / (max_count - min_count) * 30 + 10
+            for node, data in graph.nodes(data=True)
+        }
+    else:
+        normalized_sizes = {}
+
+    # Add nodes with labels based on their count and normalized sizes
+    for node, data in graph.nodes(data=True):
+        g.add_node(
+            node,
+            label=f"{node}: {data['count']}",
+            color=to_hex(data['color']),
+            title=f"Count: {data['count']}",
+            size=normalized_sizes.get(node, 10)  # Use normalized size, default to 10 if not available
+        )
+
+    # Add edges with normalized weights and labels
+    for u, v, data in graph.edges(data=True):
+        g.add_edge(
+            u,
+            v,
+            value=normalized_weights.get((u, v), 1),  # Use normalized weight, default to 1 if not available
+            color=to_hex(data['color']),
+            title=f"Weight: {data['weight']}",
+            label=str(data['weight'])
+        )
+
+    # Show the graph
+    g.show("nx.html")

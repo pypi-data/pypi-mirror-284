@@ -1,0 +1,1 @@
+from app.charnet.src import CharNet

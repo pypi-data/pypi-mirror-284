@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: charnet
+Version: 0.0.1
+Summary: Character interaction temporal graph analysis
+Home-page: https://github.com/MediaCompLab/CharNet
+Author: Media Computing Lab
+Author-email: shu13@gsu.edu
+License: GPL-3.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: plotly
+Requires-Dist: gravis
+Requires-Dist: pyvis
+Provides-Extra: dev
+Requires-Dist: pytest (>=7.0) ; extra == 'dev'
+Requires-Dist: twine (>=4.0.2) ; extra == 'dev'
+
+# CharNet: Dynamic Social Network Analysis for TV Series Dialogues
+
+CharNet is a Python package designed for performing graph analysis on dynamic social networks based on dialogues in TV series. It provides tools for loading dialogue data, calculating and creating weighted graphs, and visualizing character interactions over time.
+
+- **Github:** https://github.com/MediaCompLab/CharNet
+
+## Installation
+
+...
+
+## Simple example
+
+```python
+from app.charnet.src import CharNet
+from app.charnet.src import *
+import pandas as pd
+
+df = pd.read_csv('your_tv_series_data.csv')
+net = CharNet(df, ('Season', 'Episode', 'Scene', 'Line'),
+              interactions='Words', speakers='Speaker', listeners='Listener')
+net.get_weights(lambda x: len(x))
+net.set_min_step('Scene')
+subset = net.get_interval((1, 1, 1, 1), (1, 2, 1, 1))
+subset.normalize_weights()
+subset.set_layout('circular')
+subset.draw(plot='matplotlib')
+
+# Analysis
+degree_results = simple_degree(subset, weighted=True)
+# degree_centrality(subset)
+# betweenness_centrality(subset)
+# closeness_centrality(subset)
+# eigenvector_centrality(subset)
+degree_results.to_csv('results.csv', index=False)
+```
+
+## To Do
+- [x] Add non-directed graph support
+- [x] Add closeness centrality
+- [x] Add Eigenvector centrality
+- [ ] Add Louvain community detection
+- [ ] Add temporal graph support
+
+## License
+
+Released under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+```
+Copyright (c) 2024 Media Comprehension Lab
+```
