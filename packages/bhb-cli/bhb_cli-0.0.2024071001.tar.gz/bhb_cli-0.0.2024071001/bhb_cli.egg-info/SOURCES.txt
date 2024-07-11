@@ -1,0 +1,5 @@
+setup.py
+bhb_cli.egg-info/PKG-INFO
+bhb_cli.egg-info/SOURCES.txt
+bhb_cli.egg-info/dependency_links.txt
+bhb_cli.egg-info/top_level.txt
