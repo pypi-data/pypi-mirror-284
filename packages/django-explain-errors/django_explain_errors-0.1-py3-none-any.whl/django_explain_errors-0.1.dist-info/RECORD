@@ -1,0 +1,9 @@
+explain_errors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+explain_errors/middleware.py,sha256=DJYGw0OGgPTXJIOx-O2KlnSxUgisGmzV6GhF2UN7w24,2389
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_middleware.py,sha256=rTul8ZtFgRkkepNFRXSU1X521GgNpk3TTXFMCi3ERHQ,908
+django_explain_errors-0.1.dist-info/LICENSE,sha256=Kxbs99ohpmwKsq9TsJYyN53NwFuDQrgXtl9hfUtwGb8,1065
+django_explain_errors-0.1.dist-info/METADATA,sha256=VFEZmEQdXoIcjAC5hes6WxlTmIp2Vv4arB-RM8seTY8,2994
+django_explain_errors-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_explain_errors-0.1.dist-info/top_level.txt,sha256=bnMY4uDHGAV4sTjpJghE8sf1Ay5ezERJEaXX6Oz7DFI,21
+django_explain_errors-0.1.dist-info/RECORD,,
