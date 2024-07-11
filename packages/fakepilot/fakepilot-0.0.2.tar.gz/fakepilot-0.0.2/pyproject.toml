@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fakepilot"
+description = "Scrapping tool for Trustpilot"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+  { name = "Carlos Romero Cruz", email = "phoenixsitegit@outlook.com" },
+]
+keywords = ["trustpilot", "scrapping", "beautifulsoup"]
+requires-python = ">=3.9"
+dynamic = ["version"]
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+  "beautifulsoup4>=4.12.3",
+  "lxml>=5.2.2",
+]
+optional-dependencies.docs = [
+  "sphinx>=7.3.7",
+]
+optional-dependencies.testing = [
+  "pytest>=8.2.2",
+]
+
+[project.urls]
+Repository = "https://github.com/phoenixsite/fakepilot"
+Issues = "https://github.com/phoenixsite/fakepilot/issues"
+
+[tool.setuptools.dynamic]
+version = {attr = "fakepilot.__version__"}
