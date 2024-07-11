@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pymechanism/__init__.py
+pymechanism/mechanism.py
+pymechanism.egg-info/PKG-INFO
+pymechanism.egg-info/SOURCES.txt
+pymechanism.egg-info/dependency_links.txt
+pymechanism.egg-info/not-zip-safe
+pymechanism.egg-info/top_level.txt
