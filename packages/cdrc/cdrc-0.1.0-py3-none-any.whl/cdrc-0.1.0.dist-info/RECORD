@@ -1,0 +1,12 @@
+cdrc/__init__.py,sha256=xJEeWpDeesgMSgiedeCNAzObcZq607gPm8AKcuzrHFI,57
+cdrc/common.py,sha256=Fuh3Fgl4VqjKBoftxVkVkDyTjUkyhVtdze3RoU3SdoY,1376
+cdrc/dev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdrc/dev/script.py,sha256=j_jXdptC6aWMUPauZIIDRd-zpnxeiqcZY522C1a1QwM,893
+cdrc/main.py,sha256=FMeNyVO6v0J43Q1HnfNHVjrcr1-X1N-T4VJWVnDYa0E,8611
+cdrc/schemas.py,sha256=1omggxBHZAMV7qHmsS8H0Hv9jsbGhbo72IPZRKEPxTU,1041
+cdrc/scripts/format.sh,sha256=iPgiPQMouPGzp7u5czI5Tjqm0tPrkP1VxdAugS_OaMM,71
+cdrc-0.1.0.dist-info/LICENSE,sha256=mybrmJrHL8qzBBWGrsdtru1o1SZ1tGLbRqbfpJ9FHt4,1065
+cdrc-0.1.0.dist-info/METADATA,sha256=Wk0qoj6fzrJtGbhSUmHwzjZBaFk-Bcvk8GYds3u-IPg,1981
+cdrc-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cdrc-0.1.0.dist-info/entry_points.txt,sha256=LBw3yTX0gqDP12ZiXR9LtUfyOMtaJbKVnDFRPj9aIwA,49
+cdrc-0.1.0.dist-info/RECORD,,
