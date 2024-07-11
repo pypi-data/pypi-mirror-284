@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyEflux.egg-info/PKG-INFO
+pyEflux.egg-info/SOURCES.txt
+pyEflux.egg-info/dependency_links.txt
+pyEflux.egg-info/top_level.txt

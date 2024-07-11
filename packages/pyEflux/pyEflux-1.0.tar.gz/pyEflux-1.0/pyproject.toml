@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyEflux"
+version = "1.0"
+authors = [
+  { name="Brunet Theo", email="theo.brunet@univ-amu.fr" },
+]
+description = "Package used to constrain a metabolic model with the Efflux method (constrain based on proteomic or transcriptomic data)"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/brunet.theo83140/pyeflux"
+"Bug Tracker" = "https://gitlab.com/brunet.theo83140/pyeflux/issues"

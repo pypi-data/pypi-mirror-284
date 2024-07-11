@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyEflux
+Version: 1.0
+Summary: Package used to constrain a metabolic model with the Efflux method (constrain based on proteomic or transcriptomic data)
+Author: Brunet Theo, Stphen Chapman
+Author-email: Brunet Theo <theo.brunet@univ-amu.fr>
+Project-URL: Homepage, https://gitlab.com/brunet.theo83140/pyeflux
+Project-URL: Bug Tracker, https://gitlab.com/brunet.theo83140/pyeflux/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
