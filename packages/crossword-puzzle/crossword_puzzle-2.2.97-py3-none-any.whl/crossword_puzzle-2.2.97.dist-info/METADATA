@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: crossword_puzzle
+Version: 2.2.97
+Summary: Select, generate and play always-unique crosswords.
+Home-page: https://github.com/tomasvana10/crossword_puzzle
+Author: Tomas Vana
+License: MIT
+Platform: any
+Classifier: Topic :: Multimedia
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: JavaScript
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Framework :: Flask
+Classifier: Topic :: Software Development :: Localization
+Classifier: Topic :: Education
+Classifier: Topic :: Games/Entertainment
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: Babel
+Requires-Dist: customtkinter
+Requires-Dist: Flask
+Requires-Dist: flask-babel
+Requires-Dist: Pillow
+Requires-Dist: regex
+Requires-Dist: platformdirs
+Requires-Dist: pathvalidate
+Requires-Dist: CTkToolTip
+Requires-Dist: pywebview
+
+# This project has moved to `xpuz`
+`crossword_puzzle` was renamed to `xpuz` on 11/07/2024. Visit the new PyPi project page [here](https://pypi.org/project/xpuz/).
