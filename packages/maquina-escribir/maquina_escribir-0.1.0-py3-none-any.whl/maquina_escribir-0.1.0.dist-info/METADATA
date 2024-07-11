@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: maquina_escribir
+Version: 0.1.0
+Summary: Una maquina de escribir simple
+Author: Miguel Durán
+Description-Content-Type: text/markdown
+
+# maquina de escribir
+
+# Maquina de Escribir
+
+`maquina-de-escribir` es un paquete de Python que permite imprimir texto en la consola simulando el efecto visual de una máquina de escribir. Cada carácter se imprime con un pequeño retraso, creando una experiencia visual similar a la de una máquina de escribir real.
+
+## Instalación
+
+Puedes instalar este paquete usando pip:
+
+```sh
+pip install maquina-de-escribir
+
+
+## Instalación
+
+Puedes instalar este paquete via pip(se actualizará una vez que el paquete se publique en PyPI)
+
+```Python
+pip install maquina-escribir
+```
+
+## Como se usa
+
+```Python
+from typer.maquina_escribir import maquina
+
+# Ejecute la maquina de escribir con el texto que quiera
+maquina('Hello World!!')
+```
+
+## Ejemplo de uso
+
+```Python
+from typer.maquina__escribir import maquina
+
+maquina('Esto es un ejemplo')
+```
