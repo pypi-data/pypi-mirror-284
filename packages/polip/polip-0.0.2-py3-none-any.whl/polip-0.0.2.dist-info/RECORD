@@ -1,0 +1,11 @@
+polip/__init__.py,sha256=UMWUpMl6Kpm3_7wf81Yg0SqaJEgRzhn_GHkqHxX1YkM,103
+polip/cb.py,sha256=NDyM_UIA1O3QWEIOLHSzSEi3BzyjsdIwnCW1lqM8CgE,1959
+polip/dk.py,sha256=CRWuzgkXSA4E16I7l0vzk9Y0U3BPIKld6mp9JxajJP8,4233
+polip/module.py,sha256=IHIrs4NU5qmUupkDiNbitUIpDr_mXjBf1wbO2iz8a7g,23009
+polip/normal.py,sha256=amk--hx3wns6rlT0dMvsgimjRevxUeLuwGD_hXE4nko,1387
+polip/visor.py,sha256=kTAQ8-8x_szzp5XQ1sceSK0HJjQXV8TFm3Qh-_oRWwA,3824
+polip-0.0.2.dist-info/LICENSE,sha256=meKndccnkFZzVortXNbwuj7ynsNplw61REjqsJm_VkE,2147
+polip-0.0.2.dist-info/METADATA,sha256=Fm6C5eW549cFF64zB6ZeNIfDakIBJMZ16GBobNsGLso,1572
+polip-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+polip-0.0.2.dist-info/top_level.txt,sha256=uUR4kVgDdBVtOvb0Af_hJmOI3_6pD1Kbq9CV5nXHkko,6
+polip-0.0.2.dist-info/RECORD,,
