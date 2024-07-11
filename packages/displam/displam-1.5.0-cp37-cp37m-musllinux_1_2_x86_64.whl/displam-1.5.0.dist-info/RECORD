@@ -1,0 +1,13 @@
+displam.libs/libblas-6717843b.so.3.9.0,sha256=ymLpnGnp46KJIrK5fmpBTYNX2bzRq78lGYixgWnUAMI,554417
+displam.libs/libgcc_s-452e9da3.so.1,sha256=fKy7Q_k8bveczsPLknZm47fVPJJQPrlpedzUP8r7YC4,105833
+displam.libs/libquadmath-001c3ec9.so.0.0.0,sha256=tw9FXIRkVi1hAbzTeyXNYh2xnxZDSbB50l50ntoW31Y,301233
+displam.libs/libgfortran-8d7ace49.so.5.0.0,sha256=zjOW9EiSq6boMDPeA0-vRgKHaxXJGyzkXdKZtvLwnEU,3072625
+displam.libs/liblapack-84c87590.so.3.9.0,sha256=bLbUepcaplF_EinsjR809ZpcGODDIjpSbB97_F5Frvc,9422369
+displam-1.5.0.dist-info/METADATA,sha256=RSElXREzwYwiQ4HN0bHXhQorDwjsLryGQj8Kad7TuMg,7431
+displam-1.5.0.dist-info/WHEEL,sha256=2qYhnHof5OkPUH7pL0wzLwunuE-bsmFS4HpZmmLvJ3U,108
+displam-1.5.0.dist-info/LICENSE,sha256=CqXbRQWtFS2Ik3c-57ISVY9rQFcvMueBxC5DReCZpTI,510
+displam-1.5.0.dist-info/entry_points.txt,sha256=MSQU-r2CNKiZTQMHDc1F8-Sre5IpnGItwU5x1O4eqmM,44
+displam-1.5.0.dist-info/RECORD,,
+displam/cli.py,sha256=IlvGhipFHJuS9BsEEudyy_CeiYItCz5Jwp4zvdaBeIY,1428
+displam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+displam/bin/displam,sha256=tUP66FhgWAS7GBnRVHgoYaXW-nDDzhA_E_W2yl5zjYk,120657
