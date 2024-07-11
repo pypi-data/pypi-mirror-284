@@ -1,0 +1,92 @@
+from typing import NamedTuple, Sequence
+from dataclasses import dataclass
+import asyncio
+from uuid import uuid4
+from sqlmodel import Session, select
+from sqlalchemy import Engine
+from haskellian import either as E, dicts as D
+from kv import KV
+import pure_cv as vc
+from pipeteer import WriteQueue
+from moveread.dfy import Game, queries
+from moveread.pipelines.dfy import Input
+from dslog import Logger
+
+def inputId(tournId: str, group: str, round: str, board: str) -> str:
+  return f'{tournId}/{group}/{round}/{board}_{uuid4()}'
+
+def title(game: Game, tournId: str, group: str, round: str, board: str) -> str:
+  s = f'{tournId} {group}/{round}/{board} {game.white} - {game.black}'
+  if game.result:
+    s += f' {game.result}'
+  return s
+
+class NewInput(NamedTuple):
+  input: Input
+  """Pipeline input"""
+  from_urls: Sequence[str]
+  to_urls: Sequence[str]
+
+def new_input(uuid: str, game: Game, *, model: str):
+  gid = game.gameId()
+  from_urls = [img.url for img in game.imgs]
+  to_urls = [f'{uuid}/{i}.jpg' for i in range(len(from_urls))]
+  endpoint = f'/v1/models/{gid["tournId"]}-{gid["group"]}:predict'
+  task = Input(gameId=gid, model=model, imgs=to_urls, title=title(game, **gid), serving_endpoint=endpoint)
+  return NewInput(input=task, from_urls=from_urls, to_urls=to_urls)
+
+@dataclass
+class Puller:
+  Qpush: WriteQueue[Input]
+  pipeline_blobs: KV[bytes]
+  dfy_blobs: KV[bytes]
+  logger: Logger
+
+  @E.do()
+  async def jpg_copy(self, url_from: str, url_to: str):
+    """Copies the image by downloading it first, encoding it as JPG, then inserting"""
+    img = (await self.dfy_blobs.read(url_from)).unsafe()
+    jpg = vc.encode(vc.decode(img), '.jpg')
+    return (await self.pipeline_blobs.insert(url_to, jpg)).unsafe()
+
+  async def copy_images(self, from_urls: Sequence[str], to_urls: Sequence[str]):
+    tasks = [self.jpg_copy(from_, to) for from_, to in zip(from_urls, to_urls)]
+    results = await asyncio.gather(*tasks)
+    return E.sequence(results)
+
+  @E.do()
+  async def pull_one(self, game: Game, model: str):
+    id = inputId(**game.gameId())
+    x = new_input(id, game, model=model)
+    (await self.copy_images(x.from_urls, x.to_urls)).unsafe()
+    (await self.Qpush.push(id, x.input)).unsafe()
+
+
+  async def pull_games(self, session: Session, games: Sequence[Game]):
+    tnmt_games = D.group_by(lambda g: g.tournId, games)
+    for tournId, games in tnmt_games.items():
+      if not (model := queries.Select(session).model(tournId)):
+        self.logger(f'No model for tournament "{tournId}"', level='WARNING')
+        continue
+
+      for game in games:
+        r = await self.pull_one(game, model)
+        if r.tag == 'left':
+          self.logger(f'Error pulling game {game.gameId()}: {r.value}', level='ERROR')
+        else:
+          game.status = 'doing'
+          session.add(game)
+          session.commit()
+          self.logger(f'Pulled game {game.gameId()}')
+
+  async def loop(self, dfy_engine: Engine, interval: float = 300):
+    while True:
+      with Session(dfy_engine) as session:
+        games = queries.Select(session).uploaded_games()
+        if games:
+          self.logger(f'Pulling {len(games)} games...')
+          await self.pull_games(session, games)
+        else:
+          self.logger('No games to pull', level='DEBUG')
+          
+      await asyncio.sleep(interval)
