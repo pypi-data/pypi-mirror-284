@@ -1,0 +1,8 @@
+moveread/pipelines/ocr_predict/__init__.py,sha256=ckr8E9AeUcFPNYyCfGQjPnOVcFRiDpG2Sphu75HDnOo,139
+moveread/pipelines/ocr_predict/__init__.pyi,sha256=7gW0DUYvMQy0W-K2q24XC_biCMQfbI5wPvDjK55Cr5c,104
+moveread/pipelines/ocr_predict/main.py,sha256=U28CnRgbmyZn6cYGtMr8z0UJhHyYqSxBKDecirzcUJk,2522
+moveread/pipelines/ocr_predict/spec.py,sha256=Spl1Ip9CHsmQWQJSNYy-fbbubVMSMB_IWMXnHdTUfRo,780
+moveread_pipelines_ocr_predict-0.2.6.dist-info/METADATA,sha256=o7QSM9zyAj5_pHErahQ7jcbiKN_7VKBAQpSuzW2qNzY,486
+moveread_pipelines_ocr_predict-0.2.6.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+moveread_pipelines_ocr_predict-0.2.6.dist-info/top_level.txt,sha256=Nf4zr37sbhc5sbPztUq8FfXD7iyRYJ9bjMTU09166ig,9
+moveread_pipelines_ocr_predict-0.2.6.dist-info/RECORD,,
