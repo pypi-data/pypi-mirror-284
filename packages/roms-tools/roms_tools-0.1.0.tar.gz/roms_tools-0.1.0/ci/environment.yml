@@ -1,0 +1,28 @@
+name: romstools
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.9
+  - numpy
+  - scipy
+  - matplotlib
+  - cartopy
+  - xarray
+  - netcdf4
+  - pooch
+  - packaging
+  - numba
+  - gcm_filters
+  # testing
+  - pytest
+  - flake8
+  - black
+  - pre-commit
+  # docs
+  - sphinx
+  - nbsphinx
+  - sphinx-book-theme
+  - sphinxcontrib-bibtex
+  # for running jupyter notebooks
+  - ipykernel
