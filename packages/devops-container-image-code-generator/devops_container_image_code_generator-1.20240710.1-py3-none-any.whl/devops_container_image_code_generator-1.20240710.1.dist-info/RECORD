@@ -1,0 +1,6 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/server.py,sha256=R4J1n-93Mr8Qph8H69OtG0ssBIg9_0olhkXko4N0H_Y,691
+devops_container_image_code_generator-1.20240710.1.dist-info/LICENSE,sha256=POnSU0hDWr09UWpmmJ7j-JnLygZz7HOvcCbZFJUhYes,1070
+devops_container_image_code_generator-1.20240710.1.dist-info/METADATA,sha256=3QRrpJOao1l1vxfiXswuvkLLjXRzl3hWR5-cFU0Z-OM,13856
+devops_container_image_code_generator-1.20240710.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+devops_container_image_code_generator-1.20240710.1.dist-info/RECORD,,
