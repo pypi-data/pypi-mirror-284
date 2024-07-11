@@ -1,0 +1,16 @@
+aspose/__init__.py,sha256=ARBHX6O0Yb0mTxq07RLjp8mJuXneTJem_V2Ozz5PeKQ,1039
+aspose/asposeocr.py,sha256=rR2xnjKfczr7QliOLXimSEO83jkMofSXOHeI7sHrhQw,24689
+aspose/helper.py,sha256=NUrpHwFbAlPLweBKf9WkwjkoIKOy8CDhW6b5upc6X8E,6796
+aspose/license.py,sha256=Kq5LSrtb-dzwkKW8Tezg0fYZ6eY48Zau4XiQbk35XmU,1103
+aspose/models.py,sha256=bCBsFk1tWGsJgSV0gdvbxJwIh87y8P0uC2CBiejlfxM,39914
+aspose/recognitionresult.py,sha256=lWaYJ2DCX69RCDt-dfjn62U_dcQAJrudm3S2mA_MJPU,10286
+aspose/recognitionsettings.py,sha256=LQOfD2xYkgd2vWwJQsHa6HGYHnPS-2KlswbtM1kb9v0,17328
+aspose/jlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aspose/jlib/aspose-ocr-24.7.0.jar,sha256=QFiRPrJigdWRCq06TC3niZvdnRrO_UW1G7N1ac3OPX8,96936086
+aspose/jlib/aspose-pdf-24.2.jar,sha256=izxpOA-jA3Lfauw2muLxmAFd6wFvhGKZi8VqnQiHxyI,81779627
+aspose/jlib/onnxruntime-1.16.0.jar,sha256=Yu7isvUY9_iFjkOlU71FD_K-naT57XXxP5UxQVNLfqc,82202013
+aspose_ocr_python_java-24.7.0.dist-info/LICENSE,sha256=PYCqXwmW_660oTwZq1jpl5xPdnfRMNToKz2BmMl064E,529
+aspose_ocr_python_java-24.7.0.dist-info/METADATA,sha256=xD6spxyaStJ3v5Hc4Ai0eAjcSiEuMQ7IPfvXys-k1ck,4972
+aspose_ocr_python_java-24.7.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aspose_ocr_python_java-24.7.0.dist-info/top_level.txt,sha256=ZdjbXnUqCXuFHAq0etWFafCIofAZl48vh9p7wgDAZpA,20
+aspose_ocr_python_java-24.7.0.dist-info/RECORD,,
