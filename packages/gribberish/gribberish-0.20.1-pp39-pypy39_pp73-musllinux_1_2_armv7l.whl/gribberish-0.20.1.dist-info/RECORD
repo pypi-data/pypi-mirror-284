@@ -1,0 +1,11 @@
+gribberish-0.20.1.dist-info/METADATA,sha256=57LUQoVc1Ld02oRs93ea2muSQ95KQjKC-qxIb-uE02w,4010
+gribberish-0.20.1.dist-info/WHEEL,sha256=GmGc_V8RunsJzMXMKzaLLYvqQiCH-v9TesTVanSUNYk,112
+gribberish-0.20.1.dist-info/entry_points.txt,sha256=t1VW46cTeHqDd5vFWhGhqe_1VzuweamaGlTubvMUKlw,143
+gribberish.libs/libgcc_s-5b5488a6.so.1,sha256=HGKUsVmTeNAxEdSy7Ua5Vh_I9FN3RCbPWzvZ7H_TrwE,2749061
+gribberish/gribberish_backend.py,sha256=oIAW4YOOjwpvXvRAozhGmS29QGUw-qhBm8NVgPrKP_c,3959
+gribberish/__init__.py,sha256=Qg3dLpcNAcepV_3QKNOfgK9kpieLWaPCIb27HGSgJ3k,42
+gribberish/kerchunk/__init__.py,sha256=BSVOnsWE5R9U-Dt4kVN9svUlJyY51HgpKrcuT4g8hH4,51
+gribberish/kerchunk/codec.py,sha256=qMfWfuyUtrFN9j6cAh5ISWUeAynaWBgROHAkkMkDAEA,1010
+gribberish/kerchunk/mapper.py,sha256=k_cZ4pIi1w95MvHeuLGPdiqlyEJ9WkALA2G9wLHgVrs,5853
+gribberish/_gribberish_python.pypy39-pp73-arm-linux-gnu.so,sha256=UaN1S1L7_MxXJyMxIG-jAqsTtjshzyX5H6ZaVLMksmc,11492425
+gribberish-0.20.1.dist-info/RECORD,,
