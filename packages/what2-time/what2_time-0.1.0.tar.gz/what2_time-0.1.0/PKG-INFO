@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: what2-time
+Version: 0.1.0
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.14,<4.0
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Time What?
+
+Reusable timing code that handles unit conversion,
+pretty printing time, total of repeat and re-entrant timers.
+
+# To do
+
+Extract/refactor re-entrant & repeat timer code from
+other package.
+
