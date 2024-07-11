@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: zen-bdl
+Version: 0.1
+Summary: Bloomberg Data License REST API wrapper
+Home-page: https://github.com/zegoverno/bdl
+Author: José Governo
+Author-email: zegoverno@hey.com
+License: Apache Software License
+Keywords: quant finance analysis portfolio
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: requests-oauthlib
+
+UNKNOWN
+
+
