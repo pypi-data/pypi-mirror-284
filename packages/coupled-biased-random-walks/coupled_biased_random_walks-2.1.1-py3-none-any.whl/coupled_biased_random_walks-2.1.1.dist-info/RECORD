@@ -1,0 +1,11 @@
+coupled_biased_random_walks/__init__.py,sha256=xZSOlJGpadSahW6zrgapYFzZpul0lj0wpzoPMxvHPQs,203
+coupled_biased_random_walks/_version.py,sha256=Aht2295j8FswZ-nPYofCYr3fBZ6Uyf0thTfl5Oc2mWA,22
+coupled_biased_random_walks/count.py,sha256=FYLrj7NN2DPM4Zr9pV9Un1HiUD77ahIEEkUmNERNRww,5747
+coupled_biased_random_walks/detect.py,sha256=-TXx8wuY6nNHcT4023qAe1TsqlbDKkNIHqmeyuWFci0,8485
+coupled_biased_random_walks/matrix.py,sha256=xOgo2QT6_86Nz7IEuwqLxTYTe3FsvOUFhd_1oPPJKLE,2727
+coupled_biased_random_walks/types.py,sha256=5Cd1IrRvVtjwNARfMtnac950KKgLWfJVdNugglbMyJw,98
+coupled_biased_random_walks-2.1.1.dist-info/LICENSE,sha256=91n38oJhZDfzS_urHdyx95MGsqJ5q6kNrLdYMqU_N_8,1073
+coupled_biased_random_walks-2.1.1.dist-info/METADATA,sha256=3FT3yH3xY4WHXw-4pe5SOXRaNs9oOuK8nJYhW84KJrM,7296
+coupled_biased_random_walks-2.1.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+coupled_biased_random_walks-2.1.1.dist-info/top_level.txt,sha256=ndOXzzx-TMYmVsn8TBnaSxpkU5agnqJfzitzxctdtZI,28
+coupled_biased_random_walks-2.1.1.dist-info/RECORD,,
