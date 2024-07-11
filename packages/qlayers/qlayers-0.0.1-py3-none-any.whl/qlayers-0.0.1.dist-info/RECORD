@@ -1,0 +1,15 @@
+qlayers/__init__.py,sha256=09GMWIIdq8Dp1LMxvmdnTcnsmoGDqIPx7XLZ1qjsois,188
+qlayers/quant_layers.py,sha256=Z4VTj0gsEWbjMAWARN_D3KWcIrQnw13d-6UxNObRWvg,20131
+qlayers/regression.py,sha256=4JLkeJ77dH3QfiuNJuHZ6JyOVurUZ3viOzVLhBod0OM,4021
+qlayers/thickness.py,sha256=xdW1uBbcLodvnC4Z-aCxvcc0xOCxF6lfV1JLE5JW4CY,4946
+qlayers/utils.py,sha256=MaZI_JFD3CN8HzBONRmojmeRb0uOf-jBCLD3_rNpzm0,1591
+qlayers/tests/__init__.py,sha256=NohoJSJCMJBMdA-V4m9u0Fm8d0xXKX0Aw7oOWYlqCac,180
+qlayers/tests/test_quant_layers.py,sha256=ZZgxvMGj80qBB7R9xTeqChch8d3n09l80wAchd81EGk,17268
+qlayers/tests/test_regression.py,sha256=ulETiqu5aY5NmVirbR1_H5r3WrSXRhJ5MCTTCoY86S8,4561
+qlayers/tests/test_thickness.py,sha256=39UQSXzYctcsBwzeZfC7T--fniNYR_-f3lRJ8JALMyY,3922
+qlayers/tests/test_utils.py,sha256=QhOB16K_RuQvGRIw_FdedRpofqo02yolOJ6z8m-Olgg,5827
+qlayers-0.0.1.dist-info/LICENSE.md,sha256=hkZVnIZll7e_KNEQzeY94Y9tlzVL8iVZBTMBvDykksU,35142
+qlayers-0.0.1.dist-info/METADATA,sha256=y5yuULUalUeYZoKJitp83fuWfGFk7mmrNmD-eiPdnbA,5887
+qlayers-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+qlayers-0.0.1.dist-info/top_level.txt,sha256=qQ2XYe2lwiCpXwhaqqbL74LHVdSC4xjlUramr8GUIYM,8
+qlayers-0.0.1.dist-info/RECORD,,
