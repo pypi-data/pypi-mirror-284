@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vividict"
+version = "0.1.0"
+dependencies = []
+requires-python = ">=3.12"
+authors = [
+  {name = "Charbel Marche", email = "charbelmarche33@gmail.com"},
+]
+maintainers = [
+  {name = "Charbel Marche", email = "charbelmarche33@gmail.com"}
+]
+description = "Package containing the Vividict class. Allows for nested dictionaries."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["nested dictionary", "vividict"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vividict"]
+
+[project.urls]
+Homepage = "https://stockscrapers.com"
+Repository = "https://github.com/StockScrapers/vividict"
+"Bug Tracker" = "https://github.com/StockScrapers/vividict/issues"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
