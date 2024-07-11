@@ -1,0 +1,90 @@
+[build-system]
+requires = ["poetry-core>=1.7"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | venv
+  | dist
+)/
+'''
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.poetry]
+name = "indica"
+version = "0.1.1"
+description = "INtegrated DIagnostiC Analysis"
+
+license = "GPL-3.0-or-later"
+
+authors = [
+    "Marco Sertoli <marco.sertoli@outlook.com>",
+    "Chris MacMackin <chris.macmackin@ukaea.uk>"
+]
+maintainers = [
+    "Evie Litherland-Smith <evie.litherland-smith@ukaea.uk>",
+    "Shane Scully <shane.scully@ukaea.uk>",
+    "Chris MacMackin <chris.macmackin@ukaea.uk>",
+]
+repository = "https://github.com/indica-mcf/Indica"
+#documentation = "https://indica-ukaea.readthedocs.io/"
+
+readme = 'README.md'  # Markdown files are supported
+include = [".git", "indica/git_version"]
+
+[tool.poetry.dependencies]
+corner = "^1.0"
+pandas = "2.2.1"
+python = ">=3.11"
+prov = "^1.5.3"
+netCDF4 = "^1.5.4"
+numpy = "1.26.4"
+scipy = "^1.9.2"
+xarray = "2024.6.0"
+matplotlib = "^3.8.0"
+sal = "^1.2.2"
+ipython = "^8.24.0"
+emcee = "^3.1.4"
+flatdict = "^4.0.1"
+tqdm = "^4.65.0"
+scikit-learn = "^1.3.0"
+Pint = "^0.23"
+GitPython = "^3.1.41"
+periodictable = "^1.6.1"
+
+[tool.poetry.dev-dependencies]
+click = "^8.0.0"
+corner = "^1.0"
+coverage = {extras = ["toml"], version = "^7.5.1"}
+hypothesis = {extras = ["numpy"], version = "^5.24.2"}
+mypy = "^0.942"
+pre-commit = "^2.9.2"
+pytest = "^6.0.1"
+pytest-cov = "^2.10.0"
+pytest-xdist = "^2.0.0"
+types-setuptools = "^57.4.14"
+
+[tool.poetry.build]
+generate-setup-file = false
+script = ".get_git_commit.py"
+
+[tool.mypy]
+install_types = true
+non_interactive = true
+
+[[tool.mypy.overrides]]
+module = [
+    "matplotlib.*",
+    "numpy.*",
+    "prov.*",
+    "sal.*",
+    "scipy.*",
+]
+ignore_missing_imports = true
