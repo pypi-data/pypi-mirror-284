@@ -1,0 +1,701 @@
+stages:
+  - autoupdate
+  - check
+  - test
+  - build
+  - deploy
+
+variables:
+  # see https://docs.gitlab.com/ee/ci/caching/#cache-python-dependencies
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  PRE_COMMIT_HOME: "$CI_PROJECT_DIR/.cache/pre-commit"
+
+cache:
+  paths:
+    - .cache/pip
+    - .cache/pre-commit
+    - venv/
+
+image: python:3.11-buster
+before_script:
+  # want to set up a virtualenv to cache
+  - apt-get install -y --no-install-recommends git
+  - python -V
+  - git config --global credential.helper 'cache'
+  - |
+    echo "protocol=https
+    host=gitlab.cern.ch
+    username=gitlab-ci-token
+    password=${CI_JOB_TOKEN}
+    " | git credential approve
+  - python -m venv venv
+  - source venv/bin/activate
+  - python -m pip install -U pip pipx
+  - python -m pipx ensurepath
+  - python -m pip freeze --local
+
+# NB: repo-review requires python>=3.10
+review:
+  image: python:3.10-buster
+  stage: check
+  script:
+    - pipx run 'sp-repo-review[cli]' .
+
+lint:
+  stage: check
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
+  script:
+    - pipx run hatch run lint
+
+pre-commit:
+  stage: check
+  variables:
+    PRE_COMMIT_HOME: "$CI_PROJECT_DIR/.cache/pre-commit"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
+  script:
+    - pipx run pre-commit run --hook-stage manual --all-files
+  cache:
+    key:
+      files:
+        - .pre-commit-config.yaml
+    paths:
+      - .cache/pre-commit
+
+pre-commit-autoupdate:
+  stage: autoupdate
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: always
+    - if:
+        $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: manual
+      # manual jobs need allow_failure? https://gitlab.com/gitlab-org/gitlab/-/issues/233876
+      allow_failure: true
+  script:
+    - python -m pip install pre-commit
+    - python -m pip freeze --local
+    - ci/pre-commit-update.sh
+
+  cache:
+    key:
+      files:
+        - .pre-commit-config.yaml
+    paths:
+      - .cache/pre-commit
+
+tests:
+  stage: test
+  image: $IMAGE
+  script:
+    - git clone
+      https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.cern.ch/atlas-itk/pixel/module/module-qc-tools
+    - pipx run hatch run +py=${PYTHON_VERSION} dev:test
+  parallel:
+    matrix:
+      - IMAGE: "python:3.7-buster"
+        PYTHON_VERSION: "3.7"
+      - IMAGE: "python:3.8-buster"
+        PYTHON_VERSION: "3.8"
+      - IMAGE: "python:3.9-buster"
+        PYTHON_VERSION: "3.9"
+      - IMAGE: "python:3.10-buster"
+        PYTHON_VERSION: "3.10"
+      - IMAGE: "python:3.11-buster"
+        PYTHON_VERSION: "3.11"
+
+.test:
+  image: python:3.7-buster
+  stage: test
+
+SLDO:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running SLDO with toy emulator..."
+    - measurement-SLDO -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+    - for file in Measurements/SLDO/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/common.json; done
+    - for file in Measurements/SLDO/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/SLDO.json; done
+  artifacts:
+    paths:
+      - Measurements/SLDO/*/*.json
+    expire_in: 1 day
+
+SLDO-ADC:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running SLDO with toy emulator using calibrated ADC..."
+    - measurement-SLDO -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+      --use-calib-adc
+    - for file in Measurements/SLDO/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/common.json; done
+    - for file in Measurements/SLDO/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/SLDO.json; done
+  artifacts:
+    paths:
+      - Measurements/SLDO/*/*.json
+    expire_in: 1 day
+
+SLDO-DISABLED:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running SLDO with toy emulator and disabled chip..."
+    - measurement-SLDO -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST -m
+      $(module-qc-tools
+      --prefix)/emulator/configs/connectivity/20UPGXM1234567_Lx_dummy_disabledchip.json
+    - for file in Measurements/SLDO/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/common.json; done
+    - for file in Measurements/SLDO/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/SLDO.json; done
+  artifacts:
+    paths:
+      - Measurements/SLDO/*/*.json
+    expire_in: 1 day
+
+VCAL_CALIBRATION:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running VCAL_CALIBRATION with the toy emulator..."
+    - measurement-VCAL-CALIBRATION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+    - for file in Measurements/VCAL_CALIBRATION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/VCAL_CALIBRATION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/VCAL_CALIBRATION.json; done
+  artifacts:
+    paths:
+      - Measurements/VCAL_CALIBRATION/*/*.json
+    expire_in: 1 day
+
+VCAL_CALIBRATION-ADC:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running VCAL_CALIBRATION with the toy emulator and calibrated
+      ADC..."
+    - measurement-VCAL-CALIBRATION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+      --use-calib-adc
+    - for file in Measurements/VCAL_CALIBRATION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/VCAL_CALIBRATION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/VCAL_CALIBRATION.json; done
+  artifacts:
+    paths:
+      - Measurements/VCAL_CALIBRATION/*/*.json
+    expire_in: 1 day
+
+VCAL_CALIBRATION-DISABLED:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running VCAL_CALIBRATION with the toy emulator and disabled chip..."
+    - measurement-VCAL-CALIBRATION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST -m
+      $(module-qc-tools
+      --prefix)/emulator/configs/connectivity/20UPGXM1234567_Lx_dummy_disabledchip.json
+    - for file in Measurements/VCAL_CALIBRATION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/VCAL_CALIBRATION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/VCAL_CALIBRATION.json; done
+  artifacts:
+    paths:
+      - Measurements/VCAL_CALIBRATION/*/*.json
+    expire_in: 1 day
+
+ANALOG_READBACK:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running ANALOG_READBACK with toy emulator..."
+    - measurement-ANALOG-READBACK -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+    - for file in Measurements/ANALOG_READBACK/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/ANALOG_READBACK/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/ANALOG_READBACK.json; done
+  artifacts:
+    paths:
+      - Measurements/ANALOG_READBACK/*/*.json
+    expire_in: 1 day
+
+ANALOG_READBACK-ADC:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running ANALOG_READBACK with toy emulator and calibrated ADC..."
+    - measurement-ANALOG-READBACK -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+      --use-calib-adc
+    - for file in Measurements/ANALOG_READBACK/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/ANALOG_READBACK/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/ANALOG_READBACK.json; done
+  artifacts:
+    paths:
+      - Measurements/ANALOG_READBACK/*/*.json
+    expire_in: 1 day
+
+ANALOG_READBACK-DISABLED:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running ANALOG_READBACK with toy emulator and disabled chip..."
+    - measurement-ANALOG-READBACK -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST -m
+      $(module-qc-tools
+      --prefix)/emulator/configs/connectivity/20UPGXM1234567_Lx_dummy_disabledchip.json
+    - for file in Measurements/ANALOG_READBACK/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/ANALOG_READBACK/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/ANALOG_READBACK.json; done
+  artifacts:
+    paths:
+      - Measurements/ANALOG_READBACK/*/*.json
+    expire_in: 1 day
+
+ADC_CALIBRATION:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install . --no-cache-dir
+    - echo "Running ADC_CALIBRATION with the toy emulator..."
+    - measurement-ADC-CALIBRATION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+    - for file in Measurements/ADC_CALIBRATION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/ADC_CALIBRATION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/ADC_CALIBRATION.json; done
+  artifacts:
+    paths:
+      - Measurements/ADC_CALIBRATION/*/*.json
+    expire_in: 1 day
+
+ADC_CALIBRATION-DISABLED:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install . --no-cache-dir
+    - echo "Running ADC_CALIBRATION with the toy emulator and disabled chip..."
+    - measurement-ADC-CALIBRATION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST -m
+      $(module-qc-tools
+      --prefix)/emulator/configs/connectivity/20UPGXM1234567_Lx_dummy_disabledchip.json
+    - for file in Measurements/ADC_CALIBRATION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/ADC_CALIBRATION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/ADC_CALIBRATION.json; done
+  artifacts:
+    paths:
+      - Measurements/ADC_CALIBRATION/*/*.json
+    expire_in: 1 day
+
+INJECTION_CAPACITANCE:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install . --no-cache-dir
+    - echo "Running INJECTION-CAPACITANCE with the toy emulator..."
+    - measurement-INJECTION-CAPACITANCE -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+    - for file in Measurements/INJECTION_CAPACITANCE/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/INJECTION_CAPACITANCE/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/INJECTION_CAPACITANCE.json; done
+  artifacts:
+    paths:
+      - Measurements/INJECTION_CAPACITANCE/*/*.json
+    expire_in: 1 day
+
+INJECTION_CAPACITANCE-ADC:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install . --no-cache-dir
+    - echo "Running INJECTION-CAPACITANCE with the toy emulator and calibrated
+      ADC..."
+    - measurement-INJECTION-CAPACITANCE -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+      --use-calib-adc
+    - for file in Measurements/INJECTION_CAPACITANCE/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/INJECTION_CAPACITANCE/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/INJECTION_CAPACITANCE.json; done
+  artifacts:
+    paths:
+      - Measurements/INJECTION_CAPACITANCE/*/*.json
+    expire_in: 1 day
+
+INJECTION_CAPACITANCE-DISABLED:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install . --no-cache-dir
+    - echo "Running INJECTION-CAPACITANCE with the toy emulator and disabled
+      chip..."
+    - measurement-INJECTION-CAPACITANCE -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST -m
+      $(module-qc-tools
+      --prefix)/emulator/configs/connectivity/20UPGXM1234567_Lx_dummy_disabledchip.json
+    - for file in Measurements/INJECTION_CAPACITANCE/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/INJECTION_CAPACITANCE/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/INJECTION_CAPACITANCE.json; done
+  artifacts:
+    paths:
+      - Measurements/INJECTION_CAPACITANCE/*/*.json
+    expire_in: 1 day
+
+LP_MODE:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running LP_MODE with toy emulator..."
+    - measurement-LP-MODE -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+    - for file in Measurements/LP_MODE/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/common.json; done
+    - for file in Measurements/LP_MODE/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/LP_MODE.json; done
+  artifacts:
+    paths:
+      - Measurements/LP_MODE/*/*.json
+    expire_in: 1 day
+
+LP_MODE-ADC:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running LP_MODE with toy emulator and calibrated ADC..."
+    - measurement-LP-MODE -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+      --use-calib-adc
+    - for file in Measurements/LP_MODE/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/common.json; done
+    - for file in Measurements/LP_MODE/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/LP_MODE.json; done
+  artifacts:
+    paths:
+      - Measurements/LP_MODE/*/*.json
+    expire_in: 1 day
+
+LP_MODE-DISABLED:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running LP_MODE with toy emulator and disabled chip..."
+    - measurement-LP-MODE -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST -m
+      $(module-qc-tools
+      --prefix)/emulator/configs/connectivity/20UPGXM1234567_Lx_dummy_disabledchip.json
+    - for file in Measurements/LP_MODE/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/common.json; done
+    - for file in Measurements/LP_MODE/*/*.json; do echo $file; check-jsonschema
+      $file --schemafile $(module-qc-tools --prefix)/schema/LP_MODE.json; done
+  artifacts:
+    paths:
+      - Measurements/LP_MODE/*/*.json
+    expire_in: 1 day
+
+OVERVOLTAGE_PROTECTION:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running OVERVOLTAGE_PROTECTION with toy emulator..."
+    - measurement-OVERVOLTAGE-PROTECTION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+    - for file in Measurements/OVERVOLTAGE_PROTECTION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/OVERVOLTAGE_PROTECTION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/OVERVOLTAGE_PROTECTION.json; done
+  artifacts:
+    paths:
+      - Measurements/OVERVOLTAGE_PROTECTION/*/*.json
+    expire_in: 1 day
+
+OVERVOLTAGE_PROTECTION-ADC:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running OVERVOLTAGE_PROTECTION with toy emulator and calibrated
+      ADC..."
+    - measurement-OVERVOLTAGE-PROTECTION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+      --use-calib-adc
+    - for file in Measurements/OVERVOLTAGE_PROTECTION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/OVERVOLTAGE_PROTECTION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/OVERVOLTAGE_PROTECTION.json; done
+  artifacts:
+    paths:
+      - Measurements/OVERVOLTAGE_PROTECTION/*/*.json
+    expire_in: 1 day
+
+OVERVOLTAGE_PROTECTION-DISABLED:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running OVERVOLTAGE_PROTECTION with toy emulator and disabled
+      chip..."
+    - measurement-OVERVOLTAGE-PROTECTION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST -m
+      $(module-qc-tools
+      --prefix)/emulator/configs/connectivity/20UPGXM1234567_Lx_dummy_disabledchip.json
+    - for file in Measurements/OVERVOLTAGE_PROTECTION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/OVERVOLTAGE_PROTECTION/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/OVERVOLTAGE_PROTECTION.json; done
+  artifacts:
+    paths:
+      - Measurements/OVERVOLTAGE_PROTECTION/*/*.json
+    expire_in: 1 day
+
+UNDERSHUNT_PROTECTION:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running UNDERSHUNT_PROTECTION with toy emulator..."
+    - measurement-UNDERSHUNT-PROTECTION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+    - for file in Measurements/UNDERSHUNT_PROTECTION/*/*.json; do echo $file;
+      jsonschema --instance $file $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/UNDERSHUNT_PROTECTION/*/*.json; do echo $file;
+      jsonschema --instance $file $(module-qc-tools
+      --prefix)/schema/UNDERSHUNT_PROTECTION.json; done
+  artifacts:
+    paths:
+      - Measurements/UNDERSHUNT_PROTECTION/*/*.json
+    expire_in: 1 day
+
+UNDERSHUNT_PROTECTION-ADC:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running UNDERSHUNT_PROTECTION with toy emulator and calibrated
+      ADC..."
+    - measurement-UNDERSHUNT-PROTECTION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+      --use-calib-adc
+    - for file in Measurements/UNDERSHUNT_PROTECTION/*/*.json; do echo $file;
+      jsonschema --instance $file $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/UNDERSHUNT_PROTECTION/*/*.json; do echo $file;
+      jsonschema --instance $file $(module-qc-tools
+      --prefix)/schema/UNDERSHUNT_PROTECTION.json; done
+  artifacts:
+    paths:
+      - Measurements/UNDERSHUNT_PROTECTION/*/*.json
+    expire_in: 1 day
+
+UNDERSHUNT_PROTECTION-DISABLED:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running UNDERSHUNT_PROTECTION with toy emulator and disabled
+      chip..."
+    - measurement-UNDERSHUNT-PROTECTION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST -m
+      $(module-qc-tools
+      --prefix)/emulator/configs/connectivity/20UPGXM1234567_Lx_dummy_disabledchip.json
+    - for file in Measurements/UNDERSHUNT_PROTECTION/*/*.json; do echo $file;
+      jsonschema --instance $file $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/UNDERSHUNT_PROTECTION/*/*.json; do echo $file;
+      jsonschema --instance $file $(module-qc-tools
+      --prefix)/schema/UNDERSHUNT_PROTECTION.json; done
+  artifacts:
+    paths:
+      - Measurements/UNDERSHUNT_PROTECTION/*/*.json
+    expire_in: 1 day
+
+IV_MEASURE:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running IV-MEASURE with toy emulator..."
+    - measurement-IV-MEASURE -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+    - for file in Measurements/IV_MEASURE/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/IV_MEASURE/*/*.json; do echo $file;
+      check-jsonschema $file --schemafile $(module-qc-tools
+      --prefix)/schema/IV_MEASURE.json; done
+  artifacts:
+    paths:
+      - Measurements/IV_MEASURE/*/*.json
+    expire_in: 1 day
+
+DATA_TRANSMISSION:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running DATA_TRANSMISSION with toy emulator..."
+    - measurement-DATA-TRANSMISSION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST
+    - for file in Measurements/DATA_TRANSMISSION/*/*.json; do echo $file;
+      jsonschema --instance $file $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/DATA_TRANSMISSION/*/*.json; do echo $file;
+      jsonschema --instance $file $(module-qc-tools
+      --prefix)/schema/DATA_TRANSMISSION.json; done
+  artifacts:
+    paths:
+      - Measurements/DATA_TRANSMISSION/*/*.json
+    expire_in: 1 day
+
+DATA_TRANSMISSION-DISABLED:
+  extends: .test
+  script:
+    - python -m pip install check-jsonschema
+    - python3 -m pip install .
+    - echo "Running DATA_TRANSMISSION with toy emulator and disabled chip..."
+    - measurement-DATA-TRANSMISSION -c $(module-qc-tools
+      --prefix)/configs/emulator_merged_vmux.json -o ./ --site TEST -m
+      $(module-qc-tools
+      --prefix)/emulator/configs/connectivity/20UPGXM1234567_Lx_dummy_disabledchip.json
+    - for file in Measurements/DATA_TRANSMISSION/*/*.json; do echo $file;
+      jsonschema --instance $file $(module-qc-tools
+      --prefix)/schema/common.json; done
+    - for file in Measurements/DATA_TRANSMISSION/*/*.json; do echo $file;
+      jsonschema --instance $file $(module-qc-tools
+      --prefix)/schema/DATA_TRANSMISSION.json; done
+  artifacts:
+    paths:
+      - Measurements/DATA_TRANSMISSION/*/*.json
+    expire_in: 1 day
+
+make-docs:
+  stage: test
+  image: python:3.11-bullseye
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
+  script: pipx run hatch run docs:build-check
+
+package:
+  stage: build
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
+  script:
+    - pipx run hatch run build-check
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 day
+
+.deploy_package:
+  stage: deploy
+  dependencies:
+    - package
+  script:
+    - pipx run hatch run upload
+
+deploy_package_gitlab:
+  extends: .deploy_package
+  rules:
+    - if:
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE == "push"
+  variables:
+    TWINE_REPOSITORY_URL: "https://gitlab.cern.ch/api/v4/projects/${CI_PROJECT_ID}/packages/pypi"
+    TWINE_USERNAME: "gitlab-ci-token"
+    TWINE_PASSWORD: "${CI_JOB_TOKEN}"
+
+deploy_package_pypi:
+  extends: .deploy_package
+  only:
+    - tags
+  variables:
+    TWINE_REPOSITORY: pypi
+    TWINE_USERNAME: __token__
+    TWINE_PASSWORD: $PYPI_TOKEN
+
+deploy_docs_dev:
+  stage: deploy
+  rules:
+    - if:
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE == "push"
+  script:
+    # the next three lines are just to commit and push pages to the project
+    - git config --global user.email
+      "project_139533_bot_52a0e9bbb1570326242e61cb6cd9d917@noreply.gitlab.cern.ch"
+    - git config --global user.name "pre-commit-ci"
+    - git remote set-url origin
+      "https://__pre-commit_ci_token:${PRE_COMMIT_CI_JOB_TOKEN}@${CI_SERVER_HOST}:${CI_SERVER_PORT}/${CI_PROJECT_PATH}.git"
+    # this is the script
+    - pipx run hatch run docs:deploy dev
+
+deploy_docs_latest:
+  stage: deploy
+  only:
+    - tags
+  script:
+    # the next three lines are just to commit and push pages to the project
+    - git config --global user.email
+      "project_139533_bot_52a0e9bbb1570326242e61cb6cd9d917@noreply.gitlab.cern.ch"
+    - git config --global user.name "pre-commit-ci"
+    - git remote set-url origin
+      "https://__pre-commit_ci_token:${PRE_COMMIT_CI_JOB_TOKEN}@${CI_SERVER_HOST}:${CI_SERVER_PORT}/${CI_PROJECT_PATH}.git"
+    # this is the script
+    - VERSION=$(cut -d '.' -f 1,2 <<< "${CI_COMMIT_TAG}")
+    - IS_LATEST=$([[ "${CI_COMMIT_TAG}" == *"rc"* ]] && echo "" || echo
+      "latest")
+    - echo "Building and deploying docs for ${VERSION}"
+    - pipx run hatch run docs:deploy "${VERSION}" ${IS_LATEST:+"$IS_LATEST"}
