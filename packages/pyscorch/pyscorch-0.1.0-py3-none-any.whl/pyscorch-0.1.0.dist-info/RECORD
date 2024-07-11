@@ -1,0 +1,10 @@
+pyscorch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyscorch/cli.py,sha256=LqzM_Na4BolwzbjHrWO5NDGx9EqzErvXV-MIlXDm5Qk,257
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyscorch-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyscorch-0.1.0.dist-info/METADATA,sha256=bDPdmYuI5eMHnCXWmpnuwxRMux5WJsACzKFNJs8n7Wk,2462
+pyscorch-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+pyscorch-0.1.0.dist-info/entry_points.txt,sha256=39SEa0XxStuACN1WbNB5HzR-Wl4GSBejtDA00VMgG5Q,44
+pyscorch-0.1.0.dist-info/top_level.txt,sha256=rIFU1v53m4gfKENJC6JtTTTL3nq5k3BRRVn84taBuL4,15
+pyscorch-0.1.0.dist-info/RECORD,,
