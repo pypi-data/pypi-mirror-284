@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: drfapigenerator
+Version: 1.1.1
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: django>=3.2
+Requires-Dist: djangorestframework
+Requires-Dist: django-filter
+
+# DRF API Generator
+
+A Django app for generating APIs with Django Rest Framework.
+
+## Installation
+
+```sh
+pip install drfapigenerator
+
+# pip install twine  
+# pip install twine setuptools   
+# python setup.py sdist bdist_wheel
+# python setup.py sdist bdist_wheel
+
+# twine upload dist/*  
