@@ -1,0 +1,10 @@
+gribberish-0.20.0.dist-info/METADATA,sha256=nvncz0NtyzaItaS_a1HEod3Ikt_BM7HL2tpruuE0_n4,3748
+gribberish-0.20.0.dist-info/WHEEL,sha256=0tFjQv1yOpE4Xl3ifuKvfKhAlhepv8keMbvRXuqfbr8,134
+gribberish-0.20.0.dist-info/entry_points.txt,sha256=t1VW46cTeHqDd5vFWhGhqe_1VzuweamaGlTubvMUKlw,143
+gribberish/gribberish_backend.py,sha256=oIAW4YOOjwpvXvRAozhGmS29QGUw-qhBm8NVgPrKP_c,3959
+gribberish/__init__.py,sha256=Qg3dLpcNAcepV_3QKNOfgK9kpieLWaPCIb27HGSgJ3k,42
+gribberish/kerchunk/__init__.py,sha256=BSVOnsWE5R9U-Dt4kVN9svUlJyY51HgpKrcuT4g8hH4,51
+gribberish/kerchunk/codec.py,sha256=qMfWfuyUtrFN9j6cAh5ISWUeAynaWBgROHAkkMkDAEA,1010
+gribberish/kerchunk/mapper.py,sha256=k_cZ4pIi1w95MvHeuLGPdiqlyEJ9WkALA2G9wLHgVrs,5853
+gribberish/_gribberish_python.pypy39-pp73-arm-linux-gnu.so,sha256=P00nCXQWuIMiIx1L98ZhIvAvFutnDdAFJmvBi40Ney0,11056276
+gribberish-0.20.0.dist-info/RECORD,,
