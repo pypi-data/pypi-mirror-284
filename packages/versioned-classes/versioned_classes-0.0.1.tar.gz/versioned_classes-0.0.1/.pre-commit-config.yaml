@@ -1,0 +1,33 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.4.0
+    hooks:
+    -   id: check-json
+    -   id: check-merge-conflict
+    -   id: debug-statements
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: check-yaml
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.8
+    hooks:
+    -   id: ruff
+        types_or: [ python, pyi, jupyter ]
+        args: [ --fix ]
+    -   id: ruff-format
+        types_or: [ python, pyi, jupyter ]
+-   repo: https://github.com/PyCQA/isort
+    rev: 5.13.2
+    hooks:
+    -   id: isort
+        args: [ --force-single-line ]
+        name: Fix Import Order
+-   repo: https://github.com/psf/black
+    rev: 24.4.0
+    hooks:
+    -   id: black
+        name: Run Black
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.9.0
+    hooks:
+    -   id: mypy

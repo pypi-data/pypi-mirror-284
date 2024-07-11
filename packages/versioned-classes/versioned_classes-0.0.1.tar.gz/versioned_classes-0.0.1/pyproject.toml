@@ -1,0 +1,21 @@
+[project]
+name = "versioned-classes"
+description = "A simple library for managing versioning of classes"
+authors = [
+    {name="Declan Atkins", email="declanatkins@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["versioning", "version", "versioner", "versioning classes", "versioning objects"]
+dynamic = ["version"]
+homepage = "https://github.com/declanatkins/Versioned-Classes"
+issues = "https://github.com/declanatkins/Versioned-Classes/issues"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
