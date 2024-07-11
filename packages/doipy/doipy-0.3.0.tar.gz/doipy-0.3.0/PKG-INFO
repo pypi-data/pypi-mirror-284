@@ -1,0 +1,163 @@
+Metadata-Version: 2.1
+Name: doipy
+Version: 0.3.0
+Summary: A Python wrapper for DOIP.
+Author: Triet Doan
+Author-email: triet.doan@gwdg.de
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: jsonschema (>=4.22.0,<5.0.0)
+Requires-Dist: pydantic (>=2.6.3,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.2.1,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# DOIPY
+
+Doipy is a Python wrapper for communication using the Digital Object Interface Protocol (DOIP) in its current
+[specification v2.0](https://www.dona.net/sites/default/files/2018-11/DOIPv2Spec_1.pdf).
+
+It supports the Basic Operations `hello`, `create`, `retrieve`, `update`, `delete`, `search`, and `list_operations`.
+Extended Operations implemented by specific repository software are and will be included in the future.
+
+## Install
+
+Simply run
+
+```shell
+$ pip install doipy
+```
+
+## Usage
+
+### Getting Started
+
+This `doipy` package has several methods. Please use `doipy --help` to list all available methods.
+
+To use it in the Command Line Interface (CLI), provide the PID identifying the service in the data type registry (for
+example, `21.T11969/01370800d56a0d897dc1` is the identifier of the Cordra instance in the testbed) and run:
+
+```shell
+# Get information from the DOIP service
+$ doipy hello '21.T11969/01370800d56a0d897dc1'
+
+# List all available operations
+$ doipy list_operations '21.T11969/01370800d56a0d897dc1'
+
+# Search in the DOIP service for a DO
+$ doipy search '21.T11969/01370800d56a0d897dc1' <query string> --username <username> --password <password>
+
+# Retrieve an (F)DO at a DOIP service
+$ doipy retrieve '21.T11969/01370800d56a0d897dc1' '21.T11967/06711fbea0e722163bbc'
+```
+
+To use it in the Python code simply import it and call the exposed methods. The return value of the methods is always of
+type `<class 'dict'>`
+
+```python
+from doipy import hello, create
+from pathlib import Path
+
+# Call the hello operation
+response = hello('21.T11969/01370800d56a0d897dc1')
+
+# Call the create operation to create a DO
+do_type = 'Document'
+do_name = 'my_DO'
+md = {'key1': 'value1', 'key2': 'value2'}
+authentication_message = {'clientId': '', 'authentication': {'password': ''}}
+# other possibilities for authentication messages:
+# authentication_message = {authentication': {'username': '', 'password': ''}}
+# authentication_message = {authentication': {'token': ''}
+create(service='21.T11969/01370800d56a0d897dc1', do_type=do_type, do_name=do_name, bitsq=Path('file.txt'), metadata=md, 
+       authentication_message=authentication_message)
+```
+
+### Create a Digital Object (currently out of work; to be fixed soon)
+
+To create a Digital Object (DO) in the CLI, first generate an input JSON file (called `input.json`) whose content
+follows the below structure:
+
+```json
+{
+  "file": "myDO_data.txt",
+  "md-file": "myDO_md.json"
+}
+```
+
+Here, `file` contains the bit-sequence of the DO and `md-file`contains metadata which are written into the PID record.
+The `create` operation takes the file `input.json` and authentication credentials as input to build a DO. Simply run
+
+```shell
+$ doipy create input.json --client-id <client-id>
+```
+
+and provide the passwort when prompted.
+
+### Create a FAIR Digital Object
+
+To create a FAIR Digital Object (FDO) in the CLI, first create a JSON file (called input.json), whose content follows 
+the schema defined at https://typeapi.lab.pidconsortium.net/v1/types/schema/21.T11969/6e36f6c0de5fcab4a425
+
+An example input could look like this:
+
+```json
+{
+  "FDO_Service_Ref": "21.T11969/01370800d56a0d897dc1",
+  "FDO_Profile_Ref": "21.T11969/141bf451b18a79d0fe66",
+  "FDO_Authentication": {
+    "username": "",
+    "password": ""
+  },
+  "FDO_Type_Ref": "21.1/thisIsAnFdoType",
+  "FDO_Rights_Ref": "21.1/thisIsAnFdoRightsSpecification",
+  "FDO_Genre_Ref": "21.1/thisIsAnFdoGenre",
+  "FDO_Data_and_Metadata": [
+    {
+      "data_bitsq": "data_bitsq_1.txt",
+      "data_values": "data_values_1.json",
+      "metadata_bitsq": "metadata_bitsq_1.json",
+      "metadata_values": "metadata_values_1.json"
+    },
+    {
+      "data_bitsq": "data_bitsq_2.txt",
+      "data_values": "data_values_2.json",
+      "metadata_bitsq": "metadata_bitsq_2.json",
+      "metadata_values": "metadata_values_2.json"
+    }
+  ]
+}
+```
+
+The `create_fdo` command supports FDOs which consist of multiple data DOs and multiple metadata DOs, following FDO
+configuration type 14.
+
+Each item in `FDO_Data_and_Metadata` is a data bit-sequence `data_bitsq` and its corresponding metadata bit-sequence
+`metadata_bitsq`. One DO is generated for the data bit-sequence and one DO is generated for the metadata bit-sequence.
+The content of `data_values` is written into the PID record of the data DO. The content of `metadata_values` is written 
+into the PID record of the metadata DO.
+
+Use `create_fdo` to register an FDO with specified (meta)data bit-sequences.
+
+```shell
+$ doipy create_fdo input.json
+```
+
+## For developer
+
+The project is managed by [Poetry](https://python-poetry.org/). Therefore, make sure that Poetry is installed in your
+system. Then run
+
+```shell
+$ poetry install
+```
+
+to install all dependencies. With this command, Poetry also installs the package in editable mode.
+
