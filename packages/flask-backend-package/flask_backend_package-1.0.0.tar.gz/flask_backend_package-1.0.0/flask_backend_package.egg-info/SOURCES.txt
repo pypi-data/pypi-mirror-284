@@ -1,0 +1,14 @@
+setup.py
+api/__init__.py
+api/feedbacks.py
+api/news.py
+api/users.py
+flask_backend_package.egg-info/PKG-INFO
+flask_backend_package.egg-info/SOURCES.txt
+flask_backend_package.egg-info/dependency_links.txt
+flask_backend_package.egg-info/requires.txt
+flask_backend_package.egg-info/top_level.txt
+models/__init__.py
+models/feedback.py
+models/news.py
+models/user.py
