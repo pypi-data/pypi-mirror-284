@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: wwt_api_client
+Version: 0.7.0
+Summary: An API client for WorldWide Telescope web services
+Home-page: https://github.com/WorldWideTelescope/wwt_api_client
+Author: WorldWide Telescope Team
+Author-email: hello@worldwidetelescope.org
+License: MIT
+Keywords: Science
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dataclasses-json>=0.5
+Requires-Dist: html-sanitizer>=2.4
+Requires-Dist: license-expression>=21.6
+Requires-Dist: openidc_client>=0.6
+Requires-Dist: requests>=2.10
+Requires-Dist: wwt_data_formats>=0.16
+Provides-Extra: test
+Requires-Dist: httpretty; extra == "test"
+Requires-Dist: mock; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-mock; extra == "test"
+Provides-Extra: docs
+Requires-Dist: astropy-sphinx-theme; extra == "docs"
+Requires-Dist: numpydoc; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-automodapi; extra == "docs"
+
+The [wwt_api_client] package provides a Python interface to the various web
+services that power the [WorldWide Telescope](https://worldwidetelescope.org/)
+project.
+
+[wwt_api_client]: https://wwt-api-client.readthedocs.io/
+
+
+For more information, including installation instructions, please visit [the
+project homepage].
+
+[the project homepage]: https://wwt-api-client.readthedocs.io/
