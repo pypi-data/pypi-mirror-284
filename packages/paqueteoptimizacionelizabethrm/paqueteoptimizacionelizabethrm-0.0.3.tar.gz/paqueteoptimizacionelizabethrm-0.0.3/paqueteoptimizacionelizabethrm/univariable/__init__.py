@@ -1,0 +1,2 @@
+from paqueteoptimizacionelizabethrm.univariable import metodosbasadosenladerivada
+from paqueteoptimizacionelizabethrm.univariable import metodoseliminacionderegiones
