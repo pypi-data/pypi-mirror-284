@@ -1,0 +1,11 @@
+jmenu/__init__.py,sha256=jXCnBjnFhzvS8C0Ts97-HzKgNV6y4fb5tSIxHGSeCBw,1100
+jmenu/__main__.py,sha256=54xgfolGJu51o74oBe6KpbJ-WICAKlFT-ExYPitZX3k,81
+jmenu/api.py,sha256=sIECLo400FhgkKUV65PFoBeLGKq7Sa2S4S_SAOwChE0,2391
+jmenu/classes.py,sha256=lyZnv3_UvHQ75EH_CxITvXHP4u-0PGZVgh_3W2Uhj-U,3822
+jmenu/main.py,sha256=a-HfktsfU-XeY0JhNh6zeii6wc26NwKKHLiKv9A_Dic,4839
+jmenu-1.6.3.dist-info/LICENSE,sha256=qP8LCFBWzjxDURKAFh3Jh8XtaXP3SOOIBUtsHCUxMK4,1066
+jmenu-1.6.3.dist-info/METADATA,sha256=znDK_ACxZapAPSjDD7OzKlYxWDsg-J28IuQTPWu57Rk,3058
+jmenu-1.6.3.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+jmenu-1.6.3.dist-info/entry_points.txt,sha256=zRdeE5z6bhLsYfbPPPI-ciORgd_wZxzqOjEEJRJV0pE,41
+jmenu-1.6.3.dist-info/top_level.txt,sha256=a2NgKNBBBMeecFw8mHyj26iodJ2b3xojgccQn1XoLLI,6
+jmenu-1.6.3.dist-info/RECORD,,
