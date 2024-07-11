@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: eevent
+Version: 0.1.0
+Summary: Asyncio Events
+Author: Erik Soma
+Author-email: stillusingirc@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
