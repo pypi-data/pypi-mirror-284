@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: softwareaccounting
+Version: 1.9a1
+Summary: SAMS Software Accounting
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: httplib2
+Requires-Dist: peewee
+Requires-Dist: PyYAML
+Provides-Extra: sams-post-receiver
+Requires-Dist: Flask ; extra == 'sams-post-receiver'
+
