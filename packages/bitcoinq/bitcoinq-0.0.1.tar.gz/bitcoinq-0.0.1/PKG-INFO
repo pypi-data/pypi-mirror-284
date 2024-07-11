@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: bitcoinq
+Version: 0.0.1
+Summary: BitcoinQ - Quantum Resistant Ledger Node
+Home-page: https://bitcoinq.xyz
+Author: BitcoinQ
+Author-email: admin@bitcoinq.xyz
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
+Requires-Dist: plyvel<=1.4.0,>=1.2.0
+Requires-Dist: ntplib==0.3.4
+Requires-Dist: Twisted==20.3.0
+Requires-Dist: colorlog==3.1.0
+Requires-Dist: simplejson==3.11.1
+Requires-Dist: PyYAML==5.3.1
+Requires-Dist: grpcio-tools<=1.50.0,>=1.9.0
+Requires-Dist: grpcio<=1.50.0,>=1.9.0
+Requires-Dist: google-api-python-client==1.8.3
+Requires-Dist: google-auth<2.0dev,>=1.21.1
+Requires-Dist: httplib2>=0.15.0
+Requires-Dist: service_identity==21.1.0
+Requires-Dist: protobuf<=3.20.3,>3.19.0
+Requires-Dist: pyopenssl==17.5.0
+Requires-Dist: six==1.13.0
+Requires-Dist: click==8.0
+Requires-Dist: pyqrllib<1.3.0,>=1.2.3
+Requires-Dist: pyqryptonight>=0.99.9
+Requires-Dist: pyqrandomx<1.0.0,>=0.3.0
+Requires-Dist: Flask<=2.2.2,>=2.0.0
+Requires-Dist: json-rpc==1.13.0
+Requires-Dist: idna==2.6
+Requires-Dist: cryptography==2.3
+Requires-Dist: mock>=2.0.0
+Requires-Dist: daemonize==2.4.7
+
+README.pypi
