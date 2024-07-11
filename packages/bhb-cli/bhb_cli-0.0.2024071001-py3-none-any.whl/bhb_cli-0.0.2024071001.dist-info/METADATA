@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: bhb-cli
+Version: 0.0.2024071001
+Summary: bhb-cli
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
