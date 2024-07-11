@@ -1,0 +1,12 @@
+pythonanywhere_core/__init__.py,sha256=32caAjztRyh1Finvy57_XXlxT4AbUKwHvMZIEF9z9EM,23
+pythonanywhere_core/base.py,sha256=HWEy94b3DnosO-mT8y_mLWvAti0F2f-J0ut-h3iNxF0,2499
+pythonanywhere_core/exceptions.py,sha256=-Rklwd5mKRQ0z28L3cWqP_S2ONCBhSX1Kh8GnNRmDWM,207
+pythonanywhere_core/files.py,sha256=qA7HXyfQ1XuxagRye3iEe_7v_Bp6HgEGuTifqe31Uww,6309
+pythonanywhere_core/schedule.py,sha256=vT7bwRbNbN7mGYG7WMGdBXJ6R-v3IYj-WJWm9GDD2Zs,3759
+pythonanywhere_core/students.py,sha256=lfZtreNWfwLxYcPn5Cuai_k1ObVocXi3CVWo8lFQdz0,1493
+pythonanywhere_core/webapp.py,sha256=yy6GeunPPlxG2wcTsOTf78pUts8CH4SOSMXMxgGCO7Q,8940
+pythonanywhere_core/website.py,sha256=E6eKq8ekxdasny684QuHl6erXBfctGG-V2MqWUdkalY,2610
+pythonanywhere_core-0.1.10.dist-info/LICENSE,sha256=zOJT_E5Fv8crFEKS5ulv0btbjnUiIkdsEBPEBmLHRlQ,1080
+pythonanywhere_core-0.1.10.dist-info/METADATA,sha256=yOVsmeSvXBOSi2EjZTLx9IyXjH_LErCMa2TnZNW8X68,1479
+pythonanywhere_core-0.1.10.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pythonanywhere_core-0.1.10.dist-info/RECORD,,
