@@ -1,0 +1,11 @@
+[workspace]
+members = ["takeoff-config"]
+resolver = "2"
+
+# This profile is used for takeoff-dev tdev binary, optimized for size.
+[profile.dev-release]
+inherits = "release"
+strip = true # Automatically strip symbols from the binary.
+lto = true # Enable link-time optimization.
+codegen-units = 1 # Set the number of codegen units to 1.
+opt-level = "z" # Optimize for size.

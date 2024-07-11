@@ -1,0 +1,6 @@
+maturin
+pytest
+./
+PyYAML
+pytest-socket==0.7.0
+
