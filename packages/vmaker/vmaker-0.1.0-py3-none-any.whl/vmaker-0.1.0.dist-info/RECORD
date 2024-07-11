@@ -1,0 +1,9 @@
+vmaker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vmaker/constants.py,sha256=lhmaProhOHNh2yFplrrF5Al_gLmXWegnEK89k9VjJWM,327
+vmaker/funcs.py,sha256=9NLnmfLLjqlqqGdZSrijWzMeyOhKyhF3RDcR1apRH9w,1921
+vmaker/main.py,sha256=gRRouG0HLES_xlMU_c1i8NitNeETOHImf0CpZNbyHjo,7959
+vmaker/utils.py,sha256=S8njyuvW9CFBdPlzt6s7b6VPA6lCjqxv_vvkzr22yoo,2694
+vmaker-0.1.0.dist-info/entry_points.txt,sha256=t4M8V0Dq1nQ1Int_I1jp3i-AWBM51rU8tMA3YaZPpJ4,42
+vmaker-0.1.0.dist-info/METADATA,sha256=5KFaZ1un8dwQWbMbYCy_utv_M4UNanCl03iNCCO8QRQ,606
+vmaker-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vmaker-0.1.0.dist-info/RECORD,,

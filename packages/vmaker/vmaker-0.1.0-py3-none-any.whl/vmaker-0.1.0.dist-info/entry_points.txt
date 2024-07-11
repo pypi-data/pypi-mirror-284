@@ -1,0 +1,3 @@
+[console_scripts]
+vmaker=vmaker.main:app
+
