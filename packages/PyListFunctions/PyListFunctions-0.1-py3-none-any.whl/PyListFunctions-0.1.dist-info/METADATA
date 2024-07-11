@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: PyListFunctions
+Version: 0.1
+Summary: some functions for list(now only one😶)
+Home-page: https://space.bilibili.com/1654383134
+Author: BL_30G
+Author-email: 2842621898@qq.com
+License: UNKNOWN
+Keywords: python,list,clean
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+
+There are some functions in this project for python list, even though it's only one function
+You can give some advice for me to improve this project
+My Bilibili:https://space.bilibili.com/1654383134
+
