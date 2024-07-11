@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+arachnea/__init__.py
+arachnea/arachnea.py
+arachnea/arachnea_test.py
+arachnea.egg-info/PKG-INFO
+arachnea.egg-info/SOURCES.txt
+arachnea.egg-info/dependency_links.txt
+arachnea.egg-info/top_level.txt
