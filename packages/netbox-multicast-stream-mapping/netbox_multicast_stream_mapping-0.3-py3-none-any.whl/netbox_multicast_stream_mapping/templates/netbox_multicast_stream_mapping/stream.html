@@ -1,0 +1,82 @@
+
+{% extends 'generic/object.html' %}
+
+
+{% block content %}
+  <div class="row mb-3">
+
+    <div class="col col-md-6">
+
+      <div class="card">
+        <h5 class="card-header">Stream</h5>
+        <div class="card-body">
+
+          <table class="table table-hover attr-table">
+
+            <tr>
+              <th scope="row">Name</th>
+              <td>{{ object.name }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Sender</th>
+              <td>{{ object.sender|linkify }}</td>
+            </tr>
+
+<!--              todo dateteyp und link-->
+            <tr>
+              <th scope="row">Receivers</th>
+              <td>
+                {% if object.receivers.all %}
+                  {% for receivers in object.receivers.all %}
+                    {{ receivers|linkify }}
+                    {% if not forloop.last %},&nbsp;{% endif %}
+                  {% endfor %}
+                {% else %}
+                   —
+                {% endif %}
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row">Bandwidth</th>
+              <td>{{ object.bandwidth|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Signal Type</th>
+              <td>{{ object.get_signal_type_display|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Protocol</th>
+              <td>{{ object.protocol|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Formats</th>
+              <td>
+                {% if object.formats.all %}
+                  {% for formats in object.formats.all %}
+                    {{ formats|linkify }}
+                    {% if not forloop.last %},&nbsp;{% endif %}
+                  {% endfor %}
+                {% else %}
+                   —
+                {% endif %}
+              </td>
+            </tr>
+
+          </table>
+
+        </div>
+      </div>
+      </div>
+
+    <div class="col col-md-6">
+
+          {% include 'inc/panels/tags.html' %}
+          {% include 'inc/panels/comments.html' %}
+          {% include 'inc/panels/custom_fields.html' %}
+  </div>
+{% endblock content %}
