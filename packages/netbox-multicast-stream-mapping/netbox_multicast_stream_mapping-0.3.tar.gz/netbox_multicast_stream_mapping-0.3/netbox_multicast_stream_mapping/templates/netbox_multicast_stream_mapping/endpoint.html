@@ -1,0 +1,101 @@
+
+{% extends 'generic/object.html' %}
+
+
+{% block content %}
+  <div class="row mb-3">
+
+    <div class="col col-md-6">
+
+      <div class="card">
+        <h5 class="card-header">Endpoint</h5>
+        <div class="card-body">
+
+          <table class="table table-hover attr-table">
+
+            <tr>
+              <th scope="row">Name</th>
+              <td>{{ object.name|linkify }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Signal Type</th>
+              <td>{{ object.get_signal_type_display|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Device</th>
+              <td>{{ object.device|linkify }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Processor</th>
+              <td>{{ object.processor|linkify }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Interface</th>
+              <td>{{ object.interface|linkify }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Endpoint Type</th>
+              <td>{{ object.get_endpoint_type_display }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Primary IP Address</th>
+              <td>{{ object.primary_ip|linkify|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Secondary IP Address</th>
+              <td>{{ object.secondary_ip|linkify|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Max. Bandwidth (Mbps) </th>
+              <td>{{ object.max_bandwidth|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Switch Method (2022-7) </th>
+              <td>{{ object.get_switch_method_display|placeholder }}</td>
+            </tr>
+
+          </table>
+
+        </div>
+      </div>
+      </div>
+
+    <div class="col col-md-6">
+
+      <div class="card">
+        <h5 class="card-header">Supported Formats</h5>
+        <div class="card-body">
+
+          <table class="table table-hover attr-table">
+            <tr>
+              <th scope="row">Supported Formats</th>
+              <td>
+                {% if object.supported_formats.all %}
+                  {% for format in object.supported_formats.all %}
+                    {{ format|linkify }}
+                    {% if not forloop.last %},&nbsp;{% endif %}
+                  {% endfor %}
+                {% else %}
+                   —
+                {% endif %}
+              </td>
+            </tr>
+          </table>
+
+        </div>
+
+    </div>
+          {% include 'inc/panels/tags.html' %}
+          {% include 'inc/panels/comments.html' %}
+          {% include 'inc/panels/custom_fields.html' %}
+  </div>
+{% endblock content %}

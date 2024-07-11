@@ -1,0 +1,68 @@
+
+{% extends 'generic/object.html' %}
+
+
+{% block content %}
+  <div class="row mb-3">
+
+    <div class="col col-md-6">
+
+      <div class="card">
+        <h5 class="card-header">Format</h5>
+        <div class="card-body">
+
+          <table class="table table-hover attr-table">
+
+            <tr>
+              <th scope="row">Name</th>
+              <td>{{ object.name }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Type</th>
+              <td>{{ object.get_type_display|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Vertical Resolution</th>
+              <td>{{ object.res_h|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Horizontal Resolution</th>
+              <td>{{ object.res_w|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Frame Rate</th>
+              <td>{{ object.fps|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Number of Audio Channels </th>
+              <td>{{ object.audio_ch|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Network Port </th>
+              <td>{{ object.port|placeholder }}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Description </th>
+              <td>{{ object.description|placeholder }}</td>
+            </tr>
+
+          </table>
+
+        </div>
+      </div>
+      </div>
+
+    <div class="col col-md-6">
+          {% include 'inc/panels/tags.html' %}
+          {% include 'inc/panels/comments.html' %}
+          {% include 'inc/panels/custom_fields.html' %}
+    </div>
+  </div>
+{% endblock content %}
