@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: connectome-manipulator
+Version: 0.0.11.dev1
+Summary: A connectome manipulation framework for SONATA circuits
+Home-page: https://github.com/BlueBrain/connectome-manipulator.git
+Author: Blue Brain Project, EPFL
+License: Apache-2
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: ==3.10.*
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+Requires-Dist: bluepysnap ==3.0.1
+Requires-Dist: numpy ==1.24.3
+Requires-Dist: pandas ==2.0.2
+Requires-Dist: progressbar ==2.5
+Requires-Dist: pyarrow ==14.0.1
+Requires-Dist: scipy ==1.10.1
+Requires-Dist: scikit-learn ==1.5.0
+Requires-Dist: voxcell ==3.1.5
+Requires-Dist: tables ==3.8.0
+Requires-Dist: distributed ==2023.6.0
+Requires-Dist: dask-mpi ==2022.4.0
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-bluebrain-theme ; extra == 'docs'
+
+Connectome-Manipulator
+======================
+
+A connectome manipulation framework for SONATA circuits
+
+
+Installation
+------------
+
+pip install .
+
+
+Examples
+--------
+
+To be found under /examples
