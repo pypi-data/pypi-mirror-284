@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pymechanism
+Version: 1.2
+Summary: Simulation of the H2Global Mechanism
+Author: Julian Reul
+Author-email: julian.reul@h2-global.org
+License: MIT
+License-File: LICENSE.txt
