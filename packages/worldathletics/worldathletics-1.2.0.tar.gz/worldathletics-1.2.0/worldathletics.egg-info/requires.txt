@@ -1,0 +1,7 @@
+pydantic
+httpx
+websockets
+
+[development]
+ariadne-codegen==0.14.0.dev1
+gql[all]
