@@ -1,0 +1,2 @@
+[console_scripts]
+iSTAGING_Workshop = cli:main
