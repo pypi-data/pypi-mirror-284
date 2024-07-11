@@ -1,0 +1,9 @@
+click
+aiosmtpd
+typing_extensions
+copier
+copier-templates-extensions
+gitpython
+
+[flask-sqlalchemy]
+flask-sqlalchemy~=2.5
