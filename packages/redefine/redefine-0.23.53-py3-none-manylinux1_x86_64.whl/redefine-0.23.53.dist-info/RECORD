@@ -1,0 +1,11 @@
+redefine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redefine/__main__.py,sha256=f-yH-pFzNba9A_v3KF4gdGKWctywkFMDVUrhOKF3sWE,446
+redefine/_cmd.py,sha256=conyLWr5P2vr1xHMKxVoxcwUlcNYucy94J9-5B9m3Ec,946
+redefine/redefine_installer,sha256=enLiwsEu2HFPzLM3KKyi3gdOIo9j6_IA0YuhR_UObRM,37058632
+redefine/version_info.txt,sha256=CVxxU08-xJAohd9rEygOcIQNXPnWL3gLY_liznOe5Co,49
+redefine-0.23.53.dist-info/LICENSE,sha256=2kWAZykIcttwlTugwpJkXsdcmYdIVzhCTI0AZPkTjww,11356
+redefine-0.23.53.dist-info/METADATA,sha256=KP8wgY0DggCca-SI1AFOspdUgdlk5KQcGzuYZZa1ygs,849
+redefine-0.23.53.dist-info/WHEEL,sha256=Bk22TbuisWAzwBPgwD9EeHWUrCwPt2F-ZT2P7e0SoqI,106
+redefine-0.23.53.dist-info/entry_points.txt,sha256=xesJkqxCK6KDCwqGnPV0_5jyJt64MhegHARIUYXDbGM,60
+redefine-0.23.53.dist-info/top_level.txt,sha256=RLY5cSggEIm7ippgLU0yYXdVGW4ckCQ2KhZvle5nsBw,9
+redefine-0.23.53.dist-info/RECORD,,
