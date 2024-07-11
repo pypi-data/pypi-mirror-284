@@ -1,0 +1,3 @@
+[console_scripts]
+pimms-add-diff-comp = pimmslearn.cmd_interface.setup_diff_analysis_website:main
+pimms-setup-imputation-comparison = pimmslearn.cmd_interface.setup_imp_cp_website:main
