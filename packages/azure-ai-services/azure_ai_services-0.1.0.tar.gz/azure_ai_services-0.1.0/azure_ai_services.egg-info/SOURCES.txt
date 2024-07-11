@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+azure_ai_services.egg-info/PKG-INFO
+azure_ai_services.egg-info/SOURCES.txt
+azure_ai_services.egg-info/dependency_links.txt
+azure_ai_services.egg-info/requires.txt
+azure_ai_services.egg-info/top_level.txt
+tests/test_basic.py
+tests/test_premium.py
