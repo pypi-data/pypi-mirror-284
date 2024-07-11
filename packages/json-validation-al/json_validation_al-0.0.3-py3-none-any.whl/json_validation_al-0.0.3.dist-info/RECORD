@@ -1,0 +1,9 @@
+src/json_validation_al/__init__.py,sha256=BM5QRQJBDJ-7NBHZP3CSfz9weV9HGwRSFKAkyPhvIFo,62
+src/json_validation_al/base.py,sha256=1hkOD6svcf7Ci3njNyO_kwrl2Dqd9mgdQyqbk-u12os,938
+src/json_validation_al/custom_validation.py,sha256=sO8zc8rBfchnL3xtrmqX8xd9NKrCTHWik2E0JSbNi9Q,1199
+src/json_validation_al/implementations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/json_validation_al/implementations/event_validation_main.py,sha256=edIOF63irqkyCrXzycCYOSSSF0KNaMpG2TPuNlQyNmg,2954
+json_validation_al-0.0.3.dist-info/METADATA,sha256=S1BJ7_dOEa4C0-HsI-w2OZYC1_onYgW8GUI76qhDPk8,3914
+json_validation_al-0.0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+json_validation_al-0.0.3.dist-info/licenses/LICENSE.txt,sha256=DcW4FduvV3HZMlKfxBPOe2zVtwNrmvp8xV0KV2D-I5M,1098
+json_validation_al-0.0.3.dist-info/RECORD,,
