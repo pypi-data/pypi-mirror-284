@@ -1,0 +1,10 @@
+skinnygrad/__init__.py,sha256=v9DnLewR_SSVyey2xoZzZGp7SbkJWYAQ2zHpFKV6IPM,650
+skinnygrad/autograd.py,sha256=hG_PdGWiDjHKWJTjlsFieqTolBP434RGfbr8j82AyS8,10966
+skinnygrad/callbacks.py,sha256=9TpJ7cOlnKo4godepaba8y6smyCe6P3j-AUHxI_enxM,1759
+skinnygrad/config.py,sha256=TWLwzOTqpDwGaULzaAob2Y_rldSNJu_SNBOvwBze7SQ,3030
+skinnygrad/llops.py,sha256=x4I0NFSsT72-mxwsommhgPlSsKaPEC01_ey1Gt4mJSQ,8809
+skinnygrad/runtime.py,sha256=9R0AlnvMFf7dSXgRRvJ02bKuECdSEec8VYC3FbzNIVQ,2637
+skinnygrad/tensors.py,sha256=W61Nqair8WUC-52BeS7j9A5Ba9-sET3uH4qEdc28pRk,495
+skinnygrad-0.0.0a1.dist-info/METADATA,sha256=-Fs1WAu37FnaOiGwNzqqhD7sCk5_T_qRCNXeMWq07x8,485
+skinnygrad-0.0.0a1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+skinnygrad-0.0.0a1.dist-info/RECORD,,

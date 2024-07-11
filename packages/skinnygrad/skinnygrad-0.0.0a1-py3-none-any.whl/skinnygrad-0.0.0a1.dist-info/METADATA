@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: skinnygrad
+Version: 0.0.0a1
+Summary: autodiff engine inspired by tinygrad
+Author: Arthur
+Author-email: atte.book@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=2.0.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# skinnygrad
+
+Inspired by [tinygrad](https://github.com/tinygrad/tinygrad)
+
