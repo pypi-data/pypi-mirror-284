@@ -1,0 +1,11 @@
+torch
+transformers
+tqdm
+nltk
+spacy
+scipy
+sentence-transformers
+pandas
+numpy
+tabulate
+FactualSceneGraph

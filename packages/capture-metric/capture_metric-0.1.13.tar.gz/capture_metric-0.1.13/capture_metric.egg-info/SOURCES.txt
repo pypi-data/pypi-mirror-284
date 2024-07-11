@@ -1,0 +1,10 @@
+README.md
+setup.py
+capture_metric/__init__.py
+capture_metric/capture.py
+capture_metric/stop_words.py
+capture_metric.egg-info/PKG-INFO
+capture_metric.egg-info/SOURCES.txt
+capture_metric.egg-info/dependency_links.txt
+capture_metric.egg-info/requires.txt
+capture_metric.egg-info/top_level.txt
