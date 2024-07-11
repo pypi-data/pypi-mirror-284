@@ -1,0 +1,13 @@
+tszip/__init__.py,sha256=azbbdvRqVfXmlSPbMIV8fWWFHd5B98FxThcKnuPMksU,1326
+tszip/__main__.py,sha256=TmdLORNJdRTEFylUiqNmXdYPxk9jZz8Y10j8E4yQcB8,99
+tszip/_version.py,sha256=4gL0W4-u58XR5lRLpeoIPrGhcewTk0-527de6uTNmkg,411
+tszip/cli.py,sha256=hchM281wKpSoVBHzLkheE0rKiBDs9cNe6GM5IRq9kNY,5786
+tszip/compression.py,sha256=gpr7Ij0r22oUSVIsvcAXem8KRr56fKlanMLf0T8lRWE,14829
+tszip/exceptions.py,sha256=xDXlSvF9_xqBcr910JMsEK5AwULRJKe6lIS9bPnLCRg,1490
+tszip/provenance.py,sha256=doobPxrJsDb0MSWwj-n1RStdbcAeKYI7wZQvcqXc5NQ,2459
+tszip-0.2.4.dist-info/LICENSE,sha256=sjM8WeA9YsNbhwSm2irLvhhFzjXuhBdI-L7Giouj9sA,1073
+tszip-0.2.4.dist-info/METADATA,sha256=6HL8gyjnpbhKHCYRl2PRbH8K6tgGglISJRgEX8Nz_-0,2315
+tszip-0.2.4.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+tszip-0.2.4.dist-info/entry_points.txt,sha256=BPTrAbXYISo7wfvXm7W64uPMLjZOoCdxktMT0hQArss,80
+tszip-0.2.4.dist-info/top_level.txt,sha256=wG2mLYphlzceKnO_3V8PiqhkQ_cF1-K0fZrXePtvT8E,6
+tszip-0.2.4.dist-info/RECORD,,
