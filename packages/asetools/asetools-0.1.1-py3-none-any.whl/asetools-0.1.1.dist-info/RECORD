@@ -1,0 +1,10 @@
+asetools-0.1.1.dist-info/METADATA,sha256=mNUOtCiXcHWRSEwfVmk1atnRTcfSyEkYREWzgm5Bgh4,2810
+asetools-0.1.1.dist-info/WHEEL,sha256=mbxFTmdEUhG7evcdMkR3aBt9SWcoFBJ4CDwnfguNegA,90
+asetools-0.1.1.dist-info/entry_points.txt,sha256=xMrSReoU3TgnJnV_wRid_tTYEvClQE3iOPV1Iik_150,85
+asetools-0.1.1.dist-info/licenses/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+asetools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asetools/aseinfo.py,sha256=hRblClpGhG_KbXeCd6FgaGz-bjndYTQq-OwpjDmSGfc,2123
+asetools/aseprite.py,sha256=9Ibm58GDhQSBd5RqAKIWbhbWGmLjcd_SL7TX4XPXwhA,7140
+asetools/asesplit.py,sha256=xUeCMZUQIXAoqRW4QW-rqjHK44tcY4w-KUJ3mE6cb7g,2916
+asetools/imageops.py,sha256=K2xARojKGXLus-eDH3JXQcg9w_b2lleFKEmLSQOpOVo,1050
+asetools-0.1.1.dist-info/RECORD,,
