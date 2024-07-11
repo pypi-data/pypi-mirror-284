@@ -1,0 +1,3 @@
+[console_scripts]
+justbuild = justbuild.cli:app
+lfg = justbuild.lfg_cli:app
