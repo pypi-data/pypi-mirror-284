@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: simpy-playground
+Version: 0.1.0a2
+Summary: A SimPy playground to experiment with multiple simulation scenarios.
+Project-URL: Homepage, https://github.com/rmax/simpy-playground/
+Project-URL: Source, https://github.com/rmax/simpy-playground/
+Author-email: R Max Espinoza <hey@rmax.dev>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.10
+Requires-Dist: simpy
+Description-Content-Type: text/markdown
+
+# SimPy Playground
+
+A SimPy Playground to run simulations and experiment with different scenarios.
