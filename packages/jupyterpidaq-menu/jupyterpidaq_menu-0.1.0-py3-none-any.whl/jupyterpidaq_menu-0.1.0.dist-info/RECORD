@@ -1,0 +1,14 @@
+jupyterpidaq_menu/__init__.py,sha256=5JX1QALYYAiKCKqx2QX2na0BG7yCmH_6oSAuncau9KI,592
+jupyterpidaq_menu/_version.py,sha256=ac3tgjoOzsODOlacRPCwz99LbZv0NK7ZYAaBWulFo7E,171
+jupyterpidaq_menu-0.1.0.data/data/share/jupyter/labextensions/jupyterpidaq-menu/package.json,sha256=ie5J3DBT9lUSdn0qw6PStDtdj_-mXvH_X1aD0_oR09I,6029
+jupyterpidaq_menu-0.1.0.data/data/share/jupyter/labextensions/jupyterpidaq-menu/static/509.af550bda5eb2986cd553.js,sha256=r1UL2l6ymGzVU8koq9O49ayhbWRXywWHK8Lc5KDrFCU,3252
+jupyterpidaq_menu-0.1.0.data/data/share/jupyter/labextensions/jupyterpidaq-menu/static/728.9a4912b775fbf981d50c.js,sha256=mkkSt3X7-YHVDNLNQGQXfMh3DT9TmG56ApsSKCwHpBY,4012
+jupyterpidaq_menu-0.1.0.data/data/share/jupyter/labextensions/jupyterpidaq-menu/static/remoteEntry.18c46976fe1f67cdd481.js,sha256=GMRpdv4fZ83Ugdo4CNCiyz7MdZsrAQ8jtf8QDf5ky-4,6571
+jupyterpidaq_menu-0.1.0.data/data/share/jupyter/labextensions/jupyterpidaq-menu/static/style.js,sha256=XbA23heSLduWPn1K7S2CX1gRNp1FKbD1ym7iDWgrTSQ,160
+jupyterpidaq_menu-0.1.0.data/data/share/jupyter/labextensions/jupyterpidaq-menu/static/third-party-licenses.json,sha256=W6N2sSD7tQihMqQk64F9xMd1Flfr2KO97esAiHUOYdM,2453
+jupyterpidaq_menu-0.1.0.data/data/share/jupyter/labextensions/jupyterpidaq-menu/install.json,sha256=mfb1df5o75T-ZOaiynTO1o_k8pmcelBBm4Ye58Imkxo,195
+jupyterpidaq_menu-0.1.0.dist-info/METADATA,sha256=ny4nwUGov_Og6AT1XHGACstEedTmSGmKp28VmNSseZo,6657
+jupyterpidaq_menu-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+jupyterpidaq_menu-0.1.0.dist-info/licenses/LICENSE,sha256=cNp0hfQHiqyP4kve8AaYl--Qk4fFR1rIuLWzN5uUq8I,1522
+jupyterpidaq_menu-0.1.0.dist-info/licenses/LICENSE.txt,sha256=iehyZf7xS2uA1vqaOdW7zzxpZDVueetkAs-0qOcNY98,1088
+jupyterpidaq_menu-0.1.0.dist-info/RECORD,,
