@@ -1,0 +1,9 @@
+stringops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stringops/exceptions.py,sha256=DMquDs8Aozht84xDhhGlFWMgNNbJvClFds20_edfgOc,128
+stringops/manipulation.py,sha256=hAlxL5oxHhI74OsUoOszwM-e88nKhQyVAK3Fx55NIkc,2825
+stringops/read.py,sha256=UWlfVYFc4GHBETZ1RzaaqBoiA9fOoBABwZczi1fhh08,648
+stringops-1.0.dist-info/LICENSE,sha256=S4rDwZvYPJR0ElFfB7WJFdYclKHHcWjEnl8rmul28FE,1074
+stringops-1.0.dist-info/METADATA,sha256=-8lxqFkue-IWsjqzK_xZbcDKzYNwlUsah970ywpzIs8,2028
+stringops-1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+stringops-1.0.dist-info/top_level.txt,sha256=E07nq7G-SfoN6H_tN_0CG9CM4nfY2FEMUsnVyCzRRTc,10
+stringops-1.0.dist-info/RECORD,,
