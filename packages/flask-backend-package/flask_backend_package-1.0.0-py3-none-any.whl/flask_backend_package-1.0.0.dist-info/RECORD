@@ -1,0 +1,12 @@
+api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api/feedbacks.py,sha256=Uw336-sCIuFSgz0bzmr1BKuENoof-Dz0pFF9WElrrUQ,132
+api/news.py,sha256=Pd4y9lEqqTYzDDy7hFWHcXJ4TdPa4GJwdluAdCdoM-8,113
+api/users.py,sha256=USahgQQ0LblcltUaTLgmRUMCF4dVuIK5ff_tst60fh4,116
+models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+models/feedback.py,sha256=verhDiFja8AeA2jstd1aXrJY-_M1r2oR-Bt5h90WB2U,24
+models/news.py,sha256=bGDx5vPfSl1O8cbeK1JoZmVFkIvgqxZQF0GjNR2wqjQ,20
+models/user.py,sha256=Kwmbj8j_3wrSBWSTG1vZLGOfQImKLFCeIzoQHikRjMs,20
+flask_backend_package-1.0.0.dist-info/METADATA,sha256=lkUfuUCb-Wm4r6PUu3Ey0pu_zf7hKkC4RDut5kvsob4,737
+flask_backend_package-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+flask_backend_package-1.0.0.dist-info/top_level.txt,sha256=TPwL448WVOQQqa-_Ab6_KHYVvO-QY6-9EF5h0nnfcC8,11
+flask_backend_package-1.0.0.dist-info/RECORD,,

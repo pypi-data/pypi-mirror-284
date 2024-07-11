@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: flask-backend-package
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Flask >=3.0.3
+Requires-Dist: blinker >=1.8.2
+Requires-Dist: certifi >=2024.7.4
+Requires-Dist: charset-normalizer >=3.3.2
+Requires-Dist: click >=8.1.7
+Requires-Dist: colorama >=0.4.6
+Requires-Dist: dnspython >=2.6.1
+Requires-Dist: Flask-PyMongo >=2.3.0
+Requires-Dist: idna >=3.7
+Requires-Dist: importlib-metadata >=8.0.0
+Requires-Dist: itsdangerous >=2.2.0
+Requires-Dist: Jinja2 >=3.1.4
+Requires-Dist: MarkupSafe >=2.1.5
+Requires-Dist: pymongo >=4.8.0
+Requires-Dist: requests ==2.32.3
+Requires-Dist: urllib3 ==2.2.2
+Requires-Dist: Werkzeug >=3.0.3
+Requires-Dist: zipp >=3.19.2
+
+UNKNOWN
+
