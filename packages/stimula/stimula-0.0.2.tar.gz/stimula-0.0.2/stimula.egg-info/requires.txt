@@ -1,0 +1,5 @@
+pyjwt
+sqlalchemy
+pandas>=2.1.3
+numpy
+cryptography<4.0,>=3.4.8
