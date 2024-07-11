@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+detect2earth.egg-info/PKG-INFO
+detect2earth.egg-info/SOURCES.txt
+detect2earth.egg-info/dependency_links.txt
+detect2earth.egg-info/requires.txt
+detect2earth.egg-info/top_level.txt
+recent_earthquake/__init__.py
