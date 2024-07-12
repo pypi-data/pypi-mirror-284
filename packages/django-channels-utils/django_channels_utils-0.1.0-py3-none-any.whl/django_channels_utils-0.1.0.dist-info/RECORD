@@ -1,0 +1,10 @@
+django_channels_utils/__init__.py,sha256=BqXXV-CJ5l0tI8pdedm4jWCf5FxMLHQ1GTece9ywd5w,32
+django_channels_utils/module1.py,sha256=ymzktvcFgjMvk1Bt9YjwZKnISgKBQ7usUebISnmbBfs,47
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_module1.py,sha256=qQVXI8WoakKt0SoVwjroYiXWHkHNxI9ugQ_geKB1aJI,244
+django_channels_utils-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_channels_utils-0.1.0.dist-info/METADATA,sha256=mnQcacO1r4Vi-QtSo0LiMP3LsYOVihU2xlUR0nTai3o,522
+django_channels_utils-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_channels_utils-0.1.0.dist-info/entry_points.txt,sha256=G9bFPiV_2g2RpEUuTuG6AFj8Xn_3pm05NyzLnxXbII0,19
+django_channels_utils-0.1.0.dist-info/top_level.txt,sha256=c865Twyb6vjmYI-obd1_iGyUBDmdWi7TUQ_eM3vyRaw,28
+django_channels_utils-0.1.0.dist-info/RECORD,,
