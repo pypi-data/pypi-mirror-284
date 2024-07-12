@@ -1,0 +1,12 @@
+origametry/__init__.py,sha256=lSssY8J2-ADWRouzji879-CXquFBNdeyf7HVVXNuHK8,123
+origametry/fold.py,sha256=s94SRVdFNNjaS2GjUeTnzAkDuEJNW3-e0hkMkriTqio,15027
+origametry/helpers.py,sha256=V531mI2xDxkb5mdsJMQCohG_q0P_BN9MuLSx1URx4-o,3378
+origametry/line.py,sha256=jAEahzC34IrQXneq84RrDRpxet7KOi8hlA4PpCaVBrY,5395
+origametry/point.py,sha256=vxSDbUV-svtDq1ASqFqg_qkACaxB_OQdlC1f96jZC_A,653
+origametry/reflect.py,sha256=0zP37uYzo9HOpTl64ku3Cd-aPZw_O7Rq83NcZHEOyBY,883
+origametry/show.py,sha256=2X_q5LNXeGTLEd3dGHZ4SD8i-_P3c7m_yzLG0EpRjw4,4822
+origametry-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+origametry-0.0.6.dist-info/METADATA,sha256=541zHlf-vw0ckcVCTxj7twyj9rVsd0AWZUe_KAWa4h0,2030
+origametry-0.0.6.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+origametry-0.0.6.dist-info/top_level.txt,sha256=Efo8GalrHaBs-4IwmdlKLQ1qbDaHW5-BjLscFXBDfXM,11
+origametry-0.0.6.dist-info/RECORD,,
