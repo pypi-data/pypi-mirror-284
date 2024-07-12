@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+flask_tenants/__init__.py
+flask_tenants/exceptions.py
+flask_tenants/middleware.py
+flask_tenants/models.py
+flask_tenants/utils.py
+flask_tenants.egg-info/PKG-INFO
+flask_tenants.egg-info/SOURCES.txt
+flask_tenants.egg-info/dependency_links.txt
+flask_tenants.egg-info/requires.txt
+flask_tenants.egg-info/top_level.txt
