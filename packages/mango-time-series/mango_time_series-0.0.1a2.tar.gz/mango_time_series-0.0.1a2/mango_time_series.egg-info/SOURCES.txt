@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+mango/__init__.py
+mango/tests/__init__.py
+mango/tests/test_time_series_dataframe.py
+mango/time_series/__init__.py
+mango_time_series.egg-info/PKG-INFO
+mango_time_series.egg-info/SOURCES.txt
+mango_time_series.egg-info/dependency_links.txt
+mango_time_series.egg-info/top_level.txt
