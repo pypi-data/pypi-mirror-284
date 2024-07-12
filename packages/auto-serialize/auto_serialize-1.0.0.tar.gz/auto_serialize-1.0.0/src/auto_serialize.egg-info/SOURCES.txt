@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/auto_serialize/__init__.py
+src/auto_serialize/_auto_serialize.py
+src/auto_serialize/interfaces.py
+src/auto_serialize.egg-info/PKG-INFO
+src/auto_serialize.egg-info/SOURCES.txt
+src/auto_serialize.egg-info/dependency_links.txt
+src/auto_serialize.egg-info/requires.txt
+src/auto_serialize.egg-info/top_level.txt
+tests/test_serialization.py
