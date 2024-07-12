@@ -1,0 +1,16 @@
+k_math_kit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+k_math_kit/integration.py,sha256=dLkkIg4PW0VzYQG511rDTvzb0PtfYsgTodKQQzTZVzM,1375
+k_math_kit/polynomial/__init__.py,sha256=axO7aVfUCgfcQlDdAhnJuJeSGB-mN-ccBSvBKWSBFZ8,53
+k_math_kit/polynomial/utils.py,sha256=gLBZNMBmfEnikyqcuMW_qtjARsiK27AUyGb3gOQ0eB8,1609
+k_math_kit/polynomial/newton_poly/__init__.py,sha256=1PIKepMkORK3RbLJE2h-il5d_5WafZiKuJXBMlDj6ho,90
+k_math_kit/polynomial/newton_poly/newton_interpol_poly.py,sha256=xheczN_v0ebdxLq8GjS_EhXyjZcvFqgXHPvWZ5j_kN8,1983
+k_math_kit/polynomial/newton_poly/newton_poly.py,sha256=F4S81iShck8XTLzhVapGQi36H4Sjothlbz9d8-aVvGM,3094
+k_math_kit/polynomial/newton_poly/spline1_poly.py,sha256=UU69Xjhh7fnohdyG71oJq6m_OliYJo1FWIfIk_nSwsg,2412
+k_math_kit/polynomial/taylor_poly/__init__.py,sha256=A-zuv3-MpOA8_Jd3obp9oQgJgDvMsjoTmGRwYqo-6Ko,83
+k_math_kit/polynomial/taylor_poly/spline3_poly.py,sha256=CWUE1efi8OTgDF8foqw4-I3FkF_-ikns_rveCRvsdj0,2315
+k_math_kit/polynomial/taylor_poly/spline3_polys.py,sha256=7M5bona1cjNEA01W_IZAdPx9cJ4cz0vZKZSvdGxlB_g,3817
+k_math_kit/polynomial/taylor_poly/taylor_poly.py,sha256=cV7fnhNhsirRJ6xikLbiaPiMAYIhXFR2hwr5ntJZqBs,2925
+k_math_kit-0.0.1.dist-info/METADATA,sha256=qRvFkzakDJ40QUPXZFiYu9ltADi_vfwkV219YwcbPVk,3065
+k_math_kit-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+k_math_kit-0.0.1.dist-info/licenses/LICENSE,sha256=yI2y8QyS0v3Y8XuQCqiOmDWghJcB5JolsrapUEZYnfA,1091
+k_math_kit-0.0.1.dist-info/RECORD,,
