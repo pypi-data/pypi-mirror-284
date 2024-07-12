@@ -1,0 +1,295 @@
+"""CouplingHalfCriticalSpeedAnalysis"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, TypeVar
+
+from mastapy._internal import constructor
+from mastapy.system_model.analyses_and_results.critical_speed_analyses import _6644
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_COUPLING_HALF_CRITICAL_SPEED_ANALYSIS = python_net_import(
+    "SMT.MastaAPI.SystemModel.AnalysesAndResults.CriticalSpeedAnalyses",
+    "CouplingHalfCriticalSpeedAnalysis",
+)
+
+if TYPE_CHECKING:
+    from mastapy.system_model.part_model.couplings import _2605
+    from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+        _6587,
+        _6592,
+        _6609,
+        _6649,
+        _6655,
+        _6660,
+        _6671,
+        _6681,
+        _6682,
+        _6683,
+        _6686,
+        _6687,
+        _6589,
+        _6646,
+    )
+    from mastapy.system_model.analyses_and_results.analysis_cases import _7569, _7566
+    from mastapy.system_model.analyses_and_results import _2678, _2674, _2672
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("CouplingHalfCriticalSpeedAnalysis",)
+
+
+Self = TypeVar("Self", bound="CouplingHalfCriticalSpeedAnalysis")
+
+
+class CouplingHalfCriticalSpeedAnalysis(_6644.MountableComponentCriticalSpeedAnalysis):
+    """CouplingHalfCriticalSpeedAnalysis
+
+    This is a mastapy class.
+    """
+
+    TYPE = _COUPLING_HALF_CRITICAL_SPEED_ANALYSIS
+    _CastSelf = TypeVar("_CastSelf", bound="_Cast_CouplingHalfCriticalSpeedAnalysis")
+
+    class _Cast_CouplingHalfCriticalSpeedAnalysis:
+        """Special nested class for casting CouplingHalfCriticalSpeedAnalysis to subclasses."""
+
+        def __init__(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+            parent: "CouplingHalfCriticalSpeedAnalysis",
+        ):
+            self._parent = parent
+
+        @property
+        def mountable_component_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6644.MountableComponentCriticalSpeedAnalysis":
+            return self._parent._cast(_6644.MountableComponentCriticalSpeedAnalysis)
+
+        @property
+        def component_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6589.ComponentCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6589,
+            )
+
+            return self._parent._cast(_6589.ComponentCriticalSpeedAnalysis)
+
+        @property
+        def part_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6646.PartCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6646,
+            )
+
+            return self._parent._cast(_6646.PartCriticalSpeedAnalysis)
+
+        @property
+        def part_static_load_analysis_case(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_7569.PartStaticLoadAnalysisCase":
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7569
+
+            return self._parent._cast(_7569.PartStaticLoadAnalysisCase)
+
+        @property
+        def part_analysis_case(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_7566.PartAnalysisCase":
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7566
+
+            return self._parent._cast(_7566.PartAnalysisCase)
+
+        @property
+        def part_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_2678.PartAnalysis":
+            from mastapy.system_model.analyses_and_results import _2678
+
+            return self._parent._cast(_2678.PartAnalysis)
+
+        @property
+        def design_entity_single_context_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_2674.DesignEntitySingleContextAnalysis":
+            from mastapy.system_model.analyses_and_results import _2674
+
+            return self._parent._cast(_2674.DesignEntitySingleContextAnalysis)
+
+        @property
+        def design_entity_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_2672.DesignEntityAnalysis":
+            from mastapy.system_model.analyses_and_results import _2672
+
+            return self._parent._cast(_2672.DesignEntityAnalysis)
+
+        @property
+        def clutch_half_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6587.ClutchHalfCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6587,
+            )
+
+            return self._parent._cast(_6587.ClutchHalfCriticalSpeedAnalysis)
+
+        @property
+        def concept_coupling_half_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6592.ConceptCouplingHalfCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6592,
+            )
+
+            return self._parent._cast(_6592.ConceptCouplingHalfCriticalSpeedAnalysis)
+
+        @property
+        def cvt_pulley_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6609.CVTPulleyCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6609,
+            )
+
+            return self._parent._cast(_6609.CVTPulleyCriticalSpeedAnalysis)
+
+        @property
+        def part_to_part_shear_coupling_half_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6649.PartToPartShearCouplingHalfCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6649,
+            )
+
+            return self._parent._cast(
+                _6649.PartToPartShearCouplingHalfCriticalSpeedAnalysis
+            )
+
+        @property
+        def pulley_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6655.PulleyCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6655,
+            )
+
+            return self._parent._cast(_6655.PulleyCriticalSpeedAnalysis)
+
+        @property
+        def rolling_ring_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6660.RollingRingCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6660,
+            )
+
+            return self._parent._cast(_6660.RollingRingCriticalSpeedAnalysis)
+
+        @property
+        def spring_damper_half_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6671.SpringDamperHalfCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6671,
+            )
+
+            return self._parent._cast(_6671.SpringDamperHalfCriticalSpeedAnalysis)
+
+        @property
+        def synchroniser_half_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6681.SynchroniserHalfCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6681,
+            )
+
+            return self._parent._cast(_6681.SynchroniserHalfCriticalSpeedAnalysis)
+
+        @property
+        def synchroniser_part_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6682.SynchroniserPartCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6682,
+            )
+
+            return self._parent._cast(_6682.SynchroniserPartCriticalSpeedAnalysis)
+
+        @property
+        def synchroniser_sleeve_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6683.SynchroniserSleeveCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6683,
+            )
+
+            return self._parent._cast(_6683.SynchroniserSleeveCriticalSpeedAnalysis)
+
+        @property
+        def torque_converter_pump_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6686.TorqueConverterPumpCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6686,
+            )
+
+            return self._parent._cast(_6686.TorqueConverterPumpCriticalSpeedAnalysis)
+
+        @property
+        def torque_converter_turbine_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "_6687.TorqueConverterTurbineCriticalSpeedAnalysis":
+            from mastapy.system_model.analyses_and_results.critical_speed_analyses import (
+                _6687,
+            )
+
+            return self._parent._cast(_6687.TorqueConverterTurbineCriticalSpeedAnalysis)
+
+        @property
+        def coupling_half_critical_speed_analysis(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+        ) -> "CouplingHalfCriticalSpeedAnalysis":
+            return self._parent
+
+        def __getattr__(
+            self: "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis",
+            name: str,
+        ):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = "".join(n.capitalize() for n in name.split("_"))
+                raise CastException(
+                    f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+                ) from None
+
+    def __init__(
+        self: Self, instance_to_wrap: "CouplingHalfCriticalSpeedAnalysis.TYPE"
+    ):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def component_design(self: Self) -> "_2605.CouplingHalf":
+        """mastapy.system_model.part_model.couplings.CouplingHalf
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.ComponentDesign
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def cast_to(
+        self: Self,
+    ) -> "CouplingHalfCriticalSpeedAnalysis._Cast_CouplingHalfCriticalSpeedAnalysis":
+        return self._Cast_CouplingHalfCriticalSpeedAnalysis(self)
