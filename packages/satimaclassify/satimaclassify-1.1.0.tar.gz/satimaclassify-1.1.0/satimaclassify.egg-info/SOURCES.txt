@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+satimaclassify.egg-info/PKG-INFO
+satimaclassify.egg-info/SOURCES.txt
+satimaclassify.egg-info/dependency_links.txt
+satimaclassify.egg-info/requires.txt
+satimaclassify.egg-info/top_level.txt
+tests/__init__.py
+tests/test_classification.py

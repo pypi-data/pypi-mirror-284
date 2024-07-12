@@ -1,0 +1,7 @@
+rasterio
+numpy
+scikit-learn
+fiona
+matplotlib
+pandas
+joblib
