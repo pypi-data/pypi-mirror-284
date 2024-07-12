@@ -1,0 +1,8 @@
+setup.py
+CustomTkinter_ColorPicker.egg-info/PKG-INFO
+CustomTkinter_ColorPicker.egg-info/SOURCES.txt
+CustomTkinter_ColorPicker.egg-info/dependency_links.txt
+CustomTkinter_ColorPicker.egg-info/requires.txt
+CustomTkinter_ColorPicker.egg-info/top_level.txt
+ctkcolorpicker/__init__.py
+ctkcolorpicker/main.py
