@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "franklins_scipy_safety_net"
+version = "0.0.1"
+authors = [
+  { name="Franklin Koch", email="franklinwkoch@gmail.com" },
+]
+description = "In a world full of SciPy puns, how to fit in"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/fwkoch/franklins_scipy_safety_net"
+Issues = "https://github.com/fwkoch/franklins_scipy_safety_net/issues"
