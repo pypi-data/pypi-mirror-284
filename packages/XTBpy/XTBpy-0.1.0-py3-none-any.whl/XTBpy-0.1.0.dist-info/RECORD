@@ -1,0 +1,11 @@
+XTBpy/__init__.py,sha256=ceRHSlY-2gvrJ4liaWuxe4fK-52qgpBYO3y9BRJMijE,1173
+XTBpy/account.py,sha256=vKu8S3f8hr797rk0ILYSbMYJ7r63tTnJ24nte5pzJbI,2440
+XTBpy/client.py,sha256=MBvEMrfFbp5nTYTMOFH9TEfiWQvYvvKJ72oey1duDDQ,16104
+XTBpy/handler.py,sha256=nwLtiS8Yf_SDP0ekOK6v5Kfab_ugyjJgE7b5ReL3TkA,46520
+XTBpy/utils.py,sha256=14oczZZVBVijeKVaqw31m741pjDaECdYpCwhg2Sm71A,8587
+XTBpy/wrapper.py,sha256=Vd4LwXD8I1yw02lL0fk_VkNJTb1MPNe4IEUAk5qDWAQ,67731
+XTBpy-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+XTBpy-0.1.0.dist-info/METADATA,sha256=okg8Tw738vFcRBQBsAAk1m36DBv8n30Mk87XjZC8Bp0,50487
+XTBpy-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+XTBpy-0.1.0.dist-info/top_level.txt,sha256=9e0RROc2TxspY6zfHjD0FXiYVL-lJ3hYj2dXCLP73XE,6
+XTBpy-0.1.0.dist-info/RECORD,,
