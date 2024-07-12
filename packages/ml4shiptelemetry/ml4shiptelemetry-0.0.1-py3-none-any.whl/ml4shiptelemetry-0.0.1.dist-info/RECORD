@@ -1,0 +1,10 @@
+ml4shiptelemetry/RFRegressorModel.py,sha256=YJey4u07BATl3d1J6j6X8TmMMK6pgQ6xoCcqEI3D-2c,1477
+ml4shiptelemetry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ml4shiptelemetry/__main__.py,sha256=Du5G0Y-xatVexBSt5167XEm9_nRnXguAmupiZxm3IDs,54
+ml4shiptelemetry/dataloader.py,sha256=3PDPUwzTeB6oV-389pscqmmVFbRNWy1yGJsPTvmVobg,9696
+ml4shiptelemetry/main.py,sha256=zJ_IBgFPKSqYzpjZ36jj3WIV9p9jaAj0SZFA8aEjx98,487
+ml4shiptelemetry-0.0.1.dist-info/LICENSE,sha256=VpoBVcUhRb24CxCkAVeoelmpCF5lvTlQGTxBiqd1ucY,1067
+ml4shiptelemetry-0.0.1.dist-info/METADATA,sha256=OVJ8X7Z2hYpv0tfIW_Juz2lav3VHNlCnTy1Q4-U4KXk,1346
+ml4shiptelemetry-0.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+ml4shiptelemetry-0.0.1.dist-info/top_level.txt,sha256=Rfk5fsB6vs8Im_MNcTmNahCrnw4NVNxkPV5ySBKKGBQ,17
+ml4shiptelemetry-0.0.1.dist-info/RECORD,,
