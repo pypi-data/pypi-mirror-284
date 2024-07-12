@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+src/exodo.py
+src/log.py
+src/master.py
+src/raw.py
+src/mifra.egg-info/PKG-INFO
+src/mifra.egg-info/SOURCES.txt
+src/mifra.egg-info/dependency_links.txt
+src/mifra.egg-info/requires.txt
+src/mifra.egg-info/top_level.txt
