@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tree-sitter-less
+Version: 1.0.0
+Summary: LESS grammar for tree-sitter
+Author-email: Jimliang <jimlianglinux@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/jimliang/tree-sitter-less
+Keywords: incremental,parsing,tree-sitter,less
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: core
+
+# tree-sitter-less
+
+[![CI][ci]](https://github.com/jimliang/tree-sitter-less/actions/workflows/ci.yml)
+[![crates][crates]](https://crates.io/crates/tree-sitter-less)
+[![npm][npm]](https://www.npmjs.com/package/tree-sitter-less)
+[![pypi][pypi]](https://pypi.org/project/tree-sitter-less)
+
+[LESS](https://lesscss.org/) grammar for [tree-sitter](https://github.com/tree-sitter/tree-sitter).
+
+[ci]: https://img.shields.io/github/actions/workflow/status/jimliang/tree-sitter-less/ci.yml?logo=github&label=CI
+[npm]: https://img.shields.io/npm/v/tree-sitter-less?logo=npm
+[crates]: https://img.shields.io/crates/v/tree-sitter-less?logo=rust
+[pypi]: https://img.shields.io/pypi/v/tree-sitter-less?logo=pypi&logoColor=ffd242
