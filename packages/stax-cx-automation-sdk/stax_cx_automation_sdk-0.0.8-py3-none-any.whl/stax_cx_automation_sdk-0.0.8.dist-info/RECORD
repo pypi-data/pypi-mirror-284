@@ -1,0 +1,10 @@
+stax_cx_automation_sdk/__init__.py,sha256=9BhXTFeLoGYwyUSTn73oQvG4Qyi_Dl0jHCx6hAe_FQ4,35
+stax_cx_automation_sdk/db.py,sha256=ySKbnQu8_lgFX4zexltYcDWZq-DZFIB_ltDcukA-64E,189
+stax_cx_automation_sdk/expression.py,sha256=uRiAj0PxB_jb-QvU0hUHbQp6incwBylbTMGBG0j9dhs,9336
+stax_cx_automation_sdk/helpers.py,sha256=ujSZK8gfJfbfkJE6DKiSV3rxpZ8q_Qkry0MFN3ixFYQ,912
+stax_cx_automation_sdk/wrapper.py,sha256=EQNCn67Wwbf2ZapJAupM0f58kZwCP_58Y7FTeZ0uyiY,4245
+stax_cx_automation_sdk-0.0.8.dist-info/LICENSE.md,sha256=I4tA6pocpqXVfY4CrUUwKFntp18-rYE1nnBUayQCGtE,243
+stax_cx_automation_sdk-0.0.8.dist-info/METADATA,sha256=A2WRtlCp-GS7RCP3dpLXZE-rCGm9XceBlc131HyMF_8,3599
+stax_cx_automation_sdk-0.0.8.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+stax_cx_automation_sdk-0.0.8.dist-info/top_level.txt,sha256=bOCNxfBJaRWSM_dZtiph2IR3AtmiqRGeF4UJuqBfALM,23
+stax_cx_automation_sdk-0.0.8.dist-info/RECORD,,
