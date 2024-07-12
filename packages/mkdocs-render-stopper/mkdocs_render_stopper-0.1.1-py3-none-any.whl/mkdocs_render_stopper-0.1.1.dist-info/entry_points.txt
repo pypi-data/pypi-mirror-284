@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+render-stopper = mkdocs_render_stopper.plugin:RenderStopperPlugin
