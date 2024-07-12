@@ -1,0 +1,3 @@
+[console_scripts]
+ou_xml_validator = ou_xml_validator.cli:cli
+ouseful_obt = ou_xml_validator.obt:main
