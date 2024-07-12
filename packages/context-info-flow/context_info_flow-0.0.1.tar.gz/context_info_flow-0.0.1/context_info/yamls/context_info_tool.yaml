@@ -1,0 +1,25 @@
+context_info.tools.context_info_tool.get_context_info:
+  function: get_context_info
+  inputs:
+    azure_search_endpoint:
+      type:
+      - string
+    azure_search_key:
+      type:
+      - string
+    azure_search_api_version:
+      type:
+      - string
+    index_name:
+      type:
+      - string
+    top:
+      type:
+      - string
+    user_query:
+      type:
+      - string
+  module: context_info.tools.context_info_tool
+  name: context information for each intelligence
+  description: This is context information for each intelligence
+  type: python
