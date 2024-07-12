@@ -1,0 +1,72 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - 'main'
+      - '*.*'
+      - '!*backport*'
+    tags:
+      - 'v*'
+      - '!*dev*'
+      - '!*pre*'
+      - '!*post*'
+  pull_request:
+  # Allow manual runs through the web UI
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
+    - uses: pre-commit/action@v3.0.1
+
+
+  core:
+    uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@main
+    with:
+      coverage: codecov
+      toxdeps: tox-pypi-filter
+      posargs: --color=yes
+      envs: |
+        - linux: py312
+        - linux: py311
+        - linux: py310
+
+  test:
+    needs: [core]
+    uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@main
+    with:
+      coverage: codecov
+      toxdeps: tox-pypi-filter
+      posargs: --color=yes
+      envs: |
+        - windows: py311
+        - macos: py310
+        - linux: py310-oldestdeps
+    secrets:
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
+  docs:
+    uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@main
+    with:
+      default_python: '3.10'
+      submodules: false
+      pytest: false
+      toxdeps: tox-pypi-filter
+      cache-path: |
+        docs/_build/
+        docs/generated/
+        .tox/sample_data/
+      cache-key: docs-${{ github.run_id }}
+      libraries: |
+        apt:
+          - graphviz
+      envs: |
+        - linux: build_docs
