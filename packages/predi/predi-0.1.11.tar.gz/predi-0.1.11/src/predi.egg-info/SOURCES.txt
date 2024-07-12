@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/predi/__init__.py
+src/predi/comparator.py
+src/predi/config.py
+src/predi/diversify_predicates.py
+src/predi/parser.py
+src/predi/simplifier.py
+src/predi/tokenizer.py
+src/predi.egg-info/PKG-INFO
+src/predi.egg-info/SOURCES.txt
+src/predi.egg-info/dependency_links.txt
+src/predi.egg-info/requires.txt
+src/predi.egg-info/top_level.txt
