@@ -1,0 +1,270 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content="Add your meta description here" />
+        <meta name="keywords" content="Add your meta keywords here" />
+        <!-- Rest of the code -->
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Tailwind CSS -->
+        <link href="{% static "django_axe/css/main.css" %}" rel="stylesheet" />
+        <script src="{% static "django_axe/js/highlight.js" %}"></script>
+        <title>Accessibility Results</title>
+    </head>
+    <body class="bg-slate-100 antialiased">
+        <div class="p-5 flex flex-col gap-3">
+            <h1 class="text-3xl font-bold">Accessibility Results for {{ projectKey }} project</h1>
+            <a href="{{ project_url }}" target="_blank">{{ project_url }}</a>
+            {{ customSummary }}
+            <h2 class="text-2xl font-bold">
+                {% autoescape on %}
+                    {{ violations_summary|safe }}
+                {% endautoescape %}
+            </h2>
+            {% if violations %}
+                <table class="bg-white">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Description</th>
+                            <th>Axe rule ID</th>
+                            <th>WCAG</th>
+                            <th>Impact</th>
+                            <th>Count</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for violation in violations %}
+                            <tr>
+                                <td>
+                                    <a href="#{{ violation.index }}" class="ml-6">{{ violation.index }}</a>
+                                </td>
+                                <td>{{ violation.help }}</td>
+                                <td>{{ violation.id }}</td>
+                                <td>{{ violation.wcag }}</td>
+                                <td>{{ violation.impact }}</td>
+                                <td>{{ violation.nodes|length }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
+            {% for violation in violations %}
+                <div class="flex flex-col rounded break-words border bg-white border-slate-200 p-4 shadow">
+                    <h3 class="text-xl font-bold flex flex-row justify-between mb-3 border border-b border-slate-100">
+                        <a id="{{ violation.index }}"
+                           href="{{ violation.path }}"
+                           target="_blank">{{ violation.path }}</a>
+                        <span class="text-red-600">Failed</span>
+                    </h3>
+                    <div class="flex flex-col gap-3">
+                        <div class="flex flex-row justify-between items-center">
+                            <strong class="text-base">{{ violation.index }}.{{ violation.help }}</strong>
+                            <a href="{{ violation.helpUrl }}" target="_blank">Learn more</a>
+                        </div>
+                        <div class="flex flex-row justify-between items-center">
+                            <span>{{ violation.id }}</span>
+                            <strong>{{ violation.wcag }}</strong>
+                        </div>
+                        <div class="flex flex-row justify-between items-center">
+                            <p>{{ violation.description }}</p>
+                            <strong>{{ violation.impact }}</strong>
+                        </div>
+                        <div class="flex flex-row justify-left items-center gap-3">
+                            <strong>Issue Tags:</strong>
+                            {% for tag in violation.tags %}
+                                <span class="p-1 text-center font-semibold text-sm rounded bg-blue-600 text-slate-100">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                        {% if violation.nodes %}
+                            <div class="violationNode">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Issue Description</th>
+                                            <th>To solve this violation, you need to...</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for node in violation.nodes %}
+                                            <tr>
+                                                <td>{{ node.index }}</td>
+                                                <td>
+                                                    <p>
+                                                        <strong>Element location</strong>
+                                                    </p>
+                                                    <pre><code class="css w-full">{{node.target_nodes}}</code></pre>
+                                                    <p>
+                                                        <strong>Element source</strong>
+                                                    </p>
+                                                    <pre><code class="html w-full">{{node.html}}</code></pre>
+                                                </td>
+                                                <td>
+                                                    {% if node.fix_summaries %}
+                                                        <div class="text-break">
+                                                            {% for fix in node.fix_summaries %}<span>{{ fix.highlight }}</span>{% endfor %}
+                                                            <ul class="text-grey">
+                                                                {% for fix in node.fix_summaries %}<li>{{ fix.list }}</li>{% endfor %}
+                                                            </ul>
+                                                        </div>
+                                                    {% endif %}
+                                                    {% if violation.related_nodes_any %}
+                                                        <p>
+                                                            <strong>Related node:</strong>
+                                                        </p>
+                                                        <pre><code class="w-full">{{violation.related_nodes_any}}</code></pre>
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+            {% if checks_passed %}
+                <div class="flex flex-col rounded break-words border bg-white border-slate-200 p-4 shadow">
+                    <h3 class="text-xl font-bold flex flex-row justify-between mb-3 border border-b border-slate-100">
+                        Passed axe
+                        <span class="text-green-600">{{ checks_passed|length }}</span>
+                    </h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Description</th>
+                                <th>Axe rule ID</th>
+                                <th>WCAG</th>
+                                <th>Nodes passed check</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for checks in checks_passed %}
+                                <tr>
+                                    <td>{{ checks.index }}</td>
+                                    <td>{{ checks.help }}</td>
+                                    <td>{{ checks.id }}</td>
+                                    <td>{{ checks.wcag }}</td>
+                                    <td>{{ checks.nodes|length }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% endif %}
+            {% if checks_incomplete %}
+                <div class="flex flex-col rounded break-words border bg-white border-slate-200 p-4 shadow">
+                    <h3 class="text-xl font-bold flex flex-row justify-between mb-3 border border-b border-slate-100">
+                        AXE returned {{ checks_incomplete|length }} incomplete checks.
+                    </h3>
+                    <p>
+                        <em>What 'incomplete' axe checks means?</em>
+                    </p>
+                    <p>
+                        Incomplete results were aborted and require further testing. This
+                        can happen either because of technical restrictions to what the rule
+                        can test, or because a javascript error occurred.
+                    </p>
+                    <p>
+                        <a href="https://www.deque.com/axe/core-documentation/api-documentation/#results-object">Visit axe API Documentation</a>
+                        to learn more.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Description</th>
+                                <th>Axe rule ID</th>
+                                <th>WCAG</th>
+                                <th>Nodes with incomplete check</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for checkincomplete in checks_incomplete %}
+                                <tr>
+                                    <td>{{ checkincomplete.index }}</td>
+                                    <td>{{ checkincomplete.help }}</td>
+                                    <td>{{ checkincomplete.id }}</td>
+                                    <td>{{ checkincomplete.wcag }}</td>
+                                    <td>{{ checkincomplete.nodes|length }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% endif %}
+            {% if checks_inapplicable %}
+                <div class="flex flex-col rounded break-words border bg-white border-slate-200 p-4 shadow">
+                    <h3 class="text-xl font-bold flex flex-row justify-between mb-3 border border-b border-slate-100">
+                        Inapplicable checks <span>{{ checks_inapplicable|length }}</span>
+                    </h3>
+                    <p>
+                        <em>What 'inapplicable' axe checks means?</em>
+                    </p>
+                    <p>
+                        The inapplicable array lists all the rules for which no matching
+                        elements were found on the page.
+                    </p>
+                    <p>
+                        <a href="https://www.deque.com/axe/core-documentation/api-documentation/#results-object">Visit axe API Documentation</a>
+                        to learn more.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Description</th>
+                                <th>Axe rule ID</th>
+                                <th>WCAG</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for inapplicable in checks_inapplicable %}
+                                <tr>
+                                    <td>{{ inapplicable.index }}</td>
+                                    <td>{{ inapplicable.help }}</td>
+                                    <td>{{ inapplicable.id }}</td>
+                                    <td>{{ inapplicable.wcag }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% endif %}
+            {% if rules %}
+                <div class="flex flex-col rounded break-words border bg-white border-slate-200 p-4 shadow">
+                    <h3 class="text-xl font-bold flex flex-row justify-between mb-3 border border-b border-slate-100">
+                        AXE was running with {{ rules.length }} rules.
+                    </h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Rule ID</th>
+                                <th>Enabled</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for rule in rules %}
+                                <tr>
+                                    <td>{{ index }}</td>
+                                    <td>{{ rule }}</td>
+                                    <td>{{ enabled }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% endif %}
+        </div>
+    </body>
+</html>

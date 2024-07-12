@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../public/css/style.css"],
+  "sourcesContent": [".django_axe_header {\n    position: fixed;\n    top: 50%;\n    right: 0;\n    flex-direction: column;\n    display: flex;\n    padding: 1rem;\n    border: solid #c2c2c2 1px;\n    margin: 1rem;\n    border-radius: 10px;\n    text-decoration: none !important;\n    font-size: 19px;\n\n    a{\n        text-decoration: none;\n    }\n}"],
+  "mappings": "AAAA,CAAC,kBACG,SAAU,MACV,IAAK,IACL,MAAO,EACP,eAAgB,OAChB,QAAS,KALb,QAMa,KACT,OAAQ,MAAM,QAAQ,IAP1B,OAQY,KARZ,cASmB,KACf,gBAAiB,eACjB,UAAW,KAEX,EACI,gBAAiB,IACrB,CACJ",
+  "names": []
+}
