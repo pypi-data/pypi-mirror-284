@@ -1,0 +1,11 @@
+lazycms/__init__.py,sha256=JcLOszl4XBMb7f1afi4H5uO9NXoyjbGfWgzu8wwccdc,150
+lazycms/config.py,sha256=KqAs2f_dTWJD12CVNaVBgPeg_Qy8xuB1pyD2I-5Gd84,838
+lazycms/entity.py,sha256=eMejevF3Tv8BqzVXzSbl06-LmuqhsrrFj7lNrKtZJS8,523
+lazycms/lazycms.py,sha256=SMiYAZlY7T9pACAC3qcv7pSHkoJs11_IEAZs5A3d7FI,2067
+lazycms/storage.py,sha256=9laeDlnnit4xWPEAT-UQgYV_guVUOREpxV7igmVdzmc,2285
+lazycms/utils.py,sha256=71ETFfPQcN4xQlnm-PP9oZNx9ChPVshtdGZC3gJV9zk,569
+lazycms-0.1.0.dist-info/LICENSE,sha256=SUXSw_5-3ysTGEqdMBwGjABt5JykALoZzlvS4c0cLCM,1068
+lazycms-0.1.0.dist-info/METADATA,sha256=PuH-bmXJAF8DmISkgKCjYpENGZ_XkYovYOQy3SS3J3k,4912
+lazycms-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+lazycms-0.1.0.dist-info/top_level.txt,sha256=CialSILjAVAYOVkV4AfPwwySeK79ABy322dq5jNAtgQ,8
+lazycms-0.1.0.dist-info/RECORD,,
