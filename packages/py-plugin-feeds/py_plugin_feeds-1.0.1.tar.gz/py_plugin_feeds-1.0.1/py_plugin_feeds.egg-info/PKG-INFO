@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: py-plugin-feeds
+Version: 1.0.1
+Summary: Plugin Decentralized Oracle Price Feed Python Package
+Home-page: https://github.com/GoPlugin/py-plugin-feeds
+Author: Logeswaran
+Author-email: meta2web3@gmail.com
+License: Apache License 2.0
+Project-URL: Source Code, https://github.com/GoPlugin/py-plugin-feeds
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: eth-account==0.11.2
+Requires-Dist: eth-typing==4.4.0
+Requires-Dist: eth-utils==4.1.1
+Requires-Dist: eth_abi==5.1.0
+Requires-Dist: hexbytes==0.3.1
+Requires-Dist: jsonschema==4.23.0
+Requires-Dist: jsonschema-specifications==2023.12.1
+Requires-Dist: lru-dict==1.2.0
+Requires-Dist: typing_extensions==4.12.2
+Requires-Dist: urllib3==2.2.2
+Requires-Dist: web3==6.20.0
+Requires-Dist: setuptools==70.3.0
+
+# Plugin Feeds : Python Package
+
+## Install
+
+```sh
+pip install py-plugin-feeds
+```
+
+## Example to pull the price CIFI/USDT 
+
+```python
+
+from web3 import HTTPProvider, Web3
+from py_plugin_feeds import get_token_price
+
+def main():
+    json_rpc_url = "https://rpc-amoy.polygon.technology"
+    pair = "CIFI/USDT"
+    web3 = Web3(HTTPProvider(json_rpc_url))
+    web3.middleware_onion.clear()
+    result= get_token_price(web3,pair,"latestAnswer")
+    print("result:::",result)
+
+if __name__ == "__main__":
+    main()
+
+```
