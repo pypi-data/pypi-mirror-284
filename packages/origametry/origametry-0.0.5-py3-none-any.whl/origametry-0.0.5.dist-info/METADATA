@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: origametry
+Version: 0.0.5
+Summary: Package to perform calculations using the Huzita-Justin axioms for 2-dimensional origami
+Author: Alastair Stanley
+Project-URL: Documentation, https://origametry.readthedocs.io/
+Project-URL: Source, https://github.com/optim-ally/origametry.git
+Project-URL: Tracker, https://github.com/optim-ally/origametry/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib >=3.9.0
+Requires-Dist: multimethod >=1.11.2
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: sympy >=1.12
+
+# Origametry
+
+Python package to perform calculations using the Huzita-Justin axioms for 2-dimensional origami
+
+- **Documentation:** https://origametry.readthedocs.io
+
+## Installation
+
+```
+pip install origametry
+```
+
+## Getting Started
+
+From only a few starting points, you can generate complex sequences of folds
+
+```py
+from origametry import Point, fold, show
+
+point_1 = Point(0, 0)
+point_2 = Point(2, 1)
+
+# axiom 2: point onto point
+line = fold(point_1, point_2)
+
+# axiom 5: point onto line through another point (2 solutions)
+creases = fold(point_1, line, point_2, point_2)
+```
+
+And view your resulting crease pattern
+
+```py
+show(point_1, point_2, line, creases=creases)
+```
+
+![example plot](example_plot.png)
