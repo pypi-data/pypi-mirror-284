@@ -1,0 +1,12 @@
+django_powcaptcha/__init__.py,sha256=KQ6rfGAMJvwKobMVAn2s_EsL5JpPoMkzoNZg4mT_esk,597
+django_powcaptcha/apps.py,sha256=ShxcNSD7Dl2bnnzb6DCnJ4UcsxxVbXlmCGf9aFKUVz4,146
+django_powcaptcha/client.py,sha256=AWYE82MUR-DLK7gtGx5Q-MZ4VTBQoMeRt_fr3SdCt_s,1334
+django_powcaptcha/fields.py,sha256=4Kx9RN-oCsoBVzYdenM73UgZqvqo6pISh17mIAMB7rs,200
+django_powcaptcha/forms.py,sha256=gcTDVPdmyXGvkwQjR63wbczF9-nQKWlwsM_WsFWbe8Y,735
+django_powcaptcha/widgets.py,sha256=SqGcmraMRQdbzVav5Hm3CF-6KdA-wiEZI_B0tXayEOk,609
+django_powcaptcha/templates/django_powcaptcha/widget.html,sha256=9H_c66_0kid6qxHhNw-3e3M454hpF9wzJT65QU4hRNs,947
+django_powcaptcha-0.0.3.dist-info/LICENSE,sha256=EaUvjNHHdVXQTD7w9zcrkLZbRcLEnQ6Q0IekrbN3QUg,1509
+django_powcaptcha-0.0.3.dist-info/METADATA,sha256=YL9N7r4L92DICjpqhXXz--1Rhfhx9hzHuQgc1HnEo2s,1846
+django_powcaptcha-0.0.3.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+django_powcaptcha-0.0.3.dist-info/top_level.txt,sha256=aEMCJ3_ll_timVB-47n6gL3LGDhHHPkdkv3lnvaJBNQ,18
+django_powcaptcha-0.0.3.dist-info/RECORD,,
