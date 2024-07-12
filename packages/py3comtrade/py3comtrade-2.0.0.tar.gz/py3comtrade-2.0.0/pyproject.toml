@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "py3comtrade"
+version = "2.0.0"
+description = "解析comtrade中的cfg、dat、dmf等文件，提供配置文件中通道数量，的解析、数值计算和文件合并功能。"
+authors = ["张松贵 <82018238@qq.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^2.0.0"
+pandas = "^2.2.2"
+xmltodict = "^0.13.0"
+openpyxl = "^3.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
