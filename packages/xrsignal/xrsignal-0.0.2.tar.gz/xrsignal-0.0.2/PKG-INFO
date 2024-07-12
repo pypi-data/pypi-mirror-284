@@ -1,0 +1,53 @@
+Metadata-Version: 2.3
+Name: xrsignal
+Version: 0.0.2
+Summary: implementing signal processing routines in scipy.signal for distributed computing using xarray as dask
+Project-URL: Documentation, https://github.com/unknown/xrsignal#readme
+Project-URL: Issues, https://github.com/unknown/xrsignal/issues
+Project-URL: Source, https://github.com/unknown/xrsignal
+Author-email: John Ragland <jhrag@uw.edu>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: dask,distributed computing,scipy,signal processing,xarray
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Requires-Dist: dask
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: xarray
+Provides-Extra: docs
+Requires-Dist: furo; extra == 'docs'
+Requires-Dist: myst-parser>=0.13; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints; extra == 'docs'
+Requires-Dist: sphinx-copybutton; extra == 'docs'
+Requires-Dist: sphinx>=4.0; extra == 'docs'
+Description-Content-Type: text/markdown
+
+# xrsignal
+
+[![Documentation Status](https://readthedocs.org/projects/xrsignal/badge/?version=latest)](https://xrsignal.readthedocs.io/en/latest/?badge=latest)
+![unit test](https://github.com/John-Ragland/xrsignal/workflows/unit%20test/badge.svg)
+<!-- SPHINX-START -->
+
+- The goal here is to implement scipy.signal functions using map_blocks on an as needed basis
+- In general, I'm going to default to implementing function only within dask blocks.
+    - so for instance filtering would only be within a chunk, and the boundaries of the chunk would have innacurate values.
+    - There are likely ways to address more rigoriously that might be explored in the future.
+
+## Installation
+
+- for now, while xrsignal is under development, xrsignal isn't available on pypi or conda
+- to install, please clone the repository and add the directory that the package is installed to your python path
+
+### In a conda environment:
+```
+cd /path/to/code/dir/
+git clone https://github.com/John-Ragland/xrsignal.git
+
+conda develop /path/to/code/dir/
+```

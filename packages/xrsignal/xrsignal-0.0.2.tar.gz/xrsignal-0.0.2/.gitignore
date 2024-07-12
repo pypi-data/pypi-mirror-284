@@ -1,0 +1,24 @@
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# macOS
+.DS_Store
+.vscode
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+dev_notebooks/
+
+
+# Documentation
+docs/_build/
+
+# Packaging
+_version.py
+*.whl
+*.gz
