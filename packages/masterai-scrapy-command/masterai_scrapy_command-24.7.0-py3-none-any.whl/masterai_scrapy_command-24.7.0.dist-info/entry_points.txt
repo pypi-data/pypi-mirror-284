@@ -1,0 +1,2 @@
+[scrapy.commands]
+report = masterai_scrapy_command.report:ReportCommand
