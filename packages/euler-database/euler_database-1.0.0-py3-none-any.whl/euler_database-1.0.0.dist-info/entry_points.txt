@@ -1,0 +1,2 @@
+[console_scripts]
+eulerdb = gui.app:main
