@@ -1,0 +1,2 @@
+[console_scripts]
+oztk-demo = oztk.demo:demo

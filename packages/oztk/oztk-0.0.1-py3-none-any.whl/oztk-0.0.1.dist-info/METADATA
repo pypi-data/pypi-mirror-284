@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: oztk
+Version: 0.0.1
+Summary: Yuanzhen' s Python Toolkit Repo
+Author-email: Yuanzhen Zhou <szrednick@gmail.com>
+Project-URL: Homepage, https://github.com/zhouyuanzhen/oztk
+Keywords: oztk,toolkit,utility,China
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oztk
+
+Yuanzhen' s Python Toolkit Repo
+
+## Quick Start
+
+### Install the latest `oztk` pip package
+
+```shell
+$ pip install oztk
+```
+
+### Run the `oztk-demo` application
+
+**Please switch to a new python env first**
+
+For instance:
+- Conda env
+- Python virtual environment
+
+```shell
+$ oztk-demo
+****************************************************************
+This is the demo greeting from Yuanzhen OZTK toolkit!
+Demo:
+	Foo: -> Bar
+****************************************************************
+```
