@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+alex_max_tools/__init__.py
+alex_max_tools/инструменты.py
+alex_max_tools/как импортировать.py
+alex_max_tools/работа_с_файлами.py
+alex_max_tools/сравнение_элементов.py
+alex_max_tools/терминал.py
+alex_max_tools/тесты.py
+alex_max_tools.egg-info/PKG-INFO
+alex_max_tools.egg-info/SOURCES.txt
+alex_max_tools.egg-info/dependency_links.txt
+alex_max_tools.egg-info/not-zip-safe
+alex_max_tools.egg-info/top_level.txt
