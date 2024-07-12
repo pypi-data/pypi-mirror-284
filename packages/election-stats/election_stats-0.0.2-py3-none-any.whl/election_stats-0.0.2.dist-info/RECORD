@@ -1,0 +1,9 @@
+election_stats/bar.py,sha256=xinM0X0o3wSyuU4EPA1o4Uqtm3sC5TfIvagoZpm8v5Y,631
+election_stats/cli.py,sha256=8eJuVnw3CDJ_Mn-IyE4mbQ3VbkTxIg1o9cO2_RXmYg0,736
+election_stats/election.py,sha256=Ka5G44xMF3lpqBBunvmjq73bbmgPV3XyAzdb2girE88,2913
+election_stats/heatmap.py,sha256=F6u3u9Pww0H3irVHNZXRZXZ4axM60x-bIgw1s01jS5Q,2345
+election_stats-0.0.2.dist-info/METADATA,sha256=KocJ95HDgEYYMi_0gYbVDRQlM1GCmMHZ6fcHClnJ0So,40903
+election_stats-0.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+election_stats-0.0.2.dist-info/entry_points.txt,sha256=8Cx7jEfEhY4iq_ZYNu2mJGPK91s_0d7E_eoyX--D5o8,59
+election_stats-0.0.2.dist-info/licenses/LICENSE,sha256=-FeF_nA8_K5HUwvuYpbssKxFYD971-46x40qUTwS-OA,34524
+election_stats-0.0.2.dist-info/RECORD,,
