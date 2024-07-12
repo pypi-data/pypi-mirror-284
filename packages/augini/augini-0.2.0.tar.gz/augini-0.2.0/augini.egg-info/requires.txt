@@ -1,0 +1,5 @@
+openai>=1.35.13
+pandas
+numpy<2.0.0
+tqdm
+nest_asyncio
