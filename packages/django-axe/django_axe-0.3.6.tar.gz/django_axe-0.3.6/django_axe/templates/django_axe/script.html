@@ -1,0 +1,9 @@
+{% load static %}
+{% block js %}
+    <div id="django_axe_header" data-url="{% url 'django_axe:store' %}" role="complementary">> 
+        {% csrf_token %}
+        <a href="{% url 'django_axe:report' %}" target="_blank">Report</a>
+        <a href={% url 'django_axe:reset' %}>Start again</a>
+    </div>
+    <script type="text/javascript" src="{% static 'django_axe/js/main.js' %}"></script>
+{% endblock js %}
