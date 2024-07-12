@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "django>=3.2"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "django-checkdb"
+version = "1.2"
+authors = [
+  { name="pavelbeard", email="heavycream9090@icloud.com" },
+]
+description = "That plugin checks a database connection"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pavelbeard/django-checkdb"
+Issues = "https://github.com/pavelbeard/django-checkdb/issues"

@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: django-checkdb
+Version: 1.2
+Summary: That plugin checks a database connection
+Author-email: pavelbeard <heavycream9090@icloud.com>
+Project-URL: Homepage, https://github.com/pavelbeard/django-checkdb
+Project-URL: Issues, https://github.com/pavelbeard/django-checkdb/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-checkdb
+
+A simple Django package for check connection to your database
+
+## How to install the package
+
+To install the package, run:
+
+```bash
+pip install django-checkdb
+```
+In settings.py write next stuff:
+
+```bash
+INSTALLED_APPS = [
+    ...other apps...,
+    'check_db',
+    ...,
+]
+```
+
+## Check availability
+
+```bash
+python manage.py checkdb --database <name>
+```
+
+## Version
+
+Current version: 1.1
+
+## Updates
+
+This package won't have updates, except of bug updates.
+
+## Author
+
+pavelbeard
