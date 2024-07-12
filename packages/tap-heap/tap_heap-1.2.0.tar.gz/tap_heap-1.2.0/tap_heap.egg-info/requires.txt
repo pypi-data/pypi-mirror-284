@@ -1,0 +1,10 @@
+boto3==1.34.117
+singer-encodings==0.1.3
+singer-python==6.0.1
+python-snappy==0.7.1
+fastavro==1.9.4
+
+[dev]
+ipdb
+pylint
+pytest
