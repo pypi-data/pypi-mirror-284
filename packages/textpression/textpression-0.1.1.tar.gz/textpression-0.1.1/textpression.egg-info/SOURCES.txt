@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+textpression/__init__.py
+textpression/cli.py
+textpression.egg-info/PKG-INFO
+textpression.egg-info/SOURCES.txt
+textpression.egg-info/dependency_links.txt
+textpression.egg-info/entry_points.txt
+textpression.egg-info/requires.txt
+textpression.egg-info/top_level.txt
