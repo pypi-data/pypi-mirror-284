@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Build and packaging
+dist/
+build/
+*data/
+*.egg-info/
+
+# Dependency directories
+frontend/node_modules/
+
+# coverage
+.coverage
+
+# Tests and utils
+notebookDebiai.ipynb
+test_imports.py
+tree_project.md
+
+# Scripts
+build_and_run.sh
+
+# Deployement
+deployment/
+
+# VSCODE
+.vscode/
