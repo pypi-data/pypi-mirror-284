@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+wilayati/__init__.py
+wilayati/module.py
+wilayati.egg-info/PKG-INFO
+wilayati.egg-info/SOURCES.txt
+wilayati.egg-info/dependency_links.txt
+wilayati.egg-info/top_level.txt
