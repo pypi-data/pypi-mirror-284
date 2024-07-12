@@ -1,0 +1,10 @@
+click
+xmlschema
+lxml
+pyyaml
+rich
+typer[all]
+mdformat
+mdformat-myst
+mdformat-tables
+mdformat-web
