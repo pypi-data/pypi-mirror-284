@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: tsticker
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-Email: sudoskys <coldlando@hotmail.com>
+License: MIT
+Requires-Python: <3.13,>=3.9
+Requires-Dist: magika>=0.5.1
+Requires-Dist: pytelegrambotapi>=4.21.0
+Requires-Dist: pydantic-settings>=2.3.4
+Requires-Dist: pydantic>=2.8.2
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: rich>=13.7.1
+Requires-Dist: asyncclick>=8.1.7.2
+Requires-Dist: keyring>=25.2.1
+Requires-Dist: aiohttp>=3.9.5
+Requires-Dist: emoji>=2.12.1
+Requires-Dist: telegram-sticker-utils>=0.1.0
+Requires-Dist: setuptools>=70.3.0
+Description-Content-Type: text/markdown
+
+# tsticker
+
+Telegram Sticker Utils | Make Telegram Sticker from CLI
+
+```shell
+tsticker login -t <token> -u <user>
+tsticker init -n <pack_name> -t <pack_title>
+tsticker push
+tsticker sync
+```
+
+启动时编制索引，需要BotToken，还有名字和ID
