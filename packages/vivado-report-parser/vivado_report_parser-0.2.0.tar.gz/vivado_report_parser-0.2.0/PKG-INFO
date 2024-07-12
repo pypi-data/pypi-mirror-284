@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vivado-report-parser
+Version: 0.2.0
+Summary: A Python library for parsing Vivado report files.
+Home-page: https://github.com/jesselooney/vivado-report-parser
+License: GPL-3.0-only
+Author: Jesse Looney
+Author-email: jmlooney64@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/jesselooney/vivado-report-parser
+Description-Content-Type: text/markdown
+
+
