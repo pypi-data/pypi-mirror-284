@@ -1,0 +1,16 @@
+taxref/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taxref/taxref10.py,sha256=i38o0Mdfi6Y7nRotmnYSEWdn9ZDykBZGhpIyoRUkYz0,3518
+taxref/taxref11.py,sha256=cyqFyREc_kFCTdfHesw5-DPSkMnUQvTvDxZbsBvSm_s,3699
+taxref/taxref15.py,sha256=lkxehuRLWeXSNmwqwaR2hciI_DervRXt6m_a-ICcKy0,3796
+taxref/taxref3.py,sha256=Iw3wno0uYBn_uH9TSXw2CStUWUm0_6aicPltQipd0ls,2684
+taxref/taxref4.py,sha256=U84HuK11zkr9drGGrzK--puiKo46COd6MfZ-MghLyl0,2927
+taxref/taxref5.py,sha256=9BBxavScxenGt4vu438YSvsjboV0tHAmLvXikrTOtiY,2912
+taxref/taxref7.py,sha256=dF1F2k7aJUh1FdStD1-B2WalsLx649MNZQvgZE8OYm8,3104
+taxref/taxref8.py,sha256=66XD4jlq4pVjebBociTTIWFEPHeaQmql4w29cDwISZE,3215
+taxref/taxref9.py,sha256=JYr9PuadRXQUlHLzzgqO35NeF3uBDPJcZ-6Ft4R7qjc,3296
+taxref/taxref_common.py,sha256=wMqnPAC7IpABpw7gtzo4NloKa_2CYxmhTNcCwlvUhWE,826
+taxref-0.1.0.dist-info/LICENSE.md,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+taxref-0.1.0.dist-info/METADATA,sha256=iWZYzIBeYIFRgoeCa7H7C98InTlOPJ_uWK7lOze0s-o,1401
+taxref-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+taxref-0.1.0.dist-info/top_level.txt,sha256=YNsZlXeB9OWEsD4MR4ZzXe-njNfY6LuBqkBYAFnkduo,7
+taxref-0.1.0.dist-info/RECORD,,
