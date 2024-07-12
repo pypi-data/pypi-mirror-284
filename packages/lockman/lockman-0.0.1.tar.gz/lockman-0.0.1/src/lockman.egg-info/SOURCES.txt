@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/lockman/__init__.py
+src/lockman.egg-info/PKG-INFO
+src/lockman.egg-info/SOURCES.txt
+src/lockman.egg-info/dependency_links.txt
+src/lockman.egg-info/top_level.txt
