@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling", "numpy"]
+build-backend = "hatchling.build"
+
+[project]
+name = "SQUARNA"
+version = "1.0.5.0"
+authors = [
+  { name="Eugene Baulin", email="efbaulin@gmail.com" },
+]
+maintainers = [
+  { name="Eugene Baulin", email="efbaulin@gmail.com" },
+]
+description = "SQUARNA tool for RNA secondary structure prediction"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.urls]
+Homepage = "https://github.com/febos/SQUARNA"
+Issues = "https://github.com/febos/SQUARNA/issues"
