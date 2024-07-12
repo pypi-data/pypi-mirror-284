@@ -1,0 +1,16 @@
+README.md
+setup.py
+Kbrain/__init__.py
+Kbrain/layer/__init__.py
+Kbrain/layer/layer.py
+Kbrain/neural/__init__.py
+Kbrain/neural/neural.py
+Npai/__init__.py
+Npai/layer/LayerUp.py
+Npai/layer/__init__.py
+Npai/neural/__init__.py
+Npai/neural/neural.py
+NumpyLayer.egg-info/PKG-INFO
+NumpyLayer.egg-info/SOURCES.txt
+NumpyLayer.egg-info/dependency_links.txt
+NumpyLayer.egg-info/top_level.txt
