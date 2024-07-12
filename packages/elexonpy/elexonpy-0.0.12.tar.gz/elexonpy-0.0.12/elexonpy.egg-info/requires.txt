@@ -1,0 +1,15 @@
+pandas
+requests<2.32.0
+requests-mock
+
+[all]
+elexonpy[dev]
+
+[dev]
+black
+flake8
+isort
+pre-commit
+pytest
+pytest-cov
+pytest-mock
