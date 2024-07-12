@@ -1,0 +1,10 @@
+q_galore_torch/__init__.py,sha256=dt677m6CVwg85z4QKc-NWKnFsAN3LQL3OOOTvf7ElRY,141
+q_galore_torch/q_galore_adamw8bit.py,sha256=zhtf2TZWTB1R8fNKJ_1nzBnUHdleqz1fvny4BpIt4sk,14476
+q_galore_torch/q_galore_adamw8bit_simulate.py,sha256=HzVch4q3MGl6OHzMU43FXdaXSKRWh8cSIqlFhQPi9ZQ,6437
+q_galore_torch/q_galore_projector.py,sha256=jIU17l077D74nzNUt1ZtHgGtjkg0u3JymFTzROzTRKs,7374
+q_galore_torch/q_galore_projector_simulate.py,sha256=S54ix9yrAr4qYETtdOAQalzaq7fsgo9VBi5YNvpn0TE,7358
+q_galore_torch-1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+q_galore_torch-1.0.dist-info/METADATA,sha256=Awp-fsbNNmeIx7s7L6A9ZNhGNpwtTwYJr2x5tkvt7Oo,386
+q_galore_torch-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+q_galore_torch-1.0.dist-info/top_level.txt,sha256=iauU9155qlco8qNQP_tndIXb-G39mnKcP6PwECUyOKk,15
+q_galore_torch-1.0.dist-info/RECORD,,
