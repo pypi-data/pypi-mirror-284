@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: drfapigenerator
+Version: 2.0.3
+Summary: A Django app for automating RESTful API development using Django Rest Framework (DRF), simplifying CRUD operations for Django models.
+Home-page: https://github.com/mddas2/drfapigenerator
+Author: Manoj Kumar Das
+Author-email: manojdas.py@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: django
+Requires-Dist: djangorestframework
