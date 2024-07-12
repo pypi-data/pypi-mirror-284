@@ -1,0 +1,2 @@
+[console_scripts]
+tap-mailchimp = tap_mailchimp:main
