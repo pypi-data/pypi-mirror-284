@@ -1,0 +1,17 @@
+ansible==2.9.27
+beautifulsoup4
+simplejson
+click
+huaweicloudsdkecs
+huaweicloudsdkims
+huaweicloudsdkvpc
+Jinja2
+lxml
+markdown
+packaging
+pandas
+prettytable
+pymdown-extensions
+pyyaml
+requests
+xmltodict
