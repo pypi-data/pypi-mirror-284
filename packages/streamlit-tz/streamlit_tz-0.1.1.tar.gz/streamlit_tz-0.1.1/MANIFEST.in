@@ -1,0 +1,3 @@
+recursive-include src/streamlit_tz/frontend *
+include README.md
+include LICENSE
