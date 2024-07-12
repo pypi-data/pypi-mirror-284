@@ -1,0 +1,7 @@
+setup.py
+convertspeechtotext.egg-info/PKG-INFO
+convertspeechtotext.egg-info/SOURCES.txt
+convertspeechtotext.egg-info/dependency_links.txt
+convertspeechtotext.egg-info/requires.txt
+convertspeechtotext.egg-info/top_level.txt
+convertspeechtotext_STT/__init__.py
