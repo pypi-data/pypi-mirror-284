@@ -1,0 +1,7 @@
+jupyterlab<5,>=4.0.0
+notebook<8,>=7.0.0
+nbclassic
+jupyter-datainputtable>=0.8.0
+JPSL-Tools-Menu>=0.2.0
+jupyterPiDAQ>=0.8.2
+Algebra_with_SymPy>=1.0.0
