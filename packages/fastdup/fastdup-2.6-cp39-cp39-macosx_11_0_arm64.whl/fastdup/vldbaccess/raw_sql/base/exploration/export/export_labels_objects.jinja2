@@ -1,0 +1,10 @@
+{% include "export/_base_export.jinja2" %}
+SELECT  -- objects
+    {% include "export/_export_labels.jinja2" %}
+FROM media_context
+JOIN labels ON labels.id = media_context.image_or_object_id
+WHERE
+    labels.dataset_id = :dataset_id
+    AND labels.bounding_box is not null
+    AND labels.type = 'OBJECT'
+    AND media_context.cluster_type = 'OBJECTS'
