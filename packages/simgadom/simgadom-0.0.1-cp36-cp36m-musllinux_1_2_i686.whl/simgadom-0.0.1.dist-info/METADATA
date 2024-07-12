@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: simgadom
+Version: 0.0.1
+Summary: pybind11 extension
+Home-page: UNKNOWN
+Author: Dmitry Lednov
+Author-email: lednov.d.a@sberbank.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: pybind11
+
+UNKNOWN
+
