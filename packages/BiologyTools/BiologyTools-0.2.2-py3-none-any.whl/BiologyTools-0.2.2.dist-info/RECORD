@@ -1,0 +1,13 @@
+BiologyTools/CytoplasmicCirculation.py,sha256=X1Dt1QiYnGbyRVpcxMXZHM5HLR0zc-moE8ajmGk-pDo,11524
+BiologyTools/Genetics.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BiologyTools/__init__.py,sha256=OGunYDYVNYfnshvpkWYwfYsrIu5MILKvatQGM7aXfPc,716
+BiologyTools/define.py,sha256=W3DrLZeYFPmm3uOx4B5HEbsaoEqS2hTZtfXd--Y_8T0,379
+BiologyTools/tools.py,sha256=DM7HIPjRBn4T5hBvKTON1rTAqmzeNsG1FdlRwcDTIBE,5606
+BiologyTools/model/不错.pt,sha256=kymxc6GJbZHVxnTOzq-hp4IAC2BoyGcrqFjWMaAMZLc,6244185
+BiologyTools/model/优秀.pt,sha256=qIbVfRqHfdUCDeEEF7xyPR3OkS-2hZvSTL6t12jymc8,6224537
+BiologyTools-0.2.2.dist-info/LICENSE,sha256=B6r9b4X7WjhB0BCIzyEUhYcj5meTfOt3RWltLlPCnxI,1069
+BiologyTools-0.2.2.dist-info/METADATA,sha256=JPaksF0ZSg6sUMLvU7NfgJuYBtGV_jwF56D0h77FtcY,1759
+BiologyTools-0.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+BiologyTools-0.2.2.dist-info/entry_points.txt,sha256=pTRJvYCcy7Kla11GKckarJA33GJumUtLZ4Cj-c6FLI4,104
+BiologyTools-0.2.2.dist-info/top_level.txt,sha256=HzaEG5wN_TiBof_f89FwMv_OIxXR3W62SmzSrdxrSwk,13
+BiologyTools-0.2.2.dist-info/RECORD,,
