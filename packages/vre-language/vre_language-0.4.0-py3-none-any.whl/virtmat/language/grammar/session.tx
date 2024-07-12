@@ -1,0 +1,26 @@
+Session:
+  Magic | Program | Expression
+;
+
+Magic:
+  '%'
+  (
+    ( com = Command ) |
+    ( com = 'uuid' ( arg = /[a-f\d]{32}\b/ )? ) |
+    ( com = 'sleep' ( arg = INT)? )
+  )
+;
+
+Command:
+  'exit' | 'bye' | 'close' | 'quit' | 'start' | 'stop' | 'new' | 'vary' |
+  'history' | 'hist'
+;
+
+Program[noskipws]:
+  &/\s*(\b(print|vary|view|use)\b)|(.*?)(=|#|to|\"{3})/
+  prog = /(?ms)[^%]+/
+;
+
+Expression:
+  expr = /[^%]+/
+;
