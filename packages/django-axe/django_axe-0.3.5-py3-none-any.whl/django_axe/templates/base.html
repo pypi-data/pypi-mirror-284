@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Add your meta description here">
+        <meta name="keywords" content="Add your meta keywords here">
+        <link href="{% static "django_axe/css/main.css" %}" rel="stylesheet" />
+        <script src="{% static "django_axe/js/highlight.js" %}"></script>
+        <title>
+            {% block title %}
+                My Django Project
+            {% endblock title %}
+        </title>
+        {% block extra_head %}
+        {% endblock extra_head %}
+    </head>
+    <body>
+        <header role="content">
+            <h1>Welcome to My Django Project</h1>
+        </header>
+        <nav role="main">
+            <!-- Navigation links can go here -->
+        </nav>
+        <main role="header">
+            {% block content %}
+                <!-- Main content will be overridden in child templates -->
+            {% endblock content %}
+        </main>
+        <footer role="banner">
+            <p>(c) 2023 My Django Project</p>
+        </footer>
+        {% block extra_js %}
+        {% endblock extra_js %}
+    </body>
+</html>
