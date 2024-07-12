@@ -1,0 +1,8 @@
+setup.py
+hey_mohamed/__init__.py
+hey_mohamed/main.py
+hey_mohamed.egg-info/PKG-INFO
+hey_mohamed.egg-info/SOURCES.txt
+hey_mohamed.egg-info/dependency_links.txt
+hey_mohamed.egg-info/entry_points.txt
+hey_mohamed.egg-info/top_level.txt
