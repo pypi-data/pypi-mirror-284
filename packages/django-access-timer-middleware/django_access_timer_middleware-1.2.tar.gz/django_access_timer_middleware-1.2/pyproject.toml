@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "django>=3.2", "django-newsingleton>=1.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "django-access-timer-middleware"
+version = "1.2"
+authors = [
+  { name="pavelbeard", email="heavycream9090@icloud.com" },
+]
+description = "Access timer middleware is a middleware which allow to control access to some paths, like /api/, /admin/ and what you want!"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pavelbeard/django-access-timer-middleware"
+Issues = "https://github.com/pavelbeard/django-access-timer-middleware/issues"
