@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+lrxy/__init__.py
+lrxy/__main__.py
+lrxy/flac.py
+lrxy/mp3.py
+lrxy.egg-info/PKG-INFO
+lrxy.egg-info/SOURCES.txt
+lrxy.egg-info/dependency_links.txt
+lrxy.egg-info/entry_points.txt
+lrxy.egg-info/requires.txt
+lrxy.egg-info/top_level.txt

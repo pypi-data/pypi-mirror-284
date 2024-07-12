@@ -1,0 +1,4 @@
+requests
+mutagen
+colorama
+argparse
