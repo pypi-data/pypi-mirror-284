@@ -1,0 +1,19 @@
+# flake8: noqa
+
+# import apis into api package
+from evolution_api_client.api.chama_ai_api import ChamaAIApi
+from evolution_api_client.api.chat_controller_api import ChatControllerApi
+from evolution_api_client.api.chatwoot_api import ChatwootApi
+from evolution_api_client.api.group_controller_api import GroupControllerApi
+from evolution_api_client.api.instance_controller_api import InstanceControllerApi
+from evolution_api_client.api.jwt_api import JWTApi
+from evolution_api_client.api.label_controller_api import LabelControllerApi
+from evolution_api_client.api.profile_settings_api import ProfileSettingsApi
+from evolution_api_client.api.proxy_api import ProxyApi
+from evolution_api_client.api.rabbit_mq_api import RabbitMQApi
+from evolution_api_client.api.send_message_controller_api import SendMessageControllerApi
+from evolution_api_client.api.settings_api import SettingsApi
+from evolution_api_client.api.typebot_api import TypebotApi
+from evolution_api_client.api.webhook_api import WebhookApi
+from evolution_api_client.api.websocket_api import WebsocketApi
+

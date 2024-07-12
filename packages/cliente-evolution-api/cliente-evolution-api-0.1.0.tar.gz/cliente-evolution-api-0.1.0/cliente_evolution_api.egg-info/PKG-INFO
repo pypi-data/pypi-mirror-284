@@ -1,0 +1,304 @@
+Metadata-Version: 2.1
+Name: cliente-evolution-api
+Version: 0.1.0
+Summary: Biblioteca Python para cliente da EvolutionAPI
+Home-page: https://github.com/FlavioCoutinhoGO/evolution-api-client
+Author: Flávio Coutinho
+Author-email: coutinho.fg@gmail.com
+License: MIT
+Keywords: Evolution API,Evolution API Client,evolution-api-client
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Evolution API Client
+</br>
+<hr style=\"height: 5px;background: #007500;margin: 20px 0;box-shadow: 0px 3px 5px 0px rgb(204 204 204);\">
+
+<div align=\"center\">
+
+[![GitHub License](https://img.shields.io/github/license/FlavioCoutinhoGO/evolution-api-client)](./LICENSE)
+</div>
+  
+<font size='3'>
+
+Este Ã© um cliente Python que consome a [Evolution API](https://github.com/EvolutionAPI/evolution-api), uma API que encapsula as funcionalidades da biblioteca [Baileys](https://github.com/WhiskeySockets/Baileys).
+</font>
+
+Este pacote Python foi gerado automaticamente usando o projeto [OpenAPI Generator](https://openapi-generator.tech).
+
+#### VersÃµes Utilizadas
+
+- Evolution API version: 1.8.2
+- OpenAPI Generator version: 7.7.0
+
+## Requirements.
+
+Python 3.9+
+
+## Installation & Usage
+### pip install
+
+VocÃª pode instalar diretamente usando:
+
+```sh
+pip install git+https://https://github.com//FlavioCoutinhoGO/evolution-api-client.git
+```
+EntÃ£o vocÃª importa o pacote:
+```python
+import evolution_api_client
+```
+
+### Setuptools
+
+Install via [Setuptools](http://pypi.python.org/pypi/setuptools).
+
+```sh
+python setup.py install --user
+```
+(or `sudo python setup.py install` to install the package for all users)
+
+Then import the package:
+```python
+import evolution_api_client
+```
+
+### Tests
+
+Execute `pytest` to run the tests.
+
+## Getting Started
+
+Please follow the [installation procedure](#installation--usage) and then run the following:
+
+```python
+
+import evolution_api_client
+from evolution_api_client.rest import ApiException
+from pprint import pprint
+
+# Defining the host is optional and defaults to http://localhost
+# See configuration.py for a list of all supported configuration parameters.
+configuration = evolution_api_client.Configuration(
+    host = "http://localhost"
+)
+
+# The client must configure the authentication and authorization parameters
+# in accordance with the API server security policy.
+# Examples for each auth method are provided below, use the example that
+# satisfies your auth use case.
+
+# Configure Bearer authorization (JWT): bearerAuth
+configuration = evolution_api_client.Configuration(
+    access_token = os.environ["BEARER_TOKEN"]
+)
+
+
+# Enter a context with an instance of the API client
+with evolution_api_client.ApiClient(configuration) as api_client:
+    # Create an instance of the API class
+    api_instance = evolution_api_client.ChamaAIApi(api_client)
+    instance_name = 'evolution' # str | - required
+
+    try:
+        # Retrieve the Chama AI for a specific instance.
+        api_instance.chamaai_find_instance_name_get(instance_name)
+    except ApiException as e:
+        print("Exception when calling ChamaAIApi->chamaai_find_instance_name_get: %s\n" % e)
+
+```
+
+## Documentation for API Endpoints
+
+All URIs are relative to *http://localhost*
+
+Class | Method | HTTP request | Description
+------------ | ------------- | ------------- | -------------
+*ChamaAIApi* | [**chamaai_find_instance_name_get**](docs/ChamaAIApi.md#chamaai_find_instance_name_get) | **GET** /chamaai/find/{instanceName} | Retrieve the Chama AI for a specific instance.
+*ChamaAIApi* | [**chamaai_set_instance_name_post**](docs/ChamaAIApi.md#chamaai_set_instance_name_post) | **POST** /chamaai/set/{instanceName} | Set up or modify the Chama AI for an instance.
+*ChatControllerApi* | [**chat_archive_chat_instance_name_put**](docs/ChatControllerApi.md#chat_archive_chat_instance_name_put) | **PUT** /chat/archiveChat/{instanceName} | Archive specific chats for a given instance.
+*ChatControllerApi* | [**chat_delete_message_for_everyone_instance_name_delete**](docs/ChatControllerApi.md#chat_delete_message_for_everyone_instance_name_delete) | **DELETE** /chat/deleteMessageForEveryone/{instanceName} | Delete a message for everyone in a given instance.
+*ChatControllerApi* | [**chat_fetch_profile_picture_url_instance_name_post**](docs/ChatControllerApi.md#chat_fetch_profile_picture_url_instance_name_post) | **POST** /chat/fetchProfilePictureUrl/{instanceName} | Retrieve the profile picture URL of a specific number.
+*ChatControllerApi* | [**chat_find_chats_instance_name_get**](docs/ChatControllerApi.md#chat_find_chats_instance_name_get) | **GET** /chat/findChats/{instanceName} | List all chats associated with a specific instance.
+*ChatControllerApi* | [**chat_find_contacts_instance_name_post**](docs/ChatControllerApi.md#chat_find_contacts_instance_name_post) | **POST** /chat/findContacts/{instanceName} | Retrieve contact details using an ID.
+*ChatControllerApi* | [**chat_find_messages_instance_name_post**](docs/ChatControllerApi.md#chat_find_messages_instance_name_post) | **POST** /chat/findMessages/{instanceName} | Search for messages based on specific criteria.
+*ChatControllerApi* | [**chat_find_status_message_instance_name_post**](docs/ChatControllerApi.md#chat_find_status_message_instance_name_post) | **POST** /chat/findStatusMessage/{instanceName} | Search for status messages using an ID.
+*ChatControllerApi* | [**chat_get_base64_from_media_message_instance_name_post**](docs/ChatControllerApi.md#chat_get_base64_from_media_message_instance_name_post) | **POST** /chat/getBase64FromMediaMessage/{instanceName} | Convert media message content to Base64.
+*ChatControllerApi* | [**chat_mark_message_as_read_instance_name_put**](docs/ChatControllerApi.md#chat_mark_message_as_read_instance_name_put) | **PUT** /chat/markMessageAsRead/{instanceName} | Mark specific messages as read for a given instance.
+*ChatControllerApi* | [**chat_whatsapp_numbers_instance_name_post**](docs/ChatControllerApi.md#chat_whatsapp_numbers_instance_name_post) | **POST** /chat/whatsappNumbers/{instanceName} | Provide a list of WhatsApp numbers associated with a given instance.
+*ChatwootApi* | [**chatwoot_find_instance_name_get**](docs/ChatwootApi.md#chatwoot_find_instance_name_get) | **GET** /chatwoot/find/{instanceName} | Retrieve the Chatwoot for a specific instance.
+*ChatwootApi* | [**chatwoot_set_instance_name_post**](docs/ChatwootApi.md#chatwoot_set_instance_name_post) | **POST** /chatwoot/set/{instanceName} | Set up or modify the Chatwoot for an instance.
+*GroupControllerApi* | [**group_create_instance_name_post**](docs/GroupControllerApi.md#group_create_instance_name_post) | **POST** /group/create/{instanceName} | Create a new WhatsApp group.
+*GroupControllerApi* | [**group_fetch_all_groups_instance_name_get**](docs/GroupControllerApi.md#group_fetch_all_groups_instance_name_get) | **GET** /group/fetchAllGroups/{instanceName} | Retrieve details about a specific group.
+*GroupControllerApi* | [**group_find_group_infos_instance_name_get**](docs/GroupControllerApi.md#group_find_group_infos_instance_name_get) | **GET** /group/findGroupInfos/{instanceName} | Retrieve details about a specific group.
+*GroupControllerApi* | [**group_invite_code_instance_name_get**](docs/GroupControllerApi.md#group_invite_code_instance_name_get) | **GET** /group/inviteCode/{instanceName} | Update the group&#39;s display picture.
+*GroupControllerApi* | [**group_invite_info_instance_name_get**](docs/GroupControllerApi.md#group_invite_info_instance_name_get) | **GET** /group/inviteInfo/{instanceName} | Retrieve details about a specific group.
+*GroupControllerApi* | [**group_leave_group_instance_name_delete**](docs/GroupControllerApi.md#group_leave_group_instance_name_delete) | **DELETE** /group/leaveGroup/{instanceName} | Exit from the specified WhatsApp group.
+*GroupControllerApi* | [**group_participants_instance_name_get**](docs/GroupControllerApi.md#group_participants_instance_name_get) | **GET** /group/participants/{instanceName} | Retrieve a list of participants in a specific group.
+*GroupControllerApi* | [**group_revoke_invite_code_instance_name_put**](docs/GroupControllerApi.md#group_revoke_invite_code_instance_name_put) | **PUT** /group/revokeInviteCode/{instanceName} | Update the group&#39;s display picture.
+*GroupControllerApi* | [**group_send_invite_instance_name_post**](docs/GroupControllerApi.md#group_send_invite_instance_name_post) | **POST** /group/sendInvite/{instanceName} | Update the group&#39;s display picture.
+*GroupControllerApi* | [**group_toggle_ephemeral_instance_name_put**](docs/GroupControllerApi.md#group_toggle_ephemeral_instance_name_put) | **PUT** /group/toggleEphemeral/{instanceName} | Update the status or role of a participant in the group.
+*GroupControllerApi* | [**group_update_group_description_instance_name_put**](docs/GroupControllerApi.md#group_update_group_description_instance_name_put) | **PUT** /group/updateGroupDescription/{instanceName} | Update the group&#39;s display picture.
+*GroupControllerApi* | [**group_update_group_picture_instance_name_put**](docs/GroupControllerApi.md#group_update_group_picture_instance_name_put) | **PUT** /group/updateGroupPicture/{instanceName} | Update the group&#39;s display picture.
+*GroupControllerApi* | [**group_update_group_subject_instance_name_put**](docs/GroupControllerApi.md#group_update_group_subject_instance_name_put) | **PUT** /group/updateGroupSubject/{instanceName} | Update the group&#39;s display picture.
+*GroupControllerApi* | [**group_update_participant_instance_name_put**](docs/GroupControllerApi.md#group_update_participant_instance_name_put) | **PUT** /group/updateParticipant/{instanceName} | Update the status or role of a participant in the group.
+*GroupControllerApi* | [**group_update_setting_instance_name_put**](docs/GroupControllerApi.md#group_update_setting_instance_name_put) | **PUT** /group/updateSetting/{instanceName} | Update the status or role of a participant in the group.
+*InstanceControllerApi* | [**instance_connect_instance_name_get**](docs/InstanceControllerApi.md#instance_connect_instance_name_get) | **GET** /instance/connect/{instanceName} | Instance Connect
+*InstanceControllerApi* | [**instance_connection_state_instance_name_get**](docs/InstanceControllerApi.md#instance_connection_state_instance_name_get) | **GET** /instance/connectionState/{instanceName} | Connection Status
+*InstanceControllerApi* | [**instance_create_post**](docs/InstanceControllerApi.md#instance_create_post) | **POST** /instance/create | Create Instance
+*InstanceControllerApi* | [**instance_delete_instance_name_delete**](docs/InstanceControllerApi.md#instance_delete_instance_name_delete) | **DELETE** /instance/delete/{instanceName} | Delete Instance
+*InstanceControllerApi* | [**instance_fetch_instances_get**](docs/InstanceControllerApi.md#instance_fetch_instances_get) | **GET** /instance/fetchInstances | Fetch Instances
+*InstanceControllerApi* | [**instance_logout_instance_name_delete**](docs/InstanceControllerApi.md#instance_logout_instance_name_delete) | **DELETE** /instance/logout/{instanceName} | Logout Instance
+*InstanceControllerApi* | [**instance_restart_instance_name_put**](docs/InstanceControllerApi.md#instance_restart_instance_name_put) | **PUT** /instance/restart/{instanceName} | Instance Restart
+*JWTApi* | [**instance_refresh_token_put**](docs/JWTApi.md#instance_refresh_token_put) | **PUT** /instance/refreshToken/ | Refresh an expired JWT token.
+*LabelControllerApi* | [**label_find_labels_instance_name_get**](docs/LabelControllerApi.md#label_find_labels_instance_name_get) | **GET** /label/findLabels/{instanceName} | List all labels for an instance.
+*LabelControllerApi* | [**label_handle_label_instance_name_put**](docs/LabelControllerApi.md#label_handle_label_instance_name_put) | **PUT** /label/handleLabel/{instanceName} | Change the label (add or remove) for an specific chat.
+*ProfileSettingsApi* | [**chat_fetch_business_profile_instance_name_post**](docs/ProfileSettingsApi.md#chat_fetch_business_profile_instance_name_post) | **POST** /chat/fetchBusinessProfile/{instanceName} | Fetch the business profile of a specific contact.
+*ProfileSettingsApi* | [**chat_fetch_privacy_settings_instance_name_get**](docs/ProfileSettingsApi.md#chat_fetch_privacy_settings_instance_name_get) | **GET** /chat/fetchPrivacySettings/{instanceName} | Fetch the privacy settings of a specific contact.
+*ProfileSettingsApi* | [**chat_fetch_profile_instance_name_post**](docs/ProfileSettingsApi.md#chat_fetch_profile_instance_name_post) | **POST** /chat/fetchProfile/{instanceName} | Fetch the profile of a specific contact.
+*ProfileSettingsApi* | [**chat_remove_profile_picture_instance_name_delete**](docs/ProfileSettingsApi.md#chat_remove_profile_picture_instance_name_delete) | **DELETE** /chat/removeProfilePicture/{instanceName} | Remove the profile picture of a specific contact.
+*ProfileSettingsApi* | [**chat_update_privacy_settings_instance_name_put**](docs/ProfileSettingsApi.md#chat_update_privacy_settings_instance_name_put) | **PUT** /chat/updatePrivacySettings/{instanceName} | Update the privacy settings of a specific contact.
+*ProfileSettingsApi* | [**chat_update_profile_name_instance_name_post**](docs/ProfileSettingsApi.md#chat_update_profile_name_instance_name_post) | **POST** /chat/updateProfileName/{instanceName} | Update the name of a specific contact.
+*ProfileSettingsApi* | [**chat_update_profile_picture_instance_name_put**](docs/ProfileSettingsApi.md#chat_update_profile_picture_instance_name_put) | **PUT** /chat/updateProfilePicture/{instanceName} | Update the profile picture of a specific contact.
+*ProfileSettingsApi* | [**chat_update_profile_status_instance_name_post**](docs/ProfileSettingsApi.md#chat_update_profile_status_instance_name_post) | **POST** /chat/updateProfileStatus/{instanceName} | Update the status of a specific contact.
+*ProxyApi* | [**proxy_find_instance_name_get**](docs/ProxyApi.md#proxy_find_instance_name_get) | **GET** /proxy/find/{instanceName} | Retrieve the Proxy for a specific instance.
+*ProxyApi* | [**proxy_set_instance_name_post**](docs/ProxyApi.md#proxy_set_instance_name_post) | **POST** /proxy/set/{instanceName} | Set up or modify the Proxy for an instance.
+*RabbitMQApi* | [**rabbitmq_find_instance_name_get**](docs/RabbitMQApi.md#rabbitmq_find_instance_name_get) | **GET** /rabbitmq/find/{instanceName} | Retrieve the RabbitMQ settings for a specific instance.
+*RabbitMQApi* | [**rabbitmq_set_instance_name_post**](docs/RabbitMQApi.md#rabbitmq_set_instance_name_post) | **POST** /rabbitmq/set/{instanceName} | Set up or modify the RabbitMQ for an instance.
+*SendMessageControllerApi* | [**message_send_contact_instance_name_post**](docs/SendMessageControllerApi.md#message_send_contact_instance_name_post) | **POST** /message/sendContact/{instanceName} | Send contact details to a specified instance.
+*SendMessageControllerApi* | [**message_send_list_instance_name_post**](docs/SendMessageControllerApi.md#message_send_list_instance_name_post) | **POST** /message/sendList/{instanceName} | Send a list to a specified instance.
+*SendMessageControllerApi* | [**message_send_location_instance_name_post**](docs/SendMessageControllerApi.md#message_send_location_instance_name_post) | **POST** /message/sendLocation/{instanceName} | Send a location to a specified instance.
+*SendMessageControllerApi* | [**message_send_media_instance_name_post**](docs/SendMessageControllerApi.md#message_send_media_instance_name_post) | **POST** /message/sendMedia/{instanceName} | Send a media message (image, video, document, audio) to a specified instance.
+*SendMessageControllerApi* | [**message_send_poll_instance_name_post**](docs/SendMessageControllerApi.md#message_send_poll_instance_name_post) | **POST** /message/sendPoll/{instanceName} | Send a poll to a specified instance.
+*SendMessageControllerApi* | [**message_send_reaction_instance_name_post**](docs/SendMessageControllerApi.md#message_send_reaction_instance_name_post) | **POST** /message/sendReaction/{instanceName} | Send a reaction to a specified instance.
+*SendMessageControllerApi* | [**message_send_status_instance_name_post**](docs/SendMessageControllerApi.md#message_send_status_instance_name_post) | **POST** /message/sendStatus/{instanceName} | Send a status message.
+*SendMessageControllerApi* | [**message_send_sticker_instance_name_post**](docs/SendMessageControllerApi.md#message_send_sticker_instance_name_post) | **POST** /message/sendSticker/{instanceName} | Send an sticker to a specified instance.
+*SendMessageControllerApi* | [**message_send_text_instance_name_post**](docs/SendMessageControllerApi.md#message_send_text_instance_name_post) | **POST** /message/sendText/{instanceName} | Send a text message to a specified instance.
+*SendMessageControllerApi* | [**message_send_whats_app_audio_instance_name_post**](docs/SendMessageControllerApi.md#message_send_whats_app_audio_instance_name_post) | **POST** /message/sendWhatsAppAudio/{instanceName} | Send an audio message via WhatsApp to a specified instance.
+*SettingsApi* | [**settings_find_instance_name_get**](docs/SettingsApi.md#settings_find_instance_name_get) | **GET** /settings/find/{instanceName} | Retrieve the Settings for a specific instance.
+*SettingsApi* | [**settings_set_instance_name_post**](docs/SettingsApi.md#settings_set_instance_name_post) | **POST** /settings/set/{instanceName} | Set up or modify the Settings for an instance.
+*TypebotApi* | [**typebot_change_status_instance_name_post**](docs/TypebotApi.md#typebot_change_status_instance_name_post) | **POST** /typebot/changeStatus/{instanceName} | Change the status of the Typebot for an instance.
+*TypebotApi* | [**typebot_find_instance_name_get**](docs/TypebotApi.md#typebot_find_instance_name_get) | **GET** /typebot/find/{instanceName} | Retrieve the Typebot for a specific instance.
+*TypebotApi* | [**typebot_set_instance_name_post**](docs/TypebotApi.md#typebot_set_instance_name_post) | **POST** /typebot/set/{instanceName} | Set up or modify the Typebot for an instance.
+*TypebotApi* | [**typebot_start_instance_name_post**](docs/TypebotApi.md#typebot_start_instance_name_post) | **POST** /typebot/start/{instanceName} | Start the Typebot for an instance.
+*WebhookApi* | [**webhook_find_instance_name_get**](docs/WebhookApi.md#webhook_find_instance_name_get) | **GET** /webhook/find/{instanceName} | Retrieve the webhook settings for a specific instance.
+*WebhookApi* | [**webhook_set_instance_name_post**](docs/WebhookApi.md#webhook_set_instance_name_post) | **POST** /webhook/set/{instanceName} | Set up or modify the webhook for an instance.
+*WebsocketApi* | [**websocket_find_instance_name_get**](docs/WebsocketApi.md#websocket_find_instance_name_get) | **GET** /websocket/find/{instanceName} | Retrieve the websocket settings for a specific instance.
+*WebsocketApi* | [**websocket_set_instance_name_post**](docs/WebsocketApi.md#websocket_set_instance_name_post) | **POST** /websocket/set/{instanceName} | Set up or modify the Websocket for an instance.
+
+
+## Documentation For Models
+
+ - [ChamaaiSetInstanceNamePostRequest](docs/ChamaaiSetInstanceNamePostRequest.md)
+ - [ChatArchiveChatInstanceNamePutRequest](docs/ChatArchiveChatInstanceNamePutRequest.md)
+ - [ChatArchiveChatInstanceNamePutRequestLastMessage](docs/ChatArchiveChatInstanceNamePutRequestLastMessage.md)
+ - [ChatArchiveChatInstanceNamePutRequestLastMessageKey](docs/ChatArchiveChatInstanceNamePutRequestLastMessageKey.md)
+ - [ChatFetchBusinessProfileInstanceNamePostRequest](docs/ChatFetchBusinessProfileInstanceNamePostRequest.md)
+ - [ChatFetchProfilePictureUrlInstanceNamePostRequest](docs/ChatFetchProfilePictureUrlInstanceNamePostRequest.md)
+ - [ChatFindContactsInstanceNamePostRequest](docs/ChatFindContactsInstanceNamePostRequest.md)
+ - [ChatFindContactsInstanceNamePostRequestWhere](docs/ChatFindContactsInstanceNamePostRequestWhere.md)
+ - [ChatFindMessagesInstanceNamePostRequest](docs/ChatFindMessagesInstanceNamePostRequest.md)
+ - [ChatFindMessagesInstanceNamePostRequestWhere](docs/ChatFindMessagesInstanceNamePostRequestWhere.md)
+ - [ChatFindStatusMessageInstanceNamePostRequest](docs/ChatFindStatusMessageInstanceNamePostRequest.md)
+ - [ChatFindStatusMessageInstanceNamePostRequestWhere](docs/ChatFindStatusMessageInstanceNamePostRequestWhere.md)
+ - [ChatGetBase64FromMediaMessageInstanceNamePostRequest](docs/ChatGetBase64FromMediaMessageInstanceNamePostRequest.md)
+ - [ChatGetBase64FromMediaMessageInstanceNamePostRequestMessage](docs/ChatGetBase64FromMediaMessageInstanceNamePostRequestMessage.md)
+ - [ChatMarkMessageAsReadInstanceNamePutRequest](docs/ChatMarkMessageAsReadInstanceNamePutRequest.md)
+ - [ChatMarkMessageAsReadInstanceNamePutRequestReadMessagesInner](docs/ChatMarkMessageAsReadInstanceNamePutRequestReadMessagesInner.md)
+ - [ChatUpdatePrivacySettingsInstanceNamePutRequest](docs/ChatUpdatePrivacySettingsInstanceNamePutRequest.md)
+ - [ChatUpdatePrivacySettingsInstanceNamePutRequestPrivacySettings](docs/ChatUpdatePrivacySettingsInstanceNamePutRequestPrivacySettings.md)
+ - [ChatUpdateProfileNameInstanceNamePostRequest](docs/ChatUpdateProfileNameInstanceNamePostRequest.md)
+ - [ChatUpdateProfilePictureInstanceNamePutRequest](docs/ChatUpdateProfilePictureInstanceNamePutRequest.md)
+ - [ChatUpdateProfileStatusInstanceNamePostRequest](docs/ChatUpdateProfileStatusInstanceNamePostRequest.md)
+ - [ChatWhatsappNumbersInstanceNamePostRequest](docs/ChatWhatsappNumbersInstanceNamePostRequest.md)
+ - [ChatwootSetInstanceNamePostRequest](docs/ChatwootSetInstanceNamePostRequest.md)
+ - [GroupCreateInstanceNamePostRequest](docs/GroupCreateInstanceNamePostRequest.md)
+ - [GroupSendInviteInstanceNamePostRequest](docs/GroupSendInviteInstanceNamePostRequest.md)
+ - [GroupToggleEphemeralInstanceNamePutRequest](docs/GroupToggleEphemeralInstanceNamePutRequest.md)
+ - [GroupUpdateGroupDescriptionInstanceNamePutRequest](docs/GroupUpdateGroupDescriptionInstanceNamePutRequest.md)
+ - [GroupUpdateGroupPictureInstanceNamePutRequest](docs/GroupUpdateGroupPictureInstanceNamePutRequest.md)
+ - [GroupUpdateGroupSubjectInstanceNamePutRequest](docs/GroupUpdateGroupSubjectInstanceNamePutRequest.md)
+ - [GroupUpdateParticipantInstanceNamePutRequest](docs/GroupUpdateParticipantInstanceNamePutRequest.md)
+ - [GroupUpdateSettingInstanceNamePutRequest](docs/GroupUpdateSettingInstanceNamePutRequest.md)
+ - [InstanceConnectInstanceNameGet200Response](docs/InstanceConnectInstanceNameGet200Response.md)
+ - [InstanceCreatePostRequest](docs/InstanceCreatePostRequest.md)
+ - [InstanceFetchInstancesGet200ResponseInner](docs/InstanceFetchInstancesGet200ResponseInner.md)
+ - [InstanceFetchInstancesGet200ResponseInnerInstance](docs/InstanceFetchInstancesGet200ResponseInnerInstance.md)
+ - [InstanceRefreshTokenPutRequest](docs/InstanceRefreshTokenPutRequest.md)
+ - [LabelFindLabelsInstanceNameGet200ResponseInner](docs/LabelFindLabelsInstanceNameGet200ResponseInner.md)
+ - [LabelHandleLabelInstanceNamePut200Response](docs/LabelHandleLabelInstanceNamePut200Response.md)
+ - [LabelHandleLabelInstanceNamePutRequest](docs/LabelHandleLabelInstanceNamePutRequest.md)
+ - [MessageSendContactInstanceNamePostRequest](docs/MessageSendContactInstanceNamePostRequest.md)
+ - [MessageSendContactInstanceNamePostRequestContactMessageInner](docs/MessageSendContactInstanceNamePostRequestContactMessageInner.md)
+ - [MessageSendListInstanceNamePostRequest](docs/MessageSendListInstanceNamePostRequest.md)
+ - [MessageSendListInstanceNamePostRequestListMessage](docs/MessageSendListInstanceNamePostRequestListMessage.md)
+ - [MessageSendListInstanceNamePostRequestListMessageSectionsInner](docs/MessageSendListInstanceNamePostRequestListMessageSectionsInner.md)
+ - [MessageSendListInstanceNamePostRequestListMessageSectionsInnerRowsInner](docs/MessageSendListInstanceNamePostRequestListMessageSectionsInnerRowsInner.md)
+ - [MessageSendListInstanceNamePostRequestOptions](docs/MessageSendListInstanceNamePostRequestOptions.md)
+ - [MessageSendLocationInstanceNamePostRequest](docs/MessageSendLocationInstanceNamePostRequest.md)
+ - [MessageSendLocationInstanceNamePostRequestLocationMessage](docs/MessageSendLocationInstanceNamePostRequestLocationMessage.md)
+ - [MessageSendMediaInstanceNamePostRequest](docs/MessageSendMediaInstanceNamePostRequest.md)
+ - [MessageSendMediaInstanceNamePostRequestMediaMessage](docs/MessageSendMediaInstanceNamePostRequestMediaMessage.md)
+ - [MessageSendPollInstanceNamePostRequest](docs/MessageSendPollInstanceNamePostRequest.md)
+ - [MessageSendPollInstanceNamePostRequestPollMessage](docs/MessageSendPollInstanceNamePostRequestPollMessage.md)
+ - [MessageSendReactionInstanceNamePostRequest](docs/MessageSendReactionInstanceNamePostRequest.md)
+ - [MessageSendReactionInstanceNamePostRequestReactionMessage](docs/MessageSendReactionInstanceNamePostRequestReactionMessage.md)
+ - [MessageSendReactionInstanceNamePostRequestReactionMessageKey](docs/MessageSendReactionInstanceNamePostRequestReactionMessageKey.md)
+ - [MessageSendStatusInstanceNamePostRequest](docs/MessageSendStatusInstanceNamePostRequest.md)
+ - [MessageSendStatusInstanceNamePostRequestStatusMessage](docs/MessageSendStatusInstanceNamePostRequestStatusMessage.md)
+ - [MessageSendStickerInstanceNamePostRequest](docs/MessageSendStickerInstanceNamePostRequest.md)
+ - [MessageSendStickerInstanceNamePostRequestOptions](docs/MessageSendStickerInstanceNamePostRequestOptions.md)
+ - [MessageSendStickerInstanceNamePostRequestStickerMessage](docs/MessageSendStickerInstanceNamePostRequestStickerMessage.md)
+ - [MessageSendTextInstanceNamePostRequest](docs/MessageSendTextInstanceNamePostRequest.md)
+ - [MessageSendTextInstanceNamePostRequestOptions](docs/MessageSendTextInstanceNamePostRequestOptions.md)
+ - [MessageSendTextInstanceNamePostRequestOptionsMentions](docs/MessageSendTextInstanceNamePostRequestOptionsMentions.md)
+ - [MessageSendTextInstanceNamePostRequestOptionsQuoted](docs/MessageSendTextInstanceNamePostRequestOptionsQuoted.md)
+ - [MessageSendTextInstanceNamePostRequestOptionsQuotedKey](docs/MessageSendTextInstanceNamePostRequestOptionsQuotedKey.md)
+ - [MessageSendTextInstanceNamePostRequestOptionsQuotedMessage](docs/MessageSendTextInstanceNamePostRequestOptionsQuotedMessage.md)
+ - [MessageSendTextInstanceNamePostRequestTextMessage](docs/MessageSendTextInstanceNamePostRequestTextMessage.md)
+ - [MessageSendWhatsAppAudioInstanceNamePostRequest](docs/MessageSendWhatsAppAudioInstanceNamePostRequest.md)
+ - [MessageSendWhatsAppAudioInstanceNamePostRequestAudioMessage](docs/MessageSendWhatsAppAudioInstanceNamePostRequestAudioMessage.md)
+ - [ProxySetInstanceNamePostRequest](docs/ProxySetInstanceNamePostRequest.md)
+ - [RabbitmqSetInstanceNamePostRequest](docs/RabbitmqSetInstanceNamePostRequest.md)
+ - [SettingsSetInstanceNamePostRequest](docs/SettingsSetInstanceNamePostRequest.md)
+ - [TypebotChangeStatusInstanceNamePostRequest](docs/TypebotChangeStatusInstanceNamePostRequest.md)
+ - [TypebotSetInstanceNamePostRequest](docs/TypebotSetInstanceNamePostRequest.md)
+ - [TypebotStartInstanceNamePostRequest](docs/TypebotStartInstanceNamePostRequest.md)
+ - [TypebotStartInstanceNamePostRequestVariablesInner](docs/TypebotStartInstanceNamePostRequestVariablesInner.md)
+ - [WebhookSetInstanceNamePostRequest](docs/WebhookSetInstanceNamePostRequest.md)
+ - [WebsocketSetInstanceNamePostRequest](docs/WebsocketSetInstanceNamePostRequest.md)
+
+
+<a id="documentation-for-authorization"></a>
+## Documentation For Authorization
+
+
+Authentication schemes defined for the API:
+<a id="apikeyAuth"></a>
+### apikeyAuth
+
+- **Type**: API key
+- **API key parameter name**: apikey
+- **Location**: HTTP header
+
+<a id="bearerAuth"></a>
+### bearerAuth
+
+- **Type**: Bearer authentication (JWT)
+
+
+## Nota
+
+Este cÃ³digo nÃ£o Ã© de forma alguma afiliado ao WhatsApp ou ao Evolution API. Use a seu critÃ©rio. NÃ£o envie spam.
+
+Este cÃ³digo foi produzido para consumir os endpoints da Evolution API e ainda estÃ¡ em desenvolvimento.
+
