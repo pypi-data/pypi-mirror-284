@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: astra-toolbox
+Version: 2.2.0
+Summary: Python interface to the ASTRA Toolbox
+Home-page: https://github.com/astra-toolbox/astra-toolbox
+Author: D.M. Pelt
+Author-email: D.M.Pelt@cwi.nl
+License: GPLv3
+License-File: LICENSE
+License-File: COPYING
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: nvidia-cuda-runtime-cu12
+Requires-Dist: nvidia-cufft-cu12
+
