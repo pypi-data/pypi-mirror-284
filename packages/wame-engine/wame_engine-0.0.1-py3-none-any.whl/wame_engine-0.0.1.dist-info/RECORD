@@ -1,0 +1,12 @@
+wame-engine/__init__.py,sha256=mn0XQDX-_rNQ72aICkdZNPbAIoiuUINeYMN0xv_2aW4,1243
+wame-engine/area.py,sha256=uPU9uKY3KCmWV0_awkkCz4Ia1UHnPK44K-Rca2A7RN8,127
+wame-engine/button.py,sha256=zbqL-PcS1vEZ7zGmG78upEebhqtxogy92OpuDL64O3s,8421
+wame-engine/engine.py,sha256=PTh-ynL0rKz2TOV5ndv-a6fF5cDvuzqWX-yjeEQFUpk,7442
+wame-engine/scene.py,sha256=tyHtvQuBWt13USr7Rj6wMnzh6QrVDGr46zQa6X0DbGA,9162
+wame-engine/settings.py,sha256=1YcVTwii5c8HGT925NQBvYcFoURH78mdxY0JsKV8fzQ,1961
+wame-engine/text.py,sha256=FLKAIHwTQzVZyxvYmU9DIwxS-XTAO77hlrEARrmmcyA,2429
+wame-engine/vector.py,sha256=Z7NrLZoDd01rfOoJFNIwHX1_iy1kA35L755tYi2GRTM,3650
+wame_engine-0.0.1.dist-info/METADATA,sha256=CgcCDPIZZFEFMGEpKfvqpWbGvtCt3OWq8B3BJ8K4B4M,616
+wame_engine-0.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+wame_engine-0.0.1.dist-info/top_level.txt,sha256=qVApwD2TvQ8njn6RJ2LoKjxDWARxRMQdfxHVb9ooOjE,12
+wame_engine-0.0.1.dist-info/RECORD,,
