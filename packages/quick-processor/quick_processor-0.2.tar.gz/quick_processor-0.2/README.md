@@ -1,0 +1,65 @@
+## quick_processor
+
+### Overview
+`quick_processor` is a Python-based text preprocessing tool designed to simplify and standardize text cleaning tasks for Natural Language Processing (NLP) applications. It leverages a variety of libraries, including NLTK, BeautifulSoup, and contractions, to provide a comprehensive suite of text cleaning functions.
+
+### Features
+- **Lowercase Conversion**: Converts all characters in a sentence to lowercase.
+- **Email Removal**: Removes email addresses from the text.
+- **Diacritic Removal**: Strips diacritics from characters.
+- **HTML Cleaning**: Removes HTML tags from the text.
+- **Repeated Character Replacement**: Replaces repeated punctuation marks with a single occurrence.
+- **Emoji Translation**: Translates emojis into their textual representation.
+- **Contraction Expansion**: Expands common contractions (e.g., "can't" to "cannot").
+- **URL Removal**: Strips URLs from the text.
+- **Possessive Removal**: Removes possessive forms from words.
+- **Extra Space Removal**: Eliminates extra spaces.
+- **Spelling Correction**: Corrects spelling errors.
+- **Tokenization**: Splits text into tokens.
+- **Stopword Removal**: Removes common stopwords.
+- **Lemmatization**: Reduces words to their base or root form.
+- **Emoticon Removal**: Removes emoticons from the text.
+- **Non-Alphabetic Character Removal**: Strips non-alphabetic characters from the text.
+
+### Installation
+To install the necessary dependencies, use the following command:
+
+```bash
+pip install nltk contractions beautifulsoup4 emoji spellchecker
+```
+
+### Usage
+Here's an example of how to use `quick_processor` for text preprocessing:
+
+```python
+from preprocessor import Preprocessor
+
+# Initialize the preprocessor
+preprocessor = Preprocessor()
+
+# Sample sentence
+sentence = "This is a sample sentence with an email@example.com and a link http://example.com 😊"
+
+# Clean the sentence using default steps
+cleaned_sentence = preprocessor.clean(sentence)
+
+print(cleaned_sentence)
+```
+
+### Unit Tests
+The project includes a suite of unit tests to ensure the functionality of each preprocessing step. To run the tests, execute the following command:
+
+```bash
+python preprocessor.py
+```
+
+### File Structure
+- **preprocessor.py**: Contains the `Preprocessor` class and the `test` function for running unit tests.
+- **README.md**: Project documentation (this file).
+
+### Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+---
+
+With `quick_processor`, you can streamline your text preprocessing tasks, making your NLP pipeline more efficient and effective.

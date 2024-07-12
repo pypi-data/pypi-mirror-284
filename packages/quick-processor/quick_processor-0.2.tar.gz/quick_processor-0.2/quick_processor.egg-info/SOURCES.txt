@@ -1,0 +1,9 @@
+README.md
+setup.py
+quick_processor/__init__.py
+quick_processor/main.py
+quick_processor.egg-info/PKG-INFO
+quick_processor.egg-info/SOURCES.txt
+quick_processor.egg-info/dependency_links.txt
+quick_processor.egg-info/requires.txt
+quick_processor.egg-info/top_level.txt
