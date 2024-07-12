@@ -1,0 +1,11 @@
+silabi_tokenizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+silabi_tokenizer/base_tokenizer.py,sha256=EE70TQryhzpnJqzdHvKo7cZ3v5rfRTyGUzLoYPPXfQ0,500
+silabi_tokenizer/hf_tokenizer.py,sha256=_jK_Z0v8t7htMxx7wy18G__0xM8Sa97uFFqPh5YMipI,1655
+silabi_tokenizer/kiswahili_tokenizer.py,sha256=xnM7WczhpNgN6bY2NOECDeTja2dVqJFLQ9HF3kfW2VM,3678
+silabi_tokenizer/silabi_generator.py,sha256=ciTTbPGSZmBd7Azc8dLKsvKcvSs_eVfBvAV7SpEw_MU,4926
+silabi_tokenizer/test.py,sha256=i_qcjjnm1JMJCrdn-mZvAqBI9vpsnUD8drbVGNtZVVE,351
+silabi_tokenizer-0.2.0.dist-info/LICENSE,sha256=BKfn0uy5tD6ma-Z2QSZCdkYB_VSdCirq4ubTGbjE30k,1071
+silabi_tokenizer-0.2.0.dist-info/METADATA,sha256=vn2kM7VWLF5sCeMdpHduRHAxtF79ARSEi8zFtKVLXNg,1659
+silabi_tokenizer-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+silabi_tokenizer-0.2.0.dist-info/top_level.txt,sha256=vVunu9TMOUdAdz3PpBC1bsb39I-DDVyR8mNkFxc2D5s,17
+silabi_tokenizer-0.2.0.dist-info/RECORD,,
