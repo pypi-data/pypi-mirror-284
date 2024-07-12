@@ -1,0 +1,4 @@
+[console_scripts]
+drd=drd.cli.main:dravid_cli
+test=run_tests:main
+
