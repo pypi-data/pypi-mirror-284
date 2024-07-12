@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_embed_creator.py,sha256=nPt0aLrlgJuwWCWt9ArxTXDDD8rKQZzfv11SPZHoIOM,239
+tests/test_utils.py,sha256=nPt0aLrlgJuwWCWt9ArxTXDDD8rKQZzfv11SPZHoIOM,239
+whoisbuild/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whoisbuild/embed_creator.py,sha256=ZQFJjFVjDf2MWf2bfIQ5dsN6gpwM0pVNtmUN_Lgz6x8,1276
+whoisbuild/utils.py,sha256=1xF1OoLLjNg1PMcEekJ-Yyteod2BR0ROGtxG32-JKOQ,55920
+whoisbuild-1.0.1.dist-info/LICENSE,sha256=ET3VQQvh0AiYMR89xqh-dEfQEyTSgyM3THK00jArBxI,179
+whoisbuild-1.0.1.dist-info/METADATA,sha256=AD1k6h1KIP9Ua9ZuJ7q9TpjTutS9amuFbchYiQzGrTM,484
+whoisbuild-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+whoisbuild-1.0.1.dist-info/top_level.txt,sha256=csvh_thB-QziWtvR-hKBN4M8q1bwOpvCE1BtWsMAlEk,17
+whoisbuild-1.0.1.dist-info/RECORD,,
