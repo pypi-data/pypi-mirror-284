@@ -1,0 +1,14 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+setup.cfg
+src/pkg1/__init__.py
+src/pkg1/validate.py
+src/pkg2/__init__.py
+src/pkg2/calculator.py
+src/pyplbasicpkg.egg-info/PKG-INFO
+src/pyplbasicpkg.egg-info/SOURCES.txt
+src/pyplbasicpkg.egg-info/dependency_links.txt
+src/pyplbasicpkg.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_validate.py
