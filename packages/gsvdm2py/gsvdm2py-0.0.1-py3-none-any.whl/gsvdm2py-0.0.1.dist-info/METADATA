@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: gsvdm2py
+Version: 0.0.1
+Summary: A Python wrapper for MATLAB's gsvd function (generalized singular value decomposition).
+Author-email: Jonathan Lindbloom <jonathan@lindbloom.com>
+Project-URL: Homepage, https://github.com/jlindbloom/gsvdm2py
+Project-URL: Bug Tracker, https://github.com/jlindbloom/gsvdm2py/issues
+Keywords: linear algebra,gsvd
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gsvdm2py
+A Python wrapper for MATLAB's gsvd function (generalized singular value decomposition).
+
+Installation instructions:
+
+1. Make sure MATLAB is installed.
+
+2. pip install matlabengine.
+
+3. pip install gsvdm2py
+
+
+
+
+
