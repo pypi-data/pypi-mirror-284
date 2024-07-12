@@ -1,0 +1,2 @@
+[console_scripts]
+runGUI = metax.gui.main_gui:runGUI
