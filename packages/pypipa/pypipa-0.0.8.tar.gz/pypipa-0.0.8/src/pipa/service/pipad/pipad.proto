@@ -1,0 +1,77 @@
+syntax = "proto3";
+
+package pipa;
+
+service PIPAD {
+  rpc Deploy(DeployRequest) returns (DeployResp) {}
+
+  rpc DeployStreamReply(DeployRequest) returns (stream DeployResp) {}
+
+  rpc DeployBidiStream(stream DeployRequest) returns (stream DeployResp) {}
+}
+
+message DeployRequest {
+  string workload = 1; // the first one must be workload
+  uint64 transactions = 2;
+  double throughput = 3;
+  repeated uint32 used_threads = 4;
+  double run_time = 5;
+  uint64 cycles = 6;
+  uint64 instructions = 7;
+  double cycles_per_second = 8;
+  double instructions_per_second = 9;
+  double CPI = 10;
+  double cycles_per_requests = 11;
+  double path_length = 12;
+  double cpu_frequency_mhz = 13;
+  double cpu_usr = 14;
+  double cpu_nice = 15;
+  double cpu_sys = 16;
+  double cpu_iowait = 17;
+  double cpu_steal = 18;
+  double cpu_irq = 19;
+  double cpu_soft = 20;
+  double cpu_guest = 21;
+  double cpu_gnice = 22;
+  double cpu_idle = 23;
+  double cpu_util = 24;
+  uint64 kbmemfree = 25;
+  uint64 kbavail = 26;
+  uint64 kbmemused = 27;
+  double percent_memused = 28;
+  uint64 kbbuffers = 29;
+  uint64 kbcached = 30;
+  uint64 kbcommit = 31;
+  double percent_commit = 32;
+  uint64 kbactive = 33;
+  uint64 kbinact = 34;
+  uint64 kbdirty = 35;
+  uint64 kbanonpg = 36;
+  uint64 kbslab = 37;
+  uint64 kbkstack = 38;
+  uint64 kbpgtbl = 39;
+  uint64 kbvmused = 40;
+  string dev = 41;
+  double tps = 42;
+  double rkB_s = 43;
+  double wkB_s = 44;
+  double dkB_s = 45;
+  double areq_sz = 46;
+  double aqu_sz = 47;
+  double disk_await = 48;
+  double percent_disk_util = 49;
+  string data_location = 50;
+  string hw_info = 51;
+  string sw_info = 52;
+  string platform = 53;
+  string comment = 54;
+  string username = 55;
+}
+
+message DeployResp { 
+  string message = 1;
+  string username = 2;
+  string time = 3;
+  string hash = 4;
+  uint32 status_code = 5;
+}
