@@ -1,0 +1,31 @@
+[xdevs.celldevs_outputs]
+hybrid = xdevs.plugins.celldevs_outputs.hybrid:HybridDelayedOutput
+inertial = xdevs.plugins.celldevs_outputs.inertial:InertialDelayedOutput
+transport = xdevs.plugins.celldevs_outputs.transport:TransportDelayedOutput
+
+[xdevs.components]
+ef = xdevs.examples.gpt.models:Ef
+efp = xdevs.examples.gpt.models:Efp
+generator = xdevs.examples.gpt.models:Generator
+gpt = xdevs.examples.gpt.models:Gpt
+processor = xdevs.examples.gpt.models:Processor
+transducer = xdevs.examples.gpt.models:Transducer
+
+[xdevs.input_handlers]
+csv = xdevs.plugins.input_handlers.csv:CSVInputHandler
+function = xdevs.plugins.input_handlers.function:CallableFunction
+mqtt = xdevs.plugins.input_handlers.mqtt:MQTTInputHandler
+tcp = xdevs.plugins.input_handlers.tcp:TCPInputHandler
+
+[xdevs.output_handlers]
+csv = xdevs.plugins.output_handlers.csv:CSVOutputHandler
+mqtt = xdevs.plugins.output_handlers.mqtt:MQTTOutputHandler
+tcp = xdevs.plugins.output_handlers.tcp:TCPOutputHandler
+
+[xdevs.transducers]
+csv = xdevs.plugins.transducers.csv:CSVTransducer
+elasticsearch = xdevs.plugins.transducers.elasticsearch:ElasticsearchTransducer
+sql = xdevs.plugins.transducers.sql:SQLTransducer
+
+[xdevs.wrappers]
+pypdevs = xdevs.plugins.wrappers.pypdevs:PyPDEVSWrapper
