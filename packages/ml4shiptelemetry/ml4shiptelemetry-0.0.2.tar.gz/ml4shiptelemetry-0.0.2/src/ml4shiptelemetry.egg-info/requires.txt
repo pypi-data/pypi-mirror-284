@@ -1,0 +1,7 @@
+pytest
+click
+pdoc
+numpy
+pandas
+matplotlib
+scikit-learn
