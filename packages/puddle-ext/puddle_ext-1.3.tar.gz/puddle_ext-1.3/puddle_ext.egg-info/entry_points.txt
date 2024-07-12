@@ -1,0 +1,2 @@
+[console_scripts]
+puddle = puddle_ext.cli:main
