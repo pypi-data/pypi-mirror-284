@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+showquota/__init__.py
+showquota/config.cfg
+showquota/config.py
+showquota/main.py
+showquota.egg-info/PKG-INFO
+showquota.egg-info/SOURCES.txt
+showquota.egg-info/dependency_links.txt
+showquota.egg-info/entry_points.txt
+showquota.egg-info/requires.txt
+showquota.egg-info/top_level.txt
