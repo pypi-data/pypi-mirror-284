@@ -1,0 +1,2 @@
+[console_scripts]
+textpression = textpression.cli:main
