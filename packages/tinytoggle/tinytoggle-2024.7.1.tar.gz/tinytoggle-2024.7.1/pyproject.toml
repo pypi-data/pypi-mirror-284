@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tinytoggle"
+version = "2024.7.1"
+authors = [{ name = "Trevor Mathisen", email = "trevor@mathisen.dev" }]
+description = "A tiny feature toggle module."
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/trolann/tinytoggle"
+Issues = "https://github.com/trolann/tinytoggle/issues"

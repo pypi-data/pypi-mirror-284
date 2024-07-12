@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: tinytoggle
+Version: 2024.7.1
+Summary: A tiny feature toggle module.
+Project-URL: Homepage, https://github.com/trolann/tinytoggle
+Project-URL: Issues, https://github.com/trolann/tinytoggle/issues
+Author-email: Trevor Mathisen <trevor@mathisen.dev>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+### TinyToggle
+## A simple feature toggle package.
+
+# Usage
+TODO
