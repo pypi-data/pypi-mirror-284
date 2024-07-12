@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "lib",
+    "rootDir": "src",
+    "incremental": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2022",
+    "lib": ["es2022"]
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src/*"]
+}
