@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+myphonebook.egg-info/PKG-INFO
+myphonebook.egg-info/SOURCES.txt
+myphonebook.egg-info/dependency_links.txt
+myphonebook.egg-info/entry_points.txt
+myphonebook.egg-info/top_level.txt
