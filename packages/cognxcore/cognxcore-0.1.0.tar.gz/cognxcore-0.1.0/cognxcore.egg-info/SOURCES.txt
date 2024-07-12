@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cognxcore/__init__.py
+cognxcore/cogni.py
+cognxcore.egg-info/PKG-INFO
+cognxcore.egg-info/SOURCES.txt
+cognxcore.egg-info/dependency_links.txt
+cognxcore.egg-info/requires.txt
+cognxcore.egg-info/top_level.txt
