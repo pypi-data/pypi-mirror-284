@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aju_pm10_hourly_prediction
+Version: 0.1
+Summary: A package for PM10 hourly prediction from data cleaning to prediction
+Home-page: https://github.com/ajupeter23/pm10_hourly_predictor
+Author: Aju Peter
+Author-email: ajupeter.t@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: keras
