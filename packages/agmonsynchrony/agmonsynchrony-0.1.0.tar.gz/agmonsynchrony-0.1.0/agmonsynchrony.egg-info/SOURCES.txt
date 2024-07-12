@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+agmonsynchrony/__init__.py
+agmonsynchrony/synchrony.cpp
+agmonsynchrony/synchrony.pyx
+agmonsynchrony/windowoverlap.cpp
+agmonsynchrony/windowoverlap.h
+agmonsynchrony/wrapper.py
+agmonsynchrony.egg-info/PKG-INFO
+agmonsynchrony.egg-info/SOURCES.txt
+agmonsynchrony.egg-info/dependency_links.txt
+agmonsynchrony.egg-info/not-zip-safe
+agmonsynchrony.egg-info/requires.txt
+agmonsynchrony.egg-info/top_level.txt
