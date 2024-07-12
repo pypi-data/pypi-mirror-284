@@ -1,0 +1,3 @@
+[console_scripts]
+download_video = xgroovy.downloader:download_video
+scrape_videos = xgroovy.scraper:scrape_videos
