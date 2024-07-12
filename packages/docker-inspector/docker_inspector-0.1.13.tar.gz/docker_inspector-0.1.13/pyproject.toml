@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "docker-inspector"
+version = "0.1.13"  # set by antonio-py-dynamic-version
+description = ""
+authors = ["antonio <mr.antonsilin@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "docker_inspector"},
+]
+
+
+[tool.poetry.scripts]
+dinspect = 'docker_inspector.app:run'
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+textual = "^0.56.3"
+
+
+[tool.poetry.group.dev.dependencies]
+textual-dev = "^1.5.1"
+antonio-py-dynamic-version = {git = "https://bitbucket.org/asilin/antonio-py-dynamic-version.git"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
