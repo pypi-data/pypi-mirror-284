@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/ml4shiptelemetry/RFRegressorModel.py
+src/ml4shiptelemetry/__init__.py
+src/ml4shiptelemetry/__main__.py
+src/ml4shiptelemetry/dataloader.py
+src/ml4shiptelemetry/main.py
+src/ml4shiptelemetry.egg-info/PKG-INFO
+src/ml4shiptelemetry.egg-info/SOURCES.txt
+src/ml4shiptelemetry.egg-info/dependency_links.txt
+src/ml4shiptelemetry.egg-info/requires.txt
+src/ml4shiptelemetry.egg-info/top_level.txt
+test/test_main.py
