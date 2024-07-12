@@ -1,0 +1,10 @@
+h5py
+numpy
+matplotlib
+euxfel-bunch-pattern>=0.6
+extra-data>=1.9.1
+
+[test]
+pytest
+pytest-cov
+mock
