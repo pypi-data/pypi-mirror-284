@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/napari_blosc2/__init__.py
+src/napari_blosc2/_reader.py
+src/napari_blosc2/_writer.py
+src/napari_blosc2/napari.yaml
+src/napari_blosc2.egg-info/PKG-INFO
+src/napari_blosc2.egg-info/SOURCES.txt
+src/napari_blosc2.egg-info/dependency_links.txt
+src/napari_blosc2.egg-info/entry_points.txt
+src/napari_blosc2.egg-info/requires.txt
+src/napari_blosc2.egg-info/top_level.txt
+src/napari_blosc2/_tests/__init__.py
