@@ -1,0 +1,10 @@
+llama/__init__.py,sha256=FEdGjfxO4UM9DEMjUs4fY--Fjp5cX_P8-dHwlpXazDE,284
+llama/generation.py,sha256=phuCTpYqWXqxwXjSmMHFGf5eVihaDt0vkeYFWbEJFS8,15393
+llama/model.py,sha256=INk94v2yyY__CFofECbSDMQXLkCAmgiR44TVwQu7aWU,10404
+llama/test_tokenizer.py,sha256=T9zeAQ6ggAcB8PkiXOGCVDocOT2yZt8vQMKfPYBZluQ,2871
+llama/tokenizer.py,sha256=4pBFy7rjPge7Gtkr2CSQMsSoAvfZZ28RXBmu69EU-c0,7712
+meta_llama3-0.0.1.dist-info/LICENSE,sha256=T6VR1Pk49ouMHmr6nSi--3Dj8z910HUySNUwNkrupA8,12403
+meta_llama3-0.0.1.dist-info/METADATA,sha256=RrIXPEkNe419jTXKBfWiVS0NZYT8LECFjY05FEiN-Oc,8593
+meta_llama3-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+meta_llama3-0.0.1.dist-info/top_level.txt,sha256=vXIfhTMeFFl71QrVVrWCJGS0tzlBB5vynlR-iGsCqZ4,6
+meta_llama3-0.0.1.dist-info/RECORD,,
