@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "aspect.sh"
+version = "0.0.0"
+description = ""
+authors = ["Sam Goodwin <sam@aspect.sh>"]
+readme = "README.md"
+packages = [{include = "aspect.sh"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.1"
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_level = "WARN"
+pythonpath = ["."]
+testpaths = ["tests"]
+# stream stdout and exit if any test fails
+addopts = "-sx"
+
+[tool.pyright]
+reportPrivateImportUsage = "none"
