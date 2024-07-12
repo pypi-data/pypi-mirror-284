@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+data_scraping.egg-info/PKG-INFO
+data_scraping.egg-info/SOURCES.txt
+data_scraping.egg-info/dependency_links.txt
+data_scraping.egg-info/top_level.txt
