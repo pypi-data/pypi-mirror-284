@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lightrag-project
+Version: 0.1.0
+Summary: A project to develop and test the lightrag library
+License: MIT
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: lightrag (>=0.0.0a13,<0.0.1)
+Requires-Dist: openai (>=1.34.0,<2.0.0)
+Requires-Dist: torch (>=2.3.1,<3.0.0)
