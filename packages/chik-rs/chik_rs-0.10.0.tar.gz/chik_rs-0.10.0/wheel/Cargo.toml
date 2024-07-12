@@ -1,0 +1,35 @@
+[package]
+name = "chik_rs"
+version = "0.10.0"
+authors = ["Richard Kiss <him@richardkiss.com>"]
+edition = "2021"
+license = "Apache-2.0"
+description = "Code useful for implementing chik consensus."
+homepage = "https://github.com/Chik-Network/chik_rs"
+repository = "https://github.com/Chik-Network/chik_rs"
+readme = "README.md"
+
+[lints]
+workspace = true
+
+[lib]
+name = "chik_rs"
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[package.metadata.maturin]
+python-source = "python"
+
+[dependencies]
+klvmr = { workspace = true }
+hex = { workspace = true }
+sha2 = { workspace = true }
+pyo3 = { workspace = true, features = ["multiple-pymethods"] }
+chik-consensus = { workspace = true, features = ["py-bindings"] }
+chik-bls = { workspace = true, features = ["py-bindings"]  }
+chik-protocol = { workspace = true, features = ["py-bindings"]  }
+chik-traits = { workspace = true, features = ["py-bindings"]  }
+klvm-traits = { workspace = true, features = ["derive", "py-bindings"] }
+klvm-utils = { workspace = true }
+chik_py_streamable_macro = { workspace = true }
+chik_streamable_macro = { workspace = true }
