@@ -1,0 +1,44 @@
+Metadata-Version: 2.3
+Name: eConEXG
+Version: 0.1.10
+Summary: SDK for Niantong devices.
+Project-URL: Homepage, https://github.com/Niantong-Intelligence/eConEXG
+Project-URL: Issues, https://github.com/Niantong-Intelligence/eConEXG/issues
+Author-email: Alex You <yoyialex@outlook.com>
+Maintainer-email: Alex You <yoyialex@outlook.com>
+License-File: LICENSE
+Keywords: econ,eeg,emg,niantong
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: pyserial>=3.5
+Provides-Extra: bdf
+Requires-Dist: pyedflib>=0.1.37; extra == 'bdf'
+Provides-Extra: lsl
+Requires-Dist: pylsl>=1.16.2; extra == 'lsl'
+Provides-Extra: wifi
+Requires-Dist: comtypes; (platform_system == 'Windows') and extra == 'wifi'
+Requires-Dist: netifaces2; (platform_system == 'Linux') and extra == 'wifi'
+Requires-Dist: netifaces; (platform_system == 'Darwin') and extra == 'wifi'
+Requires-Dist: netifaces; (platform_system == 'Windows') and extra == 'wifi'
+Requires-Dist: pywifi>=1.1.12; (platform_system == 'Windows') and extra == 'wifi'
+Description-Content-Type: text/markdown
+
+# eCon
+SDK for Niantong devices.
+
+[![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/rye/main/artwork/badge.json)](https://rye-up.com)
+
+For more information, see the online [documentation](https://niantong-intelligence.github.io/eConEXG/).
+
+# Installation
+
+## Prerequisites
+
+On all non-Windows platforms and for some Windows-Python combinations, you must first obtain a liblsl shared library to use lsl feature. See the [liblsl repo documentation](https://github.com/sccn/liblsl) for further details.
+
+## Get eConEXG from PyPI
+
+* `pip install eConEXG`
