@@ -1,0 +1,8 @@
+numpy
+matplotlib
+h5py
+tqdm
+rich
+torch
+torchvision
+pyecharts
