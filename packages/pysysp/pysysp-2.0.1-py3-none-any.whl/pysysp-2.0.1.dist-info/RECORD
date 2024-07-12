@@ -1,0 +1,14 @@
+pysysp/__init__.py,sha256=FGe7wDd6r3EUSGhfP63gYm0QGiFISz5HxWh_ybiR9GE,2764
+pysysp/alpha_lyr_stis_006.fits,sha256=nazT59TLv49JG5UEoblV638v8EN5IN1nhm-3UgEAixM,241920
+pysysp/extinction.py,sha256=bQtiQ2XaabEk0jFt6ChTuP2rmBcBwE9IkvsY9V3NW0E,1888
+pysysp/pysysp.py,sha256=Fdu47S-NMocMq9MRtor6sixPqw4rohNpt7dLGMg5fR8,10132
+pysysp/filters/Bessel/B.dat,sha256=dc_MWI_XyFGI-AHrEiixMB-yENdPy3ghNUEMUV5kTdc,252
+pysysp/filters/Bessel/I.dat,sha256=SODBGnd6Je2ym2_lhPFJCK19MpoQrssobClX16d7L84,276
+pysysp/filters/Bessel/R.dat,sha256=32oG7lmspAUcTZFAzZcKrtDjmuR8KPdF-1tAF7Sdaxs,444
+pysysp/filters/Bessel/U.dat,sha256=5nR3x9YQvx0aG3i9WVE1RZWfrcR31Ov1sOvg13G5rBE,300
+pysysp/filters/Bessel/V.dat,sha256=geQPMBDuHvEhJDVXMKbuYPHvBxkk08Iao4vUhRxPyAQ,336
+pysysp/filters/Gaia/G.dat,sha256=KfBstHPQs6zBoZmVa0cuQWIyzU3-muvq5jeIVxtZFzQ,40851
+pysysp-2.0.1.dist-info/METADATA,sha256=UpbZMwT_gpFKr50Q6IkKziTvColqxJ2fHv3o66ck0BE,3756
+pysysp-2.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+pysysp-2.0.1.dist-info/top_level.txt,sha256=W4qORPWO5QfOsVB7UusypEznxd4uGiOwwjDaIBPfbhE,7
+pysysp-2.0.1.dist-info/RECORD,,
