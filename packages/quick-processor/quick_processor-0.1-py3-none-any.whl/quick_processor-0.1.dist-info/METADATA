@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: quick-processor
+Version: 0.1
+Requires-Dist: nltk ==3.8.1
+Requires-Dist: contractions ==0.1.73
+Requires-Dist: beautifulsoup4 ==4.12.3
+Requires-Dist: emoji ==2.12.1
+Requires-Dist: pyspellchecker ==0.8.1
+Requires-Dist: textsearch ==0.0.24
+Requires-Dist: click ==8.1.7
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: joblib ==1.4.2
+Requires-Dist: tqdm ==4.66.4
+Requires-Dist: regex ==2024.5.15
+Requires-Dist: soupsieve ==2.5
+Requires-Dist: typing-extensions ==4.12.2
+Requires-Dist: anyascii ==0.3.2
+Requires-Dist: pyahocorasick ==2.1.0
+
