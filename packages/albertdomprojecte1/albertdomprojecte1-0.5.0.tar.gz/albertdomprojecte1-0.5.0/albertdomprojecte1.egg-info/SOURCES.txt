@@ -1,0 +1,9 @@
+README.md
+setup.py
+albertdomprojecte1.egg-info/PKG-INFO
+albertdomprojecte1.egg-info/SOURCES.txt
+albertdomprojecte1.egg-info/dependency_links.txt
+albertdomprojecte1.egg-info/top_level.txt
+moduls/__init__.py
+moduls/courses.py
+moduls/utils.py
