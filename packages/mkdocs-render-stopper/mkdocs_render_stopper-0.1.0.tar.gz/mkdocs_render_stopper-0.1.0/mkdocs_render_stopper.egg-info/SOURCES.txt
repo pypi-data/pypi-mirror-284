@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mkdocs_render_stopper/__init__.py
+mkdocs_render_stopper/plugin.py
+mkdocs_render_stopper.egg-info/PKG-INFO
+mkdocs_render_stopper.egg-info/SOURCES.txt
+mkdocs_render_stopper.egg-info/dependency_links.txt
+mkdocs_render_stopper.egg-info/entry_points.txt
+mkdocs_render_stopper.egg-info/requires.txt
+mkdocs_render_stopper.egg-info/top_level.txt
