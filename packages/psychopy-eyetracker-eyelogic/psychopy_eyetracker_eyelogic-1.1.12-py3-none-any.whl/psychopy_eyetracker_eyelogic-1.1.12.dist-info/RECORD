@@ -1,0 +1,13 @@
+psychopy_eyetracker_eyelogic/__init__.py,sha256=47MiYZ7yTJ5OkxqNjd5-PNP5crrngD7nFtTaivhN8OI,1172
+psychopy_eyetracker_eyelogic/eyelogic/__init__.py,sha256=siAXNDxTOcjeSR7ZbDBO9H1hYWxp-X0fgacc2dF0tdQ,1176
+psychopy_eyetracker_eyelogic/eyelogic/psychopy/__init__.py,sha256=pZ-fPtyr_MgSP5-bFVAkGts2scq-XDaExialD6a-TQQ,1274
+psychopy_eyetracker_eyelogic/eyelogic/psychopy/calibration.py,sha256=hO0rqXpXOF0d2gBfCEXMbH8QuWi42Pv93BoR7MQ-lu4,4727
+psychopy_eyetracker_eyelogic/eyelogic/psychopy/default_eyetracker.yaml,sha256=krIfRxHuf21PdbMwgMsCt4edD2lZSrhjMi9712rt1Wc,2558
+psychopy_eyetracker_eyelogic/eyelogic/psychopy/eyetracker.py,sha256=uCya0mPrQ4-wEroHH_LspdILDCDLJONXyp7IFMdfNAE,30328
+psychopy_eyetracker_eyelogic/eyelogic/psychopy/supported_config_settings.yaml,sha256=6i6q95YeuncG6NtSNz73tidCVbQ0NZBHqb3VNPC_cvc,1402
+psychopy_eyetracker_eyelogic-1.1.12.dist-info/LICENSE,sha256=7LE4sZCNCBcdBWfwFWHi9z8_3TFTk4EIdCw5D2JHANo,7852
+psychopy_eyetracker_eyelogic-1.1.12.dist-info/METADATA,sha256=mUW5E6AShmBXgAhal_E6F5D_TaDjICbDTtse3RAUSb4,1601
+psychopy_eyetracker_eyelogic-1.1.12.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+psychopy_eyetracker_eyelogic-1.1.12.dist-info/entry_points.txt,sha256=7smTFDquUdA_Sa2M5x0_s3Sjn8Kr0d6ZT53nQsFdQ7g,85
+psychopy_eyetracker_eyelogic-1.1.12.dist-info/top_level.txt,sha256=pM9fYMqh48eet8g-GdgBVNV6zH6A4m8gFEjClXLExy4,29
+psychopy_eyetracker_eyelogic-1.1.12.dist-info/RECORD,,
