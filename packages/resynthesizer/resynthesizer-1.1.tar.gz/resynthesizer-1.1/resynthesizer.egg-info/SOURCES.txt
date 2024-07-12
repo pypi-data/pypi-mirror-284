@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+resynthesizer/__init__.py
+resynthesizer/resynthesizer.py
+resynthesizer.egg-info/PKG-INFO
+resynthesizer.egg-info/SOURCES.txt
+resynthesizer.egg-info/dependency_links.txt
+resynthesizer.egg-info/requires.txt
+resynthesizer.egg-info/top_level.txt
+resynthesizer/bin/libresynthesizer.dll
+resynthesizer/bin/libresynthesizer.so
+resynthesizer/bin/libresynthesizer_universal.dylib
