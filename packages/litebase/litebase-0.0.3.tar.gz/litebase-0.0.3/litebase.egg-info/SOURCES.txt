@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+litebase/__init__.py
+litebase/cli.py
+litebase.egg-info/PKG-INFO
+litebase.egg-info/SOURCES.txt
+litebase.egg-info/dependency_links.txt
+litebase.egg-info/entry_points.txt
+litebase.egg-info/requires.txt
+litebase.egg-info/top_level.txt

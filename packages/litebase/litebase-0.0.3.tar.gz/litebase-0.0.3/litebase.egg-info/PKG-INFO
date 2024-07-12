@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: litebase
+Version: 0.0.3
+Summary: All in one python backend
+Author: Victor Martins
+Author-email: victor.martins.dpaula@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: bidict==0.23.1
+Requires-Dist: blinker==1.8.2
+Requires-Dist: click==8.1.7
+Requires-Dist: Flask==3.0.3
+Requires-Dist: Flask-SocketIO==5.3.6
+Requires-Dist: h11==0.14.0
+Requires-Dist: itsdangerous==2.2.0
+Requires-Dist: Jinja2==3.1.4
+Requires-Dist: MarkupSafe==2.1.5
+Requires-Dist: python-engineio==4.9.1
+Requires-Dist: python-socketio==5.11.3
+Requires-Dist: simple-websocket==1.0.0
+Requires-Dist: Werkzeug==3.0.3
+Requires-Dist: wsproto==1.2.0
+
+# Litebase
+
+All in one python backend based on SQLite.
