@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_embed_creator.py
+tests/test_utils.py
+whoisbuild/__init__.py
+whoisbuild/embed_creator.py
+whoisbuild/utils.py
+whoisbuild.egg-info/PKG-INFO
+whoisbuild.egg-info/SOURCES.txt
+whoisbuild.egg-info/dependency_links.txt
+whoisbuild.egg-info/requires.txt
+whoisbuild.egg-info/top_level.txt
