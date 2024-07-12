@@ -1,0 +1,7 @@
+wheel
+dateutils
+euros
+pytest
+ruff
+black
+pip-tools

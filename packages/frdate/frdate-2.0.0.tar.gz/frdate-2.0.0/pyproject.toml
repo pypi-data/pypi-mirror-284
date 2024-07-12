@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frdate"
+authors = [{name = "Thibaut_S", email = "py@spriet.online"}]
+readme = "README.md"
+description = "Converts french text to python date object"
+requires-python = ">=3.8"
+keywords = ["dates", "french", "français", "conversion"]
+license = {text = "MIT-License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "wheel",
+    "dateutils",
+    "euros",
+    "pytest",
+    "ruff",
+    "black",
+    "pip-tools"
+]
+version = "2.0.0"
+
+[project.urls]
+Homepage = "https://gitlab.com/Thibaut_S/frdate"
+"Bug Tracker" = "https://gitlab.com/Thibaut_S/frdate/-/issues"
