@@ -1,0 +1,9 @@
+numpy
+pytest
+requests-mock
+twine
+coverage
+nbqa
+transformers[torch]
+owlready2
+proxy.py
