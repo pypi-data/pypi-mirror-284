@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+RFDpy.egg-info/PKG-INFO
+RFDpy.egg-info/SOURCES.txt
+RFDpy.egg-info/dependency_links.txt
+RFDpy.egg-info/requires.txt
+RFDpy.egg-info/top_level.txt
