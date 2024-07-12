@@ -1,0 +1,10 @@
+class Constants:
+    ML_MODELS_PATH = "ml-models"
+    PIPELINE_RUNS_PATH = "pipeline-runs"
+    AUGMENTATIONS_PATH = "augmentation"
+    PIPELINES_PATH = "pipelines"
+    AUGMENTATION_PIPELINES_PATH = "augmentation-pipelines"
+    SUBSETS_PATH = "subsets"
+    DATASETS_PATH = "datasets"
+    OBSERVATIONS_PATH = "observations"
+    REPORT_PATH = "report"
