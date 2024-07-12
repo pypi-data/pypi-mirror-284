@@ -1,0 +1,8 @@
+quackamollie/model_manager/ollama/__init__.py,sha256=t_RYEUiL2wl5ysL36XRuK4nyG2ytcf002uR2d0jE_9Y,294
+quackamollie/model_manager/ollama/ollama_model_manager.py,sha256=h3mopYp9yAR5mw0Ih9wPm1SweyjA3Fho_zy1WnMipkU,8095
+quackamollie_ollama_model_manager-0.1a0.dist-info/LICENSE,sha256=ZmTL3gq8BCTkTcRnvuvjJLUsDMPZ2Eh9tJYYu9LY3_k,1080
+quackamollie_ollama_model_manager-0.1a0.dist-info/METADATA,sha256=Y-8pg-TtSRnFOkDmyii0q3o248nZ6AuvLYXDGhmOkFs,8726
+quackamollie_ollama_model_manager-0.1a0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+quackamollie_ollama_model_manager-0.1a0.dist-info/entry_points.txt,sha256=7CO2ZjmsKhONBKHF7F8n_mKZueH5Aw9I5sAc9dwUBrg,124
+quackamollie_ollama_model_manager-0.1a0.dist-info/top_level.txt,sha256=ghu2DK87bSVbaEfok-jisDE8Ux3VC6m8LH3HaeoRy90,13
+quackamollie_ollama_model_manager-0.1a0.dist-info/RECORD,,
