@@ -1,0 +1,15 @@
+
+# Set directories
+set dir.facts "$(dir.root)/data"
+set dir.output "$(dir.root)/data"
+set dir.scripts "$(dir.root)/scripts/data-conversion"
+set dir.dlog "$(dir.root)/scripts/data-conversion"
+
+# Create datastore
+dstore create default type parallel-nn
+
+# Printing on stdout by default
+set output out
+
+# Load prefixes
+exec prefixes

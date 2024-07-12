@@ -1,0 +1,19 @@
+# run `RDFox sandbox <root> scripts/data-conversion/master [fact-domain]`
+# where <root> is the path to the "probs-module-data-conversion" folder.
+# If fact-domain is not specified, the default is "all".
+
+# Stop execution on any error
+set on-error stop
+
+exec scripts/data-conversion/setup-RDFox
+
+# Set up the fact domain. We use multiple files in this way so that
+# when $(1) is unset a default value can be set.
+exec setup-factdomain-$(1)
+echo "Set fact domain: $(fact-domain)"
+
+exec input
+
+exec output
+
+quit

@@ -1,0 +1,17 @@
+probs_system/scripts/data-conversion/input.rdfox,sha256=j0W_M90wpjZi8xSx2i1HTwcKLq6jd8A0AoTRioNLnNI,56
+probs_system/scripts/data-conversion/load_data.rdfox,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+probs_system/scripts/data-conversion/load_rules.rdfox,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+probs_system/scripts/data-conversion/master.rdfox,sha256=2YwE0t2QzhyPa-8kZ-UT_zb1Xy8iwv9Ngh1XecML1uQ,510
+probs_system/scripts/data-conversion/output.rdfox,sha256=fKPkGgK9Tx93iCrZXIuLdaSMJV-Jx7W2kHWadqk7mS8,44
+probs_system/scripts/data-conversion/prefixes.rdfox,sha256=jY_uqDZgi4-VDeuBGbP6W2H08sfABv6zClqbDom485k,63
+probs_system/scripts/data-conversion/save_data.rdfox,sha256=qsnqZ7KZeE0QcB1TfHJ0fV5DzOSPwY6axsSUVErsCVI,99
+probs_system/scripts/data-conversion/setup-RDFox.rdfox,sha256=m09z4axLSF-WFQ4hSoejXRVrl9W-a_V-9hwYs2Gohtc,329
+probs_system/scripts/data-conversion/setup-factdomain-.rdfox,sha256=Wyy9VqBuKcBUceOtSmJBmNNAEZI-CnIyh294j-361o4,22
+probs_system/scripts/data-conversion/setup-factdomain-all.rdfox,sha256=Wyy9VqBuKcBUceOtSmJBmNNAEZI-CnIyh294j-361o4,22
+probs_system/scripts/data-conversion/setup-factdomain-derived.rdfox,sha256=qPS21MW-wUwOf12R89F8euLwCN-tvVOGfpSUIIkxDSQ,26
+probs_system/scripts/data-conversion/setup-factdomain-explicit.rdfox,sha256=TEUKJdHG3l37yNixZ345KSxuYjNobf_SPFenzjoc_us,27
+probs_module_data_conversion-2.0.0a2.dist-info/LICENSE,sha256=5tDtE_812y5-WlmZKvCyOqApL8dx2IcYfoKddluqZTQ,1066
+probs_module_data_conversion-2.0.0a2.dist-info/METADATA,sha256=Jbyw_NkdtTdmOjnElylrLzZN2JXLqciXLZ56Osctsrg,237
+probs_module_data_conversion-2.0.0a2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+probs_module_data_conversion-2.0.0a2.dist-info/top_level.txt,sha256=YIJwWuEpDMq79NnDQGz-duRdQSvr9s23rqYPBMXz5wU,13
+probs_module_data_conversion-2.0.0a2.dist-info/RECORD,,
