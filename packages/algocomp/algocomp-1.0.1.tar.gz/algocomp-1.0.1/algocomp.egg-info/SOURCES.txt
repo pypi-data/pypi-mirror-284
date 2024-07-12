@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+algocomp/__innit__.py
+algocomp/master.py
+algocomp/q_learning_duopoly_hotelling.py
+algocomp/q_learning_duopoly_linear.py
+algocomp/q_learning_duopoly_logit.py
+algocomp.egg-info/PKG-INFO
+algocomp.egg-info/SOURCES.txt
+algocomp.egg-info/dependency_links.txt
+algocomp.egg-info/requires.txt
+algocomp.egg-info/top_level.txt
