@@ -1,0 +1,13 @@
+mixscatter/__init__.py,sha256=7KjsS9xeLwqZo37PL3diBgNTPGM-vYZuwBFa9Txhd_8,2387
+mixscatter/core.py,sha256=8WR5rdGp3683f9iA-bO5nNtnSuBniWSNNHvsU3mU4Bc,7690
+mixscatter/liquidstructure/__init__.py,sha256=mw8NFAWztwKZcqteaAhK52Qi5R05QSAP0-3GA_BGFCg,1230
+mixscatter/liquidstructure/liquidstructure.py,sha256=wvB9FHrcmzMtqJdYErenmqg6xFTjZxfFPXEAufjEwY8,13360
+mixscatter/mixture/__init__.py,sha256=id0fEppxMJtDErZhdI256Bt5VTzLFhPI1Do4cRrzgsw,833
+mixscatter/mixture/mixture.py,sha256=0AyDtXvDPBybT_bbC_J_lBDMPZ6MTCWe7sSrink18Vw,10291
+mixscatter/scatteringmodel/__init__.py,sha256=oMZWkY82tqFZD0hryjfYjs4BC8N4JY1e7aH3HgbQmME,2324
+mixscatter/scatteringmodel/scatteringmodel.py,sha256=SUCVkBx9611Qv2qTuTLzeVDQRy8kZZJrRlZ0YxgOu4o,36390
+mixscatter-0.2.0.dist-info/LICENSE,sha256=hH4jrReKao8ADy61CKLRV8vl936pXIc9YD917bxNiPQ,1072
+mixscatter-0.2.0.dist-info/METADATA,sha256=MX2qPK5VhjD9CmzA5xusGJbD4z9Q_twhI14QKxrXMb8,9727
+mixscatter-0.2.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+mixscatter-0.2.0.dist-info/top_level.txt,sha256=N_VNY7rQCqeiddl-r2aeK6DreaPJmFwOPWvEXvWCL6c,11
+mixscatter-0.2.0.dist-info/RECORD,,
