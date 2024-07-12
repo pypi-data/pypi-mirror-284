@@ -1,0 +1,19 @@
+[package]
+name = "js_runtime_for_python"
+# please don't edit this will update with git version
+version = "0.0.1" 
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "js_runtime_for_python"
+crate-type = ["cdylib"]
+
+[dependencies]
+deno_core = "0.293.0"
+pyo3 = { version = "*", features = ["experimental-async"]}
+serde = "*"
+serde_json = "*"
+tokio = { version = "*", features = ["full"] }
+uuid = { version = "*", features = ["v4"] }
+
