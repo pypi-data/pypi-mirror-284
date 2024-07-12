@@ -1,0 +1,13 @@
+uncalled/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uncalled/__main__.py,sha256=s_Kyrarjw2GDGzD-FINhpHGFvK-6Ybh5xVmpvI7kbSU,1026
+uncalled/ast_finder.py,sha256=cbkdu60cZRUxY9T-eFDRhuGtPwB1XjXMkbEs-PqhGy8,1620
+uncalled/iterative.py,sha256=Rng-smJjP4ovD89JSjsmF2oshK5iYQ9EtFn-9Yrv74I,6203
+uncalled/regex_finder.py,sha256=tNnnoz6a9iBUFfZM6dUpfY5YU933rq08wTvnMTLMI6k,938
+uncalled/single_pass.py,sha256=5kr_tWY3n-xQzp5spprCCAgv0xEhToiTJ6jektMryD0,2188
+uncalled/whitelist.py,sha256=oqLcKnE6dpYs7N4YFNZYavnDy2hyyb6DnYaRLH7grB4,1156
+uncalled-0.1.8.dist-info/LICENSE,sha256=I3eF5dH-VyIa0Iui8ffilntm2y8DQk_Eg-exwTNFldU,1073
+uncalled-0.1.8.dist-info/METADATA,sha256=ECIyuLs_FUzYT6_B-J0QPID6TBfHd8dnUc1MiiuWAqQ,1652
+uncalled-0.1.8.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+uncalled-0.1.8.dist-info/entry_points.txt,sha256=vAgDGmCnVUX28KabzX8m4ld2WFx49aPDkq5uQ-iQqA8,52
+uncalled-0.1.8.dist-info/top_level.txt,sha256=9EsLeAQdCfysW7nodqG0SHn67dm-ABnGkykce8iEHJs,9
+uncalled-0.1.8.dist-info/RECORD,,
