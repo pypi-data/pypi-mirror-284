@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "simpleaitranslator"
+version = "0.1.21"
+description = ""
+authors = ["Adam Pawełek <adam.pwk@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.35.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
