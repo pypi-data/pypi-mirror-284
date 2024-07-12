@@ -1,0 +1,8 @@
+torch_fourier_rescale/__init__.py,sha256=hCOwqk9e8HtltVVlBlYIYr9h-HBEPD2BT04iTvRKfgA,152
+torch_fourier_rescale/fourier_rescale_2d.py,sha256=pOCkKNVqUsz8eBGB546TjhvEMwnhZ5T2ML7ynShBVFg,4596
+torch_fourier_rescale/fourier_rescale_3d.py,sha256=KSX7Cc1y6iGLuILdw9XfiSxFlbzQrEMLlOw9tlhFrNU,5837
+torch_fourier_rescale/utils.py,sha256=HmRlrDhmnvILnPSBZWe12YYIKzPuqIogKfH-IaPLUUA,318
+torch_fourier_rescale-0.0.2.dist-info/METADATA,sha256=Ol_aondjdnOBSNw1gCTMw32LBYrthk8RxdEDQfSIhpQ,2008
+torch_fourier_rescale-0.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+torch_fourier_rescale-0.0.2.dist-info/licenses/LICENSE,sha256=Kbo_h3sPum8rDAhMerH9fl4hzFn-QUCekJf05zk2epY,1499
+torch_fourier_rescale-0.0.2.dist-info/RECORD,,
