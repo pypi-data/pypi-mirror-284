@@ -1,0 +1,1 @@
+from .master import logit_duopoly, linear_duopoly, hotelling_duopoly, logit_pso
