@@ -1,0 +1,11 @@
+blocks/__init__.py,sha256=duePGEA385yhJ31ImNyGaZdfYOtzwGoyy-oV9tYaakA,151
+blocks/base.py,sha256=cX6NLe06OImRMyPS6X2uYvbdgy8P4IeUTgccweTj8QE,3384
+blocks/decorators.py,sha256=ru5lSPGdVlJ8cP6S9yujuEyPf0GxHe0HgSdMjr4vSsQ,1606
+blocks/meta.py,sha256=PCB3kpnowmIi4NTebDsxBpHBm55NXE2Dc_K5Gh-Wx8c,6192
+blocks/pipeline.py,sha256=bp0vRQ3iS2JhUqnYWFputQI8AkawaFG3dWkFr9Z2Gfk,21310
+blocks/preprocessing.py,sha256=EWtXiKc-B127xgBrFWM1fsLfseBuFsiMuKg5KvIbQI0,7015
+blocks/transformers.py,sha256=ZS9-PsZvErdQeOoFVwCaHXzWyl0vitbLSuxvQ8snHh0,40318
+python_blocks-0.1.9.dist-info/LICENSE,sha256=21uLyapFHtmAwFu9xSuBgWtL49QtMIzTmI9Lq0w94MI,1502
+python_blocks-0.1.9.dist-info/METADATA,sha256=sx_jxAJr5x2Ael1_2Zt9QANGliZODkoU74wSXbfJ6ZA,6702
+python_blocks-0.1.9.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+python_blocks-0.1.9.dist-info/RECORD,,
