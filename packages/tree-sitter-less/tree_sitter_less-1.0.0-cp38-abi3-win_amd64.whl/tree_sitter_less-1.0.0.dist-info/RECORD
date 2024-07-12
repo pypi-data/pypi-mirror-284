@@ -1,0 +1,10 @@
+tree_sitter_less/__init__.py,sha256=iew9TMnzRdBk7VFsLKghrGqfyGGTc5-knCNunEog92U,87
+tree_sitter_less/__init__.pyi,sha256=8xf7bY1szgDY9HRJ7FJ326So4SFgMiSRfCB4LADkTpU,27
+tree_sitter_less/_binding.pyd,sha256=aZoQZnJGBldkrCNStdOHL-m9l3xKx-39IXI6IwWD7V0,153600
+tree_sitter_less/binding.c,sha256=n134UzJFMSNrkXQFgfbYl8MajAq2XVV7WSiSlGoPQUk,632
+tree_sitter_less/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_less/queries/highlights.scm,sha256=KfFo_0lKlHAtX2zXKWJ8srCWvb1FZsJEgpSzPYt0VSk,364
+tree_sitter_less-1.0.0.dist-info/METADATA,sha256=IA2k5AT3RHSfmDKZ7wXmgXjAbJY-Q1aMEnhZyVTWcls,1388
+tree_sitter_less-1.0.0.dist-info/WHEEL,sha256=Aavq5XXl58tL6bL-VsXq6M2KHwSF4I7YrvRYfeAzm5A,100
+tree_sitter_less-1.0.0.dist-info/top_level.txt,sha256=kJj3LpcE_1KRUfOHnQJBCQYN6ab7YyE_KxK_kshI_qo,26
+tree_sitter_less-1.0.0.dist-info/RECORD,,
