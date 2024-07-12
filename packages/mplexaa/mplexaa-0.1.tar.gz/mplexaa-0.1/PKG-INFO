@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mplexaa
+Version: 0.1
+Home-page: https://github.com/cem-sirin/mplexaa
+Author-email: sirincem1@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# mplexaa
+mplexaa is a Python package for computing the Multiplex Adamic-Adar score, a measure of node similarity in multiplex networks introduced by Aleta et al. (2020).
