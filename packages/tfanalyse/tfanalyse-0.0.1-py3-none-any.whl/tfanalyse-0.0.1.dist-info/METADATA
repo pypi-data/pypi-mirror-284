@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tfanalyse
+Version: 0.0.1
+Summary: 
+Author: Tobias Waslowski
+Author-email: tobiaswaslowski@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Description-Content-Type: text/markdown
+
+
