@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: resynthesizer
+Version: 1.0
+Summary: A very old open-source "Content-Aware Fill" method
+Home-page: https://github.com/light-and-ray/resynthesizer-python-lib
+License: GPL-3.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pillow
+
+Python library which wraps 61315's pure C implementation of resynthesizer (open-source Content-Aware Fill equivalent)
+
