@@ -1,0 +1,13 @@
+matplotlib
+numpy
+osfclient
+scipy
+
+[develop]
+bump-my-version
+pytest
+
+[publishing]
+twine
+wheel
+build
