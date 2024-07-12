@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+mplexaa/__init__.py
+mplexaa/indices.py
+mplexaa/multiplex_graph.py
+mplexaa/utils.py
+mplexaa.egg-info/PKG-INFO
+mplexaa.egg-info/SOURCES.txt
+mplexaa.egg-info/dependency_links.txt
+mplexaa.egg-info/requires.txt
+mplexaa.egg-info/top_level.txt
