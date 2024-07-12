@@ -1,0 +1,2 @@
+[console_scripts]
+environeer = environeer.cli:app
