@@ -1,0 +1,9 @@
+README.md
+setup.py
+egeek_tools/__init__.py
+egeek_tools/datatable.py
+egeek_tools.egg-info/PKG-INFO
+egeek_tools.egg-info/SOURCES.txt
+egeek_tools.egg-info/dependency_links.txt
+egeek_tools.egg-info/requires.txt
+egeek_tools.egg-info/top_level.txt
