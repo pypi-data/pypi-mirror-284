@@ -1,0 +1,2 @@
+[console_scripts]
+election-stats = election_stats.cli:main
