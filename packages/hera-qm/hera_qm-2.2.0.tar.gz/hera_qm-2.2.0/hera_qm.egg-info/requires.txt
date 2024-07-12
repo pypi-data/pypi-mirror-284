@@ -1,0 +1,14 @@
+numpy>1.23
+astropy>=5.0.4
+h5py>=3.1
+pyyaml
+pyuvdata>=3.0
+hera_filters
+
+[all]
+hera_qm[tests]
+
+[tests]
+pytest
+pytest-cov
+hera-calibration
