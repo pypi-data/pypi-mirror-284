@@ -1,0 +1,3 @@
+[console_scripts]
+parse-report=vivado_report_parser.cli:run
+
