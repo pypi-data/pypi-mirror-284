@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: udt4py-ng
+Version: 1.0.0
+Summary: libudt4 Python wrapper written with Cython
+Home-page: https://github.com/wbarnha/udt4py-ng
+Download-URL: https://github.com/wbarnha/udt4py-ng
+Author: Samsung Electronics Co.,Ltd.
+Author-email: "Samsung Electronics Co.,Ltd." <v.markovtsev@samsung.com>
+Maintainer: William Barnhart
+Maintainer-email: William Barnhart <williambbarnhart@gmail.com>
+License: Copyright (c) 2014, Samsung Electronics Co.,Ltd.
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+        ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+        (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+        LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+        ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+        SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+        The views and conclusions contained in the software and documentation are those
+        of the authors and should not be interpreted as representing official policies,
+        either expressed or implied, of Samsung Electronics Co.,Ltd..
+        
+Project-URL: Source, https://github.com/wbarnha/udt4py-ng
+Project-URL: Changes, https://github.com/wbarnha/udt4py-ng/releases
+Keywords: udt,pyudt,udt4,udt4py
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Networking
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+udt4py
+======
+
+libudt4 Python wrapper written with Cython.
+
+Tested with Python 2.7 and Python 3.3 on Linux. In buffer operations bytes,
+bytearray and memoryview objects are supported, allowing zero-copy operations.
+
+In order to build the native module, execute:
+
+```bash
+python3 setup.py build_ext --inplace
+```
+
+In Ubuntu, you will need ``cython3`` package.
+To run the tests, execute:
+
+```bash
+PYTHONPATH=`pwd` nosetests3 -w tests --tests udt_socket,udt_epoll
+```
+
+Example usage:
+
+```python
+from udt4py import UDTSocket
+
+
+if __name__ == "__main__":
+    socket = UDTSocket()
+    socket.bind("0.0.0.0:7777")
+    socket.listen()
+    channel = socket.accept()
+    msg = bytearray(5)
+    channel.recv(msg)
+```
+
+Released under Simplified BSD License.
+Copyright (c) 2014, Samsung Electronics Co.,Ltd.
