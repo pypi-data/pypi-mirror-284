@@ -1,0 +1,14 @@
+SL-regression-quality/__init__.py,sha256=XM7dxf2q95X-dkxwYbhgF_PCUBO7vE3wpz-Gq-9jJ7k,282
+SL-regression-quality/code_example.py,sha256=E-n0fx_zW7udVZvKipiiNy3agv4vbIVb6mZOtEL-krM,757
+SL-regression-quality/global_constants.py,sha256=dTnrQYA5ZKaXpjOoGAsfCC0b_94JPvDeuBLMgjhjlA4,360
+SL-regression-quality/main_routine.py,sha256=AbI9lS81RO4dtcEpIlkHTBBMSuc2c6Cvq8X1ALmRPWE,1990
+SL-regression-quality/metrics.py,sha256=OImEPsMGrsGrfFVDcK8w_HtH9iFAwCmpPZGceHijKlQ,4548
+SL-regression-quality/outlier_detection.py,sha256=zFQB7NND-BG_kuioh6X1DdtiC_TXRTn5tyrmc44KN40,3556
+SL-regression-quality/parameters.py,sha256=PKBBSh0wtZqcp2S2Sq7d2ZW6NdAX7biTcX6-bDuNv08,2440
+SL-regression-quality/resolution.py,sha256=2YCm5XkFuh618jSZNrRx3NrLZRiF9Q0Tw6aM8H-VmTI,1112
+SL-regression-quality/user_messages.py,sha256=2pLrp8jAoylC7s1ea84JpgwF6b6IctVwgOaGeibbKq4,448
+SL_regression_quality-0.1.1.dist-info/LICENSE,sha256=IYxlC-oENDwqtzoojl4cGBybRT7VJMSvxymPRfRgtW0,1106
+SL_regression_quality-0.1.1.dist-info/METADATA,sha256=q8C73_TTwsL9ILop6ZdQfjL-1wG9LugcqjN4XY2jkTY,2542
+SL_regression_quality-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+SL_regression_quality-0.1.1.dist-info/top_level.txt,sha256=j8gNBV2j_FdR8jFkooeuwtHaGInOmjRNfCT3Q6qWUBQ,22
+SL_regression_quality-0.1.1.dist-info/RECORD,,
