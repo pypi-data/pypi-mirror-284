@@ -1,0 +1,11 @@
+earthengine-api
+geopandas
+timezonefinder
+click
+
+[dev]
+earthengine-api
+geopandas
+timezonefinder
+build
+ruff
