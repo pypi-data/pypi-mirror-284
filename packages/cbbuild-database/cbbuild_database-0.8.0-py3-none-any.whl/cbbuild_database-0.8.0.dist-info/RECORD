@@ -1,0 +1,6 @@
+cbbuild/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cbbuild/database/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cbbuild/database/db.py,sha256=RDLuVLGs0LxNKgoSKyRYdeOGfOoIwvvR8FZ21dK79A4,5635
+cbbuild_database-0.8.0.dist-info/METADATA,sha256=IVSxqK-8B-sYq3SftGjPjP3cG8agc2r5QXBLA7yH6Hk,437
+cbbuild_database-0.8.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+cbbuild_database-0.8.0.dist-info/RECORD,,
