@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: muxllm
+Version: 1.0.0
+Summary: muxllm is a python library designed to be an all-in-one wrapper for various cloud providers as well as local inference.
+Author-email: Mannan Bhardwaj <mannanb728@gmail.com>
+Project-URL: Homepage, https://github.com/MannanB/MUXLLM
+Keywords: llm,gpt,wrapper,api
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: openai
+Requires-Dist: groq
+
+# MUXLLM
+
+muxllm is a python library designed to be an all-in-one wrapper for various cloud providers as well as local inference (WIP)
+[Docs](https://github.com/MannanB/MUXLLM)
