@@ -1,0 +1,6 @@
+pandas
+itables
+IPython
+
+[dev]
+pytest
