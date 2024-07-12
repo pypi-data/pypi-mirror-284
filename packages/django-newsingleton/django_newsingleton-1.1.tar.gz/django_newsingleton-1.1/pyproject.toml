@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "django>=3.2"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "django-newsingleton"
+version = "1.1"
+authors = [
+  { name="pavelbeard", email="heavycream9090@icloud.com" },
+]
+description = "A simple class Singleton for create models like 'dynamic settings'"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pavelbeard/django-newsingleton"
+Issues = "https://github.com/pavelbeard/django-newsingleton/issues"

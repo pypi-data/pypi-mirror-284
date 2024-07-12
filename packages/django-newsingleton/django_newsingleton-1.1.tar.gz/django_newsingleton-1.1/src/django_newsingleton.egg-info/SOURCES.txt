@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/django_newsingleton.egg-info/PKG-INFO
+src/django_newsingleton.egg-info/SOURCES.txt
+src/django_newsingleton.egg-info/dependency_links.txt
+src/django_newsingleton.egg-info/top_level.txt
+src/singleton/__init__.py
+src/singleton/admin.py
+src/singleton/apps.py
+src/singleton/models.py
+src/singleton/tests.py
+src/singleton/views.py
+src/singleton/migrations/__init__.py
