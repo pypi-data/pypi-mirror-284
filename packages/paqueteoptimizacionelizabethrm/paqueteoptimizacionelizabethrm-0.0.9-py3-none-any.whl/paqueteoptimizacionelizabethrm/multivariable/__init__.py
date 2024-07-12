@@ -1,0 +1,2 @@
+from paqueteoptimizacionelizabethrm.multivariable import metodosdirectos
+from paqueteoptimizacionelizabethrm.multivariable import metodosgradiente
