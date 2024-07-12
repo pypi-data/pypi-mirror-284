@@ -1,0 +1,11 @@
+chik_rs-0.10.0.dist-info/METADATA,sha256=JyY-SS681Mh_DLEEH6e2fe1cHea7PGNmpIETMXhYP8A,485
+chik_rs-0.10.0.dist-info/WHEEL,sha256=sQXnPsWoXsDCZmdDlJigIim-C6FshLZQTsYzMDlXQVI,95
+chik_rs/chik_rs.pyi,sha256=8oNqi7HD_Q739Z07tuXnWfPQQMV7wcLPc6W-42xtEBk,176134
+chik_rs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chik_rs/sized_bytes.py,sha256=pkA07xxcb6qQVOi4Y8hT1Rgu3El829HUsXQwf20eioQ,762
+chik_rs/sized_byte_class.py,sha256=JU6TyLCyNRYUFZi1SFc8ibQL9MyFWcjC3aI1stDPinM,2793
+chik_rs/sized_ints.py,sha256=fnz-_AtdbXEWuit5zz8RbnF4BK88ditgABIhiiZCtBE,1705
+chik_rs/struct_stream.py,sha256=5J6Frdd4U3x54YBQSXMT7MbAYOnnqHm-Axs86WsKy3Q,4088
+chik_rs/__init__.py,sha256=iHf6FUoLFAyWPos-YwHUzu-iPBMY7zEdny_DSBQGZ6Q,24
+chik_rs/chik_rs.cp312-win_amd64.pyd,sha256=z3ohEXn8d721EYZipg4vlCibzHBaO0YVIck5Y9MYKkc,6021120
+chik_rs-0.10.0.dist-info/RECORD,,
