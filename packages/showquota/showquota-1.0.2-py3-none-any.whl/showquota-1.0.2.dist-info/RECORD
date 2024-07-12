@@ -1,0 +1,13 @@
+showquota/__init__.py,sha256=Vxpz7uSg_dP2-_52cFELSLa2rUYkUxd7u7nzNWBTHV8,168
+showquota/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+showquota/__version__.py,sha256=moEn2rdIaBMo4CpVeejggWCmrsKhfJLeOr_eaDn8Pd0,23
+showquota/config.cfg,sha256=oK9gRZ2Cmai_wp-fmxsoNxVPrv8j9hAGb6Ii05mLfWw,216
+showquota/config.py,sha256=Je0Knyo-1Mv05J3azp-1x4XTccRk-ByCsTwsJ537QlY,101
+showquota/main.py,sha256=hfRDH0HKeMpG7GXXFmFjoUfd9aM5mXhsqz3h0P_JkqQ,5581
+showquota/showquota.py,sha256=KGO-Os9Z3vvzaUenJQvDFx8rtTwgxKfbCbTSRkMqi5M,5598
+showquota-1.0.2.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+showquota-1.0.2.dist-info/METADATA,sha256=mWBGIfC0y-2wJFcQvFjYEj6kjOEGAIhWanoF3t83kjA,2447
+showquota-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+showquota-1.0.2.dist-info/entry_points.txt,sha256=a8Fjh9U-KwZYC4bqFtY6fVQv0vmyakIAaPj8yuPWV7U,51
+showquota-1.0.2.dist-info/top_level.txt,sha256=276n5QuRkIUNiQus3snf7cnbIG0oYnrYvecGThglQ3c,10
+showquota-1.0.2.dist-info/RECORD,,
