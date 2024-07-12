@@ -1,0 +1,14 @@
+setup.py
+wame-engine/__init__.py
+wame-engine/area.py
+wame-engine/button.py
+wame-engine/engine.py
+wame-engine/scene.py
+wame-engine/settings.py
+wame-engine/text.py
+wame-engine/vector.py
+wame_engine.egg-info/PKG-INFO
+wame_engine.egg-info/SOURCES.txt
+wame_engine.egg-info/dependency_links.txt
+wame_engine.egg-info/requires.txt
+wame_engine.egg-info/top_level.txt
