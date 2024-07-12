@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+data_quality_tool/__init__.py
+data_quality_tool/__main__.py
+data_quality_tool/quality_check.py
+wwl_toc_data_quality_tool.egg-info/PKG-INFO
+wwl_toc_data_quality_tool.egg-info/SOURCES.txt
+wwl_toc_data_quality_tool.egg-info/dependency_links.txt
+wwl_toc_data_quality_tool.egg-info/entry_points.txt
+wwl_toc_data_quality_tool.egg-info/requires.txt
+wwl_toc_data_quality_tool.egg-info/top_level.txt

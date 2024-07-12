@@ -1,0 +1,2 @@
+[console_scripts]
+quality_check = data_quality_tool.__main__:main
