@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+transkription_vosk/__init__.py
+transkription_vosk/transkription_vosk.py
+transkription_vosk.egg-info/PKG-INFO
+transkription_vosk.egg-info/SOURCES.txt
+transkription_vosk.egg-info/dependency_links.txt
+transkription_vosk.egg-info/entry_points.txt
+transkription_vosk.egg-info/requires.txt
+transkription_vosk.egg-info/top_level.txt
