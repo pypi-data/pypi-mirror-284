@@ -1,0 +1,12 @@
+xtbwrp/__init__.py,sha256=X-IjjUcopWg2tDj7F7l3ANMS5aFipG4tDF0N70DF6kA,1177
+xtbwrp/account.py,sha256=OVRUFhThhpDBVdfNUrrTKNFQ0332_TGPelBR0XTvsLk,2443
+xtbwrp/api.ini,sha256=z0uSPf-kqHTyTRWVmybfIbmQP4TuuPo8fmakCsk9NXg,1677
+xtbwrp/client.py,sha256=wVriOagKoNJM0aPeRzGMjZ5xj84m7j84PkdwEv_BWK0,16107
+xtbwrp/handler.py,sha256=XdL-_VhK6W-KqbuN8hTaZa7CfsCelBbGWb4TpO1RieU,46525
+xtbwrp/utils.py,sha256=KhMivx7ciGZLIPXl-mm2NdSWe3g1KU0XosyQxoDc0Gc,8589
+xtbwrp/wrapper.py,sha256=yuK7hvkWusTncQZdFJlimwjJtfJLpQiVr4-qDz38SOM,67736
+xtbwrp-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+xtbwrp-0.1.0.dist-info/METADATA,sha256=astX_AEOSSoGTq9k3VtVqJP68PZYUiWwK73-5_lGvfM,50517
+xtbwrp-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+xtbwrp-0.1.0.dist-info/top_level.txt,sha256=PGXQojcggA1YwS_TrJuImnt5rGi2XhxNfKh9lruEGHA,7
+xtbwrp-0.1.0.dist-info/RECORD,,
