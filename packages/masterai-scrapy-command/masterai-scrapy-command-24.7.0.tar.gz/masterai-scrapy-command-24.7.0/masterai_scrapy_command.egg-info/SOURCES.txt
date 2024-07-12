@@ -1,0 +1,10 @@
+README.md
+setup.py
+masterai_scrapy_command/__init__.py
+masterai_scrapy_command/report.py
+masterai_scrapy_command.egg-info/PKG-INFO
+masterai_scrapy_command.egg-info/SOURCES.txt
+masterai_scrapy_command.egg-info/dependency_links.txt
+masterai_scrapy_command.egg-info/entry_points.txt
+masterai_scrapy_command.egg-info/requires.txt
+masterai_scrapy_command.egg-info/top_level.txt

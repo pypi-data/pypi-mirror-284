@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: masterai-scrapy-command
+Version: 24.7.0
+Summary: A package providing some command for scrapy CLI
+Author: welwel
+Author-email: walwel@yeah.net
+Requires-Python: >=3.6,<4.0
+Requires-Dist: requests
+Requires-Dist: scrapy<3.0.0,>=2.8.0
