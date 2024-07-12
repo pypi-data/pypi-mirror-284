@@ -1,0 +1,7 @@
+setup.py
+tigriscalc/__init__.py
+tigriscalc/tigriscalc.py
+tigriscalc.egg-info/PKG-INFO
+tigriscalc.egg-info/SOURCES.txt
+tigriscalc.egg-info/dependency_links.txt
+tigriscalc.egg-info/top_level.txt
