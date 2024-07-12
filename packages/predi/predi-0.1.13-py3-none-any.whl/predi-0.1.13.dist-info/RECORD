@@ -1,0 +1,12 @@
+predi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+predi/comparator.py,sha256=3F8bXWpGzYxp95g_F2RSyCHTYBCiT1Iobj0f-IxzJS0,11416
+predi/config.py,sha256=GhNQbxUPAXFkWWX6w_uw-ilQ5C2yotW4Xa0suH8ZADo,1743
+predi/diversify_predicates.py,sha256=rMBAok0givLKAZsy2uLi-GTt7d4NNR6xd7b0wMeacNo,2869
+predi/parser.py,sha256=q0W96zl_Zarq6hfAyrfN6w7ynkFEeySZQtgwHDTOC3k,7122
+predi/simplifier.py,sha256=R9_r74_zkZk3j8fzrhoaJAcwCchh1qqLcfgO51yzBxI,3142
+predi/tokenizer.py,sha256=m5gdqC1TZpjOLyNraeSNrdWUEvVpIMaiKnxDuRy924k,3729
+predi-0.1.13.dist-info/LICENSE,sha256=_XmR3ScVQ8DUXz66KZJFwX2K8mO-UPgaNrZzax1pwog,1072
+predi-0.1.13.dist-info/METADATA,sha256=p0ZIjB21mkIJtLAiq0wS9FTVJYRMk6N9rtoG3DMNXxQ,1847
+predi-0.1.13.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+predi-0.1.13.dist-info/top_level.txt,sha256=CHHCELi1ICj9PxPSCSXsNTCLpAlK9KeHNZxYcgfriLo,6
+predi-0.1.13.dist-info/RECORD,,
