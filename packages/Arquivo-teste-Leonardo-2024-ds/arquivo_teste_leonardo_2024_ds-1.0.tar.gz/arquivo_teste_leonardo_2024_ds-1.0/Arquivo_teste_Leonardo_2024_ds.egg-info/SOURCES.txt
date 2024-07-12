@@ -1,0 +1,7 @@
+README.md
+license.txt
+setup.py
+Arquivo_teste_Leonardo_2024_ds.egg-info/PKG-INFO
+Arquivo_teste_Leonardo_2024_ds.egg-info/SOURCES.txt
+Arquivo_teste_Leonardo_2024_ds.egg-info/dependency_links.txt
+Arquivo_teste_Leonardo_2024_ds.egg-info/top_level.txt
