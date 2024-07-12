@@ -1,0 +1,14 @@
+city_ch_autocomplete/apps.py,sha256=sCvGn5kL9aLyi7oz0iatgKWK32hQwVak26Q2X1sQU00,202
+city_ch_autocomplete/forms.py,sha256=fY5wEk987eqTXB0L-AYpuMTs79PkTAtoJdvTRMzzbSc,3566
+city_ch_autocomplete/models.py,sha256=d7FxvUtHqe-mtEVmhuQICOJEuKXJFC2KhQeLikY38ic,951
+city_ch_autocomplete/urls.py,sha256=PSO-3KduiQhLFkVdOxSP8sMI52dG9VgCXVqG8jkRuP8,189
+city_ch_autocomplete/views.py,sha256=d30GJoRaysqE46XpBGewkCkm7aJojnDLzPpvub1F9tc,2847
+city_ch_autocomplete/migrations/0001_initial.py,sha256=y-mK5_k38CwjSWJoVT1vWf4fdfm-PBsVwJnQ4SayaiE,781
+city_ch_autocomplete/migrations/0002_rename_indexes.py,sha256=wnZ_EqRvviV3OcI1SWllK17ZaTGe5rd3BrrEie2XjK4,508
+city_ch_autocomplete/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+city_ch_autocomplete/static/city_ch_autocomplete.js,sha256=DPXqYlu8GsyEVBYOxd0kesjcQvCTkLs9Reh44pcSgWk,6377
+city_ch_autocomplete-0.3.2.dist-info/LICENSE,sha256=DRd76NiBUjf1R3h081rOte5MbYBuopWjw1X_Ok9YW3s,1516
+city_ch_autocomplete-0.3.2.dist-info/METADATA,sha256=1Hf_29OkUq86ottZz-IZ6_WNifT9yleKqZvrl9T3EA4,3039
+city_ch_autocomplete-0.3.2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+city_ch_autocomplete-0.3.2.dist-info/top_level.txt,sha256=csn_gSXLHflKrIoa9zPo9O0IR2CsfWkkqx0uNe9qF-8,21
+city_ch_autocomplete-0.3.2.dist-info/RECORD,,
