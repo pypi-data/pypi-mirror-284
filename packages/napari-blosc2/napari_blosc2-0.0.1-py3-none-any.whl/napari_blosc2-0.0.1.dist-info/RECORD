@@ -1,0 +1,11 @@
+napari_blosc2/__init__.py,sha256=mIO3g0zp9gNJP4-RnrJaRGRq0Cnp8FMXRhfgfpc4SpQ,210
+napari_blosc2/_reader.py,sha256=178cztYaFDIVV4XpORzSy77BI75GhNVvtNr5ZxK3gGo,2321
+napari_blosc2/_writer.py,sha256=InPc_C3HPQJYeq6jY0a2MpBOchsoBl32dlJi7SMffKk,1961
+napari_blosc2/napari.yaml,sha256=bOqYaXJ2aH6_Wsr_7cveK2sP-lm_osTBnXOlZNxetdY,1121
+napari_blosc2/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_blosc2-0.0.1.dist-info/LICENSE,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+napari_blosc2-0.0.1.dist-info/METADATA,sha256=vKaMfKKrkTpqdECdCCl8iXLgIeTFZGjZMjRXIIZdRoA,16541
+napari_blosc2-0.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+napari_blosc2-0.0.1.dist-info/entry_points.txt,sha256=_Z0cjmCH6FsoagohckEnJlN7K7ItxFbwzFGvobIDyJc,60
+napari_blosc2-0.0.1.dist-info/top_level.txt,sha256=goh1hJLh1QFNa2XIrN8pP4Ps09msIqtTC3O-2SrIkkE,14
+napari_blosc2-0.0.1.dist-info/RECORD,,

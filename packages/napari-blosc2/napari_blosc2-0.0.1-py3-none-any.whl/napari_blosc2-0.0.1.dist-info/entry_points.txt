@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-blosc2 = napari_blosc2:napari.yaml
