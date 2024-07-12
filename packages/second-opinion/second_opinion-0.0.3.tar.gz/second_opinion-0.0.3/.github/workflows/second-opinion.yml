@@ -1,0 +1,8 @@
+on: [push]
+
+jobs:
+  second-opinion:
+    runs-on: ubuntu-latest
+    name: Generate an AI Code Review
+      - uses: actions/checkout@v4
+      
