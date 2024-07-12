@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: shaplh
+Version: 1.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Shapley Hierarchical Models
+
