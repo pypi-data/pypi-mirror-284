@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "pykda"
+version = "0.9.3"
+description = "Python package for the Kemeny Decomposition Algorithm (KDA) together with some Markov chain tooling."
+authors = ["Joost Berkhout <joost.berkhout@vu.nl>"]
+maintainers = ["Joost Berkhout <joost.berkhout@vu.nl>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/JoostBerkhout/PyKDA"
+documentation = "https://joostberkhout.github.io/PyKDA/"
+keywords = ["Markov chain", "Kemeny Decomposition Algorithm", "KDA", "Kemeny constant"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+tarjan = "^0.2.4"
+pyvis = "^0.3.2"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.6.2"
+pytest = "^8.0.1"
+ipython = "^8.22.1"
+pytest-cov = "^4.1.0"
+
+# This optional docs group is needed to build the documentation. It is not
+# required by the package itself.
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.11"
+mkdocstrings = {extras = ["python"], version = "^0.24.1"}
+
+# This optional docs group is needed to run the examples locally. It is not
+# required by the package itself.
+[tool.poetry.group.examples]
+optional = true
+
+[tool.poetry.group.examples.dependencies]
+jupyter = "^1.0.0"
+
+[tool.pytest.ini_options]
+addopts = "--cov=PyKDA --cov-report=xml"
+
+[tool.black]
+line-length = 80
+
+[tool.ruff]
+line-length = 80
+select = ["E", "F", "I", "NPY", "RET", "RSE", "RUF", "SLF", "SIM", "TCH"]
+
+[tool.ruff.isort]
+case-sensitive = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
