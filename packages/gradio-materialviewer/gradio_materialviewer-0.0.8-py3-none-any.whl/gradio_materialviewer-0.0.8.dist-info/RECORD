@@ -1,0 +1,10 @@
+gradio_materialviewer/__init__.py,sha256=vrJwiX2m1BcWsT9PwlSNRutSBW2lDFrUVYqz9i4dqmw,74
+gradio_materialviewer/materialviewer.py,sha256=0FramGKupcTOySOWghjEnxf66clqhMkXkbn8thUg9G4,11662
+gradio_materialviewer/materialviewer.pyi,sha256=g3mG9zHoJn5jReK9zCDo_lMT5Ey_o8ii0tIi170o3fY,31549
+gradio_materialviewer/templates/component/index.js,sha256=hNjXsrDLKlLA8myKMWUFnz5ZLZn_wWc1TghXH-gGBJs,2944897
+gradio_materialviewer/templates/component/style.css,sha256=vpe0j7rgSZGvkacvxPWFw4h8DV91yCoHso1Nj2tKdA0,14515
+gradio_materialviewer/templates/example/index.js,sha256=OS9nWHtrMBcPa-vuGta3RE8gDLSp0_43pHlFTZPPASA,2315
+gradio_materialviewer/templates/example/style.css,sha256=-DHk5asz3SWFNLQlCnYuMN4b4gTf_srMmlu5x_xU_Pw,147
+gradio_materialviewer-0.0.8.dist-info/METADATA,sha256=iq_bnmnHmsauzaqCg3AYwSaKLfmBZBfMYjZmwyaZSNo,16410
+gradio_materialviewer-0.0.8.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+gradio_materialviewer-0.0.8.dist-info/RECORD,,
