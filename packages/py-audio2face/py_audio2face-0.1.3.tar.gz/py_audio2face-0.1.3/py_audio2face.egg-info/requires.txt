@@ -1,0 +1,8 @@
+requests
+tqdm
+importlib_resources
+
+[streaming]
+numpy>=1.9.0
+grpcio>=1.65.0
+protobuf==3.20.3
