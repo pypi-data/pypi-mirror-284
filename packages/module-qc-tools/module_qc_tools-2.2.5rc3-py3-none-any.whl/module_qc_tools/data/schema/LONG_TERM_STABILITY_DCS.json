@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schema for output json file",
+  "description": "Raw data json",
+  "definitions": {
+    "serialNumber": {
+      "description": "Chip serial number",
+      "type": "string",
+      "pattern": "^20UPG[A-Z]{2}[0-9]{7}$"
+    },
+    "measurement": {
+      "type": "object",
+      "properties": {
+        "X": { "type": "boolean" },
+        "Unit": { "type": "string" },
+        "Values": { "type": "array", "items": { "type": "number" } }
+      },
+      "required": [ "X", "Unit", "Values" ]
+    }
+  },
+  "type": "array",
+  "items": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "serialNumber": { "$ref": "#/definitions/serialNumber" },
+        "testType": {
+          "description": "Test type",
+          "type": "string",
+          "pattern": "^LONG_TERM_STABILITY_DCS$"
+        },
+        "subtestType": {
+          "const": ""
+        },
+        "results": {
+          "type": "object",
+          "description": "Results of measurement",
+          "properties": {
+            "property": {
+              "type": "object",
+              "properties": {
+                "LONG_TERM_STABILITY_DCS_MEASUREMENT_VERSION": { "type": "string" }
+              },
+              "required": [ "LONG_TERM_STABILITY_DCS_MEASUREMENT_VERSION" ]
+            },
+            "comment": { "type": "string" },
+            "Measurements": {
+              "type": "object",
+              "description": "Measurement data",
+              "properties": {
+                "time": { "$ref": "#/definitions/measurement" },
+                "BIAS_VOLT": { "$ref": "#/definitions/measurement" },
+                "LEAKAGE_CURR": { "$ref": "#/definitions/measurement" },
+                "LV_VOLT": { "$ref": "#/definitions/measurement" },
+                "LV_CURR": { "$ref": "#/definitions/measurement" },
+                "MOD_TEMP": { "$ref": "#/definitions/measurement" },
+                "MOD_HUM": { "$ref": "#/definitions/measurement" }
+              },
+              "required": [ "time", "BIAS_VOLT", "LEAKAGE_CURR", "LV_VOLT", "LV_CURR", "MOD_TEMP", "MOD_HUM" ]
+            },
+            "Metadata": {
+              "type": "object",
+              "description": "Meta data",
+              "properties": {
+                "AverageTemperature": { "type": "number" },
+                "TimeStart": { "type": "integer" },
+                "TimeEnd": { "type": "integer" },
+                "Institution": { "type": "string" },
+                "ModuleSN": { "$ref": "#/definitions/serialNumber" }
+              },
+              "required": [ "AverageTemperature", "TimeStart", "TimeEnd", "Institution", "ModuleSN" ]
+            }
+          },
+          "required": [ "property", "comment", "Measurements", "Metadata" ]
+        }
+      },
+      "required": [ "serialNumber", "testType", "subtestType", "results" ]
+    }
+  }
+}
