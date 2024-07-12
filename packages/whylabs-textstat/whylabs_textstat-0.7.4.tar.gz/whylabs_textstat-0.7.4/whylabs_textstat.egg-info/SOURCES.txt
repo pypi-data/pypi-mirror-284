@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+textstat/__init__.py
+textstat/textstat.py
+textstat/resources/en/easy_words.txt
+textstat/resources/es/easy_words.txt
+whylabs_textstat.egg-info/PKG-INFO
+whylabs_textstat.egg-info/SOURCES.txt
+whylabs_textstat.egg-info/dependency_links.txt
+whylabs_textstat.egg-info/requires.txt
+whylabs_textstat.egg-info/top_level.txt
