@@ -1,0 +1,5 @@
+curses
+time
+
+[:platform_system == "Windows"]
+windows-curses
