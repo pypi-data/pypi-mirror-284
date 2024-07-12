@@ -1,0 +1,2 @@
+[console_scripts]
+docuwarp = docuwarp.cli:main

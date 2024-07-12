@@ -1,0 +1,10 @@
+docuwarp/__init__.py,sha256=0FLtz6q-ht59Xl0VS2EokulwR4D22k0booNZxeMqMm0,48
+docuwarp/cli.py,sha256=tk_Qzl5QYKKLPy63IZkXuN0DoiRgJut5fvzgRPHxUpk,904
+docuwarp/unwarp.py,sha256=T453dZnN1ubT87kAmhqJfwqg3AIMuAItut1PW5G80Qo,2067
+docuwarp/artifacts/bilinear_unwarping.onnx,sha256=jxIWY5iVuEVj2LBHacISNEvoSCen_UwRMh-cW4lZKO8,1934
+docuwarp/artifacts/uvdoc.onnx,sha256=88qO9oJi5nxZ9JksT579yV8rB2tLvrkjLOcKb0jjUVs,32120219
+docuwarp-1.0.1.dist-info/METADATA,sha256=b-jjeQ32qDT201sBWsQfcemERdNfqsRlWqKzC6v_nzk,2534
+docuwarp-1.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+docuwarp-1.0.1.dist-info/entry_points.txt,sha256=FPkFJHfDel0YKWqv45Gfa1UoyPq4IDn6tkyr2QOSfWs,47
+docuwarp-1.0.1.dist-info/top_level.txt,sha256=VvOZd_pKxcSrNxX5R6t_ayWgUj4OWpgT1L2boLpUaPI,9
+docuwarp-1.0.1.dist-info/RECORD,,
