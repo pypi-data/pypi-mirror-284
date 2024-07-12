@@ -1,0 +1,13 @@
+[package]
+name = "shr_parser_bindings"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "shr_parser"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.21.1"
+shr_parser = "1.0.2"
