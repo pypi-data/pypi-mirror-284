@@ -1,0 +1,14 @@
+pyproject.toml
+setup.py
+transcribify/__init__.py
+transcribify/audio_processing.py
+transcribify/gui.py
+transcribify/live_transcription.py
+transcribify/models.py
+transcribify/transcription.py
+transcribify/utils.py
+transcribify.egg-info/PKG-INFO
+transcribify.egg-info/SOURCES.txt
+transcribify.egg-info/dependency_links.txt
+transcribify.egg-info/requires.txt
+transcribify.egg-info/top_level.txt
