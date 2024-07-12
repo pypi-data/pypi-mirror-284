@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: woppy
+Version: 0.1.3
+Summary: A Python library to manage WordPress sites via the REST API
+Home-page: https://github.com/techard/woppy
+Author: Techard
+Author-email: info@techard.net
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Woppy
+
+Woppy is a Python library to manage WordPress sites via the REST API.
+
+## Installation
+
+```bash
+pip install woppy
+
+
+## Usage
+
+
+```python
+from woppy import Woppy
+
+woppy = Woppy('https://your-wordpress-site.com', 'your-username', 'your-password')
+
+# Create a new post
+new_post = woppy.create_post('My New Post', 'This is the content of my new post')
+
+# Update an existing post
+updated_post = woppy.update_post(new_post['id'], title='Updated Title')
+
+# Get categories
+categories = woppy.get_categories()
+
+# Create a new category
+new_category = woppy.create_category('New Category', 'This is a new category')
