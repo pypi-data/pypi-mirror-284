@@ -1,0 +1,19 @@
+[project]
+name = "calc-taeg"
+authors = [{name = "Thibaut_S", email = "py@spriet.online"}]
+readme = "README.md"
+description = "Calcul du taux annuel effectif global"
+requires-python = ">=3.8"
+keywords = ["taux","taeg","credit",]
+license = {text = "MIT-License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "fr-date",
+]
+version = "1.0.1"
+
+[project.urls]
+Homepage = "https://gitlab.com/Thibaut_S/calc-taeg"
+"Bug Tracker" = "https://gitlab.com/Thibaut_S/calc-taeg/-/issues"
