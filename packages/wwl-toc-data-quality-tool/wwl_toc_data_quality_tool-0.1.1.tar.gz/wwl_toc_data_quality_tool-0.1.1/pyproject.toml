@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "pip==24"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wwl_toc_data_quality_tool"
+version = "0.1.1"
+description = "A tool to check data quality against predefined standards."
+readme = { file = "README.md", content-type = "text/markdown" }
+license = {file = "LICENSE"}
+requires-python = ">=3.6"
+authors = [
+    { name = "Xifan.Z", email = "xifanzou42@gmail.com" },
+]
+dependencies = [
+    "pandas",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/xifanzou/data_quality_check"
+
+[project.scripts]
+quality_check = "data_quality_tool.__main__:main"
