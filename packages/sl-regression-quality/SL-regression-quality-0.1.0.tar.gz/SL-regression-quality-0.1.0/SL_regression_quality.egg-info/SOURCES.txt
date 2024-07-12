@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+SL-regression-quality/__init__.py
+SL-regression-quality/code_example.py
+SL-regression-quality/global_constants.py
+SL-regression-quality/main_routine.py
+SL-regression-quality/metrics.py
+SL-regression-quality/outlier_detection.py
+SL-regression-quality/parameters.py
+SL-regression-quality/resolution.py
+SL-regression-quality/user_messages.py
+SL_regression_quality.egg-info/PKG-INFO
+SL_regression_quality.egg-info/SOURCES.txt
+SL_regression_quality.egg-info/dependency_links.txt
+SL_regression_quality.egg-info/requires.txt
+SL_regression_quality.egg-info/top_level.txt
