@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+gpumd_wizard.egg-info/PKG-INFO
+gpumd_wizard.egg-info/SOURCES.txt
+gpumd_wizard.egg-info/dependency_links.txt
+gpumd_wizard.egg-info/requires.txt
+gpumd_wizard.egg-info/top_level.txt
+wizard/__init__.py
+wizard/atoms.py
+wizard/calculator.py
+wizard/frames.py
+wizard/io.py
+wizard/molecular_dynamics.py
+wizard/phono.py
