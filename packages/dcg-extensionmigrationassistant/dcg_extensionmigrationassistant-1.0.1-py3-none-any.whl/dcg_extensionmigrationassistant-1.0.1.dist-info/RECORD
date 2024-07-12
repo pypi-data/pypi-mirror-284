@@ -1,0 +1,13 @@
+assessment/SCTAssessmentReportTemplate.html,sha256=wknLq2cbqm8FCCeLo4JjnDybR2UUTzsYtjsUAwXVSw8,6093
+assessment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assessment/assessment.py,sha256=M5TS3sseW5OVihMm66SLK46cAYPAZHzSJ67kgpI14Ss,16342
+assessment/awssctcomplexitymatrix.csv,sha256=1-IZZN_OovrmrjulKo9egFqY1Hr84U-fmr3IySIC4wQ,56741
+assessment/sct_input.csv,sha256=yk5VfnkKjGDvV6mYrZNJ_-U98Z8sa-npBPpyr6ncHP8,25387
+mock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mock/mock.py,sha256=EsSUKAuUXjU4xVTUNKLp2648D2G2xBKieetk1uOceFA,1069
+dcg_extensionmigrationassistant-1.0.1.dist-info/LICENSE.txt,sha256=sROzjxMeuDh2GyrfZak8oXhHshzEKUYxvBpVqDSiJlQ,1091
+dcg_extensionmigrationassistant-1.0.1.dist-info/METADATA,sha256=i9VdfM7eEiEvHWyIhdssfCxrY60ZWhxHENJZrBFn7fQ,5907
+dcg_extensionmigrationassistant-1.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+dcg_extensionmigrationassistant-1.0.1.dist-info/entry_points.txt,sha256=qONSdwxxeMSnwA2JeFYhwf3HNHb5zo7B8pt8_5kjIcU,68
+dcg_extensionmigrationassistant-1.0.1.dist-info/top_level.txt,sha256=V6Twcx0GWZQmzUAoAWUWGOaLqS4j2NSO7CeQggJbVOk,16
+dcg_extensionmigrationassistant-1.0.1.dist-info/RECORD,,
