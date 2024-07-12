@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+intellectronica/__init__.py
+intellectronica/ai.py
+intellectronica.egg-info/PKG-INFO
+intellectronica.egg-info/SOURCES.txt
+intellectronica.egg-info/dependency_links.txt
+intellectronica.egg-info/top_level.txt
+tests/test_ai.py

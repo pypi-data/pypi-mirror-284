@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: intellectronica
+Version: 0.1.202407111800
+Summary: Eleanor's Python Package
+Home-page: https://github.com/intellectronica/intellectronica.py
+Author: Eleanor Berger
+Author-email: eleanor@intellectronica.net
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# intellectronica.py
+Eleanor's Python Package
