@@ -1,0 +1,14 @@
+spark_instructor/__init__.py,sha256=6AU5xaFi6dmqmrlCMTmN1ZSZDjERm4dR-tNkUuSLns8,178
+spark_instructor/client.py,sha256=1HP8cxi0QIBLMAMp7hWPc6oeWvIyJUHVgA013FUsCME,2938
+spark_instructor/completions/__init__.py,sha256=8x1xKM5SvFUTwErUzawSejxeYkTQR-Pb7EsmRJyQwDk,617
+spark_instructor/completions/anthropic.py,sha256=bIrUmQ9ojo17XBBwsEq8yJ6OoRXXb6YuHVd1qrLI6ow,2185
+spark_instructor/completions/base.py,sha256=Q-o8oXVtnFfxlOJ7zEb37YMTI7F6tQZAFG1nhUTwM3s,254
+spark_instructor/completions/databricks.py,sha256=LCMFTLJ3S5LvoLW7wJy9sBnhO4QJnUllYNUuqYCL094,236
+spark_instructor/completions/openai.py,sha256=klT-lGInDTRnT6J4INYj9Mub3xsEzZfhrzQYDr0jq4M,269
+spark_instructor/response_models.py,sha256=Dsd_BnhdjA-q3EMxU-_3mFrC8fLtRbjIINi2dx9UVqA,155
+spark_instructor/udf.py,sha256=iAvRptec_GwfyTzX_HyUYN7P_d1g3NHmeInfKVHESK8,7271
+spark_instructor-0.0.1.dist-info/entry_points.txt,sha256=RZ2-n3vkjzSBjTStzl6MduzVLYyvA-F4-P0uzdRlOwo,42
+spark_instructor-0.0.1.dist-info/LICENSE,sha256=LzQ2mfdCOmIa985F1vbkcl_P2hqhHuknVXeUyzBgOwM,1086
+spark_instructor-0.0.1.dist-info/METADATA,sha256=5oUT44MIYqiuvD_3CUPHy9lShat3uuGB120URiEJxzI,3178
+spark_instructor-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+spark_instructor-0.0.1.dist-info/RECORD,,
