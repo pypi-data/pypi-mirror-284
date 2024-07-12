@@ -1,0 +1,7 @@
+[console_scripts]
+ou_xml_validator = ou_xml_validator.cli:cli
+ouseful_ipynb2md = ou_xml_validator.ouxml2md:main
+ouseful_obt = ou_xml_validator.obt:main
+ouseful_ouxml2md = ou_xml_validator.ouxml2md:main
+ouseful_ouxml2mm = ou_xml_validator.ouxml2mm:main
+ouseful_ouxml2tw = ou_xml_validator.ouxml2tw:main

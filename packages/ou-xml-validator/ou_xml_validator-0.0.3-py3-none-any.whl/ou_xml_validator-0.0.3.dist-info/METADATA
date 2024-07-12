@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ou_xml_validator
+Version: 0.0.3
+Summary: Simple OU-XML document validator.
+Author: Tony Hirst
+Author-email: tony.hirst@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: xmlschema
+Requires-Dist: lxml
+Requires-Dist: pyyaml
+Requires-Dist: rich
+Requires-Dist: typer[all]
+Requires-Dist: mdformat
+Requires-Dist: mdformat-myst
+Requires-Dist: mdformat-tables
+Requires-Dist: mdformat-web
+
+
+    Tools to support validate the creation of well formed OUXML.
+    
