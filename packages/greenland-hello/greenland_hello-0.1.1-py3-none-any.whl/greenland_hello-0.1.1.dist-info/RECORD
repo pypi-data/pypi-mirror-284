@@ -1,0 +1,12 @@
+greenland/hello/.gitignore,sha256=u0CUrbBhSIjiHIzKkNfRmPqdazdFLe9yLN9sQo_1bcY,16
+greenland/hello/__about__.py,sha256=NJnocr7PRA0zcemptDaqGl5oyTXESKbZbHbMot3TYe4,160
+greenland/hello/__init__.py,sha256=YMPljujorCe2aYq3c7YBF6sFNTwLxF8SJEDWHN068lE,138
+greenland/hello/__version__.py,sha256=PKIMyjdUACH4-ONvtunQCnYE2UhlMfp9su83e3HXl5E,411
+greenland/hello/version.py,sha256=jX_UeJtdNWHF0RHfSiGJJNCHqaC_d6Qi61OcrvwQXpE,1622
+greenland/hello/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+greenland/hello/bin/greenland_hello.py,sha256=PvLreX2FzCxTYzM5mIKS0NTslI1oWpPLZcZhi73ENl0,1476
+greenland_hello-0.1.1.dist-info/METADATA,sha256=mYOr373d6A0jUtXJlPif8NiTrzXfQc4yj1lr1GJLX8w,1556
+greenland_hello-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+greenland_hello-0.1.1.dist-info/entry_points.txt,sha256=CVr4bceetgaj4qb_Ea9hOlyER1ppsN6mStC7kiMYcWs,77
+greenland_hello-0.1.1.dist-info/licenses/LICENSE.txt,sha256=-5gWaMGKJ54oX8TYP7oeg2zITdTapzyWl9PP0tispuA,34674
+greenland_hello-0.1.1.dist-info/RECORD,,
