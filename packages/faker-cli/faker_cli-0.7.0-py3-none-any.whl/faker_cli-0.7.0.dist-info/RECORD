@@ -1,0 +1,16 @@
+faker_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+faker_cli/cli.py,sha256=89AQs96vSvD1C8lFjUliBx25pwfFpGjuKdvV4d8sks4,5459
+faker_cli/parser.py,sha256=ZpULrBmMp1xlcprt5y1hObetSchpR5e5x-Q_quP2Td8,1036
+faker_cli/providers/base.py,sha256=kT3CsD9Y5PpFijqYXx7vwAy17GFxIWs_O_0LmSs5R8U,29
+faker_cli/providers/faker.py,sha256=IMg7F0aPcKh0ABCZgVXOrFBx7iTIt4CUlTUXCxesBZw,671
+faker_cli/providers/mimesis.py,sha256=8C1CbtGLsVdVPzi6QeANC26JMAq_zcHkPdrTRvrfxKo,423
+faker_cli/templates.py,sha256=O0v-Up_Fl2xGHA-TXbfgN6ZR4nWa5oNx0wYVl4owcIs,27694
+faker_cli/writer.py,sha256=TxreL3kv5ex70EkgP7IBdD1apuQfEQtN389D3CI4vCA,935
+faker_cli/writers/delta.py,sha256=tEr6NoozwxfO1GVdIHZJG-lPDfzoGWzJ6ILhYSzvmr8,210
+faker_cli/writers/iceberg.py,sha256=tCIlZ3YyjlQ2zIL5cyUvHcHGbjinVRukaUBSJEaQqzo,3142
+faker_cli/writers/parquet.py,sha256=CYwu3H7mHt5Gn8H74DtVbr3PHDvysJ9G7M6v5kA3ElQ,692
+faker_cli-0.7.0.dist-info/LICENSE,sha256=O1HFTF1xt7AjydzcV2QmCiPwUKPIJ33VF66bvQwxx-U,1073
+faker_cli-0.7.0.dist-info/METADATA,sha256=Fh8tFkx5YIDeQhT-lLmlT4i3cD3N2-_rV-b2ltcZ-z0,6518
+faker_cli-0.7.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+faker_cli-0.7.0.dist-info/entry_points.txt,sha256=xif3000zRtOIbYxY2TiY96XalXG6C0mdDtjjpesH5nc,43
+faker_cli-0.7.0.dist-info/RECORD,,
