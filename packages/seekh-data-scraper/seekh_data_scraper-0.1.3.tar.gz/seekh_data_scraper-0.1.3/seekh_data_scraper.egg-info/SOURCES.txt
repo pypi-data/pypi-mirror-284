@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+seekh_data_scraper.egg-info/PKG-INFO
+seekh_data_scraper.egg-info/SOURCES.txt
+seekh_data_scraper.egg-info/dependency_links.txt
+seekh_data_scraper.egg-info/top_level.txt
