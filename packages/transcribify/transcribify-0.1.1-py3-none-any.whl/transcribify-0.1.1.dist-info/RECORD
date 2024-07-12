@@ -1,0 +1,11 @@
+transcribify/__init__.py,sha256=O3qA7nPPstG4x92Cr68oBeTHoDy5hhFvxx5-vPueVxg,231
+transcribify/audio_processing.py,sha256=ajp-5MjrBkXuWZRKVwUl_U33koWIINwzlEeVZY_ze9M,500
+transcribify/gui.py,sha256=zYSwtvJpreorhK2g0loX6LNjVZNjX_xNJg3u2uFl9DU,5259
+transcribify/live_transcription.py,sha256=NJQsZQD-f95GbWkdT_7QLuogosJ115dXWa7Yv16qWbQ,3005
+transcribify/models.py,sha256=Mys1e8r95Gpcv3cG0gGaHM4TdWNxXO1G08mwh9YTiAI,2235
+transcribify/transcription.py,sha256=uuVHaQUz7TWyAhER5wShBbyB0M0trM7ccVkIe2lOL1M,721
+transcribify/utils.py,sha256=oiPATrVWwa08AP3B3RDGRKmSjBLpclzPxjyxrSHao1M,1986
+transcribify-0.1.1.dist-info/METADATA,sha256=7D6TpcglXyS-h4ZMA874tyn0svR9H6GZflIBrhrxDao,3128
+transcribify-0.1.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+transcribify-0.1.1.dist-info/top_level.txt,sha256=5NQGT1LQqWdE7y4XkO7qE8JwoGh4PfpWw-cgWGeo6T0,13
+transcribify-0.1.1.dist-info/RECORD,,
