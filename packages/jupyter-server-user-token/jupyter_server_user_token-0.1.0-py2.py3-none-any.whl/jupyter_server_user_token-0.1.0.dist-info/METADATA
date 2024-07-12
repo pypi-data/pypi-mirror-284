@@ -1,0 +1,39 @@
+Metadata-Version: 2.3
+Name: jupyter-server-user-token
+Version: 0.1.0
+Summary: Jupyter Server Extension to inject the User Token into the Jupyter Server environment
+Project-URL: Home, https://github.com/curvenote/jupyter-server-user-token
+Author-email: Steve Purves <steve@curvenote.com>
+License: Copyright 2024 Curvenote
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+License-File: LICENSE
+Keywords: Auth,Extension,Jupyter
+Classifier: Framework :: Jupyter
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jupyter-server
+Description-Content-Type: text/markdown
+
+# jupyter-server-user-token
+
+A simple Jupyter Server extension that adds the server's User Token (if it exists) into the process's environment as `JUPYTER_SERVER_USER_TOKEN`.
+
+## Why?
+
+Some frontend extensions and visualisation libraries use iframes to render documents served out on Jupyter Server Proxy.
+
+These iframes might have an href target like: `/proxy/index.html?some=query-params` and work happily when used in notebooks and lab.
+
+In the context of `myst` the same visualisations run into issues when connecting to remote Jupyter servers running on different origins, as the cookie-based auth in play in a same-origin lab front ends, will fail on a typlical myst website.
+
+By exposing the user token, end user code can do something about this and supply the user token string to the library / extension code that needs it.
