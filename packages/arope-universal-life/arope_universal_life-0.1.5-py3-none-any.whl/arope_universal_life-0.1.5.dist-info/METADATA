@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: arope_universal_life
+Version: 0.1.5
+Summary: arope-universal-life-modules
+Author: Novacture
+Author-email: amine.zemni@novacture.com
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas ==2.2.2
+Requires-Dist: pytest
+
+Installer les dépendances et lancer : `make start`
+Installer les dépendances uniquement : `make install`
+Lancer les tests : `make test`
