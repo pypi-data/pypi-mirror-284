@@ -1,0 +1,2 @@
+[console_scripts]
+pandoc-inplace-include = pandoc_inplace_include.main:main
