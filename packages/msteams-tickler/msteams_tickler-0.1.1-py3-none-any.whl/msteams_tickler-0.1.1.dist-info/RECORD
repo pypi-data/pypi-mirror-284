@@ -1,0 +1,10 @@
+msteams_tickler/img/expired.png,sha256=wAbzt9SnjXDQd_ZlklDFujT2-L7TmhcaRjJFhpn1swE,19347
+msteams_tickler/main.py,sha256=9KesamQVcCXkZm8opk95eztiXYzgMVRsqguZIpkvKPI,1045
+msteams_tickler/models.py,sha256=tnpiIfS238AvUFAGBhg3T50yKDUDfpt5_C7WZeXBcXo,1493
+msteams_tickler/notify.py,sha256=zwgDSwZyAfSRsaz6ECIrFdxr3dtkJ3miMd75pSFMIP8,653
+msteams_tickler/token.py,sha256=CocDluSF5fcAXlT9cmYteIZniEF3usbppp9Yl3psYxE,673
+msteams_tickler-0.1.1.dist-info/entry_points.txt,sha256=TRvjm7qsfO2ipZ-rgvZI1yiahAhplNuAay7tLkkhmv0,61
+msteams_tickler-0.1.1.dist-info/LICENSE,sha256=gBlYCG1yxb0vGlsmek0lMPVOK5YDxQope4F54jzeqoY,1069
+msteams_tickler-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+msteams_tickler-0.1.1.dist-info/METADATA,sha256=c4nQcq6vAj5XHV4gG3Reyr2eZwfsFuxWiJ-3M4Z1Reo,1494
+msteams_tickler-0.1.1.dist-info/RECORD,,
