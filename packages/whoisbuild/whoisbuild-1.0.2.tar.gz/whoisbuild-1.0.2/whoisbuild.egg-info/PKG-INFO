@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: whoisbuild
+Version: 1.0.2
+Summary: A module to facilitate the creation of Embeds Discord
+Home-page: https://github.com/votrecompte/discord_embed_helper
+Author: Taylor Kalos
+Author-email: talosfk@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: discord.py
