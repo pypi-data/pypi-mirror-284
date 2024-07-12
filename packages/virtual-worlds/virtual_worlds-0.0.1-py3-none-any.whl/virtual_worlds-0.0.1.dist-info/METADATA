@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: virtual-worlds
+Version: 0.0.1
+Summary: Utils for virtual-worlds models
+Author-email: dingo0927@126.com
+Keywords: robots,ai,intelligence,virtual-worlds
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.4
+
+Utils for virtual-worlds models
