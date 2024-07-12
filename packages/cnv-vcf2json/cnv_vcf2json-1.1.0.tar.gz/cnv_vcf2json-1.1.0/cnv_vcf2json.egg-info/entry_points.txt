@@ -1,0 +1,3 @@
+[console_scripts]
+cnv-vcf2json = vcf_converter.cnv_vcf2json:cnv_vcf2json
+

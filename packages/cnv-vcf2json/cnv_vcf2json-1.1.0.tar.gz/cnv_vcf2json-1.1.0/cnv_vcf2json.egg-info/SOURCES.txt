@@ -1,0 +1,10 @@
+README.md
+setup.py
+cnv_vcf2json.egg-info/PKG-INFO
+cnv_vcf2json.egg-info/SOURCES.txt
+cnv_vcf2json.egg-info/dependency_links.txt
+cnv_vcf2json.egg-info/entry_points.txt
+cnv_vcf2json.egg-info/requires.txt
+cnv_vcf2json.egg-info/top_level.txt
+vcf_converter/__init__.py
+vcf_converter/cnv_vcf2json.py
