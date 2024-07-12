@@ -1,0 +1,3 @@
+[console_scripts]
+cursely=cursely.__main__:main
+
