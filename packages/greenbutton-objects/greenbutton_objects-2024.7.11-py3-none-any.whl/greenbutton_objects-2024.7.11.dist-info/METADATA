@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: greenbutton_objects
+Version: 2024.7.11
+Summary: Parse Green Button XML files into Python objects.
+Author-email: Phil Gold <phil_g@pobox.com>, Adam Finkle <77808710+AdamFinkle@users.noreply.github.com>, Ethan Strominger <ethanstrominger2@gmail.com>
+License: Copyright 2016 Phil! Gold <phil_g@pobox.com>
+        
+        See the NOTICE file for information about related copyrighted works.
+        
+        Licensed under the Apache License, Version 2.0 (the "License"); you may
+        not use this file except in compliance with the License.  You may obtain a
+        copy of the License at
+        
+            http://www.apache.org/licenses/LICENSE-2.0
+        
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+        WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+        License for the specific language governing permissions and limitations
+        under the License.
+        
+Project-URL: Homepage, https://github.com/codeforboston/greenbutton_objects
+Keywords: feed,reader,tutorial
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# Green Button Objects
+
+This Python code parses an Energy Service Provider Interface
+(ESPI), or "Green Button", XML file into Python objects.
+
+Run `parse_feed()` from the `parse.py` file to get a list of `UsagePoint`
+objects.  From there you should be able to explore all of the data in the
+feed.  Documentation is a little lacking at the moment, but the class
+members mostly match the names from the ESPI standard (or at least the XML
+entities).
+
+There's a bit of documentation in the `doc` directory about the ESPI
+standard, mostly figured out from public sources and actual ESPI files.
+
+Forked from the original repository [greenbutton-objects](https://github.com/asciipip/greenbutton-python)
+and packaged to be published on PyPI.
+
+Used by the Code for Boston [Home Energy Analysis Tool](https://github.com/codeforboston/home-energy-analysis-tool).
+
+
+## Development
+Simple steps for development setup:
+
+1. Clone the git repository.
+3. Navigate to any directory and create a [virtual environment](https://docs.python.org/3/library/venv.html#creating-virtual-environments) and activate it
+4. The following commands can be run from inside the top-level greenbutton_objects folder while the virtual environment is active
+2. `pip install -e .` builds the [python egg](https://stackoverflow.com/questions/2051192/what-is-a-python-egg) for greenbutton_objects and then installs greenbutton_objects
+3. `pip install -r requirements-dev.txt` which installs the libraries required to develop greenbutton_objects
+
+Then, you should be able to run `pytest`, also from any directory, and see the test run successfully.
