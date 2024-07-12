@@ -1,0 +1,52 @@
+
+[tool.poetry]
+name = "lightrag-project"
+version = "0.1.0"
+description = "A project to develop and test the lightrag library"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+packages = [{ from = "_lightrag", include = "lightrag" }]          # empty packages list
+
+[tool.poetry.dependencies]
+python = ">=3.10, <4.0"
+# lightrag = { path = "lightrag", develop = true }
+torch = "^2.3.1"
+openai = "^1.34.0"
+# lightrag = {path = "lightrag/dist/lightrag-0.0.0a11-py3-none-any.whl"}
+lightrag = "^0.0.0a13"
+
+
+[tool.poetry.group.dev.dependencies]
+
+pre-commit = "^3.7.0"
+anthropic = "^0.26.0"
+torchmetrics = "^1.4.0.post0"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.4"
+dataclasses-jsonschema = "^2.16.0"
+groq = "^0.5.0"
+pgvector = "^0.2.5"
+cohere = "^5.5.8"
+pydot = "^2.0.0"
+matplotlib = "^3.9.0"
+pyvis = "^0.3.2"
+
+
+[tool.poetry.group.doc.dependencies]
+pydata-sphinx-theme = "^0.15.3"
+sphinx-design = "^0.6.0"
+sphinx-copybutton = "^0.5.2"
+sphinx = "^7.3.7"
+nbsphinx = "^0.9.4"
+nbconvert = "^7.16.4"
+pandoc = "^2.3"
+readthedocs-sphinx-search = "^0.3.2"
+sqlalchemy = "^2.0.31"
+google-generativeai = "^0.7.1"
+faiss-cpu = "^1.8.0.post1"
+lightrag = { path = "lightrag", develop = true }
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
