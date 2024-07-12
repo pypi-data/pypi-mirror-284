@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: vpmobil
+Version: 0.1
+Summary: A python package for interacting with a stundenplan24.de substitution plan
+Home-page: https://github.com/annhilati/vpmobil-py
+Author: Annhilati & Joshi
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+<h1 align="center">vpmobil-py</h1>
+<p align="center">
+  <a href="#"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/annhilati/vpmobil-py?style=for-the-badge&logo=github&label=Letzter%20Commit&color=23A55A"></a>
+  <a href="#"><img alt="GitHub License" src="https://img.shields.io/github/license/annhilati/vpmobil-py?style=for-the-badge&label=Lizenz&color=F23F42"></a>
+  <p align="center">Because Indiware only distributes substitution plan modules in Germany and the vast majority of users are therefore German, the package and the wiki are formulated in German</p>
+</p>
+
+<h3 align="center">â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ DISCLAIMER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</h3>
+<p align="center">
+  Das Paket und seine zugehÃ¶rigen Dienste und Projekte sind eigenstÃ¤ndig und stehen in keiner Verbindung zu Indiware, der VpMobil24 App oder stundenplan24.de. Die Nutzung obliegt der Verantwortung des Nutzers. Die   Entwickler Ã¼bernimmt keine Haftung fÃ¼r SchÃ¤den, die durch die Nutzung der App entstehen.
+</p>
