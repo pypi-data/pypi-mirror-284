@@ -1,0 +1,7 @@
+azapy>=1.2.5
+numpy
+pandas
+matplotlib
+
+[:platform_system == "Windows"]
+xlsxwriter
