@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "apollo-py-numpy"
+version = "0.0.1"
+description = ""
+authors = ["Danny Rakita <daniel.rakita@yale.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+apollo-py-core = "^0.0.3"
+numpy = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
