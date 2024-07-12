@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: ewoksid22
+Version: 0.1.1
+Summary: Data processing workflows for Id22
+Home-page: https://gitlab.esrf.fr/workflow/ewoksapps/ewoksid22/
+Author: ESRF
+Author-email: wout.de_nolf@esrf.fr
+License: MIT
+Project-URL: Source, https://gitlab.esrf.fr/workflow/ewoksapps/ewoksid22/
+Project-URL: Documentation, https://ewoksid22.readthedocs.io/
+Project-URL: Tracker, https://gitlab.esrf.fr/workflow/ewoksapps/ewoksid22/issues/
+Keywords: ewoks
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: ewoks
+Requires-Dist: scipy
+Requires-Dist: h5py
+Requires-Dist: hdf5plugin
+Requires-Dist: silx>=1
+Requires-Dist: pyopencl
+Provides-Extra: test
+Requires-Dist: pytest>=7; extra == "test"
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Requires-Dist: black>=22; extra == "dev"
+Requires-Dist: flake8>=4; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: pytest>=7; extra == "doc"
+Requires-Dist: sphinx>=4.5; extra == "doc"
+Requires-Dist: sphinx-autodoc-typehints>=1.16; extra == "doc"
+
+# ewoksid22
+
+Data processing workflows for ID22
+
+## Getting started
+
+Example of using the command line scripts directly (needs access to `/data/id22/inhouse/`):
+
+```bash
+./examples/rebinsum.sh
+```
+
+Example of defining and executing an HDF5 to SPEC conversion workflow (needs access to `/data/id22/inhouse/`):
+
+```bash
+ewoks execute examples/convert.json
+```
+
+Example of defining and executing a ROI collection rebin+sum workflow (needs access to `/data/id22/inhouse/`):
+
+```bash
+ewoks execute examples/rebinsum.json
+```
+
+## Installation
+
+```bash
+pip install multianalyzer@git+https://github.com/kif/multianalyzer.git@main
+pip install ewoksid22
+```
+
+The following command line scripts are installed:
+
+* `id22sumepy`: python wrapper for `id22sume` and `id22sumalle`
+* `id22sume`: fortran program
+* `id22sumalle`: fortran program
+* `zingit`: awk program
+
+## Documentation
+
+https://ewoksid22.readthedocs.io/
