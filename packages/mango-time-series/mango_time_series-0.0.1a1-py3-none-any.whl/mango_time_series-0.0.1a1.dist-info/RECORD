@@ -1,0 +1,9 @@
+mango/__init__.py,sha256=fSUtzrtiyLwqDnZlsU07yeIZB-8HA0iQFefBAEOpR9k,108
+mango/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mango/tests/test_time_series_dataframe.py,sha256=GV2a5TiYtLJA0dlXmIiDlXGApHcYd6M38HsA7ppVK2Q,366
+mango/time_series/__init__.py,sha256=hxgrnSwBnu_oGvoGvojBpe8VFg1IyE6Jpxww-jPeC50,122
+mango_time_series-0.0.1a1.dist-info/LICENSE,sha256=NNDqs6jdqJKMnIWDzMMmyEqMaUcBEnE_94mFvFvMprc,10766
+mango_time_series-0.0.1a1.dist-info/METADATA,sha256=JD4rGZCjuIdai_6_b65aoGfy24aO9tmQAdmd9RU8Nqg,654
+mango_time_series-0.0.1a1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+mango_time_series-0.0.1a1.dist-info/top_level.txt,sha256=NLfoE4WG_NC9Nwva22JeEStU-TieeO3uSbcb9mClGxE,6
+mango_time_series-0.0.1a1.dist-info/RECORD,,
