@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Eelx.egg-info/PKG-INFO
+Eelx.egg-info/SOURCES.txt
+Eelx.egg-info/dependency_links.txt
+Eelx.egg-info/requires.txt
+Eelx.egg-info/top_level.txt
+eelx/__init__.py
+eelx/__main__.py
+eelx/browsers.py
+eelx/chrome.py
+eelx/edge.py
+eelx/electron.py
+eelx/py.typed
+eelx/types.py
