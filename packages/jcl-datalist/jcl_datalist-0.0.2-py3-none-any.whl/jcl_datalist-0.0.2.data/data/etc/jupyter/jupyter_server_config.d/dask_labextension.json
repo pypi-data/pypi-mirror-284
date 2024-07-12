@@ -1,0 +1,7 @@
+{
+  "ServerApp": {
+    "jpserver_extensions": {
+      "jcl_datalist": true
+    }
+  }
+}
