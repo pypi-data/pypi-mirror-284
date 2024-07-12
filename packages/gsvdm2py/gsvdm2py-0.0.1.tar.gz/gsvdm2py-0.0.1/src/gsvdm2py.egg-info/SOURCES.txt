@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/gsvdm2py/__init__.py
+src/gsvdm2py/gsvd.py
+src/gsvdm2py.egg-info/PKG-INFO
+src/gsvdm2py.egg-info/SOURCES.txt
+src/gsvdm2py.egg-info/dependency_links.txt
+src/gsvdm2py.egg-info/top_level.txt
