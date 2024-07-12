@@ -1,0 +1,9 @@
+fakepilot/__init__.py,sha256=5g7JoMA4PISVedpeYHbTfHxK5-Bv3GhOQhUefyF-58A,104
+fakepilot/_xray.py,sha256=iNdZOqRXqaF3av2WdamTnHg_l09lQjZ817Kp6-CCP5c,10726
+fakepilot/site.py,sha256=kHHLd6emg7cr895ws0mqQeuPzgHU4Ebagsk-5Ux3ZTk,13529
+fakepilot/utils.py,sha256=lL90v_M-Nt7sZyq2gb9RQEFFDcV671ijbanj3EtHflE,3529
+fakepilot-0.0.3.dist-info/LICENSE,sha256=UGTlX-Uaolb8NCGebE--k0QHPyfdMLSe5ScpScSJJfk,1075
+fakepilot-0.0.3.dist-info/METADATA,sha256=TyLSqScIBuZAJTCSnD5aY-250AOZ6665ek_kyo25UxU,4283
+fakepilot-0.0.3.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+fakepilot-0.0.3.dist-info/top_level.txt,sha256=Owd_wFmDZK3GWaEoEaJ9u3fXQ0pR9KP91GtVUvFKNUM,10
+fakepilot-0.0.3.dist-info/RECORD,,
