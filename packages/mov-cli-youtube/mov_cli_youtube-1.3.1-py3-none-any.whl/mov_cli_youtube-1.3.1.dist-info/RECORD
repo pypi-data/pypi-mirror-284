@@ -1,0 +1,8 @@
+mov_cli_youtube/__init__.py,sha256=OJonuk13mNowPEJjLNdS6gg_2S0I8m60ycrCD-YxyXQ,650
+mov_cli_youtube/pytube.py,sha256=2cQ9zzG-fdyiv2__eNF_kq1ShamCcMsiXp7918TIqtI,3159
+mov_cli_youtube/yt_dlp.py,sha256=omRt8kESt54B0504l37QCXRDZRInEIa6EnWNFO3CqaE,5238
+mov_cli_youtube-1.3.1.dist-info/LICENSE,sha256=phLSSuoMKa5VWPIMzgdvITzPXiTlX37dmLnqTaXE-3I,1064
+mov_cli_youtube-1.3.1.dist-info/METADATA,sha256=5GL-jG4B13em2guhelaeErVpohFbkUbMXzZZcWfM1GI,3016
+mov_cli_youtube-1.3.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+mov_cli_youtube-1.3.1.dist-info/top_level.txt,sha256=xPiXGe7TAUeZlJUtdj3Nh1Xtwrzqoo1H3GHeJxLd_Ao,16
+mov_cli_youtube-1.3.1.dist-info/RECORD,,
