@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: segmentation_models_pytorch-orobix
+Version: 0.3.3.dev1
+Summary: Deep Learning experiment orchestration library
+Author: Pavel Iakubovskii
+Author-email: qubvel@gmail.com
+Requires-Python: >=3.9,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: efficientnet-pytorch (==0.7.1)
+Requires-Dist: pretrainedmodels (==0.7.4)
+Requires-Dist: timm (>=0.9.12,<0.10.0)
+Requires-Dist: torchvision (>=0.5.0)
