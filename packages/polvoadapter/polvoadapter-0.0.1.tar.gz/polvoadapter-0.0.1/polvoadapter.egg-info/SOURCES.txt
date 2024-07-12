@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+polvoadapter/__init__.py
+polvoadapter/_modidx.py
+polvoadapter/core.py
+polvoadapter.egg-info/PKG-INFO
+polvoadapter.egg-info/SOURCES.txt
+polvoadapter.egg-info/dependency_links.txt
+polvoadapter.egg-info/entry_points.txt
+polvoadapter.egg-info/not-zip-safe
+polvoadapter.egg-info/requires.txt
+polvoadapter.egg-info/top_level.txt
