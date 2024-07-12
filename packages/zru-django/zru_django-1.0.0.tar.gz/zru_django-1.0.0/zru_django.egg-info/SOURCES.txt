@@ -1,0 +1,15 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+zru_django/__init__.py
+zru_django/apps.py
+zru_django/signals.py
+zru_django/urls.py
+zru_django/views.py
+zru_django.egg-info/PKG-INFO
+zru_django.egg-info/SOURCES.txt
+zru_django.egg-info/dependency_links.txt
+zru_django.egg-info/requires.txt
+zru_django.egg-info/top_level.txt
