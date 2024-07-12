@@ -1,0 +1,12 @@
+dependence/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dependence/__main__.py,sha256=myBIBZdez2jC3_dkVSE-mOLo39yKi2cF_0NuVXcXF1E,1528
+dependence/_utilities.py,sha256=pGK9JAMOAVGvamo4Espmk0NUftosW7UxZnwWXbNM47w,2385
+dependence/freeze.py,sha256=BCbqXNMReXX5N5S0FJK_bqSZCOHOIh2ti0m-4Klzpxc,13332
+dependence/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dependence/update.py,sha256=9TIU4JC1M-RHZfXYxeAmtbXS_lAFy_Z9sy8Ce1PTz4g,16603
+dependence/utilities.py,sha256=Lo3guZSA7a2gARz3RzEqLenbG6VTWcA5-eucHB9S-58,31837
+dependence-0.2.0.dist-info/METADATA,sha256=H-olY5qur_SwQupzfKeK-OofgWYt2UKg8sEorub_0Q4,5630
+dependence-0.2.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+dependence-0.2.0.dist-info/entry_points.txt,sha256=NStO_B0D81ObVYr9zDs6LCy0whm0a8KCiiFHMmTwOVE,56
+dependence-0.2.0.dist-info/top_level.txt,sha256=5rooMYWKlAUelE8hjGegbf4uuAIqNuRlhlpA7oc7Qro,11
+dependence-0.2.0.dist-info/RECORD,,
