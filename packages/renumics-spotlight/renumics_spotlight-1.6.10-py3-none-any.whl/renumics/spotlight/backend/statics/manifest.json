@@ -1,0 +1,28 @@
+{
+  "_lib-01e62754.cjs": {
+    "file": "lib-01e62754.cjs"
+  },
+  "_lib-c63567dc.js": {
+    "file": "lib-c63567dc.js"
+  },
+  "src/lib.ts": {
+    "file": "lib.cjs",
+    "imports": [
+      "_lib-01e62754.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/lib.ts"
+  },
+  "src/main.tsx": {
+    "file": "main.cjs",
+    "imports": [
+      "_lib-01e62754.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
