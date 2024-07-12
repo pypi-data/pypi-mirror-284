@@ -1,0 +1,15 @@
+numpy>=1.20
+matplotlib
+scipy
+emcee
+dynesty
+
+[docs]
+syncfit
+Sphinx
+myst_parser
+nbsphinx
+sphinx-book-theme
+sphinx_copybutton
+autodoc
+ipykernel
