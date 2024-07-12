@@ -1,0 +1,8 @@
+gomp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gomp/gomp.py,sha256=s-5ScTWG0mlAfqbe6-WlBKcoZQPSFF8z2CNEJ5GRb3I,12386
+gomp-1.1.1.dist-info/LICENSE.md,sha256=XrLhEGY1DyLd7HbFgDIyd6h-EyqnSHrbyyd-SJ_a4k0,1067
+gomp-1.1.1.dist-info/METADATA,sha256=gGNIyyLyhMsCX5A1P6fmRGRvmDaWeV9GYdn6aPT_x4Q,2853
+gomp-1.1.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+gomp-1.1.1.dist-info/entry_points.txt,sha256=3qy6GXSdCf3VxPSuJPxjCr4A-AkJgxlw5szg1dPBv18,52
+gomp-1.1.1.dist-info/top_level.txt,sha256=toTg0Mr-6baQakNMpGH0zd-1esRwqu2wA2KbcJi8YHI,5
+gomp-1.1.1.dist-info/RECORD,,
