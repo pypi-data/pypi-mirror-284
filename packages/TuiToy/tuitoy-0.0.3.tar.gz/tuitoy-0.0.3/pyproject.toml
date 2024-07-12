@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TuiToy"
+version = "0.0.3"
+authors = [
+  { name="Austin Choi", email="austinch20@protonmail.com" },
+]
+dependencies = [
+    "windows-curses; platform_system=='Windows'",
+    "time",
+]
+description = "A terminal user interface library for Python using curses under the hood."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/choice404/TuiToy"
+Issues = "https://github.com/choice404/TuiToy/issues"
