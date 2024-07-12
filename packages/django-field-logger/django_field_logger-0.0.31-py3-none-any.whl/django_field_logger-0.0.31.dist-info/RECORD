@@ -1,0 +1,15 @@
+fieldlogger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fieldlogger/apps.py,sha256=jImXbqh1fchGCEjxEIviwV6EI7juvWkeMug16aRiFJU,219
+fieldlogger/config.py,sha256=DQ3kkqADtkEfQR597Caoqi_88LkPb7HCewSLGUf5xqM,2208
+fieldlogger/encoding.py,sha256=xTAs2oVfyavoHFlwe49xF8Ixsoqc8tifxQQZE4w2Dew,1385
+fieldlogger/fieldlogger.py,sha256=ly017djPGK_b8Q0xoecdccoLqVPH4T8lj7rEiKTtfcE,1381
+fieldlogger/managers.py,sha256=tJG11_vvV3l9wOssvMgQlkpWV-YiymbfzI-BQ_cu__o,849
+fieldlogger/mixins.py,sha256=GRL4tKJvYJ0o_wYiMhbik7UKGQKHlZzEkEi-mbDLRx8,355
+fieldlogger/models.py,sha256=-YhThjbdLkAjpDBLkIj01dIKKV8BVj1eRfXD-axsMNU,2994
+fieldlogger/signals.py,sha256=ZCt4rIVGSS0NVx8r0r09zjJJL0nQ-w5yhUG0-M5wkgs,1535
+fieldlogger/utils.py,sha256=TEuwAsfVs0vuJkhKcv7O_hQsvWblij2dAcfJzzw0RVQ,1116
+django_field_logger-0.0.31.dist-info/LICENSE,sha256=KCVej0LsnLuRSZJA1Yony02YSlfX0w6w3uiQodo8xcQ,1074
+django_field_logger-0.0.31.dist-info/METADATA,sha256=OHvm_olmy1pX99Ghj2i4IJLYvu6VR5ngqr6SzbDZ6mQ,10365
+django_field_logger-0.0.31.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+django_field_logger-0.0.31.dist-info/top_level.txt,sha256=tF4LPy68cm8STdwDRKW9GziUKGPglQjyaJi_n8SviM4,12
+django_field_logger-0.0.31.dist-info/RECORD,,
