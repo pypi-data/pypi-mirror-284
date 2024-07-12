@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: TuiToy
+Version: 0.0.3
+Summary: A terminal user interface library for Python using curses under the hood.
+Author-email: Austin Choi <austinch20@protonmail.com>
+Project-URL: Homepage, https://github.com/choice404/TuiToy
+Project-URL: Issues, https://github.com/choice404/TuiToy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: time
+Requires-Dist: windows-curses ; platform_system == "Windows"
+
+# Tuitoy
+v 0.0.2
+
+## Table of Content
+* [About](#about)
+* [To do](#to-do)
+* [Version history](#version-history)
+
+## About
+
+Terminal User Interface Toy
+This is a library designed to make terminal application by drawing windows and components using python curses
+
+## To do
+[ ] - Complete a well documented README with descriptions of all the classes and functions allowing for users to create custom components by extending existing classes
+
+## Version history
+- 0.0.1 initial upload
+- 0.0.2 Hot fix for scene input handling and reorganizing the project and allows for `from tuitoy import *`
