@@ -1,0 +1,9 @@
+gee2gpd/__init__.py,sha256=URW5twxZU_o7MgbkYzWUlQeU_iZFzDFEki33NNkCwyA,27
+gee2gpd/convert.py,sha256=T8Hjeg_c0epqxE8EwUysDd6UdT7osxLFxL7tlbMArzg,1380
+gee2gpd/dfutils.py,sha256=f5KSChbTguUxYT4WZUm7Nf3MsF7COCnInH1TOjrSxHs,1783
+gee2gpd/main.py,sha256=K5XCiWjlL98eqK_KFBSyon3jKa9nGBzVAhqoQXkOcNk,1691
+gee2gpd-0.2.0.dist-info/METADATA,sha256=S5CTU2dSogzcz-bvd1hZ9G7HIq6Bd2EKOoGNaunmZh8,764
+gee2gpd-0.2.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+gee2gpd-0.2.0.dist-info/entry_points.txt,sha256=k15uZM0alDVXe8ulI_5j1NutJGvc2fnI5sqRROL1MmM,46
+gee2gpd-0.2.0.dist-info/top_level.txt,sha256=C0cZ6YWI1ngSrPB-lt5GX2sSkcWbZm76mhsgA3AMt-k,8
+gee2gpd-0.2.0.dist-info/RECORD,,
