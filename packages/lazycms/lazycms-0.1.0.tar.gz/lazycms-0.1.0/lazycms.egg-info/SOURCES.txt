@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+lazycms/__init__.py
+lazycms/config.py
+lazycms/entity.py
+lazycms/lazycms.py
+lazycms/storage.py
+lazycms/utils.py
+lazycms.egg-info/PKG-INFO
+lazycms.egg-info/SOURCES.txt
+lazycms.egg-info/dependency_links.txt
+lazycms.egg-info/requires.txt
+lazycms.egg-info/top_level.txt
