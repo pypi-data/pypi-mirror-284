@@ -1,0 +1,15 @@
+fastcore
+pandas
+numpy
+graphviz
+pathlib
+tabulate
+
+[dev]
+nbdev
+setuptools
+jedi
+sql
+ipykernel
+ipython
+jupyter
