@@ -1,0 +1,16 @@
+safari_to_sqlite/__init__.py,sha256=5ORkrDgwISdIq_AkjqxV0_IrIUSTykn1xq3_xr3-ByM,122
+safari_to_sqlite/__main__.py,sha256=gcVRsNpQ8CoOCSnUHbG9lROlbRkNopxvei2OEqvAh6I,4175
+safari_to_sqlite/blacklist.py,sha256=wsMHBwcHqVG5cyt2E7rFJmEizGUMZFDyiNQkXb0Vplk,601
+safari_to_sqlite/constants.py,sha256=SYzz0Z1mAq7lQcJE00zQiJ-Rr1kIfLrU6PGwLBIBRPo,674
+safari_to_sqlite/datastore.py,sha256=wcuaHFt-A1RtNkyFC2NUnfkgD4UdoB3-nxC4O_rqxig,3719
+safari_to_sqlite/download.py,sha256=ag81rjHGxkNlcyKUBDxSzj3Fj0XNyA3RVeEM-l-wPHU,739
+safari_to_sqlite/errors.py,sha256=FVTmfhKLq6vLcRz0kWBPqKJqCAEtxp-43EPKSzUi7eo,407
+safari_to_sqlite/export_from_safari.applescript,sha256=mI6Ogl6Fi3jiJwoOHcNauzXfe2MqJ6Pj1vc6YP8S0ZU,763
+safari_to_sqlite/safari.py,sha256=gZZlj0dD1U4N_tzWlZmGPSYUcsiuWUCP5ACdPgDHfpA,1555
+safari_to_sqlite/turso.py,sha256=m3ujsDxFMaDwxj71PSLA-fj8d6K1ow481I9pFnRt86I,2158
+safari_to_sqlite-0.3.0.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+safari_to_sqlite-0.3.0.dist-info/METADATA,sha256=ajGBCFmCSxq0oeCLh0MFBJ7xYyQZmMd4tixjo7WYvVI,17395
+safari_to_sqlite-0.3.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+safari_to_sqlite-0.3.0.dist-info/entry_points.txt,sha256=Vsv_wiDoWjhk4d7zGDc0Apr4JnxtEefxvnQ0KbntHbk,68
+safari_to_sqlite-0.3.0.dist-info/top_level.txt,sha256=-A40uPzloE3Cfkg936fO2VJHyfeSCSwDZgrq6IrwBOg,17
+safari_to_sqlite-0.3.0.dist-info/RECORD,,
