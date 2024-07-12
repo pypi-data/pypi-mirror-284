@@ -1,0 +1,13 @@
+deloreans/__init__.py,sha256=q0T-ZctUcD_T3swg0mtEYx4g1mwTXDfQ_hNs8JykxQw,163
+deloreans/api.py,sha256=AgWwFRn8C5tS4H1KlYUNbLhfP8GoTUYtPiUCy8WRuRA,1356
+deloreans/app.py,sha256=fPEY6GONsdwsrlH8Y73dpeD4lkGmiguJmwNNrV8trTQ,6416
+deloreans/date_utils/__init__.py,sha256=rpgbabgNZjcpUvqiESoBhL5XoU_Z0QfGhpB1lohY2ao,2529
+deloreans/date_utils/common.py,sha256=M-PVxe0TYUa9V3BipxBtdrppP-6ZUEOzoxNsKTtJCsA,20427
+deloreans/date_utils/date_granularity.py,sha256=HvcYdwiA_X42VzbM5PIH55L1Pgl-QPPhZElBRaBxI-8,8215
+deloreans/date_utils/date_range.py,sha256=FN4aJ59mibrODoRrK-s0YC-h1Tz98fkwpVI746qRnUM,3028
+deloreans/date_utils/offset_granularity.py,sha256=UquJp0DTpjqW0heBxll_P68lDH466RdjoapXVvxF9GQ,1575
+deloreans/exceptions.py,sha256=vymGArVhMB4PzwwO59f7x1B0_mc-kcBs7XBuq6bs7H8,941
+deloreans-0.2.0.dist-info/LICENSE,sha256=ksgtshlbRh-U0IPF1D55JGxk7fgPouPeZgLbXmFY_EI,1068
+deloreans-0.2.0.dist-info/METADATA,sha256=r6p5v2DR_9J1PDdmRh-NZY0RbiHSPpk48qrxgSaCRa4,8600
+deloreans-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+deloreans-0.2.0.dist-info/RECORD,,
