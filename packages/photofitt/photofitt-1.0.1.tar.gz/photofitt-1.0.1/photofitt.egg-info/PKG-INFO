@@ -1,0 +1,175 @@
+Metadata-Version: 2.1
+Name: photofitt
+Version: 1.0.1
+Summary: PhotoFiTT: Phototoxicity Fitness Time Trial. Python package for assessing phototoxicity in live-cell microscopy experiments.
+Home-page: https://github.com/HenriquesLab/photofitt
+Download-URL: https://github.com/HenriquesLab/photofitt/archive/refs/tags/v1.0.0.tar.gz
+Author: M. del Rosario, E. Gómez-de-Mariscal, L. Morgado, R. Portela, G. Jacquemet, P.M. Pereira, R. Henriques
+Author-email: mrosario@igc.gulbenkian.pt, egomez@igc.gulbenkian.pt, rjhenriques@igc.gulbenkian.pt
+License: MIT
+Keywords: phototoxicity,cell arrest,bioimage analysis,cell mitosis,live-cell microscopy
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: dask
+Requires-Dist: czifile==2019.7.2
+Requires-Dist: jupyter
+Requires-Dist: imageio==2.13.3
+Requires-Dist: matplotlib==3.5.1
+Requires-Dist: nd2==0.1.6
+Requires-Dist: numpy==1.22.4
+Requires-Dist: opencv-python==4.7.0.72
+Requires-Dist: pyyaml==6.0
+Requires-Dist: pandas==1.5.2
+Requires-Dist: pillow==8.4.0
+Requires-Dist: scipy==1.7.3
+Requires-Dist: scikit-image==0.19.1
+Requires-Dist: scikit-learn==1.2.1
+Requires-Dist: seaborn==0.12.2
+Requires-Dist: tifffile==2021.10.12
+Requires-Dist: toolz==0.11.2
+Requires-Dist: statsmodels
+
+[![License](https://img.shields.io/github/license/HenriquesLab/PhotoFiTT?color=Green)](https://github.com/HenriquesLab/PhotoFiTT/blob/main/LICENSE.txt)
+[![Contributors](https://img.shields.io/github/contributors-anon/HenriquesLab/PhotoFiTT)](https://github.com/HenriquesLab/PhotoFiTT/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/HenriquesLab/PhotoFiTT?style=social)](https://github.com/HenriquesLab/PhotoFiTT/)
+[![GitHub forks](https://img.shields.io/github/forks/HenriquesLab/PhotoFiTT?style=social)](https://github.com/HenriquesLab/PhotoFiTT/)
+
+
+<img src="https://github.com/HenriquesLab/PhotoFiTT/blob/main/docs/logo/photofitt-logo.png" align="right" width="300"/>
+
+# PhotoFiTT: Phototoxicity Fitness Time Trial
+A Quantitative Framework for Assessing Phototoxicity in Live-Cell
+
+# General description of the workflow
+PhotoFiTT was designed to quantitatively analyse the impact that fluorescence light excitation has in cell behaviour.
+PhotoFiTT focuses on three different measurements: (1) Identified pre-mitotic cells, (2) Cell size dynamics and (3) Cell activity.
+These are the steps to follow to replicate the analysis: 
+### Deep learning based analysis
+Follow these steps to detect cells and pre-mitotic rounding events in the data.
+1. Cell Detection and Quantification (deep learning-based image analysis: This processing is only applied to the first time point of each video.
+   - Virtual Staining: Use ZeroCostDL4Mic/DL4MicEverywhere Pix2Pix notebook to train a virtual staining model that infers cell nuclei. Analyse the first frame of each video.
+   - Nuclei Segmentation: Use ZeroCostDL4Mic/DL4MicEverywhere 2D StarDist notebook to apply the pretrained StarDist-versatile model to segment individual nuclei in the virtually stained images.
+   - Initial Cell Quantification: Count the number of detected nuclei (Use notebook `XXXXX.ipnynb` to generate a CSV file with the counts). The number of detected nuclei serves as the baseline cell count for each field of view, enabling tracking of population dynamics over time.
+2. Pre-mitotic Cell Identification (deep learning-based image analysis):
+   - For CHO cells imaged with brightfield, you can use our trained StarDist model. Otherwise, manually annotate a representative image set and train a new StarDist model using the corresponding ZeroCostDL4Mic/DL4MicEverywhere notebooks.
+### Image data Analysis
+1. Cell Size Analysis and Classification `XXXXX.ipnynb`
+2. Quantification of Cellular Activity `XXXXX.ipnynb`
+
+
+
+## Data structure
+
+1. The masks and the raw input, should be equally organised by folders, each folder for each condition to be analysed in a hierarchical manner.
+   For example:
+      ```
+       -Raw-images (folder)
+       |
+       |--Biological-replica-date-1 (folder) [Subcaegory-00]
+           |
+           |--Cell density / UV Ligth / WL 475 light [Subcategory-01] 
+              |
+              |-- control-condition (folder) [Subcategory-02] 
+              |    |  file1.tif
+              |    |  file2.tif
+              |    |  ...
+              |
+              |-- condition1 (folder) [Subcategory-02] 
+              |    |  file1.tif
+              |    |  file2.tif
+              |    |  ...
+              |
+              |-- condition2 (folder) [Subcategory-02] 
+              |    |  file1.tif
+              |    |  file2.tif
+              |    |  ...
+           |
+           |--Cell density / UV Ligth / WL 475 light [Subcategory-01]
+           ...
+       -Masks (folder)
+       |
+       |--Biological-replica-date-1 (folder) [Subcaegory-00]
+           |
+           |--Cell density / UV Ligth / WL 475 light [Subcategory-01] 
+              |
+              |-- control-condition (folder) [Subcategory-02] 
+              |    |  file1.tif
+              |    |  file2.tif
+              |    |  ...
+              |
+              |-- condition1 (folder) [Subcategory-02] 
+              |    |  file1.tif
+              |    |  file2.tif
+              |    |  ...
+              |
+              |-- condition2 (folder) [Subcategory-02] 
+              |    |  file1.tif
+              |    |  file2.tif
+              |    |  ...
+           |
+           |--Cell density / UV Ligth / WL 475 light [Subcategory-01]
+           ...
+      ```
+      
+# Package installation
+- The code provides an `environment.yaml` file to create a conda environment with all the dependencies needed.
+  Place your terminal in the `photofitt` folder. Use either conda or mamba:
+  ```
+  git clone https://github.com/HenriquesLab/photofitt.git
+  cd photofitt
+  mamba env create -f environment.yml  
+  mamba activate photofitt
+  ```
+
+- **ONCE PUBLISHED** You can now install the package using pip install or conda as follows:
+  
+  - ```
+    pip install photofitt
+    ```
+    or
+  - 
+    ```
+    conda install photofitt
+    ```
+- **Meanwhile**:
+
+  - ```
+    git clone https://github.com/HenriquesLab/photofitt.git
+    cd photofitt
+    python setup.py
+    ```
+    or
+  - ```
+    git clone https://github.com/HenriquesLab/photofitt.git
+    cd photofitt
+    pip install .
+    ```
+    or
+  - ```
+    git clone https://github.com/HenriquesLab/photofitt.git
+    cd photofitt
+    conda build conda-recipe/meta.yaml
+    ```
+
+## Common error messages
+- Error messages with `lxml`. 
+Most probably you need to update developers tools in your system. Before anything, run in Mac M1:
+  - 
+      ```
+      xcode-select --install
+      ```
+- If you were in Linux, you can run 
+  - ```
+    sudo apt-get update
+    sudo apt-get install libxml2-dev libxslt-dev python-dev
+    ```
+
+
+
