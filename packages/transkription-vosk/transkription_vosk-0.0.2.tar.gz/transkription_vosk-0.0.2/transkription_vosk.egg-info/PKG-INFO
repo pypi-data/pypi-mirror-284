@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: transkription-vosk
+Version: 0.0.2
+Summary: Ein Paket zur Transkription von Audiodateien mit Vosk-Modellen, lokal auf dem Rechner.
+Home-page: https://github.com/martialjob/transkription_vosk
+Author: Martial Job
+Author-email: transkription_vosk@mjob.me
+License: UNKNOWN
+Description: # Transkription Vosk
+        
+        Ein Paket zur Transkription von Audiodateien mit Vosk.
+        
+        ## Installation
+        
+        ```bash
+        pip install transkription_vosk
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
