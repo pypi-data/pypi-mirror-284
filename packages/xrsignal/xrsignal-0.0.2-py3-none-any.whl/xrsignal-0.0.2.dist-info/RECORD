@@ -1,0 +1,8 @@
+xrsignal/__init__.py,sha256=8vT8M7RV-eGAuVJw4DmgPIeEYtwhUAbVm_5pxHlayqI,84
+xrsignal/convolution.py,sha256=rtwX7E544KgXJhT9A82vGDnUssfBJ9KkVIpT5gK5Gto,4203
+xrsignal/filtering.py,sha256=SYGZrfvz40kydHperllgmj_ye00hhuOPDYp26oBEWL8,3665
+xrsignal/spectral_analysis.py,sha256=IY__yV4Dg-uPIWFGyV4TY_jOGtFaNMss46mxVwKLhH4,9624
+xrsignal-0.0.2.dist-info/METADATA,sha256=Sf81Z5QZAQfQOYB3nKowfEdIFgH8G9aCt1--WX0Ohf8,2284
+xrsignal-0.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+xrsignal-0.0.2.dist-info/licenses/LICENSE,sha256=s-I8VfwRfzn3F1xZ59r4vfES8r2y2q4RokfhugDovs4,1076
+xrsignal-0.0.2.dist-info/RECORD,,
