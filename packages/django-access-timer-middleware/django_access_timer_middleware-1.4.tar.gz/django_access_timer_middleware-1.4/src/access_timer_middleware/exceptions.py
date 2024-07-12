@@ -1,0 +1,2 @@
+class FiltersConflictException(Exception):
+    pass
