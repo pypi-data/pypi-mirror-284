@@ -1,0 +1,3 @@
+[console_scripts]
+msteams-tickler=msteams_tickler.main:main
+
