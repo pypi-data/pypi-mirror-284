@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "puddle_ext"
+version = "1.0"
+authors = [
+  { name="Jay Nash", email="jn202871@gmail.com" },
+]
+description = "A simple file extension converter."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/jn202871/puddle"
+Issues = "https://github.com/jn202871/puddle/issues"
+
+[project.scripts]
+puddle = "puddle.cli:main"

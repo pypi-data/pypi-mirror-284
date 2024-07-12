@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: puddle_ext
+Version: 1.0
+Summary: A simple file extension converter.
+Author-email: Jay Nash <jn202871@gmail.com>
+Project-URL: Homepage, https://github.com/jn202871/puddle
+Project-URL: Issues, https://github.com/jn202871/puddle/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Puddle
+A simple python package to translate png files to puddle files. Puddle files are a simple way to read and encode images, there is no real use case for this, this project is more of learning tool of how to create python packages.
+
+## Installation
+
+To install Puddle, first download the repository:
+```bash
+git clone https://github.com/jn202871/puddle
+```
+Then use pip to install the package:
+```bash
+cd puddle
+pip install .
+```
+
+## Usage
+
+To use puddle to convert files between png and puddle file types:
+```bash
+puddle convert example.png # For png to puddle
+puddle convert example.puddle # For puddle to png
+```
+
+To view puddle files use:
+```bash
+puddle view example.puddle
+```
+
+## License
+This project is licensed under the MIT License.
