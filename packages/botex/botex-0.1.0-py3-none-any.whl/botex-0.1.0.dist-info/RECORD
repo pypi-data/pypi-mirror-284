@@ -1,0 +1,12 @@
+botex/__init__.py,sha256=TiChd9EjWEYbJQ6S6W56H5SW9HevF4KWscrSkfHIcvw,108
+botex/bot.py,sha256=MyYU_M_Q4T1_FYkCztFZmurvqZTmSNMf_ZfUrvzHxU8,27298
+botex/bot_prompts.csv,sha256=RaoFemlS9oZSYYXk7al7K8mPCQn6tKZ3puD0LcOxNUY,16339
+botex/botex_db.py,sha256=TIgE-JnrMQHmAYKSR32UY9cf29IhkZjEYwUxu0IAKw0,5785
+botex/gguf_parser.py,sha256=H5PKCpAQ5GY_cGg2v4_W-XA9pbDBZMw4B4R8TooRdI8,3056
+botex/local_llm.py,sha256=JNj0ZTgKvtADv85wWvpu9v3ihglumZfxtutDICXCULw,7206
+botex/otree.py,sha256=ZCVzO9Ms8sFExeo2pEmlNP-qIrvNVl-XnFePiHeBRUM,13484
+botex-0.1.0.dist-info/LICENSE,sha256=VwMPgRVRQnyzYCac73d7nadG6Z9IbPeRD9nKgdfwv5U,1071
+botex-0.1.0.dist-info/METADATA,sha256=o-zoOkFh5eWQ8QA1DR3yZ_T1aZbrZ7Z0-_94VDEy3M8,12345
+botex-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+botex-0.1.0.dist-info/top_level.txt,sha256=0rJn4A8nNNUHYQArCz70dXARSYKJ86Z1Ab_gxIinpK4,6
+botex-0.1.0.dist-info/RECORD,,
