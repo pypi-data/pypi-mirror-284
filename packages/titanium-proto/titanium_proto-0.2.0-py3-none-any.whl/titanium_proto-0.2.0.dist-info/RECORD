@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_titanium_proto.py,sha256=hjaOxsGz7Z4MRKIe5BtJV2dPFAELKedLJgtNz5QQdBY,3813
+titanium_proto/__init__.py,sha256=JhgHg9PEz3OpSSp-oDOQr93Vhs7zCgB021aY_MSatrM,70
+titanium_proto/titanium_proto.py,sha256=O8lJdZLKr3B7OAAidcGZHNZSr6op1aWxdG5J9NBdEPE,1016
+titanium_proto/src/__init__.py,sha256=pG1aLwiKD1SKMh7fAuSGGxwAxRl6y0oBIrgya5sa01k,95
+titanium_proto/src/titanium_field.py,sha256=cXe7f-Ez6rC8AbSNBazgEWgfBNezThC6yp6zu6nBex8,3897
+titanium_proto/src/titanium_file_gen.py,sha256=uMsMJsDWVRmAexVgJFeHMtp3ED6LO0kIf7nU0-M02v8,4777
+titanium_proto-0.2.0.dist-info/LICENSE,sha256=96_buPw0TZ78mZ5YMFGjQiV_p378CZqO2bcASEG3Zpg,1083
+titanium_proto-0.2.0.dist-info/METADATA,sha256=_fUYoL7ty1toAE1swZFzcxYzD-3yNQrnN7dqO3ZmsFM,582
+titanium_proto-0.2.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+titanium_proto-0.2.0.dist-info/entry_points.txt,sha256=mw8SMAq6DdXdD-HOG63igekeryDWTNwAxCboA_Xd4OQ,70
+titanium_proto-0.2.0.dist-info/top_level.txt,sha256=WiHduK4mNEiXhULFrYZQ4P7V919n_O7rTlYiGaUUnmc,21
+titanium_proto-0.2.0.dist-info/RECORD,,
