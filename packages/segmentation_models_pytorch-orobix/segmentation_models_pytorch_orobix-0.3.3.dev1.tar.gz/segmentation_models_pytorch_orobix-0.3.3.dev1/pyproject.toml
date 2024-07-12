@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "segmentation_models_pytorch-orobix"
+version = "0.3.3.dev001"
+description = "Deep Learning experiment orchestration library"
+authors = [
+    "Pavel Iakubovskii <qubvel@gmail.com>",
+    "Lorenzo Mammana <lorenzo.mammana@orobix.com>",
+]
+packages = [{ include = "segmentation_models_pytorch" }]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+torchvision = ">=0.5.0"
+pretrainedmodels = "0.7.4"
+efficientnet-pytorch = "0.7.1"
+timm = "^0.9.12"
