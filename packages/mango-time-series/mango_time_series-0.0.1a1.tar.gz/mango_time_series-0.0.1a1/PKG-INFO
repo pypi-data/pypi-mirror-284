@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mango-time-series
+Version: 0.0.1a1
+Summary: Library with a collection of usefull classes and methods for time series
+Author-email: baobab soluciones <mango@baobabsoluciones.es>
+License: Apache Software License
+Project-URL: repository, https://github.com/baobabsoluciones/mango
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Mango time series
+--------------------
+
+Time series mango README
