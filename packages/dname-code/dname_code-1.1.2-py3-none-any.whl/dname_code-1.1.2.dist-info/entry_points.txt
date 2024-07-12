@@ -1,0 +1,2 @@
+[console_scripts]
+dname-code = dname_code:hello
