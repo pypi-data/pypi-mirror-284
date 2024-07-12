@@ -1,0 +1,12 @@
+singleton/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+singleton/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+singleton/apps.py,sha256=xML6l5B4X7phTSGofdp39kdORL32r5X6p18e-SI0_l8,150
+singleton/models.py,sha256=wnALd0C5nJQzKX2UL6UFHjVV9mtj_sSyTPa86ziZXiQ,463
+singleton/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+singleton/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+singleton/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_newsingleton-1.1.dist-info/LICENSE,sha256=w1ijSCIyiHNxzxW2zQH9oXNJrN-I4pyG-q1TZFRyIk0,1066
+django_newsingleton-1.1.dist-info/METADATA,sha256=xH6a5ZEFQAZvb_7CWdDsGenyri-6TA4GCl5NmPycqsI,1312
+django_newsingleton-1.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+django_newsingleton-1.1.dist-info/top_level.txt,sha256=ZHkXd4_CmcWk6RdFRhs7r1brcIxuiZmzdSFt4quBXO8,10
+django_newsingleton-1.1.dist-info/RECORD,,
