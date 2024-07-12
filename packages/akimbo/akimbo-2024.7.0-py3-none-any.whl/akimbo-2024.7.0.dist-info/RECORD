@@ -1,0 +1,14 @@
+akimbo/__init__.py,sha256=6dUobHZKK2rCNerRESfWcCB4ZHim7wi8QdP33SjWz6c,371
+akimbo/dask.py,sha256=FyodejITm6x8UH0z-BTxSJqYQTUkmz72yUIH1eaQu1k,4264
+akimbo/datetimes.py,sha256=NDAdMZ_Fse7vgIzK-6VZb4Zozp7mojEzolrA-nH2RCY,4109
+akimbo/io.py,sha256=kH3qLvzuXzAM7iKQdlT5iSKxEZjYcuJWaP4TQBCdxJk,1904
+akimbo/mixin.py,sha256=i0wKjSdBoPBWnzN7aqmsqg4jhIaDB6FMkMwQ9SNByVQ,8583
+akimbo/pandas.py,sha256=F412LbUOmXpwJD5UdWSUrr71sSL36Ad3lQiGMuMEsQQ,1730
+akimbo/polars.py,sha256=3Ri8z8FoHiJEzrwAZlxkuPZXshevJ8K30w9_qYGZgkw,527
+akimbo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+akimbo/strings.py,sha256=zoHlBW1Ix0Ttd-eQscX08uKDsCL8PE9wtkIc3ix_UQ4,3017
+akimbo/version.py,sha256=QSo4xNIX4oboKDoBLI2FxP9kJzGinYFpuHcAea2nmgY,417
+akimbo-2024.7.0.dist-info/METADATA,sha256=ilziOjhCooy6HPZexvMtbowkgm9LIU-r4-UXSOFsDPw,2721
+akimbo-2024.7.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+akimbo-2024.7.0.dist-info/licenses/LICENSE,sha256=qHDcsWGQArBZuorL5704cnCmIZEJdQ5fT7HoihCN5NY,1521
+akimbo-2024.7.0.dist-info/RECORD,,
