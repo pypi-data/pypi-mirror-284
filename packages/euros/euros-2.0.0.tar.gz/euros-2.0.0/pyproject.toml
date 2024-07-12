@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "euros"
+authors = [{name = "Thibaut_S", email = "py@spriet.online"}]
+readme = "README.md"
+description = "Converts euros number to text"
+requires-python = ">=3.8"
+keywords = ["conversion", "euros", "french", "italian","english"]
+license = {text = "MIT-License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "pytest",
+    "ruff",
+    "black",
+    "pip-tools",
+    "twine"
+]
+version = "2.0.0"
+
+[project.urls]
+Homepage = "https://gitlab.com/outils-jcp/euros"
+"Bug Tracker" = "https://gitlab.com/outils-jcp/euros/-/issues"
