@@ -1,0 +1,5 @@
+#nexus
+
+Begin trees;
+tree TREE_0 = ((1[&type="Sampled",location="0 0",reaction="TipSample",time=0.07586398496791431]:6.106226635438361E-16)[&type="Contagious",location="0 0 0",reaction="Sample_I_to_A",time=0.0758639849679137]:0.07427380859843188,((2[&type="Sampled",location="0 0",reaction="TipSample",time=0.8703407646931407]:1.4432899320127035E-15)[&type="Contagious",location="0 0 0",reaction="Sample_I_to_A",time=0.8703407646931393]:0.7125153685527339,(3[&type="Sampled",location="0 0",reaction="TipSample",time=0.38951733875543326]:7.771561172376096E-16)[&type="Contagious",location="0 0 0",reaction="Sample_I_to_A",time=0.3895173387554325]:0.23169194261502718)[&type="Contagious",location="0 0 0",reaction="Infect_S_to_I",time=0.1578253961404053]:0.1562352197709235)[&type="Contagious",location="0 0 0",reaction="Infect_S_to_I",time=0.0015901763694818145]:0.0015901763694818145;
+End;

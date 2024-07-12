@@ -1,0 +1,5 @@
+#nexus
+
+Begin trees;
+tree TREE_0 = (1[&type="Sampled",location="0 0",reaction="TipSample",time=0.05505626897894414]:1.0824674490095276E-15)[&type="Contagious",location="0 0 0",reaction="Sample_I_to_A",time=0.05505626897894306]:0.05505626897894306;
+End;
