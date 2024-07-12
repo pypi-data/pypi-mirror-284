@@ -1,0 +1,11 @@
+README.md
+license.txt
+pyproject.toml
+setup.cfg
+setup.py
+pyrustats.egg-info/PKG-INFO
+pyrustats.egg-info/SOURCES.txt
+pyrustats.egg-info/dependency_links.txt
+pyrustats.egg-info/not-zip-safe
+pyrustats.egg-info/requires.txt
+pyrustats.egg-info/top_level.txt
