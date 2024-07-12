@@ -1,0 +1,7 @@
+vcf_converter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcf_converter/cnv_vcf2json.py,sha256=cEp68oLbMZ7LPlnA2_USVZ2N906Y6ReLVlroFoRaGV8,3674
+cnv_vcf2json-1.1.0.dist-info/METADATA,sha256=6pGHtIGMEr4eaxQQSQ6uKF12oLjEovVKEMwEJUslMw8,272
+cnv_vcf2json-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cnv_vcf2json-1.1.0.dist-info/entry_points.txt,sha256=MUskq49LL19g-BPaGSzYJSJADnHa_fyZ1wes_Fdj99E,74
+cnv_vcf2json-1.1.0.dist-info/top_level.txt,sha256=MpveriBPVbAB29W_kkTAOWSUsR2wqxupEDOrq0Oxk6U,14
+cnv_vcf2json-1.1.0.dist-info/RECORD,,
