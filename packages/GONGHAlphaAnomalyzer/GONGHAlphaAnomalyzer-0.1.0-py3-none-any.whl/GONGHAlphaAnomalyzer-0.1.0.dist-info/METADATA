@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: GONGHAlphaAnomalyzer
+Version: 0.1.0
+Summary: This software identifies anomalous observations captured by the GONG network.
+Author: "Heba Mahdi"
+Author-email: Heba Mahdi <hebamahdi@umsl.edu>
+Project-URL: Homepage, https://bitbucket.org/dataresearchlab/gonghalphaanomalyzer/src/master/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib ==3.9.0
+Requires-Dist: numpy ==2.0.0
+Requires-Dist: opencv-python ==4.10.0.84
+Requires-Dist: pandas ==2.2.2
+Requires-Dist: pillow ==10.3.0
+Requires-Dist: requests ==2.32.3
+Requires-Dist: scikit-image ==0.24.0
+Requires-Dist: scikit-learn ==1.5.0
+Requires-Dist: scipy ==1.13.1
+Requires-Dist: tqdm ==4.66.4
+Requires-Dist: urllib3 ==2.2.2
+Requires-Dist: notebook ==7.2.1
+
+# MLEco Anomaly Detector
+
+*(Part of [MLEcoFi Project](https://www.mlecofi.net/))*
+
+**A software for anomaly detection in H-Alpha observations using statistical
+analysis and a grid-based method.**
+
+## User Manual
+
+1. Compute the average pixel values per image. We assume that the anomalous and non-anomalous images are stored in two local directories, `non_anomalous_dir` and `anomalous_dir`.
+
+
+```python
+from src.GONGHAlphaAnomalyzer.cell_average_calculator import calculate_cell_average_per_batch
+
+# process non-anomalous images
+calculate_cell_average_per_batch(folder_path=non_anomalous_dir,
+                                 label=0,
+                                 grid_size=8,
+                                 output_csv=output_csv)
+# process anomalous images
+calculate_cell_average_per_batch(folder_path=anomalous_dir,
+                                 label=1,
+                                 grid_size=8,
+                                 output_csv=output_csv)
+```
+ 2. Compute all possible upper/lower ranges per cell so that later we can find the optimal range per cell:
+
+```python
+df_all_ranges = calculate_cell_wise_ranges(...)
+```
+
+### Training:
+ 1. Define paths to folders containing anomalous and non-anomalous images,
+specify the grid size, and determine the number of training samples to be taken from each folder.
+ 2. Run `process_images` on both the anomalous and non-anomalous folders with
+parameters: folder path, label (0 for the non-anomalous folder and 1 for the anomalous folder), grid size, and output CSV name. This calculates average
+pixel values for each cell and stores the processed training data in a CSV file.
+ 3. Run `write_range_vals` with parameters: processed training data dataframe,
+output CSV name, grid size, and number of samples. This writes candidate ranges and their values for each cell of the training images into a CSV file.
+ 4. Run `anova_ftest` with parameters: processed training data with candidate
+ranges dataframes split by labels (after appending `S` statistic value), grid size, and output CSV name. This calculates and stores `F` statistics for each range candidate for each cell in a CSV file.
+ 5. Run `find_best_ranges` with parameters: ANOVA results dataframe, grid size,
+and output CSV name. This stores the best range for each cell in a CSV file.
+
+### Testing:
+ 1. Prepare test image paths in a list by excluding those that are part of the
+training set and extract their names in a list.
+ 2. Specify the list of image paths for testing, set a threshold (between 0 
+and 1) to identify corrupted cells, and determine min_corrupt_cells (between 
+0 and grid size) to identify an image as corrupted.
+ 3. Run `calc_S` with parameters: list of test image paths, CSV file containing
+the best range for each cell, and the grid size. This produces a processed test data dataframe with calculated S statistics and the sigmoid of its 
+standardized value for each cell in the test images based on the best range
+values.
+ 4. Run `find_corrupt_cells` with parameters: processed test data dataframe and
+threshold. This appends labels to the processed test data that identify corrupt cells based on the standardized `S` sigmoid and the threshold (1 if equal to or
+above the threshold, 0 if below).
+ 5. Run `find_corrupt_images` with parameters: processed test data with corrupt
+cell labels and min_corrupt_cells. This obtains a dataframe containing only data from corrupt images, filtered from the input dataframe if the number of corrupt
+cells in an image exceeds min_corrupt_cells.
+
+### Performance Evaluation:
+ * Apply `f1_metric` with parameters: path to the folder containing anomalous
+images, dataframe of corrupt image data, and list of test image names. This calculates and returns the F1 score and confusion matrix metrics.
+
+### Generate Plots:
+ 1. Run `plot_corrupt_image_S` with parameters: dataframe of corrupt image data,
+path to the folder containing anomalous images, path to the folder containing non-anomalous images, image size in pixels, grid size, and image name 
+(searched from folders). This generates a plot of the image with a blue colormap showing different intensities to indicate the likelihood of cells being anomalous (based on standardized S statistic value) and outlines cells if their value exceeds the threshold.
+ 2. Run `plot_cell_avg` with parameters: processed training data and CSV of best
+ranges. This visualizes the distribution of average pixel values for each cell in a grid of histograms, uses Kernel Density Estimation (KDE) to smooth the
+histograms, and marks the best range values for cells on the plot.
+ 3. Run `plot_cell_wise_scatter` with parameters: plot data (processed training
+data with standardized and centralized `S` statistic values and their Sigmoids), x-axis (standardized `S` statistic values), and y-axis (standardized `S`  statistic Sigmoid values). This visualizes the relationship between the standardized `S` statistic values and their sigmoid values in a grid of scatter plots.
+ 4. Run `plot_cell_wise_hist_plot` with parameters: plot data and x-axis (
+standardized `S` statistic sigmoid values). This visualizes the distribution of standardized `S` statistic sigmoid values across different cells in a grid of histograms.

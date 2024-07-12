@@ -1,0 +1,14 @@
+GONGHAlphaAnomalyzer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GONGHAlphaAnomalyzer/anomalyzer.py,sha256=M_9G3gOOyB-C35dNmSQM0RB6ufR9sxv25mHxChR-8K4,8829
+GONGHAlphaAnomalyzer/anova_analysis.py,sha256=82wrZ0Mt5gy220nrK6iBoyY3-MmUErG0_WyOivGBjM4,3421
+GONGHAlphaAnomalyzer/best_ranges_calculator.py,sha256=vnA1J5os3un__aHAPwqkdvnc9EkeDouFD5yjITyCuhk,3888
+GONGHAlphaAnomalyzer/cell_average_calculator.py,sha256=nmKxgdtRoZn3loRumsLnMqKA-G3vQp_qmVCvGgCzZs0,4514
+GONGHAlphaAnomalyzer/cell_range_calculator.py,sha256=QhqNOb_dqlRbv7IURHerZRk7Y6KPOuFbgWEJSfR_CZg,3656
+GONGHAlphaAnomalyzer/demo.ipynb,sha256=Y_jFij5_ebhP1HQ8LlpV_r8Oib41JITPB_cem3EnPjg,11547
+GONGHAlphaAnomalyzer/performance_evaluator.py,sha256=F6sAt_e4MQUnhY7w92P3BStNOb5B57ZrFnqH-4zNoMo,2149
+GONGHAlphaAnomalyzer/plots_generator.py,sha256=hOAhLVulGevmWxe5TPDFmtivJpdnPIUw62ucAUfPTMw,10871
+GONGHAlphaAnomalyzer-0.1.0.dist-info/LICENSE,sha256=LGrZXJoxyenUUKsBmG1LvWcR7bSf5-0c6Lu4Wal87o8,1062
+GONGHAlphaAnomalyzer-0.1.0.dist-info/METADATA,sha256=ieQwPWwX9tRDlX6u41qyOjQsfo1eBYbyfcDjxqchxmI,6170
+GONGHAlphaAnomalyzer-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+GONGHAlphaAnomalyzer-0.1.0.dist-info/top_level.txt,sha256=53Xm7N6dVhVDj5GWQi2JcSMA-6QDlRhwRiAX-waOsAk,21
+GONGHAlphaAnomalyzer-0.1.0.dist-info/RECORD,,
