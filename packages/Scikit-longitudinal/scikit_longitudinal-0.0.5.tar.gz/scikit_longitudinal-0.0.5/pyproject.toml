@@ -1,0 +1,244 @@
+[project]
+name = "Scikit-longitudinal"
+version = "0.0.5"
+description = "Scikit-longitudinal, an open-source Python lib for longitudinal data analysis, builds on Scikit-learn's foundation. It offers specialised tools to tackle challenges of repeated measures data, ideal for (med.) researchers, data scientists, & analysts."
+authors = [
+    { name = "Provost Simon", email = "simon.gilbert.provost@gmail.com" },
+    { name = "Alex Freitas", email = "a.a.freitas@kent.ac.uk" },
+]
+dependencies = [
+    "scipy>=1.5.0",
+    "pandas<2.0.0,>=1.5.3",
+    "matplotlib<4.0.0,>=3.7.0",
+    "jupyter<2.0.0,>=1.0.0",
+    "overrides<8.0.0,>=7.3.1",
+    "ray<3.0.0,>=2.3.1",
+    "statsmodels<1.0.0,>=0.14.0",
+    "numpy==1.23.3",
+    "graphviz<1.0.0,>=0.20.1",
+    "liac-arff>=2.2.2",
+    "threadpoolctl<4.0.0,>=3.1.0",
+    "stopit>=1.1.2",
+    "rich>=13.6.0",
+    "joblib>=0.11",
+    "deep-forest>=0.1.7",
+    "starboost==0.0.2",
+    "scikit-lexicographical-trees==0.0.2",
+]
+requires-python = ">=3.9,<3.10"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/simonprovost/scikit-longitudinal"
+Documentation = "https://simonprovost.github.io/scikit-longitudinal/"
+Source = "https://github.com/simonprovost/scikit-longitudinal/tree/main/scikit_longitudinal"
+Tracker = "https://github.com/simonprovost/scikit-longitudinal/issues/"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.resolution]
+respect-source-order = true
+excludes = [
+    "scikit-learn",
+]
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "autoflake<3.0.0,>=2.1.1",
+    "flake8-docstrings>=1.7.0",
+    "pydocstyle>=6.3.0",
+    "flake8>=6.0.0",
+    "pylint>=2.17.1",
+    "isort>=5.12.0",
+    "black>=23.10.1",
+    "autopep8>=2.0.2",
+    "docformatter[tomli]<2.0.0,>=1.6.4",
+]
+test = [
+    "pytest>=4.4.0",
+    "pytest-cov>=4.0.0",
+    "genbadge>=1.1.0",
+]
+doc = [
+    "mkdocs==1.6.0",
+    "mkdocs-get-deps==0.2.0",
+    "mkdocs-material==9.5.27",
+    "mkdocs-material[imaging]",
+    "mkdocs-material-extensions==1.3.1",
+    "mkdocs-minify-plugin==0.8.0",
+]
+
+[tool.pdm.scripts._set_pdm_use_venv]
+cmd = "pdm use --venv ${PDM_IN_ENV}"
+
+[tool.pdm.scripts._use_python39]
+shell = "pdm use \"${SKLONG_PYTHON_PATH}\""
+env_file = ".env"
+
+[tool.pdm.scripts._create_env]
+shell = "pdm venv create --with-pip ${SKLONG_PYTHON_VERSION}"
+env_file = ".env"
+
+[tool.pdm.scripts._check_sklong_vars]
+shell = "echo 'Make sure to set the SKLONG_PYTHON_PATH and SKLONG_PYTHON_VERSION environment variables'"
+
+[tool.pdm.scripts._set_env_var]
+shell = "echo 'could you please run `export PDM_IN_ENV=in-project`'"
+
+[tool.pdm.scripts._activate_env]
+cmd = "echo 'could you please activate the environment via `eval $(pdm venv activate (dollar-sign)PDM_IN_ENV)`'"
+
+[tool.pdm.scripts.setup_sklong]
+composite = [
+    "_check_sklong_vars",
+    "_create_env",
+    "_set_env_var",
+    "_activate_env",
+]
+
+[tool.pdm.scripts.remove_env]
+cmd = "pdm venv remove ${PDM_IN_ENV}"
+
+[tool.pdm.scripts._clean_project]
+cmd = "echo could you please deactivate the environment via `conda deactivate` then run `pdm run remove_env`"
+
+[tool.pdm.scripts.clean]
+composite = [
+    "_check_pdm_vars",
+    "_clean_project",
+]
+
+[tool.pdm.scripts._install_deps]
+cmd = "pdm install --venv ${PDM_IN_ENV} --prod"
+
+[tool.pdm.scripts._install_deps.env_file]
+override = ".env"
+
+[tool.pdm.scripts._check_pdm_vars]
+call = "scripts.pdm.pdm_pre_install:check_pdm_variables"
+
+[tool.pdm.scripts._risky_clean]
+shell = "rm -rf pdm.lock __pypackages__"
+
+[tool.pdm.scripts.install_prod]
+composite = [
+    "_check_pdm_vars",
+    "_set_pdm_use_venv",
+    "_install_deps",
+]
+
+[tool.pdm.scripts.view_env]
+cmd = "pdm venv list"
+
+[tool.pdm.scripts.build_dist]
+cmd = "pdm build"
+
+[tool.pdm.scripts.update_lock]
+cmd = "pdm lock"
+
+[tool.pdm.scripts.update_lock.env_file]
+override = ".env"
+
+[tool.pdm.scripts.update_lock_dev]
+cmd = "pdm lock -d"
+
+[tool.pdm.scripts.update_lock_dev.env_file]
+override = ".env"
+
+[tool.pdm.scripts._install_dev]
+cmd = "pdm install -G lint -G test -G doc"
+
+[tool.pdm.scripts._install_dev.env_file]
+override = ".env"
+
+[tool.pdm.scripts.install_dev]
+composite = [
+    "_set_pdm_use_venv",
+    "_install_dev",
+]
+
+[tool.pdm.scripts.tests]
+cmd = "pytest scikit_longitudinal/ --cov=./ --cov-report=html --cov-config=.coveragerc --cov-report=html:htmlcov/scikit_longitudinal -s -vv --capture=no"
+
+[tool.pdm.scripts.clean_cache]
+shell = "rm -rf htmlcov .pytest_cache .*_cache && find . -type d -name '__pycache__' -exec rm -r {} +"
+
+[tool.pdm.scripts.isort]
+cmd = "isort --skip=scikit-learn scikit_longitudinal"
+
+[tool.pdm.scripts.black]
+cmd = "black --line-length 120 --preview --exclude=./scikit-learn/* scikit_longitudinal"
+
+[tool.pdm.scripts.flake8]
+cmd = "flake8 --exclude=./scikit-learn/* scikit_longitudinal"
+
+[tool.pdm.scripts.autoflake]
+cmd = "autoflake --in-place --remove-all-unused-imports --recursive --exclude=./scikit-learn/* scikit_longitudinal"
+
+[tool.pdm.scripts.pylint]
+cmd = "pylint --rcfile=pylintrc scikit_longitudinal/"
+
+[tool.pdm.scripts.precommit]
+shell = "git ls-files -- 'scikit_longitudinal/*.py' | xargs pre-commit run --files"
+
+[tool.pdm.scripts.autopep8]
+cmd = "autopep8 --in-place --aggressive --aggressive --max-line-length 120 --recursive --exclude=./scikit-learn/* scikit_longitudinal"
+
+[tool.pdm.scripts.docformatter]
+cmd = "docformatter --in-place --recursive --wrap-summaries 120 --wrap-descriptions 120 --blank --make-summary-multi-line --exclude=./scikit-learn/ scikit_longitudinal"
+
+[tool.pdm.scripts.lint]
+composite = [
+    "flake8",
+    "pylint",
+]
+
+[tool.pdm.scripts.format]
+composite = [
+    "isort",
+    "autopep8",
+    "black",
+    "autoflake",
+    "docformatter",
+]
+
+[tool.pdm.scripts.lint_format_tests]
+composite = [
+    "format",
+    "lint",
+    "tests",
+]
+
+[tool.pdm.scripts.docs]
+shell = "mkdocs serve"
+
+[tool.flake8]
+max-line-length = 120
+
+[tool.black]
+line-length = 120
+target-version = [
+    "py310",
+]
+include = "\\.pyi?$"
+exclude = "/(\n    \\.git\n  | \\.hg\n  | \\.mypy_cache\n  | \\.tox\n  | \\.venv\n  | _build\n  | buck-out\n  | build\n  | dist\n  | scikit-learn\n)/\n"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 120
+
+[tool.yapfignore]
+ignore_patterns = [
+    "scikit-learn/**/*.py",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
