@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/webcam_face_capture/__init__.py
+src/webcam_face_capture/main.py
+src/webcam_face_capture.egg-info/PKG-INFO
+src/webcam_face_capture.egg-info/SOURCES.txt
+src/webcam_face_capture.egg-info/dependency_links.txt
+src/webcam_face_capture.egg-info/entry_points.txt
+src/webcam_face_capture.egg-info/requires.txt
+src/webcam_face_capture.egg-info/top_level.txt
