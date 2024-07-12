@@ -1,0 +1,4 @@
+[console_scripts]
+drd=drd.cli.main:dravid_cli
+drd-gui=drd.run_gui:main
+
