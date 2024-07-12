@@ -1,0 +1,9 @@
+clodoo
+z0lib
+python_plus
+future
+Babel
+lxml
+openpyxl
+pyyaml
+twine==1.15.0
