@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+drfapigenerator/__init__.py
+drfapigenerator/admin.py
+drfapigenerator/apps.py
+drfapigenerator/models.py
+drfapigenerator/tests.py
+drfapigenerator/views.py
+drfapigenerator.egg-info/PKG-INFO
+drfapigenerator.egg-info/SOURCES.txt
+drfapigenerator.egg-info/dependency_links.txt
+drfapigenerator.egg-info/requires.txt
+drfapigenerator.egg-info/top_level.txt
