@@ -1,0 +1,7 @@
+README.md
+setup.py
+langchain_elasticsearh.egg-info/PKG-INFO
+langchain_elasticsearh.egg-info/SOURCES.txt
+langchain_elasticsearh.egg-info/dependency_links.txt
+langchain_elasticsearh.egg-info/not-zip-safe
+langchain_elasticsearh.egg-info/top_level.txt
