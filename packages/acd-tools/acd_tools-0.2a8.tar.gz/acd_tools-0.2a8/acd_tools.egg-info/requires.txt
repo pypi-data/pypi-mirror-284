@@ -1,0 +1,11 @@
+loguru
+kaitaistruct
+
+[dev]
+requires
+pytest-asyncio
+pip-tools
+pre-commit
+pytest-mock
+mock
+mypy
