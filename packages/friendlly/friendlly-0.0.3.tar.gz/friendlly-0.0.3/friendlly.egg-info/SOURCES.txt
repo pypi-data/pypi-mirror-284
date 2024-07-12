@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+friendlly/__init__.py
+friendlly/_modidx.py
+friendlly/core.py
+friendlly/display.py
+friendlly.egg-info/PKG-INFO
+friendlly.egg-info/SOURCES.txt
+friendlly.egg-info/dependency_links.txt
+friendlly.egg-info/entry_points.txt
+friendlly.egg-info/not-zip-safe
+friendlly.egg-info/requires.txt
+friendlly.egg-info/top_level.txt
