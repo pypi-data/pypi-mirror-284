@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+SyntheticGen.egg-info/PKG-INFO
+SyntheticGen.egg-info/SOURCES.txt
+SyntheticGen.egg-info/dependency_links.txt
+SyntheticGen.egg-info/requires.txt
+SyntheticGen.egg-info/top_level.txt
+syntheticgen/SyntheticGen.py
+syntheticgen/__init__.py
