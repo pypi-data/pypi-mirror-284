@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.py
+wyc_pack1/__init__.py
+wyc_pack1/test1.py
+wyc_pack1/test2.py
+wyc_pack1.egg-info/PKG-INFO
+wyc_pack1.egg-info/SOURCES.txt
+wyc_pack1.egg-info/dependency_links.txt
+wyc_pack1.egg-info/top_level.txt
