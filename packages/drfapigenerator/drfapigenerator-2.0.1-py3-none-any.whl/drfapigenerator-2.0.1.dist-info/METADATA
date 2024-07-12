@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: drfapigenerator
+Version: 2.0.1
+Summary: A Django app for automating RESTful API development using Django Rest Framework (DRF), simplifying CRUD operations for Django models.
+Home-page: https://github.com/mddas2/drfapigenerator
+Author: Manoj Kumar Das
+Author-email: manojdas.py@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+Requires-Dist: django
+Requires-Dist: djangorestframework
+
+DRF API Generator simplifies API development in Django projects by automating the creation of RESTful APIs using Django Rest Framework (DRF). It generates necessary components such as viewsets, serializers, and routing based on your Django models, allowing developers to quickly expose CRUD (Create, Read, Update, Delete) operations via API endpoints. This tool enhances productivity by reducing manual configuration and boilerplate code, making it easier to build and maintain APIs in Django applications.

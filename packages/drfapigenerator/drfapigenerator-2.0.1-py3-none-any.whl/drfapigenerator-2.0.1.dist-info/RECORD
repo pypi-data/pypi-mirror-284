@@ -1,0 +1,10 @@
+drfapigenerator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drfapigenerator/admin.py,sha256=p6xop1PuuDG2Uwv3G_aRfldxOfBzTRfMaoZmORVkqyU,66
+drfapigenerator/apps.py,sha256=-GN7vth5Vw74ZvmjTNqG1D4RzpHScoWhyddbKdRwaUU,168
+drfapigenerator/models.py,sha256=4OVMcDDx9fVgBEJ91B7dfMEG2Ni1LRSLJOKzIkVPsKo,60
+drfapigenerator/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+drfapigenerator/views.py,sha256=u0FhL7RT5byf5IlcnZEMrcH2TOnQkdfRQU2SjtA26m0,66
+drfapigenerator-2.0.1.dist-info/METADATA,sha256=eJUBsYFsHEDbnn1JaJPrE1D3CKbmvc7XXoos55mxa9I,1123
+drfapigenerator-2.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+drfapigenerator-2.0.1.dist-info/top_level.txt,sha256=NF5dmb1IWMX4rZZ_l6ReWj1gEc8YX83nqWgKUElp2Ew,16
+drfapigenerator-2.0.1.dist-info/RECORD,,
