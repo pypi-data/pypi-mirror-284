@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: streamlit-tz
+Version: 0.1.0
+Summary: Streamlit component that returns the user browser IANA timezone
+Home-page: https://github.com/parente/streamlit-tz
+Author: Peter Parente
+Author-email: parente@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=1.2
+Requires-Dist: jinja2
+
+# streamlit-tz
+
+Streamlit component that returns the user browser IANA timezone
+
+## Installation instructions
+
+```sh
+pip install streamlit-tz
+```
+
+## Usage instructions
+
+```python
+from datetime import datetime, UTC
+from zoneinfo import ZoneInfo
+
+import streamlit as st
+from streamlit_tz import streamlit_tz
+
+
+tz = streamlit_tz()
+now = datetime.now(UTC)
+st.write(f"Time UTC: {now}")
+st.write(f"Time in {tz}: {now.astimezone(ZoneInfo(tz))}")
+```
