@@ -1,0 +1,8 @@
+pandas
+numpy
+python-binance
+websocket-client
+websockets
+datetime
+plotly
+matplotlib
