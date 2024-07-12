@@ -1,0 +1,10 @@
+SyncVision/__init__.py,sha256=lqCDuy4U_wojQnVWXX4C1Na7JpIPm4UIux3wiNTJfuY,149
+SyncVision/main.py,sha256=1Y62NaczhHFOig4jah3AgU1GGhT2BVNwjOYX8cvZFFs,4116
+SyncVision/metrics.py,sha256=8Leh1w-UqZ6e_Co3XIb2duxX7lzc8l2HzHfkoNYwsI8,2106
+SyncVision/registration.py,sha256=qwSlSW9B4tzd_4iPQ-NoLdayBU_AWzMdUhmBYitFEqg,7045
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=24oLuB1HoO1iu7IP17GYa6DVrRROoh-c35TWT5vPMJo,195
+SyncVision-1.1.3.dist-info/METADATA,sha256=fmY-b6aaSSgI7QpdSqEWQvsE9kuq_xyQMjYr0QBXOcQ,1329
+SyncVision-1.1.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+SyncVision-1.1.3.dist-info/top_level.txt,sha256=XVV_q5j7hnPHoj-XZhwfjElBgRWpIoKRjiZkaLDqRHk,17
+SyncVision-1.1.3.dist-info/RECORD,,
