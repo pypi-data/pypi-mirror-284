@@ -1,0 +1,10 @@
+jax==0.4.26
+paxml==1.4.0
+praxis==1.4.0
+jaxlib==0.4.26
+numpy==1.26.4
+pandas==2.1.4
+einshape==1.0.0
+utilsforecast==0.1.10
+huggingface_hub[cli]==0.23.0
+scikit-learn==1.5.1
