@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/lazyscience/__init__.py
+src/lazyscience/debug.py
+src/lazyscience/lazyscience.py
+src/lazyscience.egg-info/PKG-INFO
+src/lazyscience.egg-info/SOURCES.txt
+src/lazyscience.egg-info/dependency_links.txt
+src/lazyscience.egg-info/requires.txt
+src/lazyscience.egg-info/top_level.txt
+tests/test_lazyscience.py
