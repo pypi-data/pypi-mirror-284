@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+TuiToy.egg-info/PKG-INFO
+TuiToy.egg-info/SOURCES.txt
+TuiToy.egg-info/dependency_links.txt
+TuiToy.egg-info/top_level.txt
+tuitoy/__init__.py
+tuitoy/app.py
+tuitoy/scenes.py
+tuitoy/tuitoy.py
+tuitoy/windows.py
