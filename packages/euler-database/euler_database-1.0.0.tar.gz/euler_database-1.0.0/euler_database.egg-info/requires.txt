@@ -1,0 +1,6 @@
+numpy
+scikit-learn
+torch
+Pillow
+customtkinter
+node2vec
