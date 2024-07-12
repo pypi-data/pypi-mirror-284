@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: web-scraper-utils
+Version: 0.0.1
+Summary: Common utility functions for scraping
+Author: Dennis Ho
+Author-email: hkhdennis@gmail.com
+License: MIT
