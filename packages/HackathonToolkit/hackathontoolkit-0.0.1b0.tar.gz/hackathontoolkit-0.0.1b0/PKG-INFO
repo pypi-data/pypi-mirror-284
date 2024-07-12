@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: HackathonToolkit
+Version: 0.0.1b0
+Summary: The Hackathon Toolkit simplifies hackathon projects with utilities for setup, API interaction, data handling, ML, visualization, collaboration, and deployment, automating tasks for innovation focus.
+Home-page: 
+Author: Moutasim Qazi
+Author-email: moutasimqazi@gmail.com
+License: Apache License
+Keywords: hackathon,toolkit,python,library
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/plain
+License-File: LICENCE.txt
+
+The Hackathon Toolkit is a Python library that streamlines hackathon projects with utilities for project setup, API interaction, data handling, machine learning, visualization, collaboration, and deployment. It automates repetitive tasks, enabling participants to focus on innovation.
+
+
+
+
+
+
+
+
+Change Log
+==========
+
+0.0.1-beta (7/11/2024)
+----------------------
+- First Release
