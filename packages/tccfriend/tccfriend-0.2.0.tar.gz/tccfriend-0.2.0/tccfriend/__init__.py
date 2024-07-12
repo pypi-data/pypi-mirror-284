@@ -1,0 +1,1 @@
+from .tccfriend import tccfriend

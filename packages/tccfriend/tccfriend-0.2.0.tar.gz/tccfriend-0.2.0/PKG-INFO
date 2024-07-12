@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tccfriend
+Version: 0.2.0
+Summary: tccfriend package
+Author: Nicolas Tercé
+Author-email: <nterce@gmail.com>
+Keywords: python,tcc,graph,french,application
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pyqt5
+Requires-Dist: matplotlib
+Requires-Dist: pyrebase4

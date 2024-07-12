@@ -1,0 +1,8 @@
+setup.py
+tccfriend/__init__.py
+tccfriend/tccfriend.py
+tccfriend.egg-info/PKG-INFO
+tccfriend.egg-info/SOURCES.txt
+tccfriend.egg-info/dependency_links.txt
+tccfriend.egg-info/requires.txt
+tccfriend.egg-info/top_level.txt
