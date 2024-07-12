@@ -1,0 +1,9 @@
+
+[elasticsearch]
+elasticsearch
+
+[mqtt]
+paho-mqtt
+
+[sql]
+sqlalchemy
