@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/calc_taeg/__init__.py
+src/calc_taeg/test_taeg.py
+src/calc_taeg.egg-info/PKG-INFO
+src/calc_taeg.egg-info/SOURCES.txt
+src/calc_taeg.egg-info/dependency_links.txt
+src/calc_taeg.egg-info/requires.txt
+src/calc_taeg.egg-info/top_level.txt
