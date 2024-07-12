@@ -1,0 +1,10 @@
+algocomp/__init__.py,sha256=n0gdZA-9eV_IywtBpjzRJUDWHPk4xGPpSYjjnyJTARk,68
+algocomp/master.py,sha256=H9G58lr5aeMnyLMS4qJE_heMX0d3FobNtwHLjwOv0qs,27080
+algocomp/q_learning_duopoly_hotelling.py,sha256=niZSqXgdNQzPz-g2Y59O73qD8nktkWDfX9PzVtf7MA0,12848
+algocomp/q_learning_duopoly_linear.py,sha256=jW_C_P1rHYLEtGxqtwFx99fFRlsJIIjTYb4xUYPPNiY,11285
+algocomp/q_learning_duopoly_logit.py,sha256=EeSj16JpzdW3Ww4AUi30rzzDa0zhqgaqYzVejHZqvII,11906
+algocomp-1.0.3.dist-info/LICENSE,sha256=JLfr4yR_4Z8txF7BMNPnK3QgDq7aNn8L35OD8W3Nmm4,956
+algocomp-1.0.3.dist-info/METADATA,sha256=nRKr-LKJ5domwnkI3AjSb2ZWwgu-oZ-ndb5VBtGHteU,4396
+algocomp-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+algocomp-1.0.3.dist-info/top_level.txt,sha256=sTE9YQK8pKPwgykusa6Rz4wva-a4Ie60s2ZNUqkKtoI,9
+algocomp-1.0.3.dist-info/RECORD,,
