@@ -1,0 +1,16 @@
+sgGWR/__init__.py,sha256=SLgHlJ6jDdjBDuoVmiqpXh799oNO_1Cmq4RJbkQJgJg,115
+sgGWR/kernels.py,sha256=J58xg4y-iW3KKscjB7E5Ojp3F6tLfi5RJJRi79cKCZQ,11414
+sgGWR/models.py,sha256=4OeSG9rfH1Yr8KUKwCeGcLVERREAb3iM7SIPIfFpaB0,21276
+sgGWR/optimizers/__init__.py,sha256=sWnqVo9qlEHErUIvd-_5pfzrq27-MD0O-h2nx5GXENI,1044
+sgGWR/optimizers/existings.py,sha256=DQ9TrbXfdbd9QSfmRTKQLJmC5jCX3rQ6V88z-6Z4IJo,7693
+sgGWR/optimizers/existings_numpy.py,sha256=xON4bo0V8zwG2xmuqa_gXyz0Q4eDHdSXTIygvKhKk90,3934
+sgGWR/optimizers/golden.py,sha256=-GtzE9etzRyH_bSpxuCRSRQoYI8pgduvFYqFVPdzDNc,3998
+sgGWR/optimizers/second.py,sha256=N0VGeUqbcn-6ZctOU-6_yC06QHUmnTbGCzzAnjhfRHs,6983
+sgGWR/optimizers/sg.py,sha256=L0tdT1WwwmZWTEUBDKvxnU0a5qaYi0U-cVPyRzV6ORQ,8998
+sgGWR/optimizers/sg_numpy.py,sha256=t1Eql7FcdyJ_eZIpgxHW8ze5HEuzwMp0-rZEa-Ku8Tw,6423
+sgGWR/optimizers/vr.py,sha256=XNq2XUnkP4jX_ba22yHcZNNMqcRYt0X1xFe_HulVR-Q,6553
+sgGWR-0.1.4.dist-info/LICENSE,sha256=Vy_5YaQ2hT6aPo8xPoCXNVz1NYAFcj9-UvZIgcFVElU,1499
+sgGWR-0.1.4.dist-info/METADATA,sha256=3B9xcpojwQPY_vIx3E5KklG1jJZHU90Ng_KT3jEGZHI,3009
+sgGWR-0.1.4.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+sgGWR-0.1.4.dist-info/top_level.txt,sha256=o_m5sL9wo0wUZnOlmtW7YdCyDVU-1s9uf6dnLA2vsxk,6
+sgGWR-0.1.4.dist-info/RECORD,,
