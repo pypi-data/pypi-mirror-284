@@ -1,0 +1,9 @@
+face_lensing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+face_lensing/__main__.py,sha256=gWYItJ6oBvU36iqD3q9FxCiKd7XWw_NidyWy5dvIolU,8695
+face_lensing/dpl_xy_z1_elliptical.npz,sha256=Yrrywlx_AeMrM5RLAXwMt-JK-Q8I5oVFyI9w7HSnEjs,10122670
+face_lensing-0.5.dist-info/LICENSE,sha256=Hd6QnluIW4C4lPll7U809PZmtF8Y7ZZ5W0i_NZEAW00,1077
+face_lensing-0.5.dist-info/METADATA,sha256=-uSNoV7PJcz4rCTorx6uPYYUaoCzzMqzKdLMohwntmY,4398
+face_lensing-0.5.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+face_lensing-0.5.dist-info/entry_points.txt,sha256=p8RGW26oib9WEmpJz5r3vqQvSUcYf1g8BpUk6usBJvk,64
+face_lensing-0.5.dist-info/top_level.txt,sha256=kHdF0mPF5z52TDqU9rt3jFk5tc0iNhfpuhtEyTdZPeg,13
+face_lensing-0.5.dist-info/RECORD,,
