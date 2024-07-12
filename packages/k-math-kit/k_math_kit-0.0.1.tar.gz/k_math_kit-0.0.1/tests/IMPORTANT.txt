@@ -1,0 +1,1 @@
+k_math_kit has to be installed first in order to test the jupyter-notebook programs
