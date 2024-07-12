@@ -1,0 +1,8 @@
+satimaclassify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+satimaclassify/classification.py,sha256=TD-3R0pGQ8-m8RYI0KwPT95j_GkM0uwDOzodmIlwKnw,7286
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_classification.py,sha256=ifpdUren1OfhdWG3BMAZQh89fvMF0NI_8QLn51CHN-c,4174
+satimaclassify-1.1.0.dist-info/METADATA,sha256=05t3SSKgpLeJFkTByZwk1lc5-Ny18Stwan_sodYKCqQ,5681
+satimaclassify-1.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+satimaclassify-1.1.0.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+satimaclassify-1.1.0.dist-info/RECORD,,
