@@ -1,0 +1,11 @@
+pkg1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkg1/validate.py,sha256=pmDS9wb49eB9OWb-WDN1HBvVfVTIw8xwRrVOJAE3v8Q,89
+pkg2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkg2/calculator.py,sha256=MjyIudweYGAWO685KuxZiiufPnIftD2K5Skpc_2gGPc,135
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_validate.py,sha256=yq4FmXRdCmMDEFX8cl6HOVybNNNLJUoDD3wfPrbhzvw,233
+pyplbasicpkg-1.0.0.dist-info/LICENSE.txt,sha256=xvq1LaywvPe7ZDVuX89wjbBuRICsQkN3eoAc_3NuXa0,1069
+pyplbasicpkg-1.0.0.dist-info/METADATA,sha256=GLDaiDwI-FMwAkiySDORXu3gtgCitbsDKA_jE2Dg4aY,1504
+pyplbasicpkg-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyplbasicpkg-1.0.0.dist-info/top_level.txt,sha256=9ZNSshENyHlc9oU1x7MsHx1ZSrCS_-nDMOn3te0N9Zk,16
+pyplbasicpkg-1.0.0.dist-info/RECORD,,
