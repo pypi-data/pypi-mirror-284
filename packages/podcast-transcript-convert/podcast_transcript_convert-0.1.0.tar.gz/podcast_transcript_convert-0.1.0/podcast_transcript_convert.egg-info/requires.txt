@@ -1,0 +1,10 @@
+beautifulsoup4
+loguru
+lxml
+webvtt-py
+
+[lint]
+pyroma
+pytype
+ruff
+pytest
