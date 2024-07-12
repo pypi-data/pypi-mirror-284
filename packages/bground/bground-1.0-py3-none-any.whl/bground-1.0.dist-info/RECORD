@@ -1,0 +1,11 @@
+bground/__init__.py,sha256=6lwKySyFbJSgUQCtMWpZGlpmUKkKSyAKSvMhBnSStTI,742
+bground/bdata.py,sha256=lIPalxQYGscc-21Ui1uJvUbR7YJNnmFcBI-pTbBVKOg,4224
+bground/bfunc.py,sha256=DSjMBJU8va-jAF428gLndIA-Pu4ZF5zUZSUEpBwOHiE,4600
+bground/help.py,sha256=wqdv7Rr5ipNdNKw9hSpQoL2qZInG7WL1RxMzsJN2Isw,4588
+bground/iplot.py,sha256=yjU-3cvWIUobb_8VMocJJX34yGeyD55R10MA3Cl9nX4,17606
+bground/ui.py,sha256=ZsX583PQTJYmtXlo_hWGVLr9JF2TwIpuRDwfrn7g_PQ,20448
+bground-1.0.dist-info/LICENCE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+bground-1.0.dist-info/METADATA,sha256=VAaWHSa17JcB3vlEcxMkifDw5rN8-W7IIY4vQTfRu98,2554
+bground-1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+bground-1.0.dist-info/top_level.txt,sha256=UAi91XZa9SsK6etx4vMi-oduWbilezdjNdfOuKUbRAU,8
+bground-1.0.dist-info/RECORD,,
