@@ -1,0 +1,2 @@
+[console_scripts]
+jinja-file-renderer = jinja_file_renderer.cli:main

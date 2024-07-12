@@ -1,0 +1,62 @@
+Metadata-Version: 2.3
+Name: jinja-file-renderer
+Version: 0.0.1a0
+Summary: A tool for copying a directory, during which *.jinja files are rendered via Jinja2.
+Project-URL: Documentation, https://jinja-file-renderer.readthedocs.io/
+Project-URL: Issues, https://github.com/spranta-devops/jinja-file-renderer/issues
+Project-URL: Source, https://github.com/spranta-devops/jinja-file-renderer
+Author: Gerd Aschbrenner
+License: jinja-file-renderer - A tool for copying a directory, during which *.jinja files are rendered via Jinja2.
+        Copyright (C) 2024 Gerd Aschbrenner
+        
+        This file is part of 'jinja-file-renderer'.
+        
+        'jinja-file-renderer' is free software: you can redistribute it and/or modify
+        it under the terms of the GNU Affero General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+        
+        'jinja-file-renderer' is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU Affero General Public License
+        along with 'jinja-file-renderer'.  If not, see <http://www.gnu.org/licenses/>.
+License-File: LICENSE
+Keywords: jinja,template
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Requires-Dist: jinja2~=3.1.4
+Requires-Dist: python-dotenv~=1.0.1
+Description-Content-Type: text/markdown
+
+# jinja-file-renderer
+A tool for copying a directory, during which *.jinja files are rendered via Jinja2.
+
+The `jinja-file-renderer` can print the usage information: 
+```shell
+jinja-file-renderer --help
+```
+
+For more information. please visit the official documentation:
+* https://jinja-file-renderer.readthedocs.io/
+
+The project is hosted on GitHub:
+* https://github.com/spranta-devops/jinja-file-renderer
