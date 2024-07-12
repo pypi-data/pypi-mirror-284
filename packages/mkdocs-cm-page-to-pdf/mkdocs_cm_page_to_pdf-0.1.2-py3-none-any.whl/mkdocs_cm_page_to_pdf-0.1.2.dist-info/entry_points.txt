@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+mkdocs-cm-page-to-pdf = mkdocs_cm_page_pdf.plugin:PageToPdfPlugin
