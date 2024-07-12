@@ -1,0 +1,6 @@
+Cython
+matplotlib
+numpy
+physbo>=2.0.0
+scikit-learn
+scipy
