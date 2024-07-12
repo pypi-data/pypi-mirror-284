@@ -1,0 +1,14 @@
+Kbrain/__init__.py,sha256=jh34RyQzMZ68sZEt0ldBBnJJs301eW3s4iH4FcYVMns,98
+Kbrain/layer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Kbrain/layer/layer.py,sha256=YomiUuggSdO-HZqiboWY2yFxp_mrw428Nxkw4E2gtUc,1313
+Kbrain/neural/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Kbrain/neural/neural.py,sha256=E041RvdeA2JkHAT-GDq0r7x8Wzd-Ey7x9y9hAcydTfg,1463
+Npai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Npai/layer/LayerUp.py,sha256=VYSilWm_0GwkvPsvNxnPeBaarfemk7OlwlW0C3jYP1o,6613
+Npai/layer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Npai/neural/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Npai/neural/neural.py,sha256=SJh7BHiM0ClyErgzGBKwnGqHEvyg6ZQtOGiZ48h_uqg,2042
+NumpyLayer-0.1a0.dist-info/METADATA,sha256=uRfbzcKMmFMRH1W_N8-2-wF8ld4cPjTxHI3uPcr7oqM,362
+NumpyLayer-0.1a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+NumpyLayer-0.1a0.dist-info/top_level.txt,sha256=Sh-ZpQqJ2R0ciUZVpBeXLgwyvf8EgvsjPm0F213-6WI,12
+NumpyLayer-0.1a0.dist-info/RECORD,,
