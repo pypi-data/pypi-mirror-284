@@ -1,0 +1,11 @@
+setup.py
+q_galore_torch/__init__.py
+q_galore_torch/q_galore_adamw8bit.py
+q_galore_torch/q_galore_adamw8bit_simulate.py
+q_galore_torch/q_galore_projector.py
+q_galore_torch/q_galore_projector_simulate.py
+q_galore_torch.egg-info/PKG-INFO
+q_galore_torch.egg-info/SOURCES.txt
+q_galore_torch.egg-info/dependency_links.txt
+q_galore_torch.egg-info/requires.txt
+q_galore_torch.egg-info/top_level.txt

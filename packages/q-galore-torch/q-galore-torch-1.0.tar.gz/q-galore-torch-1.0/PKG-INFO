@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: q-galore-torch
+Version: 1.0
+Summary: Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients
+Home-page: https://github.com/VITA-Group/Q-GaLore
+Author: Zhenyu Zhang
+Author-email: zhenyu.zhang@utexas.edu
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
