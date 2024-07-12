@@ -1,0 +1,4 @@
+[console_scripts]
+jb=jbatch.__main__:main
+jbatch=jbatch.__main__:main
+
