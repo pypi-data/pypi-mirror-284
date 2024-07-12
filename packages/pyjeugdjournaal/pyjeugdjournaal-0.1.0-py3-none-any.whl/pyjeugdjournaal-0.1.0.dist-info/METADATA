@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyjeugdjournaal
+Version: 0.1.0
+Summary: Python library to interact with the jeugdjournaal API
+Home-page: https://github.com/hcr5/jeugdjournaalpy
+Author: hcr5
+Author-email: hcr5.hcr@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+
+    All documentation is in the GitHub repository:
+    https://github.com/hcr5/SomPy/blob/main/docs.md
+    
