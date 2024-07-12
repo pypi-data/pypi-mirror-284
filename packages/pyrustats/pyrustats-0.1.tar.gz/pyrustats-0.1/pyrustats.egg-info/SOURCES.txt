@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+pyrustats.egg-info/PKG-INFO
+pyrustats.egg-info/SOURCES.txt
+pyrustats.egg-info/dependency_links.txt
+pyrustats.egg-info/not-zip-safe
+pyrustats.egg-info/top_level.txt
