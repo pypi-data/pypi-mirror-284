@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: wxflows_client
+Version: 0.1.0
+Summary: The watsonx.ai flows engine SDK
+Author-email: Samuel Hill <sam.hill@ibm.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# wxflows_client
+
+**wxflows_client** is a library to query flows deployed to watsonx.ai flows engine.
+
+```python
+from wxflows_client import rag
+
+print(rag.execute(
+    endpoint="https://watzen.stepzen.net/watzen-genai/rag_v1/__graphql",
+    apikey="xxxx",
+    name="A_ragAnswerDesc",
+    vars={
+      "n": 10,
+      "question": "who are the interns in greys anatomy season 9?",
+      "aiEngine": "BAM",
+      "model": "ibm/granite-13b-chat-v2",
+      "embedModel": "ibm/slate-30m-english-rtrvr",
+      "collection": "longnq",
+      "parameters": {
+          "max_new_tokens": 1000,
+          "temperature": 0.7
+      }
+    },
+    query="",
+    max_depth=2
+))
+```
+
+## Installing wxflows_client and Supported Versions
+
+wxflows_client is available on PyPI:
+
+```console
+$ python -m pip install wxflows_client
+```
+
+wxflows_client officially supports Python 3.8+.
+
+## Testing Locally
+
+> Note: Be sure to add your endpoint and credentials in the `main.py` file.
+
+```bash
+python3 -m venv venv        
+source ./venv/bin/activate
+pip install -r requirements.txt
+make test
+```
+
+### Export the package
+1. From root, run `python -m build`.
+2. Copy the generated `<>.wz` files from the generated `dist` folder and paste it into your project.
+3. Execute `pip install wxflows_client` in your project folder.
