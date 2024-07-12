@@ -1,0 +1,6 @@
+numpy
+scikit_learn
+scipy
+setuptools
+statsmodels
+tqdm

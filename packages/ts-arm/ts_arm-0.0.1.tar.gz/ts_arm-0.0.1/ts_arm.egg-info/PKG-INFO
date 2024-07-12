@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ts-arm
+Version: 0.0.1
+Summary: Guidelines for Augmentation Selection in Contrastive Learning for Time Series Classification
+Home-page: https://github.com/DL4mHealth/TS-Contrastive-Augmentation-Recommendation
+Author: Ziyu Liu
+Author-email: ziyu.liu2@student.rmit.edu.au
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+
+UNKNOWN
+
