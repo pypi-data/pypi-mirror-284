@@ -1,0 +1,6 @@
+README.md
+mail_man_cbs.egg-info/PKG-INFO
+mail_man_cbs.egg-info/SOURCES.txt
+mail_man_cbs.egg-info/dependency_links.txt
+mail_man_cbs.egg-info/requires.txt
+mail_man_cbs.egg-info/top_level.txt
