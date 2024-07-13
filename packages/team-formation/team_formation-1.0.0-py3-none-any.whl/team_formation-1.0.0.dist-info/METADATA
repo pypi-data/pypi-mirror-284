@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: team-formation
+Version: 1.0.0
+Summary: A tool to form teams from a larger group based on clustering and diversity constraints
+Home-page: https://github.com/harvard-hbs/team-formation/
+Author: Brent Benson
+License: MIT
+License-File: LICENSE
+Requires-Dist: pandas >=2.0
+Requires-Dist: ortools >=9.2
+Requires-Dist: streamlit >=1.30
+Requires-Dist: humanize >=4.9
+
