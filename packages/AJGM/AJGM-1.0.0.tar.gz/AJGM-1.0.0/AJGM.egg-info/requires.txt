@@ -1,0 +1,6 @@
+pandas
+numpy
+scipy
+sklearn
+pywt
+prox_tv
