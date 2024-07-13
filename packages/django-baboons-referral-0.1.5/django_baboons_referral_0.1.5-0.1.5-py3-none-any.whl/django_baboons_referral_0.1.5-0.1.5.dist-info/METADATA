@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: django-baboons-referral-0.1.5
+Version: 0.1.5
+Summary: A reusable Django app for managing user referrals.
+Home-page: https://github.com/yourusername/django-referral
+Author: Wilbur Hachita
+Author-email: wilbur@baboons.nl
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django >=3.2
+Requires-Dist: djangorestframework
+
+# Django Referral by Baboons.nl
+
+A reusable Django app for managing user referrals.
+
+## Installation
+
+Install using pip:
+
+```bash
+pip install django-baboons-referral
