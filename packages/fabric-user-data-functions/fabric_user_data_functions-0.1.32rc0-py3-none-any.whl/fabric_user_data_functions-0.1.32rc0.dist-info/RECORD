@@ -1,0 +1,12 @@
+fabric/functions/__init__.py,sha256=4IQZmsWZIaL0kNY2hkkyxydh810Cw0tVQ-pR-akAqIY,155
+fabric/functions/fabric_app.py,sha256=RkrUW5mXm2t7PQXEDXLNJBgnKcFJ4lLbGC8WNXEAjR8,3993
+fabric/functions/fabric_class.py,sha256=dPL-HNDOjEeX5v6vVnFcSdP7gTbMoHTALt92ZGKSQxk,4792
+fabric/functions/item_binding.py,sha256=YA-zkZi6jChkXv00RKJBq8gDSF2LAS-xqJ_KBwJECuU,3064
+fabric/functions/middleware/__init__.py,sha256=Y0ozQtcn6h20uS7BDZ_28xYvzcoSS7kJnqHdfsNgZRk,93
+fabric/functions/middleware/invocationIdMiddleware/__init__.py,sha256=jAvfxMl8_agasfBPSOhAj-oGk3QSyLYAMyyFtjtFcIA,956
+fabric/functions/middleware/removeReqMiddleware/__init__.py,sha256=kLdfj99NwOqfNsGY7bgP5B49tjl2RgAoZbhIA5wHdmU,942
+fabric/functions/udf_binding.py,sha256=Pll7LVDlXB6JxZvKxKNcCmvmKs5ITDsUZCSt6bWPH3c,1721
+fabric_user_data_functions-0.1.32rc0.dist-info/LICENSE.md,sha256=WeG1SljQtNma8kW_dYoHQrXe2B6iQvTE530ZzWIEZt4,16500
+fabric_user_data_functions-0.1.32rc0.dist-info/METADATA,sha256=A8gI9pmBXBXD94QEAcjl5qaOUDdZo5TllsWsyTvJVyc,2439
+fabric_user_data_functions-0.1.32rc0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fabric_user_data_functions-0.1.32rc0.dist-info/RECORD,,
