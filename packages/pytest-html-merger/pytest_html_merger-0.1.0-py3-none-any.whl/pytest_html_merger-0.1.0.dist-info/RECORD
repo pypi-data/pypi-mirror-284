@@ -1,0 +1,10 @@
+pytest_html_merger/__init__.py,sha256=BnXpZXohbfLoGpUsmNv9T-FXHWha58kb2M1-OelLINQ,196
+pytest_html_merger/__main__.py,sha256=VcYq2UUn45YKx94Ce7vxNyCZqrzduLo11v_HXHG3Qr8,192
+pytest_html_merger/main.py,sha256=5tP6bviIMmHkqkGNEyBSIh12_jc4sSaz6aEE98f8kJo,7861
+pytest_html_merger/version.py,sha256=1J764KOC_JSYdVq89q23fyQdSMWvRkX7yfVuy9CpxCE,65
+pytest_html_merger-0.1.0.dist-info/LICENSE.txt,sha256=f6flbA23EQX0tZpqCsQCJesFmHb4XNOAOD99egZuaL4,35127
+pytest_html_merger-0.1.0.dist-info/METADATA,sha256=EneHtAPJmqfaHbaZgairtZX3vskj08KQU4T3q_PK2Fc,371
+pytest_html_merger-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+pytest_html_merger-0.1.0.dist-info/entry_points.txt,sha256=xHeEAGzEDi-mgyc3ZPQ5e4hLhLA-N2bxINYOgB7Sry8,68
+pytest_html_merger-0.1.0.dist-info/top_level.txt,sha256=09GAFp-z2_KxCRi_tvWvD8lny4Vvt7gzgRKYDzeHNwA,19
+pytest_html_merger-0.1.0.dist-info/RECORD,,
