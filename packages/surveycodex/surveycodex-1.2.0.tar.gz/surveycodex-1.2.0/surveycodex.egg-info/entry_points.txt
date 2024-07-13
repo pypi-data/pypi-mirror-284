@@ -1,0 +1,3 @@
+[console_scripts]
+surveycodex = surveycodex.__main__:main
+
