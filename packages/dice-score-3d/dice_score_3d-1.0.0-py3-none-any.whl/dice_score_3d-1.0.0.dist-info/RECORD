@@ -1,0 +1,10 @@
+dice_score_3d/__init__.py,sha256=Dlwt0RXPaBwJLGHSrUc8HuEvpy5McRgE6k97EzDPs3I,62
+dice_score_3d/main.py,sha256=cGXPpjxWs7WFYqYJXDEEpVMqXvUMM2EgR0jhn16xWSA,4068
+dice_score_3d/metrics.py,sha256=sD3h6P1Sm60Ux7bUWY7f7HCRvHRPZa6pbeqWBhBNhqE,9987
+dice_score_3d/reader.py,sha256=2qlA2l6kXog-gSZMux5AJVeCEksfz1TLw6uJ-SWPvVU,633
+dice_score_3d-1.0.0.dist-info/LICENSE,sha256=Pgn2ZtGi7bgFpWUUNALQVwGzHHOxF_wE0cOBmoyWFjg,1073
+dice_score_3d-1.0.0.dist-info/METADATA,sha256=3msi1DqRg8SqFPYI9da4vDXTTpvpinVQhPOqntnT24U,5506
+dice_score_3d-1.0.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+dice_score_3d-1.0.0.dist-info/entry_points.txt,sha256=W3OldXoM8CO4jfjU7X1XNi7fEhyfvzHplVSM7L2vIZ0,58
+dice_score_3d-1.0.0.dist-info/top_level.txt,sha256=wHS7h7nKxvxvvj_Dnx4z8eE0l92bxqXsQudtzARM59U,14
+dice_score_3d-1.0.0.dist-info/RECORD,,
