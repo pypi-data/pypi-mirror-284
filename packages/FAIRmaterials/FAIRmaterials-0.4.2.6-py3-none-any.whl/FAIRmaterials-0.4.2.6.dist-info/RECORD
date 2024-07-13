@@ -1,0 +1,15 @@
+FAIRmaterials/__init__.py,sha256=2k_ZeqU7FvqZMFqGm-EYRiV98uxUxmiy5wXygvIobPU,13
+FAIRmaterials/__main__.py,sha256=uA4RZMi4vdPzP-hj4CUUcvziC76tZs6fkdzh-fzUb4w,5806
+FAIRmaterials/fair_sheet_parser.py,sha256=J64LmAd2GKlUaGo23D_rSz4_ZlR1woFzHCvDzYIxZfg,29618
+FAIRmaterials/rdflib_graph_merger.py,sha256=YtabPMTi_kTig7INyXL42bparSfXIFDHIejl-LD-plE,3735
+FAIRmaterials/rdflib_graph_saver.py,sha256=SHC0dGE3ZxfxpJC0J6QhPQ-ADINgUDvImf-S_EbyuFI,4385
+tests/__init__.py,sha256=2k_ZeqU7FvqZMFqGm-EYRiV98uxUxmiy5wXygvIobPU,13
+tests/fair_sheet_parser_test.py,sha256=7F-zmRNPkK6uZ6xcn_sE9Kr1-sbFJICvzO1cZWirUiY,5230
+tests/rdflib_graph_merger_test.py,sha256=_5RW1ydx4WpUaLZoPwA2b2eLd-ZSPQOOzgrYHVhUQ0o,2192
+tests/rdflib_graph_saver_test.py,sha256=UiV_v-AiSumRyLp6IrjwN7OpOSowAJHEwm7aSFzVjG4,2953
+FAIRmaterials-0.4.2.6.dist-info/LICENSE.txt,sha256=NMQxTJv71Sg47w5NMI0HWy6Sd23ff3A30_Z2QqTrH5I,1264
+FAIRmaterials-0.4.2.6.dist-info/METADATA,sha256=Jx4HNWKNjGTj6-S0zkGDuYairqgTYOx6MVeyIK1GSLw,12555
+FAIRmaterials-0.4.2.6.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+FAIRmaterials-0.4.2.6.dist-info/entry_points.txt,sha256=wJOFgc2Krez6vM4_MH4Sv25AgcYegCuSZS-_-pdTpfg,62
+FAIRmaterials-0.4.2.6.dist-info/top_level.txt,sha256=HbjzaewvDk7oindGAcv3g_J1wYzdrbogLlrJtgHUPz0,20
+FAIRmaterials-0.4.2.6.dist-info/RECORD,,
