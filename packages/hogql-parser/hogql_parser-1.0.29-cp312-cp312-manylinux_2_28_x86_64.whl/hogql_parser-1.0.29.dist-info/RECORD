@@ -1,0 +1,6 @@
+hogql_parser.cpython-312-x86_64-linux-gnu.so,sha256=kHY_OLjah7gz1bFY0b98bDufFL-5O6IdWi_uTjj3-Wg,10990769
+hogql_parser.libs/libantlr4-runtime-c7fd74d2.so.4.13.1,sha256=AsKGjxRiPWZfrcYHS966bUme9MF96mzUg3w1WTxZU1s,1679201
+hogql_parser-1.0.29.dist-info/WHEEL,sha256=eMcimcGd4vbmFmneI4yFyBELpfyzy42nABYF-0csUqA,113
+hogql_parser-1.0.29.dist-info/top_level.txt,sha256=SNu6b73rIOF19AHO6d5OkRLEcHZnwiqWPuJNJlCRuaI,13
+hogql_parser-1.0.29.dist-info/RECORD,,
+hogql_parser-1.0.29.dist-info/METADATA,sha256=MO11agK-zf3JRUfNRwdcevu5KRcWLpQBNJQt79asOCk,887
