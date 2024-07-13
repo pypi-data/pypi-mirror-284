@@ -1,0 +1,8 @@
+[console_scripts]
+rosdoc2 = rosdoc2.main:main
+
+[rosdoc2.verbs]
+build = rosdoc2.verbs.build:entry_point_data
+default_config = rosdoc2.verbs.default_config:entry_point_data
+open = rosdoc2.verbs.open:entry_point_data
+
