@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: llm-finetuner
+Version: 0.2.0
+Summary: A package for fine-tuning LLMs using LoRA
+Author-email: Seekh <your.email@example.com>
+Project-URL: Homepage, https://github.com/yourusername/llm-finetuner
+Project-URL: Bug Tracker, https://github.com/yourusername/llm-finetuner/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: peft
+Requires-Dist: datasets
+Requires-Dist: trl
+Requires-Dist: boto3
+Requires-Dist: huggingface_hub
+
+# llm-finetuner# LLM Finetuner
+
+A package for fine-tuning LLMs using LoRA.
+
+## Installation
+
+```bash
+pip install llm-finetuner
+```

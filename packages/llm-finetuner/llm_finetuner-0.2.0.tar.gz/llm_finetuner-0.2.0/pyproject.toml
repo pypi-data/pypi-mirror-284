@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-finetuner"
+version = "0.2.0"
+authors = [
+  { name="Seekh", email="your.email@example.com" },
+]
+description = "A package for fine-tuning LLMs using LoRA"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch",
+    "transformers",
+    "peft",
+    "datasets",
+    "trl",
+    "boto3",
+    "huggingface_hub"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/llm-finetuner"
+"Bug Tracker" = "https://github.com/yourusername/llm-finetuner/issues"
+
+
+[tool.hatch.build]
+exclude = ["tests"]
