@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+neural_geometry.egg-info/PKG-INFO
+neural_geometry.egg-info/SOURCES.txt
+neural_geometry.egg-info/dependency_links.txt
+neural_geometry.egg-info/requires.txt
+neural_geometry.egg-info/top_level.txt
+nlgm/__init__.py
+nlgm/autoencoder.py
+nlgm/manifolds.py
+nlgm/optimizers.py
+nlgm/searchspace.py
+nlgm/train.py
+nlgm/visualize.py
+test/test_manifolds.py
+test/test_searchspace.py

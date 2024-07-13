@@ -1,0 +1,13 @@
+torch
+numpy
+tqdm
+
+[dev]
+pytest
+tox
+tox-uv
+pre-commit
+
+[vis]
+matplotlib
+networkx

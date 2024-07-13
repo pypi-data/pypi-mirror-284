@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-geometry"
+dynamic = ["version"]
+description = "Latent Space Geometry for Neural Networks in Python"
+authors = [
+  { name="Anupam Bhakta", email="ab5494@columbia.edu" },
+  { name="Adam Mehdi", email="adm2243@columbia.edu" },
+  { name="Kevin Qiu", email="kzq2000@columbia.edu" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Software Development :: Libraries"
+]
+dependencies = [
+    "torch",
+    "numpy",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+vis = ["matplotlib", "networkx"]
+dev = ["pytest", "tox", "tox-uv", "pre-commit"]
+
+
+[project.urls]
+Homepage = "https://github.com/ae-bii/neural-geometry"
+Documentation = "https://ae-bii.github.io/neural-geometry/"
+"Release notes" = "https://github.com/ae-bii/neural-geometry/releases"
+Issues = "https://github.com/ae-bii/neural-geometry/issues"
+
+[tool.setuptools]
+packages = ["nlgm"]
+
+[tool.setuptools.dynamic]
+version = {attr = "nlgm.__version__"}

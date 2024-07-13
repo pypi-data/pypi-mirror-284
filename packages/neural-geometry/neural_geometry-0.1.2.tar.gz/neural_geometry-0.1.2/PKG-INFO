@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: neural-geometry
+Version: 0.1.2
+Summary: Latent Space Geometry for Neural Networks in Python
+Author-email: Anupam Bhakta <ab5494@columbia.edu>, Adam Mehdi <adm2243@columbia.edu>, Kevin Qiu <kzq2000@columbia.edu>
+License: MIT License
+        
+        Copyright (c) 2024-present Anupam Bhakta, Adam Mehdi, Kevin Qiu
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/ae-bii/neural-geometry
+Project-URL: Documentation, https://ae-bii.github.io/neural-geometry/
+Project-URL: Release notes, https://github.com/ae-bii/neural-geometry/releases
+Project-URL: Issues, https://github.com/ae-bii/neural-geometry/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Provides-Extra: vis
+Requires-Dist: matplotlib; extra == "vis"
+Requires-Dist: networkx; extra == "vis"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: tox-uv; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+
+<h3 align="center">
+    <img src="https://raw.githubusercontent.com/ae-bii/neural-geometry/main/assets/nlgm_banner.png" alt="nlgm banner"/>
+</h3>
+
+--------------------------------------------------------------------------------
+
+> [!WARNING]
+> This package is still in its early stages. Updates may cause breaking changes.
+
+Neural Geometry is a Python library designed to explore and manipulate the geometric properties of neural network latent spaces. It provides a set of tools and methods to understand the complex, high-dimensional spaces that neural networks operate in, inspired by recent approaches (e.g. Borde et al., [2023](https://arxiv.org/pdf/2309.04810.pdf)).
+
+
+The primary features of Neural Geometry include:
+
+- An implementation of the neural latent geometry search framework. This framework provides a unique approach to product manifold inference, which can be beneficial in various fields such as machine learning and data analysis.
+- A selection of optimization methods to cater to different needs and requirements. These methods can be used to fine-tune the performance of the neural latent geometry search framework.
+
+This package is designed to be compatible with popular scientific computing libraries such as NumPy and PyTorch, making it a versatile tool for researchers and developers working in these environments. Comprehensive documentation is available at [docs](https://ae-bii.github.io/neural-geometry/).
+
+## Installation
+
+To install Neural Geometry, you can use pip:
+
+```bash
+pip install neural-geometry
+```
+
+You can install optional packages for development or visualization using:
+
+```bash
+pip install .[dev,vis]                # install from pyproject.toml
+pip install neural-geometry[dev,vis]  # install from pypi
+```
+
+## Usage
+
+After installing, you can import the package and use it by following the [example](examples/example.py).
+
+## Contributing
+
+Contributions to Neural Geometry are welcome! To contribute:
+
+1. Fork the repository.
+2. Install the pre-commit hooks using `pre-commit install`.
+3. Create a new branch for your changes.
+4. Make your changes in your branch.
+5. Submit a pull request.
+
+Before submitting your pull request, please make sure your changes pass all tests.
+
+## License
+
+Neural Geometry is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
