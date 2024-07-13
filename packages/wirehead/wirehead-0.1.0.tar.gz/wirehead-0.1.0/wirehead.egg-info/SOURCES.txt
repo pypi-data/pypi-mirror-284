@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+wirehead/__init__.py
+wirehead/dataset.py
+wirehead/generator.py
+wirehead/manager.py
+wirehead.egg-info/PKG-INFO
+wirehead.egg-info/SOURCES.txt
+wirehead.egg-info/dependency_links.txt
+wirehead.egg-info/requires.txt
+wirehead.egg-info/top_level.txt
