@@ -1,0 +1,14 @@
+gpxtable/__init__.py,sha256=W1lBoSNHjoTSuHUG-CYbb1EnMsJECML89wONoCoJR0Q,231
+gpxtable/cli.py,sha256=NxtKV7AGeX1dN_9joDLn8HXvUOUH-ZAf2qFg-ncAlSM,3373
+gpxtable/gpxtable.py,sha256=DO1FtajQ6ujxKOKaCsHeW62fX0oVdf2x_v3IA5IV6E0,26206
+gpxtable/wsgi.py,sha256=f_7y85yuodwf0FOSA4nHV9CNl_YZYP2TTLjEh01a6bQ,4068
+gpxtable/templates/about.html,sha256=gJyFEvsPZHILJWFEqu47TS8H5rj8NoiEex5mv-BaOm8,572
+gpxtable/templates/base.html,sha256=mfGDwu_Hw_KtNQ0LT0U-h5bTba7gCpyEF3Ado7ZDDlg,4555
+gpxtable/templates/results.html,sha256=yGs8ZxD2zYkTxNTh_xW27gE-xtrtGATaczvEsK6DWDM,651
+gpxtable/templates/upload.html,sha256=9l32xpAWTTWkedUB8MrbXalMRsEXYJyQVpuCu89QTfU,3951
+gpxtable-1.4.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+gpxtable-1.4.0.dist-info/METADATA,sha256=3V2e9PdAshUNyGfrWZOgDyIYJd8GA1Mavye8fXySOCQ,3777
+gpxtable-1.4.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+gpxtable-1.4.0.dist-info/entry_points.txt,sha256=af2kRz-KTscb815gP6w6gl0Pzr-fYfWl0hVSu49KrAo,47
+gpxtable-1.4.0.dist-info/top_level.txt,sha256=-v5N-JoiH00B_3qlMoPT4y6xr-1r5bFPMND4rNGyARU,9
+gpxtable-1.4.0.dist-info/RECORD,,
