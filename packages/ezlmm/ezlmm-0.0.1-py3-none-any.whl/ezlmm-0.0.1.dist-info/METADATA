@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ezlmm
+Version: 0.0.1
+Summary: Use linear mixed model in Python, but still based on R
+Home-page: http://example.com/MyPackage
+License: MIT
+Keywords: Linear Mixed Model
+Requires-Dist: cffi ==1.16.0
+Requires-Dist: Jinja2 ==3.1.4
+Requires-Dist: MarkupSafe ==2.1.5
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: packaging ==24.1
+Requires-Dist: pandas ==2.2.2
+Requires-Dist: pycparser ==2.22
+Requires-Dist: python-dateutil ==2.9.0.post0
+Requires-Dist: pytz ==2024.1
+Requires-Dist: rpy2 ==3.5.16
+Requires-Dist: six ==1.16.0
+Requires-Dist: tzdata ==2024.1
+Requires-Dist: tzlocal ==5.2
+
