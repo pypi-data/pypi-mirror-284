@@ -1,0 +1,2 @@
+[console_scripts]
+aws_monitor = aws_monitor:main
