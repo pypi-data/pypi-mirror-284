@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+supamodel/__init__.py
+supamodel/supamodel.py
+supamodel_py.egg-info/PKG-INFO
+supamodel_py.egg-info/SOURCES.txt
+supamodel_py.egg-info/dependency_links.txt
+supamodel_py.egg-info/entry_points.txt
+supamodel_py.egg-info/requires.txt
+supamodel_py.egg-info/top_level.txt
