@@ -1,0 +1,25 @@
+[project]
+readme = "README.md"
+
+[tool.poetry]
+name = "primebit"
+version = "0.2.1"
+description = "a python package that gives users the ability to console log things in a clean way."
+authors = ["Tahfari Chin <ayotahfarinyc@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+pipenv-to-requirements = "*"
+pre-commit = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
