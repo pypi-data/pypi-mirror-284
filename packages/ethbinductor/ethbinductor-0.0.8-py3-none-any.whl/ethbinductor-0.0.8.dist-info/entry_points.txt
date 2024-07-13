@@ -1,0 +1,3 @@
+[console_scripts]
+ethbinductor=ethbinductor.cli:cli
+
