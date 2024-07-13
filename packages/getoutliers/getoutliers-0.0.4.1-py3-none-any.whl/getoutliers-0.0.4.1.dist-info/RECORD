@@ -1,0 +1,12 @@
+getoutliers/__init__.py,sha256=btXBJqimr18ItRKEo54MXlJnOK2ILJmqBBCWrofmY68,533
+getoutliers/_iqr/__init__.py,sha256=oczhr6BiZLHdH-KYHVMUWnuHflYxoEDHUKHehMNQPAw,5166
+getoutliers/_manipulation/__init__.py,sha256=CEdhwtMLFmIe_guMUK-cBz85X8ZZIrIjKXuC-V9Fx7g,2504
+getoutliers/_nan_value/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+getoutliers/_nan_value/nan_value.py,sha256=NTwvafBrABu2Ot-V_TUS7AplrBlmiLzjFqUKRgYSZDQ,687
+getoutliers/_view/__init__.py,sha256=YL1imlMtTmCxTfSyL1Ravo2k9ISdjl1HWXb0rIyL3BM,819
+getoutliers/_zscore/__init__.py,sha256=rzcqtIGrbmlUEjCB4JLLIgcLNsizW95FWxw3EpG5J8c,2160
+getoutliers-0.0.4.1.dist-info/LICENSE,sha256=IQ6Yj3fFzFN8BEExv1hppP7iJFqEeQytehslbDxeR4E,1068
+getoutliers-0.0.4.1.dist-info/METADATA,sha256=ZcKmdA6-rBZLmFQiepPV5Vr2gfXd8JZ-cL7AhDLOP6Q,565
+getoutliers-0.0.4.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+getoutliers-0.0.4.1.dist-info/top_level.txt,sha256=lBPwdoCJMovP8u1Re-RQrLH1ZYiAsKTDOY21iULENcA,12
+getoutliers-0.0.4.1.dist-info/RECORD,,
