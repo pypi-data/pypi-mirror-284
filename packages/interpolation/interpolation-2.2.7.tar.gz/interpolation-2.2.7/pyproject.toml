@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "interpolation"
+version = "2.2.7"
+readme = "README.md"
+description = "Interpolation in Python"
+authors = [
+    "Pablo Winant <pablo.winant@gmail.com>",
+    "Chase Coleman <cc7768@gmail.com>",
+    "Spencer Lyon <spencerlyon2@gmail.com>"
+]
+maintainers = [
+    "Pablo Winant <pablo.winant@gmail.com>"
+]
+license = "BSD-2-Clause"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+numba = ">=0.59.1"
+scipy = "^1.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.3.0"
+black = "^23.3.0"
+python-markdown-math = "^0.8"
+pymdown-extensions = "^10.7"
+mkdocs = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry>=1.2"]
+build-backend = "poetry.masonry.api"
