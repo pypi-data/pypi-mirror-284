@@ -1,0 +1,5 @@
+setup.py
+turtle_fr.egg-info/PKG-INFO
+turtle_fr.egg-info/SOURCES.txt
+turtle_fr.egg-info/dependency_links.txt
+turtle_fr.egg-info/top_level.txt
