@@ -1,0 +1,14 @@
+odoo/addons/ebill_postfinance_server_env/README.rst,sha256=ft7E6hv7mfvysnhZ9MMcctyefgjl9Ur6CIRNaA7Qwbc,3373
+odoo/addons/ebill_postfinance_server_env/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/ebill_postfinance_server_env/__manifest__.py,sha256=DT9b02C-sO1dJC486R6Bg4W4ivuFLBmYdc0_p6tRhno,470
+odoo/addons/ebill_postfinance_server_env/i18n/ebill_postfinance_server_env.pot,sha256=q8dRNZ5SZx5its6kPXFzMUgAKGwJWR0hQVBmU7glC-U,762
+odoo/addons/ebill_postfinance_server_env/models/__init__.py,sha256=NfwXiDGRmVdESJtEBtzh_rhoncuGH7IvTfCGojjSNgs,40
+odoo/addons/ebill_postfinance_server_env/models/ebill_postfinance_service.py,sha256=v9BIcjuvKfH6XI8BXWLr7xPDz9o2jAv7AeVSGad9V_4,444
+odoo/addons/ebill_postfinance_server_env/readme/CONTRIBUTORS.rst,sha256=uAPcwg62NVS4AhHWOH1ylKl_Fyk39Tz7bGv0X4PC5Xs,51
+odoo/addons/ebill_postfinance_server_env/readme/DESCRIPTION.rst,sha256=jOBwkyLNAux7NmoSYN7V6MxkV9_KG0035YgJ1985ZAA,442
+odoo/addons/ebill_postfinance_server_env/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/ebill_postfinance_server_env/static/description/index.html,sha256=uM5TMqxYIwXwx45oCTcBIN5L6v-86Zp9hxN0i4c1Lmo,12715
+odoo_addon_ebill_postfinance_server_env-16.0.1.0.0.1.dist-info/METADATA,sha256=URq3Gbs9jdVMjUA3h0Up5NxkaJpOyb7zzmj9tLLz1XE,4050
+odoo_addon_ebill_postfinance_server_env-16.0.1.0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo_addon_ebill_postfinance_server_env-16.0.1.0.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_ebill_postfinance_server_env-16.0.1.0.0.1.dist-info/RECORD,,
