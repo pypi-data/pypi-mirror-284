@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: granny
+Version: 1.0a1
+Summary: GRANNY is a software package used to rate disorder severity in pome fruits.
+Home-page: https://github.com/SystemsGenetics/granny
+Author: Nhan H. Nguyen, Heidi Hargarten, Loren Honaas, Stephen P. Ficklin
+License: GNU General Public License v3.0
+Requires-Python: >=3.9
+License-File: LICENSE.txt
+Requires-Dist: ultralytics
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+
