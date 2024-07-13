@@ -1,0 +1,8 @@
+tinytextgrad/__init__.py,sha256=DOLmNZWJGSLKqXclPoH8I9RMMsII3J1QDRnRRWpLmZA,268
+tinytextgrad/llm.py,sha256=PLJ3hSUDYoTVRNsA4rb6B2XtD2to05-HpqlXiYSCJLI,740
+tinytextgrad/prompt.py,sha256=oGB35fYp5Fq68ld_DgRsVNARji61uNa50oRAmDUanSw,3039
+tinytextgrad/ttg.py,sha256=otz_qcoPOc4mDfq8Kxijp1mkbo2nADXJheNS8SFmARM,5006
+tinytextgrad-0.1.0.dist-info/METADATA,sha256=hbV5T_prjQcQaIORoCrXxlo_qbtBBiDE4YlFwHH4GCo,5580
+tinytextgrad-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+tinytextgrad-0.1.0.dist-info/licenses/LICENSE,sha256=5-7mFoyiCnpiWBREqLWyZ3TFD5NzD-9kkl-qjuqxvxE,1072
+tinytextgrad-0.1.0.dist-info/RECORD,,
