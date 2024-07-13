@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-mesofield = mesofield:napari.yaml
