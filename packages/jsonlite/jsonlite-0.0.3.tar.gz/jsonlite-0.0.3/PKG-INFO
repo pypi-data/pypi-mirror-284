@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: jsonlite
+Version: 0.0.3
+Summary: A lightweight local JSON database
+Home-page: 
+Author: simpx
+Author-email: simpxx@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JSONLite
+
+JSONLite is a lightweight, local JSON database for simple data storage.
+
+## Installation
+
+```sh
+pip install jsonlite
+```
+
+## Data Layout
+
+```json
+{
+    "data": [
+        {   "_id": 1,
+            "name": "Alice",
+            "age": 30
+        },
+        {   "_id": 2,
+            "name": "Bob",
+            "age": 25
+        },
+        {   "_id": 3,
+            "name": "Charlie",
+            "age": 20
+        }
+    ]
+}
+```
+
+## Usage
+
+```python
+from jsonlite import Jsonlite
+
+db = Jsonlite('db.json')
+
+# insert
+db.insert_one({'name': 'Alice', 'age': 30})
+db.insert_one({'name': 'Bob', 'age': 25})
+db.insert_many([
+    {'name': 'Charlie', 'age': 20},
+    {'name': 'Tom', 'age': 15}])
+
+# find
+all_records = db.find()
+one_record = db.find_one()
+age_over_20 = db.find({'age': (gt, 20)})
+
+# update
+db.update_one({'name': 'Alice'}, {'age': 31})
+_id = db.find_one({'name': 'Alice'})['_id']
+db.update_one({'_id': _id}, {'age': 35})
+
+# delete
+db.delete_one({'name': 'Bob'})
+db.delete_many({'name': 'Bob'})
+
+# complex find
+records_with_name_alice_or_age_30 = db.find({'or': [
+                                                    {'name': 'Alice'},
+                                                    {'age': 30}]
+                                                })
+
+records_with_name_alice_and_age_30 = db.find({'and': [
+                                                    {'name': 'Alice'},
+                                                    {'age': 30}
+                                                ]})
+
+# custom functions in conditions
+def is_even(value):
+    return value % 2 == 0
+
+records_with_even_age = db.find({'age': is_even})
+
+def is_multiple_of(value, match_value):
+    return value % match_value == 0
+
+records_with_age_multiple_of_5 = db.find({'age': (is_multiple_of, 5)})
+
+def is_between(value, min_value, max_value):
+    return min_value < value < max_value
+
+records_between_10_and_30 = self.db.find({'age': (is_between, 10, 30)})
+
+```
+
