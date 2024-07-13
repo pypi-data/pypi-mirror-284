@@ -1,0 +1,7 @@
+mortal_threads/__init__.py,sha256=I_EPFP7pdR5Tiatllo4SwEYsqlFoRK0pqMdvtgZIJXo,1547
+mortal_threads/threads_main.pyd,sha256=5YpoNbC7rDRpjQIra5bXIjt6BvwIESvoqccyBP-B9Lk,177664
+mortal_threads/threads_main.so,sha256=_D6aZLEDLcl-VDpG2HNgKzEdqwBbhzJdYvV66nzBGT0,255160
+mortal_threads-2.3.23.dist-info/METADATA,sha256=A1wik81EccILvkem63uu5QFA8GYUDKvJyRgW4Ysj54Y,294
+mortal_threads-2.3.23.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mortal_threads-2.3.23.dist-info/top_level.txt,sha256=2H4LJs15R9pvLqqBblmWsAnSAM0AGjUdS8SiqhaXElE,15
+mortal_threads-2.3.23.dist-info/RECORD,,
