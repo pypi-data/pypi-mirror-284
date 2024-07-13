@@ -1,0 +1,8 @@
+setup.py
+simple_math/__init__.py
+simple_math/calculator.py
+simple_math_sdk.egg-info/PKG-INFO
+simple_math_sdk.egg-info/SOURCES.txt
+simple_math_sdk.egg-info/dependency_links.txt
+simple_math_sdk.egg-info/top_level.txt
+tests/test_calculator.py

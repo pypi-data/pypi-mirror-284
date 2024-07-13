@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: simple_math_sdk
+Version: 0.1
+Summary: SDK sederhana untuk penjumlahan dua angka.
+Home-page: https://github.com/anda/simple_math_sdk
+Author: Nama Anda
+Author-email: email@anda.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
