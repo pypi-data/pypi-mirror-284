@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: bob.bio.video
+Version: 7.0.1
+Summary: Run biometric recognition algorithms on videos
+Author-email: "The biometric person recognition group at Idiap, Switzerland" <bob-devel@googlegroups.com>
+License: BSD 3-Clause License
+Project-URL: documentation, https://www.idiap.ch/software/bob/docs/bob/bob.bio.video/v7.0.1/sphinx/
+Project-URL: homepage, https://pypi.org/project/bob.bio.video/
+Project-URL: repository, https://gitlab.idiap.ch/bob/bob.bio.video
+Project-URL: changelog, https://gitlab.idiap.ch/bob/bob.bio.video/-/releases
+Keywords: bob
+Classifier: Framework :: Bob
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bob ==12.1.1
+Requires-Dist: bob.io.base ==5.1.1
+Requires-Dist: bob.pipelines ==4.0.1
+Requires-Dist: bob.bio.base ==8.1.1
+Requires-Dist: bob.bio.face ==8.0.1
+Requires-Dist: clapper ~=1.0
+Requires-Dist: h5py ~=3.7
+Requires-Dist: imageio ~=2.34
+Requires-Dist: imageio-ffmpeg ~=0.4
+Requires-Dist: numpy ~=1.26
+Requires-Dist: scikit-learn ~=1.4
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'doc'
+Requires-Dist: auto-intersphinx ; extra == 'doc'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'doc'
+Requires-Dist: matplotlib ; extra == 'doc'
+Requires-Dist: dask-ml ; extra == 'doc'
+Requires-Dist: tensorflow ; extra == 'doc'
+Provides-Extra: qa
+Requires-Dist: pre-commit ; extra == 'qa'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: dask ; extra == 'test'
+Requires-Dist: tensorflow ; extra == 'test'
+
+[![badge doc](https://img.shields.io/badge/docs-v7.0.1-orange.svg)](https://www.idiap.ch/software/bob/docs/bob/bob.bio.video/v7.0.1/sphinx/index.html)
+[![badge pipeline](https://gitlab.idiap.ch/bob/bob.bio.video/badges/v7.0.1/pipeline.svg)](https://gitlab.idiap.ch/bob/bob.bio.video/commits/v7.0.1)
+[![badge coverage](https://gitlab.idiap.ch/bob/bob.bio.video/badges/v7.0.1/coverage.svg)](https://www.idiap.ch/software/bob/docs/bob/bob.bio.video/v7.0.1/coverage)
+[![badge gitlab](https://img.shields.io/badge/gitlab-project-0000c0.svg)](https://gitlab.idiap.ch/bob/bob.bio.video)
+
+# Run video face recognition algorithms
+
+This package is part of the signal-processing and machine learning toolbox
+[Bob](https://www.idiap.ch/software/bob).
+This package contains functionality to run video face recognition experiments.
+It is an extension to the
+[bob.bio.base](https://pypi.python.org/pypi/bob.bio.base) package, which
+provides the basic scripts.
+In this package, wrapper classes are provide, which allow to run traditional
+image-based face recognition algorithms on video data.
+
+## Installation
+
+Complete Bob's
+[installation instructions](https://www.idiap.ch/software/bob/install). Then,
+to install this package, run:
+
+``` sh
+conda install bob.bio.video
+```
+
+## Contact
+
+For questions or reporting issues to this software package, contact our
+development [mailing list](https://www.idiap.ch/software/bob/discuss).
