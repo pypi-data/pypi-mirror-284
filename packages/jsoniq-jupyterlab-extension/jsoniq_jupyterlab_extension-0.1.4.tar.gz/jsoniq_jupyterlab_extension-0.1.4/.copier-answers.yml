@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.3
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: davidm.buzatu@gmail.com
+author_name: David-Marian Buzatu
+has_binder: false
+has_settings: false
+kind: frontend
+labextension_name: jsoniq-jupyterlab-extension
+project_short_description: A JupyterLab extension to enable JSONiq language features
+    within JupyterLab cells.
+python_name: jsoniq_jupyterlab_extension
+repository: https://github.com/DavidBuzatu-Marian/jsoniq-jupyterlab-extension
+test: false
+
