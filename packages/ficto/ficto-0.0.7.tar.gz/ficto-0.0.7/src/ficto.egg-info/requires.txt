@@ -1,0 +1,16 @@
+numpy
+pandas
+python-dateutil
+pytz
+PyYAML
+six
+tzdata
+sphinx
+sphinx-rtd-theme
+
+[testing]
+pytest
+mypy
+flake8
+tox
+black
