@@ -1,0 +1,10 @@
+aishalib/aishalib.py,sha256=y2tEUUla6ItXfLezEKe4HlXZPwcjzTjysLMSWambtjg,5271
+aishalib/llmbackend.py,sha256=0ErtSmsmcgjEOCTGcY2Vs1gAY_DBPqMOMTpIGrrNYN0,6127
+aishalib/memory.py,sha256=Y8SJotwdvyM3XsNxvXLIcTa4byNyjZM1ZRUd_aSOA_8,853
+aishalib/tools.py,sha256=hZqJtJTQf5G79JvvKk9N_GjVDakgvHnh4u4jMBR2fwo,565
+aishalib/utils.py,sha256=PDwb8JbxBeUy-Vd6G4xc0QMHjORjJi3UTcDSmAsxcXk,280
+aishalib-0.0.21.dist-info/LICENSE,sha256=ihb3uMu6ekMRO7r8pIuGjaxTaMmxf5w5otz-ZAK3ZNU,1074
+aishalib-0.0.21.dist-info/METADATA,sha256=T34nC2IimZpv8MZn8N4esMNvyB_9EMHIcEwx75F1vbo,6664
+aishalib-0.0.21.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+aishalib-0.0.21.dist-info/top_level.txt,sha256=W2IFHXHb1dMudl1si4fgMqF_CpAskPr6BnSqoLD5lLg,9
+aishalib-0.0.21.dist-info/RECORD,,
