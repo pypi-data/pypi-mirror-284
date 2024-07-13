@@ -1,0 +1,132 @@
+#########################
+# Project and Packaging #
+#########################
+[project]
+name = "netrecon"
+dynamic = ["version"]
+description = "A rich CLI tool for network device reconnaissance."
+requires-python = ">=3.11"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "ReK42", email = "ReK42@users.noreply.github.com"},
+]
+maintainers = [
+    {name = "ReK42", email = "ReK42@users.noreply.github.com"},
+]
+keywords = ["networking", "routers", "switches", "cisco", "juniper"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Telecommunications Industry",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Archiving",
+    "Topic :: System :: Networking",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+dependencies = [
+    "netmiko == 4.4.0",
+    "click == 8.1.7",
+    "rich == 13.7.1"
+]
+
+[project.urls]
+Repository = "https://github.com/ReK42/netrecon"
+Issues = "https://github.com/ReK42/netrecon/issues"
+
+[project.scripts]
+netrecon = "netrecon:main"
+
+[project.optional-dependencies]
+test = [
+    "black == 24.4.2",
+    "mypy == 1.10.1",
+    "ruff == 0.5.1",
+]
+build = [
+    "setuptools == 70.3.0",
+    "setuptools-scm == 8.1.0",
+    "build == 1.2.1",
+    "twine == 5.1.1"
+]
+
+[build-system]
+requires = ["setuptools", "setuptools_scm[toml]"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+zip-safe = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+bcamp_dl = ["py.typed"]
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+write_to = "src/netrecon/_version.py"
+tag_regex = '^(?:[\w-]+[-/])?(?P<version>[vV]?\d+(?:\.\d+){0,2}[^\+]*)(?:\+.*)?$'
+
+###########################
+# Development Environment #
+###########################
+[tool.black]
+line-length = 120
+target-version = ["py310", "py311"]
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+cache_dir = ".cache/mypy"
+pretty = true
+files = "src"
+
+#[[tool.mypy.overrides]]
+
+[tool.ruff]
+line-length = 120
+cache-dir = ".cache/ruff"
+output-format = "full"
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "ANN101",  # Missing type annotation for self in method
+    "ANN102",  # Missing type annotation for cls in method
+    "D105",    # Missing docstring in magic method
+    "D107",    # Missing docstring in __init__
+    "ERA001",  # Found commented-out code
+    "EXE001",  # Shebang is present but file is not executable
+    "FBT002",  # Boolean default value in function definition
+    "RET501",  # Do not explicitly return None in function if it is the only possible return value
+
+    "CPY",     # flake8-copyright
+    "D203",    # Use D211 instead
+    "D213",    # Use D212 instead
+    "I001",    # Use black instead
+
+    "S",       # TODO: Fix and enable
+    "BLE",     # TODO: Fix and enable
+    "EM",      # TODO: Fix and enable
+    "ISC",     # TODO: Fix and enable
+    "TRY",     # TODO: Fix and enable
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["E402", "F401"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 15
