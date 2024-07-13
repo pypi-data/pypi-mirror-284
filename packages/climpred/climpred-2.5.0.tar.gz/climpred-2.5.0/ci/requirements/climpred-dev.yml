@@ -1,0 +1,61 @@
+name: climpred-dev
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python >=3.9,<3.13
+  # Documentation
+  - myst-nb
+  - nbstripout
+  - sphinx
+  - sphinx-book-theme
+  - sphinx-copybutton
+  - sphinxcontrib-bibtex
+  - sphinxcontrib-napoleon
+  - sphinxext-opengraph
+  # IDE
+  - jupyterlab
+  - nb_conda_kernels # switch conda envs in jupyter
+  - tqdm
+  # Input/Output
+  - netcdf4
+  - pooch
+  # Miscellaneous
+  - cftime >=1.5.0
+  # Numerics
+  - numpy >=1.25.0
+  - pandas
+  - scipy
+  - xarray >=2022.6.0
+  # Package Management
+  - asv
+  - black ==24.4.2
+  - coveralls
+  - flake8
+  - isort
+  - mypy
+  - pre-commit
+  - pylint
+  - pytest<8
+  - pytest-cov
+  - pytest-lazy-fixture
+  - pytest-sugar
+  - pytest-xdist
+  # Performance
+  - bottleneck
+  - dask-core
+  - numba
+  # Regridding
+  - esmpy =*=mpi*  # Ensures MPI works with version of esmpy.
+  - importlib-metadata <8.0.0 # Pin needed for esmpy compatibility. See: https://github.com/pangeo-data/xESMF/issues/374
+  - xesmf
+  # Statistics
+  - bias_correction
+  - eofs
+  - esmtools >=1.1.3
+  - xclim >=0.46.0
+  - xrft
+  - xskillscore >=0.0.20
+  # Visualization
+  - matplotlib-base
+  - nc-time-axis>=1.4.0
