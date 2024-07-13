@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: PCreate
+Version: 0.2
+Summary: A package to quickly initialize Python projects
+Home-page: https://github.com/sarthak09walia/pcreate
+Author: Sarthak Walia
+Author-email: waliasarthak0009@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# PCreate
+
+PCreate is a Python package that helps you quickly initialize new Python projects. It sets up a new project directory, creates a virtual environment, and generates a basic `main.py` file.
+
+
+
+## Installation
+
+Install PCreate with pip
+
+```bash
+  pip install pcreate
+```
+This will create a new directory named my_new_project, set up a virtual environment inside it, and create a main.py file with a basic template.
+
+### To create
+
+```bash
+  pcreate my_new_project
+```
