@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hqxpack"
+version = "2024.0.0"
+dependencies = [
+  "websocket-client",
+  "numpy",
+  "sherpa-ncnn",
+  "sounddevice",
+  "CFFI",
+  "pycparser",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "HQX Python Development Team", email = "263794158@qq.com"},
+]
+description = "HQX MicroPython Development Team's Python package"
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["micropython", "MicroPython", "hqx", "HQX"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://space.bilibili.com/507429038?spm_id_from=333.976.0.0"
+Documentation = "https://space.bilibili.com/507429038?spm_id_from=333.976.0.0"
+Repository = "https://space.bilibili.com/507429038?spm_id_from=333.976.0.0"
+"Bug Tracker" = "https://space.bilibili.com/507429038?spm_id_from=333.976.0.0"
+Changelog = "https://space.bilibili.com/507429038?spm_id_from=333.976.0.0"
