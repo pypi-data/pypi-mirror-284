@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bseindia/__init__.py
+bseindia/constants.py
+bseindia/get_data.py
+bseindia/libutil.py
+bseindia/logger.py
+bseindia.egg-info/PKG-INFO
+bseindia.egg-info/SOURCES.txt
+bseindia.egg-info/dependency_links.txt
+bseindia.egg-info/requires.txt
+bseindia.egg-info/top_level.txt
