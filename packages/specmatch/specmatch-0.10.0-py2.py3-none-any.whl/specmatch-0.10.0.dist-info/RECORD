@@ -1,0 +1,14 @@
+specmatch/__init__.py,sha256=OXLX9MjgSui7gxNcfsgfKY3K_sXQbnjULfNRowROSbE,31
+specmatch/__main__.py,sha256=x24My6l-_z60zP5-pnq1PUvCG8bg-TM9TuDEqQsLXPU,29
+specmatch/audiofiles.py,sha256=cgZT1_3mu0bSLW-2r2hCJQA1WHTSGkndaD9GWC4JgZ0,3060
+specmatch/specmatch.glade,sha256=Zot_hhI9lX3-cnucVS9T806kaflg7rrfuN8FeT3Qj-o,44473
+specmatch/spectrum.py,sha256=3hlUoVAqy8Ycu5AHVyK1XfJfpvuF5aOyMb9LDcFs8R0,12806
+specmatch/ui.py,sha256=I3HRHYfZoNRZ_zAvkDWG74G-lAnnMFr6At3Cth5urNM,20690
+specmatch-0.10.0.data/data/share/applications/specmatch.desktop,sha256=Tc1iDG_6GOhlNGUrCcg7BGhKRJ6thpS5CZnh_zagUmw,249
+specmatch-0.10.0.data/data/share/mime/packages/specmatch.xml,sha256=9w8ms7o8OSua_zEF03SHI5rrK7uKGAwGg7L7h15nHM0,319
+specmatch-0.10.0.data/data/share/icons/hicolor/scalable/apps/specmatch.svg,sha256=H9rKbMU9VO61NFxYgRCuQLJIIZ1yvtdALwI2wJ-68Bc,15230
+specmatch-0.10.0.dist-info/METADATA,sha256=kSq0Vrupp9BaQuWJ995nyj2aBSYpECUBn8byC6KeOOk,5773
+specmatch-0.10.0.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+specmatch-0.10.0.dist-info/entry_points.txt,sha256=Tj0qEhsoND6rSTncQWBNRK7ZQX0s6hIUoifX8DqDm9g,48
+specmatch-0.10.0.dist-info/licenses/LICENSE.md,sha256=B0ng_P79ZLbIzxId6ycgWLW47fVQ1uyCRAstqh4NqXI,1068
+specmatch-0.10.0.dist-info/RECORD,,
