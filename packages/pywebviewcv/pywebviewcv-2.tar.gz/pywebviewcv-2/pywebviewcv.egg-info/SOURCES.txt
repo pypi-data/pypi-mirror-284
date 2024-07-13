@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pywebviewcv/__init__.py
+pywebviewcv/web_canvas.py
+pywebviewcv.egg-info/PKG-INFO
+pywebviewcv.egg-info/SOURCES.txt
+pywebviewcv.egg-info/dependency_links.txt
+pywebviewcv.egg-info/top_level.txt
