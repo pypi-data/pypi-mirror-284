@@ -1,0 +1,7 @@
+asynctaskpool/__init__.py,sha256=Ntmi-IbEFdeGOuwzYbAUv08_a4_60uKLjmbZdil93P4,36
+asynctaskpool/task_failed_exception.py,sha256=tvttoCYIkC1l0IxTWHwYfd0WJTGd0N519YcSCerV6ms,112
+asynctaskpool/taskpool.py,sha256=Ec8JMoLYwhC1vn9nH4vRZlly5rX94mKvxr0flJ8iv0U,4719
+asynctaskpool/taskpool_task.py,sha256=LPZlxNb3J0zSk6AwiZNLUguImFT87snZFkkOEcHr4x0,1538
+asynctaskpool-0.2.1.dist-info/METADATA,sha256=eRKjXklaTHYz2t6i3Vir4mUoWvyRkExfQM7spOr5RMU,916
+asynctaskpool-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+asynctaskpool-0.2.1.dist-info/RECORD,,
