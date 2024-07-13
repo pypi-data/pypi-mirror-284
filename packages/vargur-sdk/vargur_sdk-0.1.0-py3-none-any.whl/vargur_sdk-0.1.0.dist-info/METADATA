@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vargur-sdk
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: sqlalchemy
+Requires-Dist: aioredis
+Requires-Dist: pyjwt
+Requires-Dist: discord.py
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+
