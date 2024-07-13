@@ -1,0 +1,17 @@
+python_spectrometer/__init__.py,sha256=hWQty-JQPHiGzp3T0GXu9ateap4NyFAUxISVh3H9mMQ,6104
+python_spectrometer/_plot_manager.py,sha256=w7oyEHVlt4PZsyPX8nffhrMO-7RdGG_3CPJQLqOpA4o,30429
+python_spectrometer/core.py,sha256=s_zNVOteyLCjZUd_f9z_I_5l4u5aPzBp0o8PGC4wigA,48539
+python_spectrometer/daq/__init__.py,sha256=vIrWKALrBz8ypr--WHiQPT3oVConxPk-jCu6cINDMog,1707
+python_spectrometer/daq/__init__.pyi,sha256=PZLX-xzdD0uKr73y5JaAAlA4VbeERWUXB-50AG0Xa3s,1189
+python_spectrometer/daq/atsaverage.py,sha256=9N7GBIUMChtDvh8e9xL-zXWyIw2PHss6CmYjwkiQXxs,5903
+python_spectrometer/daq/atssimple.py,sha256=MWity5bkpVsboQPh78Mq_x1jJ8qD4hDhixp3UBehrrc,7184
+python_spectrometer/daq/core.py,sha256=2dDg2vwHRV_B6WyZF0oW50JX7n-tpReBXwncyPLZ-oc,3551
+python_spectrometer/daq/qcodes.py,sha256=I6gUiGIgEDO4NUWSzxCDgHA25a368u3JUEKWj0xWq74,7866
+python_spectrometer/daq/settings.py,sha256=yAQ3mKrIkF_hWA3UGIREVs917l1O6M-KVt0d-8MbUfc,34841
+python_spectrometer/daq/simulator.py,sha256=d2WGx-08moLpy2qkKrZoNbUrBg0fyY8-mQX8BRVvISI,2320
+python_spectrometer/daq/swabian_instruments.py,sha256=65bmREzqfvboaYkdXUt7CNT-XHi2UKsGTeCqbU0bgbo,3975
+python_spectrometer/daq/zurich_instruments.py,sha256=h7vmKo5fcrfIWpn5kidNRsgnpFImTpblmgCpa3bFd4M,19371
+python_spectrometer-2024.7.1.dist-info/METADATA,sha256=u8dhlwFOBVDZL3stmEQNWyd-_-4bbtkVjk0rJXrtV40,5799
+python_spectrometer-2024.7.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+python_spectrometer-2024.7.1.dist-info/licenses/LICENSE,sha256=Vrxuw0ezpdfl4OOGf5nNJwthY-YqRotm-GZ_YTU6WS8,35168
+python_spectrometer-2024.7.1.dist-info/RECORD,,
