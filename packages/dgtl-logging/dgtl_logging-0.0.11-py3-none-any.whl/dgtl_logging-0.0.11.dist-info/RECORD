@@ -1,0 +1,9 @@
+dgtl_logging/__init__.py,sha256=o3b2VWxkgseO1WVbb800d9AXXhsMY291SLzNr3m7I-g,26
+dgtl_logging/dgtl_logging.py,sha256=mJ5353S62AePcfzgpUNC9w3qUu8-5G6MmifvTZ8V3_I,7094
+dgtl_logging/integration_test.py,sha256=aoMa35mY94rEWcE6q1g6vBPVvFS8f2VPKSb9XR1mHeo,426
+dgtl_logging/integration_test_sub.py,sha256=rrDXfVU67BI4eCSJ4WxZL2oi30XF3w9haBNo6Zn3AK0,100
+dgtl_logging/unit_test.py,sha256=O4w6UizwytOEjyhWtMATJzOGVjZl0LujH2CQU8YmYP8,2107
+dgtl_logging-0.0.11.dist-info/METADATA,sha256=J2r4xJOyiEDpPo4pn28GSD7pXFedv2_xZtQZZx7WeOQ,1716
+dgtl_logging-0.0.11.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+dgtl_logging-0.0.11.dist-info/top_level.txt,sha256=jBOedZMbkgKCljnJlRtEB7qSIueeO8nZklG9r5ANdeM,13
+dgtl_logging-0.0.11.dist-info/RECORD,,
