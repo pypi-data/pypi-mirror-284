@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bugpy
+Version: 0.0.1
+Summary: Internal package for BickLab data management and analysis
+Author-email: Laurence Still <lstill@live.co.uk>
+Project-URL: Homepage, https://git.doit.wisc.edu/lstill21/bugpy
+Project-URL: Issues, https://git.doit.wisc.edu/lstill21/bugpy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BugPy
+
+Bicklab package for data management and analysis
