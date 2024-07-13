@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+form2request/__init__.py
+form2request/_base.py
+form2request.egg-info/PKG-INFO
+form2request.egg-info/SOURCES.txt
+form2request.egg-info/dependency_links.txt
+form2request.egg-info/requires.txt
+form2request.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
