@@ -1,0 +1,2 @@
+[console_scripts]
+stampy = stampy.__main__:main

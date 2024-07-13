@@ -1,0 +1,16 @@
+stampy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stampy/__main__.py,sha256=L9NOpG4Zs6mbuMW8pbU4rHT-dzT8ao8mjpWtSNgUf9I,2290
+stampy/commands.py,sha256=H4JpN-2sv9jESEn_PFtj6sSaAxGC6NMfHvshH4gYtC8,3097
+stampy/config.py,sha256=khUbeCgFfL7OMoeUDT-Kyz57uqgSuLFbxCjgdDpz4fs,279
+stampy/contextvars.py,sha256=DQ9bqs5OBz8_ohVBMXBdY8_rWpcpp0Je3qJxZoKOmFg,144
+stampy/email.py,sha256=5fV5DK7S0CaMSVn29NBfQgxm6JRTLRgarFyO2RzvTg8,2261
+stampy/input.py,sha256=-tGAT0wUarojxJvKtX-8eD0PMPFUghaPtStxim53vjU,757
+stampy/jmap.py,sha256=hrkspOkeTz0hNlPoqK4mlJdYK5R2foyM-uz-XnI75Io,5663
+stampy/sql.py,sha256=Ja4m9AldUNVNCMWVWqzNAZjLAsT6GIr8G57ldc121RU,2138
+stampy/types.py,sha256=s-mVtRBLZakZ58qFCkEDYfyQ12do5ApcPUvEEIUpcn8,534
+stampy/templates/happy_birthday.html,sha256=cUK065oqsujj8hwlSUjeZ5KRdFr-19ysWaGfPImOMaw,939
+stampy_cli-0.0.1.dist-info/METADATA,sha256=X3dgBL7mV_Hds9a4jNSa-lOFKpyxMSSkjK_PJSjcSD8,40420
+stampy_cli-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+stampy_cli-0.0.1.dist-info/entry_points.txt,sha256=JkETH4p-a3FTrbgj-wkZgiGRA2Rq74zDx8ySehgOYJo,48
+stampy_cli-0.0.1.dist-info/licenses/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+stampy_cli-0.0.1.dist-info/RECORD,,
