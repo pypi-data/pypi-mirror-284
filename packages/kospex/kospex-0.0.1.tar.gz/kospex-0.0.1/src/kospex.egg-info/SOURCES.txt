@@ -1,0 +1,10 @@
+LICENSE
+README.md
+README.short.md
+pyproject.toml
+src/kospex.egg-info/PKG-INFO
+src/kospex.egg-info/SOURCES.txt
+src/kospex.egg-info/dependency_links.txt
+src/kospex.egg-info/requires.txt
+src/kospex.egg-info/top_level.txt
+tests/test_capitalise.py
