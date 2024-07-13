@@ -1,0 +1,13 @@
+vargur_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vargur_sdk/auth.py,sha256=fBFQ29fvDOjvFqA6duF3oYHkTsXnv1aJmOEYFZnraxk,1015
+vargur_sdk/cache.py,sha256=kQnQqSJ41nJm8dUj2Xc1p0grN1glcGd4FDJPbjLbSlE,431
+vargur_sdk/config.py,sha256=bhNG8vZp_clXmt1PemltpuokP_yy5s-5SzW23sMmrXA,501
+vargur_sdk/core.py,sha256=2SF1ULEiNXiJhC5IJxxK-SFr9vLUeaCPrXEoZjH7TJU,813
+vargur_sdk/database.py,sha256=Aw0TIdGrTjV0dEAIfsq8LY1evPVhZyPZynfAP-XSvQs,433
+vargur_sdk/events.py,sha256=TEZLPXbjTMk6C6MCObK-4netgYH2IQi-BjzDqT3ZUpg,676
+vargur_sdk/models.py,sha256=GPoGfP8Sc0NvXlr2dl9Xzi5uEXF7-tZhvOeVtjk5h28,373
+vargur_sdk-0.1.1.dist-info/LICENSE,sha256=TvZMEel9vNldpCCE6unEt5gbgZl7iEz_a-aRW92vJyQ,1063
+vargur_sdk-0.1.1.dist-info/METADATA,sha256=rFblJFVu1IV0ODTva-tk-nMLEjoyZ07jv3Ft6TxGJa4,232
+vargur_sdk-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vargur_sdk-0.1.1.dist-info/top_level.txt,sha256=0Rvplwxipw8TpbV1FILNrgCMVl9FKOOaJ9wjwUEh7To,11
+vargur_sdk-0.1.1.dist-info/RECORD,,

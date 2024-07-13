@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: vargur-sdk
+Version: 0.1.1
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: sqlalchemy
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+
