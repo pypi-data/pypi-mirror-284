@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+mimic_head.egg-info/PKG-INFO
+mimic_head.egg-info/SOURCES.txt
+mimic_head.egg-info/dependency_links.txt
+mimic_head.egg-info/entry_points.txt
+mimic_head.egg-info/requires.txt
+mimic_head.egg-info/top_level.txt
