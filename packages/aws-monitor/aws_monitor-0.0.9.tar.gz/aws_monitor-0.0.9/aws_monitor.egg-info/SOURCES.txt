@@ -1,0 +1,17 @@
+LICENSE
+README.md
+aws-monitor.toml
+setup.py
+test.py
+.github/workflows/main.yml
+aws_monitor.egg-info/PKG-INFO
+aws_monitor.egg-info/SOURCES.txt
+aws_monitor.egg-info/dependency_links.txt
+aws_monitor.egg-info/entry_points.txt
+aws_monitor.egg-info/requires.txt
+aws_monitor.egg-info/top_level.txt
+aws_monitoring/__init__.py
+aws_monitoring/config.py
+aws_monitoring/utils.py
+aws_monitoring/org/__init__.py
+aws_monitoring/org/utils.py
