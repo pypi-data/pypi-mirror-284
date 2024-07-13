@@ -1,0 +1,7 @@
+invoice_pdfgen/__init__.py,sha256=7Jn69iLyNY3o7uJaEJ65Cv5Uj0mKjBWAUeEQX7kdA3A,253
+invoice_pdfgen/pdf_invoice_generator.py,sha256=5S7Yy7Rem2BB-rBojdNP9Z4Xdm34WO5vQn-U3JXewq0,5975
+invoice_pdfgen-1.2.2.dist-info/LICENSE,sha256=m7uAXIIsIsYv5N3YIFQNLUfGUwpOCsGfRfGVUtJPNSI,1104
+invoice_pdfgen-1.2.2.dist-info/METADATA,sha256=7vNK8bR6mBbnO7PI4dfQFOQnZfFx4vREer-9ZySffik,4891
+invoice_pdfgen-1.2.2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+invoice_pdfgen-1.2.2.dist-info/top_level.txt,sha256=TNa_4_mdJz_6fhkRS6IfmW4TVRUGFz7IHMyF9DLE50g,15
+invoice_pdfgen-1.2.2.dist-info/RECORD,,
