@@ -1,0 +1,10 @@
+warag/__init__.py,sha256=5ka_ue9d1DFAsiwX9HqEZhT0PvMv8rykVanHNYU1AYY,41
+warag/__main__.py,sha256=EQhdjaghxgwceVGOg5lXV99kh2rrq-d5L0_WLLXIaGA,71
+warag/__version__.py,sha256=YyOiEEUeZtW1HtHxBWimA012ZIMA9s8y9V2PKe5-eO0,64
+warag/cli.py,sha256=Yz6h6Kvkd7i-iG21fbjIPB91nv-5YZqmnsc3j29XdrY,222
+warag-0.0.0a0.dist-info/LICENSE,sha256=u01MsjL2hSO4i1905XVjth-3k_17wlg3gyscwiTUBoU,1529
+warag-0.0.0a0.dist-info/METADATA,sha256=D03GADP_5venzd_Pe7xSltXpEKy2E1PAR0EX-fbFGhY,1934
+warag-0.0.0a0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+warag-0.0.0a0.dist-info/entry_points.txt,sha256=rGvkE0dn2jIuccbKWv1dVqurWEpDpFA0iON6iSDjVjo,40
+warag-0.0.0a0.dist-info/top_level.txt,sha256=T9nPWIKc6qkq_ShBAJXbI5WoxLqU-9bMhwXjWJerB9Y,6
+warag-0.0.0a0.dist-info/RECORD,,
