@@ -1,0 +1,4 @@
+[console_scripts]
+timestep=timestep.main:typer_app
+timestep_serve=llama_cpp.server.__main__:main
+
