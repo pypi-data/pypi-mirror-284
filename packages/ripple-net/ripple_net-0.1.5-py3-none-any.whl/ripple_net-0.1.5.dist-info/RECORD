@@ -1,0 +1,10 @@
+ripple/__init__.py,sha256=Pmvv2a0rrs8Rm6D1Ay6FqDbeHgozy8w-PKcL1i1yWr8,214
+ripple/image_embedder.py,sha256=aYFAlzWdkSAXDMw7ZHNArv2cCCiWgZePU2ZonA6mN5g,3770
+ripple/image_search.py,sha256=KXcMf2wQFXn7FeI7w8EB_Mf3tohqQI67OLVNqc3idwU,1894
+ripple/image_tagger.py,sha256=Eg7Ka_klUqQRHSMRo7jyVQAyddKbolbZ5VvtsEFpPyk,1370
+ripple/text_search.py,sha256=3or4RcaGzXCLh3m3njolP1l-Zr9T5jTDX0TrKo3tPVg,916
+ripple/utils.py,sha256=EeLrmWWZyos1I7fCU0Nrc3PKF2iIDoqEHePPMXtVWC8,1580
+ripple_net-0.1.5.dist-info/METADATA,sha256=otyXJ0Hk6TQCWN3QqQiYk9QqhiLg9TE1OM901kP9C8o,16529
+ripple_net-0.1.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+ripple_net-0.1.5.dist-info/licenses/LICENSE,sha256=2h2n05kFJhLrVsCWhiXVG5WawpWLDicNtRaVbVWaEIw,11316
+ripple_net-0.1.5.dist-info/RECORD,,
