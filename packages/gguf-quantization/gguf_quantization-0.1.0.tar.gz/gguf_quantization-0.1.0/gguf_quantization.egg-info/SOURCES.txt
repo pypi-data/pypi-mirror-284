@@ -1,0 +1,10 @@
+pyproject.toml
+gguf_quantization/__init__.py
+gguf_quantization/quantize.py
+gguf_quantization/upload_to_hf.py
+gguf_quantization/utils.py
+gguf_quantization.egg-info/PKG-INFO
+gguf_quantization.egg-info/SOURCES.txt
+gguf_quantization.egg-info/dependency_links.txt
+gguf_quantization.egg-info/requires.txt
+gguf_quantization.egg-info/top_level.txt

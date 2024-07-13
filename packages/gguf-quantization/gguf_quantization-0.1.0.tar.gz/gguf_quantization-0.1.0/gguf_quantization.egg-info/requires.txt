@@ -1,0 +1,8 @@
+torch
+transformers
+peft
+datasets
+trl
+boto3
+huggingface_hub
+bitsandbytes

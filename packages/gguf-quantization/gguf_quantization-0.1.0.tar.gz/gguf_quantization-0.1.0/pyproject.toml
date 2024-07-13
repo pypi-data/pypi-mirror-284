@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gguf_quantization"
+version = "0.1.0"
+authors = [
+  { name="Seekh", email="insha@seek.co" },
+]
+description = "A package for quantizing LLMs"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch",
+    "transformers",
+    "peft",
+    "datasets",
+    "trl",
+    "boto3",
+    "huggingface_hub",
+    "bitsandbytes"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/llm-finetuner"
+"Bug Tracker" = "https://github.com/yourusername/llm-finetuner/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["gguf_quantization"]
+
+[tool.hatch.build]
+exclude = [
+    "tests",
+]
