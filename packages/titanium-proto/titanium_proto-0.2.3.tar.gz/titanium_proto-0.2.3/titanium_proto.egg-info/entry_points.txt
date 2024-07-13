@@ -1,0 +1,2 @@
+[console_scripts]
+titanium-proto = titanium_proto.titanium_proto:main

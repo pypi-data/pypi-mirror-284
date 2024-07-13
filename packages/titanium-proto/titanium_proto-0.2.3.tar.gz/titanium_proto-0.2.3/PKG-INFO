@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: titanium-proto
+Version: 0.2.3
+Summary: A Python library to generate C++ classes from JSON for working with structs.
+Author: Lucas D. Franchi
+Author-email: LucasD.Franchi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=6.2.4; extra == "dev"
+Requires-Dist: pytest-cov>=2.12.1; extra == "dev"
+Requires-Dist: coverage>=5.5; extra == "dev"
