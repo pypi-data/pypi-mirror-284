@@ -1,0 +1,10 @@
+USAggregate/__init__.py,sha256=ECGxCi6JnK1Z0cZwLBZ2yuadgoeERCJfYnsuVAWuz-s,36
+USAggregate/usaggregate.py,sha256=N6RvA5AQwXzSFhC4U2tC3lzdzYba_hQL7V37H78nKEI,5960
+USAggregate/data/zipcodes.csv,sha256=PB_B0n7m8Df7fxC2KUSVgTvgH3wHLVcowljTYr-BT5Y,1851898
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_usaggregate.py,sha256=Tdt-clSx22xKx-Gs1wvy2BTxGL7dUQOTAWdqk46da3w,2513
+USAggregate-0.4.0.dist-info/LICENSE,sha256=LLlkL0qcEKo3M7NZDhQ7GiuSLSYnrRIs_u5yLAMj6Hw,1064
+USAggregate-0.4.0.dist-info/METADATA,sha256=Z5WB_81LnU9iF8CJHcqikwGEGS3zEIj4hwFAiOfcQxg,1365
+USAggregate-0.4.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+USAggregate-0.4.0.dist-info/top_level.txt,sha256=fO0KealFNdlqL5kVnGg-L7jp7JkONlMTRX-4NonMxgM,18
+USAggregate-0.4.0.dist-info/RECORD,,
