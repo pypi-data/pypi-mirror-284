@@ -1,0 +1,2 @@
+[console_scripts]
+tpms = tpms.tpms:main
