@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_baboons_referral.egg-info/PKG-INFO
+django_baboons_referral.egg-info/SOURCES.txt
+django_baboons_referral.egg-info/dependency_links.txt
+django_baboons_referral.egg-info/requires.txt
+django_baboons_referral.egg-info/top_level.txt
+migrations/0001_initial.py
+migrations/__init__.py
