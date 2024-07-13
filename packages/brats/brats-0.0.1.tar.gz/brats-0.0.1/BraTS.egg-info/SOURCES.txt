@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+BraTS.egg-info/PKG-INFO
+BraTS.egg-info/SOURCES.txt
+BraTS.egg-info/dependency_links.txt
+BraTS.egg-info/top_level.txt
+brats/__init__.py
+brats/algorithm_config.py
+brats/algorithms.py
+brats/constants.py
+brats/docker.py
+brats/exceptions.py
+brats/utils.py
+brats/weights.py
+tests/test_algorithm_config.py
+tests/test_utils.py
