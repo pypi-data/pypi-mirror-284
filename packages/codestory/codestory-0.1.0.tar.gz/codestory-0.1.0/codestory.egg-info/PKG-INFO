@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: codestory
+Version: 0.1.0
+Summary: A cli tool for generating conventional commit messages using LLM models
+Home-page: https://github.com/yourusername/codestory
+Author: Abhishek Mishra
+Author-email: abhi.mishra922@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: gitpython
+Requires-Dist: python-dotenv
+Requires-Dist: outlines
+Requires-Dist: pydantic
+Requires-Dist: transformers
+Requires-Dist: openai
+Requires-Dist: google-generativeai
+Requires-Dist: anthropic
+Requires-Dist: groq
+Requires-Dist: requests
+
+# codestory
+Craft clear, concise commit messages and PR with ease.
