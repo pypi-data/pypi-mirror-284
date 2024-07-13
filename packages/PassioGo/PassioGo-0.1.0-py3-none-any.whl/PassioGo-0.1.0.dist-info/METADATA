@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PassioGo
+Version: 0.1.0
+Summary: Tracking the Performance of UChicago's Shuttle Network
+Home-page: https://github.com/athuler/PassioGo
+Author: Andrei Thuler
+Author-email: info@andreithuler.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests >=2.22.0
+Requires-Dist: websocket-client >=1.2.0
+
+# PassioGo
+ 
+
+
