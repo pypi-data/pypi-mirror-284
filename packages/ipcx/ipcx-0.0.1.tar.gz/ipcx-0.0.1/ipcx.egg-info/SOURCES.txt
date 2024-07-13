@@ -1,0 +1,13 @@
+README.md
+setup.py
+ipcx/__init__.py
+ipcx/ipcx.py
+ipcx.egg-info/PKG-INFO
+ipcx.egg-info/SOURCES.txt
+ipcx.egg-info/dependency_links.txt
+ipcx.egg-info/top_level.txt
+ipcx/src/__init__.py
+ipcx/src/client.py
+ipcx/src/globals.py
+ipcx/src/server.py
+ipcx/src/types.py
