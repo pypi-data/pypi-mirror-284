@@ -1,0 +1,754 @@
+Metadata-Version: 2.1
+Name: du_v2
+Version: 0.1.0
+Summary: More useful version of du
+Home-page: https://github.com/tylerlum/du_v2
+Author: Tyler Lum
+Author-email: tylergwlum@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tyro
+Requires-Dist: tqdm
+
+# du_v2
+
+More useful version of du
+
+## Problem Statement
+
+Your disk is running low on storage space. Was it that new dataset you created? The model weights? The downloads folder?
+
+Your first instinct is to run `du -h` on the root directory. But that takes forever to run, and you don't know where to start looking.
+
+`du_v2` is a more useful version of `du` for this common situation. It allows you to set a size and time threshold for each folder in the directory, and stops counting the size of the folder if it exceeds either threshold. This avoids the common pitfall of `du`, which will endlessly count the exact size of a very large folder, when you are only interested in culling away the small folders and further investigating the large folders.
+
+`du_v2` can also print the owner of each folder and relevant dates for the directory (created, last modified, last accessed). It can also print the folder sizes as they are calculated, in addition to at the end. It is robust to permission errors and ownership issues, and will print the folders it could not access.
+
+By default, `du_v2` only provides information about the files and folders directly in the directory you specify. It does not recursively search through subdirectories, so you need to subsequently run `du_v2` on each subdirectory you are interested in. However, you can set `--max-depth INT` to perform this recursive search on subdirectories that were above threshold.
+
+## Installing
+
+Install:
+
+```
+pip install du_v2
+```
+
+## Usage
+
+```
+du_v2 --help
+
+usage: du_v2 [-h] [OPTIONS]
+
+╭─ options ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ -h, --help              show this help message and exit                                                                                                           │
+│ --dir PATH              Directory to check (required)                                                                                                             │
+│ --size-thresh-gb {None}|FLOAT                                                                                                                                     │
+│                         Size threshold in GB at which to stop counting the folder size (default: 20.0)                                                            │
+│ --time-thresh-sec {None}|FLOAT                                                                                                                                    │
+│                         Time threshold in seconds at which to stop counting the folder size (default: 10.0)                                                       │
+│ --dates-to-print [{created,modified,accessed} [{created,modified,accessed} ...]]                                                                                  │
+│                         Dates to print for each item in the directory (default: )                                                                                 │
+│ --print-as-calculated {True,False}                                                                                                                                │
+│                         Print the folder sizes as they are calculated, in addition to at the end (default: False)                                                 │
+│ --print-below-threshold {True,False}                                                                                                                              │
+│                         Print files and folders below both thresholds (not just the ones above a threshold) (default: True)                                                                             │
+│ --max-depth {None}|INT  Max depth to recursively search subdirectories that were above threshold. None means no recursion beyond the input directory (default:    │
+│                         None)                                                                                                                                     │
+│ --very-small-thresh-gb {None}|FLOAT                                                                                                                               │
+│                         Size threshold in GB at which to classify files and folders as very small. These will not be printed (default: 0.01)                      │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+## Example 1: Basic Usage
+
+```
+du_v2 --dir /
+Checking items in /: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:25<00:00,  1.12it/s]
+
+================================================================================
+Unprocessed items:
+================================================================================
+
+Could not access /etc
+Could not access /var
+
+================================================================================
+Sorted by size:
+================================================================================
+
+/vmlinuz (root): 0.01GB
+/vmlinuz.old (root): 0.01GB
+/lib32 (root): 0.01GB
+/bin (root): 0.02GB
+/sbin (root): 0.02GB
+/initrd.img (root): 0.04GB
+/initrd.img.old (root): 0.04GB
+/boot (root): 0.18GB
+/lib (root): 1.46GB
+/sys (root): 1.54GB
+/tmp (root): 1.94GB
+/swapfile (root): 2.00GB
+/usr (root): 11.79GB (out of time)
+/opt (root): 17.83GB
+/media (root): 20.00GB (too big)
+/home (root): 20.03GB (too big)
+```
+
+## Example 2: Many Arguments Usage
+
+```
+du_v2 --dir ~/github_repos --size-thresh-gb 10 --time-thresh-sec 5 --dates-to-print modified --print-as-calculated True --print-below-threshold True --very-small-thresh-gb None
+```
+
+- Check the `~/github_repos` directory
+
+- Stop counting the size of a folder if it exceeds 10GB or 5 seconds
+
+- Print the last modified date for each item
+
+- Print the folder sizes as they are calculated, in addition to at the end
+
+- Print files and folders below both thresholds (not just the ones above a threshold)
+
+- Do not classify any files or folders as very small, so print everything
+
+## Example 3: Recursive Usage
+
+```
+du_v2 --dir / --max-depth 3
+
+Checking depth 0 with 1 directories...
+
+Checking items in /: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:26<00:00,  1.07it/s]
+
+================================================================================
+Unprocessed items:
+================================================================================
+
+Could not access /etc
+Could not access /var
+
+================================================================================
+Sorted by size:
+================================================================================
+
+/vmlinuz (root): 0.01GB
+/vmlinuz.old (root): 0.01GB
+/lib32 (root): 0.01GB
+/bin (root): 0.02GB
+/sbin (root): 0.02GB
+/initrd.img (root): 0.04GB
+/initrd.img.old (root): 0.04GB
+/boot (root): 0.18GB
+/lib (root): 1.46GB
+/sys (root): 1.54GB
+/tmp (root): 1.94GB
+/swapfile (root): 2.00GB
+/usr (root): 11.87GB (out of time)
+/opt (root): 17.83GB
+/media (root): 20.00GB (too big)
+/home (root): 20.03GB (too big)
+/dev (root): 131071.99GB (too big)
+/proc (root): 131071.99GB (too big)
+/snap (root): 131081.55GB (too big)
+
+Checking depth 1 with 6 directories...
+
+Checking items in /usr: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 11/11 [00:13<00:00,  1.20s/it]
+
+================================================================================
+Unprocessed items:
+================================================================================
+
+Could not access /usr/share
+
+================================================================================
+Sorted by size:
+================================================================================
+
+/usr/sbin (root): 0.02GB
+/usr/libexec (root): 0.11GB
+/usr/NX (root): 0.13GB
+/usr/include (root): 0.35GB
+/usr/src (root): 0.73GB
+/usr/bin (root): 1.10GB
+/usr/lib (root): 11.66GB
+/usr/local (root): 12.56GB
+Checking items in /media: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:05<00:00,  2.99s/it]
+
+================================================================================
+Sorted by size:
+================================================================================
+
+/media/tylerlum (root): 20.00GB (too big)
+Checking items in /home: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.29s/it]
+
+================================================================================
+Sorted by size:
+================================================================================
+
+/home/tylerlum (tylerlum): 20.03GB (too big)
+Checking items in /dev: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 265/265 [00:00<00:00, 35565.42it/s]
+
+================================================================================
+Sorted by size:
+================================================================================
+
+/dev/shm (root): 0.04GB
+/dev/core (root): 131071.99GB (too big)
+Checking items in /proc: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 526/526 [00:05<00:00, 92.63it/s]
+
+================================================================================
+Unprocessed items:
+================================================================================
+
+Could not access /proc/self
+Could not access /proc/1
+Could not access /proc/2
+Could not access /proc/3
+Could not access /proc/4
+Could not access /proc/8
+Could not access /proc/9
+Could not access /proc/10
+Could not access /proc/11
+Could not access /proc/12
+Could not access /proc/14
+Could not access /proc/15
+Could not access /proc/16
+Could not access /proc/17
+Could not access /proc/18
+Could not access /proc/20
+Could not access /proc/21
+Could not access /proc/22
+Could not access /proc/23
+Could not access /proc/24
+Could not access /proc/27
+Could not access /proc/28
+Could not access /proc/29
+Could not access /proc/30
+Could not access /proc/32
+Could not access /proc/33
+Could not access /proc/34
+Could not access /proc/35
+Could not access /proc/36
+Could not access /proc/38
+Could not access /proc/39
+Could not access /proc/40
+Could not access /proc/41
+Could not access /proc/42
+Could not access /proc/44
+Could not access /proc/45
+Could not access /proc/46
+Could not access /proc/47
+Could not access /proc/48
+Could not access /proc/50
+Could not access /proc/51
+Could not access /proc/52
+Could not access /proc/53
+Could not access /proc/54
+Could not access /proc/57
+Could not access /proc/58
+Could not access /proc/59
+Could not access /proc/60
+Could not access /proc/62
+Could not access /proc/63
+Could not access /proc/64
+Could not access /proc/65
+Could not access /proc/66
+Could not access /proc/68
+Could not access /proc/69
+Could not access /proc/70
+Could not access /proc/71
+Could not access /proc/72
+Could not access /proc/75
+Could not access /proc/76
+Could not access /proc/77
+Could not access /proc/78
+Could not access /proc/81
+Could not access /proc/82
+Could not access /proc/83
+Could not access /proc/84
+Could not access /proc/85
+Could not access /proc/86
+Could not access /proc/87
+Could not access /proc/88
+Could not access /proc/89
+Could not access /proc/90
+Could not access /proc/137
+Could not access /proc/138
+Could not access /proc/139
+Could not access /proc/143
+Could not access /proc/144
+Could not access /proc/145
+Could not access /proc/146
+Could not access /proc/147
+Could not access /proc/150
+Could not access /proc/152
+Could not access /proc/153
+Could not access /proc/155
+Could not access /proc/156
+Could not access /proc/157
+Could not access /proc/158
+Could not access /proc/168
+Could not access /proc/169
+Could not access /proc/178
+Could not access /proc/197
+Could not access /proc/261
+Could not access /proc/262
+Could not access /proc/263
+Could not access /proc/264
+Could not access /proc/265
+Could not access /proc/266
+Could not access /proc/267
+Could not access /proc/268
+Could not access /proc/269
+Could not access /proc/277
+Could not access /proc/278
+Could not access /proc/279
+Could not access /proc/281
+Could not access /proc/282
+Could not access /proc/283
+Could not access /proc/302
+Could not access /proc/305
+Could not access /proc/306
+Could not access /proc/336
+Could not access /proc/348
+Could not access /proc/366
+Could not access /proc/375
+Could not access /proc/382
+Could not access /proc/384
+Could not access /proc/402
+Could not access /proc/424
+Could not access /proc/441
+Could not access /proc/444
+Could not access /proc/450
+Could not access /proc/451
+Could not access /proc/457
+Could not access /proc/458
+Could not access /proc/461
+Could not access /proc/472
+Could not access /proc/474
+Could not access /proc/477
+Could not access /proc/483
+Could not access /proc/485
+Could not access /proc/488
+Could not access /proc/490
+Could not access /proc/492
+Could not access /proc/493
+Could not access /proc/495
+Could not access /proc/497
+Could not access /proc/498
+Could not access /proc/500
+Could not access /proc/504
+Could not access /proc/505
+Could not access /proc/506
+Could not access /proc/507
+Could not access /proc/508
+Could not access /proc/510
+Could not access /proc/513
+Could not access /proc/514
+Could not access /proc/518
+Could not access /proc/520
+Could not access /proc/579
+Could not access /proc/589
+Could not access /proc/632
+Could not access /proc/734
+Could not access /proc/735
+Could not access /proc/777
+Could not access /proc/778
+Could not access /proc/779
+Could not access /proc/780
+Could not access /proc/781
+Could not access /proc/785
+Could not access /proc/791
+Could not access /proc/860
+Could not access /proc/906
+Could not access /proc/929
+Could not access /proc/962
+Could not access /proc/963
+Could not access /proc/964
+Could not access /proc/991
+Could not access /proc/999
+Could not access /proc/1005
+Could not access /proc/1007
+Could not access /proc/1011
+Could not access /proc/1012
+Could not access /proc/1013
+Could not access /proc/1014
+Could not access /proc/1015
+Could not access /proc/1019
+Could not access /proc/1020
+Could not access /proc/1021
+Could not access /proc/1029
+Could not access /proc/1030
+Could not access /proc/1031
+Could not access /proc/1032
+Could not access /proc/1033
+Could not access /proc/1034
+Could not access /proc/1035
+Could not access /proc/1036
+Could not access /proc/1037
+Could not access /proc/1038
+Could not access /proc/1039
+Could not access /proc/1040
+Could not access /proc/1041
+Could not access /proc/1175
+Could not access /proc/1264
+Could not access /proc/1268
+Could not access /proc/1354
+Could not access /proc/1363
+Could not access /proc/1368
+Could not access /proc/1386
+Could not access /proc/1389
+Could not access /proc/1391
+Could not access /proc/1396
+Could not access /proc/1398
+Could not access /proc/1415
+Could not access /proc/1416
+Could not access /proc/1417
+Could not access /proc/1418
+Could not access /proc/1419
+Could not access /proc/1420
+Could not access /proc/1421
+Could not access /proc/1422
+Could not access /proc/1424
+Could not access /proc/1430
+Could not access /proc/1431
+Could not access /proc/1434
+Could not access /proc/1442
+Could not access /proc/1446
+Could not access /proc/1459
+Could not access /proc/1461
+Could not access /proc/1512
+Could not access /proc/1515
+Could not access /proc/1519
+Could not access /proc/1580
+Could not access /proc/1631
+Could not access /proc/1834
+Could not access /proc/1854
+Could not access /proc/1865
+Could not access /proc/1880
+Could not access /proc/1893
+Could not access /proc/1901
+Could not access /proc/1927
+Could not access /proc/1959
+Could not access /proc/1989
+Could not access /proc/2003
+Could not access /proc/2076
+Could not access /proc/2080
+Could not access /proc/2166
+Could not access /proc/2168
+Could not access /proc/2303
+Could not access /proc/2315
+Could not access /proc/2538
+Could not access /proc/2544
+Could not access /proc/2545
+Could not access /proc/2547
+Could not access /proc/2549
+Could not access /proc/2555
+Could not access /proc/2556
+Could not access /proc/2557
+Could not access /proc/2560
+Could not access /proc/2582
+Could not access /proc/2583
+Could not access /proc/2591
+Could not access /proc/2621
+Could not access /proc/2638
+Could not access /proc/2686
+Could not access /proc/2742
+Could not access /proc/2744
+Could not access /proc/2749
+Could not access /proc/2751
+Could not access /proc/2764
+Could not access /proc/2772
+Could not access /proc/2783
+Could not access /proc/2835
+Could not access /proc/2837
+Could not access /proc/2893
+Could not access /proc/2896
+Could not access /proc/2898
+Could not access /proc/2901
+Could not access /proc/2909
+Could not access /proc/2931
+Could not access /proc/2951
+Could not access /proc/2954
+Could not access /proc/2956
+Could not access /proc/2957
+Could not access /proc/2960
+Could not access /proc/2961
+Could not access /proc/2963
+Could not access /proc/2968
+Could not access /proc/2977
+Could not access /proc/2980
+Could not access /proc/2986
+Could not access /proc/2990
+Could not access /proc/2991
+Could not access /proc/2996
+Could not access /proc/3001
+Could not access /proc/3003
+Could not access /proc/3009
+Could not access /proc/3038
+Could not access /proc/3047
+Could not access /proc/3058
+Could not access /proc/3073
+Could not access /proc/3076
+Could not access /proc/3077
+Could not access /proc/3088
+Could not access /proc/3091
+Could not access /proc/3095
+Could not access /proc/3097
+Could not access /proc/3121
+Could not access /proc/3168
+Could not access /proc/3173
+Could not access /proc/3263
+Could not access /proc/3265
+Could not access /proc/3270
+Could not access /proc/3272
+Could not access /proc/3293
+Could not access /proc/3315
+Could not access /proc/3320
+Could not access /proc/3332
+Could not access /proc/3354
+Could not access /proc/3357
+Could not access /proc/3381
+Could not access /proc/3389
+Could not access /proc/3391
+Could not access /proc/3393
+Could not access /proc/3403
+Could not access /proc/3414
+Could not access /proc/3418
+Could not access /proc/3426
+Could not access /proc/3435
+Could not access /proc/3454
+Could not access /proc/3462
+Could not access /proc/3465
+Could not access /proc/3469
+Could not access /proc/3474
+Could not access /proc/3478
+Could not access /proc/3482
+Could not access /proc/3486
+Could not access /proc/3487
+Could not access /proc/3489
+Could not access /proc/3490
+Could not access /proc/3491
+Could not access /proc/3494
+Could not access /proc/3498
+Could not access /proc/3508
+Could not access /proc/3510
+Could not access /proc/3513
+Could not access /proc/3515
+Could not access /proc/3517
+Could not access /proc/3518
+Could not access /proc/3520
+Could not access /proc/3521
+Could not access /proc/3527
+Could not access /proc/3529
+Could not access /proc/3536
+Could not access /proc/3537
+Could not access /proc/3538
+Could not access /proc/3558
+Could not access /proc/3578
+Could not access /proc/3596
+Could not access /proc/3597
+Could not access /proc/3607
+Could not access /proc/3617
+Could not access /proc/3625
+Could not access /proc/3632
+Could not access /proc/3638
+Could not access /proc/3651
+Could not access /proc/3658
+Could not access /proc/3667
+Could not access /proc/3678
+Could not access /proc/3738
+Could not access /proc/3740
+Could not access /proc/3780
+Could not access /proc/3791
+Could not access /proc/3807
+Could not access /proc/3852
+Could not access /proc/4079
+Could not access /proc/4082
+Could not access /proc/4100
+Could not access /proc/4147
+Could not access /proc/4321
+Could not access /proc/4324
+Could not access /proc/4401
+Could not access /proc/4563
+Could not access /proc/4566
+Could not access /proc/4600
+Could not access /proc/4601
+Could not access /proc/4616
+Could not access /proc/4628
+Could not access /proc/4734
+Could not access /proc/4960
+Could not access /proc/5183
+Could not access /proc/5184
+Could not access /proc/5294
+Could not access /proc/5311
+Could not access /proc/5903
+Could not access /proc/6398
+Could not access /proc/7343
+Could not access /proc/8026
+Could not access /proc/8298
+Could not access /proc/8308
+Could not access /proc/8331
+Could not access /proc/8543
+Could not access /proc/8648
+Could not access /proc/8809
+Could not access /proc/8938
+Could not access /proc/8997
+Could not access /proc/9214
+Could not access /proc/9263
+Could not access /proc/9264
+Could not access /proc/9265
+Could not access /proc/9276
+Could not access /proc/9293
+Could not access /proc/9323
+Could not access /proc/9592
+Could not access /proc/9598
+Could not access /proc/9650
+Could not access /proc/9676
+Could not access /proc/9730
+Could not access /proc/9760
+Could not access /proc/9792
+Could not access /proc/10285
+Could not access /proc/10514
+Could not access /proc/10836
+Could not access /proc/13036
+Could not access /proc/13069
+Could not access /proc/13869
+Could not access /proc/13893
+Could not access /proc/14299
+Could not access /proc/14902
+Could not access /proc/18044
+Could not access /proc/18826
+Could not access /proc/20273
+Could not access /proc/20957
+Could not access /proc/21365
+Could not access /proc/22281
+Could not access /proc/22341
+Could not access /proc/22404
+Could not access /proc/22650
+Could not access /proc/22654
+Could not access /proc/22664
+Could not access /proc/22665
+Could not access /proc/22681
+Could not access /proc/22699
+Could not access /proc/22727
+Could not access /proc/22979
+Could not access /proc/23077
+Could not access /proc/23355
+Could not access /proc/23451
+Could not access /proc/23575
+Could not access /proc/23863
+Could not access /proc/24006
+Could not access /proc/24181
+Could not access /proc/24259
+Could not access /proc/24282
+Could not access /proc/24638
+Could not access /proc/24646
+Could not access /proc/24652
+Could not access /proc/24653
+Could not access /proc/24887
+Could not access /proc/26490
+Could not access /proc/26707
+Could not access /proc/26815
+Could not access /proc/27748
+Could not access /proc/29640
+Could not access /proc/30002
+Could not access /proc/30676
+Could not access /proc/31887
+Could not access /proc/31888
+Could not access /proc/32420
+Could not access /proc/32461
+Could not access /proc/32475
+Could not access /proc/32476
+Could not access /proc/32501
+Could not access /proc/32517
+Could not access /proc/32522
+Could not access /proc/32542
+Could not access /proc/32559
+Could not access /proc/32594
+
+================================================================================
+Sorted by size:
+================================================================================
+
+/proc/thread-self (tylerlum): 0.01GB
+/proc/kcore (root): 131071.99GB (too big)
+Checking items in /snap: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:08<00:00,  2.51it/s]
+
+================================================================================
+Sorted by size:
+================================================================================
+
+/snap/gnome-system-monitor (root): 0.01GB
+/snap/gnome-calculator (root): 0.02GB
+/snap/bin (root): 0.21GB
+/snap/snapd (root): 0.25GB
+/snap/core18 (root): 0.50GB
+/snap/core20 (root): 0.62GB
+/snap/core22 (root): 0.67GB
+/snap/slack (root): 0.91GB
+/snap/gtk-common-themes (root): 0.99GB
+/snap/gnome-3-28-1804 (root): 3.22GB
+/snap/gimp (root): 3.72GB
+/snap/code (root): 4.01GB
+/snap/gnome-3-34-1804 (root): 4.30GB
+/snap/vlc (root): 4.42GB
+/snap/gnome-3-38-2004 (root): 5.11GB
+/snap/gnome-42-2204 (root): 6.59GB
+/snap/core (root): 131072.01GB (too big)
+
+Checking depth 2 with 3 directories...
+
+Checking items in /media/tylerlum: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:05<00:00,  5.82s/it]
+
+================================================================================
+Sorted by size:
+================================================================================
+
+/media/tylerlum/3264-3562 (tylerlum): 20.00GB (too big)
+Checking items in /home/tylerlum: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 102/102 [00:09<00:00, 10.79it/s]
+
+================================================================================
+Sorted by size:
+================================================================================
+
+/home/tylerlum/.nx (tylerlum): 0.01GB
+/home/tylerlum/.mozilla (tylerlum): 0.03GB
+/home/tylerlum/.ipython (tylerlum): 0.04GB
+/home/tylerlum/go (tylerlum): 0.06GB
+/home/tylerlum/.vip (tylerlum): 0.10GB
+/home/tylerlum/castxml (Unknown): 0.10GB
+/home/tylerlum/.nvm (tylerlum): 0.16GB
+/home/tylerlum/.zoom (tylerlum): 0.18GB
+/home/tylerlum/Applications (tylerlum): 0.19GB
+/home/tylerlum/.nvidia-omniverse (tylerlum): 0.20GB
+/home/tylerlum/.r3m (tylerlum): 0.37GB
+/home/tylerlum/isaacgym_Aug_2023 (tylerlum): 0.70GB
+/home/tylerlum/.vscode (tylerlum): 1.14GB
+/home/tylerlum/sailbot_ws (tylerlum): 1.49GB
+/home/tylerlum/Pictures (tylerlum): 1.64GB
+/home/tylerlum/snap (tylerlum): 2.34GB
+/home/tylerlum/.julia (tylerlum): 3.26GB
+/home/tylerlum/2023-07-30_and_before_misc_nerf_grasping (tylerlum): 3.52GB
+/home/tylerlum/MOCCA (tylerlum): 4.53GB
+/home/tylerlum/test_wandb (tylerlum): 15.86GB
+/home/tylerlum/.cache (tylerlum): 20.00GB (too big)
+/home/tylerlum/github_repos (tylerlum): 20.00GB (too big)
+/home/tylerlum/miniconda3 (tylerlum): 20.00GB (too big)
+/home/tylerlum/.config (tylerlum): 20.00GB (too big)
+/home/tylerlum/Documents (tylerlum): 20.01GB (too big)
+/home/tylerlum/Downloads (tylerlum): 20.22GB (too big)
+/home/tylerlum/.local (tylerlum): 20.91GB (too big)
+/home/tylerlum/Videos (tylerlum): 22.57GB (too big)
+Checking items in /snap/core: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 529.38it/s]
+
+
+```

@@ -1,0 +1,2 @@
+[console_scripts]
+du_v2 = du_v2.du_v2:main
