@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: mac-ocr-cli
+Version: 0.1.1
+Summary: A CLI tool for OCR on macOS using FastAPI and ocrmac
+Home-page: https://github.com/dielect/mac-ocr-api
+Author: dielect
+Author-email: dielectric.army@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: typer
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pillow
+Requires-Dist: ocrmac
+Requires-Dist: pydantic
+Requires-Dist: rich
+
+# MAC-OCR-CLI
+
+MAC-OCR-CLI is a powerful command-line interface tool for Optical Character Recognition (OCR) on macOS. 
+It leverages FastAPI and ocrmac to provide a seamless OCR experience directly from your terminal.
+
+## Features
+
+- Easy-to-use CLI for OCR tasks
+- Built on FastAPI for high performance
+- Utilizes ocrmac for accurate OCR on macOS
+- Supports base64 encoded image input
+- Intelligent text merging by line
+- Beautiful console output using Rich library
+
+## Installation
+
+Install MacOCR-CLI using pip:
+
+```sh
+pip install mac-ocr-cli
