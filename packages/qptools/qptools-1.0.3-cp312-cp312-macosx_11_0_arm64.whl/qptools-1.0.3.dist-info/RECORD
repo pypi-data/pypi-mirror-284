@@ -1,0 +1,8 @@
+qptools/__init__.py,sha256=FWdkhMoY0aULnal1SwUOgVo89mogSNG7XuzghhmXZWI,2494
+qptools/core.cpython-312-darwin.so,sha256=_Inhe7Dv7nlNG8QLIK9JDmE8jKu_wI6UFbLqjLs112w,277640
+qptools/cuda.py,sha256=DCvsHwCxKis_HKI12_zWlvLt50Q5Fpb9C1-kyualpIw,2934
+qptools-1.0.3.dist-info/LICENSE,sha256=gjyaT3kwdICLueUreD6AKvWUrjQzNLOIjqXESyojsuY,1247
+qptools-1.0.3.dist-info/METADATA,sha256=gsweG6alDlfQGchOFWi8oXnzqWQsPILjy5EG0VxCCfM,2528
+qptools-1.0.3.dist-info/WHEEL,sha256=Vo9YTsjXxZ5SWdH4n69oS5jU3YTIi3eHk0n-aUcTtlw,110
+qptools-1.0.3.dist-info/top_level.txt,sha256=xVo2H1-ay18CKrBzMNn8scVCKt5kkU21LDznXemyHx8,8
+qptools-1.0.3.dist-info/RECORD,,
