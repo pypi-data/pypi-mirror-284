@@ -1,0 +1,4 @@
+aiohttp~=3.9.5
+multidict~=6.0.5
+ifaddr~=0.2.0
+multicast_py~=1.0.0

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "python-upnp"
+version = "1.0.0"
+requires-python = ">= 3.10"
+authors = [{name = "Pavel Dunaev", email = "me@neko-dev.ru"}]
+description = "UPnP library in pure python"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = []
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python",
+    "Typing :: Typed"
+]
+dependencies = [
+    "aiohttp~=3.9.5",
+    "multidict~=6.0.5",
+    "ifaddr~=0.2.0",
+    "multicast_py~=1.0.0"
+]
+
+[project.scripts]
+pyupnp_client = "pyupnp.client.main:main"
+
+[project.urls]
+Home = "https://gitlab.neko-dev.ru/me/pyupnp"
+Repository = "https://gitlab.neko-dev.ru/me/pyupnp"
+Issues = "https://gitlab.neko-dev.ru/me/pyupnp/-/issues"
+
+[tool.flit.module]
+name = "pyupnp"
+
+[tool.flit.sdist]
+exclude = [".idea/"]
