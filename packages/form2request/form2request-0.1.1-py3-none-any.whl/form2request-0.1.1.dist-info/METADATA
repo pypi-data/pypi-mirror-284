@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: form2request
+Version: 0.1.1
+Summary: Build HTTP requests out of HTML forms
+Author-email: Zyte Group Ltd <info@zyte.com>
+License: Copyright (c) Zyte Group Ltd
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without modification,
+        are permitted provided that the following conditions are met:
+        
+            1. Redistributions of source code must retain the above copyright notice,
+               this list of conditions and the following disclaimer.
+        
+            2. Redistributions in binary form must reproduce the above copyright
+               notice, this list of conditions and the following disclaimer in the
+               documentation and/or other materials provided with the distribution.
+        
+            3. Neither the name of Zyte nor the names of its contributors may be used
+               to endorse or promote products derived from this software without
+               specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+        ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+        (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+        LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+        ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+        SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Code, https://github.com/zytedata/form2request
+Project-URL: Docs, https://form2request.readthedocs.io/en/latest/
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: lxml >=4.4.1
+Requires-Dist: parsel >=1.8.1
+Requires-Dist: w3lib >=1.19.0
+
+============
+form2request
+============
+
+.. image:: https://img.shields.io/pypi/v/form2request.svg
+   :target: https://pypi.python.org/pypi/form2request
+   :alt: PyPI Version
+
+.. image:: https://img.shields.io/pypi/pyversions/form2request.svg
+   :target: https://pypi.python.org/pypi/form2request
+   :alt: Supported Python Versions
+
+.. image:: https://github.com/scrapy/form2request/workflows/tox/badge.svg
+   :target: https://github.com/scrapy/form2request/actions
+   :alt: Build Status
+
+.. image:: https://codecov.io/github/scrapy/form2request/coverage.svg?branch=main
+   :target: https://codecov.io/gh/scrapy/form2request
+   :alt: Coverage report
+
+.. description starts
+
+``form2request`` is a Python 3.8+ library to build HTTP requests out of HTML
+forms.
+
+.. description ends
+
+* Documentation: https://form2request.readthedocs.io/en/latest/
+* License: BSD 3-clause
