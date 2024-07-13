@@ -1,0 +1,13 @@
+csvuniondiff/__init__.py,sha256=E2RmT0QVkJnHc5KNjKtMD5BqcXO6429GMjOH8Bx0jTQ,270
+csvuniondiff/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvuniondiff/src/command.py,sha256=SkxPHpqEOVdOyUqSxiT-3Nyf3JPm91BVDUelTq0SRac,8917
+csvuniondiff/src/csvuniondiff.py,sha256=RoSTEn6wF2N1h_qff1C_xazeXn0OhgjKop4T3AmIyl8,34509
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_command.py,sha256=u4cTCtDinhkQ7dQHccLOi9EB8sS7Uh2UPWDU2RvEf4M,10487
+tests/test_csvuniondiff.py,sha256=dpaAW2EWjLbM9J0D1iqKBdZhanvwpnL4kB6lLXEN5U8,20976
+csvuniondiff-0.0.0.dev1.dist-info/LICENSE,sha256=fwklBJ6BmBChrcb6DD6Bu8w7_0gR0vxzabE6P-i4Mhk,1092
+csvuniondiff-0.0.0.dev1.dist-info/METADATA,sha256=cSkxkoYvlwOEWGnUktZURURme0rw7VkcZ4tWOGMhE3k,19583
+csvuniondiff-0.0.0.dev1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+csvuniondiff-0.0.0.dev1.dist-info/entry_points.txt,sha256=3YT47DwhvNSP6d76WpI37cidcAmPZVpoUAZ0RjuiTyE,63
+csvuniondiff-0.0.0.dev1.dist-info/top_level.txt,sha256=w4rQ9QyPgO5FlcL-l1EjIg-MCxxKseklPUZkgb_kNec,19
+csvuniondiff-0.0.0.dev1.dist-info/RECORD,,
