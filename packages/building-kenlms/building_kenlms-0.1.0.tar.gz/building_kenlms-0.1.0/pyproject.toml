@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "building-kenlms"
+version = "0.1.0"
+description = "helper scripts to build kenlm models"
+authors = ["Tilo Himmelsbach <dertilo@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "building_kenlms" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+kenlm = "0.2.0"
+python-text-cleaning = "^0.1.2"
+misc-python-utils = "^0.1.0"
+tqdm = "^4.66.1"
+buildable-dataclasses = "^0.1.0"
+typing-extensions = "^4.12.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+
+[tool.poetry.group.dev.dependencies]
+python-linters = { version = "^0.1.5"}
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"

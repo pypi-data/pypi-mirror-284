@@ -1,0 +1,58 @@
+![tests](https://github.com/fraunhofer-iais/building-kenlms/actions/workflows/tests.yml/badge.svg)
+[![pypi](https://img.shields.io/pypi/v/building-kenlms.svg)](https://pypi.python.org/project/building-kenlms)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![bear-ified](https://raw.githubusercontent.com/beartype/beartype-assets/main/badge/bear-ified.svg)](https://beartype.readthedocs.io)
+[![Ruff-ified](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/dertilo/python-linters/blob/master/python_linters/ruff.toml)
+[![Checked with pyright](https://microsoft.github.io/pyright/img/pyright_badge.svg)](https://microsoft.github.io/pyright/)
+# building kenlms
+* python (glue)code to build ngram-LM (via kenlm) from text-corpus
+* example (from `test_argpa_from_corpus.py`):
+```python
+arpa_args = ArpaArgs(
+    order=5,
+    prune="|".join(str(k) for k in [0, 8, 16]),
+)
+
+lm_corpus = WordBasedLMCorpus(
+    name="test",
+    cache_base=cache_base,
+    raw_corpora=BuildableContainer[RglobRawCorpus](
+        [
+            RglobRawCorpus(
+                cache_base=cache_base,
+                corpus_dir=test_corpus_dir,
+                file_pattern="*corpus.txt",
+            ),
+        ],
+    ),
+    transcript_cleaner=normalizer,
+)
+
+arpa_builder = ArpaBuilder(
+    cache_base=cache_base,
+    arpa_args=arpa_args,
+    corpus=lm_corpus,
+)
+
+arpa_builder.build()
+
+```
+* creates 3 things:
+  * arpa-files in `ArpaBuilder-...` - directory
+  * `raw_corpus.txt.gz` in `RglobRawCorpus-...` - directory
+  * `processed.txt.gz` text-corpus in `WordBasedLMCorpus-...` - directory
+```commandline
+cache
+├── ArpaBuilder-arpa-test83643909a155c382f462cc06ed2ca17482b6b239
+│   ├── dataclass.json
+│   ├── lm.arpa
+│   └── lm_unfiltered.arpa
+├── RglobRawCorpus-resourcesa4bb48834103a10f5366e8db275a2a7a88907668
+│   ├── dataclass.json
+│   └── raw_corpus.txt.gz
+└── WordBasedLMCorpus-testcb2ad810525289f8cb0a1eb7a0a82b9c947ccc52
+    ├── dataclass.json
+    ├── processed.txt.gz
+    └── word_counts.txt
+
+```
