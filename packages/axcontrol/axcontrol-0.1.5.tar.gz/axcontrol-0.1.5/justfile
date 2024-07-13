@@ -1,0 +1,9 @@
+# use PowerShell instead of sh:
+set windows-shell := ["powershell.exe", "-c"]
+
+update-deps:
+    uv pip compile pyproject.toml -o requirements/requirements.pip
+
+deps:
+    just update-deps
+    uv pip sync requirements/requirements.pip
