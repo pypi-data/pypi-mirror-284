@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: perftools
+Version: 0.0.1
+Summary: Android Simpleperf tool.
+Author-email: ww-rm <ww-rm@qq.com>
+Project-URL: Homepage, https://github.com/ww-rm/perftools
+Project-URL: Issues, https://github.com/ww-rm/perftools/issues
+Project-URL: Documentation, https://perftools.readthedocs.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# perftools
