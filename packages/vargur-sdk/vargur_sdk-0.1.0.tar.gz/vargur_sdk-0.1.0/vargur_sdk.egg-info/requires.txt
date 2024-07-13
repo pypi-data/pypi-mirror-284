@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+aioredis
+pyjwt
+discord.py
+
+[dev]
+pytest
+pytest-asyncio
