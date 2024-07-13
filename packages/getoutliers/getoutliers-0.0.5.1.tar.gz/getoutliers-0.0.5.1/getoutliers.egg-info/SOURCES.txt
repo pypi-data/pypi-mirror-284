@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+getoutliers/__init__.py
+getoutliers.egg-info/PKG-INFO
+getoutliers.egg-info/SOURCES.txt
+getoutliers.egg-info/dependency_links.txt
+getoutliers.egg-info/top_level.txt
+getoutliers/_iqr/__init__.py
+getoutliers/_manipulation/__init__.py
+getoutliers/_nan_value/__init__.py
+getoutliers/_nan_value/nan_value.py
+getoutliers/_view/__init__.py
+getoutliers/_zscore/__init__.py
