@@ -1,0 +1,11 @@
+torch
+torchvision
+lightning
+torchvision
+lightning
+einops
+wandb
+
+[dev]
+pytest
+ruff
