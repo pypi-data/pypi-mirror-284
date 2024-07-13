@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.3
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: jaredStef@iCloud.com
+author_name: Jared Stefanowicz
+has_binder: false
+has_settings: true
+kind: frontend
+labextension_name: header
+project_short_description: Customizable cell headers for Jupyter
+python_name: header
+repository: https://github.com/jaredstef/header
+test: false
+
