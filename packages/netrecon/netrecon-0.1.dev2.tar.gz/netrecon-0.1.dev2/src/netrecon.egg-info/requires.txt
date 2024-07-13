@@ -1,0 +1,14 @@
+netmiko==4.4.0
+click==8.1.7
+rich==13.7.1
+
+[build]
+setuptools==70.3.0
+setuptools-scm==8.1.0
+build==1.2.1
+twine==5.1.1
+
+[test]
+black==24.4.2
+mypy==1.10.1
+ruff==0.5.1
