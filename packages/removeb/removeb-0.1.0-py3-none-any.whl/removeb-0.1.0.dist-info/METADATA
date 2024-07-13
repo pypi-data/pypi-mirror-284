@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: removeb
+Version: 0.1.0
+Summary: A package to remove brackets from an array
+Author: Pr0ngle
+Author-email: prongle1234@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# MyPackage
+
+A simple Python package to remove brackets from an array. 
