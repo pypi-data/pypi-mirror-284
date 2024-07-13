@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pgman
+Version: 0.0.1
+Summary: Python操作PostgreSQL
+Home-page: https://github.com/markadc/wauo
+Author: WangTuo
+Author-email: markadc@126.com
+License: MIT
+Keywords: Python,DB,PostgreSQL
+Description-Content-Type: text/markdown
+
+# 连接PostgreSQL
+
+```python
+from pgman.connector import PostgreSQL
+
+pg = PostgreSQL(db="test", user="wauo", password="123456")
+
+name = "people"
+pg.make_table(name)
+
+res = pg.exe_sql("select * from people limit 10", query_all=True)
+print(res)
+```
