@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rasl-artnet
+Version: 0.1
+Summary: ARTNet server and gui
+Home-page: http://github.com/VU-RASL/ARTNet
+Author: Alexandra Watkins
+Author-email: alexandra.watkins@vanderbilt.edu
+License: MIT
+Requires-Dist: pyzmq
+Requires-Dist: protobuf
+Requires-Dist: python-dotenv
+Requires-Dist: pyaudio
