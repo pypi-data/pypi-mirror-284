@@ -1,0 +1,41 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "sqlml-parser"
+version = "0.0.1"
+authors = [
+  { name="khulnasoft-bot", email="inrfo@khulnasoft.com" },
+]
+
+description = "A sql parser which support mysql, oceanbase and odps"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "ply == 3.11",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/khulnasoft-lab/sqlml-parser"
+"Bug Tracker" = "https://github.com/khulnasoft-lab/sqlml-parser/issues"
+
+[tool.ruff]
+    select = ["F"]
+    # Allow autofix for all enabled rules (when `--fix`) is provided.
+    fixable = ["ALL"]
+    line-length=120
+
+[tool.black]
+    skip-string-normalization = 1
+    force-exclude = '''
+    sqlml_parser/parser/mysql_parser/parser_table.py
+    | sqlml_parser/parser/oceanbase_parser/parser_table.py
+    |  sqlml_parser/parser/odps_parser/parser_table.py
+    '''
