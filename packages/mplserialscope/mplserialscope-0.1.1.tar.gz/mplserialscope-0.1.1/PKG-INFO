@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mplserialscope
+Version: 0.1.1
+Summary: A utility to take continuous serial output (i.e. from an Arduino) and plot it in real-time with matplotlib 
+Home-page: https://github.com/jonahpearl/mpl_serial_to_oscope
+Author: Jonah Pearl
+Author-email: jonahpearl@g.harvard.edu
+License: MIT or Allen Institute Software License
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: PyQt5

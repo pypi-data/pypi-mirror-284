@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/mplserialscope/__init__.py
+src/mplserialscope/animate.py
+src/mplserialscope/blitting.py
+src/mplserialscope.egg-info/PKG-INFO
+src/mplserialscope.egg-info/SOURCES.txt
+src/mplserialscope.egg-info/dependency_links.txt
+src/mplserialscope.egg-info/not-zip-safe
+src/mplserialscope.egg-info/requires.txt
+src/mplserialscope.egg-info/top_level.txt
