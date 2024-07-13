@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gguf_quantization
+Version: 0.1.0
+Summary: A package for quantizing LLMs
+Author-email: Seekh <insha@seek.co>
+Project-URL: Homepage, https://github.com/yourusername/llm-finetuner
+Project-URL: Bug Tracker, https://github.com/yourusername/llm-finetuner/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: peft
+Requires-Dist: datasets
+Requires-Dist: trl
+Requires-Dist: boto3
+Requires-Dist: huggingface-hub
+Requires-Dist: bitsandbytes
+

@@ -1,0 +1,8 @@
+gguf_quantization/__init__.py,sha256=ISCLmidorG2Ot3KdjfnqyQIT9WTd2Jn6jtTgSQDIiGE,152
+gguf_quantization/quantize.py,sha256=Jev6pJ1LfKmiGZGbFQyEqVl8OKY8ErVJXcJiw-WM_kw,2128
+gguf_quantization/upload_to_hf.py,sha256=-Rt4LZjY-gXst0uuPdQer8WV_MgoYgh8pdpHhkh81BE,1153
+gguf_quantization/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gguf_quantization-0.1.0.dist-info/METADATA,sha256=ULDv5AdssqxNLMNS0X-klRGAKWAK4xXymeLv69gPQlM,686
+gguf_quantization-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+gguf_quantization-0.1.0.dist-info/top_level.txt,sha256=l04O_VheGO5s6QDXOFoY4rfgcLd9Ic3dCiH0vUpq7ts,18
+gguf_quantization-0.1.0.dist-info/RECORD,,
