@@ -1,0 +1,7 @@
+llm_bedrock_titan.py,sha256=lpsnP1nbbv1Y2nM9Y-uG8bROkrR2cnCrIsyFoc7rNHI,4468
+llm_bedrock_amazon-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+llm_bedrock_amazon-1.0.1.dist-info/METADATA,sha256=RQOy73sOkJp_YWnDMBLs6I98z1iF-QLbyuLgdBMcM_g,2074
+llm_bedrock_amazon-1.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+llm_bedrock_amazon-1.0.1.dist-info/entry_points.txt,sha256=3Q1uLnb8Jr3sc-D6-XpeBIBc1B2TyXzd9o1cwO_JzQE,40
+llm_bedrock_amazon-1.0.1.dist-info/top_level.txt,sha256=5TD0vKM4j8uDynveDCSrS8DlqtC3pg_0vSRMoJ1a8cw,18
+llm_bedrock_amazon-1.0.1.dist-info/RECORD,,
