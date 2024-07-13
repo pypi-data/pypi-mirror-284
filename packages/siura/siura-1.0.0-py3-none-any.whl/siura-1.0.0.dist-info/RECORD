@@ -1,0 +1,11 @@
+siura-sdk/__init__.py,sha256=a4mChPjJqxe2TZ1tjh0Mc1gbOBcFG2pXihmIr_48u3c,83
+siura-sdk/auth.dev.py,sha256=_d8hpw7PdYV2wNTrpHwkeTXrSZv_yriYy0sG4FosYt4,1399
+siura-sdk/auth.py,sha256=0r_-EMvVfyEGtNI8F5GcwjnMeCvR2OJMrlC-xv9IG44,2345
+siura-sdk/base.py,sha256=ndgR84gGfvY7CneHN5K2qxDRZCGhzTIGf0mZfb---ik,461
+siura-sdk/meli.py,sha256=SkGfqB4bHdtDa_6oyCk9sTi0ULVgIgcjyTPyI6hxxlA,620
+siura-sdk/template.py,sha256=k-5HK5Eh24nuQ-hLn7sbDkuKEvSxd-X_97kwpVfQL58,1361
+siura-1.0.0.dist-info/LICENSE,sha256=q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U,11
+siura-1.0.0.dist-info/METADATA,sha256=cc_FglzuHK9pf5ByyVge5L1NazWhJF9ivK7n254rQV0,433
+siura-1.0.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+siura-1.0.0.dist-info/top_level.txt,sha256=SaMLYbU5mJ7uS4F2-zULK5KcnMJFiqX0fHxz6eU5L6o,10
+siura-1.0.0.dist-info/RECORD,,
