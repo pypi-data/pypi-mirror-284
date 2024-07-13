@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+gptzip/__init__.py
+gptzip/gptzip.py
+gptzip/helpers.py
+gptzip/utils.py
+gptzip.egg-info/PKG-INFO
+gptzip.egg-info/SOURCES.txt
+gptzip.egg-info/dependency_links.txt
+gptzip.egg-info/requires.txt
+gptzip.egg-info/top_level.txt

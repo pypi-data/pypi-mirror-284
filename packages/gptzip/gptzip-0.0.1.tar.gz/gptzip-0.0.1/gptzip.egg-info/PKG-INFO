@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: gptzip
+Version: 0.0.1
+Summary: losslessly compress data with language models
+Author: Jack Morris
+Author-email: jxm3@cornell.edu
+License-File: LICENSE
+Requires-Dist: transformers
