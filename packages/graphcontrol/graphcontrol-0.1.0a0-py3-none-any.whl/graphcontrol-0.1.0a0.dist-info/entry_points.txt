@@ -1,0 +1,2 @@
+[console_scripts]
+graphcontrol = graphcontrol.cli:app
