@@ -1,0 +1,3 @@
+[console_scripts]
+transkription_vosk = transkription_vosk.transkription_vosk:main
+
