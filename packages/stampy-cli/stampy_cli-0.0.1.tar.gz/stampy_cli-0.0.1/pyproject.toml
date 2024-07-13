@@ -1,0 +1,32 @@
+[project]
+name = "stampy-cli"
+version = "0.0.1"
+authors = [
+  { name = "Joshua Simpson", email = "josh@simpsonian.ca" }
+]
+description = "A system for capturing, tracking, and attending to important dates."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = [
+    "jinja2",
+    "pydantic",
+    "requests",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+]
+
+[project.scripts]
+stampy = "stampy.__main__:main"
+
+[project.urls]
+Homepage = "https://gitlab.com/JoshWVS/stampy"
+
+[tool.hatch.build.targets.wheel]
+packages = ["stampy"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

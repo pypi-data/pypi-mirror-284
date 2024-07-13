@@ -1,0 +1,32 @@
+<!DOCTYPE PUBLIC “-//W3C//DTD XHTML 1.0 Transitional//EN” “https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd”>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            border: dotted;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: min(80ch, 85%);
+            padding: 10px;
+            background: white;
+        }
+        .closing {
+            text-align: right;
+            margin-bottom: 0;
+        }
+        body > p {
+            font-size: larger;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Happy birthday, <span class="name">{{ recipient_name }}</span>! &#x1F973;</h1>
+    <p>{{ message }}</p>
+    <p class="closing">Cheers,<br>
+    {{ sender_name }}</p>
+  </body>
+</html>

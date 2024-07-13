@@ -1,0 +1,6 @@
+dist/
+ignore/
+stampy/__pycache__
+test.db
+todo.org
+venv
