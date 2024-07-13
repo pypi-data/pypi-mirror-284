@@ -1,0 +1,12 @@
+nlgm/__init__.py,sha256=MIda8zcTo2QGsPq3a2Cg25Qx7C2HcOyPeezFO9nry3k,43
+nlgm/autoencoder.py,sha256=WxebPHkerDBQlxl8WRaQDAdezUzXHWV7sK0rPJvvB6U,4168
+nlgm/manifolds.py,sha256=u3wAjYloGzlgUTsRLG4UQw2HqOA6BKAVLqoZiyjk2VM,11275
+nlgm/optimizers.py,sha256=bQfP4Ect3TNIkAmvKLXZ7ISsfAdu_yYwy7KE4jUnMCs,5136
+nlgm/searchspace.py,sha256=9AjbYOH-ZI1KC9MySii5p8rrjb4YP_HPB9qQJ4BkGPs,10819
+nlgm/train.py,sha256=OQ4Fn_DUlb4hBGG7EvCOUcUrUmazFoFslQsPpo1UXWc,2157
+nlgm/visualize.py,sha256=oPvwNv_PDRMls2dUPNFZlrBtX0wB6epxRLpx6N5Lw6w,3270
+neural_geometry-0.1.2.dist-info/LICENSE,sha256=JkTroYAQm1b1EtQnKZpUfe3waRWKyVm6TR75KD9ri2E,1101
+neural_geometry-0.1.2.dist-info/METADATA,sha256=T0XOnLyIgsY8kZa-yGA6jcstf1Z56P4ZBswOsHaRlKk,5037
+neural_geometry-0.1.2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+neural_geometry-0.1.2.dist-info/top_level.txt,sha256=fUFtKeGvaFEHxC-6xzUrD9pvdp9I7uMD9WeyxJGExig,5
+neural_geometry-0.1.2.dist-info/RECORD,,
