@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: primebit
+Version: 0.0.1
+Summary: a python package that gives users the ability to console log things in a clean way.
+Author: Tahfari Chin
+Author-email: ayotahfarinyc@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
