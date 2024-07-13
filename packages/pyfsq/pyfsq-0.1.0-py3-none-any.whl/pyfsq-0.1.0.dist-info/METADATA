@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: pyfsq
+Version: 0.1.0
+Summary: Python-based console client and API for transferring data to FSQ server
+Project-URL: Homepage, https://github.com/tstibor/pyfsq
+Project-URL: Issues, https://github.com/tstibor/pyfsq/issues
+Author-email: Thomas Stibor <t.stibor@gsi.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# fsqpy
+Python-based FSQ API designed for transferring data to an FSQ server.
+It also includes a straightforward console client for demonstrating how to use the API.
+
+## Installation
+```pip3 install pyfsq```
+
+## Requirements
+### Python
+* Python >= 3.7
+
