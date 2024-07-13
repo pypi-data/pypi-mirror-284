@@ -1,0 +1,7 @@
+README.md
+setup.py
+mypackage/__init__.py
+removeb.egg-info/PKG-INFO
+removeb.egg-info/SOURCES.txt
+removeb.egg-info/dependency_links.txt
+removeb.egg-info/top_level.txt
