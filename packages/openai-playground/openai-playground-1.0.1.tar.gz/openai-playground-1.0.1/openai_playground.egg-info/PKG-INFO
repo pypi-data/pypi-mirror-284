@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: openai-playground
+Version: 1.0.1
+Summary: Use other openai-compatible API services in OpenAI Playground.
+Home-page: https://github.com/jtc1246/openai-playground
+Author: Tiancheng Jiao
+Author-email: jtc1246@outlook.com
+License: GPL-2.0 License
+Platform: all
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# openai-playground
+
+## Introduction
+
+Use other openai-compatible API services in OpenAI Playground.
+
+It supports:
+
+- Add any openai-compatible API service.
+- In stream mode.
+- History chatting storage and export.
+
+This is a useful tool for those AI services that have awful playground experience.
+
+#### Demo:
+
+<img src="resources/demo_2x_speed.gif">
+
+## Installation
+
+```bash
+pip install openai-playground
+```
+
