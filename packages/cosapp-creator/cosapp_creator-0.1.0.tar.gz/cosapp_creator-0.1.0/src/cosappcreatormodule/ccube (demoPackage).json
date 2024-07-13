@@ -1,0 +1,847 @@
+{
+  "name": "ccube (demoPackage)",
+  "systems": [
+    {
+      "name": "ConePressureLoss",
+      "className": "ConePressureLoss",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "desc": "Model of pressure loss coefficient in a conical duct\n",
+      "inputs": [
+        {
+          "name": "inwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "rho",
+              "desc": "Fluid mass density",
+              "unit": "kg / m**3"
+            },
+            {
+              "name": "mu",
+              "desc": "Fluid dynamic viscosity",
+              "unit": "Pa * s"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **rho** &#128274;&#128274; : 1.25 kg / m**3 | Fluid mass density\n  **mu** &#128274;&#128274; : 2e-05 Pa * s | Fluid dynamic viscosity"
+        },
+        {
+          "name": "fluid_in",
+          "type": "FluidPort",
+          "pack": "ccube (demoPackage)"
+        },
+        {
+          "name": "geom_in",
+          "type": "GeometryPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "K",
+              "desc": "Geometry-corrected pressure loss coefficient of conical duct",
+              "unit": "kg * m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **K**: 1 kg * m | Geometry-corrected pressure loss coefficient of conical duct"
+        }
+      ]
+    },
+    {
+      "name": "TubeMech",
+      "className": "TubeMech",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "desc": "\nComputes the deformation of a infinite elastic cylindrical tube under pressure\n",
+      "inputs": [
+        {
+          "name": "inwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "p_inner",
+              "desc": "Absolute inner pressure",
+              "unit": "Pa"
+            },
+            {
+              "name": "p_outer",
+              "desc": "Absolute outer pressure",
+              "unit": "Pa"
+            },
+            {
+              "name": "E",
+              "desc": "Young's modulus",
+              "unit": "Pa"
+            },
+            {
+              "name": "nu",
+              "desc": "Poisson ratio"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **p_inner** &#128274;&#128274; : 1.5e+05 Pa;  &#10647; 0 &#10205;  value  | Absolute inner pressure\n  **p_outer** &#128274;&#128274; : 1e+05 Pa;  &#10647; 0 &#10205;  value  | Absolute outer pressure\n  **E** &#128274;&#128274; : 1e+09 Pa | Young's modulus\n  **nu** &#128274;&#128274; : 0.5 | Poisson ratio"
+        },
+        {
+          "name": "geom_ref",
+          "type": "GeometryPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "sigma_r",
+              "desc": "Radial stress at inner and outer surfaces",
+              "unit": "Pa"
+            },
+            {
+              "name": "sigma_a",
+              "desc": "Azimuthal stress at inner and outer surfaces",
+              "unit": "Pa"
+            },
+            {
+              "name": "ur",
+              "desc": "Radial displacements of inner and outer surfaces",
+              "unit": "m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **sigma_r**: [0. 0.] Pa | Radial stress at inner and outer surfaces\n  **sigma_a**: [0. 0.] Pa | Azimuthal stress at inner and outer surfaces\n  **ur**: [0. 0.] m | Radial displacements of inner and outer surfaces"
+        },
+        {
+          "name": "geom_out",
+          "type": "GeometryPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "kwargs": {
+        "xi": 0.5
+      }
+    },
+    {
+      "name": "MidSectionInfo",
+      "className": "MidSectionInfo",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "inputs": [
+        {
+          "name": "geom",
+          "type": "GeometryPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "area_inner",
+              "desc": "Mid-section inner area",
+              "unit": "m**2"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **area_inner**: 0 m**2 | Mid-section inner area"
+        }
+      ]
+    },
+    {
+      "name": "TubePressureLoss",
+      "className": "TubePressureLoss",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "desc": "\nModule computing the pressure loss coefficient of a cylindrical duct\n",
+      "inputs": [
+        {
+          "name": "inwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "rho",
+              "desc": "Fluid mass density",
+              "unit": "kg / m**3"
+            },
+            {
+              "name": "mu",
+              "desc": "Fluid dynamic viscosity",
+              "unit": "Pa * s"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **rho** &#128274;&#128274; : 1.25 kg / m**3 | Fluid mass density\n  **mu** &#128274;&#128274; : 2e-05 Pa * s | Fluid dynamic viscosity"
+        },
+        {
+          "name": "geom_in",
+          "type": "GeometryPort",
+          "pack": "ccube (demoPackage)"
+        },
+        {
+          "name": "fluid_in",
+          "type": "FluidPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "K",
+              "desc": "Pressure loss coefficient, based on mass flowrate",
+              "unit": "kg * m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **K**: 1 kg * m | Pressure loss coefficient, based on mass flowrate"
+        }
+      ]
+    },
+    {
+      "name": "ConicalTube",
+      "className": "ConicalTube",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "desc": "Multi-physics model of flow in a conical tube.\nModules implemented:\n\n- Geometry (cold/reference and hot/deformed)\n- Aerodynamics\n- Mechanics\n",
+      "inputs": [
+        {
+          "name": "inwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "D",
+              "desc": "Cone inlet diameter",
+              "unit": "m"
+            },
+            {
+              "name": "L",
+              "desc": "Cone length",
+              "unit": "m"
+            },
+            {
+              "name": "angle",
+              "desc": "Cone angle",
+              "unit": "deg"
+            },
+            {
+              "name": "thickness",
+              "desc": "Conical shell thickness",
+              "unit": "m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **D** &#128274;&#128274; : 0.1 m | Cone inlet diameter\n  **L** &#128274;&#128274; : 1 m | Cone length\n  **angle** &#128274;&#128274; : 5 deg | Cone angle\n  **thickness** &#128274;&#128274; : 0.002 m | Conical shell thickness"
+        },
+        {
+          "name": "fluid_in",
+          "type": "FluidPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "fluid_out",
+          "type": "FluidPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "mathProblem": {
+        "nUnknowns": 4,
+        "nEquations": 4,
+        "unknowns": [
+          {
+            "context": "",
+            "content": "geom_hot.D"
+          },
+          {
+            "context": "",
+            "content": "geom_hot.L"
+          },
+          {
+            "context": "",
+            "content": "geom_hot.angle"
+          },
+          {
+            "context": "",
+            "content": "geom_hot.thickness"
+          }
+        ],
+        "equations": [
+          {
+            "context": "",
+            "content": "geom_hot.D == mech.D (loop)"
+          },
+          {
+            "context": "",
+            "content": "geom_hot.L == mech.L (loop)"
+          },
+          {
+            "context": "",
+            "content": "geom_hot.angle == mech.angle (loop)"
+          },
+          {
+            "context": "",
+            "content": "geom_hot.thickness == mech.thickness (loop)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TubeAero",
+      "className": "TubeAero",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "desc": "Applies a total pressure drop to incoming flow port `fluid_in`,\nusing pressure drop coefficient `K`. Total temperature is preserved.\n",
+      "inputs": [
+        {
+          "name": "inwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "K",
+              "desc": "Pressure loss coefficient, based on mass flowrate",
+              "unit": "kg * m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **K** &#128274;&#128274; : 10000 kg * m | Pressure loss coefficient, based on mass flowrate"
+        },
+        {
+          "name": "fluid_in",
+          "type": "FluidPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "dPt",
+              "desc": "Total pressure drop",
+              "unit": "Pa"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **dPt**: 0 Pa | Total pressure drop"
+        },
+        {
+          "name": "fluid_out",
+          "type": "FluidPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ]
+    },
+    {
+      "name": "TubePressureLossGeom",
+      "className": "TubePressureLossGeom",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "desc": "\nGeometry interpreter extracting features for `TubePressureLossCoef`\n",
+      "inputs": [
+        {
+          "name": "geom_in",
+          "type": "GeometryPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "area",
+              "desc": "Cross-section area",
+              "unit": "m**2"
+            },
+            {
+              "name": "length",
+              "desc": "Tube length",
+              "unit": "m"
+            },
+            {
+              "name": "rugosity",
+              "desc": "Tube rugosity, given as a characteristic grain size",
+              "unit": "m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **area**: 0 m**2 | Cross-section area\n  **length**: 0 m | Tube length\n  **rugosity**: 0 m | Tube rugosity, given as a characteristic grain size"
+        }
+      ],
+      "kwargs": {
+        "xi": 0.5
+      }
+    },
+    {
+      "name": "FluidSection",
+      "className": "FluidSection",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "desc": "\nGeometry interpreter extracting cross-section area of a cone\nat relative axial length `xi` between 0 (inlet) and 1 (outlet).\n",
+      "inputs": [
+        {
+          "name": "geom_in",
+          "type": "GeometryPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "area",
+              "desc": "Cross-section area",
+              "unit": "m**2"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **area**: 0 m**2 | Cross-section area"
+        }
+      ],
+      "kwargs": {
+        "xi": 0.5
+      }
+    },
+    {
+      "name": "ConicalTubeAero",
+      "className": "ConicalTubeAero",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "inputs": [
+        {
+          "name": "inwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "rho",
+              "desc": "Fluid mass density",
+              "unit": "kg / m**3"
+            },
+            {
+              "name": "mu",
+              "desc": "Fluid dynamic viscosity",
+              "unit": "Pa * s"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **rho** &#128274;&#128274; : 1.25 kg / m**3 | Fluid mass density\n  **mu** &#128274;&#128274; : 2e-05 Pa * s | Fluid dynamic viscosity"
+        },
+        {
+          "name": "geom_in",
+          "type": "GeometryPort",
+          "pack": "ccube (demoPackage)"
+        },
+        {
+          "name": "fluid_in",
+          "type": "FluidPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "dPt",
+              "desc": "Total pressure drop",
+              "unit": "Pa"
+            },
+            {
+              "name": "p_inlet",
+              "desc": "Static pressure",
+              "unit": "Pa"
+            },
+            {
+              "name": "p_outlet",
+              "desc": "Static pressure",
+              "unit": "Pa"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **dPt**: 0 Pa | Total pressure drop\n  **p_inlet**: 1e+05 Pa;  &#10647; 0 &#10205;  value  | Static pressure\n  **p_outlet**: 1e+05 Pa;  &#10647; 0 &#10205;  value  | Static pressure"
+        },
+        {
+          "name": "fluid_out",
+          "type": "FluidPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ]
+    },
+    {
+      "name": "ConeMech",
+      "className": "ConeMech",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "desc": "\nComputes the deformation of a cone end-sections under pressure,\nassuming the cone is sufficiently slender that each section\nbehaves locally as an infinite elastic cylindrical tube.\n",
+      "inputs": [
+        {
+          "name": "inwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "p_inlet",
+              "desc": "Absolute inner pressure",
+              "unit": "Pa"
+            },
+            {
+              "name": "E",
+              "desc": "Young's modulus",
+              "unit": "Pa"
+            },
+            {
+              "name": "nu",
+              "desc": "Poisson ratio"
+            },
+            {
+              "name": "p_outlet",
+              "desc": "Absolute inner pressure",
+              "unit": "Pa"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **p_inlet** &#128274;&#128274; : 1.5e+05 Pa;  &#10647; 0 &#10205;  value  | Absolute inner pressure\n  **E** &#128274;&#128274; : 1e+09 Pa | Young's modulus\n  **nu** &#128274;&#128274; : 0.5 | Poisson ratio\n  **p_outlet** &#128274;&#128274; : 1.5e+05 Pa;  &#10647; 0 &#10205;  value  | Absolute inner pressure"
+        },
+        {
+          "name": "geom_ref",
+          "type": "GeometryPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "D",
+              "desc": "Deformed inlet diameter",
+              "unit": "m"
+            },
+            {
+              "name": "L",
+              "desc": "Deformed tube length",
+              "unit": "m"
+            },
+            {
+              "name": "angle",
+              "desc": "Deformed cone angle",
+              "unit": "deg"
+            },
+            {
+              "name": "thickness",
+              "desc": "Deformed wall thickness",
+              "unit": "m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **D**: 0.1 m | Deformed inlet diameter\n  **L**: 1 m | Deformed tube length\n  **angle**: 5 deg | Deformed cone angle\n  **thickness**: 0.002 m | Deformed wall thickness"
+        }
+      ]
+    },
+    {
+      "name": "ConePressureLossCorr",
+      "className": "ConePressureLossCorr",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "desc": "Module computing a pressure loss coefficient in a\nconical duct, from the loss coefficient of a cylinder\nwith the same diameter D as the cone inlet.\n\nThe modified coefficient is based on a resistor series model,\nassuming that K ~ 1 / D^4 in a cylindrical tube.\n",
+      "inputs": [
+        {
+          "name": "inwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "Kcyl",
+              "desc": "Pressure loss coefficient of cylindrical duct, based on mass flowrate",
+              "unit": "kg * m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **Kcyl** &#128274;&#128274; : 10000 kg * m | Pressure loss coefficient of cylindrical duct, based on mass flowrate"
+        },
+        {
+          "name": "geom_in",
+          "type": "GeometryPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "K",
+              "desc": "Geometry-corrected pressure loss coefficient of conical duct",
+              "unit": "kg * m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **K**: 1 kg * m | Geometry-corrected pressure loss coefficient of conical duct"
+        }
+      ]
+    },
+    {
+      "name": "StaticPressure",
+      "className": "StaticPressure",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "inputs": [
+        {
+          "name": "inwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "area",
+              "desc": "Cross-section area",
+              "unit": "m**2"
+            },
+            {
+              "name": "rho",
+              "desc": "Fluid density",
+              "unit": "kg / m**3"
+            },
+            {
+              "name": "Vt",
+              "desc": "Tangential velocity, with normal direction given by flowrate",
+              "unit": "m/s"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **area** &#128274;&#128274; : 0.01 m**2 | Cross-section area\n  **rho** &#128274;&#128274; : 1.25 kg / m**3 | Fluid density\n  **Vt** &#128274;&#128274; : 0 m/s | Tangential velocity, with normal direction given by flowrate"
+        },
+        {
+          "name": "fluid",
+          "type": "FluidPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "Ps",
+              "desc": "Static pressure",
+              "unit": "Pa"
+            },
+            {
+              "name": "Pd",
+              "desc": "Dynamic pressure",
+              "unit": "Pa"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **Ps**: 1e+05 Pa;  &#10647; 0 &#10205;  value  | Static pressure\n  **Pd**: 0 Pa;  &#10647; 0 &#10205;  value  | Dynamic pressure"
+        }
+      ]
+    },
+    {
+      "name": "TubePressureLossCoef",
+      "className": "TubePressureLossCoef",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "desc": "Module computing the pressure loss coefficient of a cylindrical duct\n",
+      "inputs": [
+        {
+          "name": "inwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "area",
+              "desc": "Tube cross-sectional area",
+              "unit": "m**2"
+            },
+            {
+              "name": "length",
+              "desc": "Tube length",
+              "unit": "m"
+            },
+            {
+              "name": "rugosity",
+              "desc": "Tube rugosity, given as a characteristic grain size",
+              "unit": "m"
+            },
+            {
+              "name": "rho",
+              "desc": "Fluid mass density",
+              "unit": "kg / m**3"
+            },
+            {
+              "name": "mu",
+              "desc": "Fluid dynamic viscosity",
+              "unit": "Pa * s"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **area** &#128274;&#128274; : 0.01 m**2 | Tube cross-sectional area\n  **length** &#128274;&#128274; : 1 m | Tube length\n  **rugosity** &#128274;&#128274; : 0 m | Tube rugosity, given as a characteristic grain size\n  **rho** &#128274;&#128274; : 1.25 kg / m**3 | Fluid mass density\n  **mu** &#128274;&#128274; : 2e-05 Pa * s | Fluid dynamic viscosity"
+        },
+        {
+          "name": "fluid_in",
+          "type": "FluidPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "De",
+              "desc": "Equivalent diameter, assuming section is circular",
+              "unit": "m"
+            },
+            {
+              "name": "Re",
+              "desc": "Reynolds number"
+            },
+            {
+              "name": "fd",
+              "desc": "Pipe friction coefficient"
+            },
+            {
+              "name": "kv",
+              "desc": "Pressure loss coefficient, based on stress scale rho * V**2 / 2"
+            },
+            {
+              "name": "K",
+              "desc": "Pressure loss coefficient, based on mass flowrate",
+              "unit": "kg * m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **De**: 1 m | Equivalent diameter, assuming section is circular\n  **Re**: 1 | Reynolds number\n  **fd**: 1 | Pipe friction coefficient\n  **kv**: 1 | Pressure loss coefficient, based on stress scale rho * V**2 / 2\n  **K**: 1 kg * m | Pressure loss coefficient, based on mass flowrate"
+        }
+      ]
+    },
+    {
+      "name": "ConeGeom",
+      "className": "ConeGeom",
+      "pack": "ccube (demoPackage)",
+      "mod": "ccube.systems",
+      "desc": "Conical tube geometrical description",
+      "inputs": [
+        {
+          "name": "inwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "D",
+              "desc": "Cone inlet diameter",
+              "unit": "m"
+            },
+            {
+              "name": "L",
+              "desc": "Cone length",
+              "unit": "m"
+            },
+            {
+              "name": "angle",
+              "desc": "Cone angle",
+              "unit": "deg"
+            },
+            {
+              "name": "thickness",
+              "desc": "Conical shell thickness",
+              "unit": "m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **D** &#128274;&#128274; : 0.1 m | Cone inlet diameter\n  **L** &#128274;&#128274; : 1 m | Cone length\n  **angle** &#128274;&#128274; : 5 deg | Cone angle\n  **thickness** &#128274;&#128274; : 0.002 m | Conical shell thickness"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outwards",
+          "type": "ExtensiblePort",
+          "pack": "ccube (demoPackage)",
+          "variables": [
+            {
+              "name": "D_out",
+              "desc": "Cone outlet diameter",
+              "unit": "m"
+            }
+          ],
+          "desc": "|  |  |\n---|---\n  **D_out**: 0.1 m | Cone outlet diameter"
+        },
+        {
+          "name": "out",
+          "type": "GeometryPort",
+          "pack": "ccube (demoPackage)"
+        }
+      ]
+    }
+  ],
+  "ports": [
+    {
+      "name": "GeometryPort",
+      "pack": "ccube (demoPackage)",
+      "variables": [
+        {
+          "name": "topology",
+          "desc": "Topological description of the geometry"
+        }
+      ],
+      "desc": "|  |  |\n---|---\n  **topology**: {} | Topological description of the geometry"
+    },
+    {
+      "name": "FluidPort",
+      "pack": "ccube (demoPackage)",
+      "variables": [
+        {
+          "name": "W",
+          "desc": "Mass flowrate",
+          "unit": "kg/s"
+        },
+        {
+          "name": "Pt",
+          "desc": "Total pressure",
+          "unit": "Pa"
+        },
+        {
+          "name": "Tt",
+          "desc": "Total temperature",
+          "unit": "K"
+        }
+      ],
+      "desc": "|  |  |\n---|---\n  **W**: 10 kg/s | Mass flowrate\n  **Pt**: 1e+05 Pa | Total pressure\n  **Tt**: 273.15 K | Total temperature"
+    },
+    {
+      "name": "ConeGeomPort",
+      "pack": "ccube (demoPackage)",
+      "variables": [
+        {
+          "name": "area",
+          "unit": "m**2"
+        },
+        {
+          "name": "length",
+          "unit": "m"
+        },
+        {
+          "name": "angle",
+          "unit": "deg"
+        }
+      ],
+      "desc": "|  |  |\n---|---\n  **area**: 0.01 m**2 |\n  **length**: 1 m |\n  **angle**: 5 deg |"
+    }
+  ],
+  "version": "0.2.0"
+}

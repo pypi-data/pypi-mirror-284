@@ -1,0 +1,85 @@
+stages:
+  - test
+  - test_build
+  - deploy
+
+.linux_common_env:
+  image: 'condaforge/mambaforge:latest'
+  before_script:
+    - conda init bash
+    - source $HOME/.bashrc
+    - mamba create -y -n cosapp python=3.11 nodejs pytest
+    - source activate cosapp
+    - pip install . --trusted-host=files.pythonhosted.org
+
+# default linux job parameters
+.linux_env:
+  extends:
+    - '.linux_common_env'
+  tags:
+    - cosapp_runner # Using project runner
+
+# Deployment env (runs on public runner)
+.deploy_env:
+  extends:
+    - '.linux_common_env'
+  stage: deploy
+
+# Test script for all OS
+.test_script:
+  script:
+    - python -m pytest
+
+# linux_push:
+#   stage: test
+#   extends:
+#     - '.linux_env'
+#     - '.test_script'
+#   rules:
+#     - if: $CI_MERGE_REQUEST_ID
+#       when: never
+#     - if: $CI_COMMIT_TAG
+#       when: never
+#     - if: '$CI_PIPELINE_SOURCE == "push"'
+
+linux_mr:
+  stage: test
+  extends:
+    - '.linux_env'
+    - '.test_script'
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+
+build_pkg:
+  stage: test_build
+  extends:
+    - '.linux_env'
+  script:
+    - python -m pip install build
+    - python -m build .
+  artifacts:
+    paths:
+      - dist/
+  only:
+    - main
+    - merge_requests
+
+deploy:
+  extends:
+    - '.deploy_env'
+  variables:
+    JOB_DEP: setuptools wheel twine packaging
+    TWINE_USERNAME: __token__
+    TWINE_PASSWORD: $PYPI
+  script:
+    - python -m pip install --upgrade pip
+    - python -m pip install build
+    - python -m build .
+    - twine upload --skip-existing dist/*.tar.gz
+    - twine upload --skip-existing dist/*.whl
+
+  artifacts:
+    paths:
+      - dist/
+  only:
+    - tags

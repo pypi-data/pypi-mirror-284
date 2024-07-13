@@ -1,0 +1,22 @@
+.codeButton {
+  margin-bottom: 5px;
+  display: inline;
+  margin-left: 5px;
+  width: 175px;
+}
+
+.codeFrame {
+  margin-bottom: 5px;
+  display: block;
+  color: black;
+  border-width: 2px;
+
+  word-wrap: break-word;
+}
+
+.codeOutput {
+  padding: 5px;
+  color: black;
+  user-select: text;
+  white-space: pre-wrap;
+}
