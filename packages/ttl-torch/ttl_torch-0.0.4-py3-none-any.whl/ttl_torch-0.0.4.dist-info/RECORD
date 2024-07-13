@@ -1,0 +1,7 @@
+ttl_torch/__init__.py,sha256=S48o2vcA3ZhR3s0mk6NUnCOt5IIfYCXEI6wkirBsELA,180
+ttl_torch/ttl_linear.py,sha256=X3sORmIM5wu8WjeXO8RHL252i_ub0sONNlYu6lEfk2E,5555
+ttl_torch/ttl_transformer.py,sha256=89mMt5X3auayBejCPydx3ULihrxELk5YCo8VAVCvM18,3009
+ttl_torch-0.0.4.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+ttl_torch-0.0.4.dist-info/METADATA,sha256=D4kAFx4LObPEp_Eigwe2u7aHJwb-USSvgdkqa64pxrg,2210
+ttl_torch-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ttl_torch-0.0.4.dist-info/RECORD,,
