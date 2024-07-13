@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: transkription_vosk
+Version: 0.1.2
+Summary: Ein Paket zur Transkription von Audiodateien mit Vosk-Modellen, lokal auf dem Rechner.
+Home-page: https://github.com/martialjob/transkription_vosk
+Author: Martial Job
+Author-email: transkription_vosk@mjob.me
+License: UNKNOWN
+Description: # transkription_vosk
+        
+        Ein Paket zur Transkription von Audiodateien mit Vosk-Modellen, lokal auf dem Rechner.
+        
+        A package for transcribing audio files using Vosk models locally on your computer.
+        
+        ## Installation
+        
+        ### Voraussetzungen
+        
+        - Python 3.6 oder höher
+        - Pip (Python Paketmanager)
+        
+        ### Installation des Pakets
+        
+        Öffnen Sie ein Terminal (oder die Eingabeaufforderung auf Windows) und führen Sie den folgenden Befehl aus:
+        
+        ```sh
+        pip install transkription_vosk
+        ```
+        
+        # Verwendung
+        
+        ## Vorbereitungen
+        
+        1. Laden Sie das Vosk-Modell herunter. Sie können Modelle von der [Vosk Modellseite](https://alphacephei.com/vosk/models) herunterladen.
+        2. Extrahieren sie die ZIP-Datei.
+        3. Notieren sie sich den absoluten Pfad zum Modell-Verzeichnis.
+        
+        ## Transkription einer Audiodatei
+        
+        Führen Sie den folgenden Befehl im Terminal (oder der Eingabeaufforderung) aus:
+        
+        ```sh
+        transkription_vosk -v <Pfad zum Vosk-Modell> -o <Pfad zur Ausgabe-Textdatei> -i <Pfad zur Audiodatei>
+        ```
+        
+        Mit folgendem Befehl können sie die Hilfe aufrufen:
+        ```sh
+        transkription_vosk -h
+        ```
+        
+        Ersetzen Sie <Pfad zum Vosk-Modell>, <Pfad zur Audiodatei> und <Pfad zur Ausgabe-Textdatei> durch die entsprechenden Pfade auf Ihrem System.
+        
+        Autor: Martial Job ([Website](https://mjob.me))
+        Email: [transkription_vosk@mjob.me](mailto:transkription_vosk@mjob.me)
+        GitHub: [martialjob](https://github.com/martialjob)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
