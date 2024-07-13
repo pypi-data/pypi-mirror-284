@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cyberops
+Version: 0.1.0
+Summary: CyberOPS is a Python package for performing multiple tasks
+Home-page: https://github.com/yourusername/cyberops
+Author: Krishna Gopal Jha
+Author-email: krishnagopaljhaa@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ohsint
+
+CyberOPS is a Python package for performing multiple tasks. it is at development stage. Please use it wisely
+
+## Installation
+
+You can install ohsint using pip:
+
+pip install cyberops

@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cyberops/__init__.py
+cyberops/scan.py
+cyberops.egg-info/PKG-INFO
+cyberops.egg-info/SOURCES.txt
+cyberops.egg-info/dependency_links.txt
+cyberops.egg-info/top_level.txt
