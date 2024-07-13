@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: aws-monitor
+Version: 0.0.6
+Summary: A package for monitoring AWS resources
+Home-page: https://github.com/Theemiss/aws_monitor
+Author: Ahmed Belhaj
+Author-email: ahmedbelhaj.it@gmail.com
+License: UNKNOWN
+Description: #  aws-monitor
+        
+        A python package for monitoring AWS resources.
+        
+        ## Features
+        
+        - Monitor AWS Cost By Period & Service, Linked Account
+        - onitor AWS Cost  to monitor Service by Linked Account
+        - Graphs
+        
+        ## Installation
+        
+        ```bash
+        pip install aws-monitor==0.4
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
