@@ -1,0 +1,16 @@
+libcasm/composition/__init__.py,sha256=gLEyU0sUsFwYZBN6tUTZfQdSVtr3y2fc0k9A344rngk,372
+libcasm/composition/_composition.cpython-311-x86_64-linux-gnu.so,sha256=jdS1wp2Xinfdy8sDyVR9RUcx-_MGOyoZOaBEglmFGWg,307240
+libcasm/include/casm/composition/CompositionCalculator.hh,sha256=QkDCAabaQQ40uWZHlLBue22IkhANvGfDJF3K5QZNSLI,4742
+libcasm/include/casm/composition/CompositionConverter.hh,sha256=DG0axvqbsXoUV5hvvsTlHlqGfuJ4k4IP24Y-36JXuUY,7029
+libcasm/include/casm/composition/composition_space.hh,sha256=9FI2eGU5CoLJBTp5uMal8KaElIUTd9hole04UFHvGbE,1809
+libcasm/include/casm/composition/io/json/CompositionConverter_json_io.hh,sha256=jf7pZTbUP8gXEvaSQNBLrZo2LUYt3A01OLF8AuF-aEY,757
+libcasm/lib/libcasm_composition.so,sha256=vExOIbjtjXKEztuefKEzPdc6fTYwkMMu9TZweRKi2Ns,310416
+libcasm/share/CASMcode_composition/cmake/CASMcode_compositionConfig.cmake,sha256=BA-FdRB8csnV9ayRMGOD8-A-jj7bAYuaUBvYSXbFmYE,965
+libcasm/share/CASMcode_composition/cmake/CASMcode_compositionConfigVersion.cmake,sha256=DqnUQ24TSe519qOa71bm1F11vG7gMUU4yhrwp8epRes,3675
+libcasm/share/CASMcode_composition/cmake/CASMcode_compositionTargets-release.cmake,sha256=phgCZcIRRLZnk82dCg6CmBigDdHMGz0j4BmWiOla7nU,906
+libcasm/share/CASMcode_composition/cmake/CASMcode_compositionTargets.cmake,sha256=-NR7iDzmPkEg-o2sol5yVZ65a53k0r1X-4mW0lJRNes,4448
+libcasm_composition-2.0a3.dist-info/LICENSE,sha256=yMHq1d_zAzGY6FAIviUEJQpb8FOnGjsw3OUF_rp5IpY,25710
+libcasm_composition-2.0a3.dist-info/METADATA,sha256=7jKWr26ItR_zqtlu_-kXQyryFQjl_svADBEZsdCfBkA,2020
+libcasm_composition-2.0a3.dist-info/WHEEL,sha256=i-6FiCeTwrobT-vMzYq66ic36etvbhM0t8UlUQ0y_gw,99
+libcasm_composition-2.0a3.dist-info/top_level.txt,sha256=Tr3YuIxg1KAjn2CmMMYPVMunWCHHhizdctIaSCXgRfY,8
+libcasm_composition-2.0a3.dist-info/RECORD,,
