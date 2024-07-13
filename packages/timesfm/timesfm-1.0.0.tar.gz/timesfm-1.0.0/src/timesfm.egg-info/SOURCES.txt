@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/timesfm/__init__.py
+src/timesfm/data_loader.py
+src/timesfm/patched_decoder.py
+src/timesfm/time_features.py
+src/timesfm/timesfm.py
+src/timesfm/xreg_lib.py
+src/timesfm.egg-info/PKG-INFO
+src/timesfm.egg-info/SOURCES.txt
+src/timesfm.egg-info/dependency_links.txt
+src/timesfm.egg-info/requires.txt
+src/timesfm.egg-info/top_level.txt

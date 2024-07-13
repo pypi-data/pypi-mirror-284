@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: timesfm
+Version: 1.0.0
+Summary: Open weights time-series foundation model from Google Research.
+Author-email: Rajat Sen <senrajat@google.com>, Yichen Zhou <yichenzhou@google.com>, Abhimanyu Das <abhidas@google.com>, Petros Mol <pmol@google.com>
+License-File: LICENSE
+Requires-Dist: jax==0.4.26
+Requires-Dist: paxml==1.4.0
+Requires-Dist: praxis==1.4.0
+Requires-Dist: jaxlib==0.4.26
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.1.4
+Requires-Dist: einshape==1.0.0
+Requires-Dist: utilsforecast==0.1.10
+Requires-Dist: huggingface_hub[cli]==0.23.0
+Requires-Dist: scikit-learn==1.5.1
