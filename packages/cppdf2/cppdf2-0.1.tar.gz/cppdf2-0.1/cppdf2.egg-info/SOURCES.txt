@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cppdf2/__init__.py
+cppdf2/pdf2image.py
+cppdf2/pdf2text.py
+cppdf2.egg-info/PKG-INFO
+cppdf2.egg-info/SOURCES.txt
+cppdf2.egg-info/dependency_links.txt
+cppdf2.egg-info/top_level.txt
