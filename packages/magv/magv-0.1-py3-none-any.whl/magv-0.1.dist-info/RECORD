@@ -1,0 +1,11 @@
+magv/__init__.py,sha256=xmqO3F84PKCkWlF9gr4CD6T1-cVswg70rRbzx4h2YzI,1683
+magv/__main__.py,sha256=CAUpOf9URZeusKV31ncMhuFJmEyo0BhquPDUNz88tiY,3003
+magv/default.py,sha256=79YVDuUi8Q2ln7SzxeT24ip_0eg1ii97Bhs5pJ-mGkw,1096
+magv/gitrepo.py,sha256=1Dt6yxv8-A4ZF9ZatVSCwelEEuaVy32KEc3oRFm31EQ,492
+magv/install.py,sha256=Hs_k7qBOArSl2pMbZI2Z-5W0481-MouffnR5NOKuFCE,972
+magv/pgxn.py,sha256=Ypz2K6hZoidEZkRxIIEnZWKGR8XdlviI2A5Sda5turQ,1514
+magv-0.1.dist-info/LICENSE,sha256=J5iBldJUSfi55uiyX-w1pkfzEYkyv5EFHwBFekHQ8gg,1458
+magv-0.1.dist-info/METADATA,sha256=QqBZi4ZIMO7hbWC7wfwait7VnHQgPcyAEbrAhQeblYY,799
+magv-0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+magv-0.1.dist-info/top_level.txt,sha256=mQun6Asu5B1IjznetIRK1SnfhZGzeKYq9TckcqQerME,5
+magv-0.1.dist-info/RECORD,,
