@@ -1,0 +1,3 @@
+[console_scripts]
+mstc=msteams_tickler.main:main
+

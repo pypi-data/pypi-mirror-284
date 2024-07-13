@@ -1,0 +1,13 @@
+msteams_tickler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msteams_tickler/classic/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+msteams_tickler/classic/config.py,sha256=uAULcMAEtXitGc5snK2ZK0maviNlNg6OcTllQODH5HM,79
+msteams_tickler/classic/models.py,sha256=HldpwjHYGtrjlfWeq_5Q3iobWd1pKguVorQYHTWRveg,1651
+msteams_tickler/classic/token.py,sha256=jaYFcMj-YK0_qJWyGGZ9MXrsEj-ZhDqZb-kvzkTxWrc,1728
+msteams_tickler/config.py,sha256=5uEkKLI2sl-xLhVvp4PcVHUp0iFZGhEJgGi4QnKCZPI,110
+msteams_tickler/main.py,sha256=dtsox0VYuLYQM6AAjYuGnOQ-of6dxkjXv_Gb_t6aSiU,1468
+msteams_tickler/notify.py,sha256=Gj6-O_yMYkUza_rW6oIHPeaFCHKi1xiCGXrVB85Qyro,479
+msteams_tickler-1.0.1.dist-info/entry_points.txt,sha256=aF9M98Yybu2qNoIKVxJ8IipLOtERjtNS-MmH5xWOnOk,50
+msteams_tickler-1.0.1.dist-info/LICENSE,sha256=yApG9fzEEQRWgWkC7tk95ENeopAJHnfXF6Lug2SVvl4,870
+msteams_tickler-1.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+msteams_tickler-1.0.1.dist-info/METADATA,sha256=O6TshMbvYhS1jkqBIT5kN_2ryzyyQOeHLNRfYgzqqBw,1714
+msteams_tickler-1.0.1.dist-info/RECORD,,
