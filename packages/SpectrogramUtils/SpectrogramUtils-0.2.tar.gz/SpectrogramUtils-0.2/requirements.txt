@@ -1,0 +1,7 @@
+setuptools_scm
+wheel
+numpy
+librosa
+soundfile
+matplotlib
+scikit-learn
