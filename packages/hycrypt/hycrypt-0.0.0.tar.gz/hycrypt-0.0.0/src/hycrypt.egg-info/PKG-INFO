@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hycrypt
+Version: 0.0.0
+Summary: Hybrid cryptosystem implementation based on cryptography
+Author-email: Sira Pornsiriprasert <code@psira.me>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+
+# hycrypt
+## Hybrid cryptosystem implementation based on cryptography
