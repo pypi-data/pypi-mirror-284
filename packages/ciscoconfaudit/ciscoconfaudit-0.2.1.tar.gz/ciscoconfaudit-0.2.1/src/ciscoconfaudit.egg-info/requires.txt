@@ -1,0 +1,9 @@
+ciscoconfparse2
+rich
+
+[dev]
+pre-commit
+bumpver
+black
+isort
+python-dotenv
