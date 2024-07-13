@@ -1,0 +1,11 @@
+setup.py
+src/videomonkey/__init__.py
+src/videomonkey/cli.py
+src/videomonkey/main.py
+src/videomonkey/version.py
+src/videomonkey.egg-info/PKG-INFO
+src/videomonkey.egg-info/SOURCES.txt
+src/videomonkey.egg-info/dependency_links.txt
+src/videomonkey.egg-info/entry_points.txt
+src/videomonkey.egg-info/requires.txt
+src/videomonkey.egg-info/top_level.txt

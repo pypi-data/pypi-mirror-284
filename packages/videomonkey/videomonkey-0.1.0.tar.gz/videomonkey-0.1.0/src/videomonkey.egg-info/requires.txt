@@ -1,0 +1,6 @@
+auto-coder
+openai-whisper
+moviepy
+rich
+ffmpeg-python
+gradio>=3.50.2
