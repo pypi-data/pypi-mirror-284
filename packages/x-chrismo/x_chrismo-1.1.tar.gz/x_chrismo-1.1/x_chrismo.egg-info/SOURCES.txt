@@ -1,0 +1,10 @@
+setup.py
+x_chrismo/Binomialdistribution.py
+x_chrismo/Gaussiandistribution.py
+x_chrismo/Generaldistribution.py
+x_chrismo/__init__.py
+x_chrismo.egg-info/PKG-INFO
+x_chrismo.egg-info/SOURCES.txt
+x_chrismo.egg-info/dependency_links.txt
+x_chrismo.egg-info/not-zip-safe
+x_chrismo.egg-info/top_level.txt
