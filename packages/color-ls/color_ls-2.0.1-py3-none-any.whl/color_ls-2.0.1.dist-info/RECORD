@@ -1,0 +1,10 @@
+colorls/__init__.py,sha256=wAxkK8w13vqoF47A8iqWdSlIgRRXmZiQ0R4wePZfzhs,22
+colorls/__main__.py,sha256=2CevkmOqlLMoRX2SqG8Mfv_qHNlekS52oOY2w5suVkU,34
+colorls/colorls.py,sha256=z-VR5ghEn9n7frFC-sLtzx6r8vA_oDBZ1_TXV6i1sE0,12146
+colorls/config/colorls.toml,sha256=vJgqTvOIq-q5n8qWkCXOD2yYfjqETHRbMbKUlCZeLl0,2385
+color_ls-2.0.1.dist-info/LICENSE,sha256=Nn7XeWYbgKimPQyAdKDIsx0jQL6JYYEl2zBnJEFwu_I,35636
+color_ls-2.0.1.dist-info/METADATA,sha256=Jo8m6qqJ55W2A5FVmZnMUtaf-YEwxR2G6chPXKGmkfQ,43991
+color_ls-2.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+color_ls-2.0.1.dist-info/entry_points.txt,sha256=v8Hq4U3jZfXhUsKEgQG1wCyBYvvd-yYgFNnNbLOfAXc,44
+color_ls-2.0.1.dist-info/top_level.txt,sha256=pCdE6LZQkj-jiMS7eslmkp9QqhUQrh1wv8-TfQ0w4bQ,8
+color_ls-2.0.1.dist-info/RECORD,,
