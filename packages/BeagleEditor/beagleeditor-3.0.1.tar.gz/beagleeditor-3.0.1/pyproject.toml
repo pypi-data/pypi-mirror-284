@@ -1,0 +1,22 @@
+[project]
+name = "BeagleEditor"
+version = "3.0.1"
+authors = [
+  { name="Mani Arasteh", email="mani.arasteh92@gmail.com" },
+]
+description = "A minimal code editor"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://maarasteh.github.io/beagleeditor"
+GitHub = "https://github.com/MaArasteh/beagleeditor"
+Issues = "https://github.com/MaArasteh/beagleeditor/issues"
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

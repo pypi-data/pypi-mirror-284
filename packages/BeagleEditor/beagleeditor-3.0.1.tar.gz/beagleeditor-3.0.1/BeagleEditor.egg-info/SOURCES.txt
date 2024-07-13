@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+BeagleEditor.egg-info/PKG-INFO
+BeagleEditor.egg-info/SOURCES.txt
+BeagleEditor.egg-info/dependency_links.txt
+BeagleEditor.egg-info/top_level.txt
+beagleeditor/__init__.py
+beagleeditor/autocomplete.py
+beagleeditor/beagleeditor.py
+beagleeditor/marketplace.py
+beagleeditor/splash.py
+beagleeditor/syntax.py
+beagleeditor/wizard.py
+beagleeditor/plugins/Terminal.py
