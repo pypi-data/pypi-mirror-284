@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+wea_display_schema/__init__.py
+wea_display_schema/base.py
+wea_display_schema/display2d.py
+wea_display_schema/display3d.py
+wea_display_schema/geometry2d.py
+wea_display_schema/geometry3d.py
+wea_display_schema/visualization.py
+wea_display_schema.egg-info/PKG-INFO
+wea_display_schema.egg-info/SOURCES.txt
+wea_display_schema.egg-info/dependency_links.txt
+wea_display_schema.egg-info/requires.txt
+wea_display_schema.egg-info/top_level.txt
