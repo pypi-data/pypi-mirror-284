@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+PCreate.egg-info/PKG-INFO
+PCreate.egg-info/SOURCES.txt
+PCreate.egg-info/dependency_links.txt
+PCreate.egg-info/entry_points.txt
+PCreate.egg-info/top_level.txt
+pcreate/__init__.py
+pcreate/create_project.py
