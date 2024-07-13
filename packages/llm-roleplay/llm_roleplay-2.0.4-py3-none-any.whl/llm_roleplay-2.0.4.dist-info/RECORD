@@ -1,0 +1,13 @@
+llm_roleplay/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_roleplay/actions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_roleplay/actions/dialogue_generator.py,sha256=cr4spl3SFiVU5X1WEnF_2AibcHYN4LVLN4PcL-38Gt0,10893
+llm_roleplay/configs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_roleplay/configs_tamoyan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_roleplay.py,sha256=BbrjABcBfAVUsyf1-o8q4q3Sg--Y83z0YWlrrWKKRAk,15124
+llm_roleplay-2.0.4.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+llm_roleplay-2.0.4.dist-info/METADATA,sha256=YbiWidQW4FHLGydtIAW-1nP9K0J3kxxZOSaDZ_2ptRg,10554
+llm_roleplay-2.0.4.dist-info/NOTICE,sha256=J3d9JsSxujdh9vNjTJMOQWbN9VFoLvAt6XcyYHTXvTA,250
+llm_roleplay-2.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+llm_roleplay-2.0.4.dist-info/top_level.txt,sha256=YL7VcsNuKCW_qxG3yQlhFxPbBlkCIPeo-vrI0Ajp47M,19
+llm_roleplay-2.0.4.dist-info/RECORD,,
