@@ -1,0 +1,6 @@
+README.md
+setup.py
+cfs_db_push.egg-info/PKG-INFO
+cfs_db_push.egg-info/SOURCES.txt
+cfs_db_push.egg-info/dependency_links.txt
+cfs_db_push.egg-info/top_level.txt
