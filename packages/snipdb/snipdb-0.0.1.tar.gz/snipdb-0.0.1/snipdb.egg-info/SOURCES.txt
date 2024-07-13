@@ -1,0 +1,12 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+atomdb/__init__.py
+atomdb/database.py
+snipdb.egg-info/PKG-INFO
+snipdb.egg-info/SOURCES.txt
+snipdb.egg-info/dependency_links.txt
+snipdb.egg-info/top_level.txt
+tests/__init__.py
+tests/test_database.py

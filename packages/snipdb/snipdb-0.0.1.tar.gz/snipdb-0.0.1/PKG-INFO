@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: snipdb
+Version: 0.0.1
+Summary: A lightweight JSON database
+Home-page: https://github.com/simpx/atomdb
+Author: simpx
+Author-email: simpxx@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# AtomDB
+
+AtomDB is a lightweight JSON database for simple data storage.
+
+## Installation
+
+```sh
+pip install atomdb
