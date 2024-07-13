@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+mysimplepackage_wl2901.egg-info/PKG-INFO
+mysimplepackage_wl2901.egg-info/SOURCES.txt
+mysimplepackage_wl2901.egg-info/dependency_links.txt
+mysimplepackage_wl2901.egg-info/top_level.txt
