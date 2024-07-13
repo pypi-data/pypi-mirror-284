@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "Titanium Proto"
+version = "0.2.0"
+description = ""
+authors = ["Lucas D. Franchi <LucasD.Franchi@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+jinja2 = "^3.1.4"
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+coverage = "^5.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+titanium-proto = 'titanium-proto.titanium-proto:main'
+
+[tool.coverage.run]
+branch = true
+source = ["titanium-proto/"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.pytest.ini_options]
+addopts = "--cov=titanium_proto/ --cov-report=term-missing"
