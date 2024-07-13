@@ -1,0 +1,58 @@
+init\_tests
+===========
+
+Full name: **ase2sprkkr.common.init\_tests**
+
+
+
+.. rubric:: Module class hierarchy
+
+.. inheritance-diagram::  ase2sprkkr.common.init_tests.TestCase 
+      :parts: 1
+
+|
+
+
+.. rubric:: Description
+
+.. automodule:: ase2sprkkr.common.init_tests
+
+   
+   
+   
+
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+      :template: custom-base-template.rst
+   
+      patch_package
+   
+   
+
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      TestCase
+   
+   
+
+
+   
+   
+   
+
+
+  
+  
+  
