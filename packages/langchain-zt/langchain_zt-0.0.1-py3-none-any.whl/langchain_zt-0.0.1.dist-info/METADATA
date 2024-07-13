@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: langchain_zt
+Version: 0.0.1
+Summary: ZeroTrustedAI library
+Home-page: https://github.com/www-zerotrusted-ai/zt-ml-langchain.git
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: langchain
+
