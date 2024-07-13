@@ -1,0 +1,15 @@
+codestory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codestory/cli.py,sha256=73cXTi0gmVgu_vrU0SDr4C51llQz43VSsEc9nB-qbSA,2982
+codestory/commit_formats.py,sha256=neRgATSJE6YRGK2BwR8WAhyOB53UJlNffi8BhKVR8tk,1336
+codestory/config.py,sha256=sJ9PG7NMozZLgK0F-2wQEnoFQ-GPRkXPTNMScbdmmhc,644
+codestory/debug_script.py,sha256=EdqWWEYaY4S7IlNujlnQs58ELGhynlRTDjdeUdwhjn0,1261
+codestory/git_utils.py,sha256=YcIj-boCOpevV2w7GOC5iQkPZ1cIJCuzqcUeclz75fc,865
+codestory/llm_utils.py,sha256=j3mlcP7j4-Hnq3ajSH9P4n2IxoPGicTO9kp8YoNGqFE,10599
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_commit_formats.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_git_utlis.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codestory-0.1.0.dist-info/METADATA,sha256=-c6__gKrSFmBLPz39DbSKj6VWtmbGIp1BOyIDDpMOjs,1042
+codestory-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+codestory-0.1.0.dist-info/entry_points.txt,sha256=B9TKl38Yke3Yp2lKAeT4HcbVBL9JXYG3iMtUjUZ9Rtg,49
+codestory-0.1.0.dist-info/top_level.txt,sha256=ljyz0pLJD61R1xtuCHV79EilGFysLN4mWdgePeVwyaU,16
+codestory-0.1.0.dist-info/RECORD,,
