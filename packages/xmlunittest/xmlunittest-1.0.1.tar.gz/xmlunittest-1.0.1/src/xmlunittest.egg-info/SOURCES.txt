@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+src/xmlunittest.py
+src/xmlunittest.egg-info/PKG-INFO
+src/xmlunittest.egg-info/SOURCES.txt
+src/xmlunittest.egg-info/dependency_links.txt
+src/xmlunittest.egg-info/requires.txt
+src/xmlunittest.egg-info/top_level.txt
