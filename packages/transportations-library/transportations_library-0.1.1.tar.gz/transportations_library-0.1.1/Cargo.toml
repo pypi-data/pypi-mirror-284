@@ -1,0 +1,33 @@
+[package]
+name = "transportations_library"
+version = "0.1.2"
+authors = ["Rei Tamaru <tamaru@wisc.edu>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/transportations_library"
+description = "Knowledge stack for transportation."
+repository = "https://github.com/crosstraffic/transportations-library"
+readme = "README.md"
+exclude = [
+    ".gitignore",
+    "vscode/settings.json",
+]
+
+
+[features]
+pybindings = ["pyo3"]
+
+
+[dependencies]
+assert_approx_eq = "1.1.0"
+round = "0.1.0"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0"
+pyo3 = { version = "0.21.2", features = ["extension-module"], optional = true}
+
+[lib]
+name = "transportations_library"
+path = "src/lib.rs"
+
+[package.metadata.maturin]
+name = "transportations_library"

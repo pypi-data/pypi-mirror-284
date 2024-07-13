@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: transportations_library
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Knowledge stack for transportation.
+Author: raynbowy23
+Author-email: Rei Tamaru <tamaru@wisc.edu>
+License: MIT OR Apache-2.0
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/crosstraffic/cross-traffic-middleware
+
+## About
+This is the repository for the knowledge stack of transporation.
+
+## What this covers.
+
+This covers Highway Capacity Manual (HCM) and Green Book.
+
+HCM
+- Chapter 15 (Two Lane Highways)
+
+## TODO
+
+Add new chapter on HCM.
