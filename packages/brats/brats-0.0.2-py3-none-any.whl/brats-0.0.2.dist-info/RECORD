@@ -1,0 +1,14 @@
+brats/__init__.py,sha256=gPdwKIsUJpgp2EQU2ccYTDyKA74WL13PW1-aGMquR7k,108
+brats/algorithm_config.py,sha256=jWFuNjvZ3WtWYveTHZ40E7rmCe5_PIi1jhy8-k_yzKk,2696
+brats/algorithms/adult_glioma.yml,sha256=_P-N0ex9ElPdUKmlS2aqvO9rEbbpHMkwlErL-Rfc0yg,1139
+brats/algorithms/meningioma.yml,sha256=9XgA1Xf7su0LiJVA-IFj-B4JZH5K2bZFg6PPSYFJQdU,1079
+brats/algorithms/pediatric.yml,sha256=evBP2j0PCluYki584U_4Mwplb-iNGBycH9kyMNf_cVQ,1050
+brats/algorithms.py,sha256=hgNFf8VE8W1KJIg26Wbx9vsDTpNOJsSDwhoISciY2r8,9862
+brats/constants.py,sha256=oVdCJS1yOvRPE6Bpo7MpBvbG2IyP4E679P9bgGk9J5Y,1621
+brats/docker.py,sha256=Mj3eTz1x0PEidoL2lKnOYEcCY4WpdYyjcOgDkzOQkNk,8782
+brats/exceptions.py,sha256=e8OKZGAwSBimRWQ3HQmx7wArbUSCLQkDfiSB3c6NdMM,432
+brats/utils.py,sha256=7_uF6TdZ27duVgDxAt0OgrffbuwoZGaux1Iv_9lqAIo,3269
+brats/weights.py,sha256=Q61GeVNFEZza_KA1ijX3y4p8_PYEpZ-uLXbl6sKjiws,6055
+brats-0.0.2.dist-info/METADATA,sha256=YsWNMI5bz561O3v6prTOgQe0hIgxpKLx1jZnSrZOve4,2414
+brats-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+brats-0.0.2.dist-info/RECORD,,
