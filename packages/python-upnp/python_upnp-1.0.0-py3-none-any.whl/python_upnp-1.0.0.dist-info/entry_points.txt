@@ -1,0 +1,3 @@
+[console_scripts]
+pyupnp_client=pyupnp.client.main:main
+
