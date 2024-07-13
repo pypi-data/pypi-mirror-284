@@ -1,0 +1,26 @@
+[project]
+name = "llm-hyperbee"
+version = "0.1"
+description = "Access hyperbee.ai models via API"
+readme = "README.md"
+authors = [{name = "Cemal Gündüz"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "llm"
+]
+requires-python = ">3.7"
+
+[project.urls]
+Homepage = "https://github.com/HyperbeeAI/llm-hyperbee"
+Changelog = "https://github.com/HyperbeeAI/llm-hyperbee/releases"
+Issues = "https://github.com/HyperbeeAI/llm-hyperbee/issues"
+CI = "https://github.com/HyperbeeAI/llm-hyperbee/actions"
+
+[project.entry-points.llm]
+hyperbee = "llm_hyperbee"
+
+[project.optional-dependencies]
+test = ["pytest"]
