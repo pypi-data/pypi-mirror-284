@@ -1,0 +1,8 @@
+setup.py
+sd_cli/__init__.py
+sd_cli/cli.py
+skfxdev_cli.egg-info/PKG-INFO
+skfxdev_cli.egg-info/SOURCES.txt
+skfxdev_cli.egg-info/dependency_links.txt
+skfxdev_cli.egg-info/entry_points.txt
+skfxdev_cli.egg-info/top_level.txt

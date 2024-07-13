@@ -1,0 +1,2 @@
+[console_scripts]
+sd = sd_cli.cli:main
