@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/bugpy/__init__.py
+src/bugpy/db_manager.py
+src/bugpy.egg-info/PKG-INFO
+src/bugpy.egg-info/SOURCES.txt
+src/bugpy.egg-info/dependency_links.txt
+src/bugpy.egg-info/requires.txt
+src/bugpy.egg-info/top_level.txt
