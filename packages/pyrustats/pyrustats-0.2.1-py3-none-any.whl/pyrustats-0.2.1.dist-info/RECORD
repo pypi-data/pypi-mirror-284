@@ -1,0 +1,9 @@
+pyrustats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrustats/distributions/__init__.py,sha256=vVwDbN3oQ3oj8eNF9zprMGiVkw3DmvqAwZ2zVccdCmw,85
+pyrustats/distributions/Binomialdistribution.py,sha256=23O-RbpicOzUBE-y8XM4vhWbuSS9iTlMa1nC_iu0MX4,4488
+pyrustats/distributions/Gaussiandistribution.py,sha256=i7LzTNp4nZ3Vn7PFOSOP8IYaETKuC0LP3_wgtEaDDm0,3641
+pyrustats/distributions/Generaldistribution.py,sha256=Jbs8PYHA_UZjAX_DI6FB38V0gPxSJNRemF--A4xP2PM,932
+pyrustats-0.2.1.dist-info/LICENSE,sha256=ZKXAOYeBlb7rttqanU2cpwTvYgKmzAqjz8nw1F91BNA,1059
+pyrustats-0.2.1.dist-info/METADATA,sha256=3tU6Fubqm7zeSQWuEnyuQtkOKExw0V7jF6WWRqaWU-o,2475
+pyrustats-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pyrustats-0.2.1.dist-info/RECORD,,
