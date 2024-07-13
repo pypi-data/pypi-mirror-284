@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: spw_corrosion
+Version: 0.1.5
+Summary: Analysis of sheep pile wall probability of failure considering corrosion.
+Author: Antonis Mavritsakis
+Author-email: amavrits@gmail.com
+License: MIT
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# Sheet Pile Wall Corrosion Analysis
+
+A Python package for assessing the probability of failure of sheet pile walls over time accounting for corrosion.
+
+## Content
+
+
+
+## Background
+
