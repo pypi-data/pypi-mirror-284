@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+c/core/src/core_bind.cpp
+c/core/src/matrix_base.cpp
+c/core/src/qp.cpp
+python/__init__.py
+python/cuda.py
+qptools.egg-info/PKG-INFO
+qptools.egg-info/SOURCES.txt
+qptools.egg-info/dependency_links.txt
+qptools.egg-info/top_level.txt
