@@ -1,0 +1,11 @@
+drdmannturb/__init__.py,sha256=SdJXD9RlRpBG3gfeEBWgBJztAo4hhGvcpwUDgA-x9hA,1071
+drdmannturb/common.py,sha256=jTtZnyMNnPFMBQbyQ4gpO5i8XOXceVKgDcKf5CwDnc4,5295
+drdmannturb/enums.py,sha256=dVDZVzZgrlX5V3BlIsxgco9x3QauGL6LtGsLFQISZZk,588
+drdmannturb/interpolation.py,sha256=n4B-ZJuKNHDxdSYipHk4fhq9_WGf8V7433fzhuH7bFw,4709
+drdmannturb/nn_modules.py,sha256=qAW-95G7EKhrjJKZmd0zvQp3-znqwcX3VEagHX-zb2E,9612
+drdmannturb/parameters.py,sha256=vjFGVxRcAcVlNwIHG5kNZHUxEkNUJ-br918SWQ5Abqg,5305
+drdmannturb-1.0.1.dist-info/LICENSE,sha256=8zeEkWnc7xEqSH8tggnMl4-r5c8SLN4zl9tnH2Emw4I,1518
+drdmannturb-1.0.1.dist-info/METADATA,sha256=MnlNqUocaNH3pmK1Jx0lhb1ArR0ghGqwCJiF9Teg6yU,3598
+drdmannturb-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+drdmannturb-1.0.1.dist-info/top_level.txt,sha256=N5dlaVKc6ov8doWUomAogblusb1MmzmkWiXfutF_y2Y,12
+drdmannturb-1.0.1.dist-info/RECORD,,
