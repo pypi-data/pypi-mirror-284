@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: haber-devops
+Version: 1.0.0
+Summary: CLI tool for managing AWS resources
+Author: Shweta Jha
+Author-email: shweta.jha@haberwater.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
