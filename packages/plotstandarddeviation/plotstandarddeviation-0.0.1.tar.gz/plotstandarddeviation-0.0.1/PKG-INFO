@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: plotstandarddeviation
+Version: 0.0.1
+Summary: Calculates all standard deviations from the mean within a dataset's range.
+Home-page: 
+Author: Alexander Levon Schulze
+Author-email: alexanderlevonschulze@gmail.com
+License: MIT
+Keywords: standard_deviation,calculator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+Plot Standard Deviation is a library with currently one function:
+To return all standard deviations from the mean within the range of the dataset.
+
+This library contains one function:
+
+getStandardDeviations(data)
+This function takes a column of a pandas DataFrame and returns a list of all standard deviations from the mean within the dataset's range.
+
+Note: If you want to plot lines using the given standard deviations, use a for loop to iterate over all the items in the function's returned list and use matplotlib.pyplot's axvline() for vertical or axline() for horizontal to plot the lines.
+
+Change Log
+==========
+
+0.0.1 (12/7/2024)
+---------------------------
+- First Release
