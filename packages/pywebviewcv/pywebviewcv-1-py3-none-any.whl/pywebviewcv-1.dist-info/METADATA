@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pywebviewcv
+Version: 1
+Summary: A Canvas based webview for Python
+Home-page: https://github.com/qaqFei/pywebviewcv
+Author: qaqFei
+Author-email: qaq_fei@163.com
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.12.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pywebviewcv
+
+- 一个基于`WebView`的`Canvas`
