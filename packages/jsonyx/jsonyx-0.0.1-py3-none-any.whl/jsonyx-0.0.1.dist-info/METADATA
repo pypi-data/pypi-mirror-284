@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: jsonyx
+Version: 0.0.1
+Summary: JSONYX module
+Project-URL: Homepage, https://github.com/nineteendo/jsonyx
+Project-URL: Issues, https://github.com/nineteendo/jsonyx/issues
+Author-email: Nice Zombies <nineteendo19d0@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# JSONYX
