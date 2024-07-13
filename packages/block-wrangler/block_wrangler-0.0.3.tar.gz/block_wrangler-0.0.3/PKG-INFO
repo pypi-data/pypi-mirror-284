@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: block_wrangler
+Version: 0.0.3
+Project-URL: Homepage, https://github.com/camplowell/block_wrangler
+Project-URL: Issues, https://github.com/camplowell/block_wrangler/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: Pygments==2.18.0
+Requires-Dist: rich==13.7.1
+Requires-Dist: setuptools==70.2.0
+Provides-Extra: fuzzy-tags
+Requires-Dist: rapidfuzz; extra == "fuzzy-tags"
+
+# Block Wrangler
+A Python library to help Minecraft shader developers deal with block IDs.
+
+## Installation
+
+### Using pip
+
+```bash
+pip install block-wrangler
+```
+
+### From source
+
+```bash
+git clone git@github.com:camplowell/block_wrangler.git
+pip install -e path/to/block_wrangler
+```
+
+## Core Concepts
+The block_wrangler library uses a few main concepts:
+
+### Block Types
+These represent the different types of blocks that can be found in Minecraft, and all of their properties.
+
+### Tags
+These represent a method to produce a semantically meaningful group of block states.  
+The library comes with all Vanilla tags, and a few more that are commonly used in shaders.
+
+They can use other tags in their definitions, and their actual contents are calculated on demand.
+
+### Block Collections
+These are a more concrete representation of a group of block states.
+Tags can create them, or you can define them manually.
+
+### Mappings
+Mappings store the actual numeric IDs that go into your block.properties file.
+They are created by transforming a dictionary whose keys are a semantically meaningful label, and whose values are Block Collections.
+
+## Usage
+
+Below is a simple example of how to use the library. More complete documentation is coming soon.
+
+```python
+from block_wrangler import *
+from pathlib import Path
+
+
+shaderpack_root = Path(__file__).parent
+
+def main():
+	tags = load_tags()
+
+	mapping = BlockMapping.solve({
+		'sway': tags['sway'],
+		'sway_bottom': tags['sway/lower'] + tags['sway/short'], # Tags can be combined with the +, -, and & operators
+		'crops': tags['minecraft:crops'], # Vanilla tags are included
+		'water': blocks('minecraft:water') # Individual blocks can also be referenced by name
+	})
+
+	with shaderpack_root.joinpath('shaders/block.properties').open('w') as f:
+		f.write(mapping.render_encoder())
+	with shaderpack_root.joinpath('shaders/util/block_properties.glsl').open('w') as f:
+		f.write(mapping.render_decoder())
+	
+	print('Done!')
+
+if __name__ == '__main__':
+	main()
+```
