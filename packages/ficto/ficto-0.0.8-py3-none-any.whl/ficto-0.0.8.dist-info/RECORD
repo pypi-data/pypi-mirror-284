@@ -1,0 +1,13 @@
+ficto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ficto/main.py,sha256=h1HItp3nrObSzJxyBOdVzlVTbQmdqZNdYJ4dQ7vxQKk,2055
+ficto/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ficto/core/generate.py,sha256=dqSZ4liGseTE4w7Y-dzF3e4cgnbo2wd_0bUr2HH2HY4,12008
+ficto/helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ficto/helper/builder.py,sha256=FBfMwj5UbINpdmfbSSaQsSqIlgcbecDaTLJBls5hEkM,22597
+ficto/helper/data_module.py,sha256=v_9pVrehgolKA3fipoUwnEbS6ErU9YC_ORRdK1J66Dg,38983
+ficto-0.0.8.dist-info/LICENSE,sha256=lRDnqHyQQghsaMVxkPBDpZ6fAMS0sHsLVnOGVo_PSFg,1068
+ficto-0.0.8.dist-info/METADATA,sha256=-OxWZrfP5p4Q2-X-aOergJ3ADG-PacsF0rSjFrrM-To,3948
+ficto-0.0.8.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+ficto-0.0.8.dist-info/entry_points.txt,sha256=KrEFik-bpV13rerw2w7XqOCS_-v8PRZarkaz7dXLfUE,42
+ficto-0.0.8.dist-info/top_level.txt,sha256=WgcnYxOszi2E0cXeaPzD1SK6O4VoozyJpUTRahHpc6k,6
+ficto-0.0.8.dist-info/RECORD,,
