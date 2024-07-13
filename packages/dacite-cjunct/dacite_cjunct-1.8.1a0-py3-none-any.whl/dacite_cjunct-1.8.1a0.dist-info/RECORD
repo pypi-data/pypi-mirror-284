@@ -1,0 +1,15 @@
+dacite/__init__.py,sha256=dbi2vAWGqoq48V9TUHRwefM7X97gfJmUSBXdB5ffKXs,659
+dacite/cache.py,sha256=tz6QMk7mZkG5mxNjdhVi054geRqrL-FWhn0ODMCIDdE,593
+dacite/config.py,sha256=BA26BxAdrNeyKh5eE0OhLG6tGqWN4sYc2cHln1-zq6I,958
+dacite/core.py,sha256=RgKmq9g-phsMrntvWdL-21oLezS3saso7nMLF7aK1v4,5921
+dacite/data.py,sha256=49j5tJbi-B5LKOMzt44ticSjwbpFRAqSveqJXo_8cMo,58
+dacite/dataclasses.py,sha256=Y0gTVZYJSQuSi-6r-5WiGV2W901Payh5uAhKmkLUF3Y,925
+dacite/exceptions.py,sha256=9Iy6Yy2Ykim-wpr_yFP7u2EJRhgYMluEKpRPCjt1Kqc,2645
+dacite/frozen_dict.py,sha256=c3yDFG1k-VuP5Xt9lAjee3Ose2XJU19b3XxkAgRB-gQ,839
+dacite/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dacite/types.py,sha256=hITKo0toNRtMxj3f5b4_5W4eR42wYdbftc0snkKSVsE,5239
+dacite_cjunct-1.8.1a0.dist-info/LICENSE,sha256=4XQc7hH8grgVIQ9TaNMByUDn4974mvcY2oFVAVC6Mnc,1069
+dacite_cjunct-1.8.1a0.dist-info/METADATA,sha256=ocXsVxYKkQgB7z076JtCOTOrVBn2UeZfWtF0aJ1JAMk,1881
+dacite_cjunct-1.8.1a0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+dacite_cjunct-1.8.1a0.dist-info/top_level.txt,sha256=FBtiau9le0LN4KVuREUl4faJJ5ZRe70wytUXbYqX8UE,7
+dacite_cjunct-1.8.1a0.dist-info/RECORD,,
