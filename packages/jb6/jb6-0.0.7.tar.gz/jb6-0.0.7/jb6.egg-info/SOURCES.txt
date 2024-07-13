@@ -1,0 +1,8 @@
+setup.py
+jb6/__init__.py
+jb6/tools.py
+jb6.egg-info/PKG-INFO
+jb6.egg-info/SOURCES.txt
+jb6.egg-info/dependency_links.txt
+jb6.egg-info/requires.txt
+jb6.egg-info/top_level.txt

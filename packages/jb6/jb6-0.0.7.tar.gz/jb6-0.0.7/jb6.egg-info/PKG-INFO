@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jb6
+Version: 0.0.7
+Summary: jb6自用
+Author: jb6
+License: MIT Licence
+Keywords: pip,SongUtils
+Platform: any
+Requires-Python: >=3.8
+Requires-Dist: zhon
+Requires-Dist: motor
+Requires-Dist: typing
+
+jb6自用
