@@ -1,0 +1,6 @@
+palindrome.c
+setup.py
+led_palindrome.egg-info/PKG-INFO
+led_palindrome.egg-info/SOURCES.txt
+led_palindrome.egg-info/dependency_links.txt
+led_palindrome.egg-info/top_level.txt
