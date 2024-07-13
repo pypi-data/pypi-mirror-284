@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: pyloadover
+Version: 1.2.0
+Summary: Overloading Utilities
+License: LICENSE
+Author: dav ost
+Author-email: davidost2003@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: typeguard (>=4.3.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# pyloadover
+Repository for developing and maintaining the code for pyloadover
+
+
+## Installation
+
+```shell
+pip install pyloadover
+```
+
+
+### loadover
+
+```python
+from pyloadover import loadover
+
+
+@loadover
+def function():
+    return None
+
+
+@loadover
+def function(x: int):
+    return x ** 2
+
+
+print("[1] Calling function():")
+print(function())
+
+print("[2] Calling function(5):")
+print(function(5))
+
+print("[3] Calling function(5, 25, 125):")
+print(function(5, 25, 125))
+```
+
+```bash
+[1] Calling function():
+None
+[2] Calling function(5):
+25
+[3] Calling function(5, 25, 125):
+pyloadover.exceptions.NoMatchingSignatureError: Provided arguments do not match any signature in registry 'function'
+```
