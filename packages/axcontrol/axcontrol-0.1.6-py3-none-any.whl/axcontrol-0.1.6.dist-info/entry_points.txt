@@ -1,0 +1,3 @@
+[console_scripts]
+axcontrol=axcontrol.app:main
+
