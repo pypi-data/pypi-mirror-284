@@ -1,0 +1,2 @@
+[nbdev]
+trufl = trufl._modidx:d

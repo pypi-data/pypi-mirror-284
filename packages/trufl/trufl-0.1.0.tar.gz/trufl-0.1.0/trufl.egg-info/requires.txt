@@ -1,0 +1,6 @@
+fastcore
+geopandas
+rasterio
+pysal==24.1
+
+[dev]
