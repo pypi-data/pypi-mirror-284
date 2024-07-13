@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mac_ocr_cli.egg-info/PKG-INFO
+mac_ocr_cli.egg-info/SOURCES.txt
+mac_ocr_cli.egg-info/dependency_links.txt
+mac_ocr_cli.egg-info/entry_points.txt
+mac_ocr_cli.egg-info/requires.txt
+mac_ocr_cli.egg-info/top_level.txt
+macocr_cli/__init__.py
+macocr_cli/__main__.py
