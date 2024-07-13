@@ -1,0 +1,8 @@
+viv-2024.1005.dist-info/METADATA,sha256=sHwquaDtKEfLdlgKMGEQLC_y2eLr5JZMUeSEXFswXqg,5455
+viv-2024.1005.dist-info/WHEEL,sha256=mbxFTmdEUhG7evcdMkR3aBt9SWcoFBJ4CDwnfguNegA,90
+viv-2024.1005.dist-info/entry_points.txt,sha256=YenPny1OQ1Jzltp9-t_TlS-L2eGh8xIWY3FeTsC2WMA,34
+viv-2024.1005.dist-info/licenses/LICENSE,sha256=WFhKRlATv_4F8pV0C1cLUPuF0jVIv3Jb19PYmWPvgKg,1074
+viv/__init__.py,sha256=5MD-0r9TWwVZiVZPeDuyws4R5hhgOW_tOF4SNelFKLE,53
+viv/__main__.py,sha256=m_u5QVHdfFzmWLfhpbCKWPDxN80QQZ3UfDB02LtMqeY,61
+viv/viv.py,sha256=WOHYUrKXsQkN6gpR5IBfD9Lnf6_CXgOof1y_KzkvaK8,129951
+viv-2024.1005.dist-info/RECORD,,
