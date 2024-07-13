@@ -1,0 +1,16 @@
+termchatter/.appid,sha256=Yn1gTrIUEbj3uxE-9XVfc4-T8VsqHsYWhnmm_j5cAT8,7
+termchatter/.appkey,sha256=DiXEEZoIvoLAO-RTtjlDq6UjQyQJ5Tkk7wc4HGuFPUo,20
+termchatter/.channel,sha256=z4DNiu1ILV0VJ9fccvzv-E5jJlkoSER9LcCw6H38mpA,7
+termchatter/.cluster,sha256=G5G1Z92mBpArrivhh-5WDY_jt2urI5YB2yt2OJ2H-XQ,3
+termchatter/.secret,sha256=-UZDXlDjuFYm4lstQvyzIsqFcvoFytiap4n8qxL1aus,20
+termchatter/.username,sha256=xjKWsv7zxO44tGE-IKlahEldAaWRZS8HO2XzY8pDlwo,6
+termchatter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+termchatter/pusher_checker.py,sha256=5d0aTCDC86z562eFGT1ruIPRK6K-IdGSYluxLkLDHVs,332
+termchatter/receive_message.py,sha256=IlfNUtNvWOmkdAwlkEke50zxO6zfZg9ei4PVO3n4VUQ,1269
+termchatter/send_message.py,sha256=ztWaF3UfWJyZsRAW04clEeEnVmBXiS4xjScNtZ7c498,1457
+termchatter/setup.py,sha256=clWBLx_acBeuygNzyQc8EHv8VFbmvXajs0T4AUXM0zI,1295
+termchatter/termchatter.py,sha256=S3GtDkNAgL5i4k9xs-R5d4Nt5YkqibEkYRRd94bQNJM,1310
+termchatter-0.0.4.dist-info/entry_points.txt,sha256=Ca87EXWXgjN9wzIjJfARREmXs6zqisoZyOGGHOpSN4I,60
+termchatter-0.0.4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+termchatter-0.0.4.dist-info/METADATA,sha256=2FY1WnZGk0txOfWoiul8VcXf2DDX1oH8g_Cft6Up2Ow,630
+termchatter-0.0.4.dist-info/RECORD,,
