@@ -1,0 +1,10 @@
+LICENSE
+README.md
+llm_bedrock_titan.py
+pyproject.toml
+llm_bedrock_amazon.egg-info/PKG-INFO
+llm_bedrock_amazon.egg-info/SOURCES.txt
+llm_bedrock_amazon.egg-info/dependency_links.txt
+llm_bedrock_amazon.egg-info/entry_points.txt
+llm_bedrock_amazon.egg-info/requires.txt
+llm_bedrock_amazon.egg-info/top_level.txt
