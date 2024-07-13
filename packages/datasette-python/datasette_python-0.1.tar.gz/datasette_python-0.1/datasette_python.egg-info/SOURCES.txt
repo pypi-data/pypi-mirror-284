@@ -1,0 +1,11 @@
+LICENSE
+README.md
+datasette_python.py
+pyproject.toml
+datasette_python.egg-info/PKG-INFO
+datasette_python.egg-info/SOURCES.txt
+datasette_python.egg-info/dependency_links.txt
+datasette_python.egg-info/entry_points.txt
+datasette_python.egg-info/requires.txt
+datasette_python.egg-info/top_level.txt
+tests/test_python.py

@@ -1,0 +1,2 @@
+[datasette]
+python = datasette_python
