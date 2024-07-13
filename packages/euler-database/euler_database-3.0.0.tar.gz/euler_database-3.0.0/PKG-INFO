@@ -1,0 +1,238 @@
+Metadata-Version: 2.1
+Name: euler_database
+Version: 3.0.0
+Summary: A graph database application with embedding and similarity calculations.
+Author: Prashant Verma
+Author-email: prashant27050@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Requires-Dist: Pillow
+Requires-Dist: customtkinter
+Requires-Dist: node2vec
+
+# Euler Graph Database - Knowledge Graph Viewer 📊
+
+![Euler Graph Database](icons/application.png)
+
+## Author ✍️
+**Name**: Prashant Verma  
+**Email**: prashant27050@gmail.com
+
+---
+
+## Table of Contents 📚
+
+1. [Introduction](#introduction-ℹ️)
+2. [Installation](#installation-💻)
+3. [Project Structure](#project-structure-📁)
+4. [Running the Application](#running-the-application-🚀)
+5. [User Guide](#user-guide-📝)
+    - [Main Interface](#main-interface-🖥️)
+    - [Loading a Graph](#loading-a-graph-📂)
+    - [Visualizing a Graph](#visualizing-a-graph-🔍)
+    - [Adding Nodes](#adding-nodes-➕)
+    - [Adding Edges](#adding-edges-🔗)
+    - [Saving a Graph](#saving-a-graph-💾)
+    - [Executing Queries](#executing-queries-📋)
+    - [Saving Queries](#saving-queries-💼)
+    - [Loading Queries](#loading-queries-📄)
+6. [Using Euler Database for Knowledge Graph Building](#using-euler-database-for-knowledge-graph-building-🧠)
+    - [Creating Chunks of Relational Data](#creating-chunks-of-relational-data-🔗)
+    - [Building Knowledge Graphs](#building-knowledge-graphs-🌐)
+    - [GraphRAG (Graph-based Retrieval Augmented Generation)](#graphrag-🚀)
+7. [FAQ](#faq-❓)
+8. [Support](#support-🙋‍♂️)
+
+---
+
+## Introduction ℹ️
+
+The Euler Graph Database is a knowledge graph viewer that allows users to create, visualize, and manage knowledge graphs. It provides an interactive graphical user interface (GUI) for performing various operations on the knowledge graph such as adding nodes and edges, executing queries, and visualizing the graph.
+
+## Installation 💻
+
+1. **Install the Package**:
+    ```bash
+    pip install euler_database
+    ```
+
+## Project Structure 📁
+
+```
+euler_graph_database/
+├── data/
+├── docs/
+├── euler/
+│   ├── experimental/
+│   ├── function_tools/
+│   ├── graph_embeddings/
+│   ├── llm_reader/
+│   ├── path_finding/
+│   ├── similarity/
+│   ├── __init__.py
+│   ├── edge_node.py
+│   ├── graph_api.py
+│   ├── knowledge_graph.py
+│   ├── query_engine.py
+│   ├── query_executer.py
+│   ├── query_parser.py
+│   ├── relationship.py
+├── examples/
+├── gui/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── gui_navbar.py
+│   ├── modal_dialog.py
+│   ├── syntax_highlighter.py
+├── icons/
+├── tests/
+├── README.md
+├── requirements.txt
+├── setup.py
+```
+
+## Running the Application 🚀
+
+To run the application, use the following command:
+```bash
+eulerdb
+```
+
+## User Guide 📝
+
+### Main Interface 🖥️
+
+The main interface of the application consists of the following components:
+- **Header**: Displays the application name and logo.
+- **Navbar**: Provides options to load, visualize, add nodes, add edges, save the graph, and display help/about information.
+- **Query Entry**: A text area to enter queries.
+- **Buttons**: 
+    - `Execute Query`: Executes the entered query.
+    - `Save Query`: Saves the entered queries to a file.
+    - `Load Query`: Loads queries from a file.
+- **Output Areas**:
+    - `Query Output`: Displays the results of executed queries.
+    - `JSON Output`: Displays the JSON representation of the current graph.
+
+### Loading a Graph 📂
+
+1. Click on the `Load Graph` button in the navbar.
+2. Select the file containing the graph you want to load.
+
+### Visualizing a Graph 🔍
+
+1. After loading a graph, click on the `Visualize Graph` button in the navbar.
+2. The graph will be displayed in the visualization area.
+
+### Adding Nodes ➕
+
+1. Click on the `Add Node` button in the navbar.
+2. Enter the node ID and label in the prompt that appears.
+3. The node will be added to the graph.
+
+### Adding Edges 🔗
+
+1. Click on the `Add Edge` button in the navbar.
+2. Enter the edge ID, source node ID, target node ID, and edge label in the prompt that appears.
+3. The edge will be added to the graph.
+
+### Saving a Graph 💾
+
+1. Click on the `Save Graph` button in the navbar.
+2. Choose the location to save the graph file.
+
+### Executing Queries 📋
+
+1. Enter your query in the `Query Entry` area.
+2. Click the `Execute Query` button.
+3. The result of the query will be displayed in the `Query Output` area.
+
+### Saving Queries 💼
+
+1. Enter your queries in the `Query Entry` area.
+2. Click the `Save Query` button.
+3. Choose the location to save the queries file (with `.euler` extension).
+
+### Loading Queries 📄
+
+1. Click the `Load Query` button.
+2. Select the file containing the queries.
+3. The queries will be loaded into the `Query Entry` area.
+
+## Using Euler Database for Knowledge Graph Building 🧠
+
+### Creating Chunks of Relational Data 🔗
+
+The Euler Database provides classes to create chunks of relational data, which can be used to build knowledge graphs. By importing and utilizing these classes, you can preprocess your data and represent it in a graph format.
+
+#### Example:
+```python
+from euler.graph_api import KnowledgeGraphAPI
+from euler.query_parser import QueryParser
+from euler.query_executor import QueryExecutor
+
+# Initialize API and related components
+api = KnowledgeGraphAPI()
+parser = QueryParser(api.graph)
+executor = QueryExecutor(api.graph)
+
+# Add nodes and edges
+api.create_node('1', 'Person', {'name': 'Alice'})
+api.create_node('2', 'Person', {'name': 'Bob'})
+api.create_edge('1', '1', '2', 'knows')
+
+# Query the graph
+result = executor.execute_query('FIND (n)-[r]->(m)')
+print(result)
+```
+
+### Building Knowledge Graphs 🌐
+
+Using the provided classes, you can build comprehensive knowledge graphs. These graphs can help in organizing information, discovering relationships, and enhancing data analysis.
+
+#### Benefits:
+- **Organized Data**: Represent your data in an easily understandable graph format.
+- **Relationship Discovery**: Identify and explore relationships between different data points.
+- **Enhanced Analysis**: Use graph-based analysis techniques to gain deeper insights.
+
+### GraphRAG (Graph-based Retrieval Augmented Generation) 🚀
+
+GraphRAG is a powerful technique that leverages knowledge graphs to enhance information retrieval and generation processes. By building and utilizing knowledge graphs, GraphRAG can provide more accurate and contextually relevant information.
+
+#### Benefits:
+- **Improved Retrieval**: Enhance search and retrieval processes by leveraging the structure and relationships in knowledge graphs.
+- **Contextual Generation**: Generate more relevant and contextually accurate information by utilizing the rich relational data in knowledge graphs.
+
+## FAQ ❓
+
+**Q: What file formats are supported for saving graphs?**  
+A: The application supports saving graphs in JSON format.
+
+**Q: How do I fix module import errors?**  
+A: Ensure you are running the application using `eulerdb` to correctly set up the module paths.
+
+**Q: Can I visualize large graphs?**  
+A: Yes, but performance may vary depending on the size of the graph and the capabilities of your system.
+
+## Support 🙋‍♂️
+
+For any issues or questions, please contact:
+
+**Name**: Prashant Verma  
+**Email**: prashant27050@gmail.com
+
+Or visit the GitHub repository for more information and updates.
+```
+
+### Key Additions
+
+- **Using Euler Database for Knowledge Graph Building**: New section detailing how to use the classes provided by the Euler Database package to create chunks of relational data, build knowledge graphs, and leverage GraphRAG.
+- **Code Examples**: Example code snippets showing how to use the provided classes to build and query knowledge graphs.
+
+By following this updated `README.md`, users will have a comprehensive guide on how to install, run, use, and extend the `Euler Graph Database` for their knowledge graph needs.
