@@ -1,0 +1,2 @@
+[console_scripts]
+disk_block_check = disk_block_check.__main__:main
