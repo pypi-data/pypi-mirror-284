@@ -1,0 +1,12 @@
+quackamollie/model/meta/langchain/__init__.py,sha256=d6kf4KGFvpNBB3XS_JlgC6dEzA7pQFQhA7U5d_nE_Og,300
+quackamollie/model/meta/langchain/langchain_meta_model.py,sha256=fbVprK53WkzH3ArDCz0CeHe6pjfZT2FVmzQEK7kYkt0,1053
+quackamollie/model_manager/langchain/__init__.py,sha256=d6kf4KGFvpNBB3XS_JlgC6dEzA7pQFQhA7U5d_nE_Og,300
+quackamollie/model_manager/langchain/langchain_model_manager.py,sha256=CzH-TWPAeYSu_4jTOnMkq8ctJ1jj5AK1aYjpS3V8Uvc,4535
+quackamollie/model_manager/langchain/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quackamollie/model_manager/langchain/helpers/langchain_model_entry_point.py,sha256=J7NEC3hOM2_3IPIcAeUw1t79yaCipfSBTNHLau0oQGc,1838
+quackamollie_langchain_model_manager-0.1a0.dist-info/LICENSE,sha256=ZmTL3gq8BCTkTcRnvuvjJLUsDMPZ2Eh9tJYYu9LY3_k,1080
+quackamollie_langchain_model_manager-0.1a0.dist-info/METADATA,sha256=fdft2qEMtYoam9FB32CqS8fkhkSzNWI1Z-2-M7mrNH8,8809
+quackamollie_langchain_model_manager-0.1a0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+quackamollie_langchain_model_manager-0.1a0.dist-info/entry_points.txt,sha256=qohwIDqxT5c8NOrzf2SFcLv6lNcAf4geDflpPfkew90,136
+quackamollie_langchain_model_manager-0.1a0.dist-info/top_level.txt,sha256=ghu2DK87bSVbaEfok-jisDE8Ux3VC6m8LH3HaeoRy90,13
+quackamollie_langchain_model_manager-0.1a0.dist-info/RECORD,,
