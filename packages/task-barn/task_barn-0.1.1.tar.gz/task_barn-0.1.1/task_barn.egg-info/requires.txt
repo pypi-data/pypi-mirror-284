@@ -1,0 +1,11 @@
+django<6,>=5
+
+[croniter]
+croniter<3,>=2
+
+[test]
+pytest
+pytest-django
+pytest-mock
+pytest-asyncio
+psycopg[binary]
