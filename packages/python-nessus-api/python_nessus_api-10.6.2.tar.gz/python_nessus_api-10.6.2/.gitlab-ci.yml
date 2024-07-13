@@ -1,0 +1,40 @@
+image: python:3.9
+
+stages:
+  - build
+  # - test
+  - publish
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  TWINE_USERNAME: "${TWINE_USERNAME}"
+  TWINE_PASSWORD: "${TWINE_PASSWORD}"
+
+before_script:
+  - python -m pip install --upgrade pip
+  - pip install flit tox twine
+
+cache:
+  paths:
+    - .cache/pip
+    # - .tox
+
+build:
+  stage: build
+  script:
+    - flit build
+
+# test:
+#   stage: test
+#   script:
+#     - tox
+
+publish:
+  stage: publish
+  script:
+    - pip install twine
+    - twine upload --non-interactive -u $TWINE_USERNAME -p $TWINE_PASSWORD dist/*
+  only:
+    - tags
+  environment:
+    name: production
