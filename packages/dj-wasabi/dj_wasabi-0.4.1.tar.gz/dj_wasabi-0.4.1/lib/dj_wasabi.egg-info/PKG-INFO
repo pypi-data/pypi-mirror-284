@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dj-wasabi
+Version: 0.4.1
+Summary: My personal PIP package
+Home-page: https://github.com/dj-wasabi/dj-wasabi-release
+Download-URL: https://github.com/dj-wasabi/dj-wasabi-release/archive/0.4.1.tar.gz
+Author: Werner Dijkerman
+Author-email: iam@werner-dijkerman.nl
+License: MIT
+Keywords: personal
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: requests
+
+My personal PIP package
