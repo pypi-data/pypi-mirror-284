@@ -1,0 +1,25 @@
+name: Release package to pypi
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install a specific version
+      uses: eifinger/setup-rye@v3
+      with:
+        version: 'latest'
+    - name: Install dependencies
+      run: rye sync
+    - name: Build
+      run: rye build
+    - name: Publish a Python distribution to PyPI
+      if: startsWith(github.event.ref, 'refs/tags') || github.event_name == 'release'
+      uses: pypa/gh-action-pypi-publish@release/v1.8
+      with:
+        user: __token__
+        password: ${{ secrets.PYPI_API_TOKEN }}
