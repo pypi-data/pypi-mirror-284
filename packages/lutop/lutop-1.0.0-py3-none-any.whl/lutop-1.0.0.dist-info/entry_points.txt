@@ -1,0 +1,3 @@
+[console_scripts]
+lutop = lutop.lutop:main
+
