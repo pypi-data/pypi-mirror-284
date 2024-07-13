@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+siura-sdk/__init__.py
+siura-sdk/auth.dev.py
+siura-sdk/auth.py
+siura-sdk/base.py
+siura-sdk/meli.py
+siura-sdk/template.py
+siura.egg-info/PKG-INFO
+siura.egg-info/SOURCES.txt
+siura.egg-info/dependency_links.txt
+siura.egg-info/top_level.txt
