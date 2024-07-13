@@ -1,0 +1,7 @@
+typer
+fastapi
+uvicorn
+pillow
+ocrmac
+pydantic
+rich
