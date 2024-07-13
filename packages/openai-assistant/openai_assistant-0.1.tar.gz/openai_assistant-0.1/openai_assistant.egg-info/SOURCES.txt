@@ -1,0 +1,10 @@
+README.md
+setup.py
+openai_assistant/__init__.py
+openai_assistant/assistant_manager.py
+openai_assistant/thread_manager.py
+openai_assistant/utils.py
+openai_assistant.egg-info/PKG-INFO
+openai_assistant.egg-info/SOURCES.txt
+openai_assistant.egg-info/dependency_links.txt
+openai_assistant.egg-info/top_level.txt
