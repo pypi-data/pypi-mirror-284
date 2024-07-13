@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: optimizador_joshua
+Version: 0.2
+Summary: Es un paquete enfocado a la optimizacion de variables de diversas maneras
+Author: Joshua Rodriguez
+Author-email: joshuarl03@hotmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Requires-Dist: numpy
+
