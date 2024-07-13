@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ooj/__init__.py
+ooj/file.py
+ooj.egg-info/PKG-INFO
+ooj.egg-info/SOURCES.txt
+ooj.egg-info/dependency_links.txt
+ooj.egg-info/top_level.txt
