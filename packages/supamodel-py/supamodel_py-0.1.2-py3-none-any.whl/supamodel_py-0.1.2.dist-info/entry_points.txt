@@ -1,0 +1,2 @@
+[console_scripts]
+supamodel = supamodel.supamodel:main
