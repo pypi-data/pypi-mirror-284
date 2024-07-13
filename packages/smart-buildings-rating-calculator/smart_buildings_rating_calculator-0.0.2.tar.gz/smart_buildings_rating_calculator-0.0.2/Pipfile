@@ -1,0 +1,17 @@
+[packages]
+pandas = "*"
+
+[dev-packages]
+pytest = "*"
+black = "*"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+pre-commit = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
+
+[pipenv]
+allow_prereleases = true
