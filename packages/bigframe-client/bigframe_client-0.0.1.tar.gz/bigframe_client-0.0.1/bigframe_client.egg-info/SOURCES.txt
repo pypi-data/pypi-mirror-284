@@ -1,0 +1,6 @@
+README.md
+setup.py
+bigframe_client.egg-info/PKG-INFO
+bigframe_client.egg-info/SOURCES.txt
+bigframe_client.egg-info/dependency_links.txt
+bigframe_client.egg-info/top_level.txt
