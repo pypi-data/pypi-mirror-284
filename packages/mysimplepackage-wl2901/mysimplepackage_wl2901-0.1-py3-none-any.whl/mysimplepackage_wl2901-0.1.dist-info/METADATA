@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mysimplepackage-wl2901
+Version: 0.1
+Summary: A simple example package
+Home-page: https://github.com/yourusername/mysimplepackage
+Author: Your Name
+Author-email: yourname@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# My Simple Package
+
+This is a simple example package that prints "COMS W3132 UNI: wl2901".
