@@ -1,0 +1,10 @@
+team_formation/__init__.py,sha256=iknRhVlvPNmAbepZoprPlWG0HPlmzLiTybv9t2qxQhc,313
+team_formation/_version.txt,sha256=ROFh5ElcrCz3hYBD6eZBjpV58N3ProJvmjcmIpaM4GY,6
+team_formation/team_assignment.py,sha256=HgFI_vuLDCgdKTmc-XEL3qbQ5ACfmLnmuwG8bbRn9ac,28440
+team_formation/team_assignment_ui.py,sha256=KjtiprVyGUCsrVYdHky1iDasQtVHEYXb6q4a2GFOxkY,4347
+team_formation/working_time.py,sha256=dW4D55UydW7iubfwQRnnH1fl_sLxOrO2NeyKXCrx6QY,1354
+team_formation-1.0.1.dist-info/LICENSE,sha256=VA33vMQtc31lG07RWToQFuK1b0mFZtJBSGoATd3pD-0,1080
+team_formation-1.0.1.dist-info/METADATA,sha256=Sb0UCHb83qn0CqkLN1ZQKpzLtGge-3PxLkgezXq1H14,6427
+team_formation-1.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+team_formation-1.0.1.dist-info/top_level.txt,sha256=aiFqLV1chu_J6eM5beyXcn6wFrchplCaFBf4JrmD7X8,15
+team_formation-1.0.1.dist-info/RECORD,,
