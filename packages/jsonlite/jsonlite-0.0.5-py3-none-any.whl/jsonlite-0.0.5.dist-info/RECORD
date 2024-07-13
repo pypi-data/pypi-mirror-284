@@ -1,0 +1,11 @@
+jsonlite/__init__.py,sha256=e7zkl0dFQQ4DRTVWzFT5KlHVV8xJ84a4aqeDSQCrXNA,56
+jsonlite/jsonlite.py,sha256=I3b1JgMp-TiqjquDSjUU3r1xEBXURiWrmEOZ24aR8Lo,9872
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_basic.py,sha256=OQ9UE5vuoEIh1ffMyudEL4oIhN6zJzUBNyhSc-A8xCs,9055
+tests/test_concurrency.py,sha256=Ijqf7znbxwA_3B8GD3TRWdXPdecpjtlIArvL_TbdW78,7312
+tests/test_performance.py,sha256=zW7tq2U92bhLs_5wrGvVA5b-CkXTgURD7edfmQ0F554,3092
+jsonlite-0.0.5.dist-info/LICENSE,sha256=q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U,11
+jsonlite-0.0.5.dist-info/METADATA,sha256=Y-UJca6eyP9tcfCWJzadDblRE8n329vkbLLB8aOstXU,2525
+jsonlite-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+jsonlite-0.0.5.dist-info/top_level.txt,sha256=-ooV9fpu5r9NpdD0_JuFH4R5KUWRGhCtaKowiEG4DR4,15
+jsonlite-0.0.5.dist-info/RECORD,,
