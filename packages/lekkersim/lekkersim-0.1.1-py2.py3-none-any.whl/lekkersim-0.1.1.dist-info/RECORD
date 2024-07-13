@@ -1,0 +1,14 @@
+lekkersim/__init__.py,sha256=dPIa8eOY4EVXKeX9AU3eTxGCibuXGzDeBdWAlbOkdno,511
+lekkersim/_version.py,sha256=PKIMyjdUACH4-ONvtunQCnYE2UhlMfp9su83e3HXl5E,411
+lekkersim/log.py,sha256=lpjZ4J52ID3iz9REkNDdiEJ_C1BFxg4hn_8T0dUZBuw,2260
+lekkersim/model.py,sha256=o9dqdUe8zlI-mENsXNP9I0M1HyB1dUDnyVfYqCzZyl0,62464
+lekkersim/nazca_integration.py,sha256=f9eVi6KdW8lyCCLxZQOY8PrR2MECjQDFlEGgPQkq74I,25346
+lekkersim/pin.py,sha256=CquFqum9GXUVg7vDuyGClh3CE9vfAPTZSefNzCp0m70,1389
+lekkersim/scattering.py,sha256=4aZxSMWQQJG06CxO-JVJQCNI4WeFRkNxOxYlJ5mOYzE,4797
+lekkersim/sol.py,sha256=C8VkkTZX7WROzp2T5WI0wkPiD7odzXyX1Vqln-TVJi4,33276
+lekkersim/structure.py,sha256=TJixfA1RKBS9XzxxGlzBY1TpQKo_mZ821ir-yVuIFA8,23552
+lekkersim/utils.py,sha256=WfBR5HOe96MeiMF_NChX4rfxZvljBmJqifvkJQPzAgc,5072
+lekkersim-0.1.1.dist-info/METADATA,sha256=t_oHloq7LQ8hettYVMcY_RhCbPnYha9-bpXb669gNtw,2587
+lekkersim-0.1.1.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+lekkersim-0.1.1.dist-info/licenses/LICENSE.md,sha256=rYWNU8rgXu2VMezUxGdECAOs_-NMad57iOA6_8W2ob0,34283
+lekkersim-0.1.1.dist-info/RECORD,,
