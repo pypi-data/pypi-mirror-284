@@ -1,0 +1,9 @@
+videomonkey/__init__.py,sha256=LsN9NUZq2Epn5gko2jex4_FLEyOW6Yo7O7EyUObL9As,32
+videomonkey/cli.py,sha256=aIV_rkr65MvLplMZBSU6-qg2J_xE64P4EXq3Nx1Z4ic,6765
+videomonkey/main.py,sha256=9aLBr0unvRZjqvcsrDxPUeOXIsuHCRkp2XfpJi9ZyPE,10185
+videomonkey/version.py,sha256=Pru0BlFBASFCFo7McHdohtKkUtgMPDwbGfyUZlE2_Vw,21
+videomonkey-0.1.0.dist-info/METADATA,sha256=4zyx6wRcn6Cr9hMETbpqdpZTSeU2YPztkJN_6h8J-Os,387
+videomonkey-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+videomonkey-0.1.0.dist-info/entry_points.txt,sha256=sL1VSRf03T4xdoSJUoj1j8gYR_UUQokpnEdMOpeP-WY,54
+videomonkey-0.1.0.dist-info/top_level.txt,sha256=cDGVqq94AaZznXNWTD5XnLnHvT5vReDOx0fvbFyQRTU,12
+videomonkey-0.1.0.dist-info/RECORD,,

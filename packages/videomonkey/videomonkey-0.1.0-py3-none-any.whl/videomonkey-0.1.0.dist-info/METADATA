@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: videomonkey
+Version: 0.1.0
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: auto-coder
+Requires-Dist: openai-whisper
+Requires-Dist: moviepy
+Requires-Dist: rich
+Requires-Dist: ffmpeg-python
+Requires-Dist: gradio >=3.50.2
+
