@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+siura_sdk.egg-info/PKG-INFO
+siura_sdk.egg-info/SOURCES.txt
+siura_sdk.egg-info/dependency_links.txt
+siura_sdk.egg-info/top_level.txt
+tests/test_modulo1.py
