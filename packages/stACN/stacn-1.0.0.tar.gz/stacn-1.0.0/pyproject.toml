@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stACN"
+version = "1.0.0"
+dependencies=[
+    "scanpy>=1.9.3",
+    "numpy>=1.26.4",
+    "pandas>=2.2.1",
+    "anndata>=0.10.7",
+    "matplotlib>=3.8.4",
+    "scipy>=1.13.0",
+    "scikit-learn>=1.4.2",
+    "psutil>=5.9.0",
+    "tqdm>=4.66.4",
+    "leidenalg>=0.10.1",
+    "torch>=2.0.1",
+    "mnmst>=1.1.0",
+    "torchvision>=0.15.2",
+    "leidenalg>=0.10.1",
+    "natsort>=7.1.1",
+    "igraph>=0.11.2",
+]
+authors = [
+  { name="Haiyue Wang", email="haiyue_wang1223@163.com" },
+]
+description = "The initial package of stACN"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/xkmaxidian/stACN"
+Issues = "https://github.com/xkmaxidian/stACN/issues"
