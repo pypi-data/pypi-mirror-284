@@ -1,0 +1,13 @@
+beagleeditor/__init__.py,sha256=YdMzgekMXrofu4F-2oPjwXPsulGQbdcd8BmiLxM_YXg,23
+beagleeditor/autocomplete.py,sha256=r9uHHJroRhFxagEdDEoWL5tp5pEKa2kXh_vZykqqO9s,5001
+beagleeditor/beagleeditor.py,sha256=5Gja__-NpeAnFlafjRNRFsE3byrjXO1DXlsmKi0IjNQ,15220
+beagleeditor/marketplace.py,sha256=-SZF8WxaAEr_x82Ivd6KUz5xItu8k0Ed5w-l6uikMpM,4562
+beagleeditor/splash.py,sha256=8baPw-ReEOtI4PijvkjrJl02Y3cgt7R5r-CY-jCuMT0,485
+beagleeditor/syntax.py,sha256=Wjv1xwU1531kuBnLP86HEgCLfWh8WaWqPxGe2lZeDEU,14158
+beagleeditor/wizard.py,sha256=IgHkULKaonhq9qGB7u7VMcgnzs3PBRGKXCzut74X83c,4163
+beagleeditor/plugins/Terminal.py,sha256=kldQ_lc-6ykUqkardfg8wkKHrV47rEA8ep4a7egNebc,4938
+BeagleEditor-3.0.1.dist-info/LICENSE,sha256=sx08jukD-GmDiBLo5Foi4_31hZN6oamyRH7aMPCKUGc,1088
+BeagleEditor-3.0.1.dist-info/METADATA,sha256=5E20OzacBWt8zv6GAFJZTJgd_fz2L_qCjcXOOzjhC0w,1390
+BeagleEditor-3.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+BeagleEditor-3.0.1.dist-info/top_level.txt,sha256=6XgQXTjgiuW78iHC51Uv0UC-jj1KkPeg-imYcW-xkIk,13
+BeagleEditor-3.0.1.dist-info/RECORD,,
