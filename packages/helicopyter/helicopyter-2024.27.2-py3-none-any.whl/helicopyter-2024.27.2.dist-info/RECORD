@@ -1,0 +1,13 @@
+deploys/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deploys/allowedflare/terraform/.terraform.lock.hcl,sha256=tc4Rq3Y3wR6ZUO6Kv_YktZKeLsoy2Lg97zV2kVWR9SI,1414
+deploys/allowedflare/terraform/main.py,sha256=sv2yqLTj8N4bjDA2Ncrt2HCQemXkcWwU-6pv-K0-77I,1841
+deploys/buddies/terraform/main.py,sha256=qhMHI8h_FVVk6u5SAtOvW_QgFus4MLwfO58HpnKkxok,672
+deploys/buddies/terraform/main.tf.json,sha256=pfnU0IkBBXDYiqjreP4rXRzvqWZ741FiSSIj0NZ78ek,2384
+deploys/foundation/terraform/.terraform.lock.hcl,sha256=GhnKN0vWreEQDPy6ofB6cHZyBszkyawzbOraeYW8Ovo,1410
+deploys/foundation/terraform/main.py,sha256=ixkWPZdmwmDSa6tauU76i5rWxvbFP-N3vTYJ6DV2xxM,1663
+deploys/foundation/terraform/main.tf.json,sha256=TSft5B9VXEuDY5tQCAkrrQs24763_2zQF_Cjsgif1BM,4359
+helicopyter-2024.27.2.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+helicopyter-2024.27.2.dist-info/METADATA,sha256=A7OQdrMq5IkA-7O76XYcP9kKbewsfOu25IEquz_O9Uk,2438
+helicopyter-2024.27.2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+helicopyter-2024.27.2.dist-info/top_level.txt,sha256=yJyGgPXXjZ33CbhrJl6LKqdr7A1SHVQIWs_45zei-JE,8
+helicopyter-2024.27.2.dist-info/RECORD,,
