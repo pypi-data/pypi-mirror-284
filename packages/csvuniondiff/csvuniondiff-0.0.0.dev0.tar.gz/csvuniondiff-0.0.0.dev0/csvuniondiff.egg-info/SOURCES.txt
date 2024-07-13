@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+csvuniondiff/__init__.py
+csvuniondiff.egg-info/PKG-INFO
+csvuniondiff.egg-info/SOURCES.txt
+csvuniondiff.egg-info/dependency_links.txt
+csvuniondiff.egg-info/entry_points.txt
+csvuniondiff.egg-info/requires.txt
+csvuniondiff.egg-info/top_level.txt
+csvuniondiff/src/__init__.py
+csvuniondiff/src/command.py
+csvuniondiff/src/csvuniondiff.py
+tests/__init__.py
+tests/test_command.py
+tests/test_csvuniondiff.py
