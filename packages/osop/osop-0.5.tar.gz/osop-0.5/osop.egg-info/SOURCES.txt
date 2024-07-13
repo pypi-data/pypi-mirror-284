@@ -1,0 +1,8 @@
+setup.py
+osop/__init__.py
+osop/main.py
+osop.egg-info/PKG-INFO
+osop.egg-info/SOURCES.txt
+osop.egg-info/dependency_links.txt
+osop.egg-info/entry_points.txt
+osop.egg-info/top_level.txt
