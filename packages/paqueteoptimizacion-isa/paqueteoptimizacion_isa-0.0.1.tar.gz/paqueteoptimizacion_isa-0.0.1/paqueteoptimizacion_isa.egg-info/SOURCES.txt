@@ -1,0 +1,6 @@
+README.md
+setup.py
+paqueteoptimizacion_isa.egg-info/PKG-INFO
+paqueteoptimizacion_isa.egg-info/SOURCES.txt
+paqueteoptimizacion_isa.egg-info/dependency_links.txt
+paqueteoptimizacion_isa.egg-info/top_level.txt
