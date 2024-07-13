@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+siura/__init__.py
+siura/auth.py
+siura/base.py
+siura/meli.py
+siura/template.py
+siura.egg-info/PKG-INFO
+siura.egg-info/SOURCES.txt
+siura.egg-info/dependency_links.txt
+siura.egg-info/top_level.txt
