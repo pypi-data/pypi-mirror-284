@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/torchdetscan/torchdetscan.py
+torchdetscan.egg-info/PKG-INFO
+torchdetscan.egg-info/SOURCES.txt
+torchdetscan.egg-info/dependency_links.txt
+torchdetscan.egg-info/entry_points.txt
+torchdetscan.egg-info/requires.txt
+torchdetscan.egg-info/top_level.txt
