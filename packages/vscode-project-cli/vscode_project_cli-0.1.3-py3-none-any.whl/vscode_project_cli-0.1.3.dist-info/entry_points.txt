@@ -1,0 +1,3 @@
+[console_scripts]
+vscode-project=source.frameworks_and_devices.cli:cli
+
