@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/JWs_thermo_lib.egg-info/PKG-INFO
+src/JWs_thermo_lib.egg-info/SOURCES.txt
+src/JWs_thermo_lib.egg-info/dependency_links.txt
+src/JWs_thermo_lib.egg-info/top_level.txt
+src/thermo_lib/__init__.py
+src/thermo_lib/thermo_lib.py
