@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+tests/test_warcllm.py
+warag/__init__.py
+warag/__main__.py
+warag/__version__.py
+warag/cli.py
+warag.egg-info/PKG-INFO
+warag.egg-info/SOURCES.txt
+warag.egg-info/dependency_links.txt
+warag.egg-info/entry_points.txt
+warag.egg-info/requires.txt
+warag.egg-info/top_level.txt
