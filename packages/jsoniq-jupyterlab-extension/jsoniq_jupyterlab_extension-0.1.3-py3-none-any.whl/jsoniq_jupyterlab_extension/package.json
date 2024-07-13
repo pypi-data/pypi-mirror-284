@@ -1,0 +1,10 @@
+{
+    "name": "jsoniq_jupyterlab_extension",
+    "version": "1.0.0",
+    "description": "This package.json is used for fetching the jsoniq language server npm module within the python files",
+    "author": "David-Marian Buzatu",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "jsoniq-language-server": "^1.1.2"
+    }
+}
