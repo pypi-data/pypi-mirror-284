@@ -1,0 +1,2 @@
+[console_scripts]
+osop = osop.main:main
