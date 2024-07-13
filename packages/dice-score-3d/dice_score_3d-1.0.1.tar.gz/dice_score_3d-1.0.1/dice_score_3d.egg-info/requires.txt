@@ -1,0 +1,6 @@
+numpy
+SimpleITK
+
+[dev]
+pytest
+flake8
