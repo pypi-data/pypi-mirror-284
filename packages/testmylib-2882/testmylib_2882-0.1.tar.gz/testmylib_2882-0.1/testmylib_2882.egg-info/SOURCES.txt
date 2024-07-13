@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+library/__init__.py
+testmylib_2882.egg-info/PKG-INFO
+testmylib_2882.egg-info/SOURCES.txt
+testmylib_2882.egg-info/dependency_links.txt
+testmylib_2882.egg-info/top_level.txt

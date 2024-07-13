@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: testmylib_2882
+Version: 0.1
+Summary: test library
+Author: zaid
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
