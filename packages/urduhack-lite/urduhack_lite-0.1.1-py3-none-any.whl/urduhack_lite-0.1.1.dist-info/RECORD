@@ -1,0 +1,11 @@
+urduhack_lite/__init__.py,sha256=dFax2ujEAeMwMPSy7I2BZE-byNpOvT5Gw3DeiIvgu3k,62
+urduhack_lite/urdu_characters.py,sha256=81f6MdDK2O2kJq7WiBs3I-XcT9EDriFk8nB5rN6Gw7Y,7202
+urduhack_lite/normalization/__init__.py,sha256=Q77sxNi4bt3lSnkDByuqlLBCOVSWOWjxnDjvDyqDQRo,1831
+urduhack_lite/normalization/character.py,sha256=r-TMCgu3YyHG13Dg8VAv_HvrBlfqVMX18sYCKC_W6DU,13250
+urduhack_lite/normalization/regexes.py,sha256=7kp9Taozce90l7wrB8s9c7HciQ5VGVh54s4nc2IAfrI,615
+urduhack_lite/tokenization/__init__.py,sha256=W-DkWK3NxkW1ImEnQrGeH9XVQ0oZKo7Runt_5A5Dkmk,797
+urduhack_lite/tokenization/eos.py,sha256=Y-v3_YQp0c2LMRVqULBv57Zw10L7bbk8DsrR6dKUNcU,3777
+urduhack_lite/tokenization/tokenizer.py,sha256=Z0hh1W66JRxfd4WcUj-vIAe8Bt4auK8U0LwmhTRVaCM,1311
+urduhack_lite-0.1.1.dist-info/METADATA,sha256=Kdsn5xeyK1pwY9Sm2xYrKxiWnB860ed2firqjC40p_Q,1049
+urduhack_lite-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+urduhack_lite-0.1.1.dist-info/RECORD,,
