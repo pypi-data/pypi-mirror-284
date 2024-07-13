@@ -1,0 +1,106 @@
+[tool.poetry]
+name = "datasafari"
+version = "1.0.0"
+description = "DataSafari simplifies complex data science tasks into straightforward, powerful one-liners."
+authors = ["George Dreemer <georgedreemer@proton.me>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+homepage = "https://www.datasafari.dev"
+repository = "https://github.com/ETA444/datasafari"
+documentation = "https://www.datasafari.dev/docs"
+keywords = [
+    'data science', 'data analysis', 'machine learning', 'data preprocessing',
+    'statistical testing', 'data transformation', 'predictive modeling',
+    'data visualization', 'exploratory data analysis', 'hypothesis testing',
+    'feature engineering', 'model evaluation', 'model tuning', 'data cleaning',
+    'data insights', 'numerical analysis', 'categorical data', 'statistics',
+    'ML automation', 'data workflow', 'data discovery', 'sklearn integration',
+    'statistical inference', 'automated machine learning', 'data exploration'
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+include = [
+    "LICENSE",
+    "README.md",
+    "HISTORY.md",
+    "docs/**/*.rst",
+    "docs/**/*.py",
+    "docs/**/*.html",
+    "docs/**/*.js",
+    "docs/**/*.css",
+    "docs/**/*.svg",
+    "docs/**/*.png",
+    "docs/**/*.jpg",
+    "docs/**/*.gif",
+    "docs/**/*.md",
+    "tests/**/*.py"
+]
+exclude = [
+    "**/__pycache__",
+    "**/*.pyc",
+    "**/*.pyo",
+    ".git/**",
+    ".idea/**",
+    "other/**"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9, <4"
+numpy = "*"
+pandas = "*"
+"scikit-learn" = "<1.5"
+"scikit-optimize" = ">=0.10.1"
+scipy = "*"
+matplotlib = "*"
+seaborn = "*"
+statsmodels = "*"
+"category-encoders" = "*"
+"python-Levenshtein" = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.2.0"
+pytest-cov = "*"
+flake8 = ">=7.0.0"
+tox = ">=4.12.1"
+twine = ">=5.0.0"
+bandit = "*"
+wheel = ">=0.37.0"
+setuptools = ">=58.0.0"
+bump2version = ">=1.0.1"
+cookiecutter = ">=2.5.0"
+sphinx = ">=7.3.7"
+furo = ">=2024.5.6"
+"sphinx-favicon" = ">=1.0.1"
+"sphinx-prompt" = ">=1.8.0"
+"sphinx-copybutton" = ">=0.5.2"
+sphinxemoji = ">=0.3.1"
+"sphinxext-opengraph" = ">=0.6.0"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+style = "semver"
+
+[tool.flake8]
+exclude = ["docs", "__init__.py", "venv"]
+max-line-length = 222
+ignore = ["E501", "E721", "W391", "C901"]
+
+[tool.bandit]
+exclude_dirs = ["tests", "venv", "other", "dist"]
+skips = ["B101"]
+
+[tool.pytest.ini_options]
+addopts = "--ignore=setup.py"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
