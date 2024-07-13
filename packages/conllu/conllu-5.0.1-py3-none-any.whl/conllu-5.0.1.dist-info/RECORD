@@ -1,0 +1,11 @@
+conllu/__init__.py,sha256=m-AFdoyltsfl_rAZZ8AbK2MDAj_oNPMaDMPlZB-luQY,2028
+conllu/exceptions.py,sha256=6Vc1viuJk2eWAeQOV1l0S-JbQkC7LAsiISTs_S5lhk4,42
+conllu/models.py,sha256=JKdnTjRcz4XSDWWhmtDfpXU2lc2Q8TorMr96tJ7adXY,13511
+conllu/parser.py,sha256=ajUtV6ezHt4V9JL4oBObH6NE69LCYYXNuWsKG5Ngr7o,9059
+conllu/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conllu/serializer.py,sha256=E9Ap58yDPBrUTu6cBj_O1P00PGNyj3jNTjM0uJo-kF0,1743
+conllu-5.0.1.dist-info/LICENSE,sha256=dzlTglzOalzgl4PTIdUqswS-F7d_QUIXYVpPVCAs2xY,1082
+conllu-5.0.1.dist-info/METADATA,sha256=A062CiFZLaliExDcR5hCGURbW_vOYO1SIt3WUuIVErI,21077
+conllu-5.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+conllu-5.0.1.dist-info/top_level.txt,sha256=DQrKsr-voODlE3ln3nNNKw1nYQRkSGAONmQuQCAzocg,7
+conllu-5.0.1.dist-info/RECORD,,
