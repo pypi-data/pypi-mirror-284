@@ -1,0 +1,12 @@
+source/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/entities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/frameworks_and_devices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/frameworks_and_devices/cli.py,sha256=asXuXb0r1iPx_6xV-JObL4DJAUkB7OjlYxzO-pbNzEE,173
+source/interface_adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/interface_adapters/controller.py,sha256=fszv6nexnv-Sf2jCNct1uTnneMe4968hlPCd6P1iPtI,441
+source/use_cases/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clean_architecture_cli-0.1.0.dist-info/LICENSE,sha256=eoaEl6oqjG6iJQ0MvS4LtY57ntTg6MJBAwZByVPZCZw,1070
+clean_architecture_cli-0.1.0.dist-info/METADATA,sha256=8ZqYo7rtqH803IuJp6zJE6ZhgACxba4lzHBgdtzM1Aw,516
+clean_architecture_cli-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+clean_architecture_cli-0.1.0.dist-info/entry_points.txt,sha256=ePJ654ZrFxh9KK1T465Z6zUY9Lyh-nRRE0Nrd3MmsPc,76
+clean_architecture_cli-0.1.0.dist-info/RECORD,,
