@@ -1,0 +1,17 @@
+buildbot_www/VERSION,sha256=9NpsFPgUIeK1iOscLU6BITKjDVwrQ2bmI5HTUxyQv0k,5
+buildbot_www/__init__.py,sha256=D7FnR2d7Yu3JCV4BffuMk6AG33GM2YHyFR2ZFYLt2cA,858
+buildbot_www/static/browser-warning-list.js,sha256=_bsheJ0rr1iP5pDcrKXTEsPXEw5cm1xDZs_oqE3rYbA,756
+buildbot_www/static/browser-warning.css,sha256=Mm3m4pz324ncMrQlurQCkNK16V3i5tuJ8U1UCPoslI0,1411
+buildbot_www/static/browser-warning.js,sha256=e9G4pzcJTEPbVWxePoj-pTdxbXSRhdzizZldsvuBWYs,28827
+buildbot_www/static/icon.png,sha256=Nk-6w_0pGfCNNTplz-fz1GsLN0rToMrFo_RAHVJSMuQ,21460
+buildbot_www/static/icon.svg,sha256=P9wl9sU5ktMeOtYsyd-z4PUeSKKucg4tJU7gnVZAxBY,1180
+buildbot_www/static/index.html,sha256=w0nkiZOL6WJAGU-ZSsiR5FWidPsotuPAE4W04epdNT4,1986
+buildbot_www/static/manifest.json,sha256=mYai9kKd_BLAoc7ehptxaOjhEaTvvSuSKU6KfbqFySg,393
+buildbot_www/static/robots.txt,sha256=kNJLw79pisHhc3OVAimMzKcq3x9WT6sF9IS4xI0crdI,67
+buildbot_www/static/assets/index-20f98304.js,sha256=_FDduRupgCNBxmsYhanvejrfvZM4fF8nIxLJaPCR3_I,858656
+buildbot_www/static/assets/index-342ec232.css,sha256=NC7CMuyX7jN0Uo_5I4oKtVvEsxnQ7Uxq1_kh9S6vXBY,206105
+buildbot_www-4.0.1.dist-info/METADATA,sha256=5bKYvye5ec9VASyTkaG9RFCPF1S5FlsLqiPUXZqSFOs,269
+buildbot_www-4.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+buildbot_www-4.0.1.dist-info/entry_points.txt,sha256=Zf6-E_dmx6IuitXlIArvdjDA2_dQKAAEgzytgFjL1RM,38
+buildbot_www-4.0.1.dist-info/top_level.txt,sha256=8LClYjhf4fK21sfVAexxL40t2MydUF8ux_-umagjDPQ,13
+buildbot_www-4.0.1.dist-info/RECORD,,
