@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: mksite
+Version: 0.0.1
+Summary: Static site generator that supports markdown and html.
+Project-URL: Homepage, https://sr.ht/~loges/mksite
+Project-URL: Source, https://git.sr.ht/~loges/mksite
+Project-URL: Issues, https://todo.sr.ht/~loges/mksite
+Author-email: Logan Connolly <me@loganconnolly.com>
+License-Expression: GPL-3.0-or-later
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.11
+Requires-Dist: click
+Description-Content-Type: text/markdown
+
+# mksite
+
+---
+
+[![PyPI - Version](https://img.shields.io/pypi/v/mksite.svg)](https://pypi.org/project/mksite)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+> like mkdir for websites.
+
+`mksite` helps you to quickly generate static websites with markdown.
+
+## Installation
+
+```console
+pip install mksite
+```
+
+## License
+
+`mksite` is distributed under the terms of the [AGPLv3](https://spdx.org/licenses/AGPL-3.0-or-later.html) license.
