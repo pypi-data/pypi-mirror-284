@@ -1,0 +1,12 @@
+source/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/entities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/frameworks_and_devices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/frameworks_and_devices/cli.py,sha256=K13_9kjmx61CAgF2TItkLku3II0KWhhIreybzc_pfIU,187
+source/interface_adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/interface_adapters/controller.py,sha256=51R04e5IVGM-2oQW9qCKS6gpEhUjh3sUyM39CfjOK48,704
+source/use_cases/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vscode_cli-0.1.0.dist-info/LICENSE,sha256=eoaEl6oqjG6iJQ0MvS4LtY57ntTg6MJBAwZByVPZCZw,1070
+vscode_cli-0.1.0.dist-info/METADATA,sha256=tstOCphDRPu6c4iHnNDch25sMp00d6Ar00jcTVAM23o,504
+vscode_cli-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vscode_cli-0.1.0.dist-info/entry_points.txt,sha256=gByfi-reQbJ3NfJYi4q5KUybQCoLy7LCkSwGFrkeqCI,64
+vscode_cli-0.1.0.dist-info/RECORD,,

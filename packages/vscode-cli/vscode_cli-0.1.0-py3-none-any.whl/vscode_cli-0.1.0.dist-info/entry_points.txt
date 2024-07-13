@@ -1,0 +1,3 @@
+[console_scripts]
+vscode=source.frameworks_and_devices.cli:cli
+
