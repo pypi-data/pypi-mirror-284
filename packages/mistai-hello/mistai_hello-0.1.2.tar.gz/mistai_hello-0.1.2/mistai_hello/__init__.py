@@ -1,0 +1,1 @@
+from mistai_hello.app import hello
