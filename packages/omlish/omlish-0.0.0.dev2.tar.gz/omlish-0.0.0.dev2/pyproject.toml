@@ -1,0 +1,200 @@
+[build-system]
+requires = [
+    'setuptools',
+]
+build-backend = 'setuptools.build_meta'
+
+
+##
+
+[project]
+name = 'omlish'
+authors = [{name = 'wrmsr'}]
+urls = {source = 'https://github.com/wrmsr/omlish'}
+license = {text = 'BSD-3-Clause'}
+requires-python = '>=3.12'
+
+dynamic = ['version']
+
+description = 'omlish'
+classifiers = [
+    'License :: OSI Approved :: BSD License',
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+
+    'Operating System :: OS Independent',
+    # 'Operating System :: POSIX',
+]
+
+[project.optional-dependencies]
+async = ['anyio']
+http = ['httpx']
+sql = ['sqlalchemy']
+wrapt = ['wrapt']
+yaml = ['pyyaml']
+
+server = [
+    'h11',
+    'h2',
+    'priority',
+    'wsproto',
+]
+
+test=['pytest']
+
+
+##
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.dynamic]
+version = {attr = 'omlish.__about__.__version__'}
+
+[tool.setuptools.packages.find]
+include = ['omlish', 'omlish.*']
+exclude = ['*.tests', '*.tests.*']
+
+
+##
+
+[tool.omlish.pyproject.srcs]
+main = ['omlish', 'omdev', 'ominfra', 'omserv']
+ml = ['@main', 'omml']
+all = ['@ml', 'x']
+
+[tool.omlish.pyproject.venvs]
+all = { interp = '@12', requires = 'requirements-dev.txt', srcs = ['@main'] }
+default = { requires = 'requirements-ext.txt' }
+deploy = { interp = 'python3' }
+docker = { docker = 'omlish-dev' }
+docker-amd64 = { docker = 'omlish-dev-amd64' }
+debug = { interp = '@12-debug' }
+'13' = { interp = '@13' }
+'8' = { interp = '@8', requires = [], srcs = [] }
+
+
+##
+
+[tool.mypy]
+ignore_missing_imports = true
+no_implicit_optional = true
+warn_redundant_casts = true
+#warn_return_any = true
+warn_unreachable = true
+warn_unused_ignores = true
+
+pretty = true
+show_column_numbers = true
+show_error_codes = true
+show_error_context = true
+show_traceback = true
+#verbosity = 1
+
+check_untyped_defs = true
+
+exclude = [
+    'omlish/dataclasses/tests/cpython/',
+]
+
+
+##
+
+[tool.pytest.ini_options]
+addopts = [
+    '-v',
+    '--tb=short',
+    '--showlocals',
+    '--strict-markers',
+    '--durations=5',
+    '--durations-min=2',
+    # '--log=info',
+]
+asyncio_mode = 'strict'
+junit_family = 'xunit2'
+junit_duration_report = 'call'
+timeout = 60
+session_timeout = 600
+
+
+##
+
+[tool.ruff]
+line-length = 120
+indent-width = 4
+
+[tool.ruff.lint]
+# select = ["E", "F"]
+select = ["ALL"]
+
+ignore = [
+    'ANN401',  # dynamically typed expressions (typing.Any) are disallowed in `*args`
+    'ARG002',  # unused method argument
+    'D',  # docstrings
+    'E741',  # ambiguous variable name
+    'E742',  # ambiguous class name
+    'ERA001',  # found commented-out code
+    'F541',  # f-string without any placeholders
+    'FBT002',  # boolean default positional argument in function definition
+    'FBT003',  # boolean positional value in function call
+    'FIX001',  # line-contains-fixme
+    'PGH004',  # use specific rule codes when using `noqa`
+    'RUF100',  # unused blanket `noqa` directive'
+    'T201',  # `print` found
+    'TID252',  # prefer absolute imports over relative imports from parent modules
+]
+
+[tool.ruff.lint.per-file-ignores]
+'**/__init__.py' = [
+    'F401',  # imported but unused
+]
+'**/{tests}/*' = [
+    'ANN001', # missing type annotation for function argument
+    'ANN201',  # missing return type annotation for public function
+    'S101',  # use of `assert` detected
+]
+'omdev/scripts/*' = [
+    'UP',
+]
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = 'single'
+
+# [tool.ruff.format]
+# quote-style = 'single'
+# indent-style = 'space'
+
+
+##
+
+[tool.flake8]
+max-line-length = 120
+
+show-source = true
+statistics = true
+
+exclude = [
+    '.cache',
+    '.git',
+    '.idea',
+    '.venv',
+    'omlish/dataclasses/tests/cpython/',
+]
+
+ignore = [
+    'E231',
+    'E265',
+    'E701',
+    'E704',
+    'E711',
+    'E712',
+    'E721',
+    'E731',
+    'E741',
+    'E742',
+    'F541',
+    'F821',
+    'F999',
+    'W503',
+    'W504',
+]
