@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: chargrid
+Version: 0.0.3
+Summary: HackNet-style grid-based game engine framework.
+Home-page: https://github.com/primal-coder/chargrid
+Author: James Evans
+Author-email: joesaysahoy@gmail.com
+Keywords: gridengine_framework CharActor grid character rpg game engine framework chargrid cell grid-based cell-based dnd d&d dungeons and dragons dungeon dragons
+Requires-Dist: gridengine_framework
+Requires-Dist: CharActor
+Requires-Dist: CharMonster
+Requires-Dist: CharObj
+Requires-Dist: dicepy
+Requires-Dist: entyty
