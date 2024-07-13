@@ -1,0 +1,55 @@
+Metadata-Version: 2.3
+Name: pekat-vision-sdk
+Version: 2.0.0
+Summary: A Python module for communication with PEKAT VISION
+Project-URL: Homepage, https://github.com/pekat-vision/pekat-vision-sdk-python
+Project-URL: Documentation, https://pekat-vision.github.io/pekat-vision-sdk-python/
+Project-URL: Repository, https://github.com/pekat-vision/pekat-vision-sdk-python.git
+Project-URL: Changelog, https://github.com/pekat-vision/pekat-vision-sdk-python/blob/master/CHANGELOG.md
+Author-email: developers@pekatvision.com
+Maintainer-email: developers@pekatvision.com
+License-Expression: MIT
+License-File: LICENSE
+Keywords: pekat,pekatvision,pekatvisionsdk,sdk,vision
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: packaging
+Requires-Dist: requests
+Provides-Extra: opencv
+Requires-Dist: opencv-python; extra == 'opencv'
+Description-Content-Type: text/markdown
+
+# PEKAT VISION SDK - Python
+
+A Python module for communication with [PEKAT VISION](https://www.pekatvision.com/products/software/).
+
+## Installation
+
+Type `pip install "pekat-vision-sdk[opencv]"` into your terminal.
+
+## Example
+
+```python
+import cv2
+from PekatVisionSDK import Instance
+
+# Connect to an already running project
+p = Instance(port=8000, already_running=True)
+
+# Send an image to analyze
+result = p.analyze("path_to_image.png", response_type="annotated_image")
+
+# Access the result
+flow_result = result.context["result"]
+
+# Decode image bytes
+image = result.get_decoded_image()
+
+# Save annotated image on disk
+cv2.imwrite("result_with_annotations.png", image)
+```
