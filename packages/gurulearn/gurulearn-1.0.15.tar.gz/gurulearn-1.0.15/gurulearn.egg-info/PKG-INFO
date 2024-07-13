@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: gurulearn
+Version: 1.0.15
+Summary: library for linear_regression and gvgg16 model generation(fixed bugs),audio_classify and audio_classify_predict
+Author: Guru Dharsan T
+Author-email: gurudharsan123@gmail.com
+License-File: LICENSE
