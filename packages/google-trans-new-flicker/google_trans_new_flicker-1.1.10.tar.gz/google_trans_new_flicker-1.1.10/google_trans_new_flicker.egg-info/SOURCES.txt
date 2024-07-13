@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+google_trans_new/__init__.py
+google_trans_new/constant.py
+google_trans_new/google_trans_new.py
+google_trans_new_flicker.egg-info/PKG-INFO
+google_trans_new_flicker.egg-info/SOURCES.txt
+google_trans_new_flicker.egg-info/dependency_links.txt
+google_trans_new_flicker.egg-info/top_level.txt

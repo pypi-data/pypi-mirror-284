@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: google_trans_new_flicker
+Version: 1.1.10
+Summary: A free and unlimited python tools for google translate api.
+Home-page: https://github.com/FlickerMi/google_trans_new
+Author: Flicker
+Author-email: libmi@foxmail.com
+License: MIT Licence
+License-File: LICENSE
+
+fix v1.1.9: json.decoder.JSONDecodeError: Extra data: line 1 column 300 (char 299)
