@@ -1,0 +1,10 @@
+bseindia/__init__.py,sha256=zxk9iUO7xv5d03uti8s3pgZEET7kp51Ganr-79UTpnc,165
+bseindia/constants.py,sha256=AfYugcDbYDNTxiv_KdiOCD-ees6ALE9miCHLmm4bEM4,204
+bseindia/get_data.py,sha256=giiNyOtY8h8WOTWr372ZsWbq7emESjz8m-LNHdhbwrY,5404
+bseindia/libutil.py,sha256=3FyW061FZS8m9gy1-jqdrk5nQwiJ8KLniufrNmw2DjM,4280
+bseindia/logger.py,sha256=XlRNo248ceLlcry6gg-wFS4CW7r2GZoEAlDZL2QPcm0,428
+bseindia-0.1.dist-info/LICENSE,sha256=SbvpEU5JIU3yzMMkyzrI0dGqHDoJR_lMKGdl6GZHsy4,11558
+bseindia-0.1.dist-info/METADATA,sha256=iU0M4eXhbrN_XNYfsOcPuB5tdMjf4RcYuhnkcWYjxpw,3131
+bseindia-0.1.dist-info/WHEEL,sha256=G3IE84OK5Y5uA5hXLPeRwL6BvG-Ifed4HbsqzJX2TFc,91
+bseindia-0.1.dist-info/top_level.txt,sha256=NMqcH60ep5BoXTMWWMyZh5xxTVnivFzBNlQmX3DJYfY,9
+bseindia-0.1.dist-info/RECORD,,
