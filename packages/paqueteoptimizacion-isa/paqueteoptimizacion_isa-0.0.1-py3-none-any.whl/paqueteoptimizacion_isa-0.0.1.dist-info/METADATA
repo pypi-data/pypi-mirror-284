@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: paqueteoptimizacion_isa
+Version: 0.0.1
+Summary: Paquete de Optimizacion de Python
+Author: IsabellaJB
+Author-email: isabellajib5@gmail.com
+Keywords: python,optimizacion,multivariables,variable
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Paquete de Optimizacion de Python que contiene métodos de funciones multivariables; directos y de gradiente, y funciones de una sola variable; eliminación de regiones y basados en la derivada
