@@ -1,0 +1,37 @@
+Metadata-Version: 2.3
+Name: tflump
+Version: 0.1.0
+Summary: TfL API access and analysis in python
+Project-URL: homepage, https://pilchard.github.io/tflump/
+Project-URL: documentation, https://pilchard.github.io/tflump/
+Project-URL: repository, https://github.com/pilchard/tflump
+Author-email: pilchard <187820+pilchard@users.noreply.github.com>
+License: MIT
+License-File: LICENSE
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: folium>=0.17.0
+Requires-Dist: geopandas>=1.0.1
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: ipywidgets>=8.1.3
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: pydantic-settings>=2.3.4
+Requires-Dist: pydantic>=2.8.2
+Requires-Dist: seaborn>=0.13.2
+Provides-Extra: dev
+Requires-Dist: importlib-resources; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# TFL Lump
+A cursory exploration of the Transport for London system and its open data API.
+
+The package implements a modest wrapper around a very small portion of the [TfL open data](https://tfl.gov.uk/info-for/open-data-users/) API facilitating fetching of core public transport modes ('bus', 'tube', 'overground', etc). For analysis purposes fetched data is cached to local files. Store objects make the data available as Pandas dataframes and enable writing out as JSON.
+
+## Data Sources
+- TFL Data from https://api.tfl.gov.uk/
+
+## Copyright Notices
+Powered by TfL Open Data.  Contains OS data © Crown copyright and database rights 2016 and Geomni UK Map data © and database rights [2019]
