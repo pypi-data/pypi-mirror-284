@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mistai-hello
+Version: 0.0.1rc0
+Summary: PyPi Template for mist.ai
+Author: Team mist.ai
+Author-email: sandev.20@cse.mrt.ac.lk
+Keywords: python,mist.ai,template
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A PyPi package from mist.ai that can be used as a template. Code can be found on GitHub.
