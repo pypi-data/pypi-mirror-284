@@ -1,0 +1,24 @@
+Metadata-Version: 2.3
+Name: chatlogger_core
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/plain; charset=UTF-8
+
+python -m venv .venv
+
+source .venv/Scripts/activate
+pip install maturin
+// mkdir chatlogger_core // not working
+maturin init
+// maturin new chatlogger_core
+// cd chatlogger_core
+maturin develop
+
+
+source deactivate
+
+
+
