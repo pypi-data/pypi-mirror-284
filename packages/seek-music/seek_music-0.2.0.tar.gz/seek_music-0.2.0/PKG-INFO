@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: seek-music
+Version: 0.2.0
+Summary: The client to seek msuic.
+License: Apache License Version 2.0
+Author: Allen Chou
+Author-email: f1470891079@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: all
+Requires-Dist: aiohttp (==3.*)
+Requires-Dist: cryptography
+Requires-Dist: httpx (==0.*)
+Requires-Dist: pydantic (==2.*)
+Requires-Dist: pydantic-settings (==2.*)
+Requires-Dist: requests (==2.*)
+Description-Content-Type: text/markdown
+
+# seek_music
+The client to seek msuic.
+
