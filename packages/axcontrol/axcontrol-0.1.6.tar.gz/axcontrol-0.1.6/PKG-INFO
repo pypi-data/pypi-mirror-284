@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: axcontrol
+Version: 0.1.6
+Summary: AxControl is a Windows 10/11 UI Automation tool developed by aubex Gmbh, Hockenheim.
+Author-email: Marius Räsener <marius.raesener@aubex.de>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: uiautomation>=2.0.19
+Requires-Dist: pynput>=1.7.7
+Requires-Dist: pyperclip>=1.9.0
+Requires-Dist: pywin32>=306
+Project-URL: Source, https://github.com/aubex/axcontrol
+
+# axcontrol - aubex control
+
+This project is a Windows UI automation tool that provides users some helpers and tools and allows to generate Python code for UI interactions by simply clicking on elements in any application. It uses UI Automation to detect controls, highlights them in real-time, and generates corresponding Python code for interacting with these controls.
+
+## Features
+
+- Real-time control detection and highlighting
+- Code generation for UI interactions
+- Modular architecture for easy extension and maintenance
+
+## Requirements
+
+- Python 3.10+
+- tkinter
+- pyperclip
+- uiautomation
+- pynput
+
+## Installation
+
+`pip install axcontrol` 
+
+## Project Structure
+
+- `main.py`: The entry point of the application
+- `gui.py`: GUI-related code
+- `listeners/input.py`: Mouse and keyboard event handling
+- `control_finder.py`: Control finding and highlighting logic
+- `code_generator.py`: Code generation and file writing
+- `clipboard_utils.py`: Clipboard-related functions
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the APACHE2 License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to the creators of the `uiautomation`, the other dependencies and of course the `Python community` for making `axcontrol` possible.

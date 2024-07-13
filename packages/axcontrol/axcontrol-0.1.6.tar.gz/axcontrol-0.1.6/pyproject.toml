@@ -1,0 +1,32 @@
+[project]
+name = "axcontrol"
+description = "AxControl is a Windows 10/11 UI Automation tool developed by aubex Gmbh, Hockenheim."
+version = "0.1.6"
+requires-python = ">=3.10"
+readme = "README.md"
+authors = [{ name = "Marius Räsener", email = "marius.raesener@aubex.de" }]
+dependencies = [
+    "uiautomation>=2.0.19",
+    "pynput>=1.7.7",
+    "pyperclip>=1.9.0",
+    "pywin32>=306",
+]
+classifiers = [
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[project.urls]
+Source = "https://github.com/aubex/axcontrol"
+
+[project.scripts]
+axcontrol = "axcontrol.app:main"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
