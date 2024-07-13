@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/deny_me/__init__.py
+src/deny_me/exceptions.py
+src/deny_me/password.py
+src/deny_me/restrict.py
+src/deny_me.egg-info/PKG-INFO
+src/deny_me.egg-info/SOURCES.txt
+src/deny_me.egg-info/dependency_links.txt
+src/deny_me.egg-info/top_level.txt
+tests/test_custom.py
+tests/test_once.py
+tests/test_password.py
+tests/test_twice.py

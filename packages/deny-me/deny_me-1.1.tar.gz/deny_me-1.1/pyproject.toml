@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deny-me"
+version = "1.1"
+description = "A python library for function decorators to restrict access to functions and much more"
+requires-python = ">=3.12"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = { file = "LICENSE" }
+authors = [{name = "Soumyo Deep Gupta", email = "deep.main.ac@gmail.com"}]
+maintainers = [{name = "Soumyo Deep Gupta", email = "deep.main.ac@gmail.com"}]
+keywords = ["d33pster", "deny-me", "deny", "me", "decorators"]
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+GitHub = "https://github.com/d33pster/deny-me"
