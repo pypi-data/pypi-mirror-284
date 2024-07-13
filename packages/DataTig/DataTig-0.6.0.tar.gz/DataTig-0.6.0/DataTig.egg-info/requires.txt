@@ -1,0 +1,16 @@
+Jinja2<3.1
+Pygments
+dateparser
+jsonschema
+pytz
+pyyaml
+
+[Dev]
+black==22.6.0
+flake8==4.0.1
+isort==5.10.1
+mypy==0.971
+pytest==7.1.2
+
+[localserver]
+flask
