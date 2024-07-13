@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: imkernel
+Version: 0.1.1
+Summary: imkernel for python
+Home-page: https://github.com/MermengM/imkernel_python
+Author: ermeng
+Author-email: ermeng@ermeng.fun
+License: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Bug Tracker, https://github.com/MermengM/imkernel_python/issues
+Keywords: IMKernel kernel IM IL
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+License-File: LICENSE
+
+imkernel是基于三维四层统一模型（IM)理念以及工业语言(IL)构建的python类库
