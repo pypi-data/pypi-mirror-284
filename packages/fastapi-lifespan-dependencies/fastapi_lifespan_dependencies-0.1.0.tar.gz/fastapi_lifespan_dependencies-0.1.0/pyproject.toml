@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "fastapi-lifespan-dependencies"
+version = "0.1.0"
+description = "Allows for the creation of lifespan dependencies - FastAPI dependencies that are only run once per app."
+authors = ["Ruvi Kaplan <thepokoranan@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/Chicken-3001/fastapi-lifespan-dependencies"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+mypy = "^1.9.0"
+uvicorn = "^0.29.0"
+pytest = "^8.2.2"
+asgi-lifespan = "^2.1.0"
+pytest-asyncio = "^0.23.7"
+httpx = "^0.27.0"
+redis = "^5.0.7"
+pydantic-settings = "^2.3.4"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[tool.ruff.lint]
+select = ["E", "F", "UP"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
