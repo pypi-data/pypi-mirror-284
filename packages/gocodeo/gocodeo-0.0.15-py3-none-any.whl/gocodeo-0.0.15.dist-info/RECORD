@@ -1,0 +1,12 @@
+gocodeo/__init__.py,sha256=t9J7qNrqT06EPY1vCv6sIJcSCLSkn7WrePS05_zueHE,249
+gocodeo/demo.py,sha256=BhGOt4L1L_z9ebuY2H8hzldy6jxncB_oycN8sdT7ysM,20361
+gocodeo/executable.py,sha256=l1HELKlkALUP4djBP6Fo_c0QMZEmuYucuYzHAtv1xcQ,19945
+gocodeo/generalized.py,sha256=6Imf5cbNpO1-1l45wMmRe0kWLkin2Uqk-b7vIrHXJxo,19024
+gocodeo/generator.py,sha256=pEGVG5ZWD2QPsbFazC37peuvsdATdQKUiPTAcBrYLqQ,31427
+gocodeo/python_demo.py,sha256=xpI57tKNOPVOa0ZPDjbavFNxeAX8BHwLHx1aR11HEpM,16789
+gocodeo/train.py,sha256=90x5JmassZh-qofguqBfFNQkj0_JbgjjHEBf9tmtZ3Q,7458
+gocodeo-0.0.15.dist-info/METADATA,sha256=MsLVplnrbhlOJB2eBcL5ew2SdhLijLby_xQPKBiZHnc,808
+gocodeo-0.0.15.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+gocodeo-0.0.15.dist-info/entry_points.txt,sha256=XCjL-bQ1Sao6nq7b-KQYxj0pFGBbuhpeJOD9R3NtBh0,122
+gocodeo-0.0.15.dist-info/top_level.txt,sha256=9FhSryXrrNuASdsJ_dmeOiN_Bu5jcC4Ji6uJ_WVcKhc,8
+gocodeo-0.0.15.dist-info/RECORD,,
