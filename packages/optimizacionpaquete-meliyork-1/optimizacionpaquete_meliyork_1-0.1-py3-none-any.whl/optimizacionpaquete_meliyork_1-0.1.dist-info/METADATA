@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: optimizacionpaquete_meliyork_1
+Version: 0.1
+Summary: 'Un paquete de Python para algoritmos de optimización univariables y multivariables'
+Author: meliyorksan
+Author-email: <kukie821@hotmail.com>
+Keywords: python,primer paquete
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Requires-Dist: numpy
+
