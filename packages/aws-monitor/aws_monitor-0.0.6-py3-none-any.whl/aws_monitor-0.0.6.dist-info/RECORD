@@ -1,0 +1,7 @@
+aws_monitoring/__init__.py,sha256=Kj5IrVHT7ZgGIxnH4CBRiluqyiEjTWd3nXS5NHOCsS4,845
+aws_monitoring/config.py,sha256=YvOvZfh8HGGwSFbm_Tk0jkAViT-yB_6ZOklvMr7Sfwo,1224
+aws_monitor-0.0.6.dist-info/METADATA,sha256=z5t3ahuOCRKmd9o0UPn95ifFjYAcJD_XQEi4Jwj1_ZI,734
+aws_monitor-0.0.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+aws_monitor-0.0.6.dist-info/entry_points.txt,sha256=lmtfzXaD8WqkKElg9fkKluyKS8dPNunq8r5rrXHq02E,50
+aws_monitor-0.0.6.dist-info/top_level.txt,sha256=XRaKjoAcV6xGCz3UKWaccE9iI0f4UUTEHZPQHWfxAxs,15
+aws_monitor-0.0.6.dist-info/RECORD,,
