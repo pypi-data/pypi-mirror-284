@@ -1,0 +1,9 @@
+conversiontelemetry/conversiontelemetry.py,sha256=bJJTIayuGjQlMcm6GqTTLtKWOXJ9rk6xilLmGu3VqVg,2597
+conversiontelemetry/curl_get.sh,sha256=eba6lAGFY9h_Hnz60gFs4w0sWtRTGkEzWOXQy7MeqJU,31
+conversiontelemetry/curl_post.sh,sha256=YS1NaI2iAAxA4VjNe0I9sUdZG6RMcmCT6EpOFSDR10U,221
+conversiontelemetry/run_app.py,sha256=C70qWro5CyMgjo1nVmf_3y4ZNYoN5cOaFQmvnjElQcg,558
+conversiontelemetry/setup_app.py,sha256=OPD1G2-tTgzJCepUF5tFKZ8LfFtZfHFOggu_XKAX834,2458
+conversiontelemetry-0.0.1.dist-info/METADATA,sha256=HoHW3dsot_-czRBEuPVf4pqhqFKSQdjiRrb3EPxPxV4,2856
+conversiontelemetry-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+conversiontelemetry-0.0.1.dist-info/entry_points.txt,sha256=W9j2BkEZHDtv2u1k7eXLe2HO8kDE17mGznihRH0ojhQ,119
+conversiontelemetry-0.0.1.dist-info/RECORD,,
