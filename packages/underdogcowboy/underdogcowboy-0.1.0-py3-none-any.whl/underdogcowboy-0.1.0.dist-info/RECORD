@@ -1,0 +1,9 @@
+underdogcowboy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+underdogcowboy/main.py,sha256=NvcrWI_mgKZzfGPJNKK1jm-rpu3Zxygb1BK9muWgLOU,304
+underdogcowboy/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+underdogcowboy/core/game_logic.py,sha256=V8r8lUu6PTje3L419X81wzMWLqWLg2GMI9tYu5fF4ts,43
+underdogcowboy-0.1.0.dist-info/METADATA,sha256=Qi7dRc8xFBaIRtCdgLtZk9CN1hbfjs0Wd1AMxsaqK5A,3822
+underdogcowboy-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+underdogcowboy-0.1.0.dist-info/entry_points.txt,sha256=OEHrMHHDAkj8Rcyn_zXz92HQCTczg6A0-QSWdCWgr90,60
+underdogcowboy-0.1.0.dist-info/top_level.txt,sha256=BCuj94WnbWh1RgpnwO1U9QI2YWPTpCv0wVl20IcaVMw,15
+underdogcowboy-0.1.0.dist-info/RECORD,,
