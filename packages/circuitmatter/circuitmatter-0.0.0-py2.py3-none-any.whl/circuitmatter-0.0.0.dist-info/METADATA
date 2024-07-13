@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: circuitmatter
+Version: 0.0.0
+Summary: Pure Python implementation of the Matter IOT protocol.
+Author-email: Scott Shawcroft <scott@adafruit.com>
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/adafruit/circuitmatter
