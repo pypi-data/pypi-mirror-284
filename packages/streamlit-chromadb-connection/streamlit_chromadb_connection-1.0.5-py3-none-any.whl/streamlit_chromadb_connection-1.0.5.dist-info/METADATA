@@ -1,0 +1,333 @@
+Metadata-Version: 2.1
+Name: streamlit_chromadb_connection
+Version: 1.0.5
+Summary: A simple adapter connection for any Streamlit LLM-powered app to use ChromaDB vector database.
+Author-email: Dev317 <mineskiroxro@gmail.com>
+Project-URL: Homepage, https://github.com/Dev317/streamlit_chromadb_connection
+Project-URL: Issues, https://github.com/Dev317/streamlit_chromadb_connection/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: altair ==5.3.0
+Requires-Dist: annotated-types ==0.7.0
+Requires-Dist: anyio ==4.4.0
+Requires-Dist: asgiref ==3.8.1
+Requires-Dist: attrs ==23.2.0
+Requires-Dist: backoff ==2.2.1
+Requires-Dist: bcrypt ==4.1.3
+Requires-Dist: blinker ==1.8.2
+Requires-Dist: build ==1.2.1
+Requires-Dist: cachetools ==5.3.3
+Requires-Dist: certifi ==2024.7.4
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: chroma-hnswlib ==0.7.3
+Requires-Dist: chromadb ==0.5.3
+Requires-Dist: click ==8.1.7
+Requires-Dist: coloredlogs ==15.0.1
+Requires-Dist: Deprecated ==1.2.14
+Requires-Dist: dnspython ==2.6.1
+Requires-Dist: email-validator ==2.2.0
+Requires-Dist: fastapi ==0.111.0
+Requires-Dist: fastapi-cli ==0.0.4
+Requires-Dist: filelock ==3.15.4
+Requires-Dist: flatbuffers ==24.3.25
+Requires-Dist: fsspec ==2024.6.1
+Requires-Dist: gitdb ==4.0.11
+Requires-Dist: GitPython ==3.1.43
+Requires-Dist: google-auth ==2.32.0
+Requires-Dist: googleapis-common-protos ==1.63.2
+Requires-Dist: grpcio ==1.64.1
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: httpcore ==1.0.5
+Requires-Dist: httptools ==0.6.1
+Requires-Dist: httpx ==0.27.0
+Requires-Dist: huggingface-hub ==0.23.4
+Requires-Dist: humanfriendly ==10.0
+Requires-Dist: idna ==3.7
+Requires-Dist: importlib-metadata ==7.1.0
+Requires-Dist: importlib-resources ==6.4.0
+Requires-Dist: Jinja2 ==3.1.4
+Requires-Dist: jsonschema ==4.23.0
+Requires-Dist: jsonschema-specifications ==2023.12.1
+Requires-Dist: kubernetes ==30.1.0
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: MarkupSafe ==2.1.5
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: mmh3 ==4.1.0
+Requires-Dist: monotonic ==1.6
+Requires-Dist: mpmath ==1.3.0
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: oauthlib ==3.2.2
+Requires-Dist: onnxruntime ==1.18.1
+Requires-Dist: opentelemetry-api ==1.25.0
+Requires-Dist: opentelemetry-exporter-otlp-proto-common ==1.25.0
+Requires-Dist: opentelemetry-exporter-otlp-proto-grpc ==1.25.0
+Requires-Dist: opentelemetry-instrumentation ==0.46b0
+Requires-Dist: opentelemetry-instrumentation-asgi ==0.46b0
+Requires-Dist: opentelemetry-instrumentation-fastapi ==0.46b0
+Requires-Dist: opentelemetry-proto ==1.25.0
+Requires-Dist: opentelemetry-sdk ==1.25.0
+Requires-Dist: opentelemetry-semantic-conventions ==0.46b0
+Requires-Dist: opentelemetry-util-http ==0.46b0
+Requires-Dist: orjson ==3.10.6
+Requires-Dist: overrides ==7.7.0
+Requires-Dist: packaging ==24.1
+Requires-Dist: pandas ==2.2.2
+Requires-Dist: pillow ==10.4.0
+Requires-Dist: posthog ==3.5.0
+Requires-Dist: protobuf ==4.25.3
+Requires-Dist: pyarrow ==16.1.0
+Requires-Dist: pyasn1 ==0.6.0
+Requires-Dist: pyasn1-modules ==0.4.0
+Requires-Dist: pydantic ==2.8.2
+Requires-Dist: pydantic-core ==2.20.1
+Requires-Dist: pydeck ==0.9.1
+Requires-Dist: Pygments ==2.18.0
+Requires-Dist: PyPika ==0.48.9
+Requires-Dist: pyproject-hooks ==1.1.0
+Requires-Dist: python-dateutil ==2.9.0.post0
+Requires-Dist: python-dotenv ==1.0.1
+Requires-Dist: python-multipart ==0.0.9
+Requires-Dist: pytz ==2024.1
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: referencing ==0.35.1
+Requires-Dist: requests ==2.32.3
+Requires-Dist: requests-oauthlib ==2.0.0
+Requires-Dist: rich ==13.7.1
+Requires-Dist: rpds-py ==0.19.0
+Requires-Dist: rsa ==4.9
+Requires-Dist: setuptools ==70.3.0
+Requires-Dist: shellingham ==1.5.4
+Requires-Dist: six ==1.16.0
+Requires-Dist: smmap ==5.0.1
+Requires-Dist: sniffio ==1.3.1
+Requires-Dist: starlette ==0.37.2
+Requires-Dist: streamlit ==1.36.0
+Requires-Dist: sympy ==1.13.0
+Requires-Dist: tenacity ==8.5.0
+Requires-Dist: tokenizers ==0.19.1
+Requires-Dist: toml ==0.10.2
+Requires-Dist: toolz ==0.12.1
+Requires-Dist: tornado ==6.4.1
+Requires-Dist: tqdm ==4.66.4
+Requires-Dist: typer ==0.12.3
+Requires-Dist: typing-extensions ==4.12.2
+Requires-Dist: tzdata ==2024.1
+Requires-Dist: ujson ==5.10.0
+Requires-Dist: urllib3 ==2.2.2
+Requires-Dist: uvicorn ==0.30.1
+Requires-Dist: uvloop ==0.19.0
+Requires-Dist: watchfiles ==0.22.0
+Requires-Dist: websocket-client ==1.8.0
+Requires-Dist: websockets ==12.0
+Requires-Dist: wrapt ==1.16.0
+Requires-Dist: zipp ==3.19.2
+
+# 📂 ChromaDBConnection
+
+![Demo Screen Shot](https://github.com/Dev317/streamlit_chromadb_connection/blob/236d4c4cecbd56c19695f55b20b58492518e8300/demo_ss.png?raw=True)
+
+Connection for Chroma vector database, `ChromaDBConnection`, has been released which makes it easy to connect any Streamlit LLM-powered app to.
+
+With `st.connection()`, connecting to a Chroma vector database becomes just a few lines of code:
+
+
+```python
+import streamlit as st
+from streamlit_chromadb_connection.chromadb_connection import ChromadbConnection
+
+configuration = {
+    "client": "PersistentClient",
+    "path": "/tmp/.chroma"
+}
+
+collection_name = "documents_collection"
+
+conn = st.connection("chromadb",
+                     type=ChromaDBConnection,
+                     **configuration)
+documents_collection_df = conn.get_collection_data(collection_name)
+st.dataframe(documents_collection_df)
+```
+
+## 📑 ChromaDBConnection API
+
+### _connect()
+There are 2 ways to connect to a Chroma client:
+1. **PersistentClient**: Data will be persisted to a local machine
+    ```python
+    import streamlit as st
+    from streamlit_chromadb_connection.chromadb_connection import ChromadbConnection
+
+    configuration = {
+        "client": "PersistentClient",
+        "path": "/tmp/.chroma"
+    }
+
+    conn = st.connection(name="persistent_chromadb",
+                         type=ChromadbConnection,
+                         **configuration)
+    ```
+
+2. **HttpClient**: Data will be persisted to a cloud server where Chroma resides
+    ```python
+    import streamlit as st
+    from streamlit_chromadb_connection.chromadb_connection import ChromadbConnection
+
+    configuration = {
+        "client": "HttpClient",
+        "host": "localhost",
+        "port": 8000,
+    }
+
+    conn = st.connection(name="http_connection",
+                         type=ChromadbConnection,
+                         **configuration)
+    ```
+
+
+### create_collection()
+In order to create a Chroma collection, one needs to supply a `collection_name` and `embedding_function_name`, `embedding_config` and (optional) `metadata`.
+
+There are current possible options for `embedding_function_name`:
+- DefaultEmbeddingFunction
+- SentenceTransformerEmbeddingFunction
+- OpenAIEmbeddingFunction
+- CohereEmbeddingFunction
+- GooglePalmEmbeddingFunction
+- GoogleVertexEmbeddingFunction
+- HuggingFaceEmbeddingFunction
+- InstructorEmbeddingFunction
+- Text2VecEmbeddingFunction
+- ONNXMiniLM_L6_V2
+
+For `DefaultEmbeddingFunction`, the `embedding_config` argument can be left as an empty string. However, for other embedding functions such as `OpenAIEmbeddingFunction`, one needs to provide configuration such as:
+
+```python
+embedding_config = {
+    api_key: "{OPENAI_API_KEY}",
+    model_name: "{OPENAI_MODEL}",
+}
+```
+
+One can also change the distance function by changing the `metadata` argument, such as:
+
+```python
+metadata = {"hnsw:space": "l2"} # Squared L2 norm
+metadata = {"hnsw:space": "cosine"} # Cosine similarity
+metadata = {"hnsw:space": "ip"} # Inner product
+```
+
+Sample code to create connection:
+
+```python
+collection_name = "documents_collection"
+embedding_function_name = "DefaultEmbeddingFunction"
+conn.create_collection(collection_name=collection_name,
+                       embedding_function_name=embedding_function_name,
+                       embedding_config={},
+                       metadata = {"hnsw:space": "cosine"})
+```
+
+### get_collection_data()
+This method returns a dataframe that consists of the embeddings and documents of a collection.
+The `attributes` argument is a list of attributes to be included in the DataFrame.
+The following code snippet will return all data in a collection in the form of a DataFrame, with 2 columns: `documents` and `embeddings`.
+
+```python
+collection_name = "documents_collection"
+conn.get_collection_data(collection_name=collection_name,
+                         attributes= ["documents", "embeddings"])
+```
+
+### delete_collection()
+This method deletes the stated collection name.
+
+```python
+collection_name = "documents_collection"
+conn.delete_collection(collection_name=collection_name)
+```
+
+### upload_documents()
+This method uploads documents to a collection.
+If embeddings are not provided, the method will embed the documents using the embedding function specified in the collection.
+
+
+```python
+collection_name = "documents_collection"
+embedding_function_name = "DefaultEmbeddingFunction"
+embedding_config = {}
+conn.upload_documents(collection_name=collection_name,
+                      documents=["lorem ipsum", "doc2", "doc3"],
+                      metadatas=[{"chapter": "3", "verse": "16"}, {"chapter": "3", "verse": "5"}, {"chapter": "29", "verse": "11"}],
+                      embeeding_function_name=embedding_function_name,
+                      embedding_config=embedding_config,
+                      ids=["id1", "id2", "id3"])
+```
+
+### update_collection_data()
+This method updates documents in a collection based on their ids.
+
+```python
+embedding_function_name = "DefaultEmbeddingFunction"
+embedding_config = {}
+conn.upload_documents(collection_name=collection_name,
+                     documents=["this is a", "this is b", "this is c"],
+                     metadatas=[{"chapter": "3", "verse": "16"}, {"chapter": "3", "verse": "5"}, {"chapter": "29", "verse": "11"}],
+                     embeeding_function_name=embedding_function_name,
+                     embedding_config=embedding_config,
+                     ids=["id1", "id2", "id3"])
+
+conn.update_collection_data(collection_name=collection_name,
+                            documents=["this is b", "this is c", "this is d"],
+                            embeeding_function_name=embedding_function_name,
+                            embedding_config=embedding_config,
+                            ids=["id1", "id2", "id3"])
+```
+
+### query()
+This method retrieves top k relevant document based on a list of queries supplied.
+The result will be in a dataframe where each row will shows the top k relevant documents of each query.
+
+```python
+collection_name = "documents_collection"
+embedding_function_name = "DefaultEmbeddingFunction"
+embedding_config = {}
+conn.upload_documents(collection_name=collection_name,
+                     documents=["lorem ipsum", "doc2", "doc3"],
+                     metadatas=[{"chapter": "3", "verse": "16"}, {"chapter": "3", "verse": "5"}, {"chapter": "29", "verse": "11"}],
+                     ids=["id1", "id2", "id3"],
+                     embeeding_function_name=embedding_function_name,
+                     embedding_config=embedding_config,
+                     embeddings=None)
+
+queried_data = conn.query(collection_name=collection_name,
+                          query=["random_query1", "random_query2"],
+                          num_results_limit=10,
+                          attributes=["documents", "embeddings", "metadatas", "data"])
+```
+
+Metadata and document filters are also provided in `where_metadata_filter` and `where_document_filter` arguments respectively for more relevant search. For better understanding on the usage of where filters, please refer to: https://docs.trychroma.com/usage-guide#using-where-filters
+
+```python
+queried_data = conn.query(collection_name=collection_name,
+                          query=["this is"],
+                          num_results_limit=10,
+                          attributes=["documents", "embeddings", "metadatas", "data"],
+                          where_metadata_filter={"chapter": "3"})
+```
+
+
+***
+🎉 That's it! `ChromaDBConnection` is ready to be used with `st.connection()`. 🎉
+***
+
+## Contribution 🔥
+```
+author={Vu Quang Minh},
+github={Dev317},
+year={2023}
+```
