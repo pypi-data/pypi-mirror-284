@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: agentifyme
+Version: 0.0.7
+Summary: Framework for building agentic workflows
+License: Apache-2.0
+Author: Arun Reddy
+Author-email: arun@botifyme.dev
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: autoregistry (>=1.1.2,<2.0.0)
+Requires-Dist: cloudpickle (>=3.0.0,<4.0.0)
+Requires-Dist: docstring-parser (>=0.15,<0.16)
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: openai (>=1.35.13,<2.0.0)
+Requires-Dist: pydantic (>=2.7.0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: python-slugify (>=8.0.4,<9.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: structlog (>=24.2.0,<25.0.0)
+Requires-Dist: tenacity (>=8.2.3,<9.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# agenticpy
+Framework for agentic workflows
+
