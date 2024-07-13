@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+catalogdata/__init__.py
+catalogdata/folder_img_data.py
+catalogdata.egg-info/PKG-INFO
+catalogdata.egg-info/SOURCES.txt
+catalogdata.egg-info/dependency_links.txt
+catalogdata.egg-info/top_level.txt
