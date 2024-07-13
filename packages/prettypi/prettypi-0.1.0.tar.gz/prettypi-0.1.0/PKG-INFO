@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: prettypi
+Version: 0.1.0
+Summary: A Python library for pretty printing and enhanced console output.
+Author: Vodkas
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+Requires-Dist: setuptools

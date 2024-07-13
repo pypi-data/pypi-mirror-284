@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+prettypi/__init__.py
+prettypi.egg-info/PKG-INFO
+prettypi.egg-info/SOURCES.txt
+prettypi.egg-info/dependency_links.txt
+prettypi.egg-info/requires.txt
+prettypi.egg-info/top_level.txt
+tests/__init__.py
+tests/test_test.py
