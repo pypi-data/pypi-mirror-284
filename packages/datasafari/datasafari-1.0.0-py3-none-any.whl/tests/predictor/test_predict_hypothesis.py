@@ -1,0 +1,407 @@
+import pytest
+import numpy as np
+import pandas as pd
+from datasafari.predictor.predict_hypothesis import hypothesis_predictor_core_n, hypothesis_predictor_core_c, predict_hypothesis
+
+
+@pytest.fixture
+def sample_data_hpcn():
+    """ Provides sample data for hypothesis_predictor_core_n() tests. """
+    return pd.DataFrame({
+        'Group': np.random.choice(['A', 'B', 'C'], 100),
+        'Value': np.random.normal(0, 1, 100)
+    })
+
+
+@pytest.fixture
+def sample_contingency_table():
+    """ Provides a sample contingency table for hypothesis_predictor_core_c() tests. """
+    return pd.crosstab(
+        index=np.random.choice(['A', 'B'], 50),
+        columns=np.random.choice(['X', 'Y'], 50)
+    )
+
+
+@pytest.fixture
+def sample_data_ph():
+    """ Provides sample data for predict_ml() tests. """
+    return pd.DataFrame({
+        'Group': np.random.choice(['Control', 'Treatment'], size=100),
+        'Score': np.random.normal(0, 1, 100),
+        'Category': np.random.choice(['Type1', 'Type2'], size=100),
+        'Feature2': np.random.exponential(1, 100)
+    })
+
+
+# TESTING ERROR-HANDLING for hypothesis_predictor_core_n() #
+
+def test_hypothesis_predictor_core_n_non_dataframe_input():
+    """ Test that non-DataFrame input raises a TypeError. """
+    with pytest.raises(TypeError, match="pandas DataFrame"):
+        hypothesis_predictor_core_n("not_a_dataframe", 'Value', 'Group', True, True)
+
+
+def test_hypothesis_predictor_core_n_non_string_target_variable(sample_data_hpcn):
+    """ Test that non-string target_variable raises a TypeError. """
+    with pytest.raises(TypeError, match="must be a string"):
+        hypothesis_predictor_core_n(sample_data_hpcn, 123, 'Group', True, True)
+
+
+def test_hypothesis_predictor_core_n_non_string_grouping_variable(sample_data_hpcn):
+    """ Test that non-string grouping_variable raises a TypeError. """
+    with pytest.raises(TypeError, match="must be a string"):
+        hypothesis_predictor_core_n(sample_data_hpcn, 'Value', 123, True, True)
+
+
+def test_hypothesis_predictor_core_n_non_boolean_normality_bool(sample_data_hpcn):
+    """ Test that non-boolean normality_bool raises a TypeError. """
+    with pytest.raises(TypeError, match="must be a boolean"):
+        hypothesis_predictor_core_n(sample_data_hpcn, 'Value', 'Group', 'yes', True)
+
+
+def test_hypothesis_predictor_core_n_non_boolean_equal_variances_bool(sample_data_hpcn):
+    """ Test that non-boolean equal_variances_bool raises a TypeError. """
+    with pytest.raises(TypeError, match="must be a boolean"):
+        hypothesis_predictor_core_n(sample_data_hpcn, 'Value', 'Group', True, 'yes')
+
+
+def test_hypothesis_predictor_core_n_empty_dataframe():
+    """ Test that empty DataFrame raises a ValueError. """
+    df_empty = pd.DataFrame()
+    with pytest.raises(ValueError, match="input DataFrame is empty"):
+        hypothesis_predictor_core_n(df_empty, 'Value', 'Group', True, True)
+
+
+def test_hypothesis_predictor_core_n_non_existent_target_variable(sample_data_hpcn):
+    """ Test that non-existent target_variable raises a ValueError. """
+    with pytest.raises(ValueError, match="target variable 'NonExistentVar'"):
+        hypothesis_predictor_core_n(sample_data_hpcn, 'NonExistentVar', 'Group', True, True)
+
+
+def test_hypothesis_predictor_core_n_non_existent_grouping_variable(sample_data_hpcn):
+    """ Test that non-existent grouping_variable raises a ValueError. """
+    with pytest.raises(ValueError, match="grouping variable 'NonExistentVar'"):
+        hypothesis_predictor_core_n(sample_data_hpcn, 'Value', 'NonExistentVar', True, True)
+
+
+def test_hypothesis_predictor_core_n_non_numerical_target_variable(sample_data_hpcn):
+    """ Test that non-numerical target_variable raises a ValueError. """
+    sample_data_hpcn['NonNumeric'] = ['A'] * 100
+    with pytest.raises(ValueError, match="must be a numerical variable"):
+        hypothesis_predictor_core_n(sample_data_hpcn, 'NonNumeric', 'Group', True, True)
+
+
+def test_hypothesis_predictor_core_n_non_categorical_grouping_variable(sample_data_hpcn):
+    """ Test that non-categorical grouping_variable raises a ValueError. """
+    sample_data_hpcn['NonCategorical'] = np.linspace(0, 1, 100)
+    with pytest.raises(ValueError, match="must be a categorical variable"):
+        hypothesis_predictor_core_n(sample_data_hpcn, 'Value', 'NonCategorical', True, True)
+
+
+# TESTING FUNCTIONALITY for hypothesis_predictor_core_n() #
+
+def test_hypothesis_predictor_core_n_ttest(sample_data_hpcn):
+    """ Test independent samples t-test for two groups. """
+    sample_data_hpcn['Group'] = np.random.choice(['A', 'B'], 100)
+    result = hypothesis_predictor_core_n(sample_data_hpcn, 'Value', 'Group', True, True)
+    assert 'ttest_ind' in result
+    assert 'stat' in result['ttest_ind']
+    assert 'p_val' in result['ttest_ind']
+    assert result['ttest_ind']['test_name'] == 'Independent Samples T-Test'
+
+
+def test_hypothesis_predictor_core_n_mannwhitney(sample_data_hpcn):
+    """ Test Mann-Whitney U test for two groups. """
+    sample_data_hpcn['Group'] = np.random.choice(['A', 'B'], 100)
+    result = hypothesis_predictor_core_n(sample_data_hpcn, 'Value', 'Group', False, False)
+    assert 'mannwhitneyu' in result
+    assert 'stat' in result['mannwhitneyu']
+    assert 'p_val' in result['mannwhitneyu']
+    assert result['mannwhitneyu']['test_name'] == 'Mann-Whitney U Rank Test (Two Independent Samples)'
+
+
+def test_hypothesis_predictor_core_n_anova(sample_data_hpcn):
+    """ Test one-way ANOVA for three groups. """
+    sample_data_hpcn['Group'] = np.random.choice(['A', 'B', 'C'], 100)
+    result = hypothesis_predictor_core_n(sample_data_hpcn, 'Value', 'Group', True, True)
+    assert 'f_oneway' in result
+    assert 'stat' in result['f_oneway']
+    assert 'p_val' in result['f_oneway']
+    assert result['f_oneway']['test_name'] == 'One-way ANOVA (with 3 groups)'
+
+
+def test_hypothesis_predictor_core_n_kruskal(sample_data_hpcn):
+    """ Test Kruskal-Wallis H-test for three groups. """
+    sample_data_hpcn['Group'] = np.random.choice(['A', 'B', 'C'], 100)
+    result = hypothesis_predictor_core_n(sample_data_hpcn, 'Value', 'Group', False, False)
+    assert 'kruskal' in result
+    assert 'stat' in result['kruskal']
+    assert 'p_val' in result['kruskal']
+    assert result['kruskal']['test_name'] == 'Kruskal-Wallis H-test (with 3 groups)'
+
+
+def test_hypothesis_predictor_core_n_more_than_three_groups(sample_data_hpcn):
+    """ Test ANOVA with more than three groups. """
+    sample_data_hpcn['Group'] = np.random.choice(['A', 'B', 'C', 'D'], 100)
+    result = hypothesis_predictor_core_n(sample_data_hpcn, 'Value', 'Group', True, True)
+    assert 'f_oneway' in result
+    assert 'stat' in result['f_oneway']
+    assert 'p_val' in result['f_oneway']
+    assert result['f_oneway']['test_name'] == 'One-way ANOVA (with 4 groups)'
+
+
+# TESTING ERROR-HANDLING for hypothesis_predictor_core_c() #
+
+def test_hypothesis_predictor_core_c_invalid_df():
+    """ Test that non-DataFrame input raises a TypeError. """
+    with pytest.raises(TypeError):
+        hypothesis_predictor_core_c("not a dataframe", True, True, True, True, True)
+
+
+def test_hypothesis_predictor_core_c_invalid_chi2_viability(sample_contingency_table):
+    """ Test that non-boolean chi2_viability raises a TypeError. """
+    with pytest.raises(TypeError):
+        hypothesis_predictor_core_c(sample_contingency_table, "not boolean", True, True, True, True)
+
+
+def test_hypothesis_predictor_core_c_invalid_barnard_viability(sample_contingency_table):
+    """ Test that non-boolean barnard_viability raises a TypeError. """
+    with pytest.raises(TypeError):
+        hypothesis_predictor_core_c(sample_contingency_table, True, "not boolean", True, True, True)
+
+
+def test_hypothesis_predictor_core_c_invalid_boschloo_viability(sample_contingency_table):
+    """ Test that non-boolean boschloo_viability raises a TypeError. """
+    with pytest.raises(TypeError):
+        hypothesis_predictor_core_c(sample_contingency_table, True, True, "not boolean", True, True)
+
+
+def test_hypothesis_predictor_core_c_invalid_fisher_viability(sample_contingency_table):
+    """ Test that non-boolean fisher_viability raises a TypeError. """
+    with pytest.raises(TypeError):
+        hypothesis_predictor_core_c(sample_contingency_table, True, True, True, "not boolean", True)
+
+
+def test_hypothesis_predictor_core_c_invalid_yates_correction_viability(sample_contingency_table):
+    """ Test that non-boolean yates_correction_viability raises a TypeError. """
+    with pytest.raises(TypeError):
+        hypothesis_predictor_core_c(sample_contingency_table, True, True, True, True, "not boolean")
+
+
+def test_hypothesis_predictor_core_c_invalid_alternative_type(sample_contingency_table):
+    """ Test that non-string alternative raises a TypeError. """
+    with pytest.raises(TypeError):
+        hypothesis_predictor_core_c(sample_contingency_table, True, True, True, True, True, alternative=123)
+
+
+def test_hypothesis_predictor_core_c_invalid_alternative_value(sample_contingency_table):
+    """ Test that invalid string alternative raises a ValueError. """
+    with pytest.raises(ValueError):
+        hypothesis_predictor_core_c(sample_contingency_table, True, True, True, True, True, alternative="invalid")
+
+
+def test_hypothesis_predictor_core_c_empty_contingency_table():
+    """ Test handling of empty contingency table. """
+    empty_contingency_table = pd.DataFrame()
+    with pytest.raises(ValueError):
+        hypothesis_predictor_core_c(empty_contingency_table, True, True, True, True, True)
+
+
+# TESTING FUNCTIONALITY for hypothesis_predictor_core_c() #
+
+def test_hypothesis_predictor_core_c_chi2_without_yates(sample_contingency_table):
+    """ Test Chi-square test without Yates' correction. """
+    result = hypothesis_predictor_core_c(sample_contingency_table, True, False, False, False, False)
+    assert "chi2_contingency" in result
+    assert "stat" in result["chi2_contingency"]
+    assert "p_val" in result["chi2_contingency"]
+    assert "conclusion" in result["chi2_contingency"]
+    assert "yates_correction" in result["chi2_contingency"]
+    assert result["chi2_contingency"]["yates_correction"] is False
+
+
+def test_hypothesis_predictor_core_c_chi2_with_yates(sample_contingency_table):
+    """ Test Chi-square test with Yates' correction. """
+    result = hypothesis_predictor_core_c(sample_contingency_table, True, False, False, False, True)
+    assert "chi2_contingency" in result
+    assert "stat" in result["chi2_contingency"]
+    assert "p_val" in result["chi2_contingency"]
+    assert "conclusion" in result["chi2_contingency"]
+    assert "yates_correction" in result["chi2_contingency"]
+    assert result["chi2_contingency"]["yates_correction"] is True
+
+
+def test_hypothesis_predictor_core_c_barnard(sample_contingency_table):
+    """ Test Barnard's exact test. """
+    result = hypothesis_predictor_core_c(sample_contingency_table, False, True, False, False, False)
+    assert "barnard_exact" in result
+    assert "stat" in result["barnard_exact"]
+    assert "p_val" in result["barnard_exact"]
+    assert "conclusion" in result["barnard_exact"]
+    assert "alternative" in result["barnard_exact"]
+    assert result["barnard_exact"]["alternative"] == "two-sided"
+
+
+def test_hypothesis_predictor_core_c_boschloo(sample_contingency_table):
+    """ Test Boschloo's exact test. """
+    result = hypothesis_predictor_core_c(sample_contingency_table, False, False, True, False, False)
+    assert "boschloo_exact" in result
+    assert "stat" in result["boschloo_exact"]
+    assert "p_val" in result["boschloo_exact"]
+    assert "conclusion" in result["boschloo_exact"]
+    assert "alternative" in result["boschloo_exact"]
+    assert result["boschloo_exact"]["alternative"] == "two-sided"
+
+
+def test_hypothesis_predictor_core_c_fisher(sample_contingency_table):
+    """ Test Fisher's exact test. """
+    result = hypothesis_predictor_core_c(sample_contingency_table, False, False, False, True, False)
+    assert "fisher_exact" in result
+    assert "stat" in result["fisher_exact"]
+    assert "p_val" in result["fisher_exact"]
+    assert "conclusion" in result["fisher_exact"]
+    assert "alternative" in result["fisher_exact"]
+    assert result["fisher_exact"]["alternative"] == "two-sided"
+
+
+def test_hypothesis_predictor_core_c_all_tests(sample_contingency_table):
+    """ Test running all tests. """
+    result = hypothesis_predictor_core_c(sample_contingency_table, True, True, True, True, True)
+    assert "chi2_contingency" in result or "barnard_exact" in result or "boschloo_exact" in result or "fisher_exact" in result
+
+
+# TESTING ERROR-HANDLING for predict_hypothesis() #
+
+def test_predict_hypothesis_non_dataframe_input():
+    """ Test that non-DataFrame input raises a TypeError. """
+    with pytest.raises(TypeError, match="The 'df' parameter must be a pandas DataFrame."):
+        predict_hypothesis("not a dataframe", 'var1', 'var2')
+
+
+def test_predict_hypothesis_non_string_var1(sample_data_ph):
+    """ Test that non-string var1 raises a TypeError. """
+    with pytest.raises(TypeError, match="The 'var1' and 'var2' parameters must be strings."):
+        predict_hypothesis(sample_data_ph, 123, 'var2')
+
+
+def test_predict_hypothesis_non_string_var2(sample_data_ph):
+    """ Test that non-string var2 raises a TypeError. """
+    with pytest.raises(TypeError, match="The 'var1' and 'var2' parameters must be strings."):
+        predict_hypothesis(sample_data_ph, 'var1', 456)
+
+
+def test_predict_hypothesis_non_string_normality_method(sample_data_ph):
+    """ Test that non-string normality_method raises a TypeError. """
+    with pytest.raises(TypeError, match="The 'normality_method' parameter must be a string."):
+        predict_hypothesis(sample_data_ph, 'Group', 'Score', normality_method=123)
+
+
+def test_predict_hypothesis_non_string_variance_method(sample_data_ph):
+    """ Test that non-string variance_method raises a TypeError. """
+    with pytest.raises(TypeError, match="The 'variance_method' parameter must be a string."):
+        predict_hypothesis(sample_data_ph, 'Group', 'Score', variance_method=456)
+
+
+def test_predict_hypothesis_non_string_exact_tests_alternative(sample_data_ph):
+    """ Test that non-string exact_tests_alternative raises a TypeError. """
+    with pytest.raises(TypeError, match="The 'exact_tests_alternative' parameter must be a string."):
+        predict_hypothesis(sample_data_ph, 'Group', 'Score', exact_tests_alternative=789)
+
+
+def test_predict_hypothesis_non_integer_yates_min_sample_size(sample_data_ph):
+    """ Test that non-integer yates_min_sample_size raises a TypeError. """
+    with pytest.raises(TypeError, match="The 'yates_min_sample_size' parameter must be an integer."):
+        predict_hypothesis(sample_data_ph, 'Group', 'Score', yates_min_sample_size="forty")
+
+
+def test_predict_hypothesis_empty_dataframe():
+    """ Test handling of empty DataFrame. """
+    with pytest.raises(ValueError, match="The input DataFrame is empty."):
+        predict_hypothesis(pd.DataFrame(), 'var1', 'var2')
+
+
+def test_predict_hypothesis_invalid_normality_method(sample_data_ph):
+    """ Test handling of invalid normality_method. """
+    with pytest.raises(ValueError, match="Invalid 'normality_method' value."):
+        predict_hypothesis(sample_data_ph, 'Group', 'Score', normality_method='invalid')
+
+
+def test_predict_hypothesis_invalid_variance_method(sample_data_ph):
+    """ Test handling of invalid variance_method. """
+    with pytest.raises(ValueError, match="Invalid 'variance_method' value."):
+        predict_hypothesis(sample_data_ph, 'Group', 'Score', variance_method='invalid')
+
+
+def test_predict_hypothesis_invalid_exact_tests_alternative(sample_data_ph):
+    """ Test handling of invalid exact_tests_alternative. """
+    with pytest.raises(ValueError, match="Invalid 'exact_tests_alternative' value."):
+        predict_hypothesis(sample_data_ph, 'Group', 'Score', exact_tests_alternative='invalid')
+
+
+def test_predict_hypothesis_invalid_yates_min_sample_size(sample_data_ph):
+    """ Test handling of yates_min_sample_size less than 1. """
+    with pytest.raises(ValueError, match="The 'yates_min_sample_size' must be at least 1."):
+        predict_hypothesis(sample_data_ph, 'Group', 'Score', yates_min_sample_size=0)
+
+
+def test_predict_hypothesis_both_variables_numerical(sample_data_ph):
+    """ Test handling of both variables being numerical. """
+    with pytest.raises(ValueError, match="Both of the provided variables are numerical."):
+        predict_hypothesis(sample_data_ph, 'Score', 'Feature2')
+
+
+# TESTING FUNCTIONALITY #
+
+def test_predict_hypothesis_ttest(sample_data_ph):
+    """ Test independent T-test is selected for two-group numerical hypothesis testing with normal distribution and equal variances. """
+    output = predict_hypothesis(sample_data_ph, 'Group', 'Score')
+    assert 'ttest_ind' in output
+    assert output['ttest_ind']['test_name'] == 'Independent Samples T-Test'
+
+
+def test_predict_hypothesis_mannwhitneyu(sample_data_ph):
+    """ Test Mann-Whitney U test is selected for two-group numerical hypothesis testing with non-normal distribution. """
+    output = predict_hypothesis(sample_data_ph, 'Group', 'Feature2')
+    assert 'mannwhitneyu' in output
+    assert output['mannwhitneyu']['test_name'] == 'Mann-Whitney U Rank Test (Two Independent Samples)'
+
+
+def test_predict_hypothesis_anova(sample_data_ph):
+    """ Test one-way ANOVA is selected for multi-group numerical hypothesis testing with normal distribution and equal variances. """
+    sample_data_ph['Group'] = np.random.choice(['Group1', 'Group2', 'Group3'], size=100)
+    output = predict_hypothesis(sample_data_ph, 'Group', 'Score')
+    assert 'f_oneway' in output
+    assert output['f_oneway']['test_name'] == 'One-way ANOVA (with 3 groups)'
+
+
+def test_predict_hypothesis_kruskal(sample_data_ph):
+    """ Test Kruskal-Wallis test is selected for multi-group numerical hypothesis testing with non-normal distribution. """
+    sample_data_ph['Group'] = np.random.choice(['Group1', 'Group2', 'Group3'], size=100)
+    output = predict_hypothesis(sample_data_ph, 'Group', 'Feature2')
+    assert 'kruskal' in output
+    assert output['kruskal']['test_name'] == 'Kruskal-Wallis H-test (with 3 groups)'
+
+
+def test_predict_hypothesis_chi2(sample_data_ph):
+    """ Test Chi-square test is selected for categorical hypothesis testing with viable expected frequencies. """
+    output = predict_hypothesis(sample_data_ph, 'Group', 'Category')
+    assert 'chi2_contingency' in output
+    assert 'test_name' in output['chi2_contingency']
+    assert 'chi-square' in output['chi2_contingency']['test_name'].lower()
+
+
+def test_predict_hypothesis_fisher_exact(sample_data_ph):
+    """ Test Fisher's exact test is selected for categorical hypothesis testing with small sample sizes. """
+    sample_data_ph_small = sample_data_ph.sample(20)
+    output = predict_hypothesis(sample_data_ph_small, 'Group', 'Category')
+    assert 'fisher_exact' in output
+    assert 'test_name' in output['fisher_exact']
+    assert 'fisher' in output['fisher_exact']['test_name'].lower()
+
+
+def test_predict_hypothesis_alternative_greater(sample_data_ph):
+    """ Test Boschloo's exact test is selected with 'greater' alternative for categorical hypothesis testing. """
+    sample_data_ph_small = sample_data_ph.sample(20)
+    output = predict_hypothesis(sample_data_ph_small, 'Group', 'Category', exact_tests_alternative='greater')
+    assert 'boschloo_exact' in output
+    assert output['boschloo_exact']['alternative'] == 'greater'
