@@ -1,0 +1,4 @@
+[console_scripts]
+setup-telemetry=conversiontelemetry.setup_app:main
+start-telemetry=conversiontelemetry.run_app:main
+
