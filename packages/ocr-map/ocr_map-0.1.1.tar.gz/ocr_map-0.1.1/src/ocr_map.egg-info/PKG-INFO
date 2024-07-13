@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ocr-map
+Version: 0.1.1
+Summary: Mapping OCR predictions to fixed-size vocabularies
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/REPO.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: cli
+Requires-Dist: typer; extra == "cli"
+
+# Ocr Map
+
+> Mapping OCR predictions to fixed-size vocabularies
