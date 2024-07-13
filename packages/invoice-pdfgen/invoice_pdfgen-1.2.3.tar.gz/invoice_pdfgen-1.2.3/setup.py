@@ -1,0 +1,37 @@
+from setuptools import setup, find_packages
+
+
+# Read the contents of README.md file to set as the long description
+with open("README.md", "r") as file:
+    long_description = file.read()
+
+# Setup function call with package information
+setup(
+    name='invoice_pdfgen',  # Package name
+    # Automatically find all packages and sub-packages within the directory
+    packages=find_packages(),
+    version='1.2.3',  # Package version
+    license='MIT',  # License type
+    # Brief description
+    description='This package can be used for generating PDF invoices from Excel invoices.',
+    long_description=long_description,  # Use README.md content as long description
+    # Specify that long description is in Markdown format
+    long_description_content_type='text/markdown',
+    author='Emad',  
+    author_email='emadsaab222@gmail.com',  # Author email
+    url='https://github.com/emads22/invoice-pdfgen-python',  # GitHub repository URL
+    keywords=['invoice', 'excel', 'pdf', 'invoice_pdf_gen',
+              'invoice_gen'],  # Keywords for the package
+    install_requires=['fpdf', 'openpyxl', 'pandas'],  # Required dependencies
+    classifiers=[  # Classifiers for the package
+        'Development Status :: 3 - Alpha',  # Development status
+        'Intended Audience :: Developers',  # Intended audience
+        'Topic :: Software Development :: Build Tools',  # Topic
+        'License :: OSI Approved :: MIT License',  # License information
+        'Programming Language :: Python :: 3.8',  # Supported Python versions
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+    ],
+)
