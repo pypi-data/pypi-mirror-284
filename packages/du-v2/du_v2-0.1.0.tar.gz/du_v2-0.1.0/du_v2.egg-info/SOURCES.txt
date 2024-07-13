@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+du_v2/__init__.py
+du_v2/du_v2.py
+du_v2.egg-info/PKG-INFO
+du_v2.egg-info/SOURCES.txt
+du_v2.egg-info/dependency_links.txt
+du_v2.egg-info/entry_points.txt
+du_v2.egg-info/requires.txt
+du_v2.egg-info/top_level.txt
