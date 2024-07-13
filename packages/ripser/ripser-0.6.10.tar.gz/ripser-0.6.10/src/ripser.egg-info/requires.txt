@@ -1,0 +1,17 @@
+Cython
+numpy
+persim
+scipy
+scikit-learn
+
+[docs]
+sktda_docs_config
+
+[examples]
+tadasets
+jupyter
+pillow
+
+[testing]
+pytest
+pytest-cov
