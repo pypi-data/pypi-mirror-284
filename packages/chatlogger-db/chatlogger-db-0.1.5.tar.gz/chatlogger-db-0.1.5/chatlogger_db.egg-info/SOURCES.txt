@@ -1,0 +1,8 @@
+README.md
+setup.py
+chatlogger/__init__.py
+chatlogger_db.egg-info/PKG-INFO
+chatlogger_db.egg-info/SOURCES.txt
+chatlogger_db.egg-info/dependency_links.txt
+chatlogger_db.egg-info/requires.txt
+chatlogger_db.egg-info/top_level.txt
