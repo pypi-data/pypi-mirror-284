@@ -1,0 +1,29 @@
+[project]
+name = "termchatter"
+version = "0.0.2"
+authors = [
+  { name="GrimmTMM", email="themagnetboy1207@gmail.com" },
+]
+description = "A simple terminal-based chatting app using Pusher"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pysher",
+    "pusher",
+]
+
+[project.scripts]
+termchatter = "termchatter:main"
+
+[project.urls]
+Homepage = "https://github.com/GrimmTMM/termchatter"
+Issues = "https://github.com/GrimmTMM/termchatter/issues"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: termchatter
+Version: 0.0.2
+Summary: A simple terminal-based chatting app using Pusher
+Author-email: GrimmTMM <themagnetboy1207@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pysher
+Requires-Dist: pusher
+Project-URL: Homepage, https://github.com/GrimmTMM/termchatter
+Project-URL: Issues, https://github.com/GrimmTMM/termchatter/issues
+
+# Termchatter
+Just a simple terminal-based chatting app made using Pusher.<br>
