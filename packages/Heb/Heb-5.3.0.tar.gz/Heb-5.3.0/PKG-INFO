@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Heb
+Version: 5.3.0
+Summary: Clean your Directory with just one command
+Author: Ibrahim
+Author-email: string2025@gmail.com
+Requires-Dist: pyperclip
