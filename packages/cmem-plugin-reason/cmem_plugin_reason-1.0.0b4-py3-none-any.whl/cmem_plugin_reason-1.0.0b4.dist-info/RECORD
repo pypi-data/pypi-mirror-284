@@ -1,0 +1,11 @@
+cmem_plugin_reason/__init__.py,sha256=t8H97wu7qPufFrPXVM-WtNW7X4Lxztl2K2GSEQopXMM,28
+cmem_plugin_reason/bin/robot.jar,sha256=PREvR6XC6C_ZbCvEDlgqhtHmrST2dkjvED7F8hmFul4,93636279
+cmem_plugin_reason/file-icons--owl.svg,sha256=bDpcA-nEa2_Hj3bFvY0-ea65X5HgOsZJUiPy9hg4U_w,2542
+cmem_plugin_reason/fluent--brain-circuit-24-regular.svg,sha256=izlVVJFJfaaQvZ8LvDBanw7Ecy2EbYYU08MAkPfr9x0,2467
+cmem_plugin_reason/plugin_reason.py,sha256=qZAvruVDbEsnvwLxG8hursV1XFdoP7U0jsUIJhC2LdE,14695
+cmem_plugin_reason/plugin_validate.py,sha256=4esxaZT5TdFSGWi0-RXRKdaHwTGhjXUcDo477__wjvI,9989
+cmem_plugin_reason/utils.py,sha256=lEKZ8KdRtvHHOQkAKKWKSQG_7ytCjMoc2GRq1w6xT3c,8089
+cmem_plugin_reason-1.0.0b4.dist-info/LICENSE,sha256=5t6lcWcFU3TBO5wwq9PYNbgzfVfFUuL-80v5BTGuuMQ,11334
+cmem_plugin_reason-1.0.0b4.dist-info/METADATA,sha256=Y_EfbhGdnlJKsNtzn9HKDV-agXhDs7eX6YGd59WLIJ4,1233
+cmem_plugin_reason-1.0.0b4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cmem_plugin_reason-1.0.0b4.dist-info/RECORD,,
