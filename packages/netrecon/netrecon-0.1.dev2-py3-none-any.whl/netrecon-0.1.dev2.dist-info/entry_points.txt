@@ -1,0 +1,2 @@
+[console_scripts]
+netrecon = netrecon:main
