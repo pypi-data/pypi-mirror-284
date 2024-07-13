@@ -1,0 +1,8 @@
+codemetrics_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codemetrics_cli/__main__.py,sha256=FHbciVH9Uh5_CvrhKAifrAblnCaOj0qa_5wUpoPX2fs,33
+codemetrics_cli/metrics.py,sha256=U-xxw5vMnugXbHP0AM39bB25PTZsCxoFKUPB8--gJuc,19614
+codemetrics_cli-0.0.7.dist-info/METADATA,sha256=6v_6Z7f9Ggfhk07osEgVKJNrl33_wdIHbLnCsx5N15M,1096
+codemetrics_cli-0.0.7.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+codemetrics_cli-0.0.7.dist-info/entry_points.txt,sha256=CS_xuWHkZPdTzOvTcot8akQjDzLXLCRMSsqTrPKFQew,64
+codemetrics_cli-0.0.7.dist-info/licenses/LICENSE,sha256=7u1_4PFUGgRCruNSy1KYoKYcVNzJCEdaHi3wxZlZ8EI,1091
+codemetrics_cli-0.0.7.dist-info/RECORD,,
