@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+requires-python = ">= 3.10"
+name = "njbpy"
+version = "0.0.1"
+dependencies = [
+    "numpy"
+]
+authors = [
+    {name = "Noah Blair", email = "noahjblair@outlook.com"}
+]
+maintainers = [
+    {name = "Noah Blair", email = "noahjblair@outlook.com"}
+]
+description = "Utilities created for and used by Noah Blair"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = [
+    "regex", "utilities"
+]
+
+[project.urls]
+Homepage = "https://github.com/sodium-hydroxide/blutils"
+Repository = "https://github.com/sodium-hydroxide/blutils.git"
