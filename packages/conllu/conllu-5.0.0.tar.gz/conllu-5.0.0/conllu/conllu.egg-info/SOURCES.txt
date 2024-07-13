@@ -1,0 +1,14 @@
+CODE_OF_CONDUCT.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+conllu/conllu.egg-info/PKG-INFO
+conllu/conllu.egg-info/SOURCES.txt
+conllu/conllu.egg-info/dependency_links.txt
+conllu/conllu.egg-info/requires.txt
+conllu/conllu.egg-info/top_level.txt
+tests/test_integration.py
+tests/test_models.py
+tests/test_parser.py
+tests/test_readme.py
