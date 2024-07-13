@@ -1,0 +1,7 @@
+matplotlib
+scipy
+numpy
+nidaqmx
+pyserial
+opencv-python
+pillow
