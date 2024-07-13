@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: dacite-cjunct
+Version: 1.8.1a0
+Summary: Simple creation of data classes from dictionaries.
+Home-page: https://github.com/konradhalas/dacite
+Author: Konrad Hałas
+Author-email: halas.konrad@gmail.com
+License: MIT
+Keywords: dataclasses
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dataclasses; python_version < "3.7"
+Provides-Extra: dev
+Requires-Dist: pytest>=5; extra == "dev"
+Requires-Dist: pytest-benchmark; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: coveralls; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+
+![](https://user-images.githubusercontent.com/1078369/212840759-174c0f2b-d446-4c3a-b97c-67a0b912e7f6.png)
+
+# dacite
+
+#### Forked from [konradhalas/dacite](https://github.com/konradhalas/dacite)
+
+This module simplifies creation of data classes ([PEP 557][pep-557])
+from dictionaries.
+
+## Authors
+
+Created by [Konrad Hałas][halas-homepage].
+
+[pep-557]: https://www.python.org/dev/peps/pep-0557/
+[halas-homepage]: https://konradhalas.pl
+[changelog]: https://github.com/konradhalas/dacite/blob/master/CHANGELOG.md
