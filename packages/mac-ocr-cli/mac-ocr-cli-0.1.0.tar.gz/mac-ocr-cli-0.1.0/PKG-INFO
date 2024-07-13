@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mac-ocr-cli
+Version: 0.1.0
+Summary: A CLI tool for OCR on macOS using FastAPI and ocrmac
+Home-page: https://github.com/dielect/mac-ocr-api
+Author: dielect
+Author-email: dielectric.army@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: typer
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pillow
+Requires-Dist: ocrmac
+Requires-Dist: pydantic
+Requires-Dist: rich
