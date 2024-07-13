@@ -1,0 +1,10 @@
+prettytable>=2.3.0
+tomli>=2
+
+[test]
+docutils
+mypy
+pytest-cov
+pytest-pycodestyle
+pytest-runner
+tomli-w
