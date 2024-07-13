@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rnd-cats"
+version = "0.1.0"
+description = "A simple python module for receiving random images with cats."
+authors = ["Almas Vildanov <almasvildanov@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "rnd_cat" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
