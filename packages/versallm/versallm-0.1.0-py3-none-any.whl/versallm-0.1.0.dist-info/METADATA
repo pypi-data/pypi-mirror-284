@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: versallm
+Version: 0.1.0
+Summary: 
+Author: Mohwit
+Author-email: mohwits@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: anthropic (>=0.31.0,<0.32.0)
+Requires-Dist: black (>=24.4.2,<25.0.0)
+Requires-Dist: groq (>=0.9.0,<0.10.0)
+Requires-Dist: openai (>=1.35.13,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# versallm
+VersaLLM is a versatile Python library for large language models (LLMs) like Claude, OpenAI, and others.
+
