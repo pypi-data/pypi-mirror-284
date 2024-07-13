@@ -1,0 +1,9 @@
+README.md
+setup.py
+jeugdjournaal/__init__.py
+jeugdjournaal/jeugdjournaal.py
+jeugdjournaal.egg-info/PKG-INFO
+jeugdjournaal.egg-info/SOURCES.txt
+jeugdjournaal.egg-info/dependency_links.txt
+jeugdjournaal.egg-info/requires.txt
+jeugdjournaal.egg-info/top_level.txt
