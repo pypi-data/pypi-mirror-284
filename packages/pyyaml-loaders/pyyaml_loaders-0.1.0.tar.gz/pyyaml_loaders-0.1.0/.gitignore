@@ -1,0 +1,8 @@
+# Environment config directories
+.vscode
+
+# Python build directories
+__pycache__
+build
+dist
+*.egg-info

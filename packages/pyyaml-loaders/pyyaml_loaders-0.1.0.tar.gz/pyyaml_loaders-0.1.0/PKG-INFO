@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyyaml_loaders
+Version: 0.1.0
+Summary: PyYAML loaders with enhanced functionalities.
+Home-page: https://github.com/smart-home-network-security/pyyaml-loaders
+Author: François De Keersmaeker
+Author-email: francois.dekeersmaeker@uclouvain.be
+License: GPLv3+
+Description: # pyyaml-loaders
+        PyYAML loaders with enhanced functionalities.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
