@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+salve/__init__.py
+salve/ipc.py
+salve/misc.py
+salve/server.py
+salve.egg-info/PKG-INFO
+salve.egg-info/SOURCES.txt
+salve.egg-info/dependency_links.txt
+salve.egg-info/requires.txt
+salve.egg-info/top_level.txt
+tests/test_defintions.py
+tests/test_ipc.py
+tests/testing_file1.py
+tests/testing_file2.py
