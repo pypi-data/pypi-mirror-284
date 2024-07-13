@@ -1,0 +1,56 @@
+[build-system]
+requires = ["flit>=3.9,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "requests-magpie"
+description = "A Magpie authentication handler for python-requests"
+readme = { file = "README.rst", content-type = "text/x-rst" }
+license = { file = "LICENSE" }
+authors = [
+  { name = "David Caron" }
+]
+maintainers = [
+  { name = "Trevor James Smith", email = "smith.trevorj@ouranos.ca" },
+  { name = "Francis Charette-Migneault", email = "francis.charette-migneault@crim.ca" }
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: ISC License (ISCL)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dynamic = ["version"]
+dependencies = [
+ "requests >=2.32.2"
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/Ouranosinc/requests-magpie"
+"Issue tracker" = "https://github.com/Ouranosinc/requests-magpie/issues"
+"About Ouranos" = "https://www.ouranos.ca/en/"
+
+[tool.flit.sdist]
+include = [
+    "AUTHORS",
+    "CHANGELOG",
+    "LICENSE",
+    "README.rst",
+    "tests/*.py",
+]
+exclude = [
+    ".*",
+]
