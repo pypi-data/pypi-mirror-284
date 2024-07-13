@@ -1,0 +1,174 @@
+# Automated metadata validation
+This project is for automatically validating metadata templates that accompany IDS data deliveries. 
+The fields in a filled metadata template are each checked against a set of defined conditions. For example, many fields are mandatory, some fields may not contain spaces or special characters, and so on.
+Note that some metadata requirements cannot be automatically validated. Some human inspection will always be necessary, for example to sense-check free text fields.
+
+## Project structure
+Below is the folder structure
+```
+automated_metadata_validation/
+|- io
+    |- cell_template.py
+    |- input_functions.py
+    |- output_functions.py
+|- processing
+    |- dev_utils.py
+    |- processing_utils.py
+|- reference
+    |- enums.py
+    |- lookups.py
+    |- v1_temp.py
+    |- v2_temp.py
+|- utils
+    |- logger.py
+|- validation
+    |- _validation_checks.py
+    |- _validation_utils.py
+    |- back_office_validations.py
+    |- codes_and_values_validations.py
+    |- dataset_file_validations.py
+    |- dataset_resource_validations.py
+    |- dataset_series_validations.py
+    |- variables_validations.py
+```
+
+### io
+Houses input and output functions and the MetadataCell and MetadataValues objects that extract the data from the openpyxl workbook into the format the rest of the project uses.
+
+### processing
+Processing functions that apply the validation checks to each of the fields.
+
+### reference
+Data structures that hold the cell information for the templates, enums for each of the dropdowns used in the template and lookups for conversion of column names between templates. E.g. in one version a cell is called "File format" and another is "File Format"
+
+### utils
+basic logger
+
+### validation
+This is the core module of the project. 
+
+##### _validation_checks.py
+This has atomised validation checks. The format is that the check takes a single item as an argument and returns `True` if the item passes the check. 
+
+An example check function:
+```python
+def must_start_with_capital(item: str) -> bool:
+    if not isinstance(item, str):
+        raise TypeError(f"expected type str but got {type(item)}")
+    return item[0].isupper()
+```
+The name of the function is the error that the user will see if the check fails. 
+
+E.g.
+```python
+must_start_with_capital("example")
+# False
+```
+This means the output will list the cell location, the value `"example"` and the name of the function that failed to clearly inform the user of the required fix: `"example": "must_start_with_capital. "`.
+The warning ends with a full stop and space to allow the chaining of warnings for multiple fails:
+`"example ": "must_start_with_capital. must_not_end_with_whitespace. "`.
+
+##### _validation_utils.py
+Contains the utils that are used by multiple of the validation checks.
+
+##### Per tab validation checks
+The rest of the files are the validation checks for each of the tabs. The structure of a function is as follows:
+
+```python
+def validate_Variables_personally_identifiable_information(
+    values: Sequence,
+) -> Tuple:
+    hard_checks = [
+        # checks from the validation checks are put in this list
+        # they must not be called though
+        vc.must_meet_condition,
+        vc.must_meet_another_condition,
+    ] + STRING_HYGIENE_CHECKS
+    soft_checks = []
+    return check_fails(values, hard_checks), check_fails(values, soft_checks)
+```
+The function naming standard is `validate_{TabName}_{variable_name}()`. The tab name should be in CamelCase, and the variable name should be in snake_case, this is to differentiate between the two. 
+
+The function must only take a `Sequence` of values and return `check_fails()` for each of the hard and soft checks.
+
+Hard checks are conditions that can be conclusively measured automatically. Failing a hard check means that something is definitely wrong and needs changing. This also means that hard check fails will usually also cause an ingest failure if untreated, since the ingest process also has fixed expectations about machine-readable content and formats.
+
+Soft checks are checks that require inspection, but not necessarily action, if they fail. Either they cover preferences that aren't strict requirements, or they involve checking something that can't be perfectly measured automatically. For example, we may expect a certain style of response most of the time, but there may be corner cases where unusual answers are still acceptable and correct.
+
+The output returns hard check and soft check fails as dictionaries.
+
+Note that STRING_HYGIENE_CHECKS are common to most string-type variables, and includes checking for leading and trailing spaces, as well as double spaces.
+
+
+## MetadataCell and MetadataValues
+
+#### MetadataCell
+These objects help translate the data from the excel file into manipulatable entities. `MetadataCell`s store the following attributes about a variable from the template:
+
+```python
+@attr.define
+class MetadataCell:
+    tab: str                # the tab the variable is from
+    name: str               # the name of the variable
+    ref_cell: str           # the cell that the name is stored in the template
+    value_col: str          # the column the values are stored: e.g. "F"
+    column: bool            # True if the variable is an entire column, False if it's a single cell
+    row_start: int          # the index that the values start at
+    mandatory: bool         # if the values are mandatory
+    enum: list              # the dropdown that the values must be from (if applicable)
+    datatype: Callable      # the expected datatype (Python native): str, int, float
+    func: Callable          # the validation function 
+```
+
+#### MetadataValues
+These consist of a `MetadataCell` object and values. they have a `validate()` method which performs the majority of the work. Populating the `hard_fails` and `soft_fails` attributes.
+
+```python
+@attr.define
+class MetadataValues:
+    cell: MetadataCell      # MetadataCell object that stores the variable details
+    values: list            # values extracted from the excel template
+    hard_fails: dict        # the fails from the hard validation checks
+    soft_fails: dict        # the fails from the soft validation checks
+```
+
+There is a simplified version of the `validate()` method below to show the flow:
+
+```python
+    def validate(self) -> None:
+        none_fails, enum_fails, hard_fails = {}, {}, {}
+
+        # convert all nones to str representation this is important for the
+        # fail dicts
+        none_set = [None, np.nan]
+        self.convert_set_to_string(none_set)
+
+        # convert to a set to remove validating repeat values
+        unchecked_values = set(self.values)
+
+        # don't check if not a mandatory cell at the moment
+        if self.cell.mandatory:
+
+            # remove nones and empty strings
+            none_fails = remove_nones_etc()
+            unchecked_values = self._remove_checked_values()
+
+            # convert to required type before validating ignoring the string nones
+            unchecked_values, uncastable_values = self.convert_to_cell_datatype()
+
+            # if the cell has an enum check values are in the enum
+            if self.cell.enum:
+                enum_fails: Dict = remove_values_not_in_enums()
+                unchecked_values = self._remove_checked_values()
+
+            # remaining values are checked against the validation function
+            hard_fails, self.soft_fails = self.cell.func(unchecked_values)
+
+
+            self.hard_fails = {
+                **uncastable_values,
+                **none_fails,
+                **enum_fails,
+                **hard_fails,
+            }
+```
