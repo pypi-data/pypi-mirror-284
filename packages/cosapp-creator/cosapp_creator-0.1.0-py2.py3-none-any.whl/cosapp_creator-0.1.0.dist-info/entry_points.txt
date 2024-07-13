@@ -1,0 +1,2 @@
+[console_scripts]
+cosapp-creator = cosapp_creator.cli:main
