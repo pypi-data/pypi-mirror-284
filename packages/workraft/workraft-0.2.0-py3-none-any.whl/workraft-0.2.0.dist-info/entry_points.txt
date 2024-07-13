@@ -1,0 +1,2 @@
+[console_scripts]
+workraft = workraft.__main__:main
