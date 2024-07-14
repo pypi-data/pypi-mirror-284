@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: faster_outlines
+Version: 7.13.2024
+Summary: Faster backend for the `Outlines` library.
+Home-page: https://github.com/unaidedelf8777/faster-outlines/
+Author: unaidedelf8777
+Author-email: thwackyy.y@gmail.com
+License: Apache 2.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
