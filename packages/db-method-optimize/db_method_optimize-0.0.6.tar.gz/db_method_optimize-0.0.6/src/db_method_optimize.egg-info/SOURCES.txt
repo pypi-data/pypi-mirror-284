@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/db_method_optimize/__init__.py
+src/db_method_optimize/mongo_crud.py
+src/db_method_optimize.egg-info/PKG-INFO
+src/db_method_optimize.egg-info/SOURCES.txt
+src/db_method_optimize.egg-info/dependency_links.txt
+src/db_method_optimize.egg-info/requires.txt
+src/db_method_optimize.egg-info/top_level.txt
