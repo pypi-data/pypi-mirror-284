@@ -1,0 +1,3 @@
+[console_scripts]
+jkhexdump=jk_hexdump.bin:main
+
