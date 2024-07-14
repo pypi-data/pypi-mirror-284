@@ -1,0 +1,2 @@
+[console_scripts]
+nebula-admin = nebula.manage:main

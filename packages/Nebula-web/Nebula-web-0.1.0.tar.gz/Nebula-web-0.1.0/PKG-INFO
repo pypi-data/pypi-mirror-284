@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: Nebula-web
+Version: 0.1.0
+Summary: A custom web server framework
+Home-page: https://github.com/RaphiMuehlbacher/Nebula
+Download-URL: https://github.com/RaphiMuehlbacher/Nebula/archive/refs/tags/v0.1.tar.gz
+Author: Raphael Mühlbacher
+Author-email: raphi.muehlbacher@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Jinja2~=3.1.4
+Requires-Dist: setuptools~=69.2.0
+Requires-Dist: watchdog~=4.0.1
+
+# Nebula
+
+Nebula is a lightweight web server framework, designed to simplify web application development with Python.
+
+## Features
+
+- **Routing**: Simple and intuitive URL routing.
+- **Views and Templates**: Support for rendering views and templates.
+- **Form Handling**: Built-in form handling and validation.
+- **Database Integration**: Integration with sqlite3 databases for data storage.
+
