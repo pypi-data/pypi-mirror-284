@@ -1,0 +1,2 @@
+[console_scripts]
+gato-x = gatox.main:entry
