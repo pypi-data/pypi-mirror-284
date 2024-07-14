@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+hubertchen-package/__init__.py
+hubertchen-package/conn.py
+hubertchen-package/my_jwt.py
+hubertchen_package.egg-info/PKG-INFO
+hubertchen_package.egg-info/SOURCES.txt
+hubertchen_package.egg-info/dependency_links.txt
+hubertchen_package.egg-info/top_level.txt
