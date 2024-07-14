@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>{{ course.name }}</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <style>
+        .th-Punainen {
+            background-color: #CD5C5C;
+            color: #212121;
+        }
+        .th-Keltainen {
+            background-color: #EEE8AA;
+            color: #212121;
+        }
+        .th-Sininen {
+            background-color: #4682B4;
+            color: #212121;
+        }
+        .th-Valkoinen {
+            background-color: #FFF5EE;
+            color: #212121;
+        }
+        </style>
+        <script defer data-domain="golf.atk.works" src="https://vakoilu.atk.works/js/script.js"></script>
+
+</head>
+<body>
+    <h1>{{ course.name }}</h1>
+
+
+        <table>
+            <tr>
+                <th scope="col">Nimi</th>
+                {% for tee in players[0].game_hcps %}
+                    <th scope="col" class="th-{{ tee.tee }}">{{ tee.tee }}</th>
+                {% endfor %}
+            </tr>
+            {% for player in players %}
+            <tr>
+                <th scope="row">{{ player.name }} ({{ player.hcp }})</th>
+                {% for tee in player.game_hcps %}
+                    <td>{{ tee.hcp|round(0)|int }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+    <a href="/">Alkuun</a>
+
+</body>
+</html>
