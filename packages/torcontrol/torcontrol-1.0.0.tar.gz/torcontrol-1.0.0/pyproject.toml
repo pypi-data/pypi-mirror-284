@@ -1,0 +1,28 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "torcontrol"
+version = "1.0.0"
+requires-python = ">= 3.10"
+authors = [{name = "Pavel Dunaev", email = "me@neko-dev.ru"}]
+description = "Zero-dependency pure python async TOR control client library"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = []
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python",
+    "Typing :: Typed"
+]
+
+[project.urls]
+Home = "https://gitlab.neko-dev.ru/me/torcontrol"
+Repository = "https://gitlab.neko-dev.ru/me/torcontrol"
+Issues = "https://gitlab.neko-dev.ru/me/torcontrol/-/issues"
+
+[tool.flit.sdist]
+exclude = [".idea/", "examples/"]
