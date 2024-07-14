@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ppilot/__init__.py
+ppilot/cpu.py
+ppilot/disk.py
+ppilot/serve.py
+ppilot.egg-info/PKG-INFO
+ppilot.egg-info/SOURCES.txt
+ppilot.egg-info/dependency_links.txt
+ppilot.egg-info/entry_points.txt
+ppilot.egg-info/requires.txt
+ppilot.egg-info/top_level.txt
