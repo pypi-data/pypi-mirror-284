@@ -1,0 +1,15 @@
+llama/__init__.py,sha256=-XgTqldbK8WLOWjJ99t5Dn9hopR5U8zVNi1nnCD1iHg,45
+llama/_llama_cli.cpython-311-aarch64-linux-musl.so,sha256=A_4bZrPq9mLpG-FiczbxeQeEz_kxXLwxZuCPTGTvG50,3473585
+llama/formatter.py,sha256=TNE8znA5X36aF3gcrUc5wjQMJrpqRtPWouDt1kuco24,5572
+llama/llama-cli.so,sha256=D2qeagIP3hIOeX25Ip5Zzft356BwN2885tzLzEwZHNQ,3544273
+llama/llama_cli_cffi.py,sha256=rwShdekjozIjFN1xud2bRhzMEotYthwwVHZ5nHUkLJg,4627
+llama/llama_cli_ctypes.py,sha256=1ehk5-chLo1IQ6DH9uSauJEjnOAqO39xI61pFrrQbAU,4501
+llama/model.py,sha256=cbfVMT8IKF_NS-9lUnabbdquQmwOxV_flp-H_rD4rSM,135
+llama/options.py,sha256=XNeUOlj_67tckS02Uoyq61yLJKdtZx8tsUHOmfaUIHc,25626
+llama_cpp_cffi-0.0.3.dist-info/LICENSE,sha256=jaX_Invr278Ihgo-qKDHtGTa3MDM67DBb3JeruqK2XE,1068
+llama_cpp_cffi-0.0.3.dist-info/METADATA,sha256=H_-6hrudcezGYDgYkcsmKWvkeJKxeqCkCf34_BYNBbs,1837
+llama_cpp_cffi-0.0.3.dist-info/WHEEL,sha256=BIdmg2aDSrcR3PClr4m-3QQP_9EWs2GiH3rWPephBPU,110
+llama_cpp_cffi-0.0.3.dist-info/entry_points.txt,sha256=Gx56uy3ubAWtR-c1otWZW-VlVFb7QuaJkUEvCFUq1KQ,71
+llama_cpp_cffi-0.0.3.dist-info/RECORD,,
+llama_cpp_cffi.libs/libstdc++-1b614e01.so.6.0.32,sha256=XXJsmg9XChAumTluQnKaKPw0aZHT_olzaylk-ZtJWcY,3586193
+llama_cpp_cffi.libs/libgcc_s-7393e603.so.1,sha256=7G--_FjUcXaygGLbopN7bg1zXff52EmI7Bsc2D2TXbk,201017
