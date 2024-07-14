@@ -1,0 +1,9 @@
+jupyter-bokeh
+matplotlib
+nbsite
+sphinx-copybutton
+sphinx-favicon
+sphinx-tabs
+sphinx-toolbox
+sphinxemoji
+sphinxext-opengraph

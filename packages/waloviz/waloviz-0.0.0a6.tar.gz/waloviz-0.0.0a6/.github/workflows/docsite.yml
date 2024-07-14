@@ -1,0 +1,75 @@
+name: Docs
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - develop
+
+# TODO: Maybe we should try to fix the duplication between here and the ``.devcontainer/Dockerfile`` , as well as other workflows
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Cache apt-pkgs
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: ffmpeg sox libavdevice-dev graphviz
+          version: 1.0
+
+      - name: Dot register
+        run: sudo dot -c
+
+      - name: Upgrade pip
+        run: |
+          # install pip=>20.1 to use "pip cache dir"
+          python3 -m pip install --upgrade pip
+
+      - name: Get pip cache dir
+        id: pip-cache
+        run: echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pip-cache.outputs.dir }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          save-always: true
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: python3 -m pip install -r requirements.txt && playwright install chromium && playwright install-deps
+
+      - name: Generate modules
+        run: python ./doc/generate_modules.py src/waloviz -d ./doc/reference-manual -n waloviz -e tests
+
+      - name: Build site
+        run: nbsite build --org AlonKellner --project-name waloviz
+
+      - name: Copy site root ➜
+        run: cp -r doc/site_root/. builtdocs/
+
+      - name: Push to docsite
+        run: |
+          git config --global user.name '${{ github.repository_owner }}'
+          git config --global user.email '${{ vars.OWNER_EMAIL }}'
+          git_hash=$(git rev-parse --short "$GITHUB_SHA")
+          git_branch=${GITHUB_REF#refs/heads/}
+          git fetch
+          git switch docsite
+          find . -mindepth 1 -regextype posix-egrep ! -regex '(^\.\/\.git.*)|(^\.\/builtdocs.*)' -delete
+          cp -r builtdocs/. ./
+          rm -r builtdocs
+          git add .
+          git commit -am "Deploying site from ${git_branch}@${git_hash}"
+          git push
