@@ -1,0 +1,3 @@
+[console_scripts]
+DNAseqplot = DNAseqplot:main
+

@@ -1,0 +1,13 @@
+README.md
+setup.py
+DNAseqplot/__init__.py
+DNAseqplot/_main__.py
+DNAseqplot/_version.py
+DNAseqplot/seqplot.py
+DNAseqplot.egg-info/PKG-INFO
+DNAseqplot.egg-info/SOURCES.txt
+DNAseqplot.egg-info/dependency_links.txt
+DNAseqplot.egg-info/entry_points.txt
+DNAseqplot.egg-info/not-zip-safe
+DNAseqplot.egg-info/requires.txt
+DNAseqplot.egg-info/top_level.txt
