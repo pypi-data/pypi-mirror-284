@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wmwpy"
+authors = [
+  { name="ego-lay-atman-bay" },
+]
+description = "Python module to work with files in the Where's My Water? mobile game series."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "lxml",
+  "numpy",
+  "Pillow",
+  "natsort",
+  "filetype",
+]
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com/wmw-modding/wmwpy"
+"Bug Tracker" = "https://github.com/wmw-modding/wmwpy/issues"
+"Documentation" = "https://wmw-modding.github.io/wmwpy/"
+
+[tool.setuptools.dynamic]
+version = { attr = "wmwpy.__version__" }
