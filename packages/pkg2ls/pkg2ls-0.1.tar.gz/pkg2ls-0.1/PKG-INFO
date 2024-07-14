@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pkg2ls
+Version: 0.1
+Summary: pkg managements
+Home-page: https://github.com/yourusername/pkg2ls
+Author: Jianfengliu0413
+Author-email: Jianfeng.Liu0413@gmail.com
+Classifier: Programming Language :: Python :: 3
