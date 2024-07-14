@@ -1,0 +1,9 @@
+setup.py
+InlineGPT.egg-info/PKG-INFO
+InlineGPT.egg-info/SOURCES.txt
+InlineGPT.egg-info/dependency_links.txt
+InlineGPT.egg-info/requires.txt
+InlineGPT.egg-info/top_level.txt
+inline/__init__.py
+inline/inlinegpt.py
+tests/test.py
