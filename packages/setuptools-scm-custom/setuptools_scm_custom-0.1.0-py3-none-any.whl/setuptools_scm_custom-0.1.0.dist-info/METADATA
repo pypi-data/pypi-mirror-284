@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: setuptools-scm-custom
+Version: 0.1.0
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools >=64
+Requires-Dist: setuptools-scm >=8
+
+Provide custom version schemes to setuptools_scm
