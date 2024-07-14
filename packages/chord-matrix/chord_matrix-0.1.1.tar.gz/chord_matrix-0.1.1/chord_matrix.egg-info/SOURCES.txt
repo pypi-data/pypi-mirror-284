@@ -1,0 +1,14 @@
+LICENSE
+README.md
+requirements.txt
+setup.py
+chord_matrix/__init__.py
+chord_matrix/main.py
+chord_matrix.egg-info/PKG-INFO
+chord_matrix.egg-info/SOURCES.txt
+chord_matrix.egg-info/dependency_links.txt
+chord_matrix.egg-info/entry_points.txt
+chord_matrix.egg-info/requires.txt
+chord_matrix.egg-info/top_level.txt
+dist/chord_matrix-0.1.0-py3-none-any.whl
+dist/chord_matrix-0.1.0.tar.gz
