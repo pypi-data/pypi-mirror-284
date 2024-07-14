@@ -1,0 +1,7 @@
+Python 3.10 Compatible !!!
+Also try Minecraft !!!
+Powered by Ursina Engine
+Crafted with Python
+Building the Future
+python3 -m pip install ursina
+Now with SplashScreen
