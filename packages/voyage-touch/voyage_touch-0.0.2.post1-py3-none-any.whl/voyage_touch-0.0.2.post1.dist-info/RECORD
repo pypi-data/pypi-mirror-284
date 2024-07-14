@@ -1,0 +1,15 @@
+voyage_touch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voyage_touch/assc/__init__.py,sha256=8KI8FMlbpSd7vKF4zz0WFg6Hz10GmR2ZR8LwctXo7WY,103
+voyage_touch/assc/assc.py,sha256=62hDsUnkbYTzOwGxNB1LDMfWPZQhiPiqE3IXfmxjZQw,2334
+voyage_touch/assc/model.py,sha256=fVnfoadjPtKftPQo1Ju5WJ3ztV4POTI_rd8VL8zuHW4,830
+voyage_touch/assc/policies/__init__.py,sha256=tA5cmqRWagUpaPV5FjaujzdVVgPLKf2mS5lQvtM0L-A,72
+voyage_touch/assc/policies/fsr_heuristic.py,sha256=EQyM8G918A1-r1jxD-7K_3YgE6Z7JrKmP-G9veLpdtk,1038
+voyage_touch/sensor/__init__.py,sha256=5mnjumjvZRdtvXqj7ZtuxzcBUBEBoyvzM0jZaH6SGw4,184
+voyage_touch/sensor/sensor.py,sha256=zW4uR6XtTUB4K6Rqy-_CrHdljOlJwVmx1R-CNY-9KoY,3893
+voyage_touch/sensor/sensor_reader.py,sha256=CfqjJKen1b1kjtvJ_X7QXzG3iwQgHcM2UmHh-jwOZx8,2290
+voyage_touch/sensor/sensor_type.py,sha256=zR27d7NzkqGxdZol1tLboJ8RdkR41RSYku2yNd1QTt4,83
+voyage_touch-0.0.2.post1.dist-info/LICENSE,sha256=fHBKNrjXscS4WU51uS5mfUPt8DPyIbMuqMt7XsKBO9k,1072
+voyage_touch-0.0.2.post1.dist-info/METADATA,sha256=dyJQSivnHUxNQBBIGJ4JU855hIXsLH-a4BE_AnJ-Cec,3355
+voyage_touch-0.0.2.post1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+voyage_touch-0.0.2.post1.dist-info/top_level.txt,sha256=wVS9WOAP-_l7Dof0UZqd9L77SVydA8-LfE6rWLAmSQw,13
+voyage_touch-0.0.2.post1.dist-info/RECORD,,
