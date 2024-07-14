@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: codearena
+Version: 0.0.1
+Summary: Code Arena Python SDK
+Home-page: https://codellm.club
+Author: Mingzhe Du
+Author-email: mingzhe@nus.edu.sg
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.24.0
+
+# Code Arena Python SDK
