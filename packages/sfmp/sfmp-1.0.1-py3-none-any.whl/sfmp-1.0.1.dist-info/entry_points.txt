@@ -1,0 +1,2 @@
+[console_scripts]
+sfmp = sfmp.cli:main

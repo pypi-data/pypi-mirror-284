@@ -1,0 +1,10 @@
+sfmp/__init__.py,sha256=yEKYWzRQgPsS9KjACZNoCdWzHYtOM9tuAOIySwcQj5c,46
+sfmp/cli.py,sha256=nKvDAxdXGab7G9KXYNhPtBl_1_xuRN3ydAotE_WHZGM,2230
+sfmp/feature_extractor.py,sha256=PTJN06t9jIdJAa6zxg3PCJeKCEND3cyfG0X3qftHDK8,1387
+sfmp/sfmp.py,sha256=dkhCscPqlCbPXgUWcz-RDuDUjZgsjdu3Cm9FNeKmixE,2323
+sfmp/artifacts/feature_extractor.onnx,sha256=YZPc4IxGATorOKKdPR_TxDLPnNNCdcoKym81iXa5mUA,4468089
+sfmp-1.0.1.dist-info/METADATA,sha256=r4FewJbnmt_CjUakkbDdA6vtET4dtTnMURz-I87YkmM,1993
+sfmp-1.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+sfmp-1.0.1.dist-info/entry_points.txt,sha256=-6hV66wyglS1qsh0yNixCPTREXtBk8kiDy9nLKOfo1o,39
+sfmp-1.0.1.dist-info/top_level.txt,sha256=hPtaHiqdpIqoaNWAjk8-IC17Sgz4jhMzPIii_6ShJjM,5
+sfmp-1.0.1.dist-info/RECORD,,
