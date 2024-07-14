@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cron_command/__init__.py
+cron_command/apps.py
+cron_command/management/__init__.py
+cron_command/management/commands/__init__.py
+cron_command/management/commands/cron_add.py
+cron_command/management/commands/cron_list.py
+cron_command/management/commands/cron_remove.py
+django_cron_command.egg-info/PKG-INFO
+django_cron_command.egg-info/SOURCES.txt
+django_cron_command.egg-info/dependency_links.txt
+django_cron_command.egg-info/requires.txt
+django_cron_command.egg-info/top_level.txt
