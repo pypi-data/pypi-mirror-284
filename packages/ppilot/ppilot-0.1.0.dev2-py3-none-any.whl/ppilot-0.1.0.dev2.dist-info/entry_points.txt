@@ -1,0 +1,2 @@
+[console_scripts]
+ppilot_serve = ppilot.serve:main

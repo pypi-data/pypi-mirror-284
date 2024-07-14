@@ -1,0 +1,10 @@
+ppilot/__init__.py,sha256=T8QGEaa-UH3BAdGUXOOdT6gkF6llxSqmUovJuHfOHRY,39
+ppilot/cpu.py,sha256=WVwemrLBRlX_RtZdmFJAEAvC75WLA0Q0Q40D-W0cQas,815
+ppilot/disk.py,sha256=hSLtfN0lLulTwaawKHNkkWsgGS3wZM323iWkZSEmy5g,844
+ppilot/serve.py,sha256=0G27VT07csNi7iPUdLL79aCAsXsjyfvKlnzJ0FYSNfc,1227
+ppilot-0.1.0.dev2.dist-info/LICENSE,sha256=WhvzQsqkBeYgCwh_CjYA4kGA1cWBsFiB97KrlrioZfg,11542
+ppilot-0.1.0.dev2.dist-info/METADATA,sha256=Bkkr6iVmGmnuwfMSZcTfU0dL0vK6MPNOmWPEKupEFDc,13628
+ppilot-0.1.0.dev2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+ppilot-0.1.0.dev2.dist-info/entry_points.txt,sha256=9te6-C37RCwbZsZnb_--C3tZLekPQu6XfIsfh5IZYrY,51
+ppilot-0.1.0.dev2.dist-info/top_level.txt,sha256=q3DvfvKRp09gMYez10sxdE6_ehxy4v4IEWsvfMrGud0,7
+ppilot-0.1.0.dev2.dist-info/RECORD,,
