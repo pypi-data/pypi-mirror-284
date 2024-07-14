@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: TrER
+Version: 0.1.0
+Summary: implementation of the Treatment Effect Risk: Bounds and Inference package, based on the replication by Kallus (2024).
+Home-page: https://github.com/d2cml-ai/TreatmentEffectRisk
+Author: Jhon Flores Rojas
+Author-email: fr.jhonk@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TreatmentEffectRisk
+
+This repository is an implementation of the Treatment Effect Risk: Bounds and Inference package, based on the replication by Kallus (2024).
+
+## References
+
+- Paper: [Treatment Effect Risk: Bounds and Inference](https://arxiv.org/abs/2201.05893)
+- Original Repository: [CausalML/TreatmentEffectRisk](https://github.com/CausalML/TreatmentEffectRisk)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## MAP
+
+![](./original_pkg/functions.png)
+
+## Contact
+
+<!-- For questions or inquiries about the package, please contact [fr.jhonk@gmail.com]. -->
