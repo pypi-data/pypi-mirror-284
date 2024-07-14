@@ -1,0 +1,11 @@
+numpy
+scipy
+
+[dev]
+pytest
+check-manifest
+pre-commit
+
+[test]
+pytest
+coverage
