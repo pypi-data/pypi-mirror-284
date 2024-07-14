@@ -1,0 +1,7 @@
+LICENCE.txt
+Setup.py
+setup.py
+sql4.egg-info/PKG-INFO
+sql4.egg-info/SOURCES.txt
+sql4.egg-info/dependency_links.txt
+sql4.egg-info/top_level.txt
