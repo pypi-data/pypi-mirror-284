@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: vsom
+Version: 0.1.1
+Summary: the code of virtual screening of organic materials
+License: MIT
+Author: su-group
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.9.1,<4.0.0)
+Requires-Dist: numpy (>=2.0.0,<3.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: rdkit (==2020.03)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
