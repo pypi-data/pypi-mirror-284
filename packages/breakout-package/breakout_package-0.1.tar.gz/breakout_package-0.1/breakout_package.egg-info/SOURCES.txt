@@ -1,0 +1,8 @@
+setup.py
+breakout_package/__init__.py
+breakout_package/breakout.py
+breakout_package.egg-info/PKG-INFO
+breakout_package.egg-info/SOURCES.txt
+breakout_package.egg-info/dependency_links.txt
+breakout_package.egg-info/requires.txt
+breakout_package.egg-info/top_level.txt
