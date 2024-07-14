@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+amazon_product_details_scraper/__init__.py
+amazon_product_details_scraper/app.py
+amazon_product_details_scraper.egg-info/PKG-INFO
+amazon_product_details_scraper.egg-info/SOURCES.txt
+amazon_product_details_scraper.egg-info/dependency_links.txt
+amazon_product_details_scraper.egg-info/entry_points.txt
+amazon_product_details_scraper.egg-info/requires.txt
+amazon_product_details_scraper.egg-info/top_level.txt
+amazon_product_details_scraper/config/__init__.py
+amazon_product_details_scraper/config/config.py
+amazon_product_details_scraper/core/__init__.py
+amazon_product_details_scraper/core/scraper.py
+amazon_product_details_scraper/core/utils.py

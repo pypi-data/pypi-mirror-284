@@ -1,0 +1,2 @@
+[console_scripts]
+amazon-scraper = amazon_product_details_scraper.app:main
