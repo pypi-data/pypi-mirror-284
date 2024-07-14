@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: PyFrisk
+Version: 0.0.3
+Summary: This is the simplest module for quick work with proxy.
+Home-page: https://github.com/BrightCat14/Pfrisk
+Author: akaruineko
+Author-email: brightcat1950@gmail.com
+Project-URL: GitHub, https://github.com/BrightCat14/Pfrisk
+Keywords: proxy ips helping
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PyFrisk
+## What is this? ##
+This is the simplest module for quick work with proxy and ips. **The module allows you to work with proxy in just one line of** `code`, **without** the need **to manually getting geolocation, splitting ip:port, or getting ip from domain each time**
+
+
+## Using
+Let's import it first:
+First, import everything from the library (use the `from `...` import *` construct).
+
+Examples of all operations:
+
+### proxy
+Enabling proxy using the `enable_proxy()` function:
+
+`PyFrisk.enable_proxy()`
+
+Changing proxy settings using the `change_proxy(ip, port)` function:
+
+
+    ip = "127.0.0.1"
+    port = "8080"
+    Pfrisk.change_proxy(ip, port)
+
+
+Disabling proxy using the `disable_proxy()` function:
+
+`PyFrisk.disable_proxy()`
+
+### ip
+Getting geolocation using the `get_geolocation(ip_address)` function:
+
+    ip_address = "173.194.222.100"
+    PyFrisk.get_geolocation(ip_address)
+
+Getting ip from domain using the `get_ip_from_domain(domain_name)` function:
+
+    domain_name = "google.com"
+    PyFrisk.get_ip_from_domain(domain_name)
+
+### helper
+Getting free proxy using the `get_free_proxies()` function:
+
+`PyFrisk.get_free_proxies()`
+
+Splitting ip:port using the `split_ip_port(ip_port_str)` function:
+
+`PyFrisk.split_ip_port(ip_port_str)`
+
+## Developer ##
+My youtube: [link](http://www.youtube.com/@AkaruiNeko/) 
+
+My nickname: akaruineko

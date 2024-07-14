@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+PyFrisk/__init__.py
+PyFrisk/helper.py
+PyFrisk/ip.py
+PyFrisk/proxy.py
+PyFrisk.egg-info/PKG-INFO
+PyFrisk.egg-info/SOURCES.txt
+PyFrisk.egg-info/dependency_links.txt
+PyFrisk.egg-info/requires.txt
+PyFrisk.egg-info/top_level.txt
