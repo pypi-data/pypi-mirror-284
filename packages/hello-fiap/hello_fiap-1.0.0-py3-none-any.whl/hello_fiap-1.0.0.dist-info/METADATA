@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hello-fiap
+Version: 1.0.0
+Summary: Uma biblioteca para demonstrar como subir no pypi
+Home-page: https://github.com/tadrianonet/hello
+Author: Thiago S Adriano
+Author-email: tadriano.dev@teste.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# Hello Fiap
+
+A simple example library.
+
+## Licença
+
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
