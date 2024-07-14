@@ -1,0 +1,14 @@
+oaikit/__init__.py,sha256=tJTye7lJxsL_ZGDqNHzlcQBWlkGyy-vnF7ixGtsDGHQ,93
+oaikit/models.py,sha256=-VfPsVI-zYj1A-HUpKK7W0XuuVXIryD5883Wn4t9zzY,229
+oaikit/oai.py,sha256=paEJLAgn_EdPB6eplpSzCYw8rWUKKCMAcofPsNUoq2c,1467
+oaikit/utils.py,sha256=VKR7FzrwDn8QLh-zlVN30wPeoIEW1d6QLbEQLzkqvqw,757
+oaikit/msg/__init__.py,sha256=azTZtRGVtWpzjkwH2h9JRI0lvdBucguuRJPxuH9SuKc,451
+oaikit/msg/role.py,sha256=-gLG5QKQi64t7NxCyLfGj1t-hKEroO-sfQgkHhHNQnA,137
+oaikit/msg/content/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oaikit/msg/content/image.py,sha256=-vLevY4cAPgbAY2WqWbBUZlpgdMYPCMpRdz1U6s44jw,1476
+oaikit/msg/content/text.py,sha256=4UEAkgWrU_Q2_Hjdrxk3BqyIPOuxah7q7fRuX-fRymI,139
+oaikit-0.0.6.dist-info/LICENSE,sha256=iHcNH4HWsDuIADzyzBbsJgrAaAUmUq5b7pJR39NzdRk,1075
+oaikit-0.0.6.dist-info/METADATA,sha256=NFmmZn-CFJuaoy-4shB95loqXtHjEYiIV05teTIKZ9c,458
+oaikit-0.0.6.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+oaikit-0.0.6.dist-info/top_level.txt,sha256=sry-0L8sC2Zl8BE-0IL6g16eb-UIIfB8JOKtO-gBYwA,7
+oaikit-0.0.6.dist-info/RECORD,,
