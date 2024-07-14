@@ -1,0 +1,2 @@
+[console_scripts]
+mac-ocr = macocr_cli.__main__:cli
