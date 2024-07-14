@@ -1,0 +1,2 @@
+[console_scripts]
+icnc = icnc.main:main
