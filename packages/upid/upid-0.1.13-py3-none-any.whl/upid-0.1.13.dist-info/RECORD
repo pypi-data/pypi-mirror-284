@@ -1,0 +1,10 @@
+upid-0.1.13.dist-info/METADATA,sha256=J8osRWC1obe5lEXQWYbppcg7DpqViVZZ25et5FTSprU,9367
+upid-0.1.13.dist-info/WHEEL,sha256=mbxFTmdEUhG7evcdMkR3aBt9SWcoFBJ4CDwnfguNegA,90
+upid-0.1.13.dist-info/licenses/LICENSE,sha256=VpPBn8U4Y6r3cE9dB_izD2sfcDSoZ1YjhdZXBpLSBPE,1070
+upid/__init__.py,sha256=eE1FYbS-Ho-ZAGfWmIVXiKuzNY7xUHwUlahKxVD8NlM,61
+upid/__main__.py,sha256=J_yuxYjDoeNeYNci_-ykL_juofU7pN1sDZyoXkXjKdc,176
+upid/b32.py,sha256=HAgsMpYg8JcToYHrwpZJUbA09AT487SdnnWAu6CO3Is,7164
+upid/consts.py,sha256=5KXuwa5z0q5gfIKIAoRb15i1Dj5546rFRKkgMyuJGDk,61
+upid/core.py,sha256=IdsaPil4pjGCzG9cLwwWh39axSUSWHCK8F0gUOxco5E,4691
+upid/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upid-0.1.13.dist-info/RECORD,,
