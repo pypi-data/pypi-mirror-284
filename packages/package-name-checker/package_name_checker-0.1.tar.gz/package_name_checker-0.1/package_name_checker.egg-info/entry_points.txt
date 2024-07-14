@@ -1,0 +1,2 @@
+[console_scripts]
+package_name_checker_start = package_name_checker.app:app.run

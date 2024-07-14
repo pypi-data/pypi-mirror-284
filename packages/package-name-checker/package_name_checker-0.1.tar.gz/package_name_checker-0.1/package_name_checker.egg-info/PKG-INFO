@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: package_name_checker
+Version: 0.1
+Summary: A Flask application to check app details from Google Play Store based on package names.
+Home-page: https://github.com/shishir1337/playstore_app_package_name_checker_package
+Author: Md. Shishir Ahmed
+Author-email: mdshishirahmed811@gmail.com
+License: MIT
+Keywords: flask google-play-store scraper
+License-File: LICENSE
+Requires-Dist: Flask
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
