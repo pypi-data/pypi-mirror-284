@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/election_stats"]
+
+[project]
+name = "election_stats"
+version = "0.1.0"
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "seaborn"
+]
+requires-python = ">=3.8"
+description = "Election stats for UK General Elections"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["election"]
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Repository = "https://github.com/jumpingtj/election-stats"
+
+[project.scripts]
+election-stats = "election_stats.cli:main"
