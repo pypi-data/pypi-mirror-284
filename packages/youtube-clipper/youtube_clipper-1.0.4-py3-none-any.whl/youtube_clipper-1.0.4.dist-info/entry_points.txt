@@ -1,0 +1,3 @@
+[console_scripts]
+youtube-clipper=youtube_clipper.cli:main
+
