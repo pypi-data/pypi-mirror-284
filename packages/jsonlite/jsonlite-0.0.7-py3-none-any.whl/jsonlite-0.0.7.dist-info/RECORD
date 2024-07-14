@@ -1,0 +1,12 @@
+jsonlite/__init__.py,sha256=upJAT_OslD2Lb5JBp94TBi6TzmqiwvID5524devI4MI,113
+jsonlite/jsonlite.py,sha256=UTPaGugVWonvzH0U474NITq0zjV4kTBwhQyxhz4ck5s,10193
+jsonlite/monkey_patch.py,sha256=W4o0KgNRFNhlePJmB9PlO0fael1W9b2jYsi9Y7XfCsc,2716
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_basic.py,sha256=sicPBWj-kejsjiI9iKwC7oYxhO9OlyaiW7Nq5U5yXRo,8118
+tests/test_concurrency.py,sha256=ysU6iRDk7QsbZFIhuOVRj5hlV7QB8EIXeSPhjZ4k-vA,6343
+tests/test_performance.py,sha256=HjwbaUJ4e5VvH2wYJzp28-9311sY72VjXOhrkanUxAU,1741
+jsonlite-0.0.7.dist-info/LICENSE,sha256=1BVL08ea3Rxw7hTNQ4YUOLF8ntTDoNWUylbaqxQCYRM,1062
+jsonlite-0.0.7.dist-info/METADATA,sha256=JdaodlH2pDxUuCnaa90KhNgCNOYXBkN4qBHWRcvNrzE,3202
+jsonlite-0.0.7.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+jsonlite-0.0.7.dist-info/top_level.txt,sha256=-ooV9fpu5r9NpdD0_JuFH4R5KUWRGhCtaKowiEG4DR4,15
+jsonlite-0.0.7.dist-info/RECORD,,
