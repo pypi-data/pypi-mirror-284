@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: jk_dirwalker
+Version: 0.2024.7.13
+Summary: Recursively iterates over files and directories in a directory tree
+Keywords: 
+Author-email: Jürgen Knauth <pubsrc@binary-overflow.de>
+Maintainer-email: Jürgen Knauth <pubsrc@binary-overflow.de>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: jk_typing
+Requires-Dist: jk_prettyprintobj
+
+jk_dirwalker
+==========
+
+Introduction
+------------
+
+This python module ...
+
+Information about this module can be found here:
+
+* [github.org](https://github.com/jkpubsrc/....)
+* [pypi.python.org](https://pypi.python.org/pypi/jk_dirwalker)
+
+Why this module?
+----------------
+
+...
+
+Limitations of this module
+--------------------------
+
+...
+
+How to use this module
+----------------------
+
+### Import this module
+
+Please include this module into your application using the following code:
+
+```python
+import jk_dirwalker
+```
+
+...
+
+Contact Information
+-------------------
+
+* Jürgen Knauth: pubsrc@binary-overflow.de
+
+License
+-------
+
+This software is provided under the following license:
+
+* Apache Software License 2.0
+
+
+
+
