@@ -1,0 +1,7 @@
+README.md
+setup.py
+trsutspidercrypt.egg-info/PKG-INFO
+trsutspidercrypt.egg-info/SOURCES.txt
+trsutspidercrypt.egg-info/dependency_links.txt
+trsutspidercrypt.egg-info/requires.txt
+trsutspidercrypt.egg-info/top_level.txt
