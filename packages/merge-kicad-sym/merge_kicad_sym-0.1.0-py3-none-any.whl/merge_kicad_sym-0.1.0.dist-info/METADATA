@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: merge-kicad-sym
+Version: 0.1.0
+Summary: A script to merge KiCad symbol libraries.
+Home-page: https://github.com/McMaster-Rocketry-Team/merge-kicad-sym
+Author: Pegasis
+Author-email: me@pegasis.site
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# merge-kicad-sym
+
+A script to merge KiCad symbol libraries.
+
+## Installation
+
+```sh
+pip install combine_libs
+```
+
+## Usage
+
+```sh
+usage: merge-kicad-sym [-h] [--overwrite-footprint-lib-name OVERWRITE_FOOTPRINT_LIB_NAME] target_lib source_lib
+
+Combine two KiCad symbol libraries.
+
+positional arguments:
+  target_lib            Path to the target KiCad symbol library file that the source library will be merged into.
+  source_lib            Path to the source KiCad symbol library file that will be merged into the target library.
+
+options:
+  -h, --help            show this help message and exit
+  --overwrite-footprint-lib-name OVERWRITE_FOOTPRINT_LIB_NAME
+                        String to overwrite the footprint library this symbol refereces to.
+
+```
