@@ -1,0 +1,8 @@
+setup.py
+guesspkgabc/__init__.py
+guesspkgabc/guess.py
+guesspkgabc/new.py
+guesspkgabc.egg-info/PKG-INFO
+guesspkgabc.egg-info/SOURCES.txt
+guesspkgabc.egg-info/dependency_links.txt
+guesspkgabc.egg-info/top_level.txt
