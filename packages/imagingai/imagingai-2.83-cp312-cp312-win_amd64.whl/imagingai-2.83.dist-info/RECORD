@@ -1,0 +1,9 @@
+imagingai/ImagingAI.c,sha256=lVj2kGJogJ99-OJLhYj4xzoQZvzOycQ068Bm9DTYK5o,405970
+imagingai/ImagingAI.cp312-win_amd64.pyd,sha256=OidUDptC-pfGAYlBAI-PTNhcwFFbS1lgD60Yh1K7upk,67072
+imagingai/ImagingAI.pyx,sha256=FqF5Ba-lRREMBn0txNLBJb8zsKNg2zrDGyDzVtNpKcQ,1780
+imagingai/__init__.py,sha256=t87ogfJvMOgQkSdMWCKzOPR3k9kJjYwoi3MpIbTMnuo,34
+imagingai-2.83.dist-info/LICENSE,sha256=4ssKNT0bseJorP8v2xBSxda2EM_fdsuVqXpHmfI7-jM,1085
+imagingai-2.83.dist-info/METADATA,sha256=8kOlYdpxY47xzqkry3qF_0TBi-EUCqqNM4hOTnfeQ4M,703
+imagingai-2.83.dist-info/WHEEL,sha256=fZWyj_84lK0cA-ZNCsdwhbJl0OTrpWkxInEn424qrSs,102
+imagingai-2.83.dist-info/top_level.txt,sha256=XSkSVPHsvPDLicJCSU-kQaVn816mVDJqVIBJ1xZAKxw,10
+imagingai-2.83.dist-info/RECORD,,
