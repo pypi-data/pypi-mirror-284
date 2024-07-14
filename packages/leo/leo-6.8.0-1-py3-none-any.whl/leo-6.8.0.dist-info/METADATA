@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: leo
+Version: 6.8.0
+Summary: A PIM, IDE and Outliner
+Home-page: https://leo-editor.github.io/leo-editor/
+Author: Edward K. Ream
+Author-email: edreamleo@gmail.com
+Maintainer-email: "Edward K. Ream" <edreamleo@gmail.com>, Félix Malboeuf <felixgraphx@gmail.com>, Thomas Passin <pub1@tompassin.net>, "Виталије Милошевић, (Vitalije Milosevic) " <vitalijem@gmail.com>
+License: MIT License
+Project-URL: Documentation, https://leo-editor.github.io/leo-editor/leo_toc.html
+Project-URL: Home Page, https://leo-editor.github.io/leo-editor/
+Project-URL: Issues, https://github.com/leo-editor/leo-editor/issues
+Project-URL: Pull Requests, https://github.com/leo-editor/leo-editor/pulls
+Project-URL: GitHub Repository, https://github.com/leo-editor/leo-editor
+Project-URL: What People Are Saying about Leo, http://leo-editor.github.io/leo-editor/testimonials.html
+Keywords: PIM,IDE,Outliner
+Classifier: Development Status :: 6 - Mature
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: build >=1.2.1
+Requires-Dist: twine >=5.1.0
+Requires-Dist: mypy
+Requires-Dist: mypy-extensions
+Requires-Dist: typing-extensions
+Requires-Dist: types-docutils
+Requires-Dist: types-Markdown
+Requires-Dist: types-paramiko
+Requires-Dist: types-PyYAML
+Requires-Dist: types-requests
+Requires-Dist: types-six
+Requires-Dist: asttokens
+Requires-Dist: beautifulsoup4
+Requires-Dist: black
+Requires-Dist: docutils
+Requires-Dist: flexx
+Requires-Dist: meta
+Requires-Dist: pyenchant
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: pyflakes
+Requires-Dist: pylint
+Requires-Dist: ruff
+Requires-Dist: sphinx
+Requires-Dist: pyshortcuts
+Requires-Dist: tk
+Requires-Dist: urllib3
+Requires-Dist: PyQt6 >=6.6
+Requires-Dist: PyQt6-WebEngine
+Requires-Dist: PyQt6-QScintilla
+Requires-Dist: windows-curses ; os_name == "nt"
+Requires-Dist: Send2Trash ; os_name == "nt"
+Requires-Dist: Send2Trash ; platform_system == "Windows"
+Requires-Dist: windows-curses ; platform_system == "Windows"
+
+Leo https://leo-editor.github.io/leo-editor/ 6.8.0 is now available on [GitHub](https://github.com/leo-editor/leo-editor/releases) and [pypi](https://pypi.org/project/leo/).
+
+Leo is an [IDE, outliner and PIM](https://leo-editor.github.io/leo-editor/preface.html).
+
+**The highlights of Leo 6.8.0**
+
+This release contains several **breaking changes** to Leo's API.
+See the `What's new in Leo 6.8.0` section for details.
+  
+**Significant changes**
+
+- PR #3828: Leo now requires PyQt6.
+- PR #3911: Leo's core no longer uses the free_layout or nested_splitter plugins.
+- PR #3872: Improve how Leo searches for definitions. Add `@bool prefer-nav-pane`.
+- PR #3922: Improved the `restart-leo` command.
+
+**New and improved**
+
+- PR #3870: Leo's beautifier works faster.
+- PR #3841: Add `g.traceUnique` and `g.traceUniqueClass` functions.
+- PR #3893: Add `vr-fully-expand`, `vr-toggle-visibility` and `vr-keep-open` commands.
+- PR #3902: Add the `toggle-unl-view` command.
+- PR #3921: Add the `show-qt-widgets` command.
+
+- The usual minor improvements and bug fixes.
+
+**Links**
+
+- [Install Leo](https://leo-editor.github.io/leo-editor/installing.html)
+- [6.8.0 Issues](https://github.com/leo-editor/leo-editor/issues?q=is%3Aissue+milestone%3A6.8.0+)
+- [6.8.0 Pull Requests](https://github.com/leo-editor/leo-editor/pulls?q=is%3Apr+milestone%3A6.8.0)
+- [Documentation](https://leo-editor.github.io/leo-editor/leo_toc.html)
+- [Tutorials](https://leo-editor.github.io/leo-editor/tutorial.html)
+- [Video tutorials](https://leo-editor.github.io/leo-editor/screencasts.html)
+- [Forum](http://groups.google.com/group/leo-editor)
+- [Leo on GitHub](https://github.com/leo-editor/leo-editor)
+- [LeoVue](https://github.com/kaleguy/leovue#leo-vue)
+- [What people are saying about Leo](https://leo-editor.github.io/leo-editor/testimonials.html)
+- [A web page that displays .leo files](https://leo-editor.github.io/leo-editor/load-leo.html)
+- [More links](https://leo-editor.github.io/leo-editor/leoLinks.html)
