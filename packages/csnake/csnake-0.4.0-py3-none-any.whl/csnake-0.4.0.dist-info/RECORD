@@ -1,0 +1,12 @@
+LICENSE.md,sha256=4TDZmyXJJidxcwlXytaFLNXMu_Ms2qxWfl1-oP8k-2c,1171
+csnake/__init__.py,sha256=hMbRGvEEc2StOzRBR9S30tU6JyLQU8KEjbqtU7Wo3MY,1697
+csnake/_version.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+csnake/cconstructs.py,sha256=TyXvQ_Rrj5cBXOXQFV1eCu4of-vmVxyE7v1TakGZhAs,67401
+csnake/codewriter.py,sha256=wJTPPoA8u46-9zAnSZOqhKT4K7NzTCiALokqSJI3_1I,29002
+csnake/codewriterlite.py,sha256=bvTi-naIL0euiCweFEu7H_xbcAybEDZPNT6I8dRC2d0,10493
+csnake/pil_converter.py,sha256=5hSV4uiIhHHE4CCv-Q7TBNAsnlvnN754NoaIMtWUyiI,4918
+csnake/utils.py,sha256=cQX_NuX5BQAqtIP9sV9WMEyQuLVh6BSlev0xBx6GGb8,3622
+csnake-0.4.0.dist-info/LICENSE.md,sha256=4TDZmyXJJidxcwlXytaFLNXMu_Ms2qxWfl1-oP8k-2c,1171
+csnake-0.4.0.dist-info/METADATA,sha256=eEvgwCkDlZAc7Q09J9ZHD3BpO-VzXek8eZKoY2kT1ts,4962
+csnake-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+csnake-0.4.0.dist-info/RECORD,,
