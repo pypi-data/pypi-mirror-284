@@ -1,0 +1,13 @@
+README.md
+setup.py
+DNAsplot/DNAsplot.py
+DNAsplot/__init__.py
+DNAsplot/__main__.py
+DNAsplot/_version.py
+DNAsplot.egg-info/PKG-INFO
+DNAsplot.egg-info/SOURCES.txt
+DNAsplot.egg-info/dependency_links.txt
+DNAsplot.egg-info/entry_points.txt
+DNAsplot.egg-info/not-zip-safe
+DNAsplot.egg-info/requires.txt
+DNAsplot.egg-info/top_level.txt

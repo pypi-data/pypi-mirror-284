@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: DNAsplot
+Version: 1.0.7
+Summary: plot multiple DNA sequences with point mutations
+Home-page: https://pypi.org/project/DNAsplot/
+Author: Benxia Hu
+Author-email: hubenxia@gmail.com
+License: UNKNOWN
+Description: plot multiple DNA sequences with point mutations
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
