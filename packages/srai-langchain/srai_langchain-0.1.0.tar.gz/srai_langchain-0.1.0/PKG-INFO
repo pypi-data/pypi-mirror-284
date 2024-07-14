@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: srai-langchain
+Version: 0.1.0
+Summary: A library for easier langchain usage
+Home-page: https://github.com/southriverai/srai-langchain
+License: MIT
+Author: Jaap Oosterbroek
+Author-email: jaap.oosterbroek@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain (==0.2.6)
+Requires-Dist: langchain-community (==0.2.6)
+Requires-Dist: langchain-core (==0.2.11)
+Requires-Dist: langchain-openai (==0.1.14)
+Requires-Dist: langchain-text-splitters (==0.2.2)
+Requires-Dist: markdownify (==0.12.1)
+Requires-Dist: pinecone_client (==4.1.2)
+Requires-Dist: pymed (==0.8.9)
+Requires-Dist: srai-core (==0.13.1)
+Project-URL: Repository, https://github.com/southriverai/srai-langchain
+Description-Content-Type: text/markdown
+
+# srai-langchain
+wrapper for simpler langchain usage
+
