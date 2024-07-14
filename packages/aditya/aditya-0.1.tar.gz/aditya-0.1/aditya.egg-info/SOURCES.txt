@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+streaming_stats.py
+aditya.egg-info/PKG-INFO
+aditya.egg-info/SOURCES.txt
+aditya.egg-info/dependency_links.txt
+aditya.egg-info/top_level.txt
