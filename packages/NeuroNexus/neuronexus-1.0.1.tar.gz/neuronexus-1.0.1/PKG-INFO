@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: NeuroNexus
+Version: 1.0.1
+Summary: Prive.
+Author: NorkzYT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+Prive.
