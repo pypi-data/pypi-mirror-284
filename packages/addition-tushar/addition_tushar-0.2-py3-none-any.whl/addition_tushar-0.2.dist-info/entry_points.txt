@@ -1,0 +1,3 @@
+[console_scripts]
+add = addition_tushar:add_main
+
