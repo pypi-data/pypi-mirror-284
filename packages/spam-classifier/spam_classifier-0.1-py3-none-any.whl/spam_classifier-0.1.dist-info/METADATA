@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: spam-classifier
+Version: 0.1
+Summary: A library for classifying spam messages
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: pickle
+
