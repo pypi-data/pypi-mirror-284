@@ -1,0 +1,4 @@
+aiohttp>=3.7.4
+solana>=0.21.0
+base58>=2.1.0
+solders
