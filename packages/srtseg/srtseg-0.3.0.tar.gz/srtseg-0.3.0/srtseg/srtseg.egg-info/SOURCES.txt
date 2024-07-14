@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+srtseg/srtseg.egg-info/PKG-INFO
+srtseg/srtseg.egg-info/SOURCES.txt
+srtseg/srtseg.egg-info/dependency_links.txt
+srtseg/srtseg.egg-info/top_level.txt
