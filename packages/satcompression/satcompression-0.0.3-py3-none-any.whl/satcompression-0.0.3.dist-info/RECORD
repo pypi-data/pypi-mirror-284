@@ -1,0 +1,11 @@
+satcompression/__init__.py,sha256=O7F4kFLL4nJbfTh5tDDoZCHH_BuKKSQv3G2fl4IpfhM,171
+satcompression/compress_node.py,sha256=QtSMGB1PvEH220XIzeJiVcAAx1ZV0sTQhJ3HYSVYO1Q,5294
+satcompression/image_compressor.py,sha256=HmGMjJ-n2LuicFR7hF_ZjGZ3kFYmqNkJBYwChnaVVj0,5804
+satcompression/main.py,sha256=9xugL4C9xJ9j5ObhA8snl9XLh8vPcQFLarwx1lakYaQ,2100
+satcompression/quadtree.py,sha256=nZlPdO_5Xu29Sa4PYLk8lOjfo4N7gKBZ4nGWbGdRHis,9664
+satcompression/reconstruct_node.py,sha256=K9Bjw4sNGG4Wf8ga_1scAeFFe8JvHNVTGAQaYfW6qog,821
+satcompression/utils.py,sha256=ihdp3j8sjpG2xEdXM9-wPutDAXTJFuHV-srrFwZIZUc,4929
+satcompression-0.0.3.dist-info/LICENSE,sha256=YdB4BQMkMzWuKvXRIpQR4g91IQ_pwA5PSH2lNM97zFI,1070
+satcompression-0.0.3.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+satcompression-0.0.3.dist-info/METADATA,sha256=z2qquQrHkrXhy-XDpgwyy0SjlxzOmoXitnrohaT4VxE,2581
+satcompression-0.0.3.dist-info/RECORD,,
