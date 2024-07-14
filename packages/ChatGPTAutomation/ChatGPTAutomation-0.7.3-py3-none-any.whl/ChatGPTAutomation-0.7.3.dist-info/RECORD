@@ -1,0 +1,14 @@
+chatgpt_automation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt_automation/chatgpt_automation.py,sha256=oABqJIx6Y9GesF78av5Ovhp_cHYdqj64_Lzz0aTngFA,41815
+chatgpt_automation/chromedriver_manager.py,sha256=ST8_Rd5Mn5OayLuXXcAXoR13keafPy4Bj1iDdE5ijW4,5956
+mytest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mytest/index.py,sha256=X2TEU-BWU0leyJqyTaTZRlmzJkwEri1HAaeafktPsWo,89
+mytest/new_test.py,sha256=DMR5AtkP1cAJXZ9w5uNC9Bt2EP0ZwcFmL3XdleMwuRE,220
+mytest/test.py,sha256=MFS3Yi3yBxKRoMxe4aNg5jj3MbZfCMaG2etd3n7AKh4,458
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_chatgpt_automation.py,sha256=_2gAE6_PngcQUisqXABHiLnp3QWWNimsgt_jy1B46XI,2762
+ChatGPTAutomation-0.7.3.dist-info/LICENCE.md,sha256=rlClZb-ppt0Konf9Hrv5f7ScdgOpsfTBPhsk50yV_6A,1111
+ChatGPTAutomation-0.7.3.dist-info/METADATA,sha256=53qGja3nPB8ka_gPRUTTR5HWulfWYTIRqlwgfFz_8NE,8710
+ChatGPTAutomation-0.7.3.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+ChatGPTAutomation-0.7.3.dist-info/top_level.txt,sha256=hmKO1RQUqscEASbzvNybFT0wr7V5lM8MWN7qpqTLipE,32
+ChatGPTAutomation-0.7.3.dist-info/RECORD,,
