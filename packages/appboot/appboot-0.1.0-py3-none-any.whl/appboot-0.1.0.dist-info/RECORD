@@ -1,0 +1,14 @@
+appboot/.DS_Store,sha256=DStIpabZHiZSfFUkKfCPLkkamnTEbY_SMW1PcSaDy68,6148
+appboot/__init__.py,sha256=MGIYLI_q8CjgTREFLaqZdQUmDk_q-poc4TQMAUj9c98,257
+appboot/_compat.py,sha256=E9GjUzhHalOCcXThZFmyINVmNbFdBajFm42_xdfaTn4,334
+appboot/conf/__init__.py,sha256=rmfcBoIhBRjNEq2VsNBi--HMxvAzR0dgGowvnqJQXRY,1401
+appboot/conf/default.py,sha256=x_YjM8TmMVVkTtrmXpG6sPqiLZC0gCI09GK8_wFPqf8,553
+appboot/db.py,sha256=Vf4CuhKFlG3ZWWfgnPkvME6pxpRfe9psDGzUDUUktag,821
+appboot/model.py,sha256=MAJZ7y9IO0SOjIF0XsfJPU3ZvRT-Q8S8BfEKS4jbk2U,1070
+appboot/repository.py,sha256=lTnMGItU4SyKvtbmvvR-yX47h1uWRpYBtO3GKgKTnZg,4013
+appboot/schema.py,sha256=YNB6mKjhwQpkTNeFmIfMnUu-3StYMDiuLMBl09UZO7A,2926
+appboot/utils.py,sha256=QJm-VHnAXI9twQoitu5tBp3TVd6cVEMhuhVv4R2KTTQ,273
+appboot-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+appboot-0.1.0.dist-info/METADATA,sha256=i_aKR8qM9Kvffo7dLOPiqOL5pqJCQqbw4pVnY2Nm8D4,593
+appboot-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+appboot-0.1.0.dist-info/RECORD,,
