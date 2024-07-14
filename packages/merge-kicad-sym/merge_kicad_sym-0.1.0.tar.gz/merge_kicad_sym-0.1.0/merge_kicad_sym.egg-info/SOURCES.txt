@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+merge_kicad_sym.egg-info/PKG-INFO
+merge_kicad_sym.egg-info/SOURCES.txt
+merge_kicad_sym.egg-info/dependency_links.txt
+merge_kicad_sym.egg-info/entry_points.txt
+merge_kicad_sym.egg-info/top_level.txt
+src/__init__.py
+src/main.py
