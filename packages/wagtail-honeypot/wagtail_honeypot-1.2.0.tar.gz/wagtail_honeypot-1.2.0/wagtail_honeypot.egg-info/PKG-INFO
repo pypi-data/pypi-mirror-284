@@ -1,0 +1,239 @@
+Metadata-Version: 2.1
+Name: wagtail-honeypot
+Version: 1.2.0
+Summary: Add optional honeypot protection to your Wagtail forms.
+Author-email: Nick Moreton <nickmoreton@me.com>
+License: 
+        MIT License
+        
+        Copyright (c) 2022, Nick Moreton
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        
+Project-URL: Repository, https://github.com/wagtail-packages/wagtail-honeypot
+Project-URL: Issues, https://github.com/wagtail-packages/wagtail-honeypot/issues
+Project-URL: Changelog, https://github.com/wagtail-packages/wagtail-honeypot/blob/release/CHANGELOG
+Keywords: wagtail,honeypot,forms,spam
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: Framework :: Wagtail
+Classifier: Framework :: Wagtail :: 5
+Classifier: Framework :: Wagtail :: 6
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Wagtail>=5.1
+Provides-Extra: development
+Requires-Dist: black==24.4.2; extra == "development"
+Requires-Dist: flake8==7.1.0; extra == "development"
+Requires-Dist: isort==5.13.2; extra == "development"
+Requires-Dist: django-upgrade; extra == "development"
+Requires-Dist: pyupgrade; extra == "development"
+
+# Wagtail Honeypot
+
+![Alt text](docs/sample.jpg?raw=true "Title")
+
+## Add optional form spam protection to your Wagtail forms
+
+It should help to reduce form spam by tricking bots into submitting data in fields that should remain empty.
+
+### How it works
+
+When the Wagtail Form is submitted and the honeypot protection is enabled, the honeypot fields & values are available in the `POST` data.
+
+It provides validation for a hidden text field that should remain empty and checks a time interval between the form being displayed and submitted.
+
+If the form is submitted with content in the hidden field or before the interval expires the submission is ignored.
+
+- No email is sent
+- No submission is stored
+
+## Installation and setup
+
+Add the package to your python environment.
+
+```bash
+pip install wagtail-honeypot
+```
+
+Add the package to your settings
+
+```python
+INSTALLED_APPS = [
+    ...
+    "wagtail_honeypot",
+    ...
+]
+```
+
+### The HoneypotFormMixin & HoneypotFormSubmissionMixin
+
+They will add a [honeypot enable/disable](./wagtail_honeypot/models.py#L13) field to your form page model and [custom form submission](./wagtail_honeypot/models.py#L24) method.
+
+If you follow the official Wagtail docs for the [Form Builder](https://docs.wagtail.org/en/stable/reference/contrib/forms/index.html) your form should look something like this...
+
+```python
+from wagtail_honeypot.models import (
+    HoneypotFormMixin, HoneypotFormSubmissionMixin
+)
+
+class FormField(AbstractFormField):
+    page = ParentalKey("FormPage", related_name="form_fields")
+
+class FormPage(HoneypotFormMixin, HoneypotFormSubmissionMixin):
+    intro = RichTextField(blank=True)
+    thank_you_text = RichTextField(blank=True)
+
+    content_panels = AbstractEmailForm.content_panels + [
+        FieldPanel("intro", classname="full"),
+        InlinePanel("form_fields", label="Form fields"),
+        FieldPanel("thank_you_text", classname="full"),
+        MultiFieldPanel(
+            [
+                FieldRowPanel(
+                    [
+                        FieldPanel("from_address", classname="col6"),
+                        FieldPanel("to_address", classname="col6"),
+                    ]
+                ),
+                FieldPanel("subject"),
+            ],
+            "Email",
+        ),
+    ]
+
+    honeypot_panels = [
+        MultiFieldPanel(
+            [FieldPanel("honeypot")],
+            heading="Reduce Form Spam",
+        )
+    ]
+
+    edit_handler = TabbedInterface(
+        [
+            ObjectList(content_panels, heading="Content"),
+            ObjectList(honeypot_panels, heading="Honeypot"),
+            ObjectList(Page.promote_panels, heading="Promote"),
+            ObjectList(Page.settings_panels, heading="Settings", classname="settings"),
+        ]
+    )
+```
+
+If you prefer you could add the honeypot field to the content_panels rather than a new Tab
+
+```python
+# replace
+edit_handler = TabbedInterface(
+        [
+            ObjectList(content_panels, heading="Content"),
+            ObjectList(honeypot_panels, heading="Honeypot"),
+            ObjectList(Page.promote_panels, heading="Promote"),
+            ObjectList(Page.settings_panels, heading="Settings", classname="settings"),
+        ]
+    )
+
+# with
+content_panels = content_panels + honeypot_panels
+```
+
+*Run `python manage.py makemigrations` and `python manage.py migrate` here*
+
+### Honeypot Template Tag
+
+Add the following template tag loader to your form page.
+
+```html
+{% load honeypot_tags %}
+```
+
+Add the Honeypot fields template tag anywhere inside the form
+
+```html
+<form>
+...
+{% honeypot_fields page.honeypot %}
+...
+</form>
+```
+
+In your Wagtail site you should now be able to add a new form page, *enable the honeypot field*.
+
+Test that the honey pot field works
+
+1. View the newly created form page.  
+2. The honeypot field is visible and could be submitted with any value.  
+3. Test it out by submitting the form with the honeypot field set to any value. It won't save the form submission or send an email if you have enabled that in your form page.
+
+## Hide the Honeypot field
+
+The honeypot field should be invisible to when viewed in a browser.
+
+### Use CSS & JS to hide the honeypot field
+
+The package has some basic css and javascript you can use to hide the field.
+
+Example: add the following to your form template.
+
+```html
+<!-- recommended:
+to add both but you can use one or the other -->
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/honeypot.css' %}">
+{% endblock extra_css %}
+
+<!-- alternative:
+but without the css above loaded first
+the field could be seen for a flash while the page loads -->
+
+{% block extra_js %}
+<script src="{% static 'js/honeypot.js' %}"></script>
+{% endblock extra_js %}
+```
+
+The field should be visibly hidden and not be available to receive any value from a site visitor.
+
+> When rendered, the fields will have the HTML attributes `tabindex="-1" autocomplete="off"` to prevent a site visitor from using the tab key to move to the field and disable any autocomplete browser functions.
+
+## Developer Documentation
+
+[Developer Docs](docs/developer.md) for detailed help.
+
+## Versions
+
+Wagtail honey pot can be used in environments:
+
+- Python 3.9+
+- Django 4.2+
+- Wagtail 5.1+
+
+## Contributions
+
+Contributions or ideas to improve this package are welcome.

@@ -1,0 +1,8 @@
+Wagtail>=5.1
+
+[development]
+black==24.4.2
+flake8==7.1.0
+isort==5.13.2
+django-upgrade
+pyupgrade

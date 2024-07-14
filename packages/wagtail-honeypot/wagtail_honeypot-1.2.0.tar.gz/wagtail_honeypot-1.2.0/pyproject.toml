@@ -1,0 +1,44 @@
+[project]
+name = "wagtail-honeypot"
+version = "1.2.0"
+description = "Add optional honeypot protection to your Wagtail forms."
+readme = "README.md"
+keywords = ["wagtail", "honeypot", "forms", "spam"]
+authors = [
+    {name = "Nick Moreton", email = "nickmoreton@me.com"}
+]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Framework :: Wagtail",
+    "Framework :: Wagtail :: 5",
+    "Framework :: Wagtail :: 6",
+]
+requires-python = ">=3.9"
+dependencies =[
+    "Wagtail>=5.1",
+]
+
+[project.optional-dependencies]
+development = [
+    "black==24.4.2",
+    "flake8==7.1.0",
+    "isort==5.13.2",
+    "django-upgrade",
+    "pyupgrade",
+]
+
+[project.urls]
+Repository = "https://github.com/wagtail-packages/wagtail-honeypot"
+Issues = "https://github.com/wagtail-packages/wagtail-honeypot/issues"
+Changelog = "https://github.com/wagtail-packages/wagtail-honeypot/blob/release/CHANGELOG"
