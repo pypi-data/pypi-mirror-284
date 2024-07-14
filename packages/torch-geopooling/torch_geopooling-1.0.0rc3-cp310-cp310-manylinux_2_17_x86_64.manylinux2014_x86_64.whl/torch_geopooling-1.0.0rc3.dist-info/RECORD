@@ -1,0 +1,17 @@
+torch_geopooling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torch_geopooling/functional.py,sha256=rZrh30K4IlxG3lGQ1_C8wrL7MKS9yIT-NSEkcM21A_k,12028
+torch_geopooling/transforms_test.py,sha256=Cqp4VVObBVrc8HQ7uxkpe1EsQ5NxXrCI77BiUqngLXw,1196
+torch_geopooling/_C.cpython-310-x86_64-linux-gnu.so,sha256=UIVMndnNGXdX20UkSchGP8TiTbjBiKbA6zKylaXo8Nw,19923160
+torch_geopooling/tiling.py,sha256=f1g0Gf__5zIOafZzDkwO62t9OqMDMBEYVtM2HXB5X0Y,2553
+torch_geopooling/functional_test.py,sha256=WZ7GePj1f8jp8cxNrnrDoHXnJeEeBUNVnFySPgEDl2I,2406
+torch_geopooling/return_types.py,sha256=QhIKf_qxpppzuZzUrT-VacfbvZ6zKmSRu-WZOqL8wuE,898
+torch_geopooling/nn_test.py,sha256=4Aj3CcI8KG0parOyruAHZCCnC51CvSacTZ0AxTs16Gc,2359
+torch_geopooling/transforms.py,sha256=NHPBgx1L4-1745xNO_PvLuvbMH6DWi2rs1ViuRyBQAY,3635
+torch_geopooling/nn.py,sha256=A_pozkqIfjhmOL7BDvTV2bJBv7nXD3Wi8nAlbl_rSEs,14156
+torch_geopooling/__bind__/python_module.cc,sha256=5K04tRT62XTVsZhY2EE4r4bBTz4mA4IwEkw5adPzo58,576
+torch_geopooling-1.0.0rc3.dist-info/LICENSE,sha256=jLc4eyvG8hqxH4AdKAjK2DwXoP68qjHiGfq8eP5ubBI,35069
+torch_geopooling-1.0.0rc3.dist-info/dependency_links.txt,sha256=JqLDcYHtEaQB51V72n3gAJvRd36bpoPk9qgTbot-Lx4,37
+torch_geopooling-1.0.0rc3.dist-info/WHEEL,sha256=CzQQWV-lNyM92gr3iaBk8dvO35YDHRxgzkZ-dxumUIM,152
+torch_geopooling-1.0.0rc3.dist-info/top_level.txt,sha256=3geTL2nsLvybdtr1psWIE6h63B1LuyIIyWWv0rDafTk,17
+torch_geopooling-1.0.0rc3.dist-info/RECORD,,
+torch_geopooling-1.0.0rc3.dist-info/METADATA,sha256=e81OTHBrYbB3X4ZdjIKovz-ch5tEywdIMf4_oNNq8co,44199
