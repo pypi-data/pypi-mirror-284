@@ -1,0 +1,16 @@
+powermake/__init__.py,sha256=DOwXKqgldohoHpsoJcssfam0ExObRcnEjnG_GNlcEIM,12259
+powermake/architecture.py,sha256=YytlHYLoT_lsjgcJTi4nwkXdNPxnklGb3vwnN1c8XvE,1243
+powermake/archivers.py,sha256=1VEMQHQMKdCaQ8juMDicR6NLT71upPubGgi07zW3mME,2221
+powermake/args_parser.py,sha256=ceGRzNVrnyKWLnOL9wK_Mob7X6rM3lmfaAPqBOO88RM,9990
+powermake/compilers.py,sha256=X2yu7aTbZ8oEXrWzwL2DWIBZWeryfw__ih-Bcr9KwM8,5344
+powermake/config.py,sha256=xQDcwNhhcoe1IQFPxqJxWSrXhP55V1QsBfLinXNBKHw,14967
+powermake/display.py,sha256=n_EdMAFHEm90ab990tIjDiTjAvQp1IBjLIoYXtCzeCg,949
+powermake/interactive_config.py,sha256=RQSS0Jqn-l59LD2HUITNmQEPi204GkhgPdp0yQYq2BM,1507
+powermake/linkers.py,sha256=IYR-Q9bgdE8bAfD9BEZmL9S4KRrXz2apjc4c1VTXtHs,3330
+powermake/operation.py,sha256=L2WZkcVh8Q3gp06RQJW58u-SZmPcTHO_HZjGiAGxOrQ,6719
+powermake/search_visual_studio.py,sha256=TVpzMcKXfEVS5e23xt4tyQia6iiuVImAN-2XSoMD8EM,5397
+powermake/tools.py,sha256=gxfElE4Z6-N-4sjJwqFl7QDEvuR_PYRYzXEAxW6XyCY,2399
+powermake-1.2.0.dist-info/METADATA,sha256=UW5ATdagIfbFWUjetPQyAnsWeOgTO8ONfBm91c8dtis,15543
+powermake-1.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+powermake-1.2.0.dist-info/licenses/LICENSE.txt,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+powermake-1.2.0.dist-info/RECORD,,
