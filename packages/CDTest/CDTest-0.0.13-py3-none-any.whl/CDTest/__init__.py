@@ -1,0 +1,1 @@
+from codes import prac1Que1
