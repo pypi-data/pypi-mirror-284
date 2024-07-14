@@ -1,0 +1,11 @@
+sharkey_crawler/__init__.py,sha256=-PLRooYAi2uO-fO4vmE5H_Z_apouWh9U6BI8qop5n2c,453
+sharkey_crawler/convert.py,sha256=UzwUNLOMTBf4P4Hsg9W2WEyIIiTDGgiFwmRKyeiHMfs,1606
+sharkey_crawler/main.py,sha256=R8jhFhGp5tU4smXhZbQ83OYfBixLQX0EVWdYFVhm6Dc,4285
+sharkey_crawler/types/__init__.py,sha256=ye1UaGaQpFPhSt9zwcCkBsfmn33uah6c47rkyQ-1gbA,389
+sharkey_crawler/types/id.py,sha256=jUTArnhmaem1IzDNV8cSNtvV8Z5f2q8rb2nYTAXydrQ,476
+sharkey_crawler/types/post.py,sha256=AbSfG7V73YaIxBH4lrQ_air_yjqcKtc1zgXGJMCqv6M,3255
+sharkey_crawler/types/user.py,sha256=chjW92LesXWvviuY3g6DWQ9sC3kx2opAR7SPnvLfsj4,2150
+sharkey_crawler-0.1.0.dist-info/LICENSE,sha256=C2U9egGIbZETUAib_TR1UjPcb84vvaZ0BoMS2unshAo,1128
+sharkey_crawler-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+sharkey_crawler-0.1.0.dist-info/METADATA,sha256=l0A47i65_vErhFaLOWOd-r1tLSWxviKW99aGe81Yh0Q,5858
+sharkey_crawler-0.1.0.dist-info/RECORD,,
