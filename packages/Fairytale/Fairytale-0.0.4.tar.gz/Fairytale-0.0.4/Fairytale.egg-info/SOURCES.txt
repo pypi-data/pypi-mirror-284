@@ -1,0 +1,5 @@
+setup.py
+Fairytale.egg-info/PKG-INFO
+Fairytale.egg-info/SOURCES.txt
+Fairytale.egg-info/dependency_links.txt
+Fairytale.egg-info/top_level.txt
