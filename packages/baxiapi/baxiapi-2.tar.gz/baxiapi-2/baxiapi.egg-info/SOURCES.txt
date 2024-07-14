@@ -1,0 +1,8 @@
+README.md
+setup.py
+baxiapi/__init__.py
+baxiapi.egg-info/PKG-INFO
+baxiapi.egg-info/SOURCES.txt
+baxiapi.egg-info/dependency_links.txt
+baxiapi.egg-info/requires.txt
+baxiapi.egg-info/top_level.txt

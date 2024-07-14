@@ -1,0 +1,4 @@
+requests
+wavelink
+discord.py
+reds-simple-logger
