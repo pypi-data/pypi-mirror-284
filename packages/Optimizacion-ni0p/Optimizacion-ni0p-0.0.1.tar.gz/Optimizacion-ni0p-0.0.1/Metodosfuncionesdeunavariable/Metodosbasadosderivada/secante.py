@@ -1,0 +1,178 @@
+import numpy as np
+import matplotlib.pyplot as plt 
+
+def linspace(start, stop, step=0.05):
+    return np.linspace(start, stop, int((stop - start) / step + 1))
+
+#Basadas en Central Difference Method (Scarborough, 1966)
+def derivada(f, x, deltaa_x):
+    return (f(x + deltaa_x) - f(x - deltaa_x)) / (2 * deltaa_x)
+
+def segunda_derivada(f, x, deltaa_x):
+    return (f(x + deltaa_x) - 2 * f(x) + f(x - deltaa_x)) / (deltaa_x ** 2)
+
+def delta_x(x):
+    if abs(x) > 0.01:
+        return 0.01 * abs(x)
+    else:
+        return 0.0001
+
+#Funciones 
+def caja(l):
+    return -1*(4*(l)**3 - 60*(l)**2 + 200*l)
+
+def lata(r):
+    return 2 * np.pi * (r**2)  + 500/r
+
+def f1(x):
+    return ((x)**2) + 54/x
+
+def f2(x):
+    return ((x)**3) + (2*(x)) - 3
+
+def f3(x):
+    return ((x)**4) + ((x)**2) - 33
+
+def f4(x):
+    return (3*((x)**4)) - (8*((x)**3)) - (6*((x)**2)) + 12*(x)
+
+#Arreglos con los límites generados para cada función
+lim_lata = linspace(0.5, 8)
+lim_caja = linspace(2, 3)
+lim_f1 = linspace(0, 10)
+lim_f2 = linspace(0, 5)
+lim_f3 = linspace(-2.5, 2.5)
+lim_f4 = linspace(-1.5, 3)
+
+def secante(a, b, epsilon, f):
+    x1, x2 = a, b
+    z = x2 - (derivada(f, x2, delta_x(x2)) / (derivada(f, x2, delta_x(x2)) - derivada(f, x1, delta_x(x1)) / (x2 - x1)))
+    while abs(derivada(f, z, delta_x(z))) > epsilon: 
+        z = x2 - (derivada(f, x2, delta_x(x2)) / (derivada(f, x2, delta_x(x2)) - derivada(f, x1, delta_x(x1)) / (x2 - x1)))
+        if derivada(f,z,delta_x(z)) < 0:  
+            x1=z
+        else:  
+            x2 = z
+    return z  
+
+print(secante(0.6, 7, 0.5,f1))
+print(secante(0.6, 7, 0.5,lata))
+
+# Calcular puntos para cada función
+puntos_lata1 = secante(0.6, 5, 0.5, lata)
+puntos_lata2 = secante(0.6, 5, 0.1, lata)
+puntos_lata3 = secante(0.6, 5, 0.01, lata)
+puntos_lata4 = secante(0.6, 5, 0.0001, lata)
+
+puntos_caja1 = secante(2, 3, 0.5, caja)
+puntos_caja2 = secante(2, 3, 0.1, caja)
+puntos_caja3 = secante(2, 3, 0.01, caja)
+puntos_caja4 = secante(2, 3, 0.0001, caja)
+
+puntos_f11 = secante(0.6, 5, 0.5, f1)
+puntos_f12 = secante(0.6, 5, 0.1, f1)
+puntos_f13 = secante(0.6, 5, 0.01, f1)
+puntos_f14 = secante(0.6, 5, 0.0001, f1)
+
+'''
+puntos_f21 = golden_search(0.6, 5, 0.5, f2)
+puntos_f22 = golden_search(0.6, 5, 0.1, f2)
+puntos_f23 = golden_search(0.6, 5, 0.01, f2)
+puntos_f24 = golden_search(0.6, 5, 0.0001, f2)
+'''
+
+puntos_f31 = secante(-2, 2.5, 0.5, f3)
+puntos_f32 = secante(-2, 2.5, 0.1, f3)
+puntos_f33 = secante(-2, 2.5, 0.01, f3)
+puntos_f34 = secante(-2, 2.5, 0.0001,f3)
+
+puntos_f41 = secante(-1.8, 2.5, 0.5, f4)
+puntos_f42 = secante(-1.8, 2.5, 0.1, f4)
+puntos_f43 = secante(-1.8, 2.5, 0.01,f4)
+puntos_f44 = secante(-1.8, 2.5, 0.0001,f4)
+
+# Grafica resultados
+plt.figure(figsize=(12, 8))
+
+# Grafica función lata
+plt.subplot(231)
+plt.plot(lim_lata, lata(lim_lata), label='Función')
+plt.scatter(puntos_lata1, lata(puntos_lata1), label='Delta=0.5', marker='o')
+plt.scatter(puntos_lata2, lata(puntos_lata2), label='Delta=0.1', marker='o')
+plt.scatter(puntos_lata3, lata(puntos_lata3), label='Delta=0.01', marker='o')
+plt.scatter(puntos_lata4, lata(puntos_lata4), label='Delta=0.0001', marker='o')
+plt.xlabel('Valores de x')
+plt.ylabel('Valores de y')
+plt.title('Función Lata')
+plt.legend()
+plt.grid(True)
+
+# Grafica función caja
+plt.subplot(232)
+plt.plot(lim_caja, caja(lim_caja), label='Función')
+plt.scatter(puntos_caja1, caja(puntos_caja1), label='Delta=0.5', marker='o')
+plt.scatter(puntos_caja2, caja(puntos_caja2), label='Delta=0.1', marker='o')
+plt.scatter(puntos_caja3, caja(puntos_caja3), label='Delta=0.01', marker='o')
+plt.scatter(puntos_caja4, caja(puntos_caja4), label='Delta=0.0001', marker='o')
+plt.xlabel('Valores de x')
+plt.ylabel('Valores de y')
+plt.title('Función Caja')
+plt.legend()
+plt.grid(True)
+
+# Grafica función f1
+plt.subplot(233)
+plt.plot(lim_f1, f1(lim_f1), label='Función')
+plt.scatter(puntos_f11, f1(puntos_f11), label='Delta=0.5', marker='o')
+plt.scatter(puntos_f12, f1(puntos_f12), label='Delta=0.1', marker='o')
+plt.scatter(puntos_f13, f1(puntos_f13), label='Delta=0.01', marker='o')
+plt.scatter(puntos_f14, f1(puntos_f14), label='Delta=0.0001', marker='o')
+plt.xlabel('Valores de x')
+plt.ylabel('Valores de y')
+plt.title('Función f1')
+plt.legend()
+plt.grid(True)
+
+'''
+# Grafica función f2
+plt.subplot(234)
+plt.plot(lim_f2, f2(lim_f2), label='Función')
+plt.scatter(puntos_f21, puntos_f21, label='Delta=0.5', marker='o')
+plt.scatter(puntos_f22, puntos_f22, label='Delta=0.1', marker='o')
+plt.scatter(puntos_f23, puntos_f23, label='Delta=0.01', marker='o')
+plt.scatter(puntos_f24, puntos_f24, label='Delta=0.0001', marker='o')
+plt.xlabel('Valores de x')
+plt.ylabel('Valores de y')
+plt.title('Función f2')
+plt.legend()
+plt.grid(True)
+'''
+
+# Graficar función f3
+plt.subplot(235)
+plt.plot(lim_f3, f3(lim_f3), label='Función')
+plt.scatter(puntos_f31, f3(puntos_f31), label='Delta=0.5', marker='o')
+plt.scatter(puntos_f32, f3(puntos_f32), label='Delta=0.1', marker='o')
+plt.scatter(puntos_f33, f3(puntos_f33), label='Delta=0.01', marker='o')
+plt.scatter(puntos_f34, f3(puntos_f34), label='Delta=0.0001', marker='o')
+plt.xlabel('Valores de x')
+plt.ylabel('Valores de y')
+plt.title('Función f3')
+plt.legend()
+plt.grid(True)
+
+# Graficar función f4
+plt.subplot(236)
+plt.plot(lim_f4, f4(lim_f4), label='Función')
+plt.scatter(puntos_f41, f4(puntos_f41), label='Delta=0.5', marker='o')
+plt.scatter(puntos_f42, f4(puntos_f42), label='Delta=0.1', marker='o')
+plt.scatter(puntos_f43, f4(puntos_f43), label='Delta=0.01', marker='o')
+plt.scatter(puntos_f44, f4(puntos_f44), label='Delta=0.0001', marker='o')
+plt.xlabel('Valores de x')
+plt.ylabel('Valores de y')
+plt.title('Función f4')
+plt.legend()
+plt.grid(True)
+
+plt.tight_layout()
+plt.show()

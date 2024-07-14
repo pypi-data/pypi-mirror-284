@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Optimizacion-ni0p
+Version: 0.0.1
+Summary: Proyecto Final: Paquete de optimizacion
+Author: Norma Jimenez
+Author-email: <ux21ii004@gmail.com>
+Keywords: python,paquete optimizacion,pryecto final
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Paquete que incluye todos los algoritmos vistos en la materia de optimizacion
