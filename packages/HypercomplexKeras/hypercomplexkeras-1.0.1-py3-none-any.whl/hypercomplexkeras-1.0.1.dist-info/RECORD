@@ -1,0 +1,12 @@
+HypercomplexKeras/Algebra.py,sha256=ILcz4uj6MsAhac-AtBRQf-41SGAVENbgE1_dOCAsCoY,14482
+HypercomplexKeras/Convolutional.py,sha256=BjWs4pYGO3fNpab5yOAYPKnSG7rNCsbcfU_Ckzh2Loo,22025
+HypercomplexKeras/Hyperdense.py,sha256=sjFgkM4_1R0rs85ziRXdk184T0SrTXk9tLHJNQJHAtM,5573
+HypercomplexKeras/HyperdenseTorch.py,sha256=sTigHY2a5vcF44wtNWEJUXa5tomZZCAUY2b6bl7Nwyc,5375
+HypercomplexKeras/Makefile,sha256=Vg95pU2YPdcGwKFbsz3xp3HhYO54bUizmQbap1ZRJeo,417
+HypercomplexKeras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HypercomplexKeras/doc_generator.py,sha256=J8oQAtDN_aV-x0CyfR51oNAR5LsvdgdvzZPgLdji-B8,73
+HypercomplexKeras/experimental/ExperimentalHyperConvolutionalTorch.py,sha256=HSMqxFvWsfMGggxNNWImRK55WWGYZ3c4VIvHXD8YXW0,10636
+hypercomplexkeras-1.0.1.dist-info/METADATA,sha256=hGBRX6gBMvUsbuWt2F4JpiXne0ZmySkSlzJ4rqI9R2c,2382
+hypercomplexkeras-1.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+hypercomplexkeras-1.0.1.dist-info/licenses/LICENCE,sha256=fyCCa9sdBf67JAk9rh29sxJ5rHemVyUM_iTm-AZA0Lg,11422
+hypercomplexkeras-1.0.1.dist-info/RECORD,,
