@@ -1,0 +1,18 @@
+{
+    "hosts": [{
+      "hostname": "Laptop",
+      "type": "unix",
+      "is_server": false,
+      "connect_to": "Smartwatch",
+      "min_log_severity_level": "INFO",
+      "modules": []
+    },
+      {
+        "hostname": "Smartwatch",
+        "host_server_address": "192.168.2.192:1337",
+        "type": "android",
+        "is_server": true,
+        "connect_to": "",
+        "modules": []}
+      ]
+  }

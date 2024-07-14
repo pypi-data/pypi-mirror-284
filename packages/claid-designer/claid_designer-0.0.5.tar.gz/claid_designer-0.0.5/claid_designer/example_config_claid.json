@@ -1,0 +1,100 @@
+{
+    "hosts": [{
+      "hostname": "Laptop",
+      "type": "android",
+      "is_server": false,
+      "connect_to": "Smartwatch",
+      "modules": [
+        {
+          "type": "AudioRecorder",
+          "id": "FirstAudioRecorder",
+          "input_channels": {},
+          "output_channels": {
+            "AudioDataChannel": "AudioDataStream1"
+          },
+          "properties": {
+  
+          }
+        },
+        {
+          "type": "DataSaver",
+          "id": "AudioDataSaver",
+          "input_channels": {
+            "DataChannel" : "AudioDataStream1"
+          },
+          "output_channels": {},
+          "properties": {
+  
+          }
+        },
+        {
+          "type": "ParallelProcessor",
+          "id": "FirstParallelProcessor",
+          "input_channels": {},
+          "output_channels": {
+            "OutputData2" : "SecondAudioDataStreamWith2Publishers"
+          },
+          "properties": {
+  
+          }
+        },
+        {
+          "type": "DataTransformer",
+          "id": "FirstDataTransformer",
+          "input_channels": {},
+          "output_channels": {},
+          "properties": {
+  
+          }
+        }
+      ]},
+      {
+        "hostname": "Smartwatch",
+        "type": "android",
+        "is_server": true,
+        "connect_to": "",
+        "host_server_address": "192.168.1.78:1337",
+        "modules": [
+          {
+            "type": "AudioRecorder",
+            "id": "SecondAudioRecorder",
+            "input_channels": {},
+            "output_channels": {
+              "AudioDataChannel" : "SecondAudioDataStreamWith2Publishers"
+            },
+            "properties": {
+    
+            }
+          },
+          {
+            "type": "DataSaver",
+            "id": "AudioDataSaver2",
+            "input_channels": {
+              "DataChannel" : "SecondAudioDataStreamWith2Publishers"
+            },
+            "output_channels": {},
+            "properties": {
+    
+            }
+          },
+          {
+            "type": "ParallelProcessor",
+            "id": "SecondParallelProcessor",
+            "input_channels": {},
+            "output_channels": {},
+            "properties": {
+    
+            }
+          },
+          {
+            "type": "DataTransformer",
+            "id": "SecondDataTransformer",
+            "input_channels": {},
+            "output_channels": {},
+            "properties": {
+    
+            }
+          }
+        ]}
+      ]
+  }

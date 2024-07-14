@@ -1,0 +1,17 @@
+{
+    "hosts": [{
+      "hostname": "Laptop",
+      "type": "unix",
+      "is_server": false,
+      "connect_to": "Smartwatch",
+      "modules": []
+    },
+      {
+        "hostname": "Smartwatch",
+        "host_server_address": "$(workshop_smartwatch_ip_to_replace)",
+        "type": "android",
+        "is_server": true,
+        "connect_to": "",
+        "modules": []}
+      ]
+  }

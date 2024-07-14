@@ -1,0 +1,9 @@
+claid
+matplotlib==3.5.3
+opencv-python==4.8.0.76
+
+[:platform_system == "Darwin"]
+pyqt5==5.15.10
+
+[:platform_system == "Linux"]
+pyqt5==5.14.2

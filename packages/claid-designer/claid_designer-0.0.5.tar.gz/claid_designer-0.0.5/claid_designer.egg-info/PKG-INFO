@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: claid-designer
+Version: 0.0.5
+Summary: Designer for the CLAID framework.
+Home-page: https://claid.ch
+Author: Patrick Langer (C4DHI)
+Author-email: planger@ethz.ch
+License: Apache 2
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Android
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: claid
+Requires-Dist: matplotlib==3.5.3
+Requires-Dist: pyqt5==5.14.2; platform_system == "Linux"
+Requires-Dist: pyqt5==5.15.10; platform_system == "Darwin"
+Requires-Dist: opencv-python==4.8.0.76
+
+# CLAIDDesigner
