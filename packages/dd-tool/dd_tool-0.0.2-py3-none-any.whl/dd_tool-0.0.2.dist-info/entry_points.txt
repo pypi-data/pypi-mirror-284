@@ -1,0 +1,2 @@
+[console_scripts]
+dd-tool = dd_tool.downloader:download_google_images
