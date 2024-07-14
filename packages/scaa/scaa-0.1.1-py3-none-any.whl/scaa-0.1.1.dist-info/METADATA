@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: scaa
+Version: 0.1.1
+Summary: 
+Author: Ken Hung
+Author-email: ken.hung@onedegree.hk
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Project-URL: repository, https://github.com/superken01/scaa
+Description-Content-Type: text/markdown
+
+

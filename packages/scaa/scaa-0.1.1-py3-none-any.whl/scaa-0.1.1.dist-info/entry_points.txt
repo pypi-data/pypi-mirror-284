@@ -1,0 +1,3 @@
+[console_scripts]
+scaa=scaa.main:main
+
