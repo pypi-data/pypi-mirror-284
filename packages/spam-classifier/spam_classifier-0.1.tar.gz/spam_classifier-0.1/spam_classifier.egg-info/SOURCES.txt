@@ -1,0 +1,12 @@
+README.md
+setup.py
+spam_classifier/__init__.py
+spam_classifier/downloader.py
+spam_classifier/model.py
+spam_classifier.egg-info/PKG-INFO
+spam_classifier.egg-info/SOURCES.txt
+spam_classifier.egg-info/dependency_links.txt
+spam_classifier.egg-info/requires.txt
+spam_classifier.egg-info/top_level.txt
+tests/__init__.py
+tests/test_model.py
