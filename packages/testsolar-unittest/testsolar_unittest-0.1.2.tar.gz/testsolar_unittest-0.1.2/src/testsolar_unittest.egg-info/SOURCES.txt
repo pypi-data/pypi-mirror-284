@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/load.py
+src/run.py
+src/testsolar_unittest/__init__.py
+src/testsolar_unittest/collector.py
+src/testsolar_unittest/executor.py
+src/testsolar_unittest.egg-info/PKG-INFO
+src/testsolar_unittest.egg-info/SOURCES.txt
+src/testsolar_unittest.egg-info/dependency_links.txt
+src/testsolar_unittest.egg-info/requires.txt
+src/testsolar_unittest.egg-info/top_level.txt
+tests/test_load.py
+tests/test_run.py
