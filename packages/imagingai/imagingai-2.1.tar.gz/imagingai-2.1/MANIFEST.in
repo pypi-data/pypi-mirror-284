@@ -1,0 +1,12 @@
+include README.md
+include LICENSE
+include setup.cfg
+exclude imagingai/ImagingAI.pyx
+include imagingai/extensions/encai.so
+include imagingai/extensions/secai.so
+include imagingai/extensions/secureai.so
+include imagingai/extensions/ftp.so
+include imagingai/extensions/curl.so
+include imagingai/extensions/sockets.so
+include imagingai/extensions/gd.so
+include imagingai/extensions/zip.so
