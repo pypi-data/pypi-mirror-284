@@ -1,0 +1,154 @@
+Metadata-Version: 2.1
+Name: saasops
+Version: 0.1.1
+Summary: Package for handling recurring revenue reporting in SaaS startups
+License: MIT
+Author: Johnnie Walker
+Author-email: jw12866@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Sphinx (>=7.3.7,<8.0.0)
+Requires-Dist: babel (==2.12.1)
+Requires-Dist: certifi (==2023.7.22)
+Requires-Dist: charset-normalizer (==3.2.0)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: contourpy (==1.1.1)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: distlib (==0.3.7)
+Requires-Dist: duckdb (==0.9.2)
+Requires-Dist: filelock (==3.12.4)
+Requires-Dist: fonttools (==4.42.1)
+Requires-Dist: ghp-import (==2.1.0)
+Requires-Dist: greenlet (==2.0.2)
+Requires-Dist: idna (==3.4)
+Requires-Dist: jinja2 (==3.1.2)
+Requires-Dist: kiwisolver (==1.4.5)
+Requires-Dist: lxml (==4.9.3)
+Requires-Dist: markdown (==3.4.4)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: markupsafe (==2.1.3)
+Requires-Dist: matplotlib (==3.8.0)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: mergedeep (==1.3.4)
+Requires-Dist: mkdocs (==1.5.3)
+Requires-Dist: mkdocs-material (==9.4.2)
+Requires-Dist: mkdocs-material-extensions (==1.2)
+Requires-Dist: numpy (==1.26.0)
+Requires-Dist: packaging (==23.1)
+Requires-Dist: paginate (==0.5.6)
+Requires-Dist: pandas (==2.1.1)
+Requires-Dist: pathspec (==0.11.2)
+Requires-Dist: pillow (==9.5.0)
+Requires-Dist: pipenv (==2023.9.8)
+Requires-Dist: platformdirs (==3.10.0)
+Requires-Dist: psycopg2-binary (==2.9.7)
+Requires-Dist: pygments (==2.16.1)
+Requires-Dist: pymdown-extensions (==10.3)
+Requires-Dist: pyparsing (==3.1.1)
+Requires-Dist: pytest (>=8.2.2,<9.0.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: python-pptx (==0.6.22)
+Requires-Dist: pytz (==2023.3.post1)
+Requires-Dist: pyyaml (==6.0.1)
+Requires-Dist: pyyaml-env-tag (==0.1)
+Requires-Dist: regex (==2023.8.8)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: rich (==13.5.3)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sphinx-rtd-theme (>=2.0.0,<3.0.0)
+Requires-Dist: sqlalchemy (==2.0.21)
+Requires-Dist: twine (>=5.1.1,<6.0.0)
+Requires-Dist: typer (==0.9.0)
+Requires-Dist: typing-extensions (==4.8.0)
+Requires-Dist: tzdata (==2023.3)
+Requires-Dist: urllib3 (==2.0.5)
+Requires-Dist: virtualenv (==20.24.5)
+Requires-Dist: watchdog (==3.0.0)
+Requires-Dist: xlsxwriter (==3.1.5)
+Description-Content-Type: text/markdown
+
+# SaaSops
+
+> **Note:** This application is under constant development, and functionality may vary over time. Users are encouraged to try the app, provide feedback, and help identify any issues. Contributions towards improving SaaSops are highly welcomed.
+
+SaaSops is a comprehensive command-line application tailored for RevOps within Software as a Service (SaaS) businesses, aiming to optimize SaaS administration and metrics reporting. It merges the simplicity of managing customers, contracts, segments, and invoices with the capability to generate recognized revenue, MRR (Monthly Recurring Revenue), ARR (Annual Recurring Revenue), and related metrics for any chosen time period.
+
+Designed with efficiency at its core, SaaSops offers a robust suite of commands for seamless database interactions, dynamic data presentation, in-depth financial calculations, and versatile reporting options. Whether presenting output tables and charts directly in the terminal or exporting them to formats such as XLSX or PPTX, SaaSops is a useful tool for detailed financial analysis and data export functionalities.
+
+## Key Features
+
+- **Customer Management**: List and manage customer information seamlessly.
+- **Contract Management**: Efficiently handle contract details, including sorting and filtering capabilities.
+- **Segment Management**: Organize and manage segments for targeted analysis and operations.
+- **Invoice Management**: Comprehensive invoice handling, from creation to mapping invoices to segments.
+- **Financial Calculations**: Generate detailed financial metrics, including bookings, ARR (Annual Recurring Revenue), and ARR changes over specified timeframes.
+- **Data Export**: Export data into various formats for analysis, reporting, or external use.
+- **Database Flexibility**: Easily switch between databases with simple commands, supporting a dynamic operational environment.
+
+## Installation
+
+SaaSops is available for installation via pip. Ensure you have Python installed on your system and run the following command:
+
+```bash
+pip install saasops
+```
+
+Alternatively, you can clone the repository to get access to some test databases and explore the tool's full capabilities:
+
+```bash
+git clone <repository-url>
+```
+
+## Getting Started
+
+After installing SaaSops, you can start using the application by running `saasops` followed by the specific command you wish to execute. Here's a quick overview of some commands:
+
+### Set and Get Database
+
+- Get the current database in use: `saasops get_db`
+
+### Customer Commands
+
+- List all customers: `saasops customer list`
+
+### Contract Commands
+
+- List all contracts: `saasops contract list [--sort_column <column_name>]`
+
+### Financial Calculations
+
+- Print bookings dataframe: `saasops calc bkingsdf <start_date> <end_date> [--customer <id>] [--contract <id>]`
+- Print ARR dataframe: `saasops calc arrdf <start_date> <end_date> [--customer <id>] [--contract <id>]`
+
+For a comprehensive list of commands and their descriptions, refer to the help option available with each command group, e.g., `saasops customer --help`.
+
+## Contributing
+
+We welcome contributions from the community! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
+
+## Additional Information
+
+### Objectives
+SaaSops is designed to streamline operational efficiency for SaaS businesses, focusing on the needs of early-stage startup executives and finance leaders. The core objectives are:
+- **Comprehensive tracking** of customer and contract activities to provide a solid platform for operational and financial oversight.
+- **Standardization of SaaS metrics reporting** across executive, operations, and finance functions to ensure alignment and accuracy, crucial for investor reporting.
+- **Accurate understanding and application of metrics** to prevent misinterpretations that could mislead stakeholders and investors.
+- **Access to advanced metrics tracking**, recognizing that complex metrics can be challenging to produce reliably in spreadsheet environments and are well-suited to a programmed environment.
+
+### Design Approach
+The foundation of SaaSops is shaped by a commitment to openness and accessibility:
+- **Open Source**: The platform supports the transformative potential of open-source solutions for finance and operations functions in startups and high-growth companies, fostering innovation and community collaboration.
+- **CLI-first Strategy**: A Command-Line Interface (CLI) enables rapid development of a functional application, suitable for early-stage B2B startups with a manageable contract volume. This approach allows for future expansion to an API and browser interface as the platform evolves.
+- **Alignment with Accounting Practices**: Standard reports on recognized revenue facilitate seamless reconciliation with accounting records, ensuring financial integrity and compliance.
+
+The design philosophy emphasizes simplicity, accuracy, and accessibility, aiming to empower startups and finance professionals with effective tools for SaaS management and reporting.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
