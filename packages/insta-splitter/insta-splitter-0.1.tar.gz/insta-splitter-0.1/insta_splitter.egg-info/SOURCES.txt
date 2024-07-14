@@ -1,0 +1,9 @@
+README.md
+setup.py
+splitter.py
+insta_splitter.egg-info/PKG-INFO
+insta_splitter.egg-info/SOURCES.txt
+insta_splitter.egg-info/dependency_links.txt
+insta_splitter.egg-info/entry_points.txt
+insta_splitter.egg-info/requires.txt
+insta_splitter.egg-info/top_level.txt
