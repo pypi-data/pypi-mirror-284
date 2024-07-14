@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+swb_meter/__init__.py
+swb_meter/__main__.py
+swb_meter/cli.py
+swb_meter/db.py
+swb_meter/logger.py
+swb_meter/parser.py
+swb_meter/streamlit.py
+swb_meter.egg-info/PKG-INFO
+swb_meter.egg-info/SOURCES.txt
+swb_meter.egg-info/dependency_links.txt
+swb_meter.egg-info/entry_points.txt
+swb_meter.egg-info/requires.txt
+swb_meter.egg-info/top_level.txt
+tests/test_swb_meter.py

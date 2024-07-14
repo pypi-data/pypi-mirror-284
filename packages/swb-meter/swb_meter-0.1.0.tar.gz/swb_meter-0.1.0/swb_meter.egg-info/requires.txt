@@ -1,0 +1,12 @@
+click
+bleak
+sqlite-utils
+
+[streamlit]
+streamlit
+plotly
+
+[test]
+pytest
+pre-commit
+cogapp
