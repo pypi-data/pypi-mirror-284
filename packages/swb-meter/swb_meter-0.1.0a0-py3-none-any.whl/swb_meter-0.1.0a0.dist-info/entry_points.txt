@@ -1,0 +1,2 @@
+[console_scripts]
+swb-meter = swb_meter.cli:cli
