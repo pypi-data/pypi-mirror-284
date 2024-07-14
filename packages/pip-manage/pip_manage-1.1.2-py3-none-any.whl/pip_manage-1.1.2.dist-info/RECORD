@@ -1,0 +1,12 @@
+pip_manage/__init__.py,sha256=G3WWHd9KQTv-5p4c0pX8NQfo6T7kHk0AmfCjHyHuBFQ,221
+pip_manage/_logging.py,sha256=-W6CrDwwJDwvz-9CBqPsVe9jtGgQaUZ_UAJOeT8Yofs,2501
+pip_manage/_pip_interface.py,sha256=VV3grMFLLqGo-T47N5WGz93O29-ee9iCX-Yb-LxTk1c,6833
+pip_manage/pip_purge.py,sha256=fQDG4UILGT7X_GFRc54TaYerika-ZwEhTiosqgrnU1U,11733
+pip_manage/pip_review.py,sha256=72TLN6NyqP0YII-wlK0z3KAbTf_hI-Hv8Q_fJdkqyqI,11191
+pip_manage/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pip_manage-1.1.2.dist-info/LICENSE,sha256=3tS2COlaZGtJ7j3EUYEfJ2eonOhbP50y71vlVcMzoR0,1537
+pip_manage-1.1.2.dist-info/METADATA,sha256=KL-nMhh2aqbzoKwQfEq3OTb_mLGCHio6WeKLoDdJKOA,9392
+pip_manage-1.1.2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+pip_manage-1.1.2.dist-info/entry_points.txt,sha256=23tU50qxBCYygXqIKw9zwtOaXXB5NenW8jczHAaT7IE,96
+pip_manage-1.1.2.dist-info/top_level.txt,sha256=zw5WKMTXZoZxWH8Rx0d6Y_YAWtkzheDoYJbrkddxvms,11
+pip_manage-1.1.2.dist-info/RECORD,,
