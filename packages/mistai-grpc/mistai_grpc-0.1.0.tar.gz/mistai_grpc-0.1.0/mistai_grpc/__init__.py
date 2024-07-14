@@ -1,0 +1,1 @@
+from mistai_grpc.app import hello
