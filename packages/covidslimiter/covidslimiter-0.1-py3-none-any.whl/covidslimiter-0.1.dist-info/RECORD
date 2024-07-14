@@ -1,0 +1,7 @@
+covidslimiter/__init__.py,sha256=HhHd-B9sh3HYfQXQsM_T9LqQCnLXvvj2JVlFuLLT3yY,36
+covidslimiter/decorator.py,sha256=uEe-A0qQmaw15pnQv7r5hdx5ORwApDxoUc9a52BLIaY,847
+covidslimiter/rate_limiter.py,sha256=QleO6uuo0zzbrOyxlq8q18rx0dzaDIhdezTkCmsQozk,3335
+covidslimiter-0.1.dist-info/METADATA,sha256=4oyozbSq8eY4d1Yx59mMjYUBQPiao95DfdIVquZgykU,613
+covidslimiter-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+covidslimiter-0.1.dist-info/top_level.txt,sha256=TgNi-mFYYfWoaJ1ZLk77W3A8B_iOlMYDG46f4JyAszg,37
+covidslimiter-0.1.dist-info/RECORD,,
