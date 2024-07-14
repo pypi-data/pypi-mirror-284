@@ -1,0 +1,14 @@
+hubertchen-package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hubertchen-package/conn.py,sha256=XoOjwD2VpKlP7SnSOniCsdLVkTiQ-g-vcLFYdZGf9gk,501
+hubertchen-package/my_jwt.py,sha256=meWt7K9-0f9sxORzRqsCW_kWpHe3rXTbr1g0agxB4hg,1325
+hubertchen_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hubertchen_package/conn.py,sha256=XoOjwD2VpKlP7SnSOniCsdLVkTiQ-g-vcLFYdZGf9gk,501
+hubertchen_package/my_jwt.py,sha256=meWt7K9-0f9sxORzRqsCW_kWpHe3rXTbr1g0agxB4hg,1325
+mypy-package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy-package/conn.py,sha256=XoOjwD2VpKlP7SnSOniCsdLVkTiQ-g-vcLFYdZGf9gk,501
+mypy-package/my_jwt.py,sha256=meWt7K9-0f9sxORzRqsCW_kWpHe3rXTbr1g0agxB4hg,1325
+hubertchen_package-0.3.dist-info/LICENSE,sha256=4P3pS_UQhK8TAO52Po3bFLjRXAxY3diAvxOTAo-Ifzc,1070
+hubertchen_package-0.3.dist-info/METADATA,sha256=Opm_vFhqOwzeFKjdBNEnrXHRt_2d02y5q9kkZUU0kHI,472
+hubertchen_package-0.3.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+hubertchen_package-0.3.dist-info/top_level.txt,sha256=cbKF8zK0Dg-nBLDmr5QK3QtOyn_nWfOzFXbijeNaDOo,19
+hubertchen_package-0.3.dist-info/RECORD,,
