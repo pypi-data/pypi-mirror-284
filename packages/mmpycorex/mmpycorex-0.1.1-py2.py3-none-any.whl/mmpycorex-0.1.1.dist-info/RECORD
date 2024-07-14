@@ -1,0 +1,9 @@
+mmpycorex/__init__.py,sha256=BhcaqxclVmkmGc-IfqrFOX3Qx86YMpcNEXaQ_zc3yq0,208
+mmpycorex/_version.py,sha256=8oAxKUG747GUokmxjkrWejyJa5yPNEsoJDlXxoedxTw,21
+mmpycorex/core.py,sha256=nsFts8vmh7ivi-nijLCV4KGDY9XJpk0sYFgLYCwWacE,3747
+mmpycorex/headless.py,sha256=5WSSL04L8LY3U67wfGDBccOohPplC4q1CL32Z845Lqs,8821
+mmpycorex/install.py,sha256=rMABgAliQReprT8cVCFkbk_JLdzx8mlNZWDvRPYptfw,4610
+mmpycorex-0.1.1.dist-info/LICENSE,sha256=2FCl6KCrd1amDWN1z_cIBWQl01-NdwzXf3ME2syP3co,1521
+mmpycorex-0.1.1.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+mmpycorex-0.1.1.dist-info/METADATA,sha256=VOrstZhvfMObtp00XenEZPaNZAtFhyUuOQ6TtBYWRVc,259
+mmpycorex-0.1.1.dist-info/RECORD,,
