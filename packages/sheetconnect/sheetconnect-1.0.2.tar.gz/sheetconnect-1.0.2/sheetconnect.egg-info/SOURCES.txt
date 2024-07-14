@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+sheetconnect/__init__.py
+sheetconnect/sheetconnect.py
+sheetconnect.egg-info/PKG-INFO
+sheetconnect.egg-info/SOURCES.txt
+sheetconnect.egg-info/dependency_links.txt
+sheetconnect.egg-info/top_level.txt

@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: sheetconnect
+Version: 1.0.2
+Summary: Simple get data from Google sheet in form of Pandas dataframe
+Author: Pongsakorn Nimphaya
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Google Sheets to DataFrame
+
+This Python module provides a simple interface to connect to Google Sheets and retrieve data as a pandas DataFrame. It uses the `gspread` library to handle Google Sheets API interactions and `pandas` for data manipulation.
+
+## Prerequisites
+
+Ensure you have the following Python libraries installed:
+
+- `gspread`
+- `pandas`
+- `oauth2client`
+
+You can install them using pip:
+
+```bash
+pip install gspread pandas oauth2client
+```
+# Google Sheets API Setup
+1. Go to the Google Cloud Console.
+2. Create a new project (or select an existing one).
+3. Enable the Google Sheets API and Google Drive API for the project.
+4. Create credentials for a Service Account and download the JSON key file.
+5. Share your Google Sheet with the email address in the JSON key file.
+
+# Usage
+1. Save your Service Account credential JSON file in your project directory.
+
+2. Use the Connect class to fetch data from your Google Sheet:
+
+```bash
+from sheetconnect import Connect
+
+credential = 'path/to/your/credential.json'
+sheet = 'Your Google Sheet Name'
+sheet_name = 'Sheet1'
+
+dataframe = Connect.GetDF_Sheet(credential, sheet, sheet_name)
+print(dataframe)
+```
+Replace 'path/to/your/credential.json', 'Your Google Sheet Name', and 'Sheet1' with your actual file path, Google Sheet name, and worksheet name.
+
+## Acknowledgements
+
+- [gspread](https://github.com/burnash/gspread) - Google Sheets Python API
+- [pandas](https://pandas.pydata.org/) - Data analysis and manipulation library
+- [oauth2client](https://github.com/googleapis/oauth2client) - OAuth 2.0 client library
