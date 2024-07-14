@@ -1,0 +1,7 @@
+README.md
+setup.py
+tf_fast_rnnt.egg-info/PKG-INFO
+tf_fast_rnnt.egg-info/SOURCES.txt
+tf_fast_rnnt.egg-info/dependency_links.txt
+tf_fast_rnnt.egg-info/not-zip-safe
+tf_fast_rnnt.egg-info/top_level.txt
