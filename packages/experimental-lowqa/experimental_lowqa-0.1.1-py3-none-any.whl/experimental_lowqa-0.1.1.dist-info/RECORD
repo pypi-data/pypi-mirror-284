@@ -1,0 +1,10 @@
+experimental_lowqa/__init__.py,sha256=rByYrqUKSIxKHfL_FEnew9GAhQe-F9O-o905hyRIa4I,291
+experimental_lowqa/dev_requirements.txt,sha256=LpWKNscFIVK6o_DD5fwsDVg3AjjVGGHGrqvOLMh4BaM,119
+experimental_lowqa/prompts.py,sha256=knp0pidZKwzBakQVt1lnvjMFvkAAwXdx4Vqht9ZLpfk,2676
+experimental_lowqa/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+experimental_lowqa/requirements.txt,sha256=LgnjeR6taZ2U8t-wuuvFQHeThJij-YElZEhQzSEBUcU,9
+experimental_lowqa-0.1.1.dist-info/LICENSE,sha256=okYCYhGsx_BlzvFdoNVBVpw_Cfb4SOqHA_VAARml4Hc,1071
+experimental_lowqa-0.1.1.dist-info/METADATA,sha256=I1cs1MosZQ2wvY5TkHRJHGh_td5B9Q3rMF4-OjFRR68,3371
+experimental_lowqa-0.1.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+experimental_lowqa-0.1.1.dist-info/top_level.txt,sha256=kbeXLl0aiz3_94ikT0sDIcWji1xOTnLKvmuxnrz587k,19
+experimental_lowqa-0.1.1.dist-info/RECORD,,
