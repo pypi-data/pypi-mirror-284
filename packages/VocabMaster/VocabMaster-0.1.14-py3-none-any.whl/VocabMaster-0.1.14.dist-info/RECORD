@@ -1,0 +1,12 @@
+vocabmaster/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vocabmaster/cli.py,sha256=LwK1aTz9OoX3cOnHzem46NxeyqFzo29Mw3_QRgcbbjg,18940
+vocabmaster/config_handler.py,sha256=vpwPrDwKgBFVTEOsHo5xHB022tialfb0wJppuNi1uVE,4165
+vocabmaster/csv_handler.py,sha256=zXPEgyNaSHYnFJmNLrWzfxXD4S8xKRNE9bfaYD-Yuzo,10661
+vocabmaster/gpt_integration.py,sha256=5-Ik45MZVCoPhfeT3o63qzXx_3F7OU1KV5_6FkbiE2M,5666
+vocabmaster/utils.py,sha256=jABm5NwpA85cf76BiSm3FGg_w_DKpFZGWAF1QCfr-xY,7265
+VocabMaster-0.1.14.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+VocabMaster-0.1.14.dist-info/METADATA,sha256=wJsi42vrA2EcG7smZ2BSYmUkbcP6SQvHN7XbLZye8xk,6036
+VocabMaster-0.1.14.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+VocabMaster-0.1.14.dist-info/entry_points.txt,sha256=20RsTt4ISFEUoVSEu4jBqiti_z7Vn2bn0p_m8ZUWP2c,60
+VocabMaster-0.1.14.dist-info/top_level.txt,sha256=eldNcmJjIV2ot-56IiIA8ZW00ubibt5wR-QjKcE0cbM,12
+VocabMaster-0.1.14.dist-info/RECORD,,
