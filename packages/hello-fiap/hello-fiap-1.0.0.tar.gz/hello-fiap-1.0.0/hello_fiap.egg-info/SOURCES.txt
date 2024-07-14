@@ -1,0 +1,9 @@
+README.md
+setup.py
+hello/__init__.py
+hello/core.py
+hello_fiap.egg-info/PKG-INFO
+hello_fiap.egg-info/SOURCES.txt
+hello_fiap.egg-info/dependency_links.txt
+hello_fiap.egg-info/top_level.txt
+tests/test_core.py
