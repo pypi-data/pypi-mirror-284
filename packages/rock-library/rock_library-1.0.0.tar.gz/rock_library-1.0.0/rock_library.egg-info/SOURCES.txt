@@ -1,0 +1,9 @@
+setup.py
+main/__init__.py
+main/etl_processor.py
+main/read_data.py
+main/write_data.py
+rock_library.egg-info/PKG-INFO
+rock_library.egg-info/SOURCES.txt
+rock_library.egg-info/dependency_links.txt
+rock_library.egg-info/top_level.txt
