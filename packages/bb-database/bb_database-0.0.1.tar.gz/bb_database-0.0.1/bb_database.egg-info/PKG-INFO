@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bb-database
+Version: 0.0.1
+Home-page: https://github.com/buildingblocksInno/bb-database
+Author: Shounak Joshi
+Author-email: sticktbit.shounak@gmail.com
+Requires-Dist: alembic
+Requires-Dist: greenlet
+Requires-Dist: Mako
+Requires-Dist: MarkupSafe
+Requires-Dist: psycopg2
+Requires-Dist: python-dotenv
+Requires-Dist: SQLAlchemy
+Requires-Dist: typing_extensions

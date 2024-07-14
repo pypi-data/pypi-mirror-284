@@ -1,0 +1,8 @@
+alembic
+greenlet
+Mako
+MarkupSafe
+psycopg2
+python-dotenv
+SQLAlchemy
+typing_extensions
