@@ -1,0 +1,8 @@
+chessanalytics/__init__.py,sha256=brn7nqUzqK05EHN1ifTvjLr3JpdgZByXqHCQrxE9EL4,74
+chessanalytics/chessanalytics.py,sha256=cB9VDOjYY8BTwZ03iFY5jr4Uv1FAfhh57s7x2ozLyc8,105046
+chessanalytics/chessanalytics_streamlit.py,sha256=pT9ohnlP-IeXPfNpeWIZIDoRXXz67-U8QOJcnBy3llw,46043
+chessanalytics-1.0.0.dist-info/LICENSE,sha256=ZRs3PonXge4uPzlblBojMcxkoBYUKpGLGF3zfpewqdQ,1063
+chessanalytics-1.0.0.dist-info/METADATA,sha256=HhHPjbDAXguOY1pKYRCRET679wxrKLP_hk7L6_EVt40,13436
+chessanalytics-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+chessanalytics-1.0.0.dist-info/top_level.txt,sha256=Azov-waf_VrZ3sIznKh5nS-oxDY6SPFZG5ig2eDragA,15
+chessanalytics-1.0.0.dist-info/RECORD,,
