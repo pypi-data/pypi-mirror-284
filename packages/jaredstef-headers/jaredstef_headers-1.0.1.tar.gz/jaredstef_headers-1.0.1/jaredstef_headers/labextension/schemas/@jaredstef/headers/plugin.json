@@ -1,0 +1,69 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "jupyter.lab.setting-icon-class": "jp-WordIcon",
+  "title": "Headers",
+  "description": "Customizable cell headers for Jupyter",
+  "type": "object",
+  "properties": {
+    "sparkButtonEnabled": {
+      "type": "boolean",
+      "title": "Spark Button Enabled",
+      "description": "Enables the spark (%%spark) new cell button and shortcuts",
+      "default": true
+    },
+    "exclamButtonEnabled": {
+      "type": "boolean",
+      "title": "Exclamation Button Enabled",
+      "description": "Enables the exclamation (!) new cell button and shortcuts",
+      "default": true
+    },
+    "percButtonEnabled": {
+      "type": "boolean",
+      "title": "Percent Button Enabled",
+      "description": "Enables the percent (%) new cell button and shortcuts",
+      "default": true
+    },
+    "customButtonsEnabled": {
+      "type": "boolean",
+      "title": "Custom Buttons Enabled",
+      "description": "Enables custom new cell buttons",
+      "default": false
+    },
+    "customButtons": {
+      "type": "array",
+      "title": "Custom Buttons",
+      "description": "Create buttons with custom titles, headers, and cursor focus locations",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "The title of the custom button"
+          },
+          "contentString": {
+            "type": "string",
+            "description": "The content string to be inserted"
+          },
+          "lineNumber": {
+            "type": "integer",
+            "description": "The line number where the cursor should be placed"
+          },
+          "characterNumber": {
+            "type": "integer",
+            "description": "The character number at the line where the cursor should be placed"
+          }
+        },
+        "required": ["title", "contentString", "lineNumber", "characterNumber"],
+        "additionalProperties": false
+      }
+    },
+    "footer": {
+      "title": "Created by Jared Stefanowicz - https://JaredStef.me/",
+      "description": "Referash to apply changes",
+      "type": "boolean",
+      "default": true,
+      "readOnly": true
+    }
+  },
+  "additionalProperties": false
+}
