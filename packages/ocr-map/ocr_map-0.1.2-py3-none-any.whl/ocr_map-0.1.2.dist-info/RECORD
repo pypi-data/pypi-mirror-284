@@ -1,0 +1,13 @@
+ocr_map/__init__.py,sha256=pyQdqQdw8G272BD22Rt-b19Mq2FziVVK0NYQz-wkQLE,168
+ocr_map/__init__.pyi,sha256=Catjwwr4e55FIbZysjOIQ6VxvmnTGkyMc7U2rcOSBD4,415
+ocr_map/cli.py,sha256=DXM9NV4aPzI9SIIrx2xwrGibgmMR1Kpi-Ah371HGuwo,749
+ocr_map/known.py,sha256=vh937kTzF1_jCr_vzmWwfT68YHURNJnwCopGe4OAIWQ,1662
+ocr_map/model.py,sha256=Z80OB5WzBYQVoywmDvD4GlU64qailn4Njit9FWVuHI8,3523
+ocr_map/parse.py,sha256=wRf_Bxne1c8B63SVTVKA5ISUfRTxpfZ0zxsEI9I_mcI,1132
+ocr_map/types.py,sha256=vD7sxXJMo1-n-g0HtlWw0Iwj0pjQSyrKfwnKyVLyvRo,230
+ocr_map/unknown.py,sha256=nX0-qN64x9xnfGP40LqPi79uwcTSB9DbuOf3ZAjgtNA,1507
+ocr_map-0.1.2.dist-info/METADATA,sha256=wDuCs5Pqw6XHuJZwwcIMrd-i8t6qrfReFmWGEQ5mFXU,407
+ocr_map-0.1.2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+ocr_map-0.1.2.dist-info/entry_points.txt,sha256=F9PNR6zvgTO5vLnkjuwMAARHZ3RN_cZvY24nBkriOso,43
+ocr_map-0.1.2.dist-info/top_level.txt,sha256=LRABOkRddknDJAAN27uAGzHT_SWKqWEiLVbdhMln0uY,8
+ocr_map-0.1.2.dist-info/RECORD,,
