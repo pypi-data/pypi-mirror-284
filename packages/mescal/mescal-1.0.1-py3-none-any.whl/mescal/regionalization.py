@@ -1,0 +1,57 @@
+from .location_selection import *
+from .utils import *
+import copy
+
+
+def regionalize_activity_foreground(act: dict, accepted_locations: list[str], target_region: str,
+                                    locations_ranking: list[str], db: list[dict], db_dict_code: dict,
+                                    db_dict_name: dict) -> dict:
+    """
+    Regionalize a foreground activity according to the user ranking of locations
+
+    :param act: activity to regionalize
+    :param accepted_locations: list of locations that are sufficient for the user
+    :param target_region: region to which the activity should be regionalized
+    :param locations_ranking: list of preferred locations
+    :param db: list of activities in the LCI database
+    :param db_dict_code: dictionary of the LCI database with (database, code) as key
+    :param db_dict_name: dictionary of the LCI database with (name, product, location, database) as key
+    :return: the regionalized activity
+    """
+    if act['location'] in accepted_locations:
+        new_act = copy.deepcopy(act)
+
+    else:
+        new_act = copy.deepcopy(act)
+        new_act['comment'] = f'This LCI dataset has been adapted to {target_region}. ' + new_act.get('comment', '')
+        new_act['location'] = target_region
+        prod_flow = get_production_flow(new_act)
+        prod_flow['location'] = target_region
+
+        technosphere_flows = get_technosphere_flows(new_act)
+
+        # for each technosphere flow, we choose the best possible location according to the user ranking
+        for flow in technosphere_flows:
+            techno_act = db_dict_code[(flow['database'], flow['code'])]
+            techno_act_name = techno_act['name']
+            techno_act_product = techno_act['reference product']
+            techno_act_location = techno_act['location']
+            techno_act_database = techno_act['database']
+
+            new_location = change_location_activity(
+                esm_tech_name=None,
+                product=techno_act_product,
+                activity=techno_act_name,
+                location=techno_act_location,
+                database=techno_act_database,
+                locations_ranking=locations_ranking,
+                db=db,
+                esm_region=target_region
+            )  # best possible location according to the user ranking
+
+            new_techno_act = db_dict_name[(techno_act_name, techno_act_product, new_location, techno_act_database)]
+            flow['database'] = new_techno_act['database']
+            flow['code'] = new_techno_act['code']
+            flow['location'] = new_techno_act['location']
+
+    return new_act

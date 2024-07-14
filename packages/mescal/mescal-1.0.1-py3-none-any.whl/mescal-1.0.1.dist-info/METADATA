@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: mescal
+Version: 1.0.1
+Summary: Coupling Energy System Models with Life Cycle Assessment
+Author-email: Matthieu Souttre <matthieu.souttre@polymtl.ca>
+Maintainer-email: Matthieu Souttre <matthieu.souttre@polymtl.ca>
+License: MIT License
+        
+        Copyright (c) 2024 Matthieu Souttre
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: source, https://github.com/matthieu-str/mescal
+Project-URL: homepage, https://github.com/matthieu-str/mescal
+Project-URL: tracker, https://github.com/matthieu-str/mescal/issues
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wurst
+Requires-Dist: pandas
+Requires-Dist: brightway2
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-randomly ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Provides-Extra: testing
+Requires-Dist: mescal ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: python-coveralls ; extra == 'testing'
+
+# mescal
+
+[![PyPI](https://img.shields.io/pypi/v/mescal.svg)][pypi status]
+[![Status](https://img.shields.io/pypi/status/mescal.svg)][pypi status]
+[![Python Version](https://img.shields.io/pypi/pyversions/mescal)][pypi status]
+[![License](https://img.shields.io/pypi/l/mescal)][License]
+
+[![Read the documentation at https://mescal.readthedocs.io/](https://img.shields.io/readthedocs/mescal/latest.svg?label=Read%20the%20Docs)][read the docs]
+[![Tests](https://github.com/matthieu-str/mescal/actions/workflows/python-test.yml/badge.svg)][tests]
+[![Codecov](https://codecov.io/gh/matthieu-str/mescal/branch/main/graph/badge.svg)][codecov]
+
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][pre-commit]
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
+
+[pypi status]: https://pypi.org/project/mescal/
+[read the docs]: https://mescal.readthedocs.io/
+[tests]: https://github.com/matthieu-str/mescal/actions?workflow=Tests
+[codecov]: https://app.codecov.io/gh/matthieu-str/mescal
+[pre-commit]: https://github.com/pre-commit/pre-commit
+[black]: https://github.com/psf/black
+
+## Requirements
+
+- **Python 3.10 or more** 
+- Licence for [ecoinvent 3](https://ecoinvent.org/). The ecoinvent database is not included in this package. You may also check ecoinvent's [GDPR & EULA](https://ecoinvent.org/gdpr-eula/). 
+
+## Installation
+
+You can install _mescal_ via [pip] from [PyPI]:
+
+```console
+$ pip install mescal
+```
+
+## How to use _mescal_?
+
+You can follow this [example notebook](https://github.com/matthieu-str/mescal/blob/master/examples/tutorial.ipynb) to learn how to use _mescal_.
+
+## Contributing
+
+Contributions are very welcome.
+To learn more, see the [Contributor Guide][Contributor Guide].
+
+## License
+
+Distributed under the terms of the [MIT license][License],
+_mescal_ is free and open source software.
+
+## Issues
+
+If you encounter any problems,
+please [file an issue][Issue Tracker] along with a detailed description.
+
+
+<!-- github-only -->
+
+[command-line reference]: https://mescal.readthedocs.io/en/latest/usage.html
+[License]: https://github.com/matthieu-str/mescal/blob/main/LICENSE
+[Contributor Guide]: https://github.com/matthieu-str/mescal/blob/main/CONTRIBUTING.md
+[Issue Tracker]: https://github.com/matthieu-str/mescal/issues
+
+
+## Building the Documentation
+
+You can build the documentation locally by installing the documentation Conda environment:
+
+```bash
+conda env create -f docs/environment.yaml
+```
+
+activating the environment
+
+```bash
+conda activate sphinx_mescal
+```
+
+and [running the build command](https://www.sphinx-doc.org/en/master/man/sphinx-build.html#sphinx-build):
+
+```bash
+sphinx-build docs _build/html --builder=html --jobs=auto --write-all; open _build/html/index.html
+```

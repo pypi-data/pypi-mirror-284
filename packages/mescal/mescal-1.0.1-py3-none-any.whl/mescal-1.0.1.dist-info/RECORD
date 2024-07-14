@@ -1,0 +1,24 @@
+mescal/CPC.py,sha256=YvZE8LpBw7n2QJvjl398bAAuk0pEDxS3Tlp2c_asIhs,2828
+mescal/__init__.py,sha256=nnHbnltL-aRenoZU6JQAjLDIrS_l-sT_QvyLNfUeTWk,1285
+mescal/caching.py,sha256=e0GFK5_ZXz6H1_WIQ1KVSWNuT-Ii9EPQ_f-850A1umk,1124
+mescal/change_ecoinvent.py,sha256=UgpNUIf4tg0tsLEyn7J4xAZsCR_P5aZuWhJJqLf6b-k,12981
+mescal/double_counting.py,sha256=cIbpdW3BDgkeqOf5dS94f6A1hsgZQPho4YXaqq60ESY,45349
+mescal/esm_back_to_lca.py,sha256=nn3sGahn7T0Urr-agm8DGeg-u1oNmq6gECWnqq9gAME,20682
+mescal/filesystem_constants.py,sha256=9c1FgPCP-rlYS4v2fhR_BpMftEEwnUaItr-6ro6Kc4g,261
+mescal/generate_lcia_obj_ampl.py,sha256=hNNdSEZ8WycIsaji1SQtFW7840gC-d55hNEsi7HWxJ8,3374
+mescal/impact_assessment.py,sha256=H0_nHJZcQKWpuVz86MYs7GqV3k7b77U3zrY-tfhMfzo,7137
+mescal/link_to_premise.py,sha256=bYBHyC06yW0yap-L3n456n2VuryFN5Pl0-ePJmdwhQs,10124
+mescal/location_selection.py,sha256=oFcjxxFlIZ7OURilsaLdtUuv5bNE7-6d_NY9SIdWJ3Y,3797
+mescal/modify_inventory.py,sha256=QN0tJ1TErFfvbJGn8eo5Rm5zIEHgdoOTQF16JM3kac0,1967
+mescal/normalization.py,sha256=o2-LsUT6s6BvAkNYSOR2KA5VH2RpRYRCruEV6gmruFg,5086
+mescal/regionalization.py,sha256=ToYU8fHHa-woWiFiOidd2smWjqhlYm0KNHIvxOJ-qM4,2681
+mescal/utils.py,sha256=rdzwKLda6J87HgvuPcd3eHQA0iD8wWdUHa7rfxQyyTI,13133
+mescal/data/mapping_product_to_CPC.csv,sha256=A02TAwI24ojxNcG7iqLlzMujGnhPm7HIaXPRc1pb3mA,10215
+mescal/data/ecoinvent_change_reports/Change Report Annex v3.8 - v3.9.xlsx,sha256=DOEMxzNfLYzXbWD0i3i9h23r1S02iAFFVYEBRFIUYSQ,8878632
+mescal/data/ecoinvent_change_reports/Change Report Annex v3.9 - v3.9.1.xlsx,sha256=SiUoNleXsNMs5KAj5VZoizNRu6XO_wXTHOczTycKZzc,215673
+mescal/data/ecoinvent_change_reports/Change Report Annex v3.9.1 - v3.10.xlsx,sha256=ijYlnygY2wSdNboFSEi5K-STcng6UYO8V8in4V4uzac,12988484
+mescal-1.0.1.dist-info/LICENSE,sha256=sKkU9EubrELRT-8YNSor71u-6_8kjLhOn5KdV5WwPW8,1092
+mescal-1.0.1.dist-info/METADATA,sha256=XL4oy7OvGHbgYQgt0RdmJE9PWj9KM4GjpRR8nzrjrX4,5664
+mescal-1.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+mescal-1.0.1.dist-info/top_level.txt,sha256=5DDUPiq8nwIpq9lq-948SaiAs2SQtTiTvMDLJCPjuJA,7
+mescal-1.0.1.dist-info/RECORD,,
