@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pyplatex/__init__.py
+pyplatex.egg-info/PKG-INFO
+pyplatex.egg-info/SOURCES.txt
+pyplatex.egg-info/dependency_links.txt
+pyplatex.egg-info/requires.txt
+pyplatex.egg-info/top_level.txt
