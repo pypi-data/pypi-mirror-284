@@ -1,0 +1,12 @@
+numpy<2
+scipy
+
+[dev]
+pytest
+check-manifest
+pre-commit
+matplotlib
+
+[test]
+pytest
+coverage
