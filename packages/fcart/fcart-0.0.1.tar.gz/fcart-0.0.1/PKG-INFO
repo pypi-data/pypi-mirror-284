@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fcart
+Version: 0.0.1
+Summary: f0 estimation, pitch tracking algorithm using lightgbm CART (classification and regression trees)
+Author-email: Alexander Rodionov <tandav@tandav.me>
+Project-URL: source, https://gitlab.tandav.me/pitchtrack/fcart
+Project-URL: docs, https://pitchtrack.org
+Project-URL: issues, https://gitlab.tandav.me/pitchtrack/fcart/-/issues
+Project-URL: release notes, https://gitlab.tandav.me/pitchtrack/fcart/-/releases
+Project-URL: homepage, https://pitchtrack.org
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: bumpver; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# fcart
+f0 estimation, pitch tracking algorithm using lightgbm CART (classification and regression trees)
+
+# Installation
+
+```shell
+pip install fcart
+```
+
+# Usage
+
+```python
+import fcart
+fcart.test()
+```

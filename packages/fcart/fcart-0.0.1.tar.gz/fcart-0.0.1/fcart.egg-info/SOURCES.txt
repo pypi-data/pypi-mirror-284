@@ -1,0 +1,8 @@
+README.md
+fcart.py
+pyproject.toml
+fcart.egg-info/PKG-INFO
+fcart.egg-info/SOURCES.txt
+fcart.egg-info/dependency_links.txt
+fcart.egg-info/requires.txt
+fcart.egg-info/top_level.txt

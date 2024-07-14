@@ -1,0 +1,28 @@
+[project]
+name = "fcart"
+version = "0.0.1"
+authors = [{name = "Alexander Rodionov", email = "tandav@tandav.me"}]
+description = "f0 estimation, pitch tracking algorithm using lightgbm CART (classification and regression trees)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "bumpver",
+    "pre-commit",
+    "pytest",
+]
+
+[project.urls]
+source = "https://gitlab.tandav.me/pitchtrack/fcart"
+docs = "https://pitchtrack.org"
+issues = "https://gitlab.tandav.me/pitchtrack/fcart/-/issues"
+"release notes" = "https://gitlab.tandav.me/pitchtrack/fcart/-/releases"
+homepage = "https://pitchtrack.org"
+
+# ==============================================================================
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
