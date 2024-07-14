@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+TD Checker/Main.py
+TD Checker/__init__.py
+td_checker.egg-info/PKG-INFO
+td_checker.egg-info/SOURCES.txt
+td_checker.egg-info/dependency_links.txt
+td_checker.egg-info/top_level.txt
