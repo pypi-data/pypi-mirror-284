@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: forensic-doctor
+Version: 1.0.0
+Summary: A forensic tool for recovering deleted files from disk images.
+Home-page: https://github.com/Bytebreach/forensic-doctor
+Author: MrFidal
+Author-email: mrfidal@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytsk3
+Requires-Dist: pyewf
+
+# Forensic Doctor 1.0.0
+
+Forensic Doctor is a Python package designed for forensic analysis to recover deleted files from disk images, supporting a wide range of file types and sizes.
+
+## Installation
+
+To install Forensic Doctor, use pip:
+
+```bash
+pip install forensic-doctor
+```
+
+## Usage
+
+### Command Line
+
+#### Recover and save to a specified path
+
+```bash
+forensic-doctor --recover--path /path/to/disk_image.E01 /path/to/folder/
+```
+
+#### Recover and save to a mentioned folder
+
+```bash
+forensic-doctor --recover--path /path/to/disk_image.E01 /path/to/folder/ --output /path/to/folder1/
+```
+
+#### Recover a mentioned file only
+
+```bash
+forensic-doctor --recover--file /path/to/disk_image.E01 /path/to/folder/image.png
+```
+
+#### Recover a mentioned file and move it to the specified path
+
+```bash
+forensic-doctor --recover--file /path/to/disk_image.E01 /path/to/folder/image.png --output /path/to/output_file/
+```
+
+### Import as a Module
+
+```python
+from forensic_doctor import recover_files, recover_file
+
+# Example 1: Recover all files in a directory within the disk image
+recovered_files = recover_files("/path/to/disk_image.E01", "/path/to/output_dir")
+if recovered_files:
+    for file in recovered_files:
+        print(f"Recovered: {file}")
+else:
+    print("No files recovered.")
+
+# Example 2: Recover a specific file from the disk image
+recovered_file = recover_file("/path/to/disk_image.E01", "/path/to/image.png", "/path/to/output_file")
+if recovered_file:
+    print(f"Recovered: {recovered_file}")
+else:
+    print("File not recovered.")
+
+# Example 3: Recover files and handle errors
+try:
+    recovered_files = recover_files("/path/to/disk_image.E01", "/path/to/output_dir")
+    for file in recovered_files:
+        print(f"Recovered: {file}")
+except Exception as e:
+    print(f"Error occurred: {e}")
+
+# Example 4: Recover specific file and check file existence
+recovered_file = recover_file("/path/to/disk_image.E01", "/path/to/image.png", "/path/to/output_file")
+if recovered_file:
+    print(f"Recovered: {recovered_file}")
+    if os.path.exists(recovered_file):
+        print("File exists.")
+    else:
+        print("File recovered but not found.")
+else:
+    print("File not recovered.")
+
+# Example 5: Handle large files recovery
+large_file_path = "/path/to/large_file.iso"
+output_directory = "/path/to/output_dir"
+recovered_files = recover_files(large_file_path, output_directory)
+if recovered_files:
+    print(f"Recovered {len(recovered_files)} files.")
+else:
+    print("No files recovered.")
+```
+
+### Features
+
+- Supports recovery of all file types: images, videos, documents, etc.
+- Handles large and small files efficiently.
+- Command-line interface for quick and easy usage.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Thanks Note
+
+Thank you for using Forensic Doctor! If you have any questions or need further assistance, feel free to reach out. Your feedback is valuable in improving this tool.

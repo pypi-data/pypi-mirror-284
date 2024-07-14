@@ -1,0 +1,2 @@
+[console_scripts]
+forensic-doctor = forensic_doctor.forensic_doctor:main
