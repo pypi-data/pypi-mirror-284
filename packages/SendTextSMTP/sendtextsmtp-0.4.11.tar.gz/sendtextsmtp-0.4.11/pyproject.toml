@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "SendTextSMTP"
+version = "0.4.11"
+authors = [
+  { name="Foxtrot2400", email="thefoxtrot2400@gmail.com" },
+]
+description = "A simple package to simplify the process to send text messages using the SMTP mail protocol."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Foxtrot2400/sendtext_SMTP"
+Issues = "https://github.com/Foxtrot2400/sendtext_SMTP/issues"
