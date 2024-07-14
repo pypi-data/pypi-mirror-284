@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "promptxml"
+version = "0.1"
+description = "A tool designed to create prompt instructions for neural networks in XML format."
+authors = ["sushka <r.m.poltorabatko@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["python", "chatgpt", "ai", "prompt", "xml", "instruction"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+repository = "https://github.com/barabum0/promptxml"
+
+[project.urls]
+"Issue Tracker" = "https://github.com/barabum0/promptxml/issues"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+mypy = "^1.10.1"
+isort = "^5.13.2"
+pre-commit = "^3.7.1"
+pytest = "^8.2.2"
+pytest-asyncio = "^0.23.7"
+
+[tool.black]
+line-length = 120
+target-version = ['py312']
+
+[tool.isort]
+profile = "black"
+src_paths = ["."]
+
+[tool.mypy]
+python_version = "3.12"
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
