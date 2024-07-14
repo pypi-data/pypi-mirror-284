@@ -1,0 +1,13 @@
+fantiadl/__init__.py,sha256=TeVek_pOLO2S5L_kCJW3SXHDN53FP-HPg1nR5b7Hho4,22
+fantiadl/__main__.py,sha256=MAdy9U6afrXAjKQ9tU2zFjCF5zSOa7-f7Z8Z4f23aJA,32
+fantiadl/__version__.py,sha256=vd1KwOWsA9E1XbsJopSk63EogXGb_qCx8XG7lzXJd8Y,21
+fantiadl/db.py,sha256=SaIQ9UdpD1af2QyiG-3nh2e32FkTkGDMofx3h63Tv1o,2690
+fantiadl/fantiadl.py,sha256=BEbyBcrcg9ZIwRhc3iOssFptF_QAPSnW13jydSKaJNQ,8094
+fantiadl/models.py,sha256=NprdEoLmeYIHwJENHIBSF9ZTV5iye3YJKYubw9ApB2c,29099
+fantiadl/version.py,sha256=pMl7p0vBanIg04EfboBE80RyG_KP7M0m9V3-qTl0YLQ,21
+fantiadl-2.0.4.dist-info/LICENSE,sha256=T9ue5nl-obr7dJEsSTP5BRg8jkR52qtRSjdej2N5umE,1066
+fantiadl-2.0.4.dist-info/METADATA,sha256=TYvXTTd7QuRIjnCcwWc23SjtHOJ5mFabsfLpWZNzPxg,5486
+fantiadl-2.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fantiadl-2.0.4.dist-info/entry_points.txt,sha256=9FQs15drNo4rLGHQ9IGNe27Z6i2YNsi5z602x4fhQzw,52
+fantiadl-2.0.4.dist-info/top_level.txt,sha256=TyWmbrsaaaMFmpyJj2-leFA9ulgZ1IrRkB2GoKeXH6o,9
+fantiadl-2.0.4.dist-info/RECORD,,

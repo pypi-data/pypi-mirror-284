@@ -1,0 +1,3 @@
+[console_scripts]
+fantiadl = fantiadl.fantiadl:cli
+
