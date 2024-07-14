@@ -1,0 +1,12 @@
+cron_command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cron_command/apps.py,sha256=LHfdkn0Qlpkkfu9YaXDAmKLOT9zlq1oHoL3Dr2C3Uow,161
+cron_command/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cron_command/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cron_command/management/commands/cron_add.py,sha256=as-XzAeQZov6zOK-EVOyzLq9LIArtNINDUXTt9AnU4M,1174
+cron_command/management/commands/cron_list.py,sha256=07TlSa9y9nAeVxaNyYxExYVuV849yHrdezKGbP7OrtI,2268
+cron_command/management/commands/cron_remove.py,sha256=_3102Ufy3UK7TiIh0rb-pnbjj9xM9oWl5aeR-NgdzaU,995
+django_cron_command-0.1.0.dist-info/LICENSE,sha256=A2wHYQqz2PzSUs8oBkAxhPh73bLoBLMM1OaaQYQoY5Q,1069
+django_cron_command-0.1.0.dist-info/METADATA,sha256=8WS4OmU1g2RYT4kohWq5nRwG6NPJncDFJHQIgVFKgsI,1628
+django_cron_command-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+django_cron_command-0.1.0.dist-info/top_level.txt,sha256=6w2lYRvLMD5DiN-CkotFbHctZWISyd7q3Zht_5OQLHc,13
+django_cron_command-0.1.0.dist-info/RECORD,,
