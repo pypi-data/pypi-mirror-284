@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+securewipe/__init__.py
+securewipe/cli.py
+securewipe/core.py
+securewipe.egg-info/PKG-INFO
+securewipe.egg-info/SOURCES.txt
+securewipe.egg-info/dependency_links.txt
+securewipe.egg-info/entry_points.txt
+securewipe.egg-info/top_level.txt
