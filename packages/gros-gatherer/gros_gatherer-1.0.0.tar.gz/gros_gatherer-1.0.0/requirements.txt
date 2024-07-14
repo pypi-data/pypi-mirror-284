@@ -1,0 +1,27 @@
+# Pip requirements file
+# gatherer.config
+urlmatch==1.0.1
+# gatherer.jira
+jira==3.8.0
+# gatherer.git
+GitPython==3.1.43
+PyGithub==2.3.0
+python-gitlab==4.4.0
+ordered-set==4.1.0
+# gatherer.svn
+svn==1.0.1
+# gatherer.project_definition.sonar.data
+packaging==24.0
+# gatherer.request
+requests==2.31.0
+requests_ntlm==1.2.0
+# gatherer.database
+pymonetdb==1.8.1
+# gatherer.files
+pyocclient==0.6
+# gatherer.salt
+bcrypt==4.1.2
+# bigboat_to_json.py
+bigboat==0.3.0
+# generate_key.py
+sshdeploy==1.1.4

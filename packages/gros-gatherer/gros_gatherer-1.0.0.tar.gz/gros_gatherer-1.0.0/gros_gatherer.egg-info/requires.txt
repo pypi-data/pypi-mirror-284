@@ -1,0 +1,13 @@
+urlmatch==1.0.1
+jira==3.8.0
+GitPython==3.1.43
+PyGithub==2.3.0
+python-gitlab==4.4.0
+ordered-set==4.1.0
+svn==1.0.1
+packaging==24.0
+requests==2.31.0
+requests_ntlm==1.2.0
+pymonetdb==1.8.1
+pyocclient==0.6
+bcrypt==4.1.2
