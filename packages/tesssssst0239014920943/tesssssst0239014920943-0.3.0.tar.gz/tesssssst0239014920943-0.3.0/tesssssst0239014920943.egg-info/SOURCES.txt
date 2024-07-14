@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tesssssst0239014920943.egg-info/PKG-INFO
+tesssssst0239014920943.egg-info/SOURCES.txt
+tesssssst0239014920943.egg-info/dependency_links.txt
+tesssssst0239014920943.egg-info/top_level.txt
+test_newlib/__init__.py
+test_newlib/checkw/__init__.py
+test_newlib/checkw/test2.py
+test_newlib/stats/__init__.py
+test_newlib/stats/test1.py

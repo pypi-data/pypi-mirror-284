@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tesssssst0239014920943
+Version: 0.3.0
+Summary: test
+Author: lot022
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+test lib ;/ dont cause errors
