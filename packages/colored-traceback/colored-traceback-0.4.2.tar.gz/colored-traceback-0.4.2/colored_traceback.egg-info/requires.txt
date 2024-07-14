@@ -1,0 +1,4 @@
+pygments
+
+[:os_name == "nt"]
+colorama
