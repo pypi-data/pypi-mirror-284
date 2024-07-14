@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+BerkeleyFCL.egg-info/PKG-INFO
+BerkeleyFCL.egg-info/SOURCES.txt
+BerkeleyFCL.egg-info/dependency_links.txt
+BerkeleyFCL.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: BerkeleyFCL
+Version: 0.0.1
+Summary: Berkeley Function Calling Lederboard
+Home-page: https://gorilla.cs.berkeley.edu/leaderboard
+Author: Shishir Patil
+Author-email: shishirpatil@berkeley.edu
+Classifier: Development Status :: 2 - Pre-Alpha
+
+The Berkeley Function Calling Leaderboard (also called Berkeley Tool Calling Leaderboard) evaluates the LLM's ability to call functions (aka tools) accurately. This leaderboard consists of real-world data and will be updated periodically.
