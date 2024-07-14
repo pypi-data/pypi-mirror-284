@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: breakout-package
+Version: 0.1
+Summary: A package for breakout strategy calculation.
+Home-page: https://github.com/yourusername/breakout_package
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+A package for breakout strategy calculation.
