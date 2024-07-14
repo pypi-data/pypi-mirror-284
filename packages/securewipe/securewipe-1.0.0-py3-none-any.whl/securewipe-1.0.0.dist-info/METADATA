@@ -1,0 +1,163 @@
+Metadata-Version: 2.1
+Name: securewipe
+Version: 1.0.0
+Summary: A Python package for securely wiping files or folders.
+Home-page: https://github.com/Bytebreach/securewipe
+Author: Fidal
+Author-email: mrfidal@proton.me
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# securewipe 1.0.0
+
+`securewipe` is a Python package for securely wiping files or folders by overwriting them with random data. It also provides a command-line interface (CLI) for easy usage.
+
+## Benefits
+
+- **Security:** Ensures sensitive files or directories are securely wiped by overwriting them with random data, making recovery impossible.
+- **Ease of Use:** Provides a straightforward CLI interface and Python API for integrating secure file wiping into applications and scripts.
+- **Customization:** Allows customization through Python scripts for specific file or directory wiping requirements.
+  
+## Installation
+
+You can install `securewipe` via pip:
+
+```bash
+pip install securewipe
+```
+
+## Usage
+
+### Command-Line Interface (CLI)
+
+#### Self-destruct current script
+
+To self-destruct the current script (overwrite with random data):
+
+```bash
+securewipe-cli --self-destruct
+```
+
+#### Overwrite a specific file
+
+To overwrite a specific file with random data:
+
+```bash
+securewipe-cli --self-destruct /path/to/file.txt
+```
+
+#### Overwrite all files in a directory
+
+To overwrite all files within a directory with random data:
+
+```bash
+securewipe-cli --self-destruct /path/to/folder/
+```
+
+#### Delete a specific directory
+
+```bash
+securewipe-cli --delete /path/to/directory/
+```
+
+#### Delete a specific file
+
+```bash
+securewipe-cli --delete /path/to/file.txt
+```
+
+### Python Code Examples
+
+#### Self-destruct current script
+
+```python
+from securewipe import self_destruct
+
+try:
+    self_destruct()
+    print("Self-destructed successfully.")
+except Exception as e:
+    print(f"Error: {e}")
+```
+
+#### Overwrite a specific file
+
+```python
+from securewipe import replace_random
+
+file_path = '/path/to/file.txt'
+
+try:
+    replace_random(file_path)
+    print(f"Successfully overwritten: {file_path}")
+except Exception as e:
+    print(f"Error: {e}")
+```
+
+#### Overwrite all files in a directory
+
+```python
+import os
+from securewipe import replace_random
+
+folder_path = '/path/to/folder/'
+
+try:
+    for file_name in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, file_name)
+        if os.path.isfile(file_path):
+            replace_random(file_path)
+            print(f"Successfully overwritten: {file_path}")
+except Exception as e:
+    print(f"Error: {e}")
+```
+
+#### Delete a specific directory
+
+```python
+from securewipe import delete_file
+
+directory_path = '/path/to/directory/'
+
+try:
+    delete_file(directory_path)
+    print(f"Successfully deleted directory and its contents: {directory_path}")
+except Exception as e:
+    print(f"Error: {e}")
+```
+
+#### Delete a specific file
+
+```python
+from securewipe import delete_file
+
+file_path = '/path/to/file.txt'
+
+try:
+    delete_file(file_path)
+    print(f"Successfully deleted: {file_path}")
+except Exception as e:
+    print(f"Error: {e}")
+```
+
+#### self Delete
+
+```python
+from securewipe import self_delete
+
+try:
+    self_delete()
+    print("Self-deleted successfully.")
+except Exception as e:
+    print(f"Error: {e}")
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+Thank you for using `securewipe`! If you find it useful, please consider starring the repository.
+
