@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/saten/__init__.py
+src/saten.egg-info/PKG-INFO
+src/saten.egg-info/SOURCES.txt
+src/saten.egg-info/dependency_links.txt
+src/saten.egg-info/requires.txt
+src/saten.egg-info/top_level.txt
