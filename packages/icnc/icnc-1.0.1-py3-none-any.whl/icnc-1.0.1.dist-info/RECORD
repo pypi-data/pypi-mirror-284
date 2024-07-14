@@ -1,0 +1,8 @@
+cli/__init__.py,sha256=wZ3AJ51l--lqRsOKF-P_7nbCxvg-WqZBqGuLVB8vaqc,30
+cli/_cli.py,sha256=6IpgZzFqFmDBk8qUku69VLpzBK9bKhzoO6EogH3qPXA,1924
+main/__init__.py,sha256=WSy12iv_0D_-kzrdt5Osbm6Lqx8zTXpyRK52GtpFtRQ,3673
+icnc-1.0.1.dist-info/METADATA,sha256=4L6kLsw5LFRWmRGnerQyu2UfJpqqgRY74KJz0MPXCtY,278
+icnc-1.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+icnc-1.0.1.dist-info/entry_points.txt,sha256=ZcAZn6tvQfOHiTJZnSLwXYAH_Rn4oD-qwp19XfU94EY,40
+icnc-1.0.1.dist-info/top_level.txt,sha256=Ram48mxeKPIx8LspvtoTGxibGqWT215h9M2iGFcJ7eI,9
+icnc-1.0.1.dist-info/RECORD,,
