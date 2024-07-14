@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+atlas_rucio_policy_package.egg-info/PKG-INFO
+atlas_rucio_policy_package.egg-info/SOURCES.txt
+atlas_rucio_policy_package.egg-info/dependency_links.txt
+atlas_rucio_policy_package.egg-info/top_level.txt
