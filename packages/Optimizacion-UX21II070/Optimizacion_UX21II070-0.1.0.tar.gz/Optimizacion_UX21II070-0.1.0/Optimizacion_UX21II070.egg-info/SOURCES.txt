@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Funciones_objetivo/__init__.py
+Funciones_objetivo/con_restricciones.py
+Funciones_objetivo/sin_restricciones.py
+Optimizacion_UX21II070.egg-info/PKG-INFO
+Optimizacion_UX21II070.egg-info/SOURCES.txt
+Optimizacion_UX21II070.egg-info/dependency_links.txt
+Optimizacion_UX21II070.egg-info/requires.txt
+Optimizacion_UX21II070.egg-info/top_level.txt
