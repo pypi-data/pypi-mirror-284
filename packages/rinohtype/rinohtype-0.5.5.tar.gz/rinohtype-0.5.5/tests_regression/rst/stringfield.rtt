@@ -1,0 +1,23 @@
+[TEMPLATE_CONFIGURATION]
+name=stringfield
+template=book
+
+parts=contents
+stylesheet=sphinx_base14
+
+[STRINGS]
+; override built-in strings
+@chapter='Ch.' (emphasis)
+@warning='Be warned!'
+
+; user-defined strings
+$my_string='my string'
+
+[VARIABLES]
+paper_size=A5
+
+
+[contents_left_page]
+header_text='{$my_subst}'
+footer_text='{$my_string}' (monospaced)
+            '\t \t {SECTION_NUMBER(1)}.  {SECTION_TITLE(1)}'

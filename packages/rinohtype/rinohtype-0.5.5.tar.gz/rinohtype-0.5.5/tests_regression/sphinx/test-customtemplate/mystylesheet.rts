@@ -1,0 +1,18 @@
+[STYLESHEET]
+name=Custom
+base=sphinx
+description=The Sphinx stylesheet, but using core PDF fonts
+
+[VARIABLES]
+mono_typeface=Courier
+serif_typeface=Times
+sans_typeface=Helvetica
+
+[title page date : Paragraph('title page date')]
+hide = true
+
+[rear cover small text : StyledText('rear cover small')]
+font_size=10pt
+
+[rear cover large text : StyledText('rear cover large')]
+font_size=16pt
