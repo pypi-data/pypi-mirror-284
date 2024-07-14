@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: simple-coroutine
+Version: 0.1.0
+Summary: A simplified interface for managing coroutines with callback entry to monitor progress
+Author: Hrag Balian
+Author-email: hrag.balian@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+
