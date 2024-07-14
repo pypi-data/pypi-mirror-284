@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "britishcycling-clubs"
+version = "0.9.1"
+description = "Unofficial library to automate aspects of British/Scottish/Welsh Cycling's club Membership Manager system"
+authors = ["elliot-100 <3186037+elliot-100@users.noreply.github.com>"]
+readme = "README.md"
+homepage = "https://github.com/elliot-100/britishcycling-clubs"
+repository = "https://github.com/elliot-100/britishcycling-clubs"
+packages = [{include = "britishcycling_clubs"}]
+include = ["CHANGELOG.md"]
+license = "GPL 3.0"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+beautifulsoup4 = ">=4.12.2"
+requests = ">=2.23.1"
+playwright = ">=1.39.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.0"
+
+[tool.poetry.group.test.dependencies]
+mypy = "^1.7.1"
+pytest = "^7.4.2"
+types-requests = "^2.31.0.10"
+types-beautifulsoup4 = "^4.12.0.7"
+
+[tool.mypy]
+strict = true
+
+[[tool.mypy.overrides]]
+module = "playwright"
+disallow_untyped_calls = false
+
+[tool.ruff.lint]
+# Enable rulesets:
+# flake8-ANNotations, flake8-COMmas, pyDocstyle, pycodestylE, pyFlakes, Isort,
+# flake8-Future-Annotations, flake8-bandit (S)
+select = ["ANN", "COM", "D", "E", "F", "I", "FA", "S"]
+
+# Ignore rules that conflict with Ruff formatter:
+#   COM812 Trailing comma missing
+ignore = ["COM812"]
+
+[tool.ruff.lint.per-file-ignores]
+# Use of `assert` detected
+"**/{tests}/*" = ["S101"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
