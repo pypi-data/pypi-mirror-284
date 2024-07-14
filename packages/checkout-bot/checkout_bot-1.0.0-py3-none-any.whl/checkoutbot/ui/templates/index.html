@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h2>Welcome to the Checkout Bot</h2>
+    <p>Configure your bot settings or load a previous configuration.</p>
+    
+    <button data-href="{{ url_for('settings') }}">Configure New Bot</button>
+    <button data-href="{{ url_for('templates') }}">Load Previous Bot</button>
+    
+    {% if loaded_template %}
+        <div id="template-info">Template Loaded: {{ loaded_template }}</div>
+        <form method="post" action="{{ url_for('unload_template') }}">
+            <button type="submit">Unload Template</button>
+        </form>
+        <form method="post" action="{{ url_for('index') }}">
+            <input type="hidden" name="action" value="start_bot">
+            <input type="submit" value="Start Bot">
+        </form>
+    {% else %}
+        <button id="start-bot-disabled" disabled>Start Bot</button>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Templates{% endblock %}
+
+{% block content %}
+    <h2>Templates</h2>
+    <p>Select and customize templates for different websites.</p>
+    <form id="template-form" method="post" action="{{ url_for('templates') }}">
+        <label for="template-name">Template Name:</label>
+        <input type="text" id="template-name" name="template-name" required><br><br>
+        
+        <label for="select-template">Load Template:</label>
+        <select id="select-template" name="template-name">
+            {% for template in templates %}
+                <option value="{{ template }}">{{ template }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <input type="submit" name="action" value="Save Template">
+        <input type="submit" name="action" value="Load Template">
+        <input type="submit" name="action" value="Delete Template">
+    </form>
+    <form method="get" action="{{ url_for('index') }}">
+        <button type="submit" class="back-button">Back</button>
+    </form>
+{% endblock %}

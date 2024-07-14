@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: #ffd700;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+main {
+    padding: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+form {
+    background: #fff;
+    width: 80%;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form input[type="time"],
+form input[type="submit"],
+form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background: #555;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button.back-button {
+    background-color: #333;
+}
+
+button.back-button:hover {
+    background-color: #555;
+}
+
+button[disabled] {
+    background-color: #ddd;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+button[disabled]:hover {
+    background-color: #ddd;
+}
+
+button#start-bot-disabled {
+    position: relative;
+}
+
+button#start-bot-disabled::after {
+    content: "Configure your bot or load a previous bot";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+button#start-bot-disabled:hover::after {
+    display: block;
+}
+
+.flashes {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flashes li {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.flashes .success {
+    background-color: #4CAF50;
+}
+
+.flashes .danger {
+    background-color: #f44336;
+}
+
+.search-method-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.radio-label {
+    cursor: pointer;
+}
+
+#template-info {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.payment-info {
+    display: none;
+}
+
+.payment-info.active {
+    display: block;
+}

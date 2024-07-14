@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}Scraping & Schedule{% endblock %}
+
+{% block content %}
+    <h2>Scraping & Schedule</h2>
+    <form method="post" action="{{ url_for('scraping') }}">
+        <label for="search-method">Search Method:</label><br>
+        <div class="search-method-container">
+            <input type="radio" id="search-url" name="search-method" value="url" {% if scraping_settings.search_method == 'url' %}checked{% endif %}>
+            <label for="search-url" class="radio-label">Scrape by URL</label>
+            <input type="radio" id="search-name" name="search-method" value="name" {% if scraping_settings.search_method == 'name' %}checked{% endif %}>
+            <label for="search-name" class="radio-label">Search by Product Name</label>
+        </div><br><br>
+        
+        <div id="url-inputs" {% if scraping_settings.search_method == 'name' %}style="display: none;"{% endif %}>
+            <label for="product-url">Direct Product Link:</label>
+            <input type="text" id="product-url" name="product-url" value="{{ scraping_settings.product_url }}"><br><br>
+        </div>
+        
+        <div id="name-inputs" {% if scraping_settings.search_method == 'url' %}style="display: none;"{% endif %}>
+            <label for="website-url">Website URL:</label>
+            <input type="text" id="website-url" name="website-url" value="{{ scraping_settings.website_url }}"><br><br>
+            
+            <label for="product-name">Product Name:</label>
+            <input type="text" id="product-name" name="product-name" value="{{ scraping_settings.product_name }}"><br><br>
+        </div>
+        
+        <label for="min-price">Minimum Price:</label>
+        <input type="text" id="min-price" name="min-price" value="{{ scraping_settings.min_price }}" required><br><br>
+        
+        <label for="max-price">Maximum Price:</label>
+        <input type="text" id="max-price" name="max-price" value="{{ scraping_settings.max_price }}" required><br><br>
+        
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" value="{{ scraping_settings.quantity }}" required><br><br>
+        
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" name="start-date" value="{{ scraping_settings.start_date }}" required><br><br>
+        
+        <label for="start-time">Start Time:</label>
+        <input type="time" id="start-time" name="start-time" value="{{ scraping_settings.start_time }}" required><br><br>
+        
+        <label for="duration">Duration (minutes):</label>
+        <input type="number" id="duration" name="duration" value="{{ scraping_settings.duration }}" required><br><br>
+        
+        <label for="frequency">Scraping Frequency (seconds):</label>
+        <input type="number" id="frequency" name="frequency" value="{{ scraping_settings.frequency }}" required><br><br>
+        
+        <button type="submit">Next</button>
+    </form>
+    <form method="get" action="{{ url_for('payment') }}">
+        <button type="submit" class="back-button">Back</button>
+    </form>
+{% endblock %}
