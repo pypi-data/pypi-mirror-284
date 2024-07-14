@@ -1,0 +1,11 @@
+cleopatra/__init__.py,sha256=csy1jA5eRdoug2SNrJ2iRNzvsTYrLPragDwlYyvV3QE,1000
+cleopatra/array.py,sha256=Nc6B7YmE8i9ozW6eiayXQVz0x-1gMTG1NMR6uptaih8,38265
+cleopatra/colors.py,sha256=RQWe0_Ht9RXh8EQIuC1g5faeef7rvwPby43bVmC3NMU,1218
+cleopatra/statistics.py,sha256=6n8sryxaO1JTPc2wkxuVkV0JT6Jyc7eosJyksiLk5t8,2800
+cleopatra/styles.py,sha256=zFXXKlv8MHFBOIsnKd17lxQplSrt6lmy34igvTEuHYI,6104
+cleopatra-0.4.3.dist-info/AUTHORS.rst,sha256=dPWD1hHy9KROqHoAqYAj9sRSNL-N61iALRoDkPOxYJc,160
+cleopatra-0.4.3.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+cleopatra-0.4.3.dist-info/METADATA,sha256=KH61b6nX_SjMNJJPZavSVhpBSLzyrezs7M3QbMMgjXY,8530
+cleopatra-0.4.3.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+cleopatra-0.4.3.dist-info/top_level.txt,sha256=QHItfQknL6bE08hhh66ZahpMSjEV3JwGXIjHvMOoyAo,10
+cleopatra-0.4.3.dist-info/RECORD,,
