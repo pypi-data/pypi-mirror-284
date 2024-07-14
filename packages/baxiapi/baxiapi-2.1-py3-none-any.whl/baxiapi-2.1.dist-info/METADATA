@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: baxiapi
+Version: 2.1
+Summary: Allows you to interact with our Baxi API.
+Author: Red_Wolf2467
+Author-email: support@pyropixle.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: wavelink
+Requires-Dist: discord.py
+Requires-Dist: reds-simple-logger
+
+# Baxi API
+
+This is the official package for the Baxi API, developed by "Red_Wolf2467".
+
+You can find an example code here: [API Docs](https://docs.pyropixle.com/baxi/api)
+
