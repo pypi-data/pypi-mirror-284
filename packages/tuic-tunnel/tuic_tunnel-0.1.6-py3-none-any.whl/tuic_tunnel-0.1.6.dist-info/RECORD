@@ -1,0 +1,12 @@
+tuic_tunnel/__init__.py,sha256=enpXqm0vbpZ0SD7nyYKc6DNvDvwRw-Lx7AWFhMlv0xM,135
+tuic_tunnel/tuic.py,sha256=6REUjHJx7hqwEGTVwCERj_2FjGHXVCvEV8-bFIIrhgE,1812
+tuic_tunnel/bin/darwin/tuic-client-arm64,sha256=EEuCR4k7w-hxOg7EcCVeGE1wO8-A6sOya888Uy4PKU4,1730928
+tuic_tunnel/bin/darwin/tuic-client-x86_64,sha256=0nRbLff9NZXyGQJ5S6D1AUdlhqv8NGu5AM3DwAOljaw,2112904
+tuic_tunnel/bin/linux/tuic-client-aarch64,sha256=kFr-61vLL7Y1ZvfOL2EhfKoaxVOiDye7YR2pZoapf10,1812560
+tuic_tunnel/bin/linux/tuic-client-x86_64,sha256=2aLITfJiHt21cflGhYQijrMfb45DGbE7nqzIWqCdAD8,2284232
+tuic_tunnel/bin/win32/tuic-client-amd64.exe,sha256=p2CEm-vbE3vD8IruHj2wh9UjtLTMi9QDoO07hY9XfY8,2111488
+tuic_tunnel-0.1.6.dist-info/LICENSE,sha256=hm5uJLKnuktvHOTIjX0QL3euHJrVXfBwl8h3CfBD_zo,1074
+tuic_tunnel-0.1.6.dist-info/METADATA,sha256=bEFQWloSJj-yuy-CuR99UO2sOlKdM9Bpp0qSJRE_-WE,1623
+tuic_tunnel-0.1.6.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+tuic_tunnel-0.1.6.dist-info/top_level.txt,sha256=NQVr2soaIG5EjuxD-it7LNHwVGnG6cDMbr62KkMMqt0,12
+tuic_tunnel-0.1.6.dist-info/RECORD,,
