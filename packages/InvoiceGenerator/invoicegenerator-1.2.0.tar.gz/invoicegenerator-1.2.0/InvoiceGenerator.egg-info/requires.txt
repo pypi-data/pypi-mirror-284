@@ -1,0 +1,14 @@
+reportlab
+pillow
+qrplatba>=0.3.3
+babel
+
+[dev]
+flake8
+flake8-blind-except
+flake8-comprehensions
+flake8-import-order
+flake8-tidy-imports
+
+[docs]
+sphinx
