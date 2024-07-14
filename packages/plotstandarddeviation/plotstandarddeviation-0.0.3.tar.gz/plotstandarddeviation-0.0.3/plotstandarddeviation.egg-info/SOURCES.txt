@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+plotStandardDeviation/__init__.py
+plotstandarddeviation.egg-info/PKG-INFO
+plotstandarddeviation.egg-info/SOURCES.txt
+plotstandarddeviation.egg-info/dependency_links.txt
+plotstandarddeviation.egg-info/requires.txt
+plotstandarddeviation.egg-info/top_level.txt
