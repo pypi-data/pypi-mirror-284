@@ -1,0 +1,8 @@
+README.md
+setup.py
+pythonejs/__init__.py
+pythonejs/engine.py
+pythonejs.egg-info/PKG-INFO
+pythonejs.egg-info/SOURCES.txt
+pythonejs.egg-info/dependency_links.txt
+pythonejs.egg-info/top_level.txt
