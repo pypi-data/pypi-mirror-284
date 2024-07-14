@@ -1,0 +1,3 @@
+[console_scripts]
+nixt = nixt.__main__:main
+nixtd = nixt.__main__:background
