@@ -1,0 +1,8 @@
+setup.py
+bettertool.egg-info/PKG-INFO
+bettertool.egg-info/SOURCES.txt
+bettertool.egg-info/dependency_links.txt
+bettertool.egg-info/requires.txt
+bettertool.egg-info/top_level.txt
+s3helper/__init__.py
+s3helper/s3_helper.py
