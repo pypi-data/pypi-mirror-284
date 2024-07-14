@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bettertool
+Version: 0.1.0
+Summary: A helper library for working with S3 and Hugging Face models
+Home-page: https://github.com/janhq/research-utils
+Author: Alan
+Author-email: alan@jan.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Requires-Dist: boto3
+Requires-Dist: transformers
+
