@@ -1,0 +1,5 @@
+setup.py
+realignment.egg-info/PKG-INFO
+realignment.egg-info/SOURCES.txt
+realignment.egg-info/dependency_links.txt
+realignment.egg-info/top_level.txt
