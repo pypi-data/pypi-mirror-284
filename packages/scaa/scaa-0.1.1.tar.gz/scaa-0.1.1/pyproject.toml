@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "scaa"
+version = "0.1.1"
+description = ""
+authors = ["Ken Hung <ken.hung@onedegree.hk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+isort = "^5.13.2"
+flake8 = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+scaa = "scaa.main:main"
+
+[tool.poetry.urls]
+repository = "https://github.com/superken01/scaa"
