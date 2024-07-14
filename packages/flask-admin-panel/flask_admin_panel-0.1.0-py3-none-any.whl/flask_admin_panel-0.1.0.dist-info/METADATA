@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: flask-admin-panel
+Version: 0.1.0
+Summary: Simple Admin Panel for Flask
+Home-page: https://github.com/pranjgit/flask-admin-panel
+Author: Pranjal Gharat
+Author-email: pranjgit@gmail.com
+License: UNKNOWN
+Keywords: flask,flask-admin,admin-panel,flask-admin-panel,setuptools,development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Requires-Dist: Flask >=3.0.0
+Requires-Dist: Flask-Injector >=0.15.0
+Requires-Dist: Flask-JWT-Extended >=4.6.0
+Requires-Dist: flask-marshmallow >=1.2.0
+Requires-Dist: Flask-Migrate >=4.0.5
+Requires-Dist: flask-restx >=1.3.0
+Requires-Dist: Flask-SQLAlchemy >=3.1.1
+Requires-Dist: Flask-WTF >=1.2.1
+Requires-Dist: WTForms-Alchemy >=0.18.0
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# Flask-Admin-Panel
+A [Flask][] extension that enables Admin Panel for Registed Flask-SQLAlchemy Models.
+
+[Flask]: https://flask.palletsprojects.com
+
+## Example
+
+Setting up the Flask-Admin-Panel is simple:
+
+```python
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from flask_admin_panel import FlaskAdminPanel
+
+app = Flask(__name__)
+app.config["SECRET_KEY"] = "<replace with a secret key>"
+app.config["APP_ADMIN_USER"] = "<replace with a your user name default is admin>"
+app.config["APP_ADMIN_PASSWORD"] = "provide a strong password"
+app.config["SQLALCHEMY_DATABASE_URI"] = "provide a sql alchemy database uri"
+
+db = SQLAlchemy(app)
+
+adminpanel = FlaskAdminPanel(app,db)
+```
+
+Registring the models to Flask-Admin-Panel :
+```python
+
+#Create any model
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(80), unique=True, nullable=False)
+    email = db.Column(db.String(120), unique=True, nullable=False)
+
+    def __repr__(self):
+        return '<User %r>' % self.username
+
+# Provide unique name to model and SQLAlchemy.Model class
+adminpanel.serv_admin_panel.register_model_for_admin_panel("User",User) 
+```
+
