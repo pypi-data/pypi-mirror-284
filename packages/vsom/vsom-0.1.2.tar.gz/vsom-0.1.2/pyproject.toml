@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vsom"
+version = "0.1.2"
+description = "the code of virtual screening of organic materials"
+authors = ["su-group"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^2.0.0"
+pandas = "^2.2.2"
+rdkit = "^2023.9.1"
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
