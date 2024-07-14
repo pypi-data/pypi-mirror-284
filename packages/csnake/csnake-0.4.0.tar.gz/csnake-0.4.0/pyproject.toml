@@ -1,0 +1,171 @@
+[tool.poetry]
+name = "csnake"
+version = "0.4.0"
+description = "C code generation helper package."
+authors = ["Andrej Radović <r.andrej@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://gitlab.com/andrejr/csnake"
+documentation = "https://andrejr.gitlab.io/csnake/"
+keywords = ["codegen", "c", "embedded"]
+classifiers = [
+    # Trove classifiers
+    # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Software Development :: Embedded Systems",
+    "Topic :: Software Development :: Pre-processors",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: C",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Operating System :: OS Independent",
+]
+include = ["LICENSE.md"]
+
+packages = [{ include = "csnake" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+# optionals
+numpy = { version = ">=1.20", optional = true }
+sympy = { version = ">=1.10", optional = true }
+pillow = { version = ">=9", optional = true }
+
+[tool.poetry.extras]
+numpy = ["numpy"]
+sympy = ["sympy"]
+pillow = ["pillow"]
+
+[tool.poetry.group.dev.dependencies]
+# docs
+Sphinx = "^7"
+sphinx-argparse = "^0.4"
+sphinx-autodoc-typehints = "^2"
+readme-renderer = "^44.0"
+# formatting
+ruff = "^0.5.1"
+# linting
+mypy = "^1.10.1"
+pre-commit = "^2.15"
+# testing
+pytest = "^6.2"
+pytest-cov = "^2.12"
+pytest-html = "^3.1"
+coverage = "^5.5"
+# convenience during development
+ipython = "^7.27"
+profilehooks = "^1.12"
+# optionals included excplicitly b/c of testing
+numpy = "^2"
+sympy = "^1.13"
+Pillow = "^10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+# Same as Black.
+line-length = 79
+indent-width = 4
+target-version = "py312"
+
+
+[tool.ruff.lint]
+# Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
+# Unlike Flake8, Ruff doesn't enable pycodestyle warnings (`W`) or
+# McCabe complexity (`C901`) by default.
+select = [
+    "E4",
+    "E7",
+    "E9",
+    "F",
+    "N",
+    "S",
+    "BLE",
+    "B",
+    "A",
+    "C4",
+    "EXE",
+    "FA",
+    "I",
+    "ISC001",
+    "ISC003",
+    "ICN",
+    "PIE",
+    "RSE",
+    "RET",
+    "SLOT",
+    "SIM",
+    "TID",
+    "PTH",
+    "PL",
+    "FLY",
+    "PERF",
+    "LOG",
+    "RUF",
+]
+ignore = [
+    "N803",
+    "PLR0912",
+    "PLR0913",
+    "RET504",
+    "S101",
+    "S323",
+    "TID252",
+    'ISC001',
+    'PLE1205',
+]
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+[tool.ruff.lint.isort]
+force-single-line = true
+combine-as-imports = true
