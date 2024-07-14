@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: lutop
+Version: 1.0.7
+Summary: A utility to monitor system resources and top processes.
+Home-page: https://github.com/barkhayot/lutop
+Author: Barkhayot Juraev
+Author-email: barkhayotoff@email.com
+Keywords: system monitor processes
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil
+
+# Lutop
+
+## Introduction
+
+Welcome to Lutop (Lightweight System Monitor), a terminal-based system monitoring application inspired by Unix `top` command and designed using Python and curses library.
+
+## Installation
+Install lutop using pip 
+
+```bash
+pip install lutop
+```
+
+## Usage
+To start lutop, simply run the following command in your terminal:
+
+```bash
+python lutop.py
+```
+
+![Usage Demo](media/demo.gif)
+
+### Contributing
+We welcome contributions! If you discover a bug in this project, please feel free to open an issue to discuss the changes you would like to propose.
