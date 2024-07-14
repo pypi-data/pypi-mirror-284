@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: spdercryptencrypt
+Version: 0.1.0
+Summary: Une bibliothèque pour le chiffrement AES avec CBC
+Home-page: https://github.com/Mouhawos/spidercryptencrypt
+Author: Spidercrypt
+Author-email: votre@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography >=3.0.0
+
+Here's a more complete README for your `Spidercryptencrypt` library:
+
+```markdown
+# Spidercryptencrypt
+
+Spidercryptencrypt is an encryption library that utilizes AES in CBC mode for secure data encryption and decryption.
+
+## Installation
+
+You can install Spidercryptencrypt via pip:
+
+```bash
+pip install spidercryptencrypt
+```
+
+## Usage
+
+Hereâ€™s a simple example of how to use Spidercryptencrypt:
+
+```python
+from spidercryptencrypt import Spidercryptencrypt
+
+# Example key (must be 32 bytes for AES-256)
+key = b'my_32_byte_secret_key!'  
+cipher = Spidercryptencrypt(key)
+
+# Encrypting data
+plaintext = b'Hello, world!'
+encrypted = cipher.encrypt(plaintext)
+print("Encrypted:", encrypted)
+
+# Decrypting data
+decrypted = cipher.decrypt(encrypted)
+print("Decrypted:", decrypted.decode())  # Outputs: Hello, world!
+```
+
+## Features
+
+- **AES Encryption**: Secure encryption using AES in CBC mode.
+- **Easy to Use**: Simple API for encrypting and decrypting data.
+- **Secure Key Management**: Ensure to manage your encryption keys securely.
+
+## Requirements
+
+- Python 3.6 or higher
+- `cryptography` package
+
+## License
+
+## License
+
+This project is licensed under a proprietary license. For details on licensing and commercial use, please contact [spidercrypt.dev@gmail.com].
+
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+
+
+## Author
+
+Mouhawos - A passionate developer and CEO of Spidercrypt, specializing in cybersecurity API development. Committed to creating secure and efficient solutions for modern challenges.
+
+```
+
