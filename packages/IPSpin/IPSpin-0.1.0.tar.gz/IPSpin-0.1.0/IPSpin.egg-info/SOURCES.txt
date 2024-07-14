@@ -1,0 +1,8 @@
+README.md
+setup.py
+IPSpin.egg-info/PKG-INFO
+IPSpin.egg-info/SOURCES.txt
+IPSpin.egg-info/dependency_links.txt
+IPSpin.egg-info/requires.txt
+IPSpin.egg-info/top_level.txt
+tests/test_ipspin.py
