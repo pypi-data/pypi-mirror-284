@@ -1,0 +1,13 @@
+avrofastapi/__init__.py,sha256=BGcFKWhZWxyYpUG_K0l-lhvdlAQ85GFaAOz6ENLia0Y,3600
+avrofastapi/gateway.py,sha256=XivAW1Qmz3Cuh-x7V_yvUSyHXr3AdRe6_5LhNIS0bWI,6930
+avrofastapi/handshake.py,sha256=WxklDe8ofsuLNrO4bt4hLuPt8BPHqMVnSi9AbZfPsBw,3158
+avrofastapi/models.py,sha256=1hTsNZyH3hb8dS7EgVl6xllw1rnIvpEBkEUu2oPtCgw,775
+avrofastapi/repo.py,sha256=bDRgksaWd2BLKIFcHpD3sEKLJpN0zK1FR7KH5ypJCQc,1290
+avrofastapi/routing.py,sha256=S5d73xgYjZsoQ7sJKPpKWPqenpTuVjoKtMz5P1zF68o,48119
+avrofastapi/schema.py,sha256=ER3H-IJpfpQSTzCVZxYe3QdVsFWyIN7aBe2J-bpl154,10857
+avrofastapi/serialization.py,sha256=noET1AfjJFHCqiSHOdM7QnJVGayDlAJyFCrMpsescko,11364
+avrofastapi-0.0.5.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+avrofastapi-0.0.5.dist-info/METADATA,sha256=6xRY8gGciGoiyOs1HF7gqEZZNOirU3J-ytqlrjXPPXs,3699
+avrofastapi-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+avrofastapi-0.0.5.dist-info/top_level.txt,sha256=31VLQQ_uSBFuYXNTOBPQ9wnVUZdy0NoKzt5gsOpf1GE,12
+avrofastapi-0.0.5.dist-info/RECORD,,
