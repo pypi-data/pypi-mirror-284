@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "worth"
+version = "0.1.0"
+description = "Assert relevant object attributes"
+license = "BSD-3-Clause"
+authors = ["Xavier Barbosa <clint.northwood@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/johnnoone/worth"
+keywords = ["test", "assertion"]
+packages = [{ include = "worth", from = "src" }]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: Pytest",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Testing :: Mocking",
+]
+
+[tool.poetry.plugins."pytest11"]
+worth = "worth.pytest_plugin"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+attrs = { version = "*", optional = true }
+msgspec = { version = "*", optional = true }
+
+[tool.poetry.extras]
+attrs = ["attrs"]
+msgspec = ["msgspec"]
+
+[tool.poetry.group.dev.dependencies]
+ruff = "*"
+pytest = "*"
+mypy = "*"
+
+[tool.ruff.lint]
+fixable = ["ALL"]
+ignore = ["E731"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
