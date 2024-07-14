@@ -1,0 +1,37 @@
+[project]
+name = "nbswitch"
+version = "0.0.1"
+description = "NbSwitch is a tool for modifying the use case of lessons inside jupyter notebooks, pure markdown, and other file formats."
+authors = [
+    { name = "Ramon Perez", email = "ramonpzg@protonmail.com" },
+]
+dependencies = [
+    "anthropic",
+    "instructor",
+    "bs4",
+    "fastapi",
+    "pydantic",
+    "nbconvert",
+    "nbformat",
+    "typer>=0.12.3",
+    "rich>=13.7.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "Apache 2.0"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=8.2.2",
+]
