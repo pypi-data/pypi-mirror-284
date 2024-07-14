@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: eouTools
+Version: 0.0.4.1
+Summary: eouTools adds new ease-of-use features to python!
+Home-page: https://github.com/cornusandu/eouTools
+Author: Sandu Bogdan
+Author-email: bogdanelsandu@hotmail.com
+Project-URL: Bug Tracker, https://github.com/cornusandu/eouTools/issues
+Project-URL: GitHub Repository, https://github.com/cornusandu/eouTools
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# eouTools
+## Requirements
+- python >= 3.10 (Required)
+- python >= 3.12 (Suggested)
+## eouTools.numbers
+### isPositive
+Syntax: isPositive(n: int | float) -> bool<br>
+Alternative: `not isNegative(n)`<br>
+Documentation: "Returns whether `n` is positive or not"
+
+### isNegative
+Syntax: `isNegative(n: int | float) -> bool`<br>
+Alternative: `not isPositive(n)`<br>
+Documentation: "Returns whether `n` is negative or not"
+
+### isZero
+Syntax: `isZero(n: int | float) -> bool`<br>
+Alternative: `n == 0`<br>
+Documentation: "Returns whether `n` is zero or not"
+
+## eouTools.decorators
+### rename_on_init
+Syntax: `@rename_on_init(name: str)`<br>
+Documentation: "Rename a function when it is initialized. This may raise unexpected behavior, however"
+
+## eouTools.benchmarking.decorators
+### time_func
+Syntax: `@time_func`<br>
+Documentation: "Time a function. Parse in the keyworded argument `_no_time = True` to get the return instead of the time it took to execute"
+### memoize
+Syntax: `@memoize`<br>
+Documentation: "Create a cache of all results given by a function. run the `.delete_cache()` function to delete the cache. Can be used to speed up certain algorithms such as recursive Fibonacci sequence"
+# eouTools Installation Guide
+## 1 - Requirements
+Make sure you meet the following requirements:
+- python >= 3.10 (required)
+- python >= 3.12 (suggested)
+- pip >= 20.3.1 (suggested?)
+
+## 2 - Requirements Installation
+How to install certain requirements if your system does not already meet them
+### pip >= 20.3.1
+```commandline
+python -m pip install --upgrade pip>=20.3.1
+```
+
+## 3 - Installation
+To install eouTools, please run:
+```commandline
+python -m pip install eouTools
+```
+
+## 4 - Updates
+If you wish to upgrade to the latest version of eouTools when new releases come out, run:
+```commandline
+python -m pip install --upgrade eouTools
+```
+
+## 5 - Removal
+If you wish to uninstall eouTools, run:
+```commandline
+python -m pip uninstall eouTools
+```
+And please leave us a feedback with what drove you to uninstall it
