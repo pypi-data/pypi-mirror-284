@@ -1,0 +1,3 @@
+[console_scripts]
+unilookup=unilookup.unilookup:main
+

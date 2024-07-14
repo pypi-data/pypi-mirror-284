@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: unilookup
+Version: 0.1.1
+Summary: A simple CLI Python utility for looking up unicode codepoints
+License: GPL-3.0-or-later
+Author: Martin Maciaszek
+Author-email: martin@maciaszek.net
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: terminaltables (>=3.1.10,<4.0.0)
+Requires-Dist: unicodedata2 (>=15.1.0,<16.0.0)
+Description-Content-Type: text/markdown
+
+# unilookup
+
+A simple CLI Python 3 utility for looking up unicode codepoints.
+
+Simply run `unilookup` and send the data you wish to look up through stdin, and it'll spit out a nice ASCII table.
+
+Originally based on https://github.com/miestasmia/unilookup. Ported to Python 3 there wasn't much left of the origin code thanks to Python 3's built-in unicodedata library.
+
