@@ -1,0 +1,10 @@
+pys/__init__.py,sha256=XTXUDuVB532M2giWFP7WU0Zst7HKiWhDp4Oswq25HWA,7742
+pys/base.py,sha256=wnhIExq8XO7syZJDnT8MYcyETDrbySCWfgiPbvkNTjM,1932
+pys/file.py,sha256=N-YGZKp8fnvPFTU6jSP5zLbn3GVZMUaanC7CvdHUzPY,3172
+pys/pydantic.py,sha256=UCWzCCB60eSrPJK7DCEglD6JfpEOIIYpGibg4SJreu4,239
+pys/sqlite.py,sha256=TRt-IxYIMWXqXBKLKoFHo3NiXwKGFLDdu7HHDKhMiKU,4667
+pysdato-0.0.9.dist-info/LICENSE,sha256=nmTFrw8luK3wj74svQAQ4SlEHs9PK1SqoFwpWHu7N4w,1069
+pysdato-0.0.9.dist-info/METADATA,sha256=1iWeXwoDOcpXeOEnt9y2LAvIafG0kHvTHRNBxHZpvEI,7722
+pysdato-0.0.9.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+pysdato-0.0.9.dist-info/top_level.txt,sha256=Q7MnbveoEAd8c2c1Vha90L7bIuSNteX1GMa2fFAGxp4,4
+pysdato-0.0.9.dist-info/RECORD,,
