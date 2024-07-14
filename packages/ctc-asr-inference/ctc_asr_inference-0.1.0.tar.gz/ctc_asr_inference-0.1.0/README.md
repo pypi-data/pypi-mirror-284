@@ -1,0 +1,15 @@
+![tests](https://github.com/SELMA-project/ctc-asr-inference/actions/workflows/tests.yml/badge.svg)
+[![pypi](https://img.shields.io/pypi/v/ctc-asr-inference.svg)](https://pypi.python.org/project/ctc-asr-inference)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![bear-ified](https://raw.githubusercontent.com/beartype/beartype-assets/main/badge/bear-ified.svg)](https://beartype.readthedocs.io)
+[![Ruff-ified](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/dertilo/python-linters/blob/master/python_linters/ruff.toml)
+
+# ctc-asr-inference
+- ctc-logits-inferencer:
+  - [huggingface+wav2vec2-based](ctc_asr_inference/ctc_logits_inferencer/hfwav2vec2_logits_inferencer.py)
+  - [nvidia/nemo-based](ctc_asr_inference/ctc_logits_inferencer/nemo_asr_logits_inferencer.py)
+- ctc-decoder:
+  - [hf-greedy](ctc_asr_inference/ctc_decoding/huggingface_ctc_decoding.py)
+  - [pyctc-based](ctc_asr_inference/ctc_decoding/pyctc_decoder.py)
+- chunked-streaming-inference:
+  - [ASR-Chunking-Inference-Gluing-Pipeline](ctc_asr_inference/chunked_inference/asr_chunk_infer_glue_pipeline.py)
