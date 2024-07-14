@@ -1,0 +1,7 @@
+gridengine_framework>=0.9.9
+CharActor>=1.0.5
+CharMonster==0.1.5
+CharObj>=0.2.1
+CharTask>=0.0.6
+dicepy>=0.4
+entyty>=0.0.54
