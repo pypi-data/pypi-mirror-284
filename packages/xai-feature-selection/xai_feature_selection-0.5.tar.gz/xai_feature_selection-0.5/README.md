@@ -1,0 +1,82 @@
+**Advanced feature selection using explainable Artificial Intelligence (XAI)** 
+**Developed by Yaganteeswarudu Akkem , Data scientist , Ph.D. Scholar , NIT Silchar**
+
+**Introduction**
+<div style="text-align: justify"> 
+In the rapidly evolving field of machine learning, the complexity of models is ever-increasing, necessitating sophisticated feature selection techniques to enhance predictive performance and shed light on the decision-making processes. This study presents an innovative architecture that synergizes the global explanation capabilities of SHAP (SHapley Additive exPlanations) with the local interpretability provided by LIME (Local Interpretable Model-agnostic Explanations) to advance the feature selection process. 
+</div>
+<div style="text-align: justify"> 
+Our proposed methodology harnesses the strengths of both SHAP and LIME, systematically identifying features that wield consistent influence across the entire dataset as well as those vital to individual predictions. By normalizing SHAP values to derive feature weights and integrating these with LIME scores, we formulate a maximum interpretation score for each feature. This hybrid framework offers a refined and nuanced approach to feature selection, adeptly balancing the pursuit of model simplicity with the demands for high predictive accuracy and interpretability. The architecture not only promises substantial enhancements in computational efficiency and model performance but also holds significant promise for applications where model transparency and decision-making understanding are critical.
+</div>
+**Examples of How To Use Feature selection**
+Install package by using below syntax 
+pip install xai-feature-selection==0.4
+
+
+Consume package by using below syntax 
+from xai_feature_selection.feature_selection import FeatureSelect
+from xai_feature_selection.model_prediction import Model
+
+
+Currently xai_feature_selection built to work for classification and regression problems 
+
+Use below algorithms to test regession  
+ 1. LinearRegression
+ 2. RandomForestRegressor
+Use below algorithm for  classification 
+ 1. LogisticRegression
+
+Below is the syntax to retrieve best features after calculating feature importance 
+
+file_path: location of csv file in your system 
+
+predict_columns : in classification or regression , column which is going to be predicted 
+
+model_type_choice  : 
+
+```
+0 - Regression  ,  1 - Classification
+
+```
+model_choice  :
+
+```
+               For regression 
+               0 - LinearRegression
+               1 - RandomForestRegressor
+               for classification 
+               0 - LogisticRegression
+
+```
+
+Once all parameters choosen , simply use below syntax to call Model , to calculate LIME and SHAP values and finally Feature select method will return important features
+
+```
+                if predict_columns and file_path:
+                    model = Model(
+                        model_type=model_type_choice,
+                        model_choice=model_choice,
+                        data_file_path=file_path,
+                        predict_columns=predict_columns,
+                    )
+                    model.train()
+                    lime_data, shap_data = model.explain()
+                    feature_handler = FeatureSelect(
+                        shap_data=shap_data, lime_data=lime_data
+                    )
+                    feature_handler.prepare_weights()
+                    feature_handler.calculate_feature_values()
+                    feature_handler.get_best_feature_data()
+                    print(feature_handler.get_best_feature_data())
+
+```
+
+### Note : 
+Its very important if you pass more appropriate pre-processed data ( without null values , outliers and so on ) , you will expect more better features from algorithm 
+
+
+
+
+
+
+
