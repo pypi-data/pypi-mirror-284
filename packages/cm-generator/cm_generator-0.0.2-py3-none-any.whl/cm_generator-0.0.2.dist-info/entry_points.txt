@@ -1,0 +1,3 @@
+[console_scripts]
+cmgen=cm_generator.cli:cli
+

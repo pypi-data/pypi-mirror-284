@@ -1,0 +1,9 @@
+cm_generator/__init__.py,sha256=OUBN_mAaQk1wbv1SsNmZswTn8e55bgz6S5H5pyzCdQ4,50
+cm_generator/cli.py,sha256=3izw5NcF24F8n020x30EyhcIGnlfsM11f8NX5ky9WF0,5174
+cm_generator/generator.py,sha256=cH80oTSiKvM674feHN1AxCHk-c6CuXrol7sloucjEgo,7213
+cm_generator/handler.py,sha256=rua0u9vNMQqi-FI1YDmB4aeCq0J_CakXd_l8sskVS6E,8386
+cm_generator-0.0.2.dist-info/entry_points.txt,sha256=0HWYjXfdF5zP4gBtS0J7x5Lu9TD3cOubbz_--VJl0Y8,46
+cm_generator-0.0.2.dist-info/LICENSE,sha256=Nv6u1ubULm-E2y6q2-pQPK8s2BzkOltLaVlPKQ3tkcs,35182
+cm_generator-0.0.2.dist-info/METADATA,sha256=Wg3X2hbprANz-9arMGLYogNpUPfoLEGyk3FqSckdTKs,2856
+cm_generator-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cm_generator-0.0.2.dist-info/RECORD,,
