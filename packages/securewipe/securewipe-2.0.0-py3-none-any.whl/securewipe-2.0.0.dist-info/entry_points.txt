@@ -1,0 +1,2 @@
+[console_scripts]
+securewipe = securewipe.cli:main
