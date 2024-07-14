@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/setuptools-scm-custom.iml
+.idea/vcs.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+src/setuptools_scm_custom/__init__.py
+src/setuptools_scm_custom.egg-info/PKG-INFO
+src/setuptools_scm_custom.egg-info/SOURCES.txt
+src/setuptools_scm_custom.egg-info/dependency_links.txt
+src/setuptools_scm_custom.egg-info/requires.txt
+src/setuptools_scm_custom.egg-info/top_level.txt
