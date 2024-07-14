@@ -1,0 +1,11 @@
+rich
+openai
+mistralai
+python-dotenv
+aiohttp
+anthropic
+groq
+lark
+databases
+aioconsole
+knowledge_engineer
