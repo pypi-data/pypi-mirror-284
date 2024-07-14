@@ -1,0 +1,11 @@
+tf/records/__init__.py,sha256=XgssJm6pI2mc0DKoW6SXlAJ46uaDg2B0UnR7we2Jy4w,153
+tf/records/__init__.pyi,sha256=JtMdpLf67cpX5ipw70qWO2av4AaGglTGx_CPBSNXMhU,419
+tf/records/dataset.py,sha256=4wjvSg0tBepvRl2LlmoSY94JevR348kAu_8d0Fne8Zg,3387
+tf/records/examples.py,sha256=PzEulCR_zwaqGu8hjX7KleS6-n4fUwjAcbtGBRl2a_o,2727
+tf/records/io.py,sha256=-Z0mjrO_oWYcY5mP_8Vyxzupv8GAoekTrbhBM_f3NEQ,1609
+tf/records/meta.py,sha256=1ZvKOTT6prYzxh5BLVWvgG7SzknZi4M1ItKwLOW4Cw4,560
+tf/records/sharding.py,sha256=UYdFl_o8SD9lV3k8sIHJdHrZi9XfKk-FmEQ-rF4-McM,525
+tensorflow_records-0.1.11.dist-info/METADATA,sha256=3x_SDOf42BfSJePdaQMFpriyzLHQBFKM90TAiK8ktGA,1188
+tensorflow_records-0.1.11.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+tensorflow_records-0.1.11.dist-info/top_level.txt,sha256=EPXLV1KzWPAb0jt752aiQBLx1vUBJSt_Pp3aO-sqKmI,3
+tensorflow_records-0.1.11.dist-info/RECORD,,
