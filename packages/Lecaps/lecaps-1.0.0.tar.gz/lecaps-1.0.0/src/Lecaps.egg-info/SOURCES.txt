@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+src/Lecaps.egg-info/PKG-INFO
+src/Lecaps.egg-info/SOURCES.txt
+src/Lecaps.egg-info/dependency_links.txt
+src/Lecaps.egg-info/top_level.txt
+src/lecaps/__init__.py
