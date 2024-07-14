@@ -1,0 +1,11 @@
+mmpycorex/__init__.py,sha256=h4umhZILzluZKrYhQYpHD1BrpDC86eL4VL3hemWOgNE,385
+mmpycorex/_version.py,sha256=zZWvFWgzzOtEmbCHMdx4tW6uPlzN99rY9OQvN4j6VLs,72
+mmpycorex/core.py,sha256=AtEJlpWwaYLB1iEvD65zXzsmps5vHPUuS6kdj2TUZLc,3749
+mmpycorex/headless.py,sha256=Cxu8wiq1JZ2eUJA0QMn2EezhG0FaCv0gOqzTbMKXDv4,8791
+mmpycorex/install.py,sha256=KVVwnHU_3VZVyst7rfLyyQvBIZ8rX7WngUtB5b_BD9Y,4613
+mmpycorex/main.py,sha256=6-umQSXvOBBiTZKfam6L7ZbXjGc43G-OAjILDlJjXE4,210
+mmpycorex/test.py,sha256=7NfKFnNWzuK_NKaxQ2k2J9ML-ZpLqCSkCPOqi81n1k8,149
+mmpycorex-0.1.6.dist-info/LICENSE,sha256=2FCl6KCrd1amDWN1z_cIBWQl01-NdwzXf3ME2syP3co,1521
+mmpycorex-0.1.6.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+mmpycorex-0.1.6.dist-info/METADATA,sha256=sYoI7NOR24bclvmdNUrGQClmKaQ-VGaA2305vd1yjzk,969
+mmpycorex-0.1.6.dist-info/RECORD,,
