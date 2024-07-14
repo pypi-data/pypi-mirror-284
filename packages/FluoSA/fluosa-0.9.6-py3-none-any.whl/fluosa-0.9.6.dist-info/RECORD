@@ -1,0 +1,14 @@
+FluoSA/COPYRIGHT.txt,sha256=p7pwIlPs4yYDnGbQMlgHmKEzBFLdKBUa6Gw0qwPKIqE,214
+FluoSA/NOTICE.txt,sha256=Mrw4CwTsI_NhmUu9UZjixAsDCqTXwDL2KDhpnP3UJ98,131
+FluoSA/__init__.py,sha256=oKji0ainVNgxsK-Ym_JOXaaBvDtnqYXWIf9bNl-WwQw,883
+FluoSA/__main__.py,sha256=HQvXPck_7Xa9YxW4e7N0s20cvRuqH3ijAHItBDgVEj8,1506
+FluoSA/analyzer.py,sha256=eU6osm3yBpAQqczYF7Ywu43xWJYw8L8mzHOURqGVVQ4,19350
+FluoSA/detector.py,sha256=pgFy4EIzakC1oZA-CQABcRN0MToNGoq9byvZm0rl4DU,5835
+FluoSA/detectors/__init__.py,sha256=Ij8IYGTlpJ4_4a0YRRZMFXaJ9X4DQigi7Tmy7COCuk8,860
+FluoSA/gui.py,sha256=uJWSd2_OC1pwQPH-MOlBgVLdFDH0MBuWJPGu-mqvF3M,39807
+fluosa-0.9.6.dist-info/METADATA,sha256=jbfmb1UbJGdMiJkHmffQNTqKp7fpP6vz8eK4w72jrqg,2371
+fluosa-0.9.6.dist-info/WHEEL,sha256=mbxFTmdEUhG7evcdMkR3aBt9SWcoFBJ4CDwnfguNegA,90
+fluosa-0.9.6.dist-info/entry_points.txt,sha256=Sy8e8HP1eqSu0nxaios2tzJJEviNmrH_YSaA_zrXse8,49
+fluosa-0.9.6.dist-info/licenses/LICENSE.txt,sha256=7A4mcOGtHKpxVSzDe6LkhTBOFIzPF7TQTmhH9ptYiII,31919
+fluosa-0.9.6.dist-info/licenses/NOTICE.txt,sha256=Mrw4CwTsI_NhmUu9UZjixAsDCqTXwDL2KDhpnP3UJ98,131
+fluosa-0.9.6.dist-info/RECORD,,
