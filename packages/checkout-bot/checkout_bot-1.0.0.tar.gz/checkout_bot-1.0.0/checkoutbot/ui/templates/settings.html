@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Settings{% endblock %}
+
+{% block content %}
+    <h2>Settings</h2>
+    <form method="post" action="{{ url_for('settings') }}">
+        <label for="enable-proxy">Enable Proxy:</label>
+        <input type="checkbox" id="enable-proxy" name="enable-proxy" {% if settings.enable_proxy %}checked{% endif %}><br><br>
+
+        <label for="proxies">Proxies (one per line):</label><br>
+        <textarea id="proxies" name="proxies" rows="4" cols="50">{{ settings.proxies|join('\n') }}</textarea><br><br>
+
+        <label for="ai-simulation">Enable AI Simulation:</label>
+        <input type="checkbox" id="ai-simulation" name="ai-simulation" {% if settings.enable_ai %}checked{% endif %}><br><br>
+        
+        <button type="submit">Next</button>
+    </form>
+    <form method="get" action="{{ url_for('index') }}">
+        <button type="submit" class="back-button">Back</button>
+    </form>
+{% endblock %}

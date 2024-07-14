@@ -1,0 +1,3 @@
+include checkoutbot/ui/templates/*.html
+include checkoutbot/ui/static/css/*.css
+include checkoutbot/ui/static/js/*.js

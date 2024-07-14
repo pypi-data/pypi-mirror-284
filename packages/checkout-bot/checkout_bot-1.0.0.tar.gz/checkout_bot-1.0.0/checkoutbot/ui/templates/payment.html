@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Payment{% endblock %}
+
+{% block content %}
+    <h2>Payment</h2>
+    <form id="payment-form" method="post" action="{{ url_for('payment') }}">
+        <label for="payment-method">Payment Method:</label>
+        <select id="payment-method" name="payment-method" required>
+            <option value="credit-card" {% if payment_settings.payment_method == 'credit-card' %}selected{% endif %}>Credit/Debit Card</option>
+            <option value="paypal" {% if payment_settings.payment_method == 'paypal' %}selected{% endif %}>PayPal</option>
+        </select><br><br>
+
+        <div id="credit-card-info" class="payment-info">
+            <label for="card-name">Card Name:</label>
+            <input type="text" id="card-name" name="card-name" value="{{ payment_settings.card_name }}"><br><br>
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" value="{{ payment_settings.card_number }}"><br><br>
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="text" id="expiry-date" name="expiry-date" value="{{ payment_settings.expiry_date }}"><br><br>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" value="{{ payment_settings.cvv }}"><br><br>
+            <label for="billing-address">Billing Address:</label>
+            <input type="text" id="billing-address" name="billing-address" value="{{ payment_settings.billing_address }}"><br><br>
+        </div>
+
+        <div id="paypal-info" class="payment-info">
+            <label for="paypal-client-id">PayPal Client ID:</label>
+            <input type="text" id="paypal-client-id" name="paypal-client-id" value="{{ payment_settings.paypal_client_id }}"><br><br>
+            <label for="paypal-client-secret">PayPal Client Secret:</label>
+            <input type="text" id="paypal-client-secret" name="paypal-client-secret" value="{{ payment_settings.paypal_client_secret }}"><br><br>
+        </div>
+        <button type="submit">Next</button>
+    </form>
+    <form method="get" action="{{ url_for('settings') }}">
+        <button type="submit" class="back-button">Back</button>
+    </form>
+{% endblock %}
