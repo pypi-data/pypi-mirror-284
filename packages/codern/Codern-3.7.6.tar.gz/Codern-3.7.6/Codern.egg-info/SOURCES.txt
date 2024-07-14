@@ -1,0 +1,9 @@
+README.md
+setup.py
+Codern/Client.py
+Codern/__init__.py
+Codern.egg-info/PKG-INFO
+Codern.egg-info/SOURCES.txt
+Codern.egg-info/dependency_links.txt
+Codern.egg-info/requires.txt
+Codern.egg-info/top_level.txt
