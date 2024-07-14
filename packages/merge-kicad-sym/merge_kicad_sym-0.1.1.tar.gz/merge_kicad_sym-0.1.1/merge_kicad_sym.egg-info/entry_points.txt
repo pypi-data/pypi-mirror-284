@@ -1,0 +1,2 @@
+[console_scripts]
+merge-kicad-sym = src.main:main
