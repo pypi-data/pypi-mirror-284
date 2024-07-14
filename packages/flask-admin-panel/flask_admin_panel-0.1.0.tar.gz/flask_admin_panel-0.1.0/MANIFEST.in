@@ -1,0 +1,2 @@
+include MANIFEST.in
+recursive-include src/flask_admin_panel/templates *
