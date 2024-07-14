@@ -1,0 +1,108 @@
+# pyproject.toml is a configuration file used by packaging tools,
+# as well as other tools such as linters, type checkers, etc.
+# There are three possible TOML tables in this file.
+# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#writing-pyproject-toml
+
+# Code length
+#----------------------------------------------------------------------------->
+
+# Markup length
+#---------------------------------------------------------------------->
+
+# ######################################################################
+# C|_|          BUILD SYSTEM                           <%%%%|==========>
+# ######################################################################
+
+# The [build-system] table is strongly recommended. It allows you
+# to declare which build backend you use and which other dependencies
+# are needed to build your project.
+[build-system]
+
+#The requires key is a list of packages that are needed to build
+# your package. The frontend should install them automatically when
+# building your package. You can also constrain the versions, e.g.,
+# requires = ["setuptools >= 61.0"].
+# List of dependencies needed to build the project, typically just the
+# build backend package
+requires = ["hatchling"]
+
+# The build-backend key is the name of the Python object that
+# frontends will use to perform the build. Specifies the build backend
+# to be used
+build-backend = "hatchling.build"
+
+
+# ######################################################################
+# C|_|          PROJECT TABLE                          <%%%%|==========>
+# ######################################################################
+
+# The [project] table is the format that most build backends use
+# to specify your project’s basic metadata, such as the dependencies,
+# your name, etc.
+
+# In some cases, it is useful to let your build backend compute the
+# metadata for you. For example: many build backends can read the
+# version from a __version__ attribute in your code, a Git tag, or
+# similar. In such cases, you should mark the field as dynamic using,
+# e.g., dynamic = ["version"]
+
+[project]
+
+# name is the distribution name of your package.
+# Must consists of ASCII letters, digits,
+# underscores “_”, hyphens “-” and periods “.”.
+# Comparison of project names is case insensitive and treats arbitrarily
+# long runs of underscores, hyphens, and/or periods as equal. For example
+# , if you register a project named cool-stuff, users will be able to
+# download it or declare a dependency on it using any of the following
+# spellings: Cool-Stuff, cool.stuff, COOL_STUFF, CoOl__-.-__sTuFF.
+name = "ahpri"
+
+# version is the package version. (Some build backends allow it to be
+# specified another way, such as from a file or Git tag.)
+# https://packaging.python.org/en/latest/specifications/version-specifiers/#version-specifiers
+# https://peps.python.org/pep-0440/
+version = "2024.0.1"
+#dependencies = [
+#    "pandas",
+#]
+
+#requires-python gives the versions of Python supported by your project.
+# An installer like pip will look back through older versions of packages
+# until it finds one that has a matching Python version.
+requires-python = ">=3.10"
+
+# authors is used to identify the author of the package; you specify a
+# name and an email for each author. You can also list maintainers in
+# the same format.
+authors = [
+    { name="Andreas Schulz", email="andreas.schulz@smexibel.de" },
+]
+
+# description is a short, one-sentence summary of the package.
+description = "Calculate AHP Random Index from dataset"
+
+# readme is a path to a file containing a detailed description
+# of the package. This is shown on the package detail page on PyPI.
+# In this case, the description is loaded from README.md
+# (which is a common pattern). There also is a more advanced table form
+# described in the pyproject.toml guide.
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords=['python', 'ahpri']
+
+# classifiers gives the index and pip some additional metadata about your
+# package. In this case, the package is only compatible with Python 3, is
+# licensed under the MIT license, and is OS-independent. You should always
+# include at least which version(s) of Python your package works on, which
+# license your package is available under, and which operating systems your
+# package will work on. For a complete list of classifiers,
+# see https://pypi.org/classifiers/.
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
