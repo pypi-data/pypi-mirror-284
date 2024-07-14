@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+CDTest/__init__.py
+CDTest/codes.py
+CDTest.egg-info/PKG-INFO
+CDTest.egg-info/SOURCES.txt
+CDTest.egg-info/dependency_links.txt
+CDTest.egg-info/top_level.txt
