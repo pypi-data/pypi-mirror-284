@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: python-hatch-template-win
+Version: 0.0.1
+Summary: hatch template win
+Project-URL: Documentation, https://github.com/0num4/python-hatch-template-win#readme
+Project-URL: Issues, https://github.com/0num4/python-hatch-template-win/issues
+Project-URL: Source, https://github.com/0num4/python-hatch-template-win
+Author-email: 0num4 <r.oonuma@matsuri-tech.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# python-hatch-template-win
+
+[![PyPI - Version](https://img.shields.io/pypi/v/python-hatch-template-win.svg)](https://pypi.org/project/python-hatch-template-win)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/python-hatch-template-win.svg)](https://pypi.org/project/python-hatch-template-win)
+
+---
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install python-hatch-template-win
+```
+
+## License
+
+`python-hatch-template-win` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
+## hatch-template
+
+hatch new に型チェックなどを入れたもの。
+
+```
+
+```
