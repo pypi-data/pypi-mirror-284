@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pypercorn
+Version: 1.3.2
+Summary: This is a wrapper for HyperCornAPI, developed by HyperCorn. It serves as a foundational API designed for seamless integration with HyperCorn, an advanced application specializing in crop classification.
+Author: Ratabart666
+Author-email: hypercorncordoba@gmail.com
+Keywords: IMAGES,SPECTRUMS,CROPS,SENTINEL
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
