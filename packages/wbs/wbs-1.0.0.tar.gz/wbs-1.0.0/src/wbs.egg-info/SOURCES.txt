@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/wbs/__init__.py
+src/wbs/coding_scheme.py
+src/wbs/element.py
+src/wbs/node.py
+src/wbs.egg-info/PKG-INFO
+src/wbs.egg-info/SOURCES.txt
+src/wbs.egg-info/dependency_links.txt
+src/wbs.egg-info/top_level.txt
+tests/test_wbs.py

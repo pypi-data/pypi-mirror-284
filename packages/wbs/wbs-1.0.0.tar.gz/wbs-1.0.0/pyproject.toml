@@ -1,0 +1,21 @@
+[project]
+name = "wbs"
+version = "1.0.0"
+authors = [
+  { name="Damien Bezborodov", email="dbezborodov@gmail.com" },
+]
+description = "Work breakdown structures."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+keywords = ["wbs"]
+
+[project.urls]
+"Homepage" = "https://github.com/bezborodow/wbs"
+"Bug Tracker" = "https://github.com/bezborodow/wbs/issues"
+"Documentation" = "https://wbs.readthedocs.io/en/latest/"
