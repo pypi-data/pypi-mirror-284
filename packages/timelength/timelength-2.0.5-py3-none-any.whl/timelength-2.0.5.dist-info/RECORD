@@ -1,0 +1,14 @@
+timelength/__init__.py,sha256=r_9-nJKkgxeUxSIf3WGhtW1uRXaAKJuyl-WNpExfNGU,176
+timelength/dataclasses.py,sha256=BrvNAI6clCrxLXRVZFnWsXY14oNrkbqnR_JQp5zCLtA,2310
+timelength/enums.py,sha256=wDCBdTStwsTcuyk8DUgl-H2d4iz-l9GdHy8wljwtmdI,1631
+timelength/errors.py,sha256=-QxrVwvFW1n0DQCsIkKEefFaNAxOxkbJbOruGqjnj9s,406
+timelength/locales/english.json,sha256=Oho0JccT-lFwm-dOu9jnPWNPd7xRYowxs1SiUwZ5imE,9683
+timelength/locales/spanish.json,sha256=3a_UxHHuEeFSEc2Y3NvDXcJnB5a27k2S2SKrzuZkSPU,14082
+timelength/locales.py,sha256=QTf6c1hAv-4Atd7LrfVBeLbW9C6EwpMeSj8LsFa-NkI,8604
+timelength/parsers/parser_one.py,sha256=WPCZBoly53mNVphAuLdJKq7OV727ofM20ZcV6_kbSTM,22849
+timelength/timelength.py,sha256=95qwTiHtMVSwH9qmqSP1AD3V391Rh2HrhIZBlOhRFmo,8639
+timelength/utils.py,sha256=YWwwdJHnvpT1FewFZCPm04sT9Y9F4nj2DTZjO8fM4h4,1296
+timelength-2.0.5.dist-info/LICENSE,sha256=sprw7021lOg-lj0Q47IIIRKf3o8XTdexjzeMN6imHMk,1082
+timelength-2.0.5.dist-info/METADATA,sha256=HYi7rAjMWNeBHLOLDvYZ1F-C_TbjVfmL4Wxl6-Bt8Fw,6235
+timelength-2.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+timelength-2.0.5.dist-info/RECORD,,
