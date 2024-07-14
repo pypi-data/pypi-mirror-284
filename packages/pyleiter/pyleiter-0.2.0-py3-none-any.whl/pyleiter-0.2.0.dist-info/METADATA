@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyleiter
+Version: 0.2.0
+Summary: Simple task manager
+Author: Paolo Rechia
+Author-email: paolorechia@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# Pyleiter
