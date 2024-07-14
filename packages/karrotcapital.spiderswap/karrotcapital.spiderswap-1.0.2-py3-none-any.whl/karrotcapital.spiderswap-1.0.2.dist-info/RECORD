@@ -1,0 +1,13 @@
+karrotcapital/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+karrotcapital/spiderswap/__init__.py,sha256=uECbPxbRVUGYut8wWrdJ1w6TaIU7bWr3u6WDidP2ErM,354
+karrotcapital/spiderswap/quote.py,sha256=l8zrg6LugCS9VpJUmNlAxaFwba-uVkdSgZ0mcEzXmBA,3182
+karrotcapital/spiderswap/swap.py,sha256=ZrtBz2Hqh3tL7NSLaTMZlGaMl9DNX1hfUOyzOoIN2wY,5358
+karrotcapital/spiderswap/tests/__init__.py,sha256=OWz0Ua3ofMcvkBc9REOLWwUyCh7tL1XeAPZisU6wD2E,19
+karrotcapital/spiderswap/tests/conftest.py,sha256=7C9WGnSuR1rBM-tRayeksZYuXOiHawjl7x82l1SZWn8,152
+karrotcapital/spiderswap/tests/test_quote.py,sha256=IyLyBvjLnJrbbXXxN4U-WJUz3jTEBgln_iExnTLxoZA,4424
+karrotcapital/spiderswap/tests/test_swap.py,sha256=XUXyfRCL9RKyi1ppEbnflaq6yWOTZZNxHReeC-g8dRQ,8225
+karrotcapital.spiderswap-1.0.2.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+karrotcapital.spiderswap-1.0.2.dist-info/METADATA,sha256=LmbU0lf8fINEnj_TcZeSInPcAM24A1GVysOq4RAIZSM,1785
+karrotcapital.spiderswap-1.0.2.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+karrotcapital.spiderswap-1.0.2.dist-info/top_level.txt,sha256=upTFZeAcGrgvNjhQ1P-F8siWVEdcV2i8nttMbf9YjzQ,14
+karrotcapital.spiderswap-1.0.2.dist-info/RECORD,,
