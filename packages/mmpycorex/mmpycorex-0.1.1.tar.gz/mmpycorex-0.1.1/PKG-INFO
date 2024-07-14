@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mmpycorex
+Version: 0.1.1
+Summary: mmpycorex package
+Author-email: Henry Pinkard <henry.pinkard.open.source@gmail.com>
+Classifier: License :: OSI Approved :: BSD License
+Project-URL: Home, https://github.com/micro-manager/mmpycorex
