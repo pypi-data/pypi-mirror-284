@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+cramhacks.egg-info/PKG-INFO
+cramhacks.egg-info/SOURCES.txt
+cramhacks.egg-info/dependency_links.txt
+cramhacks.egg-info/top_level.txt
