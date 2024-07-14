@@ -1,0 +1,3 @@
+[console_scripts]
+z3-armor=z3_armor.cli:entrypoint
+
