@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gleb_pattern/__init__.py
+gleb_pattern/gleb.py
+gleb_pattern.egg-info/PKG-INFO
+gleb_pattern.egg-info/SOURCES.txt
+gleb_pattern.egg-info/dependency_links.txt
+gleb_pattern.egg-info/not-zip-safe
+gleb_pattern.egg-info/top_level.txt

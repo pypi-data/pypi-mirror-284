@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gleb-pattern
+Version: 0.1
+Summary: Comic library for a friend
+Author-email: nn@elros.ru
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Little comic library for a friend
+
+`pip install gleb-pattern` 
+
+```python
+from gleb_pattern import GlebWithCoffee, GlebWithoutCoffee
+
+gleb_today = GlebWithoutCoffee()
+gleb_tomorrow = GlebWithCoffee()
+
+gleb_today.hate()
+gleb_tomorrow.hate()
+```
