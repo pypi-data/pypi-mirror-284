@@ -1,0 +1,11 @@
+[console_scripts]
+alignment_trimmer = dl4phylo.scripts.alignment_trimmer:main
+evaluate = dl4phylo.scripts.evaluate:main
+make_tensors = dl4phylo.scripts.make_tensors:main
+predict = dl4phylo.scripts.predict:main
+predict_true_trees = dl4phylo.scripts.predict_true_trees:main
+simulate_dataset_SeqGen = dl4phylo.scripts.simulate_dataset_SeqGen:main
+simulate_dataset_SimBac = dl4phylo.scripts.simulate_dataset_SimBac:main
+simulate_typing_data = dl4phylo.scripts.simulate_typing_data:main
+train_tensorboard = dl4phylo.scripts.train_tensorboard:main
+train_wandb = dl4phylo.scripts.train_wandb:main
