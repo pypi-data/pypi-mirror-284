@@ -1,0 +1,113 @@
+# `sophi-app-internal` Python Package
+
+## Overview
+sophi-app-internal is a Python package designed to facilitate secure and authenticated HTTP request handling, particularly in environments where JWT (JSON Web Token) authentication is used. The package includes utilities for validating JWTs, fetching public keys, and constructing HTTP request objects with robust header and parameter management.
+
+## Features
+JWT validation and verification using Auth0.
+Secure fetching of JSON Web Key Sets (JWKS).
+Construction and management of HTTP request objects with headers, parameters, and body handling.
+Installation
+To install the sophi-app-internal package, use the following command:
+
+```bash
+pip install sophi-app-internal
+```
+
+## Usage
+Setting Up Environment Variables
+Before using the package, ensure you have set up the necessary environment variables:
+
+AUTH0_DOMAIN: Your Auth0 domain.
+AUDIENCE: Your audience identifier.
+You can set these variables in your environment:
+
+```bash
+export AUTH0_DOMAIN="your-auth0-domain"
+export AUDIENCE="your-audience"
+```
+### Example Code
+Validating JWTs
+Here's an example of how to validate a JWT using the auth_validator function.
+
+```python
+from sophi_app_internal import main
+from sophi_app_internal._http import HttpRequest
+```
+
+## Create an example HttpRequest object
+headers = {
+    'Authorization': 'Bearer your_jwt_token_here'
+}
+request = HttpRequest(
+    method='GET',
+    url='https://example.com/api',
+    headers=headers,
+    body=b''
+)
+
+## Validate the JWT
+try:
+    claims = main.auth_validator(request)
+    print("Token is valid. Claims:", claims)
+except Exception as e:
+    print("Authentication failed:", str(e))
+Constructing an HttpRequest
+You can create an HttpRequest object to represent an HTTP request with headers, parameters, and a body.
+
+```python
+from sophi_app_internal._http import HttpRequest
+```
+
+## Create a new HttpRequest object
+
+```python
+request = HttpRequest(
+    method='POST',
+    url='https://example.com/api/resource',
+    headers={
+        'Content-Type': 'application/json'
+    },
+    params={
+        'query': 'value'
+    },
+    body=b'{"key": "value"}'
+)
+
+# Access request attributes
+print("URL:", request.url)
+print("Method:", request.method)
+print("Headers:", request.headers)
+print("Params:", request.params)
+print("Body as JSON:", request.get_json())
+```
+Project Structure
+The sophi-app-internal project has the following structure:
+
+
+sophi_app_internal/
+│
+├── sophi_app_internal/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── _http.py
+├── setup.py
+├── README.md
+├── LICENSE
+└── requirements.txt
+## Contributing
+Contributions are welcome! Please follow these steps to contribute to the project:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a new Pull Request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+For any inquiries or issues, please contact your.name@example.com.
+
+By following the above guidelines, you should be able to effectively use and contribute to the sophi-app-internal Python package. Enjoy building secure and robust applications!
