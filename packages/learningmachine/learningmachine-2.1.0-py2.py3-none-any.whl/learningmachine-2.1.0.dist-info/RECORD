@@ -1,0 +1,10 @@
+learningmachine/__init__.py,sha256=rFWh3ToZt2j5KwtKjeC9eGlk-YI-QfGBs4Ot19-cOsc,256
+learningmachine/base.py,sha256=xXSpaR-AL6Emax0tEkAcJSiot8InJzKC0JJp4AbXf_Y,10949
+learningmachine/classifier.py,sha256=x8BpVNFTO5ZzqvIoO9UfOz8fRxK6DsvpBU6dGQUeriA,4779
+learningmachine/regression.py,sha256=60jQiFbi0zy_S7k0eY59UVWwb6qPofgLlXfAoY8msZU,3668
+learningmachine/utils.py,sha256=aD2SInKmJtf_54wKnzeM9mKsstVWS5BWkcMGxXHstIM,7004
+learningmachine-2.1.0.dist-info/LICENSE,sha256=0M75bfQ3jR1Q1PKVwJdHHMXFK3iiSKGMrOGmBIV7Kms,1690
+learningmachine-2.1.0.dist-info/METADATA,sha256=6cG_tWthSCLEbBVD9SrMW9zAP6xefl6mwfDIOSmQnz0,940
+learningmachine-2.1.0.dist-info/WHEEL,sha256=pWvVuNuBTVmNV7Lp2jMAgt1NplTICeFdl1SW8U3MWN4,109
+learningmachine-2.1.0.dist-info/top_level.txt,sha256=CBp1D7tBEVWpNIXFWmJ9Y0LhPRN3S8HS3sdVMOKrRU8,16
+learningmachine-2.1.0.dist-info/RECORD,,
