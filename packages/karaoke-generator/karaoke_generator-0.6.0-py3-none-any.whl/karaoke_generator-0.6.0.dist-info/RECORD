@@ -1,0 +1,8 @@
+karaoke_generator/__init__.py,sha256=bs_M4L5nvMvwW31lyS0RoPO7dPRT4DZtvvajazNkhwE,40
+karaoke_generator/generator.py,sha256=Cpw5EyfAe5wxN6_xKdkB0psFkZacDvnyG2RdblYbwNw,16209
+karaoke_generator/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+karaoke_generator/utils/cli.py,sha256=2mrlN-KTZiYzAVpTyNdIyKwpJ4jvP6uQ7piCxXukKFM,3476
+karaoke_generator-0.6.0.dist-info/METADATA,sha256=aJV9wBitkCUxI74QoLvdpEmk0J24eSLtndu1TTFauj4,3497
+karaoke_generator-0.6.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+karaoke_generator-0.6.0.dist-info/entry_points.txt,sha256=6D3-3Iv01xG-J5-CDS9aNRTOAdeMbz_-oiI50rDmuso,70
+karaoke_generator-0.6.0.dist-info/RECORD,,
