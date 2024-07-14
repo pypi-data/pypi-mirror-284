@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+forensic_doctor/__init__.py
+forensic_doctor/forensic_doctor.py
+forensic_doctor.egg-info/PKG-INFO
+forensic_doctor.egg-info/SOURCES.txt
+forensic_doctor.egg-info/dependency_links.txt
+forensic_doctor.egg-info/entry_points.txt
+forensic_doctor.egg-info/requires.txt
+forensic_doctor.egg-info/top_level.txt
