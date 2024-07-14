@@ -1,0 +1,11 @@
+essentialkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+essentialkit/file_operations.py,sha256=gypkNySUCYdfeje4d0eV4PIaHzduCQYuqQKaQWQ1RE4,3089
+essentialkit/string_operations.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_file_operations.py,sha256=tZm7ZOb7jX1SNJyMqel_e3BTUy6FejQXhuOWuT6Pskw,5630
+tests/test_string_operations.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+essentialkit-0.0.3.dist-info/LICENSE,sha256=CzYzh2SJZnMlMVVqilZCYD3F9Jet06d88yRM-zrC_MU,11314
+essentialkit-0.0.3.dist-info/METADATA,sha256=mQKqxMhsYnGT6c-Yc4Y4wppG_W7vdqUj8u61z9W_OaQ,1903
+essentialkit-0.0.3.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+essentialkit-0.0.3.dist-info/top_level.txt,sha256=TyeQJgCxAIUcCa0Z2iwA8zn2Vec8OJgsfHmJMKgY2vI,19
+essentialkit-0.0.3.dist-info/RECORD,,
