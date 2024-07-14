@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sql4
+Version: 1.0.0
+Summary: sql4
+Home-page: https://github.com/mahendrayerramsetti
+Author: Mahendra Sai Phaneeswar
+Author-email: mhendrayerramsetti@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+sql4
