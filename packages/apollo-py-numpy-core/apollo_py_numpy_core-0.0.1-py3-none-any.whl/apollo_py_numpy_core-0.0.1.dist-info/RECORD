@@ -1,0 +1,16 @@
+apollo_py_numpy_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apollo_py_numpy_core/spatial/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apollo_py_numpy_core/spatial/isometries.py,sha256=wUevOk3cudp1rlMfbgjV9c7nJ0qBNDDwhckhdv7k4_Y,2089
+apollo_py_numpy_core/spatial/lie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apollo_py_numpy_core/spatial/lie/h1.py,sha256=-9-0l1Ixv9ugepkZz11CPRmOOaHtD5OKwlTbI1TJnks,2090
+apollo_py_numpy_core/spatial/lie/se3_implicit.py,sha256=PrpIRiFLz9CC0CrAW1KFvpGtDcHsxgZiwZwIR3R4bX4,2971
+apollo_py_numpy_core/spatial/lie/se3_implicit_quaternion.py,sha256=V__69IFbv6XHsxGv6PabRUxz60JMXgdKZQEX_ak5rxQ,3096
+apollo_py_numpy_core/spatial/lie/so3.py,sha256=Xa9T6Rnb_gshMupNRt6di_1LoeFeC3JOkBxmfN-cAdU,2984
+apollo_py_numpy_core/spatial/matrices.py,sha256=mJUlCDDTbFAXeoUz4iSxBOJfCdR0eLID036eALUDVUk,500
+apollo_py_numpy_core/spatial/quaternions.py,sha256=XRVaNg7yu1S5nSIF57Ix4le2J69UWa9cUEw8wNnNzW0,4325
+apollo_py_numpy_core/spatial/rotation_matrices.py,sha256=27ahH7jgy9SiYkmI1CFXDDzgFRD-woWvSf37ejtg1aA,3791
+apollo_py_numpy_core/spatial/vectors.py,sha256=dJaJK4V_R1S5d4MO488SD0Veg0Bltf38Re_IJwI8mB4,1223
+apollo_py_numpy_core-0.0.1.dist-info/LICENSE,sha256=NNtPO8f5f1ekDTss5PZuSUhOf9HwGS6duxTld8jzE-U,1072
+apollo_py_numpy_core-0.0.1.dist-info/METADATA,sha256=xqVz7ctq_2XcIxi_JuvHdLRVYUGupzKYVs9KR6E7de0,614
+apollo_py_numpy_core-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+apollo_py_numpy_core-0.0.1.dist-info/RECORD,,
