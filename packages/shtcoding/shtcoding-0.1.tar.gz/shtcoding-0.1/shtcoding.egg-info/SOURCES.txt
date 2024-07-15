@@ -1,0 +1,8 @@
+setup.py
+shtcoding/__init__.py
+shtcoding/shtcoding.py
+shtcoding.egg-info/PKG-INFO
+shtcoding.egg-info/SOURCES.txt
+shtcoding.egg-info/dependency_links.txt
+shtcoding.egg-info/requires.txt
+shtcoding.egg-info/top_level.txt
