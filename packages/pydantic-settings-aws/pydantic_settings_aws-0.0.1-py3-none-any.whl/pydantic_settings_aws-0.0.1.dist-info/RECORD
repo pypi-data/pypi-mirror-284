@@ -1,0 +1,12 @@
+pydantic_settings_aws/__init__.py,sha256=6y2OIKI8rFS_l2uXcFT0OsxEGsJUZmb_s3hi0WGdVjc,145
+pydantic_settings_aws/aws.py,sha256=ilP4r9LGCr6ZYUIXc2B6n_fv43Vz_URypU7PpDy2T0Y,3845
+pydantic_settings_aws/logger.py,sha256=ptUt5pDQ16yHfAoUoDBHBqr5EbGYKf2F4C-brPXbBx4,68
+pydantic_settings_aws/models.py,sha256=AQiLFezZLHpPWBAihPm4K99usfyAZ3IKpXSMPv3PeGM,711
+pydantic_settings_aws/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_settings_aws/settings.py,sha256=5ClUtVqFBBp3xH4_T1NwFdW3JaK3ejHaE0YH5-faeNs,754
+pydantic_settings_aws/sources.py,sha256=eTWdfNKgQQw4a5TRd0YY_P-g8pKR3BR9MgPGFTJoez8,1311
+pydantic_settings_aws/version.py,sha256=Q8raD6k02z4DoYniAz3iui5d6EdM1el95SMTLXJbeCA,18
+pydantic_settings_aws-0.0.1.dist-info/METADATA,sha256=9BsGrLR0yzFV1zqcPLYcejow0X5wyq3bgCHoXP7VZy8,1442
+pydantic_settings_aws-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pydantic_settings_aws-0.0.1.dist-info/licenses/LICENSE,sha256=D_ibcDSGp4OoNRAiqzYGMfRt3QSEx9b2nQopDG3fLQ0,1116
+pydantic_settings_aws-0.0.1.dist-info/RECORD,,
