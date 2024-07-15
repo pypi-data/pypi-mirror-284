@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+hypercorn
+starlette
+loguru
+pydantic
+pyhumps
+azure-storage-blob
+motor
+aimmocore-db>=0.1.3
+nest_asyncio
+pillow
+IPython
+aiohttp
+aiofiles
+mongoengine
+psutil
