@@ -1,0 +1,3 @@
+Fire
+Pandas
+Pillow<10.5,>=10.4.0
