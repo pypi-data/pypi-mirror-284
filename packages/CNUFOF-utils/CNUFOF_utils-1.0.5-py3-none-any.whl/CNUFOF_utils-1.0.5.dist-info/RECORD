@@ -1,0 +1,9 @@
+functions/FOF.py,sha256=h6Y298yrnyg7ZoqazX1T9OZBN3N3PEFa-6pddC3sPis,4358
+functions/Group_Summary.py,sha256=EWPB2HxXiwj0VLhVviD4XNSyG4WKNRfm5y928AekD9Q,1478
+functions/__init__.py,sha256=6jslyv8QqffadhCU01lQcpxJ_eBvMMEvOk5-H36jsEc,232
+functions/region_merging.py,sha256=kx8pKcFja38ikR3xy2qm4CX8m_xYILGWQx1gWjbBupI,2274
+functions/save_field.py,sha256=qbWwqnZ8IJKMYRXPRqv8dL8xHnLerPvOdpEVR5vEyXA,2906
+CNUFOF_utils-1.0.5.dist-info/METADATA,sha256=O8fRTSuXoyUWAnQyKQE8ZBUs0u1F9sQJ2qIJ4_TQ7yU,1996
+CNUFOF_utils-1.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+CNUFOF_utils-1.0.5.dist-info/top_level.txt,sha256=qnt_HRG1Rfu6s5vMawiXaXA6ZJsnpyoDjI_Orz2YNHo,10
+CNUFOF_utils-1.0.5.dist-info/RECORD,,
