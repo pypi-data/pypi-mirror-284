@@ -1,0 +1,2 @@
+[console_scripts]
+sqlite2csv = sqlite_to_csv:main
