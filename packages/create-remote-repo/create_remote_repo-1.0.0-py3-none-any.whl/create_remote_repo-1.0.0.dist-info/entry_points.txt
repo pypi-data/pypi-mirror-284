@@ -1,0 +1,2 @@
+[console_scripts]
+create-remote-repo = create_remote_repo_and_push.create_remote_repo_and_push:main
