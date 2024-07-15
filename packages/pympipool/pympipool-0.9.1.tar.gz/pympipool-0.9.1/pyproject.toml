@@ -1,0 +1,37 @@
+[build-system]
+requires = ["executorlib"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pympipool"
+description = "Scale serial and MPI-parallel python functions over hundreds of compute nodes all from within a jupyter notebook or serial python process."
+authors = [
+    { name = "Jan Janssen", email = "janssen@lanl.gov" },
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["pyiron"]
+requires-python = ">=3.9, <3.13"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Scientific/Engineering :: Physics",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "executorlib",
+]
+version = "0.9.1"
+
+[project.urls]
+Homepage = "https://github.com/pyiron/executorlib"
+Documentation = "https://executorlib.readthedocs.io"
+Repository = "https://github.com/pyiron/executorlib"
+
+[tool.setuptools.packages.find]
+include = ["pympipool*"]
