@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: codern
+Version: 3.8.6
+Summary: Codern Team Library from api free O - > api-free.ir
+Home-page: https://github.com/Mahditerorist/send_email
+Author: Mahdi Ahmadi
+Author-email: mahdiahmadi.1208@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+معرفی کتابخانه codern 3.8.16
+کتابخانه codern 3.8.16 یک ابزار قدرتمند برای ارسال ایمیل و آپلود فایل به سرویس‌های مختلف می‌باشد. این کتابخانه به زبان پایتون نوشته شده و با استفاده از آن می‌توانید به راحتی ایمیل‌های خود را ارسال و فایل‌های خود را آپلود کنید. در ادامه مستندات جامع‌تری ارائه شده است تا شما را با قابلیت‌های این کتابخانه بیشتر آشنا کند.
+
+نصب کتابخانه
+برای نصب این کتابخانه و وابستگی‌های آن، می‌توانید از دستور زیر استفاده کنید:
+
+```bash
+Copy code
+pip install colorama requests urllib3
+کلاس Email
+کلاس Email برای ارسال ایمیل به کار می‌رود. این کلاس پارامترهای مختلفی برای تنظیم ایمیل دارد که در ادامه توضیح داده شده است.
+
+پارامترهای سازنده:
+To (str): آدرس ایمیل گیرنده.
+text (str): متن ایمیل.
+Title (str): عنوان ایمیل.
+Token (str): توکن احراز هویت که از سرویس دهنده دریافت می‌کنید.
+Input (Literal['info', 'app', 'Login', 'support']): نوع ایمیل. مقادیر ممکن 'info', 'app', 'Login', و 'support' هستند. مقدار پیش‌فرض 'info' است.
+```
+# متد Send
+این متد برای ارسال ایمیل استفاده می‌شود.
+
+خروجی:
+اگر ایمیل با موفقیت ارسال شود، خروجی شامل یک دیکشنری با کلیدهای state و code خواهد بود.
+در صورت عدم موفقیت، مقدار False بازگردانده می‌شود.
+مثال استفاده از کلاس Email
+```python
+Copy code
+from Email import Email
+
+email = Email(
+    To='example@example.com',
+    text='این یک ایمیل آزمایشی است',
+    Title='عنوان ایمیل',
+    Token='توکن شما',
+    Input='info'
+)
+
+result = email.Send()
+
+if result:
+    print("ایمیل با موفقیت ارسال شد")
+else:
+    print("ارسال ایمیل با مشکل مواجه شد")
+
+```
+# کلاس api
+کلاس api برای آپلود فایل‌ها به کار می‌رود. این کلاس نیز پارامترهای مختلفی دارد که در ادامه توضیح داده شده است.
+
+پارامترهای سازنده:
+**token** (str): توکن احراز هویت که از سرویس دهنده دریافت می‌کنید.
+**welcom** (bool): نمایش پیام خوشامدگویی هنگام ایجاد نمونه. مقدار پیش‌فرض True است.
+# متد Upload_file
+این متد برای آپلود فایل‌ها استفاده می‌شود.
+
+ورودی:
+**byte_file**: فایل باینری که قرار است آپلود شود.
+خروجی:
+لینک دانلود فایل آپلود شده.
+
+# مثال استفاده از کلاس api
+```python
+Copy code
+from api import api
+
+api_instance = api(token='توکن شما')
+
+with open('path/to/your/file', 'rb') as file:
+    result = api_instance.Upload_file(file)
+
+print("لینک دانلود فایل آپلود شده: ", result)
+```
+پیام خوشامدگویی
+هنگام ایجاد یک نمونه از کلاس api، در صورتی که پارامتر welcom برابر با True باشد، پیام خوشامدگویی زیر نمایش داده می‌شود:
+
+```c
+Copy code
+Welcome to our library codern 3.8.16 !
+Website Dev : api-free.ir
+```
+نتیجه‌گیری
+کتابخانه codern 3.8.16 ابزارهای مفیدی برای ارسال ایمیل و آپلود فایل فراهم می‌کند. با استفاده از کلاس‌ها و متدهای این کتابخانه، می‌توانید به راحتی ایمیل‌های خود را ارسال کرده و فایل‌های خود را آپلود کنید. با توجه به مستندات ارائه شده، می‌توانید از این کتابخانه در پروژه‌های خود بهره ببرید.
