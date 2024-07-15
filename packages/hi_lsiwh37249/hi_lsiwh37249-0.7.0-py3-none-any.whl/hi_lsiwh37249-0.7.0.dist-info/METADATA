@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hi_lsiwh37249
+Version: 0.7.0
+Summary: Default template for PDM package
+Author-email: lsiwh37249 <lsiwh37249@gmail.com>
+License: MIT
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+
+# hi_lsiwh37249
+#
