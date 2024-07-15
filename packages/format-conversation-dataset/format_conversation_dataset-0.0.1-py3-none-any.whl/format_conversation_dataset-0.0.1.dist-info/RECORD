@@ -1,0 +1,9 @@
+format_conversation_dataset/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+format_conversation_dataset/_modidx.py,sha256=wDe5cPUiqLfZYMskhUUcY0_y8a1Yy17BSsy8X3NRnls,1077
+format_conversation_dataset/format_transcription.py,sha256=9v2quMU-o-85DksE9z8YxCZb5ne0sYCtszq0IbUD9Ww,2790
+format_conversation_dataset-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+format_conversation_dataset-0.0.1.dist-info/METADATA,sha256=-08zYeTISqSRqDjvnVSfGrdaoJdTIwQETcGXNMBapIg,1716
+format_conversation_dataset-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+format_conversation_dataset-0.0.1.dist-info/entry_points.txt,sha256=ni5ZtztciKfcG8bLGXaoicWdjhaOlmcJeZ3yjZFpOQQ,76
+format_conversation_dataset-0.0.1.dist-info/top_level.txt,sha256=9fJUGRhooUKGkxgV6n_UE5Jp03Emv0KvWZ2conZDNvY,28
+format_conversation_dataset-0.0.1.dist-info/RECORD,,
