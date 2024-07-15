@@ -1,0 +1,3 @@
+[scrapy.commands]
+cws = masterai_scrapy_command.crawl_with_settings:CrawlWithSettingsCommand
+report = masterai_scrapy_command.report:ReportCommand
