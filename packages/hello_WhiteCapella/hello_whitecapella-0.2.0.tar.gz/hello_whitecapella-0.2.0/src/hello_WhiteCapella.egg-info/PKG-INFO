@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hello_WhiteCapella
+Version: 0.2.0
+Summary: Default template for PDM package
+Author-email: WhiteCapella <whitecapella.official@gmail.com>
+License: MIT
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+
+# hello_WhiteCapella
