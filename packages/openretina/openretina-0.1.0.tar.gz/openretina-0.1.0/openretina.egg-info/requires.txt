@@ -1,0 +1,17 @@
+IPython
+jaxtyping
+matplotlib
+numpy
+pandas
+seaborn
+scipy
+torch
+torchaudio
+torchvision
+wandb
+ruff
+mypy>=1.0
+pytest
+types-psutil
+types-tqdm
+types-PyYAML
