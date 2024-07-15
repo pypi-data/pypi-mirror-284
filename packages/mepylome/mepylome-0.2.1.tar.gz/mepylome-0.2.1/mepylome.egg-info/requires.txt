@@ -1,0 +1,10 @@
+dash>=2.16.0
+dash_bootstrap_components
+numpy
+pandas
+psutil
+pyranges
+scikit-learn
+tqdm
+umap-learn
+xlrd
