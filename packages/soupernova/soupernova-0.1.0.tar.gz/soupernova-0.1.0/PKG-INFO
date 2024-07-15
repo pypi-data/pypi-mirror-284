@@ -1,0 +1,74 @@
+Metadata-Version: 2.3
+Name: soupernova
+Version: 0.1.0
+Summary: Make viewing stars a blast
+Project-URL: Documentation, https://github.com/Matt Craig/soupernova#readme
+Project-URL: Issues, https://github.com/Matt Craig/soupernova/issues
+Project-URL: Source, https://github.com/Matt Craig/soupernova
+Author-email: Matt Craig <mattwcraig@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: anywidget
+Requires-Dist: astrowidgets
+Requires-Dist: ipywidgets
+Description-Content-Type: text/markdown
+
+# soupernova
+
+[![PyPI - Version](https://img.shields.io/pypi/v/soupernova.svg)](https://pypi.org/project/soupernova)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/soupernova.svg)](https://pypi.org/project/soupernova)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Motivation](#motivation)
+- [Usage](#usage)
+- [License](#license)
+
+## Installation
+
+```console
+pip install soupernova
+```
+
+## Motivation
+
+Who wouldn't want this:
+
+![Stars with confetti stars exploding from them](https://github.com/user-attachments/assets/884e42f6-0868-48e9-abd1-74998ae3e5de)
+
+## Usage
+
+If you happen not to have any astronomical images lying around you can just do this in a Jupyter notebook:
+
+```python
+from soupernova import SouperNova
+sn = SouperNova()
+sn
+```
+
+Once you see an image on the screen, click on it!
+
+If you have a FITS image you can pass it in like this:
+
+```python
+from soupernova import SouperNova
+sn = SouperNova(file="path/to/your/image.fits")
+sn
+```
+
+## License
+
+`soupernova` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
