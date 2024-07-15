@@ -1,0 +1,13 @@
+COPYING
+COPYING.LESSER
+README.md
+pyproject.toml
+ifc5d/__init__.py
+ifc5d/csv2ifc.py
+ifc5d/ifc5Dspreadsheet.py
+ifc5d/qto.py
+ifc5d.egg-info/PKG-INFO
+ifc5d.egg-info/SOURCES.txt
+ifc5d.egg-info/dependency_links.txt
+ifc5d.egg-info/requires.txt
+ifc5d.egg-info/top_level.txt
