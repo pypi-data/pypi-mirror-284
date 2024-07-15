@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyf_pagination
+Version: 0.0.1
+Summary: A pagination package for Django REST Framework
+Home-page: https://github.com/
+Author: ycx
+Author-email: ycx3030@126.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
