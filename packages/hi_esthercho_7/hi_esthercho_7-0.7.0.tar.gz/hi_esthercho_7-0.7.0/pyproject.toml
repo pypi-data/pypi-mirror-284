@@ -1,0 +1,17 @@
+[project]
+name = "hi_esthercho_7"
+version = "0.7.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "EstherCho-7", email = "dkgkqm777@gmail.com"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+hi_EstherCho-7 = "hi_esthercho_7.hello:hi"
+
+[tool.pdm]
+distribution = true
