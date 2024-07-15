@@ -1,0 +1,12 @@
+tansu/events/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tansu/events/consume.py,sha256=4-cKuK2KTPs9tmZMFtg6feH5wWKvQNkeSe4odgnGuBM,461
+tansu/events/ingest.py,sha256=QhDXEcCBn_BJevqjg2FcYzPDDaeNbPjqPVFNKk30hdo,1458
+tansu/events/log.py,sha256=6GLQnMBsD4ajWqyiN84AxkpFIdZV27Dvy8f3vId4gPU,79
+tansu/events/models.py,sha256=f5ylWbYQcmbZIzg-ppRhzkoQCxE-koPOBnTMR_Ib81c,1237
+tansu/events/settings.py,sha256=Ttm3w5N5ZmQoRHO1JzWXtRaoSzUKF14kk9n6MqyXFH0,495
+tansu/events/database/__init__.py,sha256=0gLbPHzdpcTeoGLZs2xzuollmdMdlCweP0Y1YRINQB0,152
+tansu/events/database/db_models.py,sha256=idpD3_AuT_jb5XdlFCNHD6azq6VRspsyAWnXIpG59ZM,474
+tansu/events/database/session_factory.py,sha256=j4iEGuY66VGCVxvhcFnzKHv9Q_PgkEdFhvR0haczyqY,615
+tansu-1.0.1.dist-info/METADATA,sha256=ZI9tL0iIoYSrNqm9BTDdCUrQ0TZlOMQgAtqvXncwqWw,1465
+tansu-1.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+tansu-1.0.1.dist-info/RECORD,,
