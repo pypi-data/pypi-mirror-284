@@ -1,0 +1,6 @@
+[console_scripts]
+gltest=greatlibrarian.run:test
+gltest_async=greatlibrarian.run:test_async
+glupdate=greatlibrarian.run:update
+glupdate_async=greatlibrarian.run:update_async
+
