@@ -1,0 +1,13 @@
+picorm/FileStorage.py,sha256=R-ywMugpmL4lb_uvze_82ECj2iwt2OZe5smceqZ77v8,5620
+picorm/SQLiteStorage.py,sha256=Kd6QKEo48uNQzx7-7coZfkDq3IAw6XPiWflQo4icIT0,3930
+picorm/Storage.py,sha256=Y1mk24OFT7fU0OkREqzUrYOgLkaLKF1RJ32P1DmCjpg,5173
+picorm/__about__.py,sha256=qNjv9PY16XdYd8yg1cwwiDnNXg7H-vUo2ZjoO8UAEZM,457
+picorm/__init__.py,sha256=Boe3G3DDK2v_zEe-xZGMpvUgz7e5JUfgStbiljVgY9Y,106
+picorm/utils.py,sha256=RM4CXlKBXpw97Xkp2XKO5nLnd3Wq9SYXCyZnQQwE4Hs,47
+picorm/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picorm/tests/test_storages.py,sha256=EfCEq2xdXI2XaitZ0uJPioxXStUrNoDhnQtGyekPftc,10785
+picorm-0.1.5.dist-info/LICENSE,sha256=5IxDsHksFkchaRUKph4Q-_8b8ALKUt3g3eaRsswgPr0,1060
+picorm-0.1.5.dist-info/METADATA,sha256=2HynYO1tvap5KEhgm-gw7O8ZjkTaE-DaVrBPxf-aJ50,6571
+picorm-0.1.5.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+picorm-0.1.5.dist-info/top_level.txt,sha256=Dl7w6L_j5ON_T9aXilKL6QxtAcYpCQBJ-pTY4xstYy0,7
+picorm-0.1.5.dist-info/RECORD,,
