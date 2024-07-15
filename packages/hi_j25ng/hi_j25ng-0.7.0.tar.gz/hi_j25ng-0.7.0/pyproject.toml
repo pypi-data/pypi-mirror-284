@@ -1,0 +1,18 @@
+[project]
+name = "hi_j25ng"
+version = "0.7.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "j25ng", email = "jsan2861@gmail.com"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+hi-j25ng = "hi_j25ng.hello:hi"
+	 # "패키지이름.파일이름:함수이름"
+
+[tool.pdm]
+distribution = true 
