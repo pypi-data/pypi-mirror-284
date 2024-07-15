@@ -1,0 +1,54 @@
+Metadata-Version: 2.3
+Name: pysimultan_jinja
+Version: 1.0.0
+Author-email: Buehler Maximilian <maximilian.buehler@tuwien.ac.at>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: jinja2
+Requires-Dist: pysimultanui
+Description-Content-Type: text/markdown
+
+# pysimultan_jinja
+
+-----
+
+## Table of Contents
+
+- [Overview](#overview)
+- [How does it work?](#how-does-it-work)
+
+
+## Overview
+The pysimultan_jinja package is a toolbox for rendering Jinja2 templates in PySimultanUI.
+
+
+## How does it work?
+The package implements a JinjaTemplate class that is used to render Jinja2 templates in PySimultanUI. 
+
+With the package, a JinjaTemplate Component can be created, which can be used to render Jinja2 templates with it's 
+rendered_component as content.
+
+The class has the following attributes:
+
+- name: The name of the component
+- template_file: The Jinja2 template file. This is a File which contains the Jinja2 template.
+- rendered_component: The rendered component or parameter. This component or parameter is passed to the Jinja2 template 
+  for rendering.
+- result: The result of the rendering. This is a File which contains the rendered template.
+- output_filename: The name of the output file. This is the name of the file that will be created after rendering the 
+  template.
+
+
+## license
+This project is licensed under the GNU Lesser General Public License v3.0 - see the [LICENSE](LICENSE.txt) file for details.
+```
