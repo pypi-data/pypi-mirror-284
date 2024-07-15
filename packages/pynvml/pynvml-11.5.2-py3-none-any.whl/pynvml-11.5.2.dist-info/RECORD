@@ -1,0 +1,11 @@
+pynvml/__init__.py,sha256=p_wxUcw6iBwOzRhcBinGAaRv9m5XsGinHdGvd-_81VA,113
+pynvml/_version.py,sha256=TnpGYWm7ubOXE1h_6r3N1SDvQzqqRHNeV9hXEwV7pjE,498
+pynvml/nvml.py,sha256=wuNMieeP59Ps38Wa2t0nWn2as3Ujm_-caYIef1_t2zU,170305
+pynvml/smi.py,sha256=XNw7tN00OBC0vYq25USxyT-UVfMfakAkQmP3wXzUfn4,314
+pynvml_utils/__init__.py,sha256=OPWMeHpJUEMZsv-lXdEzD1UPsxegWqigGurc5t_Bt9U,127
+pynvml_utils/smi.py,sha256=QI27U3IWPO4Pgkzi4xHiZ_CAE1B5K76iF7VtzqqOIt4,127339
+pynvml-11.5.2.dist-info/LICENSE.txt,sha256=gXj--65Fdo4eo8z61E_xNOHqMO1O2u1OENO2xW4SAu0,1496
+pynvml-11.5.2.dist-info/METADATA,sha256=JJHFkx3-V9Nkj0cew7coecw7GOZXnU54AsC8dwJxhp8,8765
+pynvml-11.5.2.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+pynvml-11.5.2.dist-info/top_level.txt,sha256=tPGX2O-MdoirCA6X7txRKVI66a16x_fJNg65-_ZvQ1Y,20
+pynvml-11.5.2.dist-info/RECORD,,
