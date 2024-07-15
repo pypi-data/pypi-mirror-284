@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/hi_Nicou11.egg-info/PKG-INFO
+src/hi_Nicou11.egg-info/SOURCES.txt
+src/hi_Nicou11.egg-info/dependency_links.txt
+src/hi_Nicou11.egg-info/top_level.txt
+src/hi_nicou11/__init__.py
