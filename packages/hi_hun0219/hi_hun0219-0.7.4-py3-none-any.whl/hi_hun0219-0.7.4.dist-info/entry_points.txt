@@ -1,0 +1,2 @@
+[console_scripts]
+hi-hun0219 = hi_hun0219.hello:hi
