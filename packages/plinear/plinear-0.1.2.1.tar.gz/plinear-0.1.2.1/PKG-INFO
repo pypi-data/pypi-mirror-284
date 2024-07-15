@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: plinear
+Version: 0.1.2.1
+Summary: parallel neural network layer for binarization of ternarization - quantized layers from the beginning
+License: MIT
+Author: your_name
+Author-email: your_email@example.com
+Requires-Python: >=3.10.12,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: torch (>=2.2.2,<3.0.0)
+Requires-Dist: torchaudio (>=2.2.2,<3.0.0)
+Requires-Dist: torchvision (>=0.17.2,<0.18.0)
+Description-Content-Type: text/markdown
+
+# plinear
+
+Github for parrallel - linear layer
+
+# Road Map
+
+## binary neural network
+
+## parrallelize binaries to tenary
+
+## visualization
+
+## Brute Force optimization of 3 x 3 CNN
+
+## parrallelize complex layers
+
+# Develope Note
+
+### 15, July, 2024
+
+Checked plinear works on colab
+
