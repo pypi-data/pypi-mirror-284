@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+errorhook/__init__.py
+errorhook/lib.py
+errorhook.egg-info/PKG-INFO
+errorhook.egg-info/SOURCES.txt
+errorhook.egg-info/dependency_links.txt
+errorhook.egg-info/requires.txt
+errorhook.egg-info/top_level.txt
