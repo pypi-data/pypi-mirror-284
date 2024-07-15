@@ -1,0 +1,3 @@
+[pytest11]
+worth=worth.pytest_plugin
+
