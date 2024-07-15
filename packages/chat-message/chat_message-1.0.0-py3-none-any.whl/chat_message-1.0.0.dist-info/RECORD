@@ -1,0 +1,15 @@
+chat_message/__init__.py,sha256=trpDurzEj_6A6e1muqqdeQLdwjDH6hj-EUkxa2WMW-o,1648
+chat_message/example.py,sha256=vrwn-ZisVlG2g4mBoGxcJyKqU7Qk20vUdZlPBMz7H10,1763
+chat_message/frontend/build/asset-manifest.json,sha256=E6Jt97O6G-gndzi2VcWhGUAudL8yo0f89XlNSFKqJK0,374
+chat_message/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+chat_message/frontend/build/index.html,sha256=oYoeBBjU3EkIhvbkNhQbXIV1cBaAHkRCthaWkSVtUp4,553
+chat_message/frontend/build/static/css/main.ba52fc6a.css,sha256=Fp6oaDMZDNUU7NeQ4DChI6TGdhcbxFcHggA6CHar_XI,15772
+chat_message/frontend/build/static/css/main.ba52fc6a.css.map,sha256=PC6_jQajPNPXduY4TmhZ6B2_6OZQZT9VLJQPf6mbu8Q,5685
+chat_message/frontend/build/static/js/main.b2c352b9.js,sha256=cL7Fij3TKqney8npvDroysvAw9kBZdqmCy7n12gG4C4,328553
+chat_message/frontend/build/static/js/main.b2c352b9.js.LICENSE.txt,sha256=cmjEMovgjlkZ-Bs7b5rRQ8FsJtL1F77Y3YkM2E9yfUs,1293
+chat_message/frontend/build/static/js/main.b2c352b9.js.map,sha256=pTguk9wHSFN-w4Mc42cPhXvKaAa7_NQ1ObeBxVGyTyo,1306069
+chat_message-1.0.0.dist-info/LICENSE,sha256=9VDWIUfeWnnobvVpN2KtC5cHaNpAmxhdjyF4LivEPNw,1063
+chat_message-1.0.0.dist-info/METADATA,sha256=XaThClPGx6oTKo2OvudgoZxBSA2eDYRlFeqf8sM8eL4,2542
+chat_message-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chat_message-1.0.0.dist-info/top_level.txt,sha256=r28A-6ZPrAT_rtZUNT94q_ueE39JJQHyS-34yP3CwXg,13
+chat_message-1.0.0.dist-info/RECORD,,
