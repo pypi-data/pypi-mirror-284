@@ -1,0 +1,11 @@
+ifcfm/__init__.py,sha256=mV6jPX9FMWyyUX39jlhN3CfbT5bXRDNN0wmoXQP2L18,11068
+ifcfm/__main__.py,sha256=f_CEttRsZdOkngguUEZPRjZ_ZyoIqQtPJcMRp926_oQ,1792
+ifcfm/basic.py,sha256=OHZxV0OF5GrScwXKoIr2qanQwClg6vLRXo2pBd3fLb8,14519
+ifcfm/cobie24.py,sha256=dkEGLnmG88y-2zXIJz5o3KSq8nW12jS3RdCqHqH8Nq8,52084
+ifcfm/cobie24legacy.py,sha256=Q7VTtxDpO3CyIhPYV4bI52okpifjjGRiDGk2AdOT5sc,58603
+ifcfm-0.7.10.dist-info/COPYING,sha256=GzeCzK17hhQQDNow0_r0L8OfLpeTKQjFQwBQU7ZUymg,32473
+ifcfm-0.7.10.dist-info/COPYING.LESSER,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+ifcfm-0.7.10.dist-info/METADATA,sha256=_WKoYPGBfAa9wPfoxYpDl8EpWF9y5FVh4esKN8348Qg,1017
+ifcfm-0.7.10.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+ifcfm-0.7.10.dist-info/top_level.txt,sha256=Sk1IDvZZxlwjQru3vVSWtLAfDGO6Mx04dPMBlF6_Hj4,6
+ifcfm-0.7.10.dist-info/RECORD,,
