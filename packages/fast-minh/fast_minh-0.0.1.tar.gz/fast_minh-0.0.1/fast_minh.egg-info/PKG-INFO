@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fast_minh
+Version: 0.0.1
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: scipy==1.10.1
+Provides-Extra: dev
+Requires-Dist: pytest~=7.4.3; extra == "dev"
+Requires-Dist: black==23.12.1; extra == "dev"
+Requires-Dist: isort==5.13.2; extra == "dev"
+Requires-Dist: ruff==0.4.2; extra == "dev"
+Requires-Dist: datasketch==1.6.4; extra == "dev"
+Provides-Extra: examples
+Requires-Dist: datasets==2.16.1; extra == "examples"
