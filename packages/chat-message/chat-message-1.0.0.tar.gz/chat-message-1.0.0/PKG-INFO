@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: chat-message
+Version: 1.0.0
+Summary: Streamlit component that styles a chat bubble.
+Home-page: UNKNOWN
+Author: Jason O'Neal
+Author-email: jason.allen.oneal@gmail.com
+License: UNKNOWN
+Description: # chat-message
+        
+        Streamlit component that allows you to style chat messages into chat bubbles. Uses daisyUI.
+        
+        ## Installation instructions
+        
+        ```sh
+        pip install chat-message
+        ```
+        
+        ## Usage instructions
+        
+        ```python
+        import streamlit as st
+        from chat_message import chat_message
+        
+        user = {
+          "id": 1,
+          "name": "user1",
+          "socket": "",
+          "admin": False,
+        }
+        
+        # simulated database data
+        rows = [
+          {
+            'message_id': 1,
+            'message_msg': 'This is a test.',
+            'message_roomId': 1,
+            'message_time': datetime.datetime(2024, 7, 10, 6, 55, 59),
+            'author_id': 1,
+            'author_name': 'user1',
+            'author_email': 'user1@example.com',
+            'author_socket': ''
+          },
+          {
+            'message_id': 2,
+            'message_msg': 'This is only a test.',
+            'message_roomId': 1,
+            'message_time': datetime.datetime(2024, 7, 10, 6, 55, 59),
+            'author_id': 2,
+            'author_name': 'user2',
+            'author_email': 'user2@example.com',
+            'author_socket': ''
+          }
+        ]
+        
+        result = []
+        for row in rows:
+          obj = {
+            "id": row["message_id"],
+            "message": row["message_msg"],
+            "room": row["message_roomId"],
+            "time": row["message_time"].isoformat(),
+            "author": {
+              "id": row["author_id"],
+              "name": row["author_name"],
+              "socket": row["author_socket"]
+            }
+          }
+          result.append(obj)
+        
+        i = 0
+        for row in result:
+          prev = None
+          next = None
+          
+          if len(result) > 1:
+            prev = result[i-1]
+          
+          if len(result) > i+1:
+            next = result[i+1]
+          
+          appendTime = True
+          appendUser = True
+                            
+          if prev:
+            if prev["author"]["id"] == row["author"]["id"]:
+              diff = timeDiffInSecs(row["time"], prev["time"])
+              if diff < 60:
+                appendUser = False
+          
+          if next:
+            if next["author"]["id"] == row["author"]["id"]:
+              diff = timeDiffInSecs(next["time"], row["time"])
+              if diff < 60:
+                appendTime = False
+          
+          click = st_chat_message(row, user, appendUser, appendTime)
+          print(click)
+          
+          i = i+1
+        ```
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: devel
