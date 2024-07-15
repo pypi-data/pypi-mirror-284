@@ -1,0 +1,2 @@
+[console_scripts]
+hi_haramss = hi_haramss.hello:hi

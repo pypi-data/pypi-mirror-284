@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hi_HaramSS
+Version: 0.7.0
+Summary: Default template for PDM package
+Author-email: HaramSs <haram8274@gmail.com>
+License: MIT
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+
+# hi_HaramSS
