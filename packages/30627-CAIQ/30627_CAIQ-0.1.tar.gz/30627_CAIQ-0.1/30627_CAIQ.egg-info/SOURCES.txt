@@ -1,0 +1,8 @@
+setup.py
+30627_CAIQ/__init__.py
+30627_CAIQ/lhacoding.py
+30627_CAIQ.egg-info/PKG-INFO
+30627_CAIQ.egg-info/SOURCES.txt
+30627_CAIQ.egg-info/dependency_links.txt
+30627_CAIQ.egg-info/requires.txt
+30627_CAIQ.egg-info/top_level.txt
