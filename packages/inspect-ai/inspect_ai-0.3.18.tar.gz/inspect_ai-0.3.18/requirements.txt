@@ -1,0 +1,24 @@
+aiofiles
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+beautifulsoup4
+click
+debugpy
+docstring-parser
+fsspec
+httpx
+json-stream
+jsonlines
+nest_asyncio
+numpy
+platformdirs
+psutil
+pydantic>=2
+python-dotenv
+pyyaml
+rich
+s3fs>=2023
+semver
+shortuuid
+tenacity
+typing_extensions
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
