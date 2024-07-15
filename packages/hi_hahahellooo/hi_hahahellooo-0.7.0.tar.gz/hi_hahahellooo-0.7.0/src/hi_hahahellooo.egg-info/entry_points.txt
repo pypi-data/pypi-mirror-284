@@ -1,0 +1,2 @@
+[console_scripts]
+hi-hahahelloo = hi_hahahellooo.hello:hi
