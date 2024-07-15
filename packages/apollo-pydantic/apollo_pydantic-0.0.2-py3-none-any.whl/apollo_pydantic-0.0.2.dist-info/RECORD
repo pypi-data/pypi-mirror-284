@@ -1,0 +1,9 @@
+apollo_pydantic/__init__.py,sha256=LV1eL7KNeco68nAHys0Un6kpaZoT-SkmICadtqx1y0s,318
+apollo_pydantic/client.py,sha256=jW34FWyxcoAm6meUcEeYvF5Y_RlUmdxfkZrPE-6bRYU,3889
+apollo_pydantic/core.py,sha256=O49OPMZsF2Z-xK2Z6pZsmAS6rg18u_z1D3vSQsPFIuY,11081
+apollo_pydantic/logger.py,sha256=aCg9R-bGDftbntF13Z4RylD1SWP7kpzSdQgVZbPsE4o,237
+apollo_pydantic-0.0.2.dist-info/LICENSE,sha256=nzi_QaA56n9kKnc7hq-60ETyV0wLg1smglJlt-V5fXM,1088
+apollo_pydantic-0.0.2.dist-info/METADATA,sha256=YGtGBisMkMEywXHeM_oESh801ucbYrbbU5f4C1LFn64,7454
+apollo_pydantic-0.0.2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+apollo_pydantic-0.0.2.dist-info/top_level.txt,sha256=BhFaIVEJ8sUE7mUmWTwKXHM3bRfrzkl5vH12kqkrvys,16
+apollo_pydantic-0.0.2.dist-info/RECORD,,
