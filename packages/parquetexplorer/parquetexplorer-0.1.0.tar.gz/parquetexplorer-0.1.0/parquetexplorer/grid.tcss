@@ -1,0 +1,24 @@
+    Screen {
+        layout: grid;
+        grid-size: 4 1;
+        grid-rows: 1fr;
+        grid-columns: 1fr;
+        grid-gutter: 1;
+    }
+
+    Static {
+        color: auto;
+        background: lightblue;
+        height: 100%;
+        padding: 1 2;
+    }
+
+    #static1 {
+        row-span: 1;
+        column-span: 1;
+    }
+
+    #static2 {
+        row-span: 1;
+        column-span: 3;
+    }
