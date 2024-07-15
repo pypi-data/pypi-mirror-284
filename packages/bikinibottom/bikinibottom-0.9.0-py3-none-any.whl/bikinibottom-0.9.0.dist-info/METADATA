@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bikinibottom
+Version: 0.9.0
+Summary: Take pixels from a cloudvolume and push it somewhere else
+Home-page: https://github.com/jasper-tms/bikini-bottom
+Author: Jasper Phelps
+Author-email: jasper.s.phelps@gmail.com
+License: GNU GPL v3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cloud-volume
+Requires-Dist: trimesh
+Requires-Dist: numpyimage
+Requires-Dist: scikit-image
+
+# bikini-bottom
+Scripts to manipulate cloudvolumes.
+
+[Inspired by Patrick Star](https://www.youtube.com/watch?v=A_pTGhOyPbw), the tools here take mesh or image data (often from a cloudvolume), do something with it, and push it somewhere else (often another cloudvolume).
+
+
