@@ -1,0 +1,14 @@
+cached_interpolate/__init__.py,sha256=x9ArrP9v6XkV6ilT4HENiG-njufP6PtMYpWa2e3nZKw,107
+cached_interpolate/_version.py,sha256=ZX5om7Ovkz6dOhGLYm2Tr_wCABow6rirLhSHdYiHgpk,427
+cached_interpolate/build.c,sha256=Cw8vumw2mNLoM9DAXj5brKOEPcEEd21IXpQGCseWDI0,1165461
+cached_interpolate/build.cp312-win_amd64.pyd,sha256=v6nvfb4VsZbgmLzcJ_k7ahovmKlknbqkvTdAHcihmpQ,162304
+cached_interpolate/build.pyx,sha256=JwsMt9jKpJa9Pw0A0blGCPkE5S52BZ66NhC-SWM0RIM,1331
+cached_interpolate/interpolate.py,sha256=nZxadddatEiy6gveonhuAQJw0uTGlp5mrUy_hII6TRc,15672
+cached_interpolate/matrix_forms.py,sha256=2UUWNXRiVxj6mlMkKO44aeAmepOmPxbIl3aYFVs4OXQ,1996
+cached_interpolate/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cached_interpolate/test/interpolate_test.py,sha256=ZxPMJULST7O0DjuybgEeM9eM9wfy-xP6efqEbbE-nkk,6233
+cached_interpolate-0.2.1.dist-info/LICENSE,sha256=bUiK3ERys0Qg3qvtYoo47UrGXPsDHsu_vRw6Usw3PvQ,1089
+cached_interpolate-0.2.1.dist-info/METADATA,sha256=XjhJRsShFWI7SG8PX8mUnknyrC551jItW-5NvvRrU1k,9078
+cached_interpolate-0.2.1.dist-info/WHEEL,sha256=zUKlehupiwlnUEPaWzoeU3i_GPyMnWLKYSUI9sqi8Vs,101
+cached_interpolate-0.2.1.dist-info/top_level.txt,sha256=D04QINUklA_yzM_AgKFVSsRlgYmszgCWelFmZvhsKeE,19
+cached_interpolate-0.2.1.dist-info/RECORD,,
