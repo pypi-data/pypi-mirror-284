@@ -1,0 +1,7 @@
+pinjected_openai/__init__.py,sha256=1RDsfNElTDIT6f4RW9ZKE925oKCWW-IxLtPp1SJnrBw,380
+pinjected_openai/clients.py,sha256=K4BvtfRQXZFa38QEEY0Fah_PKCo3qWy-8oYjoo6sLw0,631
+pinjected_openai/vision_llm.py,sha256=eGvnwqEb5bGeQr0yOz4Z370lKwDPk0-x3gGXccK01HM,16192
+pinjected_openai/whisper.py,sha256=HNfcr6YjWs2dBEon0hpCo3Xn4aePFW9kB-Hy1ztXzmE,1358
+pinjected_openai-0.4.11.dist-info/METADATA,sha256=RD_B94fnqyuPTppuekkYK13-fkvbVl01U9Ilg7s_LOo,446
+pinjected_openai-0.4.11.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pinjected_openai-0.4.11.dist-info/RECORD,,
