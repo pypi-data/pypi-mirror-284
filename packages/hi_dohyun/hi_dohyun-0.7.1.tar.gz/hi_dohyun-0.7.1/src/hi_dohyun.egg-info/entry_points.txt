@@ -1,0 +1,2 @@
+[console_scripts]
+hi-dohyun = rlaehgus97.hello:hi
