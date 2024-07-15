@@ -1,0 +1,2 @@
+[console_scripts]
+gptdb = gptdb.cli.cli_scripts:main
