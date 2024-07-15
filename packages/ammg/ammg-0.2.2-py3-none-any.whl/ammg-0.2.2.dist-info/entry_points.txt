@@ -1,0 +1,2 @@
+[console_scripts]
+ammg = ammg.ammg:main
