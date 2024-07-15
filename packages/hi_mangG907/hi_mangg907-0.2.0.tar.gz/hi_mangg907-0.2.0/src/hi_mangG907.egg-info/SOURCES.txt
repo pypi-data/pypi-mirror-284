@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/hi_mangG907.egg-info/PKG-INFO
+src/hi_mangG907.egg-info/SOURCES.txt
+src/hi_mangG907.egg-info/dependency_links.txt
+src/hi_mangG907.egg-info/top_level.txt
+src/hi_mangg907/__init__.py
