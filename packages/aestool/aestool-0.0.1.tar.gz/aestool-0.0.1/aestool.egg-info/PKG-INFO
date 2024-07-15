@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: aestool
+Version: 0.0.1
+Summary: A simple AES encryption and decryption tool
+Home-page: https://github.com/babaralijamali/aestool
+Author: Babar Ali Jamali
+Author-email: babar995@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycryptodome
+
+# aestool
+
+aestool is a simple AES encryption and decryption tool.
+
+## Installation
+
+You can install the package using pip:
+
+pip install aestool
+
+## Encrypt a text:
+(Select the option to encrypt text, provide the text, and it will generate the encrypted file, key file, and IV file.)
+
+python -m aestool
+
+## Decrypt a text:
+(Select the option to decrypt a file, provide the filenames for the encrypted text, key, and IV, and it will decrypt the text.)
+
+python -m aestool
+
+
+
