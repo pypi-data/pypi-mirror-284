@@ -1,0 +1,15 @@
+nextgenjax/__init__.py,sha256=r3cdd96WpPZbs1dGHQo96xGNMtxhKv0_fgD2Im6Sv94,441
+nextgenjax/activations.py,sha256=GnXCcPtTchDYiGFzD_irfATHQUDdas5r8aJePZBHRB0,611
+nextgenjax/custom_layers.py,sha256=Ekb9QeCabjWT4MncNg7shAqq5MvEu9ZjUCrbIA-LIBc,1181
+nextgenjax/layers.py,sha256=f1fl7pTJHIK1xFRZVYi1ts878RJceLuDpMza3yBDBzc,2486
+nextgenjax/model.py,sha256=7HIsWXshwKR0xRScZt93R_ofGT8inFwOE7Zi1hM_cdg,2087
+nextgenjax/optimizers.py,sha256=8jRULHCs4KPqX0FcBVVKqYfHR-GCfiBzv0sMMCt_oZY,5121
+nextgenjax/parallelism_example.py,sha256=CjCjZuHEK0Egb96s1lKKkP1ab2bcYZUl6J0C7uN7dMY,1608
+nextgenjax/train.py,sha256=BHq3W_e5x2xXvlSRH_zh9_O0mgI6tR_lFdYrI3ZsBQo,7333
+nextgenjax/transformer_models.py,sha256=kcGYkdDrXX-a0nsnSAwYCDh0AQa65GQrgjYT8EFAfj0,1973
+nextgenjax/vocab_parallel_embedding.py,sha256=UKnRDQ2vqcrW2kTVTYU_zWgrxKyY8Z1rs_o7ml_FnKA,1183
+nextgenjax-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nextgenjax-0.1.1.dist-info/METADATA,sha256=k8FREGrL_NTh26xeL1FvhQJvvk7f-9u6mK6S1orbQlQ,5620
+nextgenjax-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nextgenjax-0.1.1.dist-info/top_level.txt,sha256=gpFQXU9X1aI80kySF6nBaCHj1_n4CbK_l8i83ptGSSE,11
+nextgenjax-0.1.1.dist-info/RECORD,,
