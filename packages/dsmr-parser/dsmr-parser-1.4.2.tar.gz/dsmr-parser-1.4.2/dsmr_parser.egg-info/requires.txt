@@ -1,0 +1,5 @@
+pyserial<4,>=3
+pyserial-asyncio-fast>=0.11
+pytz
+Tailer==0.4.1
+dlms_cosem==21.3.2
