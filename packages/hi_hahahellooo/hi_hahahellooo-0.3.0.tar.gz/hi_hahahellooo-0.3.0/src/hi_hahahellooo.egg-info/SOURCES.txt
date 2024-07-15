@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/hi_hahahellooo/__init__.py
+src/hi_hahahellooo.egg-info/PKG-INFO
+src/hi_hahahellooo.egg-info/SOURCES.txt
+src/hi_hahahellooo.egg-info/dependency_links.txt
+src/hi_hahahellooo.egg-info/top_level.txt
