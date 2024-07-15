@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+PyCoOT.egg-info/PKG-INFO
+PyCoOT.egg-info/SOURCES.txt
+PyCoOT.egg-info/dependency_links.txt
+PyCoOT.egg-info/requires.txt
+PyCoOT.egg-info/top_level.txt
+cot/__init__.py
+cot/assignment.py
+cot/transport.py
+test/test_assignment.py
+test/test_transport.py
