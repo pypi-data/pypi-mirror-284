@@ -1,0 +1,4 @@
+plico>=0.28
+numpy
+six
+astropy
