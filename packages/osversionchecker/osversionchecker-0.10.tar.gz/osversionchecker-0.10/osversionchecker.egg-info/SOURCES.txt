@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+osversionchecker/LICENSE.txt
+osversionchecker/README.MD
+osversionchecker/__init__.py
+osversionchecker/requirements.txt
+osversionchecker/thirdparty.json
+osversionchecker.egg-info/PKG-INFO
+osversionchecker.egg-info/SOURCES.txt
+osversionchecker.egg-info/dependency_links.txt
+osversionchecker.egg-info/top_level.txt

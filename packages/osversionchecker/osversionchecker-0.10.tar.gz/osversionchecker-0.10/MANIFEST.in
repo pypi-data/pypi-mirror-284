@@ -1,0 +1,4 @@
+include osversionchecker/requirements.txt
+include osversionchecker/thirdparty.json
+include osversionchecker/LICENSE.txt
+include osversionchecker/README.MD
