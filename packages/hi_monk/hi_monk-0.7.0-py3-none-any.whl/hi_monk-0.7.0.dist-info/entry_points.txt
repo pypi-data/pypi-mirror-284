@@ -1,0 +1,3 @@
+[console_scripts]
+hi-monk = hi_monk.hello:hi
+
