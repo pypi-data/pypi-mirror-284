@@ -1,0 +1,8 @@
+janus/__init__.py,sha256=WtbWbUh8xEe0Q1vh5bDofJpSja4MeWiwmBeNOX-lZus,307
+janus/experiment.py,sha256=lErFTDr2KGQZ85v-fJpd8kYSim7ixqRTKi_i6UDjm8E,9014
+janus/utils.py,sha256=9rqcnaNhiXWIIJHPc1sISh_fygjR25wk4LOuyc7cc9I,273
+janus/variant.py,sha256=eqj9Ogawg66DvGzp9ubdOTRUIBTZPt2R_AcyR6thQEY,135
+janus_web_ab_testing-0.1.6.dist-info/LICENSE,sha256=OQBdFLIsCaG1A1VInHgFlg57LYo_dGyzxFrtOgI1F68,1071
+janus_web_ab_testing-0.1.6.dist-info/METADATA,sha256=90mNWLdhvOMx8GdNjbCQqq8wxGFM7zSN-0U4SI7_Q9Q,5396
+janus_web_ab_testing-0.1.6.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+janus_web_ab_testing-0.1.6.dist-info/RECORD,,
