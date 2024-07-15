@@ -1,0 +1,2 @@
+[console_scripts]
+hi-mangg907 = hi_mangg907.hello:hi
