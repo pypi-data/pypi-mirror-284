@@ -1,0 +1,18 @@
+[project]
+name = "appmake"
+version = "0.0.1"
+authors = [
+  { name="Metagen Labs", email="info@metagenlabs.com" },
+]
+description = "Define your database schema and API in a few lines of Python; export to a complete tested project in the language of your choice."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = []
+
+[project.urls]
+Homepage = "https://github.com/metagenlabs/appmake"
+Issues = "https://github.com/metagenlabs/appmake/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

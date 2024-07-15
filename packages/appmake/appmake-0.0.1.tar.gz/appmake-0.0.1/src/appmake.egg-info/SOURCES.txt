@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/appmake/__init__.py
+src/appmake/coming_soon.py
+src/appmake.egg-info/PKG-INFO
+src/appmake.egg-info/SOURCES.txt
+src/appmake.egg-info/dependency_links.txt
+src/appmake.egg-info/top_level.txt

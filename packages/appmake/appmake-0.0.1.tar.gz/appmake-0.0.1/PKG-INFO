@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: appmake
+Version: 0.0.1
+Summary: Define your database schema and API in a few lines of Python; export to a complete tested project in the language of your choice.
+Author-email: Metagen Labs <info@metagenlabs.com>
+Project-URL: Homepage, https://github.com/metagenlabs/appmake
+Project-URL: Issues, https://github.com/metagenlabs/appmake/issues
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# App Make
+
+Define your database schema and your API routes in a few lines of Python, and export to a complete tested project in your language of choice. After running the tool, you'll get:
+
+- A complete suite of unit tests
+- A browser-ready API client
+- An Open API specificiation
+- A Dockerfile
+
+Working out of the box. 
+
+
+
