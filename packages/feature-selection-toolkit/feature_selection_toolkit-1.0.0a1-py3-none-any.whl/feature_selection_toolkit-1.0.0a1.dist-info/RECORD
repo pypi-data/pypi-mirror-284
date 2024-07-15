@@ -1,0 +1,9 @@
+feature_selection_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feature_selection_test/feature_selection_test.py,sha256=xGg3cb2CGbe6tGtKIXx7fdAEkpGsKKE7Cx_MFMIy9dY,2786
+feature_selection_toolkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feature_selection_toolkit/feature_selection.py,sha256=cN84i-kWOVfmT3vJykV18I_U_NFRVgMYkeNacVBBTPY,18557
+feature_selection_toolkit-1.0.0a1.dist-info/LICENSE,sha256=7xS3XjZToGboSRoHXA0hBn-vthBwoaiI4xVtyWqmk8s,1060
+feature_selection_toolkit-1.0.0a1.dist-info/METADATA,sha256=NqiXIe87--NiM3VPkFUQLpgFBE0Q-6epPz3C2OSM7wU,13341
+feature_selection_toolkit-1.0.0a1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+feature_selection_toolkit-1.0.0a1.dist-info/top_level.txt,sha256=KhRObjELMbppLJeKq_SlgxBJsWsfXvtCVOWj5XhCsb0,49
+feature_selection_toolkit-1.0.0a1.dist-info/RECORD,,
