@@ -1,0 +1,22 @@
+[project]
+name = "hi_monk"
+version = "0.2.0"
+description = "Default template for PDM package"
+authors = [
+    { name = "thephunkmonk", email = "andrewchoi1218@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
