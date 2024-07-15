@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: zeyrek
+Version: 0.1.4a0
+Summary: Python morphological analyzer and lemmatizer for Turkish
+Author-Email: Olga Bulat <obulat@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/obulat/zeyrek
+Requires-Python: >=3.9
+Requires-Dist: click==8.1.7
+Requires-Dist: nltk==3.8.1
+Requires-Dist: pytest==8.2.2
+Requires-Dist: readme-renderer==35.0
+Requires-Dist: regex==2024.5.15
+Requires-Dist: requests==2.32.3
+Requires-Dist: snowballstemmer==2.2.0
+Requires-Dist: sphinx>=7.3.7
+Requires-Dist: twine==4.0.0
+Requires-Dist: furo>=2024.5.6
+Requires-Dist: myst-parser>=3.0.1
+Requires-Dist: sphinx-autobuild>=2024.4.16
+Requires-Dist: bumpver>=2023.1129
+Description-Content-Type: text/markdown
+
+# Zeyrek: Morphological Analyzer and Lemmatizer
+
+![PyPI - Version](https://img.shields.io/pypi/v/zeyrek)
+
+Zeyrek is a partial port of the [Zemberek library](https://github.com/ahmetaa/zemberek-nlp) to Python for lemmatizing
+and analyzing Turkish language words. It is in alpha stage, and the API
+will probably change.
+
+
+* Free software: MIT license
+* Documentation: https://zeyrek.readthedocs.io.
+
+
+## Basic Usage
+
+To use Zeyrek, first create an instance of `MorphAnalyzer` class:
+
+```shell
+import zeyrek
+analyzer = zeyrek.MorphAnalyzer()
+```
+
+Then, you can call its `analyze` method on words or texts to get all possible analyses::
+
+```shell
+print(analyzer.analyze('benim'))
+Parse(word='benim', lemma='ben', pos='Noun', morphemes=['Noun', 'A3sg', 'P1sg'], formatted='[ben:Noun] ben:Noun+A3sg+im:P1sg')
+Parse(word='benim', lemma='ben', pos='Pron', morphemes=['Pron', 'A1sg', 'Gen'], formatted='[ben:Pron,Pers] ben:Pron+A1sg+im:Gen')
+Parse(word='benim', lemma='ben', pos='Verb', morphemes=['Noun', 'A3sg', 'Zero', 'Verb', 'Pres', 'A1sg'], formatted='[ben:Noun] ben:Noun+A3sg|Zero→Verb+Pres+im:A1sg')
+Parse(word='benim', lemma='ben', pos='Verb', morphemes=['Pron', 'A1sg', 'Zero', 'Verb', 'Pres', 'A1sg'], formatted='[ben:Pron,Pers] ben:Pron+A1sg|Zero→Verb+Pres+im:A1sg')
+```
+If you only need the base form of words, or lemmas, you can call `lemmatize`. It returns a list
+of tuples, with word itself and a list of possible lemmas::
+
+```shell
+print(analyzer.lemmatize('benim'))
+[('benim', ['ben'])]
+```
+
+
+## Credits
+
+This package is a Python port of part of the [Zemberek](https://github.com/ahmetaa/zemberek-nlp) package by [Ahmet A. Akın](https://github.com/ahmetaa)
+
+
+This package was created with
+[Cookiecutter](https://github.com/audreyr/cookiecutter) and the
+[audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
+project template.
+
