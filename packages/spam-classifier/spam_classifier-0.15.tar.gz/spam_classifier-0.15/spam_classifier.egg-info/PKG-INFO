@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: spam-classifier
+Version: 0.15
+Summary: A library for classifying spam messages
+License: Non-commercial use only. Contact author for commercial use.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
