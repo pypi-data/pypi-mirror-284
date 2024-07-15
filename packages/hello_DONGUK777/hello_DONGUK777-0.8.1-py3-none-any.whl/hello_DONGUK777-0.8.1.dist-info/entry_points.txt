@@ -1,0 +1,2 @@
+[console_scripts]
+hello_DONGUK777 = hello_donguk777.hello:hi
