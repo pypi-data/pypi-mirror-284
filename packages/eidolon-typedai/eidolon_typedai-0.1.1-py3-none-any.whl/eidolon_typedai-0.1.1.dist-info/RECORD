@@ -1,0 +1,12 @@
+resources/type_hints.png,sha256=E3SBoIdJe33cN30H-DBVI6KvwwOB0zr5kCrGz1di69w,39694
+typedai/__init__.py,sha256=J3X509iMRod7cAmiERNMPWXs97YdMkqhukBQKBDRp-0,130
+typedai/client.py,sha256=pD39BTxswD9qEaw3Ca5qLy8Hh7UVWoGG_p5UM1KFVJM,866
+typedai/completions.py,sha256=3x5J20g8ZN4YI8E28CaN4KPuanj-V24Ns4vTdKwT-20,4552
+typedai/config.py,sha256=6p38yseDw6uvGEQRLG__-cKlEUtA8JwSx4_6tS2vNpE,1756
+typedai/errors.py,sha256=kTw67oa3Zfml33prJGsN8MUN0sQiQwJ1OFmIKXO-gX4,811
+typedai/messages.py,sha256=KlVHi5EAMDWAPKGw19Nd8g0EPUDae2mdPt3Ms1tsNvg,457
+typedai/models.py,sha256=dV02JyrRgwEhHtKDKNfZbBRLW9p9emxgwOrrFXVzAn8,7146
+typedai/util.py,sha256=SbdghDZKknYtC87Caahb7yR5mit78Ywja5U6toC6-04,1541
+eidolon_typedai-0.1.1.dist-info/METADATA,sha256=jv7wRflJs3sJJSjtL9wmoWT0A_gu20ruZW50ndICTdQ,4477
+eidolon_typedai-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+eidolon_typedai-0.1.1.dist-info/RECORD,,
