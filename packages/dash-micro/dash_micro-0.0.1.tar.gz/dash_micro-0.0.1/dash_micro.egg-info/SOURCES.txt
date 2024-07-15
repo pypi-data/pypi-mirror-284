@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_micro.egg-info/PKG-INFO
+dash_micro.egg-info/SOURCES.txt
+dash_micro.egg-info/dependency_links.txt
+dash_micro.egg-info/top_level.txt
+micro/metadata.json
+micro/micro.min.js
+micro/micro.min.js.map
+micro/package-info.json
+micro/css/micro.css
