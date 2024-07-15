@@ -1,0 +1,2 @@
+[console_scripts]
+hi-minju210 = hi_minju210.hello:hi
