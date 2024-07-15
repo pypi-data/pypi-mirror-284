@@ -1,0 +1,15 @@
+.codespell-whitelist.txt
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+pyproject.toml
+tox.ini
+.github/merge_rules.yaml
+.github/workflows/push.yaml
+nuclearacids/__init__.py
+nuclearacids/_version.py
+nuclearacids.egg-info/PKG-INFO
+nuclearacids.egg-info/SOURCES.txt
+nuclearacids.egg-info/dependency_links.txt
+nuclearacids.egg-info/requires.txt
+nuclearacids.egg-info/top_level.txt
