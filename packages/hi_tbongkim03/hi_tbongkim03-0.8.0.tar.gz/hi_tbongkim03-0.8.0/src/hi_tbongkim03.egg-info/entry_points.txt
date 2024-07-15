@@ -1,0 +1,2 @@
+[console_scripts]
+hi-tbongkim03 = hi_tbongkim03.hello:hi
