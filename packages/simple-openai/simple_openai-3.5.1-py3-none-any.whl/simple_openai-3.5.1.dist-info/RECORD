@@ -1,0 +1,14 @@
+simple_openai/__init__.py,sha256=5iFMjYEk4SAWboNV27pGDvjSiXrmHwbJkFMHnAho75Q,223
+simple_openai/async_simple_openai.py,sha256=1Zs_n_G4DwxFvoqj2UDhy0j52t-bbyIb_wIApK0UGSE,13806
+simple_openai/chat_manager.py,sha256=fpQdxclg0H_pRrxzJ8L_4YTvPMUfXYYDRKkVodpcro4,4819
+simple_openai/constants.py,sha256=MfFl794ZWOXQVnNL10AitrBSIz1gOQvh4Z-EkDv3m9U,349
+simple_openai/function_manager.py,sha256=L2kS1obtyxUvdWHFhKWMw0KHI3O0EXnJcoqKTYz1gBM,3853
+simple_openai/responses.py,sha256=7oMkK1fG55Z9e0qZdSo6avpbG4ymwEUH0fs4LZDGwe0,680
+simple_openai/simple_openai.py,sha256=fUJhTeHn76P6jl8y1iJAKWY0M1HF0pRWYyFhmkHu10s,11781
+simple_openai/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_openai/models/open_ai_models.py,sha256=90oz-afXe2CEckFew5eeeXHDe9OS83pgKb9jpCjEdsc,2829
+simple_openai-3.5.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simple_openai-3.5.1.dist-info/METADATA,sha256=zZcTEKEess9hDofDrVdCH5Ygg9uI1WrToEtsx9UWQXc,17914
+simple_openai-3.5.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+simple_openai-3.5.1.dist-info/top_level.txt,sha256=-BveGCFxpkE2yo1_RnjAHqsTFSXyD2Oin7Dz2shcROQ,14
+simple_openai-3.5.1.dist-info/RECORD,,
