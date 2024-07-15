@@ -1,0 +1,10 @@
+generify/__init__.py,sha256=Qk9-UUZo7SCMTPfmG6um_49HQQJfSGkwdsrBrcPkL4g,150
+generify/conftest.py,sha256=_BwNiDRacvcMd2qM9kh5P0Y1ol-uejTvc9kmZo0Vsok,285
+generify/convert.py,sha256=K3A8ICAcd7cCmdHpsX5hd1-zogR1ZyiZ-7AzGH4AE5E,4182
+generify/test_generify.py,sha256=HZ7nnNa4qo851o9_8UQX5h4vHfA3wGfnceWCHz3xbiM,5261
+generify/version.py,sha256=bh-9VzCNdUyjUdF_uusExHPt5DncKidopXMFmco8J9c,44
+generify-0.0.0.dist-info/LICENSE,sha256=ksSCYogxm_wYTNj0gr-V4XKr53coVCD91YYc-1wH3OE,1068
+generify-0.0.0.dist-info/METADATA,sha256=rfAQpowCg9AO8GiWOfbUMllc1vzIvjtxEHowAgkejxY,1219
+generify-0.0.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+generify-0.0.0.dist-info/top_level.txt,sha256=gLeAmWqPB8wLuYKqoDiyycSgjDp5R0PciITzTy2OJv4,9
+generify-0.0.0.dist-info/RECORD,,
