@@ -1,0 +1,20 @@
+
+# Changelog
+All notable changes to wuttaweb will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## v0.2.0 (2024-07-14)
+
+### Feat
+
+- add basic support for menu handler
+
+- add "web handler" feature; it must get the menu handler
+
+## v0.1.0 (2024-07-12)
+
+### Feat
+
+- basic support for WSGI app, views, templates
