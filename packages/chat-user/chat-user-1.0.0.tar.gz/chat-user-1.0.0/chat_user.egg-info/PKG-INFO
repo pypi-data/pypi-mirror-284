@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: chat-user
+Version: 1.0.0
+Summary: Streamlit component that styles user lists.
+Home-page: UNKNOWN
+Author: Jason O'Neal
+Author-email: jason.allen.oneal@gmail.com
+License: UNKNOWN
+Description: # chat-user
+        
+        Streamlit component that allows you to do X
+        
+        ## Installation instructions
+        
+        ```sh
+        pip install chat-user
+        ```
+        
+        ## Usage instructions
+        
+        ```python
+        import streamlit as st
+        
+        from chat_user import chat_user
+        
+        user1 = {
+          "id": 1,
+          "name": "user1",
+          "socket": "",
+          "admin": False,
+        }
+        
+        user2 = {
+          "id": 2,
+          "name": "user2",
+          "socket": "",
+          "admin": False,
+        }
+        
+        u1 = chat_user(user1, True)
+        print(u1)
+        
+        u2 = chat_user(user2, False)
+        print(u2)
+        ```
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: devel
