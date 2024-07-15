@@ -1,0 +1,11 @@
+COPYING
+COPYING.LESSER
+README.md
+bsdd.py
+pyproject.toml
+bsdd.egg-info/PKG-INFO
+bsdd.egg-info/SOURCES.txt
+bsdd.egg-info/dependency_links.txt
+bsdd.egg-info/requires.txt
+bsdd.egg-info/top_level.txt
+tests/test_bsdd.py

@@ -1,0 +1,5 @@
+requests
+
+[dev]
+coverage[toml]>=6.5
+pytest
