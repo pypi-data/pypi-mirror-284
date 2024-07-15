@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+binaryconvert.egg-info/PKG-INFO
+binaryconvert.egg-info/SOURCES.txt
+binaryconvert.egg-info/dependency_links.txt
+binaryconvert.egg-info/top_level.txt
+src/__init__.py
+src/convert.py

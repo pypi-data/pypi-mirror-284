@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: binaryconvert
+Version: 1.0
+Summary: A super easy Python tool that converts your text into binary language (8-bit).
+Home-page: https://github.com/wfxey/binaryconvert
+Download-URL: https://github.com/wfxey/binaryconvert/archive/refs/tags/v1.0.tar.gz
+Author: wfxey
+Author-email: projectsdi02@gmail.com
+License: MIT
+Keywords: binary,8-bit,text-to-binary
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# binaryconvert
+A super easy python tool that converts your text in binary language 8x Bit.
+
