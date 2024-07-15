@@ -1,0 +1,17 @@
+asaaspy-0.1.0.dist-info/METADATA,sha256=rcoXh9NdaKvzDo4QB-_e2kb-D1_7ZM9_kcAfqouexUs,1600
+asaaspy-0.1.0.dist-info/WHEEL,sha256=mbxFTmdEUhG7evcdMkR3aBt9SWcoFBJ4CDwnfguNegA,90
+asaaspy-0.1.0.dist-info/licenses/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+asaaspy/__init__.py,sha256=Pu8O4Jx9pJAnySFKnriQ-6JkvhQbeTtuFhRQAwDAWNs,55
+asaaspy/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asaaspy/client/base.py,sha256=_O_2nZFTyJxE3Alvl--OxeqFtJfcXPnjCMFjcViJptY,1287
+asaaspy/client/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asaaspy/client/resources/customer.py,sha256=dJYCCKHVTgou0HlEzVJLffISsOvn78ylvFu-lY9BaJQ,1514
+asaaspy/client/resources/payment.py,sha256=sK8jbC6EytJQGD1uLVcHcmNFu-5Qnu4bCCV7fam9Yxw,446
+asaaspy/constants.py,sha256=LHhf9h8Uerku4pOjBw3hFoxc8Y_WfyyVjZmLXYi1VEo,137
+asaaspy/log.py,sha256=avy0M64nGzGt5IG847LUXsnTl4efBx0cM_cLyVgkgFE,70
+asaaspy/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asaaspy/schemas/base.py,sha256=JjtYQc0Rsk4YPAc21U7x28bMHVlCicytFxcfaadVb9Q,858
+asaaspy/schemas/customer.py,sha256=UeFXT59tOnDc6zo3g2Nj39N6blRWaxy3IwS3xH4NraU,1594
+asaaspy/schemas/payment.py,sha256=JzcSvRcJTxQmgh79G9Ere87sZyp8LI3oi2R9A-XH3u8,3519
+asaaspy/service.py,sha256=y6S2TYQplZWp1dhflVUqMlK8-4JiBOS_ODdvwd9IrVY,643
+asaaspy-0.1.0.dist-info/RECORD,,
