@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jsj"
+version = "0.3.1"
+authors = [
+    {name="Mark Tobin"},
+]
+dependencies = [
+    "requests",
+    "Lindex",
+]
+description="JavaScript QoL for JSON in python"
+readme="README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+# dynamic = ["dependencies"]
+
+# [tool.setuptools.dynamic]
+# dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+Homepage = "https://github.com/some1and2-XC/jsj"
+GitHub = "https://github.com/some1and2-XC/jsj"
