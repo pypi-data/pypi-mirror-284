@@ -1,0 +1,9 @@
+README.md
+setup.py
+googledata/__init__.py
+googledata/user_agents.py
+googledata.egg-info/PKG-INFO
+googledata.egg-info/SOURCES.txt
+googledata.egg-info/dependency_links.txt
+googledata.egg-info/requires.txt
+googledata.egg-info/top_level.txt
