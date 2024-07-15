@@ -1,0 +1,3 @@
+MetodoParaFuncionesMultivariadas
+MetodosParaFuncionesDeUnaVariable
+Parcial1

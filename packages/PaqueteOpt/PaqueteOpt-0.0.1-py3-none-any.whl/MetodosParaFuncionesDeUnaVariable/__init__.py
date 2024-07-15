@@ -1,0 +1,9 @@
+#Metodos De Eliminacion De Regiones
+from .MetodosDeEliminacionDeRegiones.Metodo_Division_Intervalos import division_por_intervalos
+from .MetodosDeEliminacionDeRegiones.Busqueda_Fibonacci import busqueda_fibonacci
+from .MetodosDeEliminacionDeRegiones.Metodo_Seccion_Dorada import busqueda_seccion_dorada
+
+#Metodos Basados En La Derivada
+from .MetodosBasadosEnLaDerivada.Metodo_Newton_Raphson import metodo_newton_raphson
+from .MetodosBasadosEnLaDerivada.Metodo_Biseccion import encontrar_raiz
+from .MetodosBasadosEnLaDerivada.Metodo_Secante import met_secante
