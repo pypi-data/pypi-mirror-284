@@ -1,0 +1,8 @@
+irontorch/__init__.py,sha256=G6x2v7QJStrV9ZS8_UQidRCldGAkFuWYqEx-5F-4MDw,51
+irontorch/distributed/__init__.py,sha256=IyoWXpmMDznZO8HuUhj1uKu9-sWk_UOBv1GFKirJc8c,43
+irontorch/distributed/distributed.py,sha256=wYDyXiL83pzcSg8TCKloHNscKnYnaTTa74Oa_0V80no,595
+irontorch-0.0.5.dist-info/LICENSE,sha256=ITNkGD73N4tp8TzLaG4Vrw9sYh_V0xNRFDa-XD0fnMg,1064
+irontorch-0.0.5.dist-info/METADATA,sha256=elx7q4Snd05ZQ9YYSCSxJ36iinGfh1kMTP0_OILjK3Y,272
+irontorch-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+irontorch-0.0.5.dist-info/top_level.txt,sha256=evsVS57OOt1qNz9HhMmkbb0t4Fw9lH4jLbRXm2DNVdM,10
+irontorch-0.0.5.dist-info/RECORD,,
