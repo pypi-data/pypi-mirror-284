@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PaqueteOpt
+Version: 0.0.1
+Summary: Proyecto Optimizacion: Paquete de optimizacion
+Author: Mario Zepeda
+Author-email: <ux21ii039@ux.edu.mx>
+Keywords: python,primer paquete,PaqueteOptimizacion
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Paquete de todos los algoritmos que hicimos a lo largo del semestre
