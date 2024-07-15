@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hi_dohyun
+Version: 0.2.0
+Summary: Default template for PDM package
+Author-email: rlaehgus97 <starkim625@gmail.com>
+License: MIT
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+
+# hi_dohyun
