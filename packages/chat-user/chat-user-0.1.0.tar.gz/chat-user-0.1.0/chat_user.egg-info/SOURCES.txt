@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+chat_user/__init__.py
+chat_user/example.py
+chat_user.egg-info/PKG-INFO
+chat_user.egg-info/SOURCES.txt
+chat_user.egg-info/dependency_links.txt
+chat_user.egg-info/requires.txt
+chat_user.egg-info/top_level.txt
+chat_user/frontend/build/asset-manifest.json
+chat_user/frontend/build/bootstrap.min.css
+chat_user/frontend/build/index.html
+chat_user/frontend/build/static/js/main.1caf1f65.js
+chat_user/frontend/build/static/js/main.1caf1f65.js.LICENSE.txt
+chat_user/frontend/build/static/js/main.1caf1f65.js.map
