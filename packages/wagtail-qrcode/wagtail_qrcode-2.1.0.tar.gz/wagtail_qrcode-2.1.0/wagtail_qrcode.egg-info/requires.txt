@@ -1,0 +1,10 @@
+Wagtail>=4.1
+PyQRCode<2,>=1
+
+[development]
+black==24.4.2
+flake8==7.1.0
+isort==5.13.0
+
+[testing]
+coverage
