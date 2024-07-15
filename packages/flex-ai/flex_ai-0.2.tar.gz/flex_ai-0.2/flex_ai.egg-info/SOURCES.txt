@@ -1,0 +1,9 @@
+README.md
+setup.py
+flex_ai/__init__.py
+flex_ai/client.py
+flex_ai.egg-info/PKG-INFO
+flex_ai.egg-info/SOURCES.txt
+flex_ai.egg-info/dependency_links.txt
+flex_ai.egg-info/requires.txt
+flex_ai.egg-info/top_level.txt
