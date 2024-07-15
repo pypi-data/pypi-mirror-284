@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+include dbsys/py.typed
+recursive-include tests *.py
