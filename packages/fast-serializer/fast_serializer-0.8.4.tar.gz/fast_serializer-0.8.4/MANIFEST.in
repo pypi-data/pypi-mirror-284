@@ -1,0 +1,2 @@
+include README.MD
+include fast_serializer/*.c
