@@ -1,0 +1,2 @@
+[console_scripts]
+hi-nicou11 = hi_nicou11.hello:hi
