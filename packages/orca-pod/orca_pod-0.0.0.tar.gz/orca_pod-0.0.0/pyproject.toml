@@ -1,0 +1,4 @@
+[project]
+name = "orca-pod"
+description = "Package for deploying pods, pipelines, and workloads"
+version = "0.0.0"
