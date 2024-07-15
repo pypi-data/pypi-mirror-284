@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dfa-gen
+Version: 0.1
+Summary: Python package for generating mRNA DFA from protein sequence and visualizing it as a graph image
+Requires-Dist: pandas
+Requires-Dist: graphviz
+
