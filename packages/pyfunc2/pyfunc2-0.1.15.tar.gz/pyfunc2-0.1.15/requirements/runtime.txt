@@ -1,0 +1,16 @@
+build==1.2.1
+certifi==2024.7.4
+charset-normalizer==3.3.2
+hatchling==1.25.0
+idna==3.7
+iniconfig==2.0.0
+packaging==24.1
+path==16.14.0
+pathspec==0.12.1
+pluggy==1.5.0
+pyproject_hooks==1.1.0
+pytest==8.2.2
+requests==2.32.3
+toml==0.10.2
+trove-classifiers==2024.7.2
+urllib3==2.2.2
