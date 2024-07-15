@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.16.0b2
+--------
+
+* Add ChargingMode.NO\_ACTION (#634)
