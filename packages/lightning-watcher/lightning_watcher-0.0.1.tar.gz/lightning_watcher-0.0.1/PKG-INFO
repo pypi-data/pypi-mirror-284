@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lightning-watcher
+Version: 0.0.1
+Summary: Uses GOES data to monitor lightning strikes within a set radius and provide notifications.
+Author-email: Ethan Shafer <ethan.h.shafer@gmail.com>
+Project-URL: Homepage, https://github.com/shafe123/lightning-watcher
+Project-URL: Issues, https://github.com/shafe123/lightning-watcher/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lightning_watcher
+Goal is to monitor a given radius R around a point P for lightning strikes within the last X minutes.  Provide notifications to other services regarding the strikes.
+
+# Getting Started
+1. pip install -r requirements.txt
+1. install pre-commit hooks
+1. install pytest-cov

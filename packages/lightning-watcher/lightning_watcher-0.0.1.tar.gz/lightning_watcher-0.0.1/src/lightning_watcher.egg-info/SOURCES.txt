@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/lightning_watcher.egg-info/PKG-INFO
+src/lightning_watcher.egg-info/SOURCES.txt
+src/lightning_watcher.egg-info/dependency_links.txt
+src/lightning_watcher.egg-info/top_level.txt
+src/lightningwatcher/__init__.py
+tests/test_lightningwatcher.py
