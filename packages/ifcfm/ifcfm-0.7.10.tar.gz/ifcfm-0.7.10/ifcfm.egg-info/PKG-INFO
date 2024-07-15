@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ifcfm
+Version: 0.7.10
+Summary: Extract data from IFC following facility management standards
+Author-email: Dion Moult <dion@thinkmoult.com>
+Project-URL: Homepage, http://ifcopenshell.org
+Project-URL: Documentation, https://docs.ifcopenshell.org
+Project-URL: Issues, https://github.com/IfcOpenShell/IfcOpenShell/issues
+Keywords: IFC,FM,BIM
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: COPYING.LESSER
+Requires-Dist: ifcopenshell
+Requires-Dist: openpyxl
+Requires-Dist: odfpy
+Requires-Dist: pandas
+
+# IfcFM
+
+IfcFM is a library that handles the extraction and analysis of IFC data for the
+purposes of facility management.
+
+It is currently a prototype and will supersede the IfcCOBie library. It is
+planned to support workflows related to the old COBie standard, as well as
+upcoming IFC Facility Management related MVDs.

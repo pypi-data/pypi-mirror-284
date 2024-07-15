@@ -1,0 +1,14 @@
+COPYING
+COPYING.LESSER
+README.md
+pyproject.toml
+ifcfm/__init__.py
+ifcfm/__main__.py
+ifcfm/basic.py
+ifcfm/cobie24.py
+ifcfm/cobie24legacy.py
+ifcfm.egg-info/PKG-INFO
+ifcfm.egg-info/SOURCES.txt
+ifcfm.egg-info/dependency_links.txt
+ifcfm.egg-info/requires.txt
+ifcfm.egg-info/top_level.txt
