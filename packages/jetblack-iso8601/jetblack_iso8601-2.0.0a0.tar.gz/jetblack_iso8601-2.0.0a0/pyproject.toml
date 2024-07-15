@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "jetblack-iso8601"
+version = "2.0.0-alpha.0"
+description = "ISO 8601 support"
+repository = "https://github.com/rob-blackbourn/jetblack-iso8601"
+authors = ["Rob Blackbourn <rob.blackbourn@gmail.com>"]
+keywords = ['iso8601', 'jetblack']
+license = "Apache-2.0"
+readme = "README.md"
+packages = [
+  { include = "jetblack_iso8601" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^1.10"
+pylint = "^3.2"
+pytest = "^8.2"
+mkdocs = "^1.6"
+mkdocs-material = "^9.5"
+jetblack-markdown = "^1.2"
+mike = "^2.1.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
