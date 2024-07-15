@@ -1,0 +1,16 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+geteventforhumans/LICENSE.txt
+geteventforhumans/README.MD
+geteventforhumans/__init__.py
+geteventforhumans/parsekeyevents.py
+geteventforhumans/requirements.txt
+geteventforhumans/thirdparty.json
+geteventforhumans.egg-info/PKG-INFO
+geteventforhumans.egg-info/SOURCES.txt
+geteventforhumans.egg-info/dependency_links.txt
+geteventforhumans.egg-info/requires.txt
+geteventforhumans.egg-info/top_level.txt

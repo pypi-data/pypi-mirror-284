@@ -1,0 +1,5 @@
+include geteventforhumans/requirements.txt
+include geteventforhumans/thirdparty.json
+include geteventforhumans/LICENSE.txt
+include geteventforhumans/README.MD
+include geteventforhumans/parsekeyevents.py
