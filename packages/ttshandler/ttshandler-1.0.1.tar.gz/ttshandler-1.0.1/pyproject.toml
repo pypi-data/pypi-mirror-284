@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ttshandler"
+version = "1.0.1"
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "gtts",
+  "pyttsx3",
+  "pydub"
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Arijit Kumar Das", email = "arijitkdgit.official@gmail.com"}
+]
+
+description = "A Python library that provides a simple and intuitive API for seamless interfacing with text-to-speech libraries like gtts and pyttsx3."
+readme = "README.md"
+keywords = ["tts", "gtts", "pyttsx3", "Text to Speech", "TTSHandler", "Google Text to Speech"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  
+  "License :: OSI Approved :: MIT License",
+  
+  "Intended Audience :: Developers",
+  
+  "Topic :: Software Development :: Build Tools",
+  
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12"
+]
+
+[project.urls]
+Homepage = "https://github.com/ArijitKD/ttshandler"
+Repository = "https://github.com/ArijitKD/ttshandler.git"
+Issues = "https://github.com/ArijitKD/ttshandler/issues"
