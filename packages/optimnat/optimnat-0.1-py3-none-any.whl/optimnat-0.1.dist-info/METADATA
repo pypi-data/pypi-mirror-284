@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: optimnat
+Version: 0.1
+Summary: Paquete de métodos de optimización para funciones de una variable y multivariables
+Home-page: https://github.com/n4tJM/optimnat_project
+Author: Natalia Jarquin
+Author-email: ux21ii179@ux.edu.mx
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MÃ©todos de OptimizaciÃ³n
+
+Este paquete proporciona mÃ©todos de optimizaciÃ³n para funciones de una variable y multivariadas.
+
+El contenido del paquete incluye los siguientes mÃ©todos:
+
+MÃ©todos para funciones de una variable:
+    MÃ©todos de eliminaciÃ³n de regiones
+        MÃ©todo de divisiÃ³n de intervalos por la mitad
+        BÃºsqueda de Fibonacci
+        MÃ©todo de la secciÃ³n dorada
+    MÃ©todos basados en la derivada
+        MÃ©todo de Newton-Raphson
+        MÃ©todo de bisecciÃ³n
+        MÃ©todo de la secante
+
+MÃ©todos para funciones multivariadas:
+    MÃ©todos directos
+        Caminata aleatoria
+        MÃ©todo de Nelder y Mead (Simplex)
+        MÃ©todo de Hooke-Jeeves
+    MÃ©todos de gradiente
+        MÃ©todo de Cauchy
+        MÃ©todo de Fletcher-Reeves
+        MÃ©todo de Newton
+
+## InstalaciÃ³n
+
+Puedes instalar el paquete usando `pip`:
+
+```sh
+pip install optimnat
