@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/telegram_tdata_decrypter/__init__.py
+src/telegram_tdata_decrypter/crypto.py
+src/telegram_tdata_decrypter/decrypter.py
+src/telegram_tdata_decrypter/file_io.py
+src/telegram_tdata_decrypter/qt.py
+src/telegram_tdata_decrypter/settings.py
+src/telegram_tdata_decrypter/storage.py
+src/telegram_tdata_decrypter/tdf.py
+src/telegram_tdata_decrypter.egg-info/PKG-INFO
+src/telegram_tdata_decrypter.egg-info/SOURCES.txt
+src/telegram_tdata_decrypter.egg-info/dependency_links.txt
+src/telegram_tdata_decrypter.egg-info/requires.txt
+src/telegram_tdata_decrypter.egg-info/top_level.txt
