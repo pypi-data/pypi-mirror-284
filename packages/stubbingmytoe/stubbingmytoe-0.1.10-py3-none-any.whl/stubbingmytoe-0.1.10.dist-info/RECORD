@@ -1,0 +1,10 @@
+stubbingmytoe/__init__.py,sha256=YNiG4Km7KdlrKkF6dzQDbT6xemxOynmHJLfGEWwwCBk,209
+stubbingmytoe/extractor.py,sha256=ZqrxeeqNXQGiuPiMmskwpaBsAijkm4Rj_sFqVnF2LSk,3924
+stubbingmytoe/color_extractor/__init__.py,sha256=8nXus45utW5nJKzNccTGaDbxjFVfCqlYegA16dGaPNM,190
+stubbingmytoe/color_extractor/extractor.py,sha256=ZqrxeeqNXQGiuPiMmskwpaBsAijkm4Rj_sFqVnF2LSk,3924
+stubbingmytoe-0.1.10.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stubbingmytoe-0.1.10.dist-info/METADATA,sha256=VcJL4DSmtCslgbsIsxLRvnw7TwEenDYAxNAqgY55zJo,3723
+stubbingmytoe-0.1.10.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+stubbingmytoe-0.1.10.dist-info/entry_points.txt,sha256=FJGx4f_FLBGJ4vPZNDF_b1yALTI_FLCG2B9Xz7ENfBU,90
+stubbingmytoe-0.1.10.dist-info/top_level.txt,sha256=sT4QgmtqJ4WCURmfrfP1xWdWyUK9TaWTgZkZX1NODt4,14
+stubbingmytoe-0.1.10.dist-info/RECORD,,

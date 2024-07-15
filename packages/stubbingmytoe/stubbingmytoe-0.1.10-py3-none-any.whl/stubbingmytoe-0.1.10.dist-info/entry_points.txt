@@ -1,0 +1,2 @@
+[console_scripts]
+color_extractor = stubbingmytoe.color_extractor.extractor:proccessImage

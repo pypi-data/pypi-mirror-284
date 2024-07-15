@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: stubbingmytoe
+Version: 0.1.10
+Summary: A package that includes various tools, including a color extractor
+Home-page: https://github.com/macturnerr2002/stubbingmytoe
+Author: macturner
+Author-email: mac@stubbingmytoe.ca
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: jinja2
+
+# stubbingmytoe
+
+`stubbingmytoe` is a Python package that includes various tools, including a color extractor that processes images to extract the most common colors and generate visual representations.
+
+## Installation
+
+To install the package, use pip:
+
+```sh
+pip3 install stubbingmytoe
+```
+
+## Dependencies
+
+The package requires the following dependencies:
+
+- opencv-python
+- numpy
+- scikit-learn
+- tqdm
+- matplotlib
+- jinja2
+
+These dependencies will be installed automatically when you install the package.
+
+## Usage
+
+### Color Extractor
+
+The color extractor processes images to extract the most common colors and generate visual representations of those colors. Here's how to use it:
+
+#### Example Usage
+
+```python
+from stubbingmytoe.color_extractor.extractor import proccessImage
+
+image_path = './dataset/starry_night.jpg'
+proccessImage(image_path, 'starrynight', resolution=5, cycles=20, depth=1000, multiplier=5)
+```
+
+#### Parameters
+
+- `image_path` (str): Path to the image file.
+- `name` (str): Name of the project or image being processed.
+- `resolution` (int): Number of colors to extract in each clustering step (default is 5).
+- `cycles` (int): Number of secondary clustering cycles to perform (default is 10).
+- `depth` (int): Number of initial clustering iterations (default is 100).
+- `multiplier` (int): Multiplier for the number of colors to extract in the initial clustering step (default is 1).
+
+### Functions
+
+- `most_common_colors(color_list, res)`: Returns the most common colors from a list.
+- `preprocess_image(image_path)`: Preprocesses an image for color extraction.
+- `proccess_pixels(hex_colors, res)`: Processes a list of hexadecimal color values.
+- `extract_colors(pixels, num_colors=5)`: Extracts a specified number of colors from an image.
+- `plot_colors(color_tuples, save_path=None)`: Plots the extracted colors.
+- `apply_effect(colors, effect)`: Applies an effect to the extracted colors (e.g., 'vivid', 'pastels').
+- `initial_cluster(image_path, effect='standard', suffix=None, name='default', res=5, multiplier=1)`: Performs the initial color clustering on an image.
+- `secondary_cluster(hex, effect='standard', suffix=None, name='default', res=5)`: Performs secondary clustering on a list of colors.
+- `cache(path, package)`: Caches intermediate results.
+- `rgb_to_hex(rgb)`: Converts an RGB color to its hexadecimal representation.
+- `render_html(image_path, final, output_path='output.html')`: Renders the final color results to an HTML file.
+- `proccessImage(image_path, name, resolution=5, cycles=10, depth=100, multiplier=1)`: Main function to process an image and extract colors.
+
+### Command Line Interface (CLI)
+
+You can also use the color extractor from the command line. The `proccessImage` function is exposed as a CLI command.
+
+```sh
+color_extractor <image_path> <name> [resolution] [cycles] [depth] [multiplier]
+```
+
+Example:
+
+```sh
+color_extractor ./dataset/starry_night.jpg starrynight 5 20 1000 5
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+
+Your Name (your.email@example.com)
