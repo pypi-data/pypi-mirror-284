@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: carter-analytics-python-sdk
+Version: 0.1.0
+Summary: The Carter Analytics SDK is a powerful tool for tracking and analyzing user interactions in your Python applications. It provides a straightforward way to capture a wide range of events and send them to the Carter Analytics platform for processing and analysis.
+Home-page: https://github.com/shyftlabs/carter-analytics-python-sdk
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.31.0
+Requires-Dist: setuptools >=69.2.0
+Requires-Dist: tenacity >=8.2.3
+
+# Carter Analytics SDK
+
+The Carter Analytics SDK is a powerful tool for tracking and analyzing user interactions in your Python applications. It provides a straightforward way to capture a wide range of events and send them to the Carter Analytics platform for processing and analysis.
+
+## Installation
+To install the Carter Analytics SDK, use pip:
+
+```bash
+pip install carter_analytics_sdk (Future scoping)
+```
+
+## Importing the Client
+To get started with the Carter Analytics SDK, you first need to import the carter_analytics_client from the SDK package:
+
+```bash
+from carter_analytics_sdk import carter_analytics_client
+```
+
+## Initialization
+Before publishing any events, initialize the SDK with your configuration:
+
+```bash
+carter_analytics_client.initialize([
+    {
+        "client_id": "your_client_id_here",
+        "options": {
+            # Additional options here
+        }
+    }
+])
+```
+
+## Publishing Events
+The Carter Analytics SDK provides a variety of methods to publish different types of events. Here's how to use some of the key methods:
+
+## Core Events
+Page View
+```bash
+carter_analytics_client.publish_page_view()
+```
+### Search
+```bash
+carter_analytics_client.publish_search(query="your_search_query")
+```
+### Sign Up
+```bash
+carter_analytics_client.publish_signup(method="signup_method", user_id="user123")
+```
+### Login
+```bash
+carter_analytics_client.publish_login(method="login_method", user_id="user123")
+```
+## Product Interactions
+### Product View
+```bash
+product = ProductItem(id="product_id", price=19.99, currency="USD", title="Product Title")
+carter_analytics_client.publish_product_view(product)
+```
+## Shopping Cart Actions
+### Add to Cart
+```bash
+cart_item = CartItem(id="product_id", price=19.99, currency="USD", title="Product Title", quantity=1)
+carter_analytics_client.publish_add_to_cart(cart_amount=19.99, currency="USD", cart_items=[cart_item])
+```
+## Checkout Process
+### Checkout Start
+```bash
+checkout_event = CheckoutStartEvent(token="checkout_token", amount=59.97, currency="USD", items=[cart_item], ...)
+carter_analytics_client.publish_checkout_start(checkout_event)
+```
+## Additional Methods
+The SDK also supports publishing custom events, removing items from the cart, updating cart items, viewing the cart, completing a checkout, and canceling a checkout. For details on these and other methods, refer to the SDK documentation.
+
+## Starting the Background Worker
+To process and send events to the Carter Analytics platform, you must start the background worker:
+
+```bash
+carter_analytics_client.start_background_worker()
+```
+
