@@ -1,0 +1,7 @@
+setup.py
+narzo/__init__.py
+narzo/main.py
+narzo.egg-info/PKG-INFO
+narzo.egg-info/SOURCES.txt
+narzo.egg-info/dependency_links.txt
+narzo.egg-info/top_level.txt
