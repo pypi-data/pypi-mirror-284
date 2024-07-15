@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: srcview
+Version: 0.1.0
+Summary: Open a function or module's source code in your editor
+License: BSD
+Author: Yair Chuchem
+Author-email: yairchu@gmail.com
+Requires-Python: >=3.6
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# srcview
+
+Open a Python function or module's source code in your editor by using:
+
+```Python
+srcview.open(func)
+```
+
