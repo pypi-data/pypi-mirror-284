@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: custom_error
+Version: 1.0.0
+Summary: Create your custom errors and I have control of them with Custom Error
+Home-page: https://github.com/Anthonyzok521/pypi-custom-error
+Author: Anthony Carrillo
+Author-email: anthonyzok521@gmail.com
+License: MIT License
+        
+        Copyright (c) 2024 Anthony Carrillo AC GAMES
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: custom error,custom_error,python error,error,custom exception,custom,python exception,exception,custom_exception
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+
+# Custom Error
+
+Script to throw custom errors in Python
+
+> Create your custom errors and I have control of them with Custom Error
+
+## Use
+
+```python
+'''
+Test of the module Custome Error
+'''
+from custom_error import Error
+
+if __name__ == '__main__':
+    try:
+        number:float = -0.2
+
+        if number < 0.0 or number > 1.0:
+            raise Error("Only ranges between 0.0 and 1.0 are allowed", "Invalid Range")
+    except Error as e:
+        print(e.info())
+
+```
+
+## Sintax
+
+```python
+Error(message:str, type_error:str = '')
+```
+
+**type_error** (str): Type of the error (optional).<br>
+**message** (str): Error message (defaults to an empty string).
+
+```python
+Error('My message of error', 'Type of error (optional)')
+```
+
+## Show info of error
+```python
+err = Error('Erro1') #With instance
+print(err.info())   #Using method info() -> str
+
+print(Error("Error 2", "Test").info())
+```
