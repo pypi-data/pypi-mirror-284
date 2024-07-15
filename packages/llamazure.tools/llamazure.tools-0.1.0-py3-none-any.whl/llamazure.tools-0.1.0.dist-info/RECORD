@@ -1,0 +1,17 @@
+llamazure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llamazure/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llamazure/tools/migrate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llamazure/tools/migrate/__main__.py,sha256=YmV9b6xIsUUU-E2UInLvHRjIReBjZ1c494ccG43IbRQ,389
+llamazure/tools/migrate/dashboard.py,sha256=ZgO-A00_uFMrn8GTkQvCTriRgHPWed_Kh4MD-6OSy40,3682
+llamazure/tools/migrate/util.py,sha256=oN1d8CLFrU3D_xhs61ri1o86X9iuDtrPAESEX4c8rOU,781
+llamazure/tools/migrate/workbook.py,sha256=8h3C1LtZBgbQfIJWQli9VN9VpHRyw-GyrIqWihQdKkQ,3750
+llamazure/tools/migrate/applicationinsights/r/m/insights/workbooks.py,sha256=wYIyBjNp3Td_iSjk7D-0s8XnxhoC-E1-0e_Y5lJ0IYw,9104
+llamazure/tools/migrate/c/r/v1/types.py,sha256=wgqOSAYq_kjW0VKtU_v8GyOlRKSEfU94Uua87FhtIwg,6171
+llamazure/tools/migrate/c/r/v3/managedidentity.py,sha256=WkulEyr3Ma26s5IqbgHHlkzppMJL6nfPsE_SNS8M5KU,2440
+llamazure/tools/migrate/portal/r/m/portal/portal.py,sha256=J5aImwqgOLGQCxEGBfaltzkltn9Zr-6Q4CZTwAJ_jEc,7541
+llamazure.tools-0.1.0.dist-info/METADATA,sha256=egRlQBkFoBUeMfegG09lUTbhA2L4_q760bO1TVzwMRs,1993
+llamazure.tools-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+llamazure.tools-0.1.0.dist-info/entry_points.txt,sha256=Rf-1P2-ZCcah97aNoeSHgHCvjJMaL9y5uPg6tNK8XFQ,79
+llamazure.tools-0.1.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+llamazure.tools-0.1.0.dist-info/top_level.txt,sha256=4gbH0fcRQb_rEVCcLYRu_D2cVCdf0VYVCIi_f0PiMq4,10
+llamazure.tools-0.1.0.dist-info/RECORD,,
