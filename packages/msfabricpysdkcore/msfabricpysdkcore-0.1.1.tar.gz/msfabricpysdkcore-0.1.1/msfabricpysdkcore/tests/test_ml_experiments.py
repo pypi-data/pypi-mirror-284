@@ -1,0 +1,48 @@
+import unittest
+from datetime import datetime
+from dotenv import load_dotenv
+from time import sleep
+from msfabricpysdkcore.coreapi import FabricClientCore
+
+load_dotenv()
+
+class TestFabricClientCore(unittest.TestCase):
+
+    def __init__(self, *args, **kwargs):
+        super(TestFabricClientCore, self).__init__(*args, **kwargs)
+        #load_dotenv()
+        self.fc = FabricClientCore()
+        self.workspace_id = "c3352d34-0b54-40f0-b204-cc964b1beb8d"
+
+        datetime_str = datetime.now().strftime("%Y%m%d%H%M%S")
+        self.item_name = "testitem" + datetime_str
+        self.item_type = "Notebook"
+
+    
+    def test_ml_experiments(self):
+            
+        fc = self.fc
+        workspace_id = 'd8a5abe0-9eed-406d-ab46-343bc57ddbe5'
+        mlexperiment_name = "mlexp" + datetime.now().strftime("%Y%m%d%H%M%S")
+        mlexperiment_name2 = "mlexp2" + datetime.now().strftime("%Y%m%d%H%M%S")
+
+        ml_experiment = fc.create_ml_experiment(workspace_id, display_name=mlexperiment_name)
+        self.assertEqual(ml_experiment.display_name, mlexperiment_name)
+        
+        ml_experiments = fc.list_ml_experiments(workspace_id)
+        ml_experiment_names = [mle.display_name for mle in ml_experiments]
+        self.assertGreater(len(ml_experiments), 0)
+        self.assertIn(mlexperiment_name, ml_experiment_names)
+
+        mle = fc.get_ml_experiment(workspace_id, ml_experiment_name=mlexperiment_name)
+        self.assertIsNotNone(mle.id)
+        self.assertEqual(mle.display_name, mlexperiment_name)
+
+        mle2 = fc.update_ml_experiment(workspace_id, mle.id, display_name=mlexperiment_name2, return_item=True)
+
+        mle = fc.get_ml_experiment(workspace_id, ml_experiment_id=mle.id)
+        self.assertEqual(mle.display_name, mlexperiment_name2)
+        self.assertEqual(mle.id, mle2.id)
+
+        status_code = fc.delete_ml_experiment(workspace_id, mle.id)
+        self.assertEqual(status_code, 200)
