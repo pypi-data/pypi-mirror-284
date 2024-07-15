@@ -1,0 +1,2 @@
+[console_scripts]
+hi_EstherCho-7 = hi_esthercho_7.hello:hi
