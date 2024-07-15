@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: digitalsigtool
+Version: 0.1.0
+Summary: A tool to generate and verify digital signatures for files using SHA-256 and a secret key.
+Home-page: https://github.com/babaralijamali/digitalsigtool
+Author: Babar Ali Jamali
+Author-email: babar995@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Digital Signature Tool
+
+This tool generates and verifies digital signatures for files using SHA-256 hashing and a secret key.
+
+Version : 0.0.1
+
+
+
+## Installation
+
+You can install the package using pip:
+
+pip install digitalsigtool
+
+After Installing you will need to execute in command prompt or terminal directly using digitalsigtool
+
