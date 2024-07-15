@@ -1,0 +1,12 @@
+DepthFlow/Animation.py,sha256=2cFgDmxsMgaMtcdtNmcoyHCelYK3L6xqw0B6Jj4h-2Y,4992
+DepthFlow/Scene.py,sha256=1mGWB2mAcR-8IzttlOymIJA1gH4sZZAD0o_Yx0ZS9Qc,8662
+DepthFlow/State.py,sha256=H3HJhTxLl6usSsXOnFxnka4ftlCeffM-oOjzVZlur_E,10439
+DepthFlow/__init__.py,sha256=3wJ_KVyoFmaq704xX-3Jgh2-v95gF87865eji-bOiIA,301
+DepthFlow/__main__.py,sha256=9D-_Tomi_vyVjcsqy6t9gA_f0elxQ9W9RRCX0nZmsYM,239
+DepthFlow/Resources/Images/DepthFlow.png,sha256=oUlRG-luFGw_D4vEEK4YX_fyNlJVoosIp3fYTXRUld8,14623
+DepthFlow/Resources/Images/DepthFlow.svg,sha256=PJ4PG-Bg9guS_kCOrmWrjPAF4R7i9WG26zJIIjT4rmc,1445
+DepthFlow/Resources/Shaders/DepthFlow.glsl,sha256=BmS2RNXIDmBCQ3A4sgSYB8dPFXn3FQnjYDO0fUrhnSM,5164
+depthflow-0.4.0.dist-info/METADATA,sha256=mcDIuktqRPFax1yUAm5qFWpDvB97URxTQ4YXWgGi-b4,2464
+depthflow-0.4.0.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+depthflow-0.4.0.dist-info/entry_points.txt,sha256=co7Q3VWINp7TUTzYGYjCnJB1QVG_7jgBwmcZZGm1Y_I,54
+depthflow-0.4.0.dist-info/RECORD,,
