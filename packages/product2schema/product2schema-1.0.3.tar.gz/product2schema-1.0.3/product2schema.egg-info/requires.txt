@@ -1,0 +1,7 @@
+chompjs>1
+httpx>=0.20
+pydantic>=2.2
+wrapworks>=1
+rich>=10
+python-dotenv>=1
+bs4>=0.0.2
