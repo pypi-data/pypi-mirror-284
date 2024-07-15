@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+auto_tmux/__init__.py
+auto_tmux.egg-info/PKG-INFO
+auto_tmux.egg-info/SOURCES.txt
+auto_tmux.egg-info/dependency_links.txt
+auto_tmux.egg-info/entry_points.txt
+auto_tmux.egg-info/requires.txt
+auto_tmux.egg-info/top_level.txt

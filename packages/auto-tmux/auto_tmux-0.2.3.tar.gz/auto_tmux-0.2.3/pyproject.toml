@@ -1,0 +1,44 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-tmux"
+version = "0.2.3"
+requires-python = ">=3.9"
+readme = "README.md"
+license = {file = "LICENSE"}
+# author = "Calacuda"
+description = "yet another tmux automation script that takes yaml"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",  
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.9",
+    ]
+dependencies = [
+    "tqdm",
+    "pyaml",
+    "libtmux",
+]
+# readme = "README.md"
+# license = {file = "LICENSE"}
+authors = [
+    {name = "Calacuda"}
+]
+maintainers = [
+    {name = "Calacuda"}
+]
+# requires-python = ">=3.11"
+
+[project.urls]
+Repository = "https://github.com/calacuda/auto-tmux"
+
+[project.scripts]
+auto-tmux = "auto_tmux:run_cli"
