@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+neighborhood_correlation/__init__.py
+neighborhood_correlation/dictarray.py
+neighborhood_correlation/nc_base.py
+neighborhood_correlation/nchelparr_python.py
+neighborhood_correlation/tool.py
+neighborhood_correlation.egg-info/PKG-INFO
+neighborhood_correlation.egg-info/SOURCES.txt
+neighborhood_correlation.egg-info/dependency_links.txt
+neighborhood_correlation.egg-info/entry_points.txt
+neighborhood_correlation.egg-info/requires.txt
+neighborhood_correlation.egg-info/top_level.txt
+src/nchelparr.c
