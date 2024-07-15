@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+filmranking/__init__.py
+filmranking/country_analyzes.py
+filmranking/country_index.py
+filmranking/director_analyzes.py
+filmranking/main.py
+filmranking.egg-info/PKG-INFO
+filmranking.egg-info/SOURCES.txt
+filmranking.egg-info/dependency_links.txt
+filmranking.egg-info/entry_points.txt
+filmranking.egg-info/requires.txt
+filmranking.egg-info/top_level.txt
