@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cocheck
+Version: 0.1.1
+Summary: A simple site connectivity checker
+Home-page: https://github.com/onilooo/cocheck
+Author: Oliver Sthana
+Author-email: oliver@string.sk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: simple_colors
+
+# cocheck
+
+A simple site connectivity checker.
+
+## Installation
+
+pip install cocheck
