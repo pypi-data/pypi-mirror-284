@@ -1,0 +1,3 @@
+funciones_prueba
+metod_multivariable
+metod_univariable
