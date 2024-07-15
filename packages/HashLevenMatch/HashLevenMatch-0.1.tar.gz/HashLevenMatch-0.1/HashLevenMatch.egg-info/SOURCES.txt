@@ -1,0 +1,13 @@
+LICENSE.txt
+setup.py
+HashLevenMatch/Kmer.py
+HashLevenMatch/Parse.py
+HashLevenMatch/matchingProgram.py
+HashLevenMatch/matchingScript.py
+HashLevenMatch/setup.py
+HashLevenMatch.egg-info/PKG-INFO
+HashLevenMatch.egg-info/SOURCES.txt
+HashLevenMatch.egg-info/dependency_links.txt
+HashLevenMatch.egg-info/not-zip-safe
+HashLevenMatch.egg-info/requires.txt
+HashLevenMatch.egg-info/top_level.txt
