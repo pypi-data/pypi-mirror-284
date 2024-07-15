@@ -1,0 +1,6 @@
+python-dotenv
+pytz
+requests
+retrying
+selenium
+tqdm
