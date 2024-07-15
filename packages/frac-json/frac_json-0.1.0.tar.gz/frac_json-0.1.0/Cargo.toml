@@ -1,0 +1,2 @@
+[workspace]
+members = ["frac_json", "frac_json_py"]
