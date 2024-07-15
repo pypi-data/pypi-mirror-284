@@ -1,0 +1,14 @@
+funiculi/__init__.py,sha256=M0eiRzJFNdThnCHEA2BU0Lsj2NNG-TxnuonsqNLhRMQ,427
+funiculi/__main__.py,sha256=OpHipPxluofryzMDOifh9W54LC2cssHkBUVXpDuPjF4,87
+funiculi/api.py,sha256=HYuQhXXrlMg3Hw66hU62fIaXxJ_zAN_Zx43ve90Hp5I,5606
+funiculi/cli.py,sha256=aUHmKlB-vxlQ4hK4aVbidDuZOG2J7LG_RzI2O51nNaw,1025
+funiculi/errors.py,sha256=e1Thj15QNn2AI6nicBAsX1UQUnb0CW8z_KCJRvvyi0E,94
+funiculi/fire_workarounds.py,sha256=l2RMfMpDcgFSc65ckJbm3EpC1elJD8Ok0JkXi8IDGIk,786
+funiculi/logging.py,sha256=PYhVv1hxZfu8cvrYffTmJx8DHbUROPTNKFUPM386p_0,1141
+funiculi/settings.py,sha256=IvegKE6iha5B4Aj7_0NBxOGc4vjjGbjSwWDqw95NqB0,390
+funiculi/version.py,sha256=OUOhOd5Yq6ORTMhTvfH2CLPKZPGqYBGeMB9Ra782TIo,1080
+funiculi-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+funiculi-0.2.0.dist-info/METADATA,sha256=QoJSRx6tYc4tChSzil8-x9i_eBdHMO2Prk1r8gSdRXM,4138
+funiculi-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+funiculi-0.2.0.dist-info/entry_points.txt,sha256=0df6z27-T-xKCBlSb919JsYFQAvqOBtZdKwxAwCrqtI,45
+funiculi-0.2.0.dist-info/RECORD,,
