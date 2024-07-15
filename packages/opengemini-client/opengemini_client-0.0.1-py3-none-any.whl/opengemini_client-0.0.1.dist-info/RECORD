@@ -1,0 +1,17 @@
+opengemini_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opengemini_client/client.py,sha256=9dvrGvsYVK5W5J9Mxw4BGGLoHXujklzaOHsZ-AzTjME,1786
+opengemini_client/client_impl.py,sha256=sfVZNlAvaJkd0jSs1wj0Ts-YfKwMVnw_QrhU1mCHawI,9253
+opengemini_client/client_impl_test.py,sha256=eNbewKLf3ANYwtujviP5mYW7rhz0OVg7WrAJI8wVUGM,1962
+opengemini_client/database_test.py,sha256=Gg4TKvLfs9g3ED1OxPxGwAUmgaNN7f4gxPb8tk6We8Q,1683
+opengemini_client/models.py,sha256=S6EXCR3wOMtp_OQKPe0IPTEoYNw39oL4bGwv6UwjKcI,2407
+opengemini_client/ping_test.py,sha256=FhdNbURaYEGOqhzUYn70Q7jC9EUes2SO0sgfb0ymAH8,1098
+opengemini_client/query_test.py,sha256=hzDp_0UtCzKYifsbwaQOVIGunFShXOM1keeIyP35Y8Q,1014
+opengemini_client/retention_policy_test.py,sha256=UJS19YIzPxjnYnAXJvcyYTBxfgVExLCs2vQ2196Z24g,3741
+opengemini_client/test_utils.py,sha256=mAudhv9oU3naoCWVcInLZZNtyQrhFqKDEpewfZ2pf3U,672
+opengemini_client/url_const.py,sha256=5thZ1zMxG4NRFMJf9DeQzV7bJ7k1aIs6HMlOXDZz5Cw,391
+opengemini_client/utils.py,sha256=mW3mUAG9Ts70aEmLt_GiRaTkdaPVq0hpqbvWi5VXYog,313
+opengemini_client-0.0.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+opengemini_client-0.0.1.dist-info/METADATA,sha256=aptQjVfDuzjO0C-zU2FvZNfQ18JeFacrXU8AeqfmKSs,581
+opengemini_client-0.0.1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+opengemini_client-0.0.1.dist-info/top_level.txt,sha256=bUfeZUQS2p_6N0HOGgexuHzhzkbxT6erkcH4k0P-dX8,18
+opengemini_client-0.0.1.dist-info/RECORD,,

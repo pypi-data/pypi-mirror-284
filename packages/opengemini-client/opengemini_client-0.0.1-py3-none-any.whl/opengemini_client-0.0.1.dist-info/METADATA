@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: opengemini_client
+Version: 0.0.1
+Summary: A Python package for interacting with the opengemini
+Home-page: https://github.com/openGemini/opengemini-client-python.git
+Author: shoothzj
+Author-email: shoothzj@gmail.com
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# opengemini-client-python
+
+opengemini-client-python is a Python client for OpenGemini.
+
+English | [简体中文](README_CN.md) 
