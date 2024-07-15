@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+carter_analytics_python_sdk.egg-info/PKG-INFO
+carter_analytics_python_sdk.egg-info/SOURCES.txt
+carter_analytics_python_sdk.egg-info/dependency_links.txt
+carter_analytics_python_sdk.egg-info/requires.txt
+carter_analytics_python_sdk.egg-info/top_level.txt
+src/__init__.py
+src/core.py
+src/events.py
+src/exceptions.py
+src/models.py
+src/utils.py
+tests/test_init.py
