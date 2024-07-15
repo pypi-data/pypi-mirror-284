@@ -1,0 +1,16 @@
+streamlit_imp_sidebar/__init__.py,sha256=X8zIecY251i7Zu8EMUQ1zpvLyMtX1Axdum4lrE9j83g,1217
+streamlit_imp_sidebar/frontend/build/asset-manifest.json,sha256=LnLYaoLkcYmG3NclM8RivHh38QEAt6RPtQKjA74PxMk,374
+streamlit_imp_sidebar/frontend/build/bootstrap.min.css,sha256=X9ITP3t3djkRs4SffIkA1Q2WMy-oYl6au5HFYTVShe0,206960
+streamlit_imp_sidebar/frontend/build/imperial.png,sha256=RtRu_8qhuMHXuDYRLzqXYZD0y2Je618uzov-RWF3zGA,54038
+streamlit_imp_sidebar/frontend/build/index.html,sha256=7kqwZTbJUIdi50mhOAS6DZc3fEApfjWcrevlsoMhCwA,553
+streamlit_imp_sidebar/frontend/build/sidebar.png,sha256=dKcPX8ssPusoKMDsjsRzzZjjW7dkyZSiZMEx99omrbE,2543
+streamlit_imp_sidebar/frontend/build/static/css/main.08153d09.css,sha256=TpWO1b4qtHANI8tF0ui-PDsFSpHGCsTIm73kCVvmvyc,1302
+streamlit_imp_sidebar/frontend/build/static/css/main.08153d09.css.map,sha256=axDxoAE4w3yM7N4Gfe3aaFt3dH_97Wm_2i23M1ixs04,2835
+streamlit_imp_sidebar/frontend/build/static/js/main.bf7a4a33.js,sha256=APgQXiXCoKklRyuOC8Vpe6MGLTVbyEhjqZcVbmYQC6A,379629
+streamlit_imp_sidebar/frontend/build/static/js/main.bf7a4a33.js.LICENSE.txt,sha256=exOXYutzLwXRW-bBK7BpKHfmRqtlSgP_zSIJF-7epPs,1443
+streamlit_imp_sidebar/frontend/build/static/js/main.bf7a4a33.js.map,sha256=6gv3lyEMi_bkC_paR03HX87aeM4yKs7blKw7SGb4c3k,1350626
+streamlit_imp_sidebar-0.0.8.dist-info/LICENSE,sha256=SHkHX-qiNZt-ACArrZP67jppVYPvF8xuUDRjJw_E3L0,1082
+streamlit_imp_sidebar-0.0.8.dist-info/METADATA,sha256=zMVLpTeuvxH-RtzehLH7-4Ieo4WBfRgiqahktCHzshg,369
+streamlit_imp_sidebar-0.0.8.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+streamlit_imp_sidebar-0.0.8.dist-info/top_level.txt,sha256=1gJWdoOJrFR_dNx7oIJfudecHvyjx7jVpDSFINB3Xqo,22
+streamlit_imp_sidebar-0.0.8.dist-info/RECORD,,
