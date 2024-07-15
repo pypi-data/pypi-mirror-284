@@ -1,0 +1,17 @@
+videos/__init__.py,sha256=TMgwJRolZJNw0nSWVseJySowtDU2Q2t7dVuoaS8bKtc,104
+videos/details.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+videos/fresh.py,sha256=7pMOIRU6beJfBcX-K6W43O5_fpAcoqeol3ooNkt1r8M,352
+videos/search.py,sha256=32Q5OylyA4EIKo1VkU3qNtebTi8R1J-0c5kRJ47WIhc,594
+videos/verified.py,sha256=mW1u639UIy_SFGtq188yKIlpfx2-StRGNW-Hn2dgk1c,676
+videos/base/__init__.py,sha256=tg1wJSiws_PN5y0OMFMK6bycMkVZNe-pmbOjXQW7qL8,74
+videos/base/base.py,sha256=OfL-f8jBreoAHv2EdHS6yLT1IRJitez09d6xsNpYiNg,497
+videos/base/parser.py,sha256=Bj03QVEVg-KoNtj-OUwmDvU633Xg4Nxdxq42R6_0W9c,3908
+videos/base/video_scraper.py,sha256=_uuhvAt6hg4qindDPO-YvDwFiETIi5ZYsiutTKcpt9k,456
+videos/base/config/__init__.py,sha256=8k7aE32al0G9guz6of_rCUCOWOEBNItkwKKa9yKChHI,26
+videos/base/config/config.py,sha256=XUjbKzbhTvcpCwAd9a0Rfs4skcIHgyjdq21uUb_FX9g,653
+xvideos_py-0.1.0.dist-info/LICENSE,sha256=3x4lr8w2iImO4YhkOd0gnhN3E47tRYy4ZcfaJlP3l5I,1063
+xvideos_py-0.1.0.dist-info/METADATA,sha256=XNcGxOl2kHC23RsINu6WgAlqcFhI9q58KAC7880f9kE,3272
+xvideos_py-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+xvideos_py-0.1.0.dist-info/entry_points.txt,sha256=h5jY42IaUGmASVysVQAaQEyQkjnL_EeqgLEv5Kry-vE,49
+xvideos_py-0.1.0.dist-info/top_level.txt,sha256=ixP60w1vCEfrWvwJOkixxHzhDuAHLtxguUDejRrCSN8,7
+xvideos_py-0.1.0.dist-info/RECORD,,
