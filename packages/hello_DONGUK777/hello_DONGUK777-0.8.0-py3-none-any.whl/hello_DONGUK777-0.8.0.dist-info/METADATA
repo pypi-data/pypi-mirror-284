@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hello_DONGUK777
+Version: 0.8.0
+Summary: Default template for PDM package
+Author-email: DONGUK777 <kimdongyork@gmail.com>
+License: MIT
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+
+# hello_DONGUK777
