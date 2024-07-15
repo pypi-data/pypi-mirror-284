@@ -1,0 +1,8 @@
+setup.py
+pagination/__init__.py
+pagination/pagination.py
+pyf_pagination.egg-info/PKG-INFO
+pyf_pagination.egg-info/SOURCES.txt
+pyf_pagination.egg-info/dependency_links.txt
+pyf_pagination.egg-info/requires.txt
+pyf_pagination.egg-info/top_level.txt
