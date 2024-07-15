@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "pybind11>=2.10.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.cibuildwheel]
+build = "cp*"
+skip = "*-musllinux*"
+
+before-all = "bash scripts/cibw_before_all.sh {package}"
+build-verbosity = "1"
+
+test-requires = ["pytest", "psutil"]
+test-command = "pytest {project}/tests"
+
+[tool.cibuildwheel.linux]
+test-skip = "*-*linux_aarch64"
+
+[tool.cibuildwheel.macos]
+test-skip = "*-macosx_arm64 *-macosx_universal2:arm64"
+
+[tool.cibuildwheel.windows]
+test-skip = "*-win_arm64"
+
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120
+known_first_party = "_mecab"
