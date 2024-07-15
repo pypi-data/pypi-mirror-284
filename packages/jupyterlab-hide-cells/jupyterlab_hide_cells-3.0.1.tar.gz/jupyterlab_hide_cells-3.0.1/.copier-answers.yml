@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.3
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: a.brocker@cs.rwth-aachen.de
+author_name: Annabell Brocker
+has_binder: false
+has_settings: false
+kind: frontend
+labextension_name: jupyterlab-hide-cells
+project_short_description: A JupyterLab extension.
+python_name: jupyterlab_hide_cells
+repository: https://git.rwth-aachen.de/learntech-lufgi9/public/jupyterlab-hide-cells.git
+test: false
+
