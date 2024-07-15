@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+prettypi/__init__.py
+prettypi.egg-info/PKG-INFO
+prettypi.egg-info/SOURCES.txt
+prettypi.egg-info/dependency_links.txt
+prettypi.egg-info/requires.txt
+prettypi.egg-info/top_level.txt
+prettypi/pretty_print/__init__.py
+prettypi/pretty_print/ansi_codes.py
+prettypi/pretty_print/emojis.py
+prettypi/pretty_print/styled_str.py
