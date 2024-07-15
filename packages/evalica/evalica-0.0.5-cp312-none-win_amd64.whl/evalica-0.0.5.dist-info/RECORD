@@ -1,0 +1,12 @@
+evalica-0.0.5.dist-info/METADATA,sha256=ackqGOyelIxbppv84UEfaIQPEUeO41QKW1e051re1i0,6454
+evalica-0.0.5.dist-info/WHEEL,sha256=sQXnPsWoXsDCZmdDlJigIim-C6FshLZQTsYzMDlXQVI,95
+evalica-0.0.5.dist-info/entry_points.txt,sha256=sd4dTYJCTEK_sv3ZfA0_TXr-QptLhUhF46I6Bv4VQ2Y,48
+evalica-0.0.5.dist-info/license_files/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+evalica/evalica.pyi,sha256=aW8wwwcyiaqesBSXAAeLgGj4_VdVFmdvLSNyv5viMwY,1741
+evalica/naive.py,sha256=lofwa3o7cz5C6UeSkloUxFalk80Z-5QZ9mm7lkbpogM,5625
+evalica/py.typed,sha256=AsB6mVTHRirFMKgCNmIKNd_dvfP9r2S6rJOlPNiTQls,8
+evalica/test_evalica.py,sha256=60feFGJO1cE59uJ9Qqbkxb_Mw29aZrmz4-PEMYHATHE,12947
+evalica/__init__.py,sha256=H_3Kw14l2mqPZUalcVmKq59kgTpz6M8bsrXuST02drE,10957
+evalica/__main__.py,sha256=ldmeOtG0f43GaFpYya1OXbaL6IYXYrl50eFIMZStvAk,2404
+evalica/evalica.cp312-win_amd64.pyd,sha256=hBg4joofeiqDR7vMP7BvL1EC8isif6no5cSk0jc_RU0,476672
+evalica-0.0.5.dist-info/RECORD,,
