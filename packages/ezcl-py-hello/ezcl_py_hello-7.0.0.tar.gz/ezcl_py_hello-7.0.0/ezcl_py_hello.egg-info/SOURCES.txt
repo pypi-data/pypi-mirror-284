@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ezcl_py_hello.egg-info/PKG-INFO
+ezcl_py_hello.egg-info/SOURCES.txt
+ezcl_py_hello.egg-info/dependency_links.txt
+ezcl_py_hello.egg-info/entry_points.txt
+ezcl_py_hello.egg-info/top_level.txt
+hello/__init__.py
+hello/world.py
+test/__init__.py
+test/test_hello.py
