@@ -1,0 +1,8 @@
+token
+/archive
+/.venv
+/.idea
+/mokei
+/.github
+.gitignore
+/localtest
