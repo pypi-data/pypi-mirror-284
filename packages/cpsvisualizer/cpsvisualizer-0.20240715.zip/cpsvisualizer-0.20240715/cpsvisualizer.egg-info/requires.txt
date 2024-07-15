@@ -1,0 +1,10 @@
+cython
+numpy
+pandas
+scipy
+xlrd
+openpyxl
+matplotlib
+PySide6
+scikit-learn
+scikit-image
