@@ -1,0 +1,2 @@
+[console_scripts]
+pycoretoolkit = pycoretoolkit.main:main

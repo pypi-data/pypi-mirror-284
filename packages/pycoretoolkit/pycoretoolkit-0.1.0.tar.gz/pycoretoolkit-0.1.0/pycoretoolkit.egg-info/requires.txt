@@ -1,0 +1,17 @@
+setuptools
+pyyaml
+keyring
+pytest
+pre-commit
+black
+pykeepass
+toml
+wheel
+
+[dev]
+pytest
+pytest-cov
+bandit
+safety
+ruff
+black
