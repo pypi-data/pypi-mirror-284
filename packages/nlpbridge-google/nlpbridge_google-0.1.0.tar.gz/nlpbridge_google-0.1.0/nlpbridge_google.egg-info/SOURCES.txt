@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+nlpbridge_google.egg-info/PKG-INFO
+nlpbridge_google.egg-info/SOURCES.txt
+nlpbridge_google.egg-info/dependency_links.txt
+nlpbridge_google.egg-info/entry_points.txt
+nlpbridge_google.egg-info/top_level.txt
