@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: diec
+Version: 0.1
+Summary: A tool that encodes text and provides a key for decoding!
+Home-page: https://github.com/wfxey/binaryconvert
+Download-URL: https://github.com/D-I-Projects/diec/archive/refs/tags/v0.1.tar.gz
+Author: D&I
+Author-email: projectsdi02@gmail.com
+License: MIT
+Keywords: diec,encoding,decoding
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: binaryconvert
+
+# Diec
+
+A tool that encodes text and give out a key, that you can decode with this program too!
+
+## Installation
+
+```bash
+pip install diec
+```
