@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tools_mrcode
+Version: 0.0.1
+Summary: 一个 JAVA 程序员，学习使用 Python 过程中，编写的一些工具，个人感觉能提高开发速度
+Author-email: mrcode <99299684@qq.com>
+Project-URL: Homepage, https://github.com/zq99299/tools_mrcode
+Project-URL: Issues, https://github.com/zq99299/tools_mrcode/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jsonpath_ng==1.6.1
+
+# tools mrcode
+
+学习使用 Python 过程中积累的一些工具合集
