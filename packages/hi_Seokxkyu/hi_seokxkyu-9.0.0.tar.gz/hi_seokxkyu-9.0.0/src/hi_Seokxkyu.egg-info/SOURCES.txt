@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/hi_Seokxkyu.egg-info/PKG-INFO
+src/hi_Seokxkyu.egg-info/SOURCES.txt
+src/hi_Seokxkyu.egg-info/dependency_links.txt
+src/hi_Seokxkyu.egg-info/entry_points.txt
+src/hi_Seokxkyu.egg-info/top_level.txt
+src/hi_seokxkyu/__init__.py
+src/hi_seokxkyu/hello.py

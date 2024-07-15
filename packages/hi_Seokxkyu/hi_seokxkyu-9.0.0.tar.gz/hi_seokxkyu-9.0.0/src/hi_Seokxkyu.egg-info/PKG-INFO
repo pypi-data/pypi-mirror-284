@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hi_Seokxkyu
+Version: 9.0.0
+Summary: Default template for PDM package
+Author-email: Seokxkyu <kyuseok000@gmail.com>
+License: MIT
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+
+# hi_Seokxkyu
