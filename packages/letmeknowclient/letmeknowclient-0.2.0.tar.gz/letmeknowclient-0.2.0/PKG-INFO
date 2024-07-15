@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: letmeknowclient
+Version: 0.2.0
+Summary: Python client for LetMeKnow.
+Home-page: https://github.com/timmo001/letmeknow
+License: Apache-2.0
+Keywords: LetMeKnow,client,aiohttp
+Author: Aidan Timson
+Author-email: aidan@timmo.dev
+Maintainer: Aidan Timson
+Maintainer-email: aidan@timmo.dev
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp (>=3.0.0)
+Requires-Dist: yarl (>=1.6.0)
+Project-URL: Bug Tracker, https://github.com/timmo001/letmeknow/issues
+Project-URL: Changelog, https://github.com/timmo001/letmeknow/releases
+Project-URL: Documentation, https://github.com/timmo001/letmeknow
+Project-URL: Repository, https://github.com/timmo001/letmeknow
+Description-Content-Type: text/markdown
+
+# LetMeKnow - Python Client
+
+This is a Python client for LetMeKnow.
+
