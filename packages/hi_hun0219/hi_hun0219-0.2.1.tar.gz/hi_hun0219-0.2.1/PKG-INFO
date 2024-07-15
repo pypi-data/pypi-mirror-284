@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hi_hun0219
+Version: 0.2.1
+Summary: Default template for PDM package
+Author-email: hun0219 <gsw98000@gmail.com>
+License: MIT
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+
+# hi_hun0219
