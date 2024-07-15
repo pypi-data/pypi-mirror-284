@@ -1,0 +1,15 @@
+aacommpy/AAComm.py,sha256=47H6MGE3BsKPlxbJZT48Q1EMuJG7LYWI5S45jUoXqeQ,410
+aacommpy/__init__.py,sha256=2z06dadSIvTTzo5K7IzpQ76oF8vH5x_sPqwgitd5Ucs,143
+aacommpy/__version__.py,sha256=r5ACvMJU6XVWJVnTbfa5QZDdAuLcBBEll8Ityg8Qvuw,275
+aacommpy/aacommpy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aacommpy/category.py,sha256=Y1YEZmHtxEhWAeJGd7aufD8ITo12JXfHmFd1_jIawmU,1077
+aacommpy/dotnetmanagement.py,sha256=593EJCHqbIkv41SLhtlNvucuXQQHU-rzw-2kKjzCs_4,7746
+aacommpy/entry_points.py,sha256=NKVwOcy-6RvqIox2XwUBieFI6jYPFkrDX-UPDGD1DYQ,2464
+aacommpy/nugetmanagement.py,sha256=7qjgB64ZKxTjck0GthlHBu0IWZ-DFcq5o_ZyKkiz8-g,5559
+aacommpy/settings.py,sha256=9FZnhdo3JYNW70eC08OruoMB6DqP8ekjD7VDVwm1Wwg,1101
+aacommpy/test.py,sha256=A_mjCVygcmWdE9dY9KLOzcGDVcwCWcp664IWWdnwgFM,677
+aacommpy-0.2.2.dist-info/METADATA,sha256=Qb39p1cErAiYJCszL0xzRScEaPD6c4E1B7Prldjzf7I,3312
+aacommpy-0.2.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+aacommpy-0.2.2.dist-info/entry_points.txt,sha256=5ZSD0b-GicjmUr2aKr7u3dwBs1KfmoKv6QbDcgbGbBw,56
+aacommpy-0.2.2.dist-info/top_level.txt,sha256=Qbni8_0OrPW68M1lN3Nkz9eYq0cPAlO8ZXIJbJMc_6k,9
+aacommpy-0.2.2.dist-info/RECORD,,
