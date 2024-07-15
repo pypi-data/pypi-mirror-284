@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: telegram_tdata_decrypter
+Version: 1.0
+Summary: decrypter tdata to session
+Author: small_shushu
+Requires-Dist: tgcrypto
