@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: testexecutor-ui
+Version: 0.6.1
+Summary: A python UI library for the execution and control of device tests
+Home-page: https://www.direktembedded.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: PySide6 >=6.2
+
+# Test Executor &trade;
+
+Test Executor is a python UI library for the execution, monitoring and control of python based tests on a device/system.
+
+The device/system can be identified by multiple key values (for example serial number and MAC address) which are configured by the user of this library.
+
+## Framework
+The UI is a Pyside2/QML based UI and has a listener api which the test framework (not part of this library) should control.
+
+## Configuration
+There is a default configuration for the layout of the test suites which can be replaced using a json string defining each layout configuration item.
+
+Copyright &copy; 2021 Direkt Embedded Pty Ltd
