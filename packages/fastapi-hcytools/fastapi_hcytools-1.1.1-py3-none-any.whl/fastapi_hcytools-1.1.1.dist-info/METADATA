@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fastapi-hcytools
+Version: 1.1.1
+Summary: fastapi start tool
+Home-page: https://github.com/yang-haechan/fastapi_start
+Author: yang-haechan
+Author-email: gocks4560@gmail.com
+Keywords: yang-haechan,hcytools
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11
+Requires-Dist: anyio ==4.4.0
+Requires-Dist: click ==8.1.7
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: fastapi ==0.111.1
+Requires-Dist: gunicorn ==22.0.0
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: idna ==3.7
+Requires-Dist: pydantic ==2.8.2
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: sniffio ==1.3.1
+Requires-Dist: starlette ==0.37.2
+Requires-Dist: typing-extensions ==4.12.2
+Requires-Dist: uvicorn ==0.30.1
+Requires-Dist: cryptography ==42.0.8
+Requires-Dist: mysqlclient ==2.2.4
+Requires-Dist: sqlalchemy
+Requires-Dist: pymysql
+Requires-Dist: sqlalchemy-utils
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+
