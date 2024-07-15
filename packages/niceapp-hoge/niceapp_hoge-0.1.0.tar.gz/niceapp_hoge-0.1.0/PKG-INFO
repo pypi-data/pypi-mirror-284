@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: niceapp-hoge
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.8
+Requires-Dist: nicegui>=1.4.29
+Requires-Dist: pywebview>=5.1
+Description-Content-Type: text/markdown
+
+# niceapp-hoge
+
+Describe your project here.
