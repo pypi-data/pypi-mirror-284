@@ -1,0 +1,15 @@
+[project]
+name = "hi_s00zzang"
+version = "0.2.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "S00zzang", email = "sujinpark8719561@gmail.com"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = true

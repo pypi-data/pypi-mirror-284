@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/hi_s00zzang/__init__.py
+src/hi_s00zzang.egg-info/PKG-INFO
+src/hi_s00zzang.egg-info/SOURCES.txt
+src/hi_s00zzang.egg-info/dependency_links.txt
+src/hi_s00zzang.egg-info/top_level.txt
