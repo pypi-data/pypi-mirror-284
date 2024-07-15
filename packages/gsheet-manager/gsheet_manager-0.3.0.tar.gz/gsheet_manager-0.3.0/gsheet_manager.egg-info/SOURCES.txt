@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gsheet_manager/__init__.py
+gsheet_manager/gsheet_manager.py
+gsheet_manager.egg-info/PKG-INFO
+gsheet_manager.egg-info/SOURCES.txt
+gsheet_manager.egg-info/dependency_links.txt
+gsheet_manager.egg-info/requires.txt
+gsheet_manager.egg-info/top_level.txt
