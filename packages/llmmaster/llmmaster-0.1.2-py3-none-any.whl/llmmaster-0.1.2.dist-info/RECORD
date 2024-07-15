@@ -1,0 +1,11 @@
+llmmaster/__init__.py,sha256=iNLdhRgXAV-ALhvpDysEVrj8vXk5nq0vy8eEAvcT4uo,34
+llmmaster/base_model.py,sha256=8doiid13fgsTHPOr9NyFa5nvuyYenUJde6p1VwPbWbQ,636
+llmmaster/config.py,sha256=AX9ce-YeG1P0DsBg8jNXzLfTLuOKy70KsF2v6SCKJVA,3376
+llmmaster/llmmaster.py,sha256=sU5FtVCtmXVWtyS1HtVvHcK0RhobBN4SA_3nLpvSDMM,6108
+llmmaster/text_to_image_models.py,sha256=omKyfJf-o8uV2DcgZzANhNTun-IjVUyTo7jN-J5jMd0,6382
+llmmaster/text_to_text_models.py,sha256=zYaBOZAucvUhYckudwKI3EX2pIyfchhi6sq_puCw7G8,9249
+llmmaster-0.1.2.dist-info/LICENSE,sha256=2THpglwCSts063WJ3KJeAhBQRe60crl2JRPOzurJxfQ,1110
+llmmaster-0.1.2.dist-info/METADATA,sha256=PolyRFeY-eZd7i36Dt95XcYtvm9V3UW839d4yvlH_DI,7604
+llmmaster-0.1.2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+llmmaster-0.1.2.dist-info/top_level.txt,sha256=FbzvfJhp8mLTOEJ4R68DvvakvQT5e6UlfpiSKbnWKM8,10
+llmmaster-0.1.2.dist-info/RECORD,,
