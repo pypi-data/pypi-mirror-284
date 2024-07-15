@@ -1,0 +1,10 @@
+infocenter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+infocenter/mail.py,sha256=BlV5pKXgzQSaj3tTg4Eu9uJxHMR5lB_Il49KmE87ZX8,2609
+infocenter/sms.py,sha256=crhbBtYO7zQJxwlET2XSq6ktE_ADOiZ40GxYetQfVIY,3142
+infocenter/weather.py,sha256=UbiY87qFjrL8ag1WTz1lkak6mBrIhTA17QUZ5TVxGc0,1773
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jason_lee_tools-0.7.0.dist-info/LICENSE,sha256=9guYdOqR208QOtLoj6EdCzTMM5gOi26Sm21OaEpkBIU,1087
+jason_lee_tools-0.7.0.dist-info/METADATA,sha256=p2WISb8xqy1cVc57dFi8Ztzii2_kPPEvsVmppD2zgzs,2686
+jason_lee_tools-0.7.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jason_lee_tools-0.7.0.dist-info/top_level.txt,sha256=8eDetgNKLDIelFaXL7gh1lFIqpChoNaG3iMvVzmGm0o,17
+jason_lee_tools-0.7.0.dist-info/RECORD,,
