@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: moocore
+Version: 0.0.9999
+Summary: Core Algorithms for Multi-Objective Optimization
+Author-email: Manuel López-Ibáñez <manuel.lopez-ibanez@manchester.ac.uk>, Fergus Rooney <fergus.rooney@outlook.com>
+Project-URL: Documentation, https://multi-objective.github.io/moocore/python
+Project-URL: Homepage, https://multi-objective.github.io/moocore/python
+Project-URL: Source, https://github.com/multi-objective/moocore/
+Project-URL: Tracker, https://github.com/multi-objective/moocore/issues
+Keywords: math,Mathematics,Multi-criteria Decision-Making,operations research,Optimization
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: cffi >=1.15.1
+Requires-Dist: numpy >=1.22.3
+
+**moocore**: Core Algorithms for Multi-Objective Optimization
+=============================================================
+
+<!-- badges: start -->
+[![Python build status][py-build-badge]][py-build-link]
+[![coverage][py-coverage-badge]][py-coverage-link]
+<!-- badges: end -->
+
+[ [**Homepage**][py-moocore-homepage] ]
+[ [**GitHub**][py-moocore-github] ]
+
+
+**Contributors:**
+    [Manuel López-Ibáñez](https://lopez-ibanez.eu),
+
+---------------------------------------
+
+Introduction
+============
+
+TODO
+
+R package
+---------
+
+There is also an R `moocore` package: https://multi-objective.github.io/moocore/r
+
+
+[py-build-badge]: https://github.com/multi-objective/moocore/workflows/Python/badge.svg
+[py-build-link]: https://github.com/multi-objective/moocore/actions/workflows/python.yaml
+[py-coverage-badge]: https://codecov.io/gh/multi-objective/moocore/branch/main/graph/badge.svg?flag=python
+[py-coverage-link]: https://codecov.io/gh/multi-objective/moocore/tree/main/python
+[py-moocore-github]: https://github.com/multi-objective/moocore/tree/main/python#readme
+[py-moocore-homepage]: https://multi-objective.github.io/moocore/python
