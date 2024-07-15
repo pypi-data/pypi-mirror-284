@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/custom_error/__init__.py
+src/custom_error/error.py
+src/custom_error.egg-info/PKG-INFO
+src/custom_error.egg-info/SOURCES.txt
+src/custom_error.egg-info/dependency_links.txt
+src/custom_error.egg-info/requires.txt
+src/custom_error.egg-info/top_level.txt
