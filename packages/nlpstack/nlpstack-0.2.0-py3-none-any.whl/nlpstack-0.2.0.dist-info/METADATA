@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: nlpstack
+Version: 0.2.0
+Summary: Modules for NLP
+Home-page: https://github.com/altescy/nlpstack
+License: MIT
+Keywords: python,nlp,pytorch,scikit-learn
+Author: altescy
+Author-email: altescy@fastmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: all
+Requires-Dist: collatable (>=0.3.2)
+Requires-Dist: colt (>=0.11.3)
+Requires-Dist: dill
+Requires-Dist: fasttext-wheel (>=0.9,<1.0) ; extra == "all"
+Requires-Dist: fugashi[unidic-lite] (>=1.2.1,<2.0) ; extra == "all"
+Requires-Dist: minato (>=0.12)
+Requires-Dist: mlflow (>=2.0,<3.0) ; extra == "all"
+Requires-Dist: mpire (>=2.0,<3.0)
+Requires-Dist: numpy
+Requires-Dist: openai (>=1.0,<2.0) ; extra == "all"
+Requires-Dist: optuna (>=3.2,<4.0) ; extra == "all"
+Requires-Dist: rjsonnet (>=0.5)
+Requires-Dist: scikit-learn (>=1.0,<2.0)
+Requires-Dist: sentence-transformers (>=2.2.2) ; extra == "all"
+Requires-Dist: spacy (>=3.5.3,<4.0) ; extra == "all"
+Requires-Dist: torch (>=1.9,<3.0)
+Requires-Dist: transformers (>=4.12.3,<5.0) ; extra == "all"
+Description-Content-Type: text/markdown
+
+# 📚 NLPSTACK
+
+[![Actions Status](https://github.com/altescy/nlpstack/workflows/CI/badge.svg)](https://github.com/altescy/nlpstack/actions/workflows/ci.yml)
+[![Python version](https://img.shields.io/pypi/pyversions/nlpstack)](https://github.com/altescy/nlpstack)
+[![pypi version](https://img.shields.io/pypi/v/nlpstack)](https://pypi.org/project/nlpstack/)
+[![Documentation Status](https://readthedocs.org/projects/nlpstack/badge/?version=latest)](https://nlpstack.readthedocs.io/en/latest/?badge=latest)
+[![License](https://img.shields.io/github/license/altescy/nlpstack)](https://github.com/altescy/nlpstack/blob/master/LICENSE)
+
+A Python Library for Natural Language Processing
+
+NLPSTACK is a Python library designed to make natural language processing (NLP) tasks more accessible and efficient.
+With its key features listed below, NLPSTACK aims to become a go-to resource for developers working in NLP:
+
+- Built on top of [PyTorch](https://pytorch.org/), NLPSTACK offers ready-to-use modules for a seamless NLP experience.
+- Provides a [scikit-learn](https://scikit-learn.org/) compatible interface, ensuring familiar and easy usage.
+- Allows for seamless integration of models provided by the [🤗 Transformers](https://github.com/huggingface/transformers), enabling the use of powerful pre-trained models in your NLP workflows.
+- Adopts a [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) design pattern, which ensures high extensibility and makes it easy to modify specific processes.
+- 🚧 **Currently in the preliminary stages of development**, NLPSTACK plans to offer user-friendly interfaces for a wide range of NLP tasks in the future, including text classification, sequence labeling, language model training..., and more!
+
+## Installation
+
+To install NLPSTACK, simply use the following command with pip:
+
+```bash
+pip install nlpstack
+```
+
+Please be aware that NLPSTACK is in its early development stages.
+As such, be prepared for the possibility of breaking changes as the library is being developed and refined.
+
