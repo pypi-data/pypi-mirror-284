@@ -1,0 +1,2 @@
+[console_scripts]
+hi_baechu805 = hi_baechu805.hello:hi
