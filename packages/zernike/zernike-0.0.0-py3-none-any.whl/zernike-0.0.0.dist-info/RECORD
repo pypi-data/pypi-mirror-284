@@ -1,0 +1,9 @@
+zernike/__init__.py,sha256=cOXQKV0XJeeHrwApDnv9KojLqI5UyGkmFaiGcw_lZsI,34894
+zernike/pyramid.py,sha256=2AdheL7vsYPoBsFhoOJqC6Yr-klJFsrquta0cPEarxI,3210
+zernike/test.py,sha256=LsStfIR68lNulccEEwqLAfCKOKBJ_8sog25oeq9Dcyk,25187
+zernike/version.py,sha256=dPRLmJasZxGv_BKRI9fuPUXck-inOlot0g_jghwItdg,112
+zernike-0.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+zernike-0.0.0.dist-info/METADATA,sha256=gEDC4QXfKlVQYw9xHSZ6E66ArM6EWhoPydyxvscMZpU,3731
+zernike-0.0.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+zernike-0.0.0.dist-info/top_level.txt,sha256=wXLygvevlQ6EjzkZgZCGNCQFvKOure9qRXTGxSNZwIA,8
+zernike-0.0.0.dist-info/RECORD,,
