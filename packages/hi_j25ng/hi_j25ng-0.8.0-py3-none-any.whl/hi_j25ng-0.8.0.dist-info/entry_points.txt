@@ -1,0 +1,2 @@
+[console_scripts]
+hi-j25ng = hi_j25ng.hello:hi
