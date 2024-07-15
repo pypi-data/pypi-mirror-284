@@ -1,0 +1,4 @@
+antares-ptb==21.3
+aiosqlite
+objgraph
+aio-pika
