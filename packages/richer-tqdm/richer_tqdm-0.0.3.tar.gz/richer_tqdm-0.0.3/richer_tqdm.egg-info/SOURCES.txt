@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+richer_tqdm/__init__.py
+richer_tqdm/richer.py
+richer_tqdm.egg-info/PKG-INFO
+richer_tqdm.egg-info/SOURCES.txt
+richer_tqdm.egg-info/dependency_links.txt
+richer_tqdm.egg-info/requires.txt
+richer_tqdm.egg-info/top_level.txt
+richer_tqdm.egg-info/zip-safe
