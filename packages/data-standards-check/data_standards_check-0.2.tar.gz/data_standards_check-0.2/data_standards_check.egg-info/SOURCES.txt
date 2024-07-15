@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+data_quality_tool/__init__.py
+data_quality_tool/__main__.py
+data_quality_tool/scripts.py
+data_standards_check.egg-info/PKG-INFO
+data_standards_check.egg-info/SOURCES.txt
+data_standards_check.egg-info/dependency_links.txt
+data_standards_check.egg-info/entry_points.txt
+data_standards_check.egg-info/requires.txt
+data_standards_check.egg-info/top_level.txt
