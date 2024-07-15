@@ -1,0 +1,9 @@
+betterconf/__init__.py,sha256=aFIS5fi368wGHtreW8L9UkJ3LOIm3CW_zaTSJ5jiyfk,254
+betterconf/caster.py,sha256=mNz-EjQkhqnoolM76ksL6-9VqLYQxWKvBbSUvcC6Tdk,3303
+betterconf/config.py,sha256=PwGOFO-Nbli7ymI0i1F2LEi3f5LFbZgOIRX2lnX5yVo,6386
+betterconf/exceptions.py,sha256=vshUWoZ7N53SiOYWr3PRgT1Ji7JKxMBK0p4XoLvEm-c,559
+betterconf/provider.py,sha256=8Mz_rq-zvX0lpReKW81D434qstgKZhu7yCzIIQD5dTg,595
+betterconf-3.0.0.dist-info/LICENSE,sha256=GzPqEgVI1D-W1ckzoe7owBrsLaYHANOOvTZfUC4oToM,1072
+betterconf-3.0.0.dist-info/METADATA,sha256=3qijqxhdgXUKsyDNbLjtEfppTc1gUcpaYioplUVe_WE,4502
+betterconf-3.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+betterconf-3.0.0.dist-info/RECORD,,
