@@ -1,0 +1,236 @@
+Metadata-Version: 2.3
+Name: pyfunc2
+Version: 0.1.11
+Summary: libs for cameramonit, ocr, fin-officer, cfo, and other projects
+Project-URL: homepage, https://www.pyfunc.com
+Project-URL: repository, https://github.com/pyfunc/lib
+Project-URL: changelog, https://github.com/pyfunc/lib/releases
+Project-URL: wiki, https://github.com/pyfunc/lib/wiki
+Project-URL: issue, https://github.com/pyfunc/lib/issues/new
+Author-email: Tom Sapletta <tom@sapletta.com>
+Maintainer-email: pyfunc developers <info@softreck.dev>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: cameramonit,console,fin-officer,framework,terminal,test,time
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Other Environment
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: MS-DOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX :: SunOS/Solaris
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: IronPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Education :: Computer Aided Instruction (CAI)
+Classifier: Topic :: Education :: Testing
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Pre-processors
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Requires-Dist: packaging>=23.2
+Requires-Dist: stringcase~=1.2.0
+Requires-Dist: tomli>=2.0.1
+Provides-Extra: docs
+Requires-Dist: furo>=2023.9.10; extra == 'docs'
+Requires-Dist: pylint~=2.14.0; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints>=1.25.2; extra == 'docs'
+Requires-Dist: sphinx<7.2; extra == 'docs'
+Requires-Dist: toml~=0.10.2; extra == 'docs'
+Requires-Dist: yapf~=0.32.0; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: covdefaults>=2.3; extra == 'testing'
+Requires-Dist: pytest-cov>=4.1; extra == 'testing'
+Requires-Dist: pytest-mock>=3.12; extra == 'testing'
+Requires-Dist: pytest>=7.4.3; extra == 'testing'
+Requires-Dist: setuptools>=69.0.2; extra == 'testing'
+Requires-Dist: wheel>=0.42; extra == 'testing'
+Description-Content-Type: text/markdown
+
+# [lib](http://lib.pyfunc.com)
+
+libs for cameramonit, ocr, fin-officer, cfo, and other projects
+
+
+
+## Install
+
+```bash
+git clone https://github.com/pyfunc/lib.git pyfunc
+```
+
+
+## Contributing
+
+```bash
+python3 -m venv pytest-env
+source pytest-env/bin/activate
+```
+
+```bash
+pip install --upgrade pip
+pip install pytest
+```
+
+run the test, execute the pytest command:
+```bash
+pytest
+```
+
+
+
+## Tips
+
+simple method to generate a requirements.txt file is to pipe them,
+```bash
+pip freeze > requirements.txt
+```
+
+## if push not possible
+
+```
+[remote rejected] (refusing to allow a Personal Access Token to create or update workflow `.github/workflows/python-app.yml` without `workflow` scope)
+```
+
+Problem z odrzuceniem tokena dostępu osobistego (Personal Access Token, PAT) podczas próby aktualizacji pliku workflow, 
+musisz zaktualizować uprawnienia swojego tokena. 
+
+### Oto kroki, które powinieneś podjąć:
+
+1. Przejdź do ustawień GitHub:
+   - Kliknij na swój awatar w prawym górnym rogu GitHub
+   - Wybierz "Settings"
+
+2. Przejdź do ustawień deweloperskich:
+   - W lewym menu wybierz "Developer settings"
+
+3. Zarządzaj tokenami dostępu:
+   - Wybierz "Personal access tokens"
+   - Następnie "Tokens (classic)"
+
+4. Utwórz nowy token lub zaktualizuj istniejący:
+   - Jeśli tworzysz nowy, kliknij "Generate new token"
+   - Jeśli aktualizujesz istniejący, znajdź odpowiedni token i kliknij "Edit"
+
+5. Dodaj uprawnienie "workflow":
+   - Przewiń do sekcji "Select scopes"
+   - Zaznacz pole obok "workflow"
+
+6. Zapisz zmiany:
+   - Przewiń na dół i kliknij "Generate token" (dla nowego) lub "Update token" (dla istniejącego)
+
+7. Skopiuj nowy token:
+   - Upewnij się, że skopiowałeś nowy token, ponieważ nie będziesz mógł go zobaczyć ponownie
+
+8. Zaktualizuj token w swoim lokalnym repozytorium:
+   - Jeśli używasz HTTPS, zaktualizuj swoje dane logowania
+   - Jeśli używasz SSH, upewnij się, że Twój klucz SSH jest poprawnie skonfigurowany
+
+9. Spróbuj ponownie wykonać push:
+   - Użyj nowego tokena do autoryzacji
+
+Pamiętaj, że tokeny dostępu osobistego są bardzo wrażliwe na bezpieczeństwo.
+Traktuj je jak hasła i nigdy nie udostępniaj ich publicznie. Jeśli przypadkowo ujawnisz swój token, natychmiast go usuń i wygeneruj nowy.
+
+Po wykonaniu tych kroków, powinieneś być w stanie zaktualizować plik workflow bez problemów. Jeśli nadal napotkasz problemy, upewnij się, że masz odpowiednie uprawnienia w repozytorium i że workflow nie są zablokowane przez ustawienia organizacji lub repozytorium.
+
+# update PAT in repo
+our local repo and want to push it to a remote repo.
+
+create a PAT (personal access token): official doc here. Make sure to tick the box "workflow" when creating it.
+In the terminal, instead of the classic
+
+```bash
+git remote add origin https://github.com/<account>/<repo>.git
+```
+
+swap it by
+```bash
+git remote add origin https://<PAT>@github.com/<account>/<repo>.git
+```
+example
+```bash
+# check
+git remote -v
+PAT=...
+git remote add origin https://$PAT@github.com/pyfunc/lib.git
+# OR update:
+git remote set-url origin https://$PAT@github.com/pyfunc/lib.git
+# check
+git remote -v
+git push
+```
+
+Follow-up with the classic git branch -M main and git push -u origin main
+
+That worked for me. Hopefully for you too.
+
+## pypi publishing
+
+[Creating a PyPI Project with a Trusted Publisher - PyPI Docs](https://docs.pypi.org/trusted-publishers/creating-a-project-through-oidc/)
+
+
+
+## Creating tags from the command line
+
+To create a tag on your current branch, run this:
+```bash
+git tag <tagname>
+```
+
+If you want to include a description with your tag, add -a to create an annotated tag:
+```bash
+git tag <tagname> -a
+```
+
+This will create a local tag with the current state of the branch you are on. 
+When pushing to your remote repo, tags are NOT included by default. 
+You will need to explicitly say that you want to push your tags to your remote repo:
+```bash
+git push origin --tags
+```
+
+example:
+
+```bash
+git tag 0.1.12
+git push origin --tags
+```
