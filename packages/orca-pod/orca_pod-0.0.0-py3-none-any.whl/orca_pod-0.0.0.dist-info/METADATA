@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: orca-pod
+Version: 0.0.0
+Summary: Package for deploying pods, pipelines, and workloads
+
