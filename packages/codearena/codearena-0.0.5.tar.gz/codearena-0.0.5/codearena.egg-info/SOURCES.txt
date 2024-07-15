@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+codearena/__init__.py
+codearena/codearena.py
+codearena.egg-info/PKG-INFO
+codearena.egg-info/SOURCES.txt
+codearena.egg-info/dependency_links.txt
+codearena.egg-info/top_level.txt
