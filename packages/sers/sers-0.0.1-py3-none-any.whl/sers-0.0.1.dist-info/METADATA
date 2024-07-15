@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: sers
+Version: 0.0.1
+Summary: All-in-One Nanophotonics Package
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Author-email: Alexander Al-Feghali <alexander.al-feghali@mail.mcgill.ca>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Use the nanophotonics package
+
+Parking for https://pypi.org/project/nanophotonics/
