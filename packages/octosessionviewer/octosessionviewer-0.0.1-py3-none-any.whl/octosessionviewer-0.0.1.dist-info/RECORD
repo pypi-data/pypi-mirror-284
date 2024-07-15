@@ -1,0 +1,15 @@
+octosessionviewer/__init__.py,sha256=UA67bwwfINoLMyzKOzt6Bip6PyuEFc6VfUa3PChHojw,72
+octosessionviewer/__main__.py,sha256=zUs8-GfKtPukZTKL6qAJaXrjmFBYBKcai0aLsWb75ww,1070
+octosessionviewer/_version.py,sha256=JVnGuhm84nIMvoGgZOXbyXaHqMPJeD1sdmcYT5n3xBg,130
+octosessionviewer/session.py,sha256=34RkmdhWYPifkA-jZT07V5ACvrU4b8Lfje-IyneDMfA,7005
+octosessionviewer/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+octosessionviewer/common/clientconfig.py,sha256=1UjVBaaTZFL5f-88VRwoxiiiTGTS1muztmaQsKZHjyU,3607
+octosessionviewer/common/credential.py,sha256=DQoZWnPIDXvTf624wm6b3eAyurMJPwzYnzkZ6_Ag04Y,1636
+octosessionviewer/common/proxy.py,sha256=XzL6FjOdtMgJXg3p7ZQmiWX9gSIDBqBtA-VDLW6LwH4,1501
+octosessionviewer/common/target.py,sha256=SWbNqXqO7HL2y2CfuhOtwRSlaNm9QDoElh5g73ICo7c,1778
+octosessionviewer-0.0.1.dist-info/METADATA,sha256=P8sEC6u6oXyFY8dTA14w8GGn5FSBGGXrbo4zWxoiLIY,335
+octosessionviewer-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+octosessionviewer-0.0.1.dist-info/entry_points.txt,sha256=YoYperAL-GxyErNN6Vl2zmk6SZLO1-sNzYjyjxQUFHU,68
+octosessionviewer-0.0.1.dist-info/top_level.txt,sha256=UMyMXOFVqCCOcC3krv-zyUcwIiTcy-pA18W84gU49zQ,18
+octosessionviewer-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+octosessionviewer-0.0.1.dist-info/RECORD,,

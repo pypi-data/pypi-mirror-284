@@ -1,0 +1,2 @@
+[console_scripts]
+octopwn-session = octosessionviewer.__main__:main
