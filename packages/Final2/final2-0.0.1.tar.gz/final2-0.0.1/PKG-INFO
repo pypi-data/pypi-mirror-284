@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: Final2
+Version: 0.0.1
+Summary: For this kata, try implementing a trigram algorithm that generates a couple of hundred words of text using a book-sized file as input.
+Home-page: https://github.com/EdgardelosSanto/final2
+Author: Edgar jose de los Santos
+Author-email: Edgarjose2214@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# este archivo se trata de definir mi kata, La kata que me toco es la 14 que lo que quiere decir es (For this kata, try implementing a trigram algorithm that generates a couple of hundred words of text using a book-sized file as input. )
+
+import sys
+import os
+
+# AÃ±ade el directorio raÃ­z del proyecto al path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
+
+# Ahora puedes importar el mÃ³dulo generar_trigramas desde src.domain
+from domain import generar_trigramas
+
+def main():
+    parrafo = input("Ingresa un pÃ¡rrafo: ")
+    trigramas = generar_trigramas(parrafo)
+    for clave, valor in trigramas.items():
+        print(f"{clave}: {', '.join(valor)}")
+
+if __name__ == "__main__":
+    main()
