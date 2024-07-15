@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+aliboostanpdf.egg-info/PKG-INFO
+aliboostanpdf.egg-info/SOURCES.txt
+aliboostanpdf.egg-info/dependency_links.txt
+aliboostanpdf.egg-info/top_level.txt
+alipdf/__init__.py
+alipdf/pdf2image.py
+alipdf/pdf2text.py
