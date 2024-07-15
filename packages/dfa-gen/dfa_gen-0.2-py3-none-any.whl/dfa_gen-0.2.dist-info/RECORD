@@ -1,0 +1,13 @@
+dfa_gen/__init__.py,sha256=_jMHi1eeOWym3Z4jUTCyrRaGjB7KY5PWqE2t3arsEzU,129
+dfa_gen/dfa_class.py,sha256=0lfrSR3vLqGD3DtYyOPn1ERtV9TrtCFUO2_dIZgLNVg,4168
+dfa_gen/dfa_to_graph.py,sha256=sFHbOIsenWZXTRGIojgkxS83l7sNZEFu1gnlZPNetds,4253
+dfa_gen/dfa_util.py,sha256=6T-Ki6VTqPTMwskZVsSu2uu5tS1eiMovd77Q3KEuCJ8,998
+dfa_gen/generate_dfa.py,sha256=C3VqY4J-kOPkM9FMV9qvuzJnWcYnb7kf60Vy5ANeMeg,2978
+dfa_gen/generate_lattice.py,sha256=6-ZnPXJVNe4QBzIy7n0bfv9UppOeMSq2ZQOgWKqUpdg,6873
+dfa_gen/data/coding_wheel.txt,sha256=mEeRRwrEjJpYQgxGN0zQi2LRPnCDuWoEjJQ7rso6J1w,274
+dfa_gen/data/codon_freq_table.tsv,sha256=U_s5qazmrKOnCcUt0ZMSlmDK_hw-0xcBRIr7kcx9aoE,707
+dfa_gen-0.2.dist-info/METADATA,sha256=Lutqi3jQchAKE-fYsPrZM35Be9JpgvP8VAjH7hT4MYw,96
+dfa_gen-0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dfa_gen-0.2.dist-info/entry_points.txt,sha256=hcuL2iroRaikhB9ZvFSsP1rCWgtbTaEsk3rmJUHtn1Y,54
+dfa_gen-0.2.dist-info/top_level.txt,sha256=Fk4lzMh0TrW6zWRGciO4gcpEt9P59kStcHZ3EOQYOHA,8
+dfa_gen-0.2.dist-info/RECORD,,
