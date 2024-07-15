@@ -1,0 +1,10 @@
+hello/__init__.py,sha256=oCZlfijU3MetiuHhc6rgELj2o87jcEG38Yy2W_j3Kqo,76
+hello/world.py,sha256=WmLac9hDb4XgXktdg6ib1qFv_w8nejjinUwYTLOtChw,384
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_hello.py,sha256=HwhznjC8Z5JogG4MJE25OQJWkW1xpa_8p7v-x2SFcx8,602
+ezcl_py_hello-1.0.0.dist-info/LICENSE,sha256=LefzHADOYO4SsEKPQDFOKwXUa_sD-2e9N2JNW08mE2A,1100
+ezcl_py_hello-1.0.0.dist-info/METADATA,sha256=EJN3of9hTW068PkQQ3M0OIbgBh3wduq2KztGsssflIM,554
+ezcl_py_hello-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ezcl_py_hello-1.0.0.dist-info/entry_points.txt,sha256=YTSoqsDiCHO6fmmuHDD0dEL42d6qByyY6J_biZXi0dM,56
+ezcl_py_hello-1.0.0.dist-info/top_level.txt,sha256=amiGSbxH51PnunEPVgLZBLcerIVycttxnoFLKZSEjhE,11
+ezcl_py_hello-1.0.0.dist-info/RECORD,,
