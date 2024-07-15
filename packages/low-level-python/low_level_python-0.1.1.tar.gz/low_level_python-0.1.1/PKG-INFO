@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: low-level-python
+Version: 0.1.1
+Summary: This project provides a powerful tool for integrating C libraries into Python functions seamlessly. The core functionality is centered around the includec decorator generator, which facilitates the inclusion and use of compiled C code within Python, thereby enabling performance optimization and leveraging existing C libraries.
+Author: joragasy
+Author-email: joragasy@outlook.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "low-level-python"
+version = "0.1.1"
+description = "This project provides a powerful tool for integrating C libraries into Python functions seamlessly. The core functionality is centered around the includec decorator generator, which facilitates the inclusion and use of compiled C code within Python, thereby enabling performance optimization and leveraging existing C libraries."
+authors = ["joragasy <joragasy@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.2"
+requests-mock = "^1.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
