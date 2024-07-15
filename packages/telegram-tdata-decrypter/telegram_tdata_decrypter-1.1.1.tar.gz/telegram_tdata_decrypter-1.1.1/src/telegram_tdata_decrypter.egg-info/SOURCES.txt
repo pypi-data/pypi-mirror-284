@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/telegram_tdata_decrypter.egg-info/PKG-INFO
+src/telegram_tdata_decrypter.egg-info/SOURCES.txt
+src/telegram_tdata_decrypter.egg-info/dependency_links.txt
+src/telegram_tdata_decrypter.egg-info/requires.txt
+src/telegram_tdata_decrypter.egg-info/top_level.txt
