@@ -1,0 +1,2 @@
+[console_scripts]
+hi-mingk42 = hi_mingk42.hello:hi
