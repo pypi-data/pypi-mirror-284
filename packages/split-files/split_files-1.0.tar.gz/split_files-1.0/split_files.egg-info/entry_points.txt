@@ -1,0 +1,2 @@
+[console_scripts]
+0xsplit = 0xsplit:main

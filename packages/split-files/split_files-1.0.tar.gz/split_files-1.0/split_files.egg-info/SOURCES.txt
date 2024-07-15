@@ -1,0 +1,7 @@
+README.md
+setup.py
+split_files.egg-info/PKG-INFO
+split_files.egg-info/SOURCES.txt
+split_files.egg-info/dependency_links.txt
+split_files.egg-info/entry_points.txt
+split_files.egg-info/top_level.txt
