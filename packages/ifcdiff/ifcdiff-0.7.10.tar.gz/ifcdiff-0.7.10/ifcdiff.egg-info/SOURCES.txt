@@ -1,0 +1,9 @@
+COPYING
+COPYING.LESSER
+ifcdiff.py
+pyproject.toml
+ifcdiff.egg-info/PKG-INFO
+ifcdiff.egg-info/SOURCES.txt
+ifcdiff.egg-info/dependency_links.txt
+ifcdiff.egg-info/requires.txt
+ifcdiff.egg-info/top_level.txt
