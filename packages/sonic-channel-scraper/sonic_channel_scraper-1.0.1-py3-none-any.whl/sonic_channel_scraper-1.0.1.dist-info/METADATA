@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: sonic-channel-scraper
+Version: 1.0.1
+Summary: Download all wallpapers from Sonic Channel website
+Home-page: https://github.com/shantih19/sonic_channel_scraper
+License: MIT
+Author: shantih19
+Author-email: shantih19@shantih19.xyz
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: lint
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Project-URL: Repository, https://github.com/shantih19/sonic_channel_scraper
+Description-Content-Type: text/markdown
+
+# Sonic Channel Scraper
+
+Mass download Sonic Channel Wallpapers
+
+## Installation
+
+Install with `pip install sonic-channel-scraper` or with `poetry install`.
+
+## Usage
+
+```text
+usage: sonic_channel_scraper [-h] [-p PAGES] [--tar] [--pc | --mobile] [-c CHARACTER] dir
+
+positional arguments:
+  dir                   Directory to save into.
+
+options:
+  -h, --help            show this help message and exit
+  -p PAGES, --pages PAGES
+  --tar                 Save all images into .tar.gz archive.
+  --pc                  Download only PC wallpapers.
+  --mobile              Download only mobile wallpapers.
+  -c CHARACTER, --character CHARACTER
+                        Filter for character. Can be repeated for multiple.
+```
+
