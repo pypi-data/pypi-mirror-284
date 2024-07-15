@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "langrade"
+version = "0.1.0"
+description = "A library for grading and retrieving documents based on relevance"
+authors = ["nisaji <nisaji27@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/nisaji/langrade"
+repository = "https://github.com/nisaji/langrade"
+keywords = ["nlp", "document grading", "retrieval"]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+langchain = "^0.1.0"
+langchain_core = "^0.1.0"
+langchain_openai = "^0.0.2"
+langchain_community = "^0.0.13"
+openai = "^1.2.0"
+chromadb = "^0.4.22"
+tiktoken = "^0.5.2"
+python-dotenv = "^1.0.0"
+
+google-generativeai = "^0.7.1"
+anthropic = "0.2.8"
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.0"
+mypy = "^1.10.1"
+isort = "^5.13.2"
+setuptools = "^70.2.0"
+pytest = "^6.2.5"
+pytest-cov = "^2.12"
+types-setuptools = "^70.2.0.20240704"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "C", "N"]
+ignore = ["E501", "W503"]
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["docx.*", "openpyxl.*"]
+ignore_missing_imports = true
+
+[tool.poetry.scripts]
+test = "tests.run_tests:main"
