@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+SimpleRegPython.egg-info/PKG-INFO
+SimpleRegPython.egg-info/SOURCES.txt
+SimpleRegPython.egg-info/dependency_links.txt
+SimpleRegPython.egg-info/requires.txt
+SimpleRegPython.egg-info/top_level.txt
+SimpleRegPythonN/__init__.py
+SimpleRegPythonN/correlation.py
+SimpleRegPythonN/regression.py
