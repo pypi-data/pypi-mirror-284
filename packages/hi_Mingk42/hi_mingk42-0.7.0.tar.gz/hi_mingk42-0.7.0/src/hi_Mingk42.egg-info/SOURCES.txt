@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/hi_Mingk42.egg-info/PKG-INFO
+src/hi_Mingk42.egg-info/SOURCES.txt
+src/hi_Mingk42.egg-info/dependency_links.txt
+src/hi_Mingk42.egg-info/entry_points.txt
+src/hi_Mingk42.egg-info/top_level.txt
+src/hi_mingk42/__init__.py
+src/hi_mingk42/hello.py
