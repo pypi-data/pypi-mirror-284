@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+stubbingmytoe/__init__.py
+stubbingmytoe/extractor.py
+stubbingmytoe.egg-info/PKG-INFO
+stubbingmytoe.egg-info/SOURCES.txt
+stubbingmytoe.egg-info/dependency_links.txt
+stubbingmytoe.egg-info/entry_points.txt
+stubbingmytoe.egg-info/requires.txt
+stubbingmytoe.egg-info/top_level.txt
+stubbingmytoe/color_extractor/__init__.py
+stubbingmytoe/color_extractor/extractor.py
