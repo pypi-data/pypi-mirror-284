@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: headerfiles
+Version: 0.2
+Summary: Header files inference for C/C++ projects
+Home-page: https://github.com/occia/headerfiles
+Author: Cen Zhang
+Author-email: blbllhy@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+# headerfiles
+Header file inference tool for LLM-based fuzz driver generation to OSS-Fuzz projects
+
+# API
+
+There are two APIs:
+
+```
+headerfiles.api
+
+- is_supported_proj
+  - Usage: Check if a projection is supported by the API.
+  - Return value: True if the projection is supported, False otherwise.
+
+- get_proj_headers
+  - Usage: Get the inferred headers for a specific project.
+  - Return value: A list of inferred headers for the project, their orders also matter.
+
+```
+
+# Support List
+
+- [] bitcoin-core
+- [] bluez
+- [] brpc
+- [] geos
+- [] gnutls
+- [] hostap
+- [] ibmswtpm2
+- [] igraph
+- [] knot-dns
+- [] krb5
+- [x] libfdk-aac
+- [x] libfuse
+- [x] libpsl
+- [x] libsodium
+- [] libtasn1
+- [] libyal
+- [] mdbtools
+- [] mosh
+- [] njs
+- [] opendnp3
+- [] openexr
+- [] pcre2
+- [] piex
+- [] proj4
+- [] protobuf-c
+- [] quickjs
+- [] resiprocate
+- [] rnp
+- [] spirv-tools
+- [] util-linux
+- [] varnish
+- [] wget
+- [] wget2
+- [] xs
+- [] znc
+
+# Test
+
+```bash
+python3 -m tests.test_api
+```
