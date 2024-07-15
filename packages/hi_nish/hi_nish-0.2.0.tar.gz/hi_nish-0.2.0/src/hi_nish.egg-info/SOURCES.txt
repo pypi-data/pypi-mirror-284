@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/hi_nish/__init__.py
+src/hi_nish.egg-info/PKG-INFO
+src/hi_nish.egg-info/SOURCES.txt
+src/hi_nish.egg-info/dependency_links.txt
+src/hi_nish.egg-info/top_level.txt
