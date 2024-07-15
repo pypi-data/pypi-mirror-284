@@ -1,0 +1,2 @@
+[console_scripts]
+hi-sooj1n = hi_sooj1n.hello:hi
