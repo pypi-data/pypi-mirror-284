@@ -1,0 +1,10 @@
+derivepassphrase/__init__.py,sha256=T3utrtQSgnn61d-_GLcxMpTmSQz7BpuIX-fyPVUucIY,19867
+derivepassphrase/__main__.py,sha256=KpHI5HnKWpR0FnmVXiZ-GU2gn1zE6nyHmdoRJ7Yb4QQ,292
+derivepassphrase/cli.py,sha256=1E52tSdGVSPIqCcowmtTSIukuCTWs4IHrQ30kqtabqo,36365
+derivepassphrase/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+derivepassphrase/types.py,sha256=fSCgEvksufGGLVeGJ9w4d5qPXZpz1XNPqeYWkTnbing,4230
+derivepassphrase-0.1.1.dist-info/METADATA,sha256=vCtIFIRWq-M1SqcpQsPm5ABH83ZTjsdhJnqyDH6KsCA,3775
+derivepassphrase-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+derivepassphrase-0.1.1.dist-info/entry_points.txt,sha256=hU45rbwpskHUzQm3LyuamjlndpC2XWlP9JoS4_1n5r4,75
+derivepassphrase-0.1.1.dist-info/licenses/LICENSE.txt,sha256=I88XOBS0I-Tnu5cpEUgSMtb4Lnvn789V_WsLDv_ADa8,1087
+derivepassphrase-0.1.1.dist-info/RECORD,,
