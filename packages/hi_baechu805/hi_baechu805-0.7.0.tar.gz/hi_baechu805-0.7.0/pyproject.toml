@@ -1,0 +1,17 @@
+[project]
+name = "hi_baechu805"
+version = "0.7.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "baechu805", email = "bjoo606@naver.com"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+hi_baechu805="hi_baechu805.hello:hi"
+
+[tool.pdm]
+distribution = true
