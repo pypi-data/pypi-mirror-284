@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: 30627-CAIQ
+Version: 0.1
+Summary: Python functions for controlling Arduino devices
+Home-page: UNKNOWN
+Author: 30627_CAIQ
+Author-email: chaiw06@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyserial
+
+UNKNOWN
+
