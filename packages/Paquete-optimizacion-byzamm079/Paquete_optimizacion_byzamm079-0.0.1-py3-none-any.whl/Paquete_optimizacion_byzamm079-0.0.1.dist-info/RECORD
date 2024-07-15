@@ -1,0 +1,11 @@
+funciones_prueba/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funciones_prueba/func_objetivo.py,sha256=H2iWuzuTVxQwiA-78OC1VegrkbdHZntJKLxep0AnUTc,5325
+metd_multivariable/metodos_directos.py,sha256=G8gf3YQuXv87H4la9t7rIA-Gqt7UEMeWpmM9R-ifHY4,4903
+metd_multivariable/metodos_gradiente.py,sha256=48ZTUWLEzEOvo0nbSRTdmbKl060VbSGPMEbMh6zoWBk,5351
+metd_univariable/metodos_basado_derivada.py,sha256=NrTyEkXzWCHUFJWokQix7aX4iS9t5shzCeKIxz2a3xU,2629
+metd_univariable/metodos_elim_regiones.py,sha256=LnAbAroLlucTJid3QHs3kAjJ3gtmrGpipj_QJ-Mqo38,1882
+Paquete_optimizacion_byzamm079-0.0.1.dist-info/LICENSE,sha256=RYjdTKBgmaCNpewB7IQujcbWWCOkRpE1xPkiW8P1-6Q,1110
+Paquete_optimizacion_byzamm079-0.0.1.dist-info/METADATA,sha256=i8fyxeosX28zfXpaBtu5fuQhxVa3cF87A8JWqWk1k1M,672
+Paquete_optimizacion_byzamm079-0.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+Paquete_optimizacion_byzamm079-0.0.1.dist-info/top_level.txt,sha256=76FUUit61xIkr0NEjJS2L9TpiA6ea71LBNZq0oCrA_w,53
+Paquete_optimizacion_byzamm079-0.0.1.dist-info/RECORD,,
