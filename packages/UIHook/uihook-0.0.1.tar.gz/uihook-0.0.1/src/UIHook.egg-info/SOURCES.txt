@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/publish.yml
+src/cli.py
+src/driver.py
+src/uihook.py
+src/UIHook.egg-info/PKG-INFO
+src/UIHook.egg-info/SOURCES.txt
+src/UIHook.egg-info/dependency_links.txt
+src/UIHook.egg-info/entry_points.txt
+src/UIHook.egg-info/requires.txt
+src/UIHook.egg-info/top_level.txt

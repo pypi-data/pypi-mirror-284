@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "UIHook"
+description = "UIHook: A versatile toolkit for interacting with and testing various GUI frameworks."
+authors = [
+    { name = "James David Clarke", email = "james@jamesdavidclarke.com" }
+]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.8"
+dynamic = ["version"]
+dependencies = [
+    "fastapi",
+    "requests",
+    "python-dotenv",
+    "pydantic",
+    "customtkinter",
+    "hypercorn"
+]
+
+[project.urls]
+homepage = "https://github.com/JamesClarke7283/UIHook"
+repository = "https://github.com/JamesClarke7283/UIHook"
+
+[tool.setuptools]
+py-modules = ["cli", "driver", "uihook"]
+package-dir = { "" = "src" }
+
+[tool.setuptools_scm]
+version_scheme = "no-guess-dev"
+
+[project.scripts]
+uihook = "cli:main"

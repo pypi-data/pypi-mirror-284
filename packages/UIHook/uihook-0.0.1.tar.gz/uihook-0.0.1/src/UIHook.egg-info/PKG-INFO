@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: UIHook
+Version: 0.0.1
+Summary: UIHook: A versatile toolkit for interacting with and testing various GUI frameworks.
+Author-email: James David Clarke <james@jamesdavidclarke.com>
+License: Apache-2.0
+Project-URL: homepage, https://github.com/JamesClarke7283/UIHook
+Project-URL: repository, https://github.com/JamesClarke7283/UIHook
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: pydantic
+Requires-Dist: customtkinter
+Requires-Dist: hypercorn
+
+# UIHook
+
+UIHook: A versatile toolkit for interacting with and testing various GUI frameworks.
+
+## Introduction
+
+UIHook is a flexible and extensible toolkit designed to facilitate interaction with and testing of various GUI frameworks. It provides a robust API for automating GUI tasks, making it an ideal solution for both testing and automation scenarios. UIHook currently supports Tkinter and CustomTkinter, with plans to extend support to other GUI frameworks in the future.
+
+## Features
+
+- **Easy Integration**: Seamlessly integrate UIHook into your existing projects.
+- **Extensible**: Built with a flexible architecture to support various GUI frameworks.
+- **Automation**: Automate GUI interactions with a simple and intuitive API.
+- **Testing**: Write robust tests for your GUI applications.
+- **Logging**: Comprehensive logging for debugging and monitoring.
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have Python 3.8 or higher installed on your system.
+
+### Installation
+
+You can install UIHook using pip:
+
+```sh
+pip install uihook
+```
