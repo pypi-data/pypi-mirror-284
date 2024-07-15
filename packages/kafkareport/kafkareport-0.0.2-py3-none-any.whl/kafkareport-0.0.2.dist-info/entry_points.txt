@@ -1,0 +1,3 @@
+[console_scripts]
+kafkareport=kafkareport.cli:main
+
