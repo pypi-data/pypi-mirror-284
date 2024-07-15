@@ -1,0 +1,17 @@
+markdownify/__init__.py,sha256=a3Q5fwocPyXqpcbSFWTHYwo6zhRwQmJ1cN9qNZKEdYQ,15571
+markdownify/main.py,sha256=pxKVjE6BZ9yb85acicjsEYekI29woyEl5j2j_BCsT_E,3861
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_advanced.py,sha256=Gdt-9wqLSMeuQjdeu_BIM-3x-tvgrhqxLYwkGTugrM0,1265
+tests/test_args.py,sha256=TvNHW1Kmde8blc7hIUJQ7ZXKCyqEKK7gnLnMZeKHkC8,746
+tests/test_basic.py,sha256=pm9271SOSOg01fGkGqrKvB9olzh70cVp9rlB1t6QaKs,260
+tests/test_conversions.py,sha256=Y_Gedc0h7JU9JXGkhBT2W7mzFhv0RdzUX7pt6XAiYfI,12615
+tests/test_custom_converter.py,sha256=pGVTBPqhas675OWNxC5xHjpfdwZnjdSHvyoV4bM9Ry4,892
+tests/test_escaping.py,sha256=THAEvon6fA9uJwXbVs1Dclo37a_3teeD6OsPxyLX5yk,1427
+tests/test_lists.py,sha256=6Nv3a5FzoA0EYDFkCxQzymh3ZMnd9qbN36Hf5qIZV_U,2214
+tests/test_tables.py,sha256=BArZGdGMBIkkcYyHd6WbFvECnaG_aAWKhe-SMxLj3x0,6159
+markdownify-0.13.0.dist-info/LICENSE,sha256=-ui0LbFC2r8DsMXElYMaXRG5ZJ6tDPC9SrT1IpSyY74,1083
+markdownify-0.13.0.dist-info/METADATA,sha256=BRcfe3MFsMU5LdtHSFk4xqNN39xBb562aXxrsLKl_Qk,8456
+markdownify-0.13.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+markdownify-0.13.0.dist-info/entry_points.txt,sha256=Y1J8IsYXSoLxKHtjzhA2xhDT1R6aAmY3wWpnDlduTNU,55
+markdownify-0.13.0.dist-info/top_level.txt,sha256=RsJDzptX7Tn5CIxNVyvibfdqr2zabSPD4PmmuMeKc6M,18
+markdownify-0.13.0.dist-info/RECORD,,
