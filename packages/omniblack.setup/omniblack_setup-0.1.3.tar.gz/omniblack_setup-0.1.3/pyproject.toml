@@ -1,0 +1,46 @@
+[project]
+name = 'omniblack.setup'
+version = '0.1.3'
+description = "Library that helps package omniblack packages."
+readme='./README.md'
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+]
+
+dependencies=['setuptools', 'ruamel.yaml']
+
+[project.license]
+text = "Apache-2.0"
+
+[[project.authors]]
+name = "Terry Patterson"
+email = "Terryp@wegrok.net"
+
+[project.urls]
+Repository = "https://gitlab.com/terryp/terry.git"
+Homepage = "https://gitlab.com/terryp/terry/-/tree/next/tooling/setup"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+
+[tool.setuptools.package-data]
+"*" = ["*"]
+
+[project.entry-points.'distutils.setup_keywords']
+requires_external = 'setuptools.dist:assert_string_list'
+
+
+[project.entry-points.'egg_info.writers']
+'omniblack_package.json'='omniblack.setup:write_package_config'
+'external_requires.txt'='omniblack.setup:write_external_requires'
+
+[project.entry-points.'dist_info.writers']
+'omniblack_package.json'='omniblack.setup:write_package_config'
+'external_requires.txt'='omniblack.setup:write_external_requires'
+
+
+[build-system]
+requires = ["setuptools", "ruamel.yaml"]
+build-backend = "setuptools.build_meta"
