@@ -1,0 +1,18 @@
+[project]
+name = "hi_minju210"
+version = "0.7.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "minju210", email = "juliana6190210@gmail.com"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+hi-minju210 = "hi_minju210.hello:hi"
+
+
+[tool.pdm]
+distribution = true
