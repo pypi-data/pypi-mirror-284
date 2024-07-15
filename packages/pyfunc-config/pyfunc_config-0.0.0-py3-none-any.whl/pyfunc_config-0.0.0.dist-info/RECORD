@@ -1,0 +1,12 @@
+_build_meta.py,sha256=Rf7iFrG2H1gKCPZtPZ6lo2UNe30kXCQwl59Im9MG4xM,59
+pyfunc-config/__init__.py,sha256=6cyTiKKL5ILiXQyEMr-nhbzQcOjjha70bYDDOtS9P8U,345
+pyfunc-config/ftp_download.py,sha256=oeBrGUIoOwKISaDnEXhjE6cN1xQGFt1HScZrhzI_tOw,766
+pyfunc-config/ftp_update.py,sha256=aYNzY2zLm2fSqp8-BJYKAFavAnO2EeFXbdG152o9TL8,309
+pyfunc-config/get_config.py,sha256=dNmivATR9Hw2aTJ38fI0VrJ4yuhWoSeV6dA24RUdq7g,785
+pyfunc-config/get_email_path.py,sha256=ksdVAobzXKrncRfUZPmEJvxDLYddakb13_tu7xAXTS4,249
+pyfunc-config/get_ftp_path.py,sha256=0mydnGQ6lrjLUIPcxnYZJnVxPpb9esCa1OygLWQIMeQ,218
+pyfunc_config-0.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyfunc_config-0.0.0.dist-info/METADATA,sha256=36EyhuOvVJnFGQ89946yx4pU9fFmcTnnOrNN_Mw56tQ,17149
+pyfunc_config-0.0.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+pyfunc_config-0.0.0.dist-info/top_level.txt,sha256=36P9t3vRArcG8tXGBQZHhCKcBPY808tmHshLpAush6w,26
+pyfunc_config-0.0.0.dist-info/RECORD,,
