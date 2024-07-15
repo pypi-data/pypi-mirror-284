@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: youqu2-transfer-youqu3
+Version: 2024.7.12
+Summary: youqu2-transfer-youqu3
+Author-email: mikigo <huangmingqiang@uniontech.com>
+License: GPL2.0
+License-File: LICENSE
+Requires-Python: >=3.7
+Requires-Dist: ruff
+Description-Content-Type: text/markdown
+
+# 迁移工具
+
+一键将 youqu2 的用例代码修改为 youqu3
