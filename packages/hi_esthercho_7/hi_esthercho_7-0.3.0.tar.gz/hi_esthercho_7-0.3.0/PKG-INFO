@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hi_EstherCho-7
+Version: 0.3.0
+Summary: Default template for PDM package
+Author-email: EstherCho-7 <dkgkqm777@gmail.com>
+License: MIT
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+
+# hi_EstherCho-7
