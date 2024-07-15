@@ -1,0 +1,8 @@
+README.md
+setup.py
+theosgpt.egg-info/PKG-INFO
+theosgpt.egg-info/SOURCES.txt
+theosgpt.egg-info/dependency_links.txt
+theosgpt.egg-info/entry_points.txt
+theosgpt.egg-info/requires.txt
+theosgpt.egg-info/top_level.txt
