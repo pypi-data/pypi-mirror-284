@@ -1,0 +1,13 @@
+pymef-1.4.4.dist-info/RECORD,,
+pymef-1.4.4.dist-info/WHEEL,sha256=RhUYs-0X7BmZTdZ2wCxlzdxfJHr3IvpbnSvJGtTi6S8,108
+pymef-1.4.4.dist-info/top_level.txt,sha256=tdTwUbmCnT-Ua1bHfuMrg0l_wJ76REhL5ffyVx04gHg,6
+pymef-1.4.4.dist-info/LICENSE.txt,sha256=JTykodEguVSTdvU40kkeNAFqWtW-irXLTVRbpJFmdNk,1073
+pymef-1.4.4.dist-info/METADATA,sha256=mex51zIAtOSllvoyksIoygHYDdNzLcdgUcLt-kibvZs,3177
+pymef/mef_session.py,sha256=MhVFLSS5wt3QEhxES3t97rZC6g2f6I9dwPDfsTbpogo,67195
+pymef/version.py,sha256=6stz_YFBRP_lguydVylsTgSmj3VTb6WFq8Sp45WYQyY,22
+pymef/__init__.py,sha256=DIgROa8dqylmcMHvKOiMFpSlQv3_-Un_b4DX4Kl7EmI,78
+pymef/mef_constants.py,sha256=S4PZxVzm6Aqj-L65zTfvSHZZXxhHM4LmGMrVBljIHq8,11149
+pymef/mef_file/pymef3_file.cpython-38-darwin.so,sha256=p81xLea4dwKOyG9YNlUMcJYKW6-UaLk2R_J8Nvccrdo,310464
+pymef/mef_file/pymef3_file.c,sha256=CuC5ZL3lVdl6dQCQR6bypCroH2oh8Ayhjsxali3l9kQ,204917
+pymef/mef_file/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymef/mef_file/pymef3_file.h,sha256=QaHEmVt7_5Ymx-_HGHob3PDWQhnPFuGxVTD5TgFha7U,17860
