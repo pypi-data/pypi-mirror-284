@@ -1,0 +1,17 @@
+[project]
+name = "hello_WhiteCapella"
+version = "0.7.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "WhiteCapella1", email = "whitecapella@naver.com"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+hello_WhiteCapella = "hello_whitecapella.hello:hi"
+
+[tool.pdm]
+distribution = true

@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/hello_WhiteCapella.egg-info/PKG-INFO
+src/hello_WhiteCapella.egg-info/SOURCES.txt
+src/hello_WhiteCapella.egg-info/dependency_links.txt
+src/hello_WhiteCapella.egg-info/entry_points.txt
+src/hello_WhiteCapella.egg-info/top_level.txt
+src/hello_whitecapella/__init__.py
+src/hello_whitecapella/hello.py
