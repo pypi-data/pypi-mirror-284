@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+pandas
+datastock>=0.0.39
+bsplines2d>=0.0.15
+
+[dev]
+check-manifest
+coverage
+pytest
+sphinx
+sphinx-gallery
+sphinx_bootstrap_theme
