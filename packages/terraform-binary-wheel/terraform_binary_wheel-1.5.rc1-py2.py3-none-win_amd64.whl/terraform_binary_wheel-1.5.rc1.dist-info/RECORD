@@ -1,0 +1,5 @@
+terraform_binary_wheel-1.5.rc1.dist-info/LICENSE,sha256=dwmBlVDc6i5BrBhW-P-Fywm6Jt0H-bvDj1bVcceynkY,18228
+terraform_binary_wheel-1.5.rc1.dist-info/WHEEL,sha256=tQ7TJMdEQ1FPP3KgYl-lhGwiEfNQYQXF91hScVGkAII,118
+terraform_binary_wheel-1.5.rc1.dist-info/METADATA,sha256=FMFfqadAvvp0HYdNtfmdGb7Bq2uVeofqiX51S26tUJM,1322
+terraform_binary_wheel-1.5.rc1.data/scripts/terraform.exe,sha256=C-Cqm5rsvPCjlxLBr0a1fnQWj3xi-i8Yg72DMalrXww,65834160
+terraform_binary_wheel-1.5.rc1.dist-info/RECORD,,
