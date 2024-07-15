@@ -1,0 +1,1 @@
+handle error in loop like if has been stop the script it will be save last line it working in it in a lop
