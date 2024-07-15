@@ -1,0 +1,12 @@
+numpy>=1.22
+torch>=1.12.1
+cmdstanpy
+codetiming
+colorcet
+joblib
+kneed
+matplotlib
+mne
+scipy
+spectrum
+tqdm
