@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cpsvisualizer
+Version: 1.20240715141111
+Summary: Calculation and visualization of CPS (counts per second) for ICPMS scan data.
+Home-page: https://github.com/GeoPyTool/CPS-Visualizer
+Author: Frederic
+Author-email: wedonotuse@outlook.com
+Requires-Dist: cython
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: xlrd
+Requires-Dist: openpyxl
+Requires-Dist: matplotlib
+Requires-Dist: PySide6
+Requires-Dist: scikit-learn
+Requires-Dist: scikit-image
