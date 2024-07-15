@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ifccityjson
+Version: 0.7.10
+Summary: Converter for CityJSON files and IFC
+Author-email: "Laurens J.N. Oostwegel" <l.oostwegel@gmail.com>, Balázs Dukai <balazs.dukai@3dgi.nl>
+Project-URL: Homepage, http://ifcopenshell.org
+Project-URL: Documentation, https://docs.ifcopenshell.org
+Project-URL: Issues, https://github.com/IfcOpenShell/IfcOpenShell/issues
+Keywords: IFC,CityJSON,BIM
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: COPYING.LESSER
+Requires-Dist: ifcopenshell
+Requires-Dist: cjio >=0.8
+
+# IFCCityJSON
+
+IfcCityJSON is a converter for CityJSON files and IFC. It currently only
+supports one-way conversion from CityJSON to IFC.
