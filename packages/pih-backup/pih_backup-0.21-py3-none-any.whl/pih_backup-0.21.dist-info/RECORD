@@ -1,0 +1,10 @@
+BackupService/__main__.py,sha256=kuYhi1DZWKDSq2u70DvLlHtbgt3uzCUr8we0EmzWFnc,140
+BackupService/api.py,sha256=gb7pxJW0FOrq--cx5u_myCbJfjh2KCIC3X5Q07O_xFw,5328
+BackupService/const.py,sha256=k_8B9r_cGkBdyPepXz-peh2W6J89TdE-qEdj7gMjAeU,1211
+BackupService/robocopy_config_creator.py,sha256=jgbVemrZzB_9MH8lOLGMzKGptX_zvC9oc-g4mRf_4t0,4089
+BackupService/service.py,sha256=0w1fd_7puCWJ5zDRAJX_IQ74IOqUgQspzFoMdAvG-PA,4991
+pih_backup-0.21.dist-info/METADATA,sha256=jjMe4OhP17CTYPTzuc9hCDfnf7lHfawb6hUkgxvENME,271
+pih_backup-0.21.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pih_backup-0.21.dist-info/entry_points.txt,sha256=W4vcf8a8reEsmls-5rHzSiGrjDF9w7HDGlMMNIxIdyU,60
+pih_backup-0.21.dist-info/top_level.txt,sha256=D-w12czYZzy7OXRe-wE3KrRzia91Rpjv1TMIyXp_WRw,14
+pih_backup-0.21.dist-info/RECORD,,
