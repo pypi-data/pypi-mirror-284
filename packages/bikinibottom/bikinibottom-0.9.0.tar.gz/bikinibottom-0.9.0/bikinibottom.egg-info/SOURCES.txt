@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bikinibottom/__init__.py
+bikinibottom/core.py
+bikinibottom.egg-info/PKG-INFO
+bikinibottom.egg-info/SOURCES.txt
+bikinibottom.egg-info/dependency_links.txt
+bikinibottom.egg-info/requires.txt
+bikinibottom.egg-info/top_level.txt
