@@ -1,0 +1,9 @@
+spam_classifier/__init__.py,sha256=9TzQ0ZQx-uWOeKOFp-uR3Tyke5ZH2HZwJ3QQNAnWGwo,66
+spam_classifier/downloader.py,sha256=szSfL91lnWFpqVlXJ_xxRVkungycsOvgkTXf-lV2_5g,1966
+spam_classifier/model.py,sha256=Qm5A0YIdcjTCf5x8vNkQ8sqLiUDK-j_i-ulyztvBT5c,4223
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_model.py,sha256=DGnd-7--53iqodju32dcw6zrw024nU7ia-waKZsjf7w,641
+spam_classifier-0.15.dist-info/METADATA,sha256=7qTEpYHsvQYIRezyG12C4nZ9ZTdF33Ed1kzYGSPeTNw,433
+spam_classifier-0.15.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+spam_classifier-0.15.dist-info/top_level.txt,sha256=Z1EntBs5hij54Ds75bMbfjD1teHJS_YK7GHtFYPabEs,22
+spam_classifier-0.15.dist-info/RECORD,,
