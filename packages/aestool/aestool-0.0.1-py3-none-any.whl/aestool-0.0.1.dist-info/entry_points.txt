@@ -1,0 +1,2 @@
+[console_scripts]
+aestool = aestool.aestool:main
