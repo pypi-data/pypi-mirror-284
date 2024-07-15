@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+FashTextPy/__init__.py
+FashTextPy.egg-info/PKG-INFO
+FashTextPy.egg-info/SOURCES.txt
+FashTextPy.egg-info/dependency_links.txt
+FashTextPy.egg-info/top_level.txt
