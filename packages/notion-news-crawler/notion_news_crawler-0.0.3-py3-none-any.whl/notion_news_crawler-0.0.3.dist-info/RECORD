@@ -1,0 +1,10 @@
+notion_news_crawler/__init__.py,sha256=zOf1F1bN-2dQzngIHDmW2RoEn1fWg7ntOZVo-4tBEWM,223
+notion_news_crawler/config.py,sha256=8tVWWfDZehTxOAoyiuxGKH8ltrViwsKPf8U_z3qLVI8,456
+notion_news_crawler/naver_api.py,sha256=wBlaJM4_WM9nxAG_hTjKQF8VQOo-Spck0AmaI3zhSWQ,3623
+notion_news_crawler/reset_database.py,sha256=26m2DFIKa5JwGv_Ii27tM1OUgEXu85bgTRCz0IYTflY,3196
+notion_news_crawler/upload_to_database.py,sha256=BovDLCCZDjLe1NXB08VPsiuJAPz1x9UX3faViYJ5GiU,3997
+notion_news_crawler-0.0.3.dist-info/LICENSE,sha256=arPbggtrlVAKgVQVEXJx3qNH8sEBOK6vc879YzjEwxM,1067
+notion_news_crawler-0.0.3.dist-info/METADATA,sha256=VARzlUeLTYKJufJm0ki2udbWqRpgpVmn1a2Vs8nDfZI,2895
+notion_news_crawler-0.0.3.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+notion_news_crawler-0.0.3.dist-info/top_level.txt,sha256=5HzHgyq5hPmTGVAzGdFByyNx6sNnQWH9-Az_76REdt0,20
+notion_news_crawler-0.0.3.dist-info/RECORD,,
