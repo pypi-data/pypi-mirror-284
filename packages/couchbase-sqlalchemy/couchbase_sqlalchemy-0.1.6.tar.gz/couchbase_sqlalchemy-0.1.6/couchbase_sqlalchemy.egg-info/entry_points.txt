@@ -1,0 +1,2 @@
+[sqlalchemy.dialects]
+couchbasedb = src.dialect.couchbase_dialect:CouchbaseDialect
