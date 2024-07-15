@@ -1,0 +1,2 @@
+[console_scripts]
+hi-seokxkyu = hi_seokxkyu.hello:hi
