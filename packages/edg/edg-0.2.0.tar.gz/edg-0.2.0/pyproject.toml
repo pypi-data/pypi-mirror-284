@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edg"
+version = "0.2.0"
+description = "Hardware description language for circuit boards"
+readme = "README.md"
+authors = [{ name = "Ducky", email = "richard.lin@berkeley.edu" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: BSD License",
+    "Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
+    "Typing :: Typed",
+]
+keywords = ["PCB", "hardware description language"]
+dependencies = [
+    "protobuf >= 3.20.0",
+    "sexpdata==0.0.3",
+    "Deprecated",
+    "typing_extensions",
+]
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["edg.edgir", "edg.edgrpc", "edg.core", "edg.hdl_server", "edg.electronics_model", "edg.abstract_parts", "edg.parts", "edg"]
+
+[tool.setuptools.package-data]
+edg = ["core/resources/edg-compiler-precompiled.jar", "abstract_parts/resources/*.kicad_sch", "parts/resources/Pruned_JLCPCB SMT Parts Library(20220419).csv", "parts/resources/*.kicad_sch"]
+
+[project.urls]
+Homepage = "https://github.com/BerkeleyHCI/PolymorphicBlocks"
