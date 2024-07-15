@@ -1,0 +1,13 @@
+setuptools
+pandas
+ray
+metaomestats
+configargparse
+kaleido
+scikit-learn
+plotly
+psutil
+dominate
+pyrodigal
+pyrodigal-gv
+pyhmmer
