@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: airo-tulip
+Version: 0.0.1
+Summary: Python driver for the KELO Robile platform based on KELO tulip.
+Author-email: Mathieu De Coster <mathieu.decoster@ugent.be>, Thomas Van Acker <thovacke.vanacker@ugent.be>
+Project-URL: Homepage, https://github.com/airo-ugent/airo-tulip
+Project-URL: Issues, https://github.com/airo-ugent/airo-tulip/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru >=0.7.2
+Requires-Dist: pysoem >=1.1.6
+Requires-Dist: rerun-sdk >=0.16.1
+Requires-Dist: numpy ==1.24.4
+Requires-Dist: pyzmq ==26.0.3
+
+# AIRO Tulip
+
+This repository contains:
+
+- The KELO robotics C++ implementation of the KELO Robile platform driver, called KELO Tulip (`./kelo_tulip`)
+- A Python reimplementation with altered and additional functionality by IDLab-AIRO (UGent-imec) for integration in Python projects without a ROS dependency (`./src/airo-tulip`)
+
+See the respective subdirectories for more information.
+
+## Installation
+
+To install airo-tulip, use pip:
+
+```
+pip install airo-tulip
+```
