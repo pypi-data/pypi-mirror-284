@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: richer_tqdm
+Version: 0.0.3
+Summary: Improved tqdm.rich decorator for iterators and associated machinery.
+Home-page: https://github.com/emaballarin/richer_tqdm
+Author: Emanuele Ballarin
+Author-email: emanuele@ballarin.cc
+License: MPL-2.0
+Keywords: tqdm,rich,cli,progress,time,bar,progressbar
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm >=4.66.4
+Requires-Dist: rich >=13.7.1
+Requires-Dist: safe-assert >=0.5.0
+
+# ⚡`richer_tqdm`
+
+Improved [`tqdm.rich`](https://github.com/tqdm/tqdm/blob/master/tqdm/rich.py) decorator for iterators and associated machinery.
