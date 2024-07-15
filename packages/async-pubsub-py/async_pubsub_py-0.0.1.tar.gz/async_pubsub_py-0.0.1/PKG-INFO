@@ -1,0 +1,42 @@
+Metadata-Version: 2.3
+Name: async-pubsub-py
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/vikyw89/async-pubsub-py#readme
+Project-URL: Issues, https://github.com/vikyw89/async-pubsub-py/issues
+Project-URL: Source, https://github.com/vikyw89/async-pubsub-py
+Author-email: vikyw89 <vikyw89@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# async-pubsub-py
+
+[![PyPI - Version](https://img.shields.io/pypi/v/async-pubsub-py.svg)](https://pypi.org/project/async-pubsub-py)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/async-pubsub-py.svg)](https://pypi.org/project/async-pubsub-py)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install async-pubsub-py
+```
+
+## License
+
+`async-pubsub-py` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

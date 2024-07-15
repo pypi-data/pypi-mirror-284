@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "async-pubsub-py"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "vikyw89", email = "vikyw89@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/vikyw89/async-pubsub-py#readme"
+Issues = "https://github.com/vikyw89/async-pubsub-py/issues"
+Source = "https://github.com/vikyw89/async-pubsub-py"
+
+[tool.hatch.version]
+path = "src/async_pubsub_py/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/async_pubsub_py tests}"
+
+[tool.coverage.run]
+source_pkgs = ["async_pubsub_py", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/async_pubsub_py/__about__.py",
+]
+
+[tool.coverage.paths]
+async_pubsub_py = ["src/async_pubsub_py", "*/async-pubsub-py/src/async_pubsub_py"]
+tests = ["tests", "*/async-pubsub-py/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
