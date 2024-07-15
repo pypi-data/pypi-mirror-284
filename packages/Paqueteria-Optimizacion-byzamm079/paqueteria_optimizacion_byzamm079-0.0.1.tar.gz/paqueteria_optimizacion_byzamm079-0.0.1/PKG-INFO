@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Paqueteria_Optimizacion_byzamm079
+Version: 0.0.1
+Summary: Paqueteria de optimizacion multivariable y univariable
+Author-email: zamm079 <azi3lmtz@gmail.com>
+Project-URL: Homepage, https://github.com/zamm079/Paqueteria_Optimizacion_zamm079
+Project-URL: Issues, https://github.com/zamm079/Paqueteria_Optimizacion_zamm079/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Paqueteria optimizacion
+
+Este paquete contiene funciones de optimizacion
