@@ -1,0 +1,162 @@
+Metadata-Version: 2.1
+Name: dotnetinteropt
+Version: 0.2.0
+Summary: A high-level .NET interop library for Python
+Author-email: Christoph Ungricht <ch.ungricht@scewo.ch>
+License: Copyright 2024 Scewo AG
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: C#
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: toml
+Requires-Dist: pythonnet
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-html; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: coverage[toml]; extra == "dev"
+Requires-Dist: pytest-profiling; extra == "dev"
+Requires-Dist: cprofilev; extra == "dev"
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: furo; extra == "dev"
+Requires-Dist: sphinx-autodoc-typehints; extra == "dev"
+Requires-Dist: sphinx-autodoc-annotation; extra == "dev"
+Requires-Dist: sphinx-copybutton; extra == "dev"
+Requires-Dist: sphinx-rtd-theme; extra == "dev"
+Requires-Dist: sphinx-mdinclude; extra == "dev"
+Requires-Dist: sphinx-gallery; extra == "dev"
+Requires-Dist: docutils<0.19; extra == "dev"
+Requires-Dist: mistune<2,>=0.8.1; extra == "dev"
+
+# DotnetInteropt
+
+[![build status](https://github.com/Scewo/python-dotnetinteropt/actions/workflows/format-lint.yml/badge.svg)](https://github.com/Scewo/python-dotnetinteropt/actions/workflows/format-lint.yml)
+[![build status](https://github.com/Scewo/python-dotnetinteropt/actions/workflows/generate-doc.yml/badge.svg)](https://github.com/Scewo/python-dotnetinteropt/actions/workflows/generate-doc.yml)
+[![build status](https://github.com/Scewo/python-dotnetinteropt/actions/workflows/release.yml/badge.svg)](https://github.com/Scewo/python-dotnetinteropt/actions/workflows/release.yml)
+
+This package is a tool to easily install NuGet packages and load the compiled
+.NET DLL's into python. It uses [Pythonnet](https://pythonnet.github.io/) in the
+background to load and run the DLL's.
+
+In order to use this package you need to have [.NET](https://learn.microsoft.com/en-us/dotnet/core/install/)
+installed and added to your PATH, verify with:
+
+```shell
+dotnet --version
+```
+
+## Usage
+
+First, install the package:
+
+```shell
+pip install dotnetinteropt
+```
+
+Add it to the build backend dependencies:
+
+```toml
+[build-system]
+requires = [..., "dotnetinteropt"]
+```
+
+And append the following to your `pyproject.toml` file:
+
+```toml
+[tool.dotnetinterop]
+# OPTIONAL:
+
+# NuGet dependencies used in the project. Can be omitted when
+# no dependencies are needed:
+dependencies = [
+  [
+    "Newtonsoft.Json",  # Replace with the actual NuGet package name
+    "13.0.3", # Replace with the actual NuGet package version
+  ],
+  # Add more dependencies here
+]
+# name of the package to install it in.
+# Replace with the actual package name (needed for multi-package projects)
+# Otherwise the package name is inferred from the package name in the pyproject.toml:
+package = "dotnetinteropt"
+# path to where the DLL files should be copied to (relative to package):
+path = "_dotnetinteropt" # Default
+# Compiled in release or debug mode:
+release = true # Default
+
+
+[tool.setuptools.package-data]
+"*" = ["*.dll"] # include all DLL files from all packages
+```
+
+Create a `setup.py` file in the root of your project:
+
+```python
+from setuptools import setup
+from dotnetinteropt.backend import install_nugets
+
+if __name__ == "__main__":
+    install_nugets() # Has to be before setup such that it then can include the DLL's
+    setup()
+```
+
+In your python code you can now load the DLL's:
+
+```python
+from dotnetinteropt import load
+
+# Load the DLL's
+load("dotnetinteropt_examples")  # Change to the package where to find the DLL's
+
+# Now you can import the symbols from the DLL's
+from Newtonsoft.Json import Formatting
+from Newtonsoft.Json import JsonConvert
+from System import *
+from System.Collections.Generic import Dictionary
+```
+
+To generate the examples run:
+
+```shell
+make examples
+```
+
+Then run the examples with:
+
+```shell
+python3 src/dotnetinteropt_examples/hello_dotnet.py
+python3 src/dotnetinteropt_examples/json_dotnet.py
+```
+
+Also, check the `pyproject.toml` file for the example configuration.
+
+## Development
+
+Check out the [DEVELOPMENT](DEVELOPMENT.md) file for more information on how
+to develop this package.

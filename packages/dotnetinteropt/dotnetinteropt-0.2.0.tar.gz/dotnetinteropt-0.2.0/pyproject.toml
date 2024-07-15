@@ -1,0 +1,107 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm[toml]"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dotnetinteropt"
+description = "A high-level .NET interop library for Python"
+authors = [{ name = "Christoph Ungricht", email = "ch.ungricht@scewo.ch" }]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Development Status :: 3 - Alpha",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: MacOS :: MacOS X",
+  "Programming Language :: C#",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+dependencies = ["toml", "pythonnet"]
+dynamic = ["version"]
+
+
+[tool.setuptools.packages]
+find = { where = ["src"], exclude = ["dotnetinteropt_examples"] }
+
+
+[project.optional-dependencies]
+dev = [
+  # unit-tests:
+  "pytest",
+  "pytest-html",
+  "pytest-cov",
+  "coverage[toml]",
+  "pytest-profiling",
+  "cprofilev",
+  # updater:
+  "pip-tools",
+  # git, formatters and linters:
+  "pre-commit",
+  # different python version test runner:
+  "tox",
+  # documentation generation:
+  "sphinx",
+  "furo",
+  "sphinx-autodoc-typehints",
+  "sphinx-autodoc-annotation",
+  "sphinx-copybutton",
+  "sphinx-rtd-theme",
+  "sphinx-mdinclude",
+  "sphinx-gallery",
+  "docutils<0.19",             # mdinclude is not compatible with docutils >=0.19
+  "mistune<2,>=0.8.1",         # nbconvert is not compatible with mistune >=2
+]
+
+[project.scripts]
+dotnetinteropt-install = "dotnetinteropt.frontend:_main"
+
+[tool.setuptools_scm]
+write_to = "src/dotnetinteropt/_version.py"
+
+
+[tool.isort]
+profile = "google"
+skip_glob = ["venv*/*", "env*/*", ".tox"]
+
+[tool.yapf]
+based_on_style = "google"
+column_limit = 120
+split_before_logical_operator = true
+split_before_arithmetic_operator = true
+split_before_dict_set_generator = true
+
+[tool.yapfignore]
+ignore_patterns = ["venv*/*", "env*/*", ".tox/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--html=out/test-results/report.html --cov=dotnetinteropt --cov-report=term --cov-report=html"
+
+[tool.coverage.report]
+fail_under = 100
+omit = ["__main__.py"]
+
+[tool.coverage.html]
+directory = "out/coverage"
+
+[tool.dotnetinteropt] # Only used for example purposes
+package = "dotnetinteropt_examples" # name of the package to install it in
+# path to where the dll files should be copied to (relative to package):
+path = "_dotnetinteropt"
+# dotnet dependencies used in the project
+dependencies = [["Newtonsoft.Json", "13.0.3"]]
+
+[tool.setuptools.package-data] # Only used for example purposes
+"*" = ["*.dll"] # include all dll files from all packages
