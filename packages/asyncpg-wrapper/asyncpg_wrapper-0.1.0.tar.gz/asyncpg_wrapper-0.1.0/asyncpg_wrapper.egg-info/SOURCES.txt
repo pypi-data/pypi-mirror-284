@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+asyncpg_wrapper/__init__.py
+asyncpg_wrapper/apgwrap.py
+asyncpg_wrapper.egg-info/PKG-INFO
+asyncpg_wrapper.egg-info/SOURCES.txt
+asyncpg_wrapper.egg-info/dependency_links.txt
+asyncpg_wrapper.egg-info/requires.txt
+asyncpg_wrapper.egg-info/top_level.txt
