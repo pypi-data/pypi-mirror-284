@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+format_conversation_dataset/__init__.py
+format_conversation_dataset/_modidx.py
+format_conversation_dataset/format_transcription.py
+format_conversation_dataset.egg-info/PKG-INFO
+format_conversation_dataset.egg-info/SOURCES.txt
+format_conversation_dataset.egg-info/dependency_links.txt
+format_conversation_dataset.egg-info/entry_points.txt
+format_conversation_dataset.egg-info/not-zip-safe
+format_conversation_dataset.egg-info/requires.txt
+format_conversation_dataset.egg-info/top_level.txt
