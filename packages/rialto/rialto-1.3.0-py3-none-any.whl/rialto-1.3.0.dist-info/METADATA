@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rialto
+Version: 1.3.0
+Summary: Rialto
+Keywords: feature,featureslib,featuremaker,metadata,featureloader,loader
+Author: Marek Dobransky
+Author-email: marek.dobransky@absa.africa
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: delta-spark (>=2.4.0,<3.0.0)
+Requires-Dist: flake8-broken-line (>=1.0.0,<2.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: pandas (>=2.1.0,<3.0.0)
+Requires-Dist: pathlib (>=1.0.1,<2.0.0)
+Requires-Dist: pydantic (>=2.2.1,<3.0.0)
+Requires-Dist: pytest-mock (>=3.11.1,<4.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
