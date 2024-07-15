@@ -1,0 +1,18 @@
+[project]
+name = "notion_news_crawler"
+version = "0.0.3"
+authors = [
+  { name="MinSup Kim", email="tommy1005a@gmail.com" },
+]
+description = "Notion news mecro"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/kar7mp5/Notion-News-Crawler"
+Issues = "https://github.com/kar7mp5/Notion-News-Crawler/issues"
