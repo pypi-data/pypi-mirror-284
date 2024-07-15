@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+product2schema/__init__.py
+product2schema/engine.py
+product2schema/extract_metadata.py
+product2schema/scrape.py
+product2schema.egg-info/PKG-INFO
+product2schema.egg-info/SOURCES.txt
+product2schema.egg-info/dependency_links.txt
+product2schema.egg-info/requires.txt
+product2schema.egg-info/top_level.txt
+product2schema/models/__init__.py
+product2schema/models/engine_models.py
+product2schema/models/genai_models.py
+product2schema/models/product_models.py
