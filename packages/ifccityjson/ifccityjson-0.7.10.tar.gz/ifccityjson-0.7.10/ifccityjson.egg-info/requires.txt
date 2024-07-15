@@ -1,0 +1,2 @@
+ifcopenshell
+cjio>=0.8

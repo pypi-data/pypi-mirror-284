@@ -1,0 +1,11 @@
+COPYING
+COPYING.LESSER
+README.md
+pyproject.toml
+ifccityjson/__init__.py
+ifccityjson/__main__.py
+ifccityjson.egg-info/PKG-INFO
+ifccityjson.egg-info/SOURCES.txt
+ifccityjson.egg-info/dependency_links.txt
+ifccityjson.egg-info/requires.txt
+ifccityjson.egg-info/top_level.txt
