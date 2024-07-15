@@ -1,0 +1,8 @@
+mqboost/__init__.py,sha256=85qUZlrybNWPR208K9ZlytJoZE8otIA4WXpgextm9Nw,62
+mqboost/base.py,sha256=tyAa2hwgOK86CWLumNCS_Hq4XHcr-TAVBAkKjcHqHM8,1590
+mqboost/engine.py,sha256=WR525bq-SGPHq8H0dz8XJrkmYvYJANHMrR5s-_WWw1I,4912
+mqboost/objective.py,sha256=gtWl7cOI6yRyoYVu-i-ys6AcZT1o6lPCQsbtdK0XFw8,2118
+mqboost/utils.py,sha256=bQPbwG2dLn-x6H7aE6jEsFuVSrDmm44UBvHP43Hh03A,2229
+mqboost-0.0.2.dist-info/METADATA,sha256=FDSFgAX5Po0R1frPLs8FkQBuo5Vf986m94HuYvaORrM,2652
+mqboost-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+mqboost-0.0.2.dist-info/RECORD,,
