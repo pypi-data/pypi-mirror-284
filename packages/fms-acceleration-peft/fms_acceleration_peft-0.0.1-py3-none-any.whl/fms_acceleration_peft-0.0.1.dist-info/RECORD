@@ -1,0 +1,7 @@
+fms_acceleration_peft/__init__.py,sha256=0QOI2QyocWIT3q9h4SNU1jMYdEpV0JbsF0M5TyeNHNo,796
+fms_acceleration_peft/autogptq_utils.py,sha256=v-vSiNv6VNCwYldT0MUUy2yJ7YbPoAJcybal1_UJUZw,5318
+fms_acceleration_peft/framework_plugin_autogptq.py,sha256=qGdJ31bCruJwP6hI5r5OFF9UlPTAIf5Os5__t7ydwJw,12858
+fms_acceleration_peft/framework_plugin_bnb.py,sha256=j-9mppcDl9jDqFAxecOHPPAs7y9phKxb0QAowfN0qNg,7123
+fms_acceleration_peft-0.0.1.dist-info/METADATA,sha256=F4ntMvhzcTbmZ0RBdkyRWYHEzQ47fJ61nk0pvdPZTd4,2396
+fms_acceleration_peft-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+fms_acceleration_peft-0.0.1.dist-info/RECORD,,
