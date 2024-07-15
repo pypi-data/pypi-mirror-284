@@ -1,0 +1,8 @@
+README.md
+setup.py
+minihuman/__init__.py
+minihuman.egg-info/PKG-INFO
+minihuman.egg-info/SOURCES.txt
+minihuman.egg-info/dependency_links.txt
+minihuman.egg-info/requires.txt
+minihuman.egg-info/top_level.txt
