@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: Easys-Decorator
+Version: 0.1.2
+Summary: A library to simplify decorators in Python
+Home-page: https://github.com/SoulCodingYanhun/Easy-Decorator
+Author: SoulCodingYanhun
+Author-email: zhuzhishengzhu6@outlook.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## Easys-Decorator API 中文版
+
+**Easys-Decorator** 是一个 Python 库，旨在简化创建和使用装饰器的过程。它提供了一个用户友好的接口，用于定义和应用装饰器，消除了传统装饰器中常见的样板代码。
+
+**核心概念：**
+
+* **装饰器函数：** Easys-Decorator 允许你使用简单的语法定义装饰器函数。
+* **装饰器参数：** 你可以向你的装饰器传递可选参数，使它们更加灵活和可重用。
+* **装饰器应用：** 使用 `@decorate` 语法，以声明式的方式应用装饰器变得非常直观。
+
+**API 参考：**
+
+**1. 定义装饰器：**
+
+```python
+from easys_decorator import decorate
+
+@decorate
+def my_decorator(func, *args, **kwargs):
+  """
+  这是一个简单的装饰器，会在装饰的函数前后打印一条消息。
+  """
+  print(f"调用 {func.__name__}，参数：{args}，关键字参数：{kwargs}")
+  result = func(*args, **kwargs)
+  print(f"{func.__name__} 返回：{result}")
+  return result
+```
+
+**2. 应用装饰器：**
+
+```python
+@my_decorator
+def my_function(a, b, c=10):
+  """
+  这是一个简单函数，用于将三个数字相加。
+  """
+  return a + b + c
+
+# 调用装饰后的函数
+result = my_function(2, 3, c=5)
+```
+
+**3. 带参数的装饰器：**
+
+```python
+@decorate(param1="value1", param2="value2")
+def my_parameterized_decorator(func, param1, param2, *args, **kwargs):
+  """
+  这是一个带参数的装饰器，用于打印其参数的值。
+  """
+  print(f"param1: {param1}, param2: {param2}")
+  result = func(*args, **kwargs)
+  return result
+
+@my_parameterized_decorator
+def another_function(x, y):
+  """
+  这是另一个演示函数。
+  """
+  return x * y
+```
+
+**4. 装饰器链：**
+
+```python
+@my_decorator
+@my_parameterized_decorator(param1="value3", param2="value4")
+def chained_function(a, b):
+  """
+  此函数演示了如何将多个装饰器链接在一起。
+  """
+  return a - b
+```
+
+**5. 装饰器组：**
+
+```python
+from easys_decorator import DecoratorGroup
+
+group = DecoratorGroup(
+    my_decorator,
+    my_parameterized_decorator(param1="value5", param2="value6"),
+)
+
+@group
+def grouped_function(x, y, z):
+  """
+  此函数使用装饰器组，一次性应用多个装饰器。
+  """
+  return x + y + z
+```
+
+**注意：** `@decorate` 语法需要 Python 3.7 或更高版本。对于旧版本，你可以使用 `decorate()` 函数，如下所示：
+
+```python
+decorated_function = decorate(my_decorator)(my_function)
+```
+
+**Easys-Decorator** 通过提供清晰直观的 API 简化了装饰器的使用。它消除了对复杂嵌套函数的需求，让你可以专注于装饰器的逻辑，而无需担心实现细节。
