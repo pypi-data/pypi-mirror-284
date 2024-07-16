@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: gsapme
+Version: 0.1.3
+Summary: 
+Author: Theo Demetriades
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: copulas (>=0.11.0,<0.12.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Overview
+
+## What does this package do?
+This package is designed to support various methods for statistical analysis. In particular, we hope to offer tools for computing Shapley effects and Proportional Marginal Effects (PMEs) for a variety of models.
+
+## Current features
+The *gsapme* package is a work in progress. We currently support the following features:
+
+### Simulation
+1. Computation of conditional multivariate normal distributions (`conditional_mvn`)
+2. Conditional simulations from a multivariate normal distribution (`cond_sim`)
+
+### Example Models
+1. Ishigami function (`ishigami_mod`)
+2. Borehole function (`borehole_function`)
+
+### Analysis
+1. Computation of Shapley effects for a given model (`calculate_shapley_effects_np`)
+2. Computation of Proportional Marginal Effects (PMEs) for a given model (`calculatePME`)
+
