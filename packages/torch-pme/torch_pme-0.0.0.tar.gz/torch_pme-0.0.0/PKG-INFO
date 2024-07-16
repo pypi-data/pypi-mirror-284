@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: torch-pme
+Version: 0.0.0
+Summary: Particle-mesh based calculations of long-range interactions in PyTorch
+License: BSD-3-Clause
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# torch-pme
+
+Particle-mesh based calculations of long-range interactions in PyTorch.
+
+This package is currently under development at https://github.com/lab-cosmo and
+will be published here when a first version is ready.
