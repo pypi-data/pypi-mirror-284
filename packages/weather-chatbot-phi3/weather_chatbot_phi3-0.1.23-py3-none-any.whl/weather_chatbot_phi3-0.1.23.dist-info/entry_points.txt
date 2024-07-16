@@ -1,0 +1,4 @@
+[console_scripts]
+setup-weather-chatbot=setup:main
+weather-chatbot-phi3=weather_chatbot.app:main
+
