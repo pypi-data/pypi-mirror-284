@@ -1,0 +1,27 @@
+[project]
+name = "checkifc"
+version = "0.0.2"
+authors = [
+  { name="Bruno Muniz", email="eng.brunomuniz@outlook.com" },
+]
+description = "A package to work with IJFC meshes"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = [
+  "hatchling",
+  "ifcopenshell",
+  "trimesh",
+  "pyrender",
+  "lark",
+  "pyglet"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/*"]
