@@ -1,0 +1,17 @@
+huggingface_hub
+numpy
+torch
+torchaudio
+torchutil
+yapecs
+
+[test]
+librosa
+pytest
+
+[train]
+librosa
+matplotlib
+pyworld
+scipy
+torchcrepe
