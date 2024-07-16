@@ -1,0 +1,13 @@
+ubipop/__init__.py,sha256=M_1U_88H113ScWixyrHukMPpyhb1Z4LSV3FDISpzpJQ,25124
+ubipop/_cdn.py,sha256=GPrQVb5Ws-mZEnC7hqhMZ_svM6mAxcOmspswwEWInqc,1112
+ubipop/_matcher.py,sha256=VNMPq4UbTOxhnEnCfgRZWMZNiYx0yz1k6n-suTefjxk,5516
+ubipop/_utils.py,sha256=Ulh5qe7Tt4wCWDT19o7HF14ipHvpESg6b515G6bsbHY,1423
+ubipop/cli.py,sha256=r08manIvFyXsCUxQRtqPu2qKaCAjU1wdAkq50VDibVM,6719
+ubipop/ubi_manifest_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ubipop/ubi_manifest_client/client.py,sha256=KJ4I-URdU_TYyOjo-zjQXnE_GjzLCqIHyOHHwu0fMOI,4497
+ubipop/ubi_manifest_client/models.py,sha256=8_eWG4Aq99WmZS9RTQw3kppq0cFYGLWe3zK_Sb3sjtk,2651
+ubi_population_tool-0.17.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+ubi_population_tool-0.17.1.dist-info/METADATA,sha256=1j2XtQTaORHZZTnh9hnSCpJg7_WfQ4Zz18R3nfiVsQg,3021
+ubi_population_tool-0.17.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ubi_population_tool-0.17.1.dist-info/entry_points.txt,sha256=ncQzwlELSZ4LbmvHd0T2gOr2Po418IvUR-nkZR58R2s,49
+ubi_population_tool-0.17.1.dist-info/RECORD,,
