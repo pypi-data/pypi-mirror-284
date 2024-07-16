@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mkdocs-material-joapuiib
+Version: 0.4
+Summary: Custom theme for MkDocs
+Author-email: Joan Puigcerver <joapuiib@gmail.com>
+Maintainer-email: Joan Puigcerver <joapuiib@gmail.com>
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: mkdocs >=1.1
+

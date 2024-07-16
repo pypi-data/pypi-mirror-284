@@ -1,0 +1,5 @@
+[mkdocs.plugins]
+material-joapuiib/enviorment = material_joapuiib.plugins.enviorment:EnviormentPlugin
+
+[mkdocs.themes]
+material-joapuiib = material_joapuiib
