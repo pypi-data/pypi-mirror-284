@@ -1,0 +1,11 @@
+pdfixsdk/Pdfix.py,sha256=rqStq8BRwJuW7h8fJpjm-ih44L_Y7vEpNlyNjp9nsxc,346134
+pdfixsdk/__init__.py,sha256=nTJJsIbrTJ8GBmz5RrBO-WM9muermAXX2_XKCoyH2JI,1113
+pdfixsdk/bin/aarch64/libpdf.so,sha256=DsFMaDHmZ-3dVjij3mLTQ_BqoHQKx7zBKkNnso0w1u8,26618344
+pdfixsdk/bin/arm64/libpdf.dylib,sha256=T5N0ezIpRSzg_wp5x72K1VUAvG9eRUzsZ9wI3awad0o,19245280
+pdfixsdk/bin/x86_64/libpdf.dylib,sha256=XewO9s0T8tuoM-devlZ7fC8D-EkUpDLHwoVYIPAS8vQ,21409928
+pdfixsdk/bin/x86_64/libpdf.so,sha256=rg8MKLQvtYtp08SpM74G2syll-9mrNFgjeX1dcBzgMo,27084144
+pdfixsdk/bin/x86_64/pdf.dll,sha256=Oaive2yvTeY2Zj6y3o84eCcm6JK8Z1VjBkyd6TChyvU,39592960
+pdfix_sdk-8.1.2.dist-info/METADATA,sha256=QOXA-OJ_9OpksQOefvSB_QDnrhGT1G0Er2YaBqPHYss,2576
+pdfix_sdk-8.1.2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+pdfix_sdk-8.1.2.dist-info/top_level.txt,sha256=wQE0572VNT9a6xmxK041dt16c6GcKDhD0wGJ5dE1GI4,9
+pdfix_sdk-8.1.2.dist-info/RECORD,,
