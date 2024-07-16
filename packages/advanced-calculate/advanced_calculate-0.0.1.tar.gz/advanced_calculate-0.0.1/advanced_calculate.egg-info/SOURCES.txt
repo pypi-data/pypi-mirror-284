@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+AdvancedCalculate/__init__.py
+AdvancedCalculate/calculate.py
+advanced_calculate.egg-info/PKG-INFO
+advanced_calculate.egg-info/SOURCES.txt
+advanced_calculate.egg-info/dependency_links.txt
+advanced_calculate.egg-info/top_level.txt
