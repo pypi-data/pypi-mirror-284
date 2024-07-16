@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__int__.py
+setup.py
+finalpro.egg-info/PKG-INFO
+finalpro.egg-info/SOURCES.txt
+finalpro.egg-info/dependency_links.txt
+finalpro.egg-info/top_level.txt
