@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: ModelCompresLight
+Version: 0.1.1
+Summary: Lighter Model Ensemble
+Home-page: UNKNOWN
+Author: CO-AI Team
+Author-email: 710783765@qq.com
+License: MIT
+Description: pypi_modelcompression
+        
+        
+        How to use the documentation
+        ----------------------------
+        Documentation is available in two forms: docstrings provided
+        with the code, and a loose standing reference guide, available from
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6.2
