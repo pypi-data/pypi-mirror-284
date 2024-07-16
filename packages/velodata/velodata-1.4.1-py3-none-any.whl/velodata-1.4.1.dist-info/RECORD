@@ -1,0 +1,8 @@
+velodata-1.4.1.dist-info/METADATA,sha256=IwSOU7Up2kQi_hv0RaGX3PlBWe5T-coU_4Ng6SQpSPo,1711
+velodata-1.4.1.dist-info/WHEEL,sha256=mbxFTmdEUhG7evcdMkR3aBt9SWcoFBJ4CDwnfguNegA,90
+velodata-1.4.1.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+velodata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+velodata/example.py,sha256=_BxIMtPqWryOJPmDUX6p2kDs6fH5NBqE9mYYNp6-vqY,600
+velodata/example_news.py,sha256=-4WNX7CdGoIFsoeS6SbpNZHzr0RQ22PrINW0uTrEw7M,415
+velodata/lib.py,sha256=hQr-0yXbX7K3aKzGddNyOY7twH2RHKz5ZzMwIcv65-0,9981
+velodata-1.4.1.dist-info/RECORD,,
