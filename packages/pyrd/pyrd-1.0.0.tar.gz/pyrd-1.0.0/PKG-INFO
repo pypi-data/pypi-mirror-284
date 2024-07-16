@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pyrd
+Version: 1.0.0
+Summary: Real-Debrid API bindings for Python
+Home-page: https://github.com/itsnebulalol/pyrd
+License: MIT
+Author: Dominic Frye
+Author-email: me@itsnebula.net
+Requires-Python: >=3.11,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Project-URL: Repository, https://github.com/itsnebulalol/pyrd
+Description-Content-Type: text/markdown
+
+# pyrd
+
+**pyrd** is a library providing bindings for the Real-Debrid API. Premium account required for most endpoints.
+
+# Usage
+
+## Installation
+
+```console
+$ pip install pyrd
+```
+
+## Using the API
+
+```python
+from realdebrid import RealDebrid
+
+rd = RealDebrid("TOKEN HERE")
+print(rd.user.get().json())
+```
+
+# Credits
+
+This project is inspired by [s-krilla/rd_api_py](https://github.com/s-krilla/rd_api_py). pyrd is intended to be a maintained, modern recreation of rd_api_py.
+
