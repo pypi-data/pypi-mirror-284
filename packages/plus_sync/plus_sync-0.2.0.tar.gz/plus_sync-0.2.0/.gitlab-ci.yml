@@ -1,0 +1,17 @@
+default:
+  image: debian:latest
+  before_script: |
+    apt-get update
+    apt-get install -y curl git build-essential rclone
+    curl -fsSL https://pixi.sh/install.sh | bash
+    export PATH=$PATH:/root/.pixi/bin
+    curl -L https://coveralls.io/coveralls-linux.tar.gz | tar -xz -C /usr/local/bin
+
+test:
+  script: |
+    pixi run ruff_ci
+    pixi run test
+    coveralls report
+  rules:
+  - if: $CI_MERGE_REQUEST_ID
+  - if: $CI_COMMIT_BRANCH == 'main'
