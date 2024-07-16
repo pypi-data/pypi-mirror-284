@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: path_handler
+Version: 0.1
+Author: kali10101
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+License-File: LICENSE
+
