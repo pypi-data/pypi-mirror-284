@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nbdev-initial"
+version = "0.1.0"
+description = ""
+authors = ["ImtiazKhanDS <imtiaz.khan.bds@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.19"
+nbdev = "^2.3.25"
+jupyterlab = "^4.2.3"
+jupyterlab-quarto = "^0.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
