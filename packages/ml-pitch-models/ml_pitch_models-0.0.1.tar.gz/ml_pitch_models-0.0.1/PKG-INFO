@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: ml-pitch-models
+Version: 0.0.1
+Summary: Machine-learning models for monophonic pitch (F0) estimation
+License: MIT License
+Project-URL: Repository, https://github.com/tikuma-lsuhsc/python-ml-pitch-models
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: hmmlearn
+Provides-Extra: all-weights
+Requires-Dist: ml-pitch-models-data-fcn-929; extra == "all-weights"
+Requires-Dist: ml-pitch-models-data-fcn-993; extra == "all-weights"
+Requires-Dist: ml-pitch-models-data-fcn-1953; extra == "all-weights"
+Requires-Dist: ml-pitch-models-data-crepe-full; extra == "all-weights"
+Requires-Dist: ml-pitch-models-data-crepe-large; extra == "all-weights"
+Requires-Dist: ml-pitch-models-data-crepe-medium; extra == "all-weights"
+Requires-Dist: ml-pitch-models-data-crepe-small; extra == "all-weights"
+Requires-Dist: ml-pitch-models-data-crepe-tiny; extra == "all-weights"
+Provides-Extra: fcn-weights
+Requires-Dist: ml-pitch-models-data-fcn-929; extra == "fcn-weights"
+Requires-Dist: ml-pitch-models-data-fcn-993; extra == "fcn-weights"
+Requires-Dist: ml-pitch-models-data-fcn-1953; extra == "fcn-weights"
+Provides-Extra: crepe-weights
+Requires-Dist: ml-pitch-models-data-crepe-full; extra == "crepe-weights"
+Requires-Dist: ml-pitch-models-data-crepe-large; extra == "crepe-weights"
+Requires-Dist: ml-pitch-models-data-crepe-medium; extra == "crepe-weights"
+Requires-Dist: ml-pitch-models-data-crepe-small; extra == "crepe-weights"
+Requires-Dist: ml-pitch-models-data-crepe-tiny; extra == "crepe-weights"
+Provides-Extra: default-weights
+Requires-Dist: ml-pitch-models-data-fcn-993; extra == "default-weights"
+Provides-Extra: fcn-1953-weights
+Requires-Dist: ml-pitch-models-data-fcn-1953; extra == "fcn-1953-weights"
+Provides-Extra: fcn-993-weights
+Requires-Dist: ml-pitch-models-data-fcn-993; extra == "fcn-993-weights"
+Provides-Extra: fcn-929-weights
+Requires-Dist: ml-pitch-models-data-fcn-929; extra == "fcn-929-weights"
+Provides-Extra: crepe-full-weights
+Requires-Dist: ml-pitch-models-data-crepe-full; extra == "crepe-full-weights"
+Provides-Extra: crepe-large-weights
+Requires-Dist: ml-pitch-models-data-crepe-large; extra == "crepe-large-weights"
+Provides-Extra: crepe-medium-weights
+Requires-Dist: ml-pitch-models-data-crepe-medium; extra == "crepe-medium-weights"
+Provides-Extra: crepe-small-weights
+Requires-Dist: ml-pitch-models-data-crepe-small; extra == "crepe-small-weights"
+Provides-Extra: crepe-tiny-weights
+Requires-Dist: ml-pitch-models-data-crepe-tiny; extra == "crepe-tiny-weights"
