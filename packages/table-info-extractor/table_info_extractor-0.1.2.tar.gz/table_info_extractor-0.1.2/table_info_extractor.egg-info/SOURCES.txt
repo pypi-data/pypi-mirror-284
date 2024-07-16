@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+table_data_extractor/__init__.py
+table_data_extractor/table_info_extractor.py
+table_info_extractor.egg-info/PKG-INFO
+table_info_extractor.egg-info/SOURCES.txt
+table_info_extractor.egg-info/dependency_links.txt
+table_info_extractor.egg-info/requires.txt
+table_info_extractor.egg-info/top_level.txt

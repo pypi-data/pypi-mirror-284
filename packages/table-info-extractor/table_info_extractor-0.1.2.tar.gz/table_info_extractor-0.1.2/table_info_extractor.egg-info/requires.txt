@@ -1,0 +1,7 @@
+pdf2image
+img2table
+pytesseract
+Pillow
+ipython
+pandas
+opencv-python-headless
