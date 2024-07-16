@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "chemllmhack"
+version = "0.1.0"
+description = "A SDK for computational chemistry LLM hackthon"
+authors = ["bowen zhang <bowen.zhang@qdx.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
