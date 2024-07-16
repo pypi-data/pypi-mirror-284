@@ -1,0 +1,12 @@
+pyodre/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyodre/interpreters.py,sha256=KBrEfJzE0yUFq_ok4qlkJqY6dczRJdre5LKbriVqCBc,273
+pyodre/odre.py,sha256=m_I6Y8a6GPA_sUNuSiw2oaCGvd6qvi9O3maix0tczyQ,4282
+pyodre/python_functions.py,sha256=dxAd5CmsDUBGMa7gyHnsnF2a-aHhOD_j2BeBAyDIsRE,1201
+pyodre/python_interpreter.py,sha256=cNfOiQNkuyLLh9-amDjJCwnGJfY8JpbyJsdY1pWs6-4,2808
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_odre.py,sha256=vfB1I7hc0LXhj0wE-OX9lOM3pxRi6eOWCsdt-LxmSCU,1330
+pyodre-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyodre-1.0.1.dist-info/METADATA,sha256=IIbU7YndyVn99gr0drpjnCNIWTQ8WlWPqe24Of8CySU,9962
+pyodre-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyodre-1.0.1.dist-info/top_level.txt,sha256=6dioJVvM4eLpeiGPooKdVD1TH0ZQ_zSLBsTz12AB52E,12
+pyodre-1.0.1.dist-info/RECORD,,
