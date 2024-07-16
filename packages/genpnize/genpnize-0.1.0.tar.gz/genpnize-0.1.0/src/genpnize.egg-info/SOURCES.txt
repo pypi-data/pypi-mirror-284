@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/genpnize/__init__.py
+src/genpnize/__main__.py
+src/genpnize/iter_recipes.py
+src/genpnize/producer.py
+src/genpnize.egg-info/PKG-INFO
+src/genpnize.egg-info/SOURCES.txt
+src/genpnize.egg-info/dependency_links.txt
+src/genpnize.egg-info/entry_points.txt
+src/genpnize.egg-info/requires.txt
+src/genpnize.egg-info/top_level.txt
+tests/test_main.py
