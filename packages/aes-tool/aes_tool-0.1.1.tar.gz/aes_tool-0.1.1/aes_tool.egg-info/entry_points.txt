@@ -1,0 +1,2 @@
+[console_scripts]
+aes-tool = aes_tool.aes_tool:main
