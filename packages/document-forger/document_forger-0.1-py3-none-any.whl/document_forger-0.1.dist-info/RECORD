@@ -1,0 +1,12 @@
+document_forger/__init__.py,sha256=Q7bwxz53Gl15d2AvvF84JeGTVaR198xFOJYLa0k0rjg,109
+document_forger/__main__.py,sha256=hAbkTaJ6GPD9rYNeCeR02n1VrE3aYmjrlZkrVsO68pI,1576
+document_forger/document_processing.py,sha256=ciY4pHuMLryoTS6QljFg0t0SSNKTUsTo9N5mss4r01E,3928
+document_forger/image_processing.py,sha256=Atdl8EOFTQSYJFZv85_xVyjfQE_ZgTE1kzNGX8Bgtpg,1877
+document_forger/ocr.py,sha256=CVNNI2hYKXa0wsaeJIgy2anNjsPvYSS01qoZU5ZpnLY,2567
+document_forger/utils.py,sha256=7-dQbV5xyGq1GM8IveI662QAfzyW613tCZV4sNtlQ6s,1135
+document_forger-0.1.dist-info/LICENSE,sha256=WwThtlwsv4LQAT5J1zsY92TVivSBxFPeDa0dEB_PFjA,1095
+document_forger-0.1.dist-info/METADATA,sha256=7n5ZZrqXZUNMD94UpDcWZyUuxi5Q4WnIQXRBbgNwPcI,546
+document_forger-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+document_forger-0.1.dist-info/entry_points.txt,sha256=EKVX-7ps0EURH6g0d8nBN-h-HX1jVhIvQwb8WfXpsgg,54
+document_forger-0.1.dist-info/top_level.txt,sha256=DezQRHPX0lvHbltXX_5badjdDOqV4ozeLkHVAFX-sxk,16
+document_forger-0.1.dist-info/RECORD,,
