@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: genpnize
+Version: 0.1.0
+Summary: Format text like the Producer
+Author-email: nikkie <takuyafjp+develop@gmail.com>
+License: MIT License
+Project-URL: Repository, https://github.com/ftnext/genpnize
+Keywords: text,format
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: taskipy ; extra == 'dev'
+Requires-Dist: autoflake ; extra == 'dev'
+Requires-Dist: pyupgrade ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-randomly ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+
+# genpnize
+
+```
+% echo どこか小一時間ほどお時間頂ければと思います。どうかな？ | genpnize -
+どこか小一時間ほどお時間頂
+ければと思います。どうかな?
+```
+
+## Motivation
+
+[THE IDOLM@STER MILLION LIVE! Anime](https://millionlive-anime.idolmaster-official.jp/) episode #1
+
+```
+今日はお疲れ様。アイドルの
+件も受けてくれて本当にあり
+がとう！これから一緒に頑張
+っていこう！ついては今度、
+改めて正式な手続きや説明確
+認を行いたいので、どこかで
+事務所のほうまで来てもらえ
+る時間を作ってもらえないで
+しょうか。事務所でなくても
+どこか小一時間ほどお時間頂
+ければと思います。どうかな?
+```

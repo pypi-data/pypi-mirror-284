@@ -1,0 +1,10 @@
+genpnize/__init__.py,sha256=AlEaRaRRd_6x3DLhXJe6QtqbZN68j3MvbVKXddoyfFU,391
+genpnize/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genpnize/iter_recipes.py,sha256=fnia8f7kybaUc3tabzUPyhLe-jSHb0CHOevHTP2BpYM,996
+genpnize/producer.py,sha256=G65ePVfDEVWsM3R_BsMBJu2vz1c8DSEDqWjiPnTidfY,1028
+genpnize-0.1.0.dist-info/LICENSE,sha256=IxYn-d07yIiXHhd7X3lIlYzCgVy4HmkUgnORyaijcjs,1063
+genpnize-0.1.0.dist-info/METADATA,sha256=O9qy19FYLiMCV4n2t5h78owvowXOOvzX2XLLIHgrnVQ,1883
+genpnize-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+genpnize-0.1.0.dist-info/entry_points.txt,sha256=XZ9u7Mdva18tBey0cvvt4Wts3iQf_1JrfaLY1JKbmiA,43
+genpnize-0.1.0.dist-info/top_level.txt,sha256=XN8AqsrsE9_FQN6iAPcExxxvTP2ltSzwjejZr35rprQ,9
+genpnize-0.1.0.dist-info/RECORD,,
