@@ -1,0 +1,14 @@
+pod5Viewer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pod5Viewer/__main__.py,sha256=tJ2rXQ5c1gMjEvDBXRv8IqMYTdBiyPL3r4Op3Lr0GQI,408
+pod5Viewer/__version__.py,sha256=TElj_ZEO07o-0BXqR4H5Xw7hzjqD6y4ZhBlQu4HCCtU,19
+pod5Viewer/dataHandler.py,sha256=Et5nFpwT9lPMxfGOgzIJTXMzQKzbS4siav9fKrkhRi0,4566
+pod5Viewer/help_strings.py,sha256=nn2IZh4nXdnMyqGokqacODPRTsKtWVxPpnHfkbXwhwM,6480
+pod5Viewer/icon.ico,sha256=cT3Rlihv83R7Dw_3io5_88cFIieMF8k3xZge1kUyA84,209317
+pod5Viewer/pod5Viewer.py,sha256=SAKtCSA6_Q_U_F97BcVEB7i11-NUsynw1GLKhRFoxDU,28206
+pod5Viewer/viewWindows.py,sha256=QgtqaeelM8WFxC-FP4211lpVrUtfCWiiO5SSyh1gp-o,14506
+pod5Viewer-1.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pod5Viewer-1.0.3.dist-info/METADATA,sha256=4XetGajWgMxw7w8RscDSfbWeEwoFdT0G3SrAK3JH6rU,8306
+pod5Viewer-1.0.3.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+pod5Viewer-1.0.3.dist-info/entry_points.txt,sha256=rlBXuAnUtDqGkpgMp2MiDvBt_3U8G97zy1Qgz7UENik,56
+pod5Viewer-1.0.3.dist-info/top_level.txt,sha256=eQEcAWXDqbZE-dtBEmoMzSMTKvsYZYRrvSsg_5fucxY,11
+pod5Viewer-1.0.3.dist-info/RECORD,,
