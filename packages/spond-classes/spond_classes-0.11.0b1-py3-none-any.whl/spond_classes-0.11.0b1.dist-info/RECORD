@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=JppXNbNCvBaeQiYhRheZl8Hm6F3jwqVw_TcNIOSVQT8,3790
+spond_classes/__init__.py,sha256=SNUDCo24nMv9axWowC8xpCSPuXRypDRIVXADcoRROmQ,355
+spond_classes/event.py,sha256=7pDh71cuRB-1bKvgTxJGQ9Geg7viNGGXTNl1DltrU28,2546
+spond_classes/group.py,sha256=aAC11Ec0lVPNqBo6eDlwNmdwKBfuumda1fC7cA2uRLk,4385
+spond_classes/member.py,sha256=vGw_00sk4PqSMuWRheSgs32yY8Fkh0Z1HLD7gcngaDo,1885
+spond_classes/profile.py,sha256=NJQTJVujqmhuV7tpAzDUDmdpEosS0UCxnKtTvHu3tiM,550
+spond_classes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spond_classes/role.py,sha256=rgpIomebQnyXnnp8nmDx5HPEEbzyfeS8maxSsKLllGs,633
+spond_classes/subgroup.py,sha256=EQeGpMkGeqb6kJIYjhXMk73NwmaHv7DY6BASlroYxm0,657
+spond_classes-0.11.0b1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+spond_classes-0.11.0b1.dist-info/METADATA,sha256=UutsziXmrslrweb2WqISSqlcN0rg2n7x_I0f6CpavQs,3718
+spond_classes-0.11.0b1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+spond_classes-0.11.0b1.dist-info/RECORD,,
