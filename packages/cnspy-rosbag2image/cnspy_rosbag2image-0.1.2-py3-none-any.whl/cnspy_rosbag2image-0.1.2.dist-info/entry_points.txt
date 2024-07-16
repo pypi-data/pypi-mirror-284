@@ -1,0 +1,2 @@
+[console_scripts]
+ROSbag2Image = cnspy_rosbag2image.ROSbag2Image:main
