@@ -1,0 +1,11 @@
+pynoma/DataManager.py,sha256=di2qwary0todlcEQCiIk4sJ7QyiBsPNiOr6HkgcLksA,12210
+pynoma/Logger.py,sha256=k7Luwj7endaIStm5d0KD3wromzxsS-lLCPtamzuO_Eo,1437
+pynoma/Queries.py,sha256=xq83d40Gz3OWj_WhY5RGvHYNXNVeaSTfDROGPwc2t6Q,14032
+pynoma/Search.py,sha256=2G_TnmCpXPaQs9EWpo4YhOH1Rzey06AGxrnxXnBrndE,15129
+pynoma/__init__.py,sha256=zIWX5_7l0VULfddlDujsMhX_mc0woXPmgdsljDPvJK0,243
+pynoma/helper.py,sha256=ImPO8wmq8LnieQ4NWbz_4Mf7bSwU5iKH4FjoX5cmEwI,1700
+Pynoma-0.2.1.dist-info/LICENSE,sha256=0I7NKSbRRT_EE8EC_bgdWoO7yDYW8jXjAMZxrL-8Zkg,1138
+Pynoma-0.2.1.dist-info/METADATA,sha256=S4LR6eCGv_b0ft3B3xm_UCHtoqsI6N1NBrG0Tt8gGW0,723
+Pynoma-0.2.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+Pynoma-0.2.1.dist-info/top_level.txt,sha256=m3iJXYZHoAmq_ZKHaT48AcCcjyzjD9Q7OCMFe_KSdFE,7
+Pynoma-0.2.1.dist-info/RECORD,,
