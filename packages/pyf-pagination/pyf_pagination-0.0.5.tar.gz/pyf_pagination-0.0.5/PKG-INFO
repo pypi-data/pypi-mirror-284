@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyf_pagination
+Version: 0.0.5
+Summary: 一个用于 Django REST 框架的自定义分页包
+Home-page: https://github.com/
+Author: ycx
+Author-email: ycx3030@126.com
+License: MIT Licence
+Keywords: pip,pyf_pagination
+Platform: any
+
+一个用于 Django REST 框架的自定义分页包
