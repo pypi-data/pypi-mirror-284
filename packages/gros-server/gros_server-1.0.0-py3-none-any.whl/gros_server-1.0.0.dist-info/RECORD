@@ -1,0 +1,12 @@
+server/__init__.py,sha256=8FGdDaiOVt7fI1v51G9ftHMUOvMQmy60aNn6hXLVtTw,744
+server/application.py,sha256=rkpcm5_9imvAdvy52RWGV_XbrPgRUINhWhPT_QFWqCM,5040
+server/authentication.py,sha256=8CzsNACFlrpsO2RCiBfsCxKxPiw9vXhQp4T1woHwnsw,9383
+server/bootstrap.py,sha256=vnTdrg-_xae6_EXMvK2uLZbHApgzKDEgYWGYMQNe_XM,7819
+server/dispatcher.py,sha256=j9xrgF32UnJ0SXIFAMegXk9dlALptWQhlw8IvsjfZZo,2166
+server/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+server/template.py,sha256=PWvnjdRus-wJGhlXxtITCNXODPY-2i_R5N5pot1LEYI,1202
+gros_server-1.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+gros_server-1.0.0.dist-info/METADATA,sha256=CfZINPl4e07YiUVR0QWSTDrWM8rYeBA0hcSeKf8MbJU,5846
+gros_server-1.0.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+gros_server-1.0.0.dist-info/top_level.txt,sha256=StKOSmRhvWS5IPcvhsDRbtxUTEofJgYFGOu5AAJdSWo,7
+gros_server-1.0.0.dist-info/RECORD,,
