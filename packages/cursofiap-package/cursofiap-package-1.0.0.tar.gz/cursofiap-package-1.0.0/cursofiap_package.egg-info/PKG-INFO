@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cursofiap-package
+Version: 1.0.0
+Summary: Descricao da sua lib cursofiap
+Home-page: https://github.com/tadrianonet/cursofiap
+Author: Thiago S Adriano
+Author-email: tadriano.net@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# Curso Fiap
+
+A simple example library.
+
+## Licença
+
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
