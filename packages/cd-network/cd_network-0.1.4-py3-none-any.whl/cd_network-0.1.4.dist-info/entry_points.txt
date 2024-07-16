@@ -1,0 +1,2 @@
+[console_scripts]
+cd_network = cd_network.run:main
