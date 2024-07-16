@@ -1,0 +1,13 @@
+dl1_data_handler>=0.12.0
+astropy
+matplotlib
+numpy
+pandas
+pip
+pyyaml
+scikit-learn
+ctaplot
+numba<0.57,>=0.56.2
+tensorflow<2.16,>=2.15
+pydot
+pyirf
