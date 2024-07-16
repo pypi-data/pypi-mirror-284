@@ -1,0 +1,8 @@
+README.md
+setup.py
+pixegaaami_hello/__init__.py
+pixegaaami_hello/main.py
+pixegaaami_hello.egg-info/PKG-INFO
+pixegaaami_hello.egg-info/SOURCES.txt
+pixegaaami_hello.egg-info/dependency_links.txt
+pixegaaami_hello.egg-info/top_level.txt
