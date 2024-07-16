@@ -1,0 +1,6 @@
+pyproject.toml
+ekosis/__init__.py
+ekosis.egg-info/PKG-INFO
+ekosis.egg-info/SOURCES.txt
+ekosis.egg-info/dependency_links.txt
+ekosis.egg-info/top_level.txt
