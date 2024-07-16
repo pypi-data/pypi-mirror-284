@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "tfanalyse"
+version = "0.2.0"
+description = "Lightweight command-line utility to analyse Terraform plan files"
+authors = ["Tobias Waslowski <tobiaswaslowski@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+pytest-cov = "^5.0.0"
+coverage-badge = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tfanalyse = "tfanalyse.cli:tfanalyse"
