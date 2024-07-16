@@ -1,0 +1,45 @@
+# VeevaVaultBasics
+******* Sukumar Kutagulla *******
+
+Pre_Requisites:
+1. Install python
+2. pip install pycryptodome
+3. pip install pymongo
+4. pip install robotframework-pabot
+5. pip install robotframework-seleniumlibrary
+6. pip install pycrypto
+
+Vault Structure:
+1. This project contains below vaults
+    a. Vault Clinical Basics
+    b. Vault RIM Basics
+    c. Vault Quality Basics
+2. Each of above vaults contain its own logins, resources, Script documents paths, test case folders.
+3. All users unique logins should be maintained at specific logins.robot file.
+4. Resources folder contains vault specific keywords and locators files and ScriptDocuments folder.
+5. Test cases folder should contain the test cases. And each robot file should contain one script and file name match with your script name.
+    e.g: Script name: BASICS-PQ-CLIN-CLIN-01, then file name should be as Script : BASICS_PQ_CLIN_CLIN_01.robot
+    And your test case id (tag name) also should be same BASICS_PQ_CLIN_CLIN_01.
+6. ScriptDocuments folder should contain if any specific files (.docx, .pdf, .xlsx, .zip) required for the scripts.
+7. ScriptDocumentsPath folder contains the path for the specific file defined in ScriptDocuments folder.
+
+Framework:
+1. Once vault is cloned successfully.
+2. Open visual studio code terminal and execute below commands if framework(SA_Framework) is not configured in vault.
+    a. git submodule add "https://github.com/Spotline-Inc/SA_Framework.git"
+    b. git submodule init
+    c. git submodule update
+
+Framework Components: 
+Framework contains below folders
+1. Custom_Library
+2. Framework_Common_Resources
+3. Vault_Specific_Common_Resources
+4. WonderPharma_Resources
+
+Note: 
+1. Except "WonderPharma_Resources" rest all are self explanatory and DO NOT add/update anything in WonderPharma_Resources folder as this is going to be deprecated or moved to vault level in near future.
+2. Once vault and Framework are properly setup, then create a branch aligning to script that you will be working
+ e.g: Script : BASICS-PQ-CLIN-CLIN-01
+ Then you vault and framework branches also should be created with same convention.
+
