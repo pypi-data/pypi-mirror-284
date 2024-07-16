@@ -1,0 +1,13 @@
+Decimal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Decimal/decimalBase.py,sha256=hoShtQaeNypWicM2h5YtpRxva4rNRIB7oWJaFus8HmY,1127
+Decimal/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Decimal/tests/test_decimalBase.py,sha256=HwDVema9gSM5QqWjOIDRtFh4WuZMDxFEcDIrQQL7IGA,5492
+DecimalCalcul/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DecimalCalcul/base.py,sha256=hoShtQaeNypWicM2h5YtpRxva4rNRIB7oWJaFus8HmY,1127
+DecimalCalcul/decimalBase.py,sha256=hoShtQaeNypWicM2h5YtpRxva4rNRIB7oWJaFus8HmY,1127
+DecimalCalcul/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DecimalCalcul/tests/test_decimalBase.py,sha256=HwDVema9gSM5QqWjOIDRtFh4WuZMDxFEcDIrQQL7IGA,5492
+DecimalCalcul-2.1.dist-info/METADATA,sha256=FcqY8awWFeVicxHAzvUA_bbZ7Q7qaRuCFZDcXJiW1js,1935
+DecimalCalcul-2.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+DecimalCalcul-2.1.dist-info/top_level.txt,sha256=_wZPDskLnXhFFZ72gnJxV1niyzokx2kE_7maRBkuSUQ,14
+DecimalCalcul-2.1.dist-info/RECORD,,
