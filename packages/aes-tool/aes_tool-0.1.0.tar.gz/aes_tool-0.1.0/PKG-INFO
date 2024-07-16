@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: aes-tool
+Version: 0.1.0
+Summary: Advanced AES Encryption Decyption Toolkit
+Home-page: https://github.com/babaralijamali/aes-tool
+Author: Babar Ali Jamali
+Author-email: babar995@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycryptodome
+
+# Advanced AES Encryption Decyption Tools
+
+aes-tool is advanced AES encryption and decryption tools.
+
+## Features
+- Generate AES key
+- Encrypt text
+- Decrypt text
+- Save and load keys
+- Save and load IVs
+
+## Installation
+You can install the package using pip:
+
+pip install aes-tool
+
+After Installing you will need to execute in command prompt or terminal directly using:
+
+aes-tool
