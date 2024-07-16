@@ -1,0 +1,3 @@
+[console_scripts]
+run-client = network_com.client:udp_listener
+run-server = network_com.server:send_ip
