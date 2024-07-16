@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: optimnat
+Version: 0.1.1
+Summary: Paquete de métodos de optimización para funciones de una variable y multivariables
+Home-page: https://github.com/n4tJM/optimnat_project
+Author: Natalia Jarquin
+Author-email: ux21ii179@ux.edu.mx
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Optimization Methods
+
+This package provides optimization methods for univariate and multivariate functions.
+
+The package content includes the following methods:
+
+Methods for functions of a variable:
+ * Region removal methods
+ * Interval halving method
+ * Fibonacci search
+ * Golden section method
+ * Derivative-based methods
+ * Newton-Raphson method
+ * Bisection method
+ * Secant method
+
+Methods for multivariate functions:
+ * Direct methods
+ * Random walk
+ * Nelder and Mead method (Simplex)
+ * Hooke-Jeeves method
+ * Gradient methods
+ * Cauchy method
+ * Fletcher-Reeves method
+ * Newton's method
+
+## Facility
+
+You can install the package using `pip`:
+
+```sh
+pip install optimnat
