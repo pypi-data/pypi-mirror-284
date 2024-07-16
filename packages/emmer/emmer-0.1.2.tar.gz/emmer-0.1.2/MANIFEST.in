@@ -1,0 +1,5 @@
+global-include *.pdb
+global-include *.mrc
+global-include *.npy
+global-include *.pickle
+global-include geckodriver
