@@ -1,0 +1,2 @@
+[console_scripts]
+housekeep = housekeep:do_housekeep
