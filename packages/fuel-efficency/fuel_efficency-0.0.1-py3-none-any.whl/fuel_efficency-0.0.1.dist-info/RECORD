@@ -1,0 +1,17 @@
+fuel_efficency/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuel_efficency/algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuel_efficency/algorithms/a_star.py,sha256=Ucm4Esuk84yXI07dC3otyuD5dOeHTb220KUHo-L2yhk,7186
+fuel_efficency/algorithms/context.py,sha256=k5bWICAAFwTcyAugN-38Ya1jQfT2UTfzy8Ipe1Uy25k,1849
+fuel_efficency/algorithms/dijkstra.py,sha256=oXC4uxqB5A94MTSLd4mq-uDA4d8PeP0KtjZ3h3L-IjY,8544
+fuel_efficency/algorithms/path_finding.py,sha256=9wu9exu1vIW84lhxWNoCYutqK6NN4fL72ziv33y7Z2M,497
+fuel_efficency/entities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuel_efficency/entities/down_hill.py,sha256=7myUxpa8-LxU047vvnJQ-VCcqfxtKE5OgHhPR2VRkSM,260
+fuel_efficency/entities/node.py,sha256=DzTV8SWJvKehPIhSsWoHCf-Isiaxu9RSZ5YlHmJVoys,2192
+fuel_efficency/entities/plateau.py,sha256=2GsuiQKKwogYoagWi7g4L-OhvmkcimLnFk3qMX7hCgg,257
+fuel_efficency/entities/position.py,sha256=ehh-ghY0K8GLmWIivXTIzLY58Ww3Sg6lGLXTvsPX4Sc,1761
+fuel_efficency/entities/up_hill.py,sha256=tA1y7JQMfEyxLvEecz-lKyNwi1ZHJCYpo530kZZVLOo,256
+fuel_efficency/entities/valley.py,sha256=GBe9myZRO2tvkIBFRGfB58Pm54ppzPIgmSoXyD6kC18,254
+fuel_efficency-0.0.1.dist-info/METADATA,sha256=AI4bUT-pEmlIHvu2ePJrm4Hr4pZrj_oy18d6ojEb8Bo,4690
+fuel_efficency-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+fuel_efficency-0.0.1.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+fuel_efficency-0.0.1.dist-info/RECORD,,
