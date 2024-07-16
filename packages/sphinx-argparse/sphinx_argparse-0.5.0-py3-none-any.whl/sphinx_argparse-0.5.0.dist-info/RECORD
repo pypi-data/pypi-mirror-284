@@ -1,0 +1,7 @@
+sphinxarg/__init__.py,sha256=kJn0QVX014tgRBhkv83YLlzhR7UaemMvayOp_JCKYvw,47
+sphinxarg/ext.py,sha256=ksTPbvp9y49x0FcLOyCQc_8Z2bkF_cBjFUb6Py_PXes,23178
+sphinxarg/markdown.py,sha256=6D79uV-gAnFkQMafvOgTT5Jj1UCAlotyIT0cTYyySGQ,10273
+sphinxarg/parser.py,sha256=DHnxjQ8MKIkYMkqBFKOpzAJqlCJp8VFjHQZeDLfvoFc,6598
+sphinx_argparse-0.5.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+sphinx_argparse-0.5.0.dist-info/METADATA,sha256=kil6JOEv1DusWL0Y_TUqTKbSRVWpCokltx3IFF_3fQ8,3574
+sphinx_argparse-0.5.0.dist-info/RECORD,,
