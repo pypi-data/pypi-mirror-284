@@ -1,0 +1,78 @@
+[build-system]
+requires = [
+  "setuptools>=61.0",
+  "cython>=3.0",
+  "numpy>=2.0; python_version >= '3.9'",
+  "numpy>=1.13; python_version < '3.9'",
+  "tomli; python_version < '3.11'",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name                = "brambox"
+authors             = [ { name = "EAVISE" }, { name = "Tanguy Ophoff" }, { name = "Maarten Vandersteegen" }]
+description         = "Basic Requisites for Algorithms on iMages toolBOX"
+readme              = { file = "README.md", content-type = "text/markdown" }
+license             = { file = "LICENSE" }
+requires-python     = ">=3.7"
+dependencies        = ["numpy", "pandas>=1.1", "scipy", "tqdm>=4.27"]
+dynamic             = ["version"]
+
+[project.optional-dependencies]
+segment      = ["pgpd>=3.0.3"]  # Deprecated name, prefer to use "segmentation"
+segmentation = ["pgpd>=3.0.3"]
+
+[project.urls]
+Homepage        = "https://gitlab.com/EAVISE/brambox"
+Documentation   = "https://eavise.gitlab.io/brambox"
+Repository      = "https://gitlab.com/EAVISE/brambox"
+
+[tool.versioneer]
+VCS = "git"
+style = "pep440"
+versionfile_source = "brambox/_version.py"
+versionfile_build = "brambox/_version.py"
+tag_prefix = "v"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--cov --cov-report term"
+markers = ["io", "long"]
+
+[tool.coverage.run]
+plugins = ["Cython.Coverage"]
+include = ["brambox/*"]
+omit = [
+  "brambox/_version.py",
+  "brambox/_imports.py",
+  "brambox/util/_log.py",
+]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.ruff]
+target-version = "py37"
+line-length = 150
+extend-exclude = [
+    ".sandbox",
+    "versioneer.py",
+    "_version.py",
+]
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.ruff.lint]
+select = ["C", "E", "F", "W", "B", "G", "I", "SIM", "B9", "C4", "RET5", "NPY201"]
+unfixable = ["B"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401", "F403", "F405"]
+"brambox/eval/*.py" = ["C901"]
+"brambox/io/parser/_formats.py" = ["F403", "F405"]
+"test/**/*.py" = ["F401"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 20
