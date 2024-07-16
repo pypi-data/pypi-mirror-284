@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fidjax
+Version: 1.0.0
+Summary: Frechet Inception Distance in JAX.
+Home-page: http://github.com/danijar/fidjax
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# FID JAX
