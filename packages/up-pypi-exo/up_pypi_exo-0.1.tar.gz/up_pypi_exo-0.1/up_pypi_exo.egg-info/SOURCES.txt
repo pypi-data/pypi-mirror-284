@@ -1,0 +1,10 @@
+setup.py
+up_pypi_exo/Binomialdistribution.py
+up_pypi_exo/Gaussiandistribution.py
+up_pypi_exo/Generaldistribution.py
+up_pypi_exo/__init__.py
+up_pypi_exo.egg-info/PKG-INFO
+up_pypi_exo.egg-info/SOURCES.txt
+up_pypi_exo.egg-info/dependency_links.txt
+up_pypi_exo.egg-info/not-zip-safe
+up_pypi_exo.egg-info/top_level.txt
