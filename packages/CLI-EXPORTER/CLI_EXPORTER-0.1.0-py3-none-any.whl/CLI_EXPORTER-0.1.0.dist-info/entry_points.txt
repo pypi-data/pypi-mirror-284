@@ -1,0 +1,2 @@
+[console_scripts]
+myapp = my_application.cli:cli
