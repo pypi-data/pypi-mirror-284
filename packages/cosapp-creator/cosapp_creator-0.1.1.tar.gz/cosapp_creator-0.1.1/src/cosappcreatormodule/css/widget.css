@@ -1,0 +1,120 @@
+:root {
+  --borderColor: lightslategray;
+  --borderRadius: 15px;
+
+  --backgroundColor: rgb(231, 231, 231);
+}
+
+.cosapp_creator {
+  overflow: auto;
+
+  background-color: white;
+
+  color: black;
+  font-size: 13px;
+
+  padding: 5px;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.defaultTextInput {
+  background-color: transparent;
+  width: 100%;
+
+  border: 1px solid black;
+  border-radius: 3px;
+
+  color: black;
+}
+
+.center {
+  text-align: center;
+}
+
+.hiddenOverflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.assemblyNameContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.defaultText {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.demoDiv {
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.SaveImportMenu {
+  margin-bottom: 5px;
+  display: inline;
+}
+
+.SaveImportMenu button {
+  margin-right: 5px;
+  display: inline;
+}
+
+.connCheckMenu {
+  float: right;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.connCheckMenu button:disabled {
+  cursor: not-allowed;
+}
+
+.container {
+  background-color: var(--backgroundColor);
+
+  border: 3px solid var(--borderColor);
+  border-radius: var(--borderRadius);
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.hover {
+  position: absolute;
+
+  padding: 2px;
+  border-radius: 5px;
+
+  box-shadow: 2px 2px black;
+
+  background-color: rgb(0, 100, 0);
+  color: white;
+  z-index: 1;
+}
+
+.mathPb {
+  display: block;
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+.readMe {
+  user-select: text;
+}
+
+.readMe .singleCodeLine {
+  background-color: lightgray;
+}

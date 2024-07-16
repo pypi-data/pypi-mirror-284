@@ -1,0 +1,120 @@
+:root {
+  --formElWidth: 170px;
+
+  --flowProviderMinWidth: 600px;
+
+  --flowContainerWidth: 90%;
+
+  --flowHeight: 800px; /* useless for now, but should be used if it is possible to get the height of the appx container */
+  --flowMinHeight: 800px;
+
+  --nodeWidth: 100px;
+  --nodeBorderWidth: 3px;
+  --nodeBorderStyle: solid;
+  --nodeBorderRadius: 15px;
+  --nodeTextAlign: center;
+  --nodeBackgroundColor: #98e8c1;
+
+  --pullingBackgroundColor: rgb(223, 223, 223);
+
+  --mathPbTop: 12px;
+}
+
+.flowProvider {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex-grow: 1;
+  min-width: var(--flowProviderMinWidth);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height:  max(calc(100vh - 250px), 500px);
+}
+
+.flowContainer {
+  width: 90%;
+}
+
+.flowNode {
+  background-color: var(--nodeBackgroundColor);
+  width: var(--nodeWidth);
+  min-height: 15px;
+
+  padding: 2px;
+
+  border: var(--nodeBorderWidth) var(--nodeBorderStyle) #078d70;
+  border-radius: var(--nodeBorderRadius);
+
+  text-align: var(--nodeTextAlign);
+
+  z-index: 2;
+}
+
+.flowNode .nodeInput {
+  width: calc(var(--nodeWidth) - 10px);
+}
+
+.pullingNode {
+  background-color: var(--pullingBackgroundColor);
+  width: var(--nodeWidth);
+
+  border: var(--nodeBorderWidth) var(--nodeBorderStyle) var(--borderColor);
+  border-radius: var(--nodeBorderRadius);
+
+  text-align: var(--nodeTextAlign);
+}
+
+.graphHover {
+  font-size: 10px;
+  width: fit-content;
+}
+
+.reactMarkdown {
+  font-size: 10px;
+}
+
+.reactMarkdownVariables table {
+  width: max-content;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.reactMarkdownVariables th:empty {
+  display: none;
+}
+
+.reactMarkdownVariables td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+  max-width: 150px;
+}
+
+.reactMarkdownVariables ul {
+  padding: 0px 10px 0px 20px;
+  text-align: left;
+}
+
+.nodeMathPb {
+  position: absolute;
+  top: var(--mathPbTop);
+  right: -1px;
+  color: darkgreen;
+  background-color: var(--nodeBackgroundColor);
+}
+
+.mathPbHover {
+  position: absolute;
+  top: var(--mathPbTop);
+  left: calc(var(--nodeWidth) + 15px);
+  width: max-content;
+}
+
+.connectionEdgeLabel {
+  white-space: nowrap;
+
+  border-radius: 5px;
+  background-color: white;
+  padding: 1px;
+  font-size: 10px;
+}

@@ -1,0 +1,146 @@
+:root {
+  --sidebarPadding: 5px;
+  --sidebarNodeWidth: 150px;
+  --sidebarBorderWidth: 2px;
+  --sidebarInteriorBorder: var(--sidebarBorderWidth) solid black;
+  --sidebarFolderBorder: 1px solid rgb(148, 148, 148);
+}
+
+.sidebar {
+  background-color: rgb(231, 231, 231);
+  padding: var(--sidebarPadding);
+
+  min-width: calc(var(--sidebarNodeWidth) + 25px);
+  max-width: 300px;
+
+  resize: horizontal;
+}
+
+.sidebar .title {
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.dragDropSidebar {
+  border-left: var(--sidebarInteriorBorder);
+  border-radius: 0px var(--borderRadius) var(--borderRadius) 0px;
+
+  direction: rtl;
+}
+
+.dragDropSidebar .tree {
+  max-height: calc(
+    max(var(--flowMinHeight), var(--flowHeight)) - var(--sidebarPadding) * 2 -
+      30px
+  );
+  padding: 5px;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.dragDropSidebar .folderContainer {
+  text-align: left;
+}
+
+.dragDropSidebar .folderContainer .symbol {
+  display: inline;
+  margin-right: 5px;
+  color: blue;
+}
+
+.dragDropSidebar .folderContainer button {
+  border-style: none;
+  text-align: left;
+  background-color: transparent;
+  width: 100%;
+  color: black;
+}
+
+.dragDropSidebar .folder {
+  padding: 5px;
+  border-left: var(--sidebarFolderBorder);
+}
+
+.dragDropSidebar .flowNode {
+  display: inline-block;
+
+  min-width: 0px;
+  min-height: 0px;
+  width: 1px;
+  height: 1px;
+  border-width: 2px;
+
+  margin-right: 5px;
+}
+
+.dragDropSidebar .dragNode {
+  padding: 1px;
+  margin-left: 1px;
+}
+
+.dragDropSidebar .dragNode:active {
+  border-radius: 15px;
+  background-color: rgb(201, 201, 201);
+}
+
+.dragDropSidebar .nodeHover {
+  max-width: calc(3 * var(--sidebarNodeWidth));
+  white-space: normal;
+}
+
+.execOrderSidebar {
+  border-right: var(--sidebarInteriorBorder);
+  border-radius: var(--borderRadius) 0px 0px var(--borderRadius);
+
+  overflow: auto;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.execOrderSidebar .orderList {
+  min-width: calc(var(--sidebarNodeWidth) + 15px);
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-grow: 1;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.execOrderSidebar .orderList .system {
+  padding: 3px;
+  margin-bottom: 5px;
+  width: var(--sidebarNodeWidth);
+}
+
+.execOrderSidebar .orderList .dropArea {
+  color: red;
+}
+
+.execOrderSidebar .orderList .selectedSys {
+  color: green;
+}
+
+.checkMenu {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkMenu button {
+  margin-bottom: 5px;
+}
