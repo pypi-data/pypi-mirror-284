@@ -1,0 +1,2 @@
+[console_scripts]
+wationx = wationx.cli:main
