@@ -1,0 +1,22 @@
+[project]
+name = "fuel_efficency"
+version = "0.0.1"
+authors = [
+  { name="Samuel Amico", email="sam.fst@gmail.com" },
+]
+description = "Tech challenge for Ambev"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/SamuelAmicoFidelis/bees_ml_path_challenge-skeleton"
+Issues = "https://github.com/SamuelAmicoFidelis/bees_ml_path_challenge-skeleton/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
