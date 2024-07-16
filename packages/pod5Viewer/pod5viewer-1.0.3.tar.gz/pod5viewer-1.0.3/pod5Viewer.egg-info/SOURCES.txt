@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+pod5Viewer/__init__.py
+pod5Viewer/__main__.py
+pod5Viewer/__version__.py
+pod5Viewer/dataHandler.py
+pod5Viewer/help_strings.py
+pod5Viewer/icon.ico
+pod5Viewer/pod5Viewer.py
+pod5Viewer/viewWindows.py
+pod5Viewer.egg-info/PKG-INFO
+pod5Viewer.egg-info/SOURCES.txt
+pod5Viewer.egg-info/dependency_links.txt
+pod5Viewer.egg-info/entry_points.txt
+pod5Viewer.egg-info/requires.txt
+pod5Viewer.egg-info/top_level.txt
