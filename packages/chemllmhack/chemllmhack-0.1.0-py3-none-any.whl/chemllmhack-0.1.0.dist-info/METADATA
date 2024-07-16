@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: chemllmhack
+Version: 0.1.0
+Summary: A SDK for computational chemistry LLM hackthon
+Author: bowen zhang
+Author-email: bowen.zhang@qdx.co
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+
