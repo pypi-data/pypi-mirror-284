@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: jugmt
+Version: 0.3.0
+Summary: JUst Give Me Tables
+Author-email: "Simon A. F. Lund" <os@safl.dk>
+License: BSD-3-Clause
+License-File: LICENSE
+Requires-Dist: pytest
+Requires-Dist: jinja2
+Requires-Dist: jsonschema
+Requires-Dist: python-docx
+
