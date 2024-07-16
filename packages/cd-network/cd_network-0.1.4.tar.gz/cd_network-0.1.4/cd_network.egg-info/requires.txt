@@ -1,0 +1,13 @@
+numpy<2
+scipy
+matplotlib
+networkx
+
+[dev]
+pytest
+check-manifest
+pre-commit
+
+[test]
+pytest
+coverage
