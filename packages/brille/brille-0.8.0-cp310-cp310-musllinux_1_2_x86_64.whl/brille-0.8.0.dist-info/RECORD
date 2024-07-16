@@ -1,0 +1,16 @@
+brille.libs/libgcc_s-a3a07607.so.1,sha256=5ptIUeAzZweNZrFehN0_Bb5B0FcJgux7NbAFoU8vwwo,148041
+brille.libs/libstdc++-496613c0.so.6.0.32,sha256=AwZhL5WFT99I2Q6vIxXOhW7qddfuOZ1xecxiP9QTVY4,3494361
+brille.libs/libgomp-1f0f45f5.so.1.0.0,sha256=JYZuzgiypSabjFLxXb3Nm6c4Q12fyT_uNMXOENwHwuE,336801
+brille/COPYING,sha256=AkJuNEXtUzRN1jfNwT4m5Zd9A1RuI4dP-8bq1-8IoTA,33896
+brille/_brille.cpython-310-x86_64-linux-gnu.so,sha256=OLHM-QR-QvHXoUm-tB9zjnBUpgsVCt84FyxYp9P7PA4,8982033
+brille/__init__.py,sha256=ysPvyCj29bcO54-AWi_W6UTnzQLU5E7wmlcatEWuPcc,2706
+brille/bound.py,sha256=C_wU7oDPfI4wAPxJ4XGw_fSwLkTp0PSejZq2jGh2rMY,2951
+brille/vis.py,sha256=gKmrhb9DaDFHL85cm01BqVXcZtCxKsmb3thvI_7E7og,10359
+brille/plotting.py,sha256=opR1PglDtfjLArVM1ayzkyGODFNBIMqGwxfoSrKoCD0,22625
+brille/lattice.py,sha256=Kb5dHJGK2sd6xrtAUroRNl7Kz5rhbbv8QBdMXvpLPKU,6999
+brille/utils.py,sha256=YNbC9Urip8Nfj469nntONg1Ee4kGaOcozQqqZqZhLn8,13824
+brille-0.8.0.dist-info/COPYING,sha256=AkJuNEXtUzRN1jfNwT4m5Zd9A1RuI4dP-8bq1-8IoTA,33896
+brille-0.8.0.dist-info/WHEEL,sha256=1geN_4bUBMIyCsbLCfMWOAKvJHqe7y5CQKucDsrjfJg,112
+brille-0.8.0.dist-info/top_level.txt,sha256=-M8-VE2QuPFYuMLLsbCSZmfK6W9HEWn1tj58duE86b4,7
+brille-0.8.0.dist-info/RECORD,,
+brille-0.8.0.dist-info/METADATA,sha256=PRGGbsVDepCwya0auCS3NE88DZHyIiq98q0A4IC5-EM,3925
