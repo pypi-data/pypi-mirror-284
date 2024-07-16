@@ -1,0 +1,21 @@
+[workspace]
+members = [
+  "core",
+  "config",
+  "ecs",
+  "file",
+  "lib",
+  "pipeline",
+  "storage",
+  "logging",
+  "walker",
+  "test_helper",
+  "workflow_tests",
+]
+resolver = "2"
+
+[workspace.metadata.workspaces]
+no_individual_tags = true
+
+[profile.release]
+debug = true
