@@ -1,0 +1,9 @@
+classconfig
+datasets
+torch
+evaluate
+bert-score~=0.3.13
+munkres~=1.1.4
+absl-py
+nltk
+rouge_score>=0.1.2
