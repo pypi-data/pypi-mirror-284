@@ -1,0 +1,12 @@
+grscheller/datastructures/__init__.py,sha256=4dlh17yNy2h5MozjhKbeuzL-gbEuZ7zSEZB7MMvVrYU,886
+grscheller/datastructures/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grscheller/datastructures/queues.py,sha256=ldzQ31i1uJKGmSxNu4EdTVvRsdvi7vDT2ZGfmR7ZDY8,10049
+grscheller/datastructures/split_ends.py,sha256=rfo0jc0MzboussMr6hs1C9SvN-1dr6xoeAeE684MVhM,7975
+grscheller/datastructures/tuples.py,sha256=fhb648W7naSUAW7HKfAiU0yPWlv_-U-UbDJkyWvuitM,5400
+grscheller/datastructures/nodes/__init__.py,sha256=5zpRAjAQTxSMF66jRI9_E41o2Qjx6ENGKw8AAoWe_Bc,928
+grscheller/datastructures/nodes/dl.py,sha256=irmudwUCtYy0hVIObQDo_IcIEesVQ7e0-w9nzsquUxM,1711
+grscheller/datastructures/nodes/sl.py,sha256=1K1ew_dHgXcLNBKhUQjum5uh4m8L3bQHNqJ0tRd2ff8,1578
+grscheller_datastructures-0.19.0.dist-info/LICENSE,sha256=csqbZRvA3Nyuav1aszWvswE8CZtaKr-hMjjjcKqms7w,10774
+grscheller_datastructures-0.19.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+grscheller_datastructures-0.19.0.dist-info/METADATA,sha256=J78mOdTtSUsMaNKndlIpYPOuqWNiiNLHg1C54bJ79_0,2302
+grscheller_datastructures-0.19.0.dist-info/RECORD,,
