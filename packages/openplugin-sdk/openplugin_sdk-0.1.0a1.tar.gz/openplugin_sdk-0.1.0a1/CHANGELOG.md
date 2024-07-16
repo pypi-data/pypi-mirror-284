@@ -1,0 +1,15 @@
+# Changelog
+
+## 0.1.0-alpha.1 (2024-07-15)
+
+Full Changelog: [v0.0.1-alpha.0...v0.1.0-alpha.1](https://github.com/ImpromptAI/openplugin-python-sdk/compare/v0.0.1-alpha.0...v0.1.0-alpha.1)
+
+### Features
+
+* **api:** update via SDK Studio ([55770bb](https://github.com/ImpromptAI/openplugin-python-sdk/commit/55770bb007724e310de23bd96b24d4761f0f1583))
+
+
+### Chores
+
+* go live ([#1](https://github.com/ImpromptAI/openplugin-python-sdk/issues/1)) ([a773811](https://github.com/ImpromptAI/openplugin-python-sdk/commit/a7738118718f0b24edb4896e45d80437d9793d52))
+* update SDK settings ([#3](https://github.com/ImpromptAI/openplugin-python-sdk/issues/3)) ([3890935](https://github.com/ImpromptAI/openplugin-python-sdk/commit/3890935e87c212ba4fe912499c28c95cb506486d))
