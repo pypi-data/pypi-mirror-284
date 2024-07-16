@@ -1,0 +1,8 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+setup.cfg
+src/x23101082_car_insurance.egg-info/PKG-INFO
+src/x23101082_car_insurance.egg-info/SOURCES.txt
+src/x23101082_car_insurance.egg-info/dependency_links.txt
+src/x23101082_car_insurance.egg-info/top_level.txt
