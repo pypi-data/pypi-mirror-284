@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "assertpy-stubs"
+version = "1.1.0"
+description = "Mypy|Pyright plugin and stubs for assertpy"
+authors = ["SOCGNA KOUYEM Childeric <socgnachilderic@proton.me>"]
+maintainers = ["SOCGNA KOUYEM Childeric <socgnachilderic@proton.me>"]
+keywords = ["mypy", "pyright", "assertpy", "stubs"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/socgnachilderic/assertpy-stubs"
+repository = "https://github.com/socgnachilderic/assertpy-stubs"
+packages = [{ include = "assertpy-stubs" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+assertpy = "^1.1"
+typing-extensions = "^3.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
