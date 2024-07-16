@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: symplifai
+Version: 0.0.1
+Summary: Symplifai - a simple package to make things simplier
+Project-URL: Homepage, https://github.com/platcciabr/simplifai
+Project-URL: Issues, https://github.com/platcciabr/simplifai/issues
+Author-email: Leonardo Rocha <leonardo_rocha@atlantico.com.br>, Andreina Mendes <dreina_mendes@atlantico.com.br>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# SimplifAI Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

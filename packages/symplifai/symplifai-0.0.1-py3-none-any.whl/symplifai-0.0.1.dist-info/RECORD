@@ -1,0 +1,12 @@
+symplifai/.env.vectoredb,sha256=530YiUG_qXLOX1wCaXLZmVeDq7a3uipqGwe4QagvCTg,282
+symplifai/config.py,sha256=BO5ICUkdJSyexjx87qPoD20DZ8I9rNlMCaYQHwcbS6Y,38615
+symplifai/db.py,sha256=C_Era4ZWRgVONhiV9n0C5Zu1HKhPWe-nw5v_aGr01NQ,1524
+symplifai/helpers.py,sha256=1u-SIFVP8U0L8TIJcr995gGs8AXoLH24EcFKE-zdAow,3352
+symplifai/readers.py,sha256=K6A_zXdcRkZ6Fk6UWBlvO_iDUnFvjVOS41VcxmKql6M,8947
+symplifai/rwlock.py,sha256=w2S4i9R5s8cSAYdqHHseSHc9KwBfEqwVhpHwQbgBSzc,4130
+symplifai/vectordb.py,sha256=a_XbgoC8FaSze6swqYKZ_f7xPlQFfVrm8zpT0BzgI-8,4421
+symplifai/wrappers.py,sha256=f_lSf1h95lmDPDUZGGA5NNtJSAIch2fVOU7s1eLlDtA,2242
+symplifai-0.0.1.dist-info/METADATA,sha256=ILrOS8W_QvulXyQFcfBpdkMsxNbkcfcuYw3-mXPL5i8,764
+symplifai-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+symplifai-0.0.1.dist-info/licenses/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+symplifai-0.0.1.dist-info/RECORD,,
