@@ -1,0 +1,4 @@
+pytest
+jinja2
+jsonschema
+python-docx
