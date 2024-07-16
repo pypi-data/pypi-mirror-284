@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: b-exp
+Version: 0.1.0
+Summary: CLI application to automate data extraction and formating for Bitwarden csv import
+Author: Rachmann Joubert
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: pandas
+Requires-Dist: python-docx
+
+# CLI Exporter
+
+My Application is a command-line tool designed to extract specific data from multiple Word documents and save the extracted data into a CSV file. This tool is particularly useful for aggregating information from documents in a structured and automated way.
+
+## Features
+
+- Extracts data from multiple Word documents.
+- Aggregates data into a single CSV file.
+- Handles errors and logs them for review.
+- User-friendly command-line interface using Click.
+
+## Requirements
+
+- Python 3.6+
+- `click`
+- `pandas`
+- `python-docx`
+- `tkinter` (for file dialogs)
+
+## Installation
+
+You can install the package using pip. First, clone the repository and navigate to the project directory:
+
+```sh
+git clone https://github.com/yourusername/my_application.git
+cd my_application
