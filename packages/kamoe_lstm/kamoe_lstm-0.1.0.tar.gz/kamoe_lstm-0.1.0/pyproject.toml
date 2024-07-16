@@ -1,0 +1,16 @@
+[build-system]
+requires = [ "poetry-core",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "kamoe_lstm" 
+version = "0.1.0" 
+description = "Kolmogorov-Arnold Mixtures of Experts LSTM"
+authors = [ "Rémi Genet", "Hugo Inzirillo"]  
+readme = "README.md"  
+packages = [{include = "kamoe_lstm"}]  
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0" 
+numpy = ">=1.2,<2"
+tensorflow = ">=2.8,<3" 
