@@ -1,0 +1,3 @@
+[console_scripts]
+rcx_tk=rcx_tk.__main__:main
+
