@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: tapl-lang
+Version: 0.1
+Summary: A TAPL package.
+Author-email: Orti Bazar <orti.bazar@gmail.com>
+Classifier: License :: OSI Approved :: Apache Software License
+Project-URL: Home, http://tapl-lang.org
