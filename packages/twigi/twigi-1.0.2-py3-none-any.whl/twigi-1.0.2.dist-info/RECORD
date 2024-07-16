@@ -1,0 +1,15 @@
+twigi/__init__.py,sha256=hKXnFYmeHEuROFMFE-vzlGLSHg71bei5ZYwyYZphWNk,2
+twigi/early_stopper.py,sha256=_Cvmk5_BAWORx1cGZ586mt9EReIIT_pI8Nm6DjnZXRU,2860
+twigi/load_data.py,sha256=REfo0gYbEQsVVuPXSjqiclIcK_mat6wAlGImM6oWUtk,31826
+twigi/loss.py,sha256=2Il9uI2l9xHOFnTdxnhW_z8fpFTqIr0bGTv5v-99x1c,4500
+twigi/negative_sampler.py,sha256=SlUpGU1Tjtsx8l6ZtQFIdf1YWkkrFwnbX9BhLVMtoSE,16641
+twigi/run_exp.py,sha256=yvOpQzzhVqQ4sUualnse5VjGOE32PLMEBNOMV2Eh1Bk,27713
+twigi/run_from_checkpoint.py,sha256=jWbRVmP4MVom-TzOztecTo0KObMtubrhKe7B7hTN0yc,5476
+twigi/trainer.py,sha256=Gbb_MF9A0Zrcj7GFat0H0zlPRXZT4n-cJYfGzg8loq4,22102
+twigi/twig_nn.py,sha256=Ez4CoM4Z4SO80HwfF3Y7UOT8c_ITRteAbt9Hp1WMyRE,4124
+twigi/twigi.py,sha256=d6QgKY8RKupajq8w5-3r0W1xSKbAMuuVtmuoOXCUEnU,6093
+twigi/utils.py,sha256=nKO1vAQfsXmmH2PLjyqQdw9ty1mP9QOG8CMN39Nntww,20720
+twigi-1.0.2.dist-info/METADATA,sha256=L5SGSemW1fQY475fSvwHSGrqCuf8ceFOBGXwGIac8NI,24927
+twigi-1.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+twigi-1.0.2.dist-info/top_level.txt,sha256=qg9BzJaM38mJ0ea1sqpdscUF_ndrtQyXjeyylLg1D7k,6
+twigi-1.0.2.dist-info/RECORD,,
