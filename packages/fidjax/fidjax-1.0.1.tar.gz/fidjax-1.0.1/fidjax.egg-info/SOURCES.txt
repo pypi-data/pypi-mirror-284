@@ -1,0 +1,9 @@
+README.md
+__init__.py
+fid.py
+setup.py
+fidjax.egg-info/PKG-INFO
+fidjax.egg-info/SOURCES.txt
+fidjax.egg-info/dependency_links.txt
+fidjax.egg-info/requires.txt
+fidjax.egg-info/top_level.txt
