@@ -1,0 +1,8 @@
+README.md
+setup.py
+DevershiSampleofpip/__init__.py
+DevershiSampleofpip/main.py
+DevershiSampleofpip.egg-info/PKG-INFO
+DevershiSampleofpip.egg-info/SOURCES.txt
+DevershiSampleofpip.egg-info/dependency_links.txt
+DevershiSampleofpip.egg-info/top_level.txt
