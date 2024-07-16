@@ -1,0 +1,12 @@
+mlos-bench==0.6.0
+dabl>=0.2.6
+matplotlib<3.9
+
+[full]
+
+[full-tests]
+pytest
+pytest-forked
+pytest-xdist
+pytest-cov
+pytest-local-badge
