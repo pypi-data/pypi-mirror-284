@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "assertpy-stubs"
+version = "1.1.1"
+description = "Mypy|Pyright plugin and stubs for assertpy"
+authors = ["SOCGNA KOUYEM Childeric <socgnachilderic@proton.me>"]
+maintainers = ["SOCGNA KOUYEM Childeric <socgnachilderic@proton.me>"]
+keywords = ["mypy", "pyright", "assertpy", "stubs"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/socgnachilderic/assertpy-stubs"
+repository = "https://github.com/socgnachilderic/assertpy-stubs"
+packages = [{ include = "assertpy-stubs" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+assertpy = "^1.1"
+typing-extensions = "^4.12.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+isort = "^5.13.2"
+commitizen = "^3.27.0"
+pre-commit = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+## Black Configurations
+[tool.black]
+line-length = 88
+target-version = ["py39", "py310", "py311", "py312"]
+
+
+## Isort Configurations
+[tool.isort]
+py_version = 39
+profile = "black"
+combine_as_imports = true
+lines_after_imports = 2
