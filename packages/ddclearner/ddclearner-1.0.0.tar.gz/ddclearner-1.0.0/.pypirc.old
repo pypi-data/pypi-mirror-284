@@ -1,0 +1,14 @@
+[distutils]
+index-servers =
+  pypi
+  testpypi
+
+[pypi]
+repository: https://upload.pypi.org/legacy/
+username: okdj0201
+password: Tottemo2024@
+
+[testpypi]
+repository: https://test.pypi.org/legacy/
+username: okdj0201
+password: Tottemo2024@
