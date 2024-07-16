@@ -1,0 +1,3 @@
+[nomad.plugin]
+nomad_parser_wannier90_plugin = nomad_parser_wannier90.parsers:nomad_parser_wannier90_plugin
+nomad_parser_wannier90_schema = nomad_parser_wannier90.schema_packages:nomad_parser_wannier90_schema
