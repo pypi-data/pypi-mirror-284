@@ -1,0 +1,10 @@
+haystack_integrations/components/retrievers/opensearch/__init__.py,sha256=QsOnFVI6-UFPurvQATiwudLLVYxUxlPVbwgtveZAO2U,295
+haystack_integrations/components/retrievers/opensearch/bm25_retriever.py,sha256=W_MbZ6idf7iDiEEJZkpBM8aylNa729zC1WAdIGfuGOM,8527
+haystack_integrations/components/retrievers/opensearch/embedding_retriever.py,sha256=oQCQolHUIne_Y8-gAQmUqofU3naSF9T-hkTnZMkCuuw,7596
+haystack_integrations/document_stores/opensearch/__init__.py,sha256=dc7Q-78zM7JHHDfWcLP32bmeIQDLShPkU23DZ93MM1o,201
+haystack_integrations/document_stores/opensearch/document_store.py,sha256=4oaaANXSVEuvhFxYemLRDIRn84azcTWXlEkXsQpfSuM,21599
+haystack_integrations/document_stores/opensearch/filters.py,sha256=Fs1XG-9ZL-ttkG-CYebqTLRGmX18g78vMSbmwGS4VuU,9916
+opensearch_haystack-0.8.0.dist-info/METADATA,sha256=vYl4L0RgYPsVLsPih12otnn2LddEp1rPbIzz7VaO8g4,2108
+opensearch_haystack-0.8.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+opensearch_haystack-0.8.0.dist-info/licenses/LICENSE,sha256=_M2kulivnaiTHiW-5CRlZrPmH47tt04pBgAgeDvfYi4,11342
+opensearch_haystack-0.8.0.dist-info/RECORD,,
