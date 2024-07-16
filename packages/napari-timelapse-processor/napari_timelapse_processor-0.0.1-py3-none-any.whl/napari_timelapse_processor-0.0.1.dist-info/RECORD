@@ -1,0 +1,14 @@
+napari_timelapse_processor/__init__.py,sha256=6CCO1ImoRHyPCdaWpHRSSkfsKGho3Y6F3-7oFwgXhIY,181
+napari_timelapse_processor/frame_by_frame.py,sha256=EOxFv_o0tFLIuK0aT01PBtOvEspQeHVdVDMFlSQjaR0,3623
+napari_timelapse_processor/napari.yaml,sha256=d2QAYnrZTLkefFdDIX3Dwg3ccFVO6o67nUSPmZOuT8w,309
+napari_timelapse_processor/timelapse_converter.py,sha256=ahWJT1V6LmMnCcPTXEOh1HEH1N_Gbxf4FIrKYQY1eUk,14171
+napari_timelapse_processor/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_timelapse_processor/_tests/conftest.py,sha256=nnrW0PvbgEiZCuwYOHY7Jj-Q-Oipqqjon3RUPMgmRbw,4313
+napari_timelapse_processor/_tests/test_frame_by_frame.py,sha256=0MP4kBiBE5afympa87G5k0wptd7_EEM8oDOQrl83yCU,3713
+napari_timelapse_processor/_tests/test_timelapse_converter.py,sha256=WzkeSidNwwUQREGXxR2_msvRrFRgTGm7STXCPLkS1hc,6836
+napari_timelapse_processor-0.0.1.dist-info/LICENSE,sha256=9xzzL1hkNYvAxAt08758tkGeceUxIs_oiYv6gl5jyaU,1493
+napari_timelapse_processor-0.0.1.dist-info/METADATA,sha256=jaNaalukSieJ0h96eIcgERb_ofVwokYmPHOj6SFWoCw,10104
+napari_timelapse_processor-0.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+napari_timelapse_processor-0.0.1.dist-info/entry_points.txt,sha256=VcANir9IDFOOFWZaa6kXMIzu2QBBvVVZRxHihLs-SP8,86
+napari_timelapse_processor-0.0.1.dist-info/top_level.txt,sha256=WdxCPyj-Ga-q66qTE4PXSr4S40FI7re4hoeZomyT4Lw,27
+napari_timelapse_processor-0.0.1.dist-info/RECORD,,
