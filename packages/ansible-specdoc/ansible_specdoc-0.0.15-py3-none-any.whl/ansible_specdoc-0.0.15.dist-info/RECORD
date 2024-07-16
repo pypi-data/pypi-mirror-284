@@ -1,0 +1,9 @@
+ansible_specdoc/__init__.py,sha256=TOvzsSi8PTlgP4yJIM8ZN5SrhFu_bZViu47Tp7506Js,38
+ansible_specdoc/cli.py,sha256=X36MYpOtfGHaKXK_eOTisHJ_e07TS6IhYLuH5dBl3eI,10875
+ansible_specdoc/objects.py,sha256=XfdkGqLD3F_B4FHQgw47SYiTO6AH-T1LKd4HMmEUTEY,8905
+ansible_specdoc-0.0.15.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ansible_specdoc-0.0.15.dist-info/METADATA,sha256=7qnOt9O1cUPXhSYyQ675TDBUQS3v3z59GKZI3QJrcSQ,5152
+ansible_specdoc-0.0.15.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+ansible_specdoc-0.0.15.dist-info/entry_points.txt,sha256=cfU8BpzbR9JjuHpkKnrQb5TCiQQVx0W4_Elvq9OYsUk,61
+ansible_specdoc-0.0.15.dist-info/top_level.txt,sha256=2cCEWzdb9nm5ns3BDkEgM6QhkgsIAzedGA9-reDohgE,16
+ansible_specdoc-0.0.15.dist-info/RECORD,,
