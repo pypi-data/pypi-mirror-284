@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: netboxNinja
+Version: 0.0.1
+Summary: This tool is intended to insert data (for now interfaces) to Netbox via API.
+Author: Timo Riedinger
+Author-email: timo.riedinger@bechtle.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi ==2024.7.4
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: click ==8.1.7
+Requires-Dist: idna ==3.7
+Requires-Dist: python-dotenv ==1.0.1
+Requires-Dist: requests ==2.32.3
+Requires-Dist: urllib3 ==2.2.2
+
+# How to use
+
+## Clone code and change directory
+
+```
+    git clone git@gitlab.com:bechtle-cisco-devnet/netbox/netboxninja.git
+    cd netboxninja
+```
+
+## Create and load a venv (linux/mac)
+```
+    python -m venv venv
+    source venv/bin/activate
+```
+
+## Install the requirements
+```
+    pip install -r requirements.txt
+```
+
+## The .env File
+
+Rename the dotenv file to .env.
+Open the .env file and fill in your information.
+
+## Start the Tool
+```
+    python -m netboxNinja --csv <path-to-your-csv>
+```
