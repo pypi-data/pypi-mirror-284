@@ -1,0 +1,8 @@
+stockdatautils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockdatautils/ingest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockdatautils/ingest/ingestion_utils.py,sha256=h47FVyP-kORqyGA46TJjJ-n7Q7dtbGbe_eDgvrnDnFc,3177
+stockdatautils/ingest/metadata_utils.py,sha256=IDeNafbV-uIv04McaW9sh3DRmdOcFfP-aDPU5105CxU,750
+stockdatautils/ingest/utils.py,sha256=JqzbvMXlG3bMgLUo7aNWzrarRrNnZbO6FozUONS-Ico,3829
+stockdatautils-0.1.1.dist-info/METADATA,sha256=NXmdL_Tg1LZah59XIAD8mSF-NPsxoSpFbP5OpUWZxUI,421
+stockdatautils-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+stockdatautils-0.1.1.dist-info/RECORD,,
