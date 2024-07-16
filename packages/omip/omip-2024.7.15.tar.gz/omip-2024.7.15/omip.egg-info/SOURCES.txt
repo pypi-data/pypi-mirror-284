@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+omip/__init__.py
+omip.egg-info/PKG-INFO
+omip.egg-info/SOURCES.txt
+omip.egg-info/dependency_links.txt
+omip.egg-info/not-zip-safe
+omip.egg-info/requires.txt
+omip.egg-info/top_level.txt
