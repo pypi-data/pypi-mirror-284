@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: owo_pjt
+Version: 0.0.1
+Summary: owo pjt(the elice Original widget based on Orange3)
+Author: yongjin Kim
+Author-email: yongjinkim@elicer.com
+Keywords: orange3,genAI,openai,orange3 tutorial
+Requires-Python: >=3.6
+Requires-Dist: Orange3
+Requires-Dist: openai
+
