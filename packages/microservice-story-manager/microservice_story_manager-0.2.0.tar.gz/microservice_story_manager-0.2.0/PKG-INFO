@@ -1,0 +1,171 @@
+Metadata-Version: 2.1
+Name: microservice-story-manager
+Version: 0.2.0
+Summary: Microservice Story Manager is a Python library for optimizing user story assignments in microservice architectures. It features story and microservice management, genetic algorithm optimization, and visualization tools. The library calculates metrics like coupling and cohesion, allows comparison of optimization strategies, and supports CSV data loading. It aids in microservice design decisions, helping maximize cohesion and minimize coupling in software architectures.
+Author: radix1001
+Author-email: luis@thedogcompany.cl
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: deap (>=1.4.1,<2.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.9.1,<4.0.0)
+Requires-Dist: mpld3 (>=0.5.10,<0.6.0)
+Requires-Dist: networkx (>=3.3,<4.0)
+Requires-Dist: spacy (>=3.7.5,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Microservice Story Manager
+
+Microservice Story Manager is a Python library for managing user stories and microservices, optimizing story assignments, and visualizing microservice dependencies. It provides tools for organizing user stories, assigning them to microservices, and optimizing these assignments using various algorithms.
+
+## Features
+
+- User Story Management: Create, store, and manage user stories with detailed attributes.
+- Microservice Management: Organize user stories into microservices.
+- Dependency Visualization: Visualize dependencies between microservices based on user story relationships.
+- Genetic Algorithm Assignment: Optimize the assignment of user stories to microservices using genetic algorithms.
+- Customizable Fitness Functions: Define your own criteria for optimal story distribution.
+- Multi-language Support: Error messages available in multiple languages.
+- Metrics Calculation: Calculate various metrics such as coupling, cohesion, granularity, complexity, and semantic similarity.
+- Comparative Analysis: Compare different fitness functions and their impact on microservice architecture.
+- Detailed Visualization: View microservices with their assigned stories, including identifiers and titles.
+- Particle Swarm Optimization: Alternative method for optimizing story assignments using particle swarm optimization.
+
+## Installation
+
+You can install the Microservice Story Manager using pip:
+
+## Installation
+
+You can install the Microservice Story Manager using pip:
+
+```bash
+pip install microservice-story-manager
+```
+
+## Quickstart
+
+Here's a quick example of how to use the Microservice Story Manager to manage user stories and optimize their assignment to microservices:
+
+```python
+from microservice_story_manager import UserStoryManager, MicroserviceManager, MicroserviceVisualizer, GeneticMicroserviceAssigner, FitnessFunctions, MetricsVisualizer
+
+# Initialize managers
+user_story_manager = UserStoryManager()
+user_story_manager.load_stories_from_csv('path/to/your/stories.csv')
+
+microservice_manager = MicroserviceManager(user_story_manager)
+
+# Create microservices
+for _ in range(5):
+    microservice_manager.create_microservice()
+
+# Create FitnessFunctions instance
+fitness_functions = FitnessFunctions(MicroserviceMetricsManager(microservice_manager))
+
+# Choose fitness functions to compare
+functions_to_compare = [
+    (fitness_functions.f1, "f1", True),
+    (fitness_functions.f2, "f2", True)
+]
+
+results = []
+
+for func, name, minimize in functions_to_compare:
+    assigner = GeneticMicroserviceAssigner(user_story_manager, microservice_manager, func, minimize)
+    optimized_manager, fitness_value, detailed_metrics, story_assignments = assigner.optimize_assignments(generations=20, population_size=50)
+    results.append((name, optimized_manager, fitness_value, detailed_metrics, story_assignments))
+
+    print(f"\nResults for fitness function {name}:")
+    print(f"Best fitness: {fitness_value}")
+    print(f"Detailed metrics: {detailed_metrics}")
+    print("\nStory Assignments:")
+    for ms_id, stories in story_assignments.items():
+        print(f"\nMicroservice {ms_id}:")
+        for story in stories:
+            print(f"  - {story}")
+
+# Compare metrics
+MetricsVisualizer.compare_metrics(results[0][3], results[1][3], results[0][0], results[1][0])
+
+# Compare fitness values
+MetricsVisualizer.compare_fitness_values([result[2] for result in results], [result[0] for result in results])
+
+# Visualize the optimized microservices
+for name, manager, _, _, _ in results:
+    visualizer = MicroserviceVisualizer(manager)
+    visualizer.plot_microservices(title=f"Optimized Microservices using {name}")
+```
+
+## Detailed Usage
+
+### User Story Management
+
+The `UserStoryManager` class is used to create, store, and manage user stories. You can create user stories manually or load them from a CSV file. Here's an example of how to create a user story:
+
+```python
+user_story_manager = UserStoryManager()
+user_story_manager.load_stories_from_csv('stories.csv')
+```
+
+### Microservice Management
+
+The `MicroserviceManager` class is used to organize user stories into microservices. You can create microservices manually or let the manager create them for you. Here's an example of how to create microservices:
+
+```python
+microservice_manager = MicroserviceManager(user_story_manager)
+ms_id = microservice_manager.create_microservice()
+microservice_manager.add_story_to_microservice(ms_id, story_id)
+```
+
+### Genetic Microservice Assigner
+
+The `GeneticMicroserviceAssigner` class is used to optimize the assignment of user stories to microservices using genetic algorithms. You can define your own fitness function to determine the optimal assignment. Here's an example of how to use the assigner:
+
+```python
+assigner = GeneticMicroserviceAssigner(user_story_manager, microservice_manager)
+assigner.optimize_assignment(fitness_function, population_size=100, generations=50)
+```
+
+### Particle Swarm Optimization
+
+The `ParticleSwarmOptimization` class is an alternative method for optimizing story assignments. You can use it in place of the genetic algorithm assigner. Here's an example of how to use the particle swarm optimization:
+
+```python
+pso_assigner = PSOMicroserviceAssigner(user_story_manager, microservice_manager)
+best_particle = pso_assigner.optimize_assignment(population_size=50, generations=100)
+pso_assigner.assign_stories_to_microservices(best_particle)
+```
+
+### Microservice Visualizer
+
+The `MicroserviceVisualizer` class is used to visualize the dependencies between microservices based on user story relationships. Here's an example of how to use the visualizer:
+
+```python
+visualizer = MicroserviceVisualizer(microservice_manager)
+visualizer.plot_microservices(base_color='lightblue')
+```
+
+## Customization
+
+You can customize various aspects of the library:
+
+* Define your own fitness functions for optimization algorithms.
+* Adjust visualization parameters like colors and node sizes.
+* Implement additional optimization algorithms.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
+
+
+
+
