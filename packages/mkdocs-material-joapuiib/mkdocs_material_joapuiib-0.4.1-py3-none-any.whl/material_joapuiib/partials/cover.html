@@ -1,0 +1,71 @@
+{% set cover = page.meta.cover or config.theme.cover or false %}
+
+{% if cover %}
+
+{% set title = page.title %}
+{% set subtitle = page.meta.subtitle %}
+{% set author = page.meta.author or config.theme.author or config.get('author', {}).get('name') or None %}
+{% set email = page.meta.email or config.theme.email or config.get('author', {}).get('email') or None %}
+{% set curs = page.meta.curs %}
+{% set original_author = page.meta.original_author %}
+
+{% set license = page.meta.license or config.license or 'BY-NC-SA' %}
+{% set license_desc = page.meta.license_desc or config.license_desc or '(Reconeixement - No Comercial - Compartir Igual)' %}
+{% set license_url = 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca' %}
+
+{% set logo = 'img/logo_mislata.png' %}
+{% set license_img = 'img/license/' + license.lower() + '.png' %}
+
+
+<div class="cover">
+
+{% block background %}
+{% include "partials/cover/cipfp-mislata/background.html" %}
+{% endblock %}
+
+<div class="content">
+
+{% block logo %}
+<img class="cover-logo" src="{{ logo | url }}" alt="logo">
+{% endblock %}
+
+<h1>{{ title }}</h1>
+
+{% if subtitle %}
+<h2>{{ subtitle }}</h2>
+{% endif %}
+
+<div class="details">
+    {% if author %}
+    <p><strong>Autor:</strong> {{ author }}</p>
+    {% endif %}
+    {% if email %}
+    <p><strong>Correu electrònic:</strong> {{ email }}</p>
+    {% endif %}
+    {% if curs %}
+    <p><strong>Curs:</strong> {{ curs }}</p>
+    {% endif %}
+</div>
+
+<div class="license">
+
+{% if original_author %}
+<p>Aquest material és una obra derivada a partir del material de: <strong>{{ original_author }}</strong></p>
+{% endif %}
+
+<p><strong>Llicència: {{ license }}</strong></p>
+{% if license_desc %}
+<p class="">{{license_desc}}</p>
+{% endif %}
+
+<div class="license-img">
+<a href="{{ license_url }}" target="_blank">
+    <img class="" src="{{ license_img | url }}" alt="Licence"/>
+</a>
+</div>
+
+</div><!--license-->
+</div><!--content-->
+</div><!--cover-->
+
+{% endif %}
