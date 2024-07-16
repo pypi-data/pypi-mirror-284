@@ -1,0 +1,10 @@
+README.md
+setup.py
+loc_tracker/__init__.py
+loc_tracker/data_processing.py
+loc_tracker/scoring.py
+uav_package.egg-info/PKG-INFO
+uav_package.egg-info/SOURCES.txt
+uav_package.egg-info/dependency_links.txt
+uav_package.egg-info/requires.txt
+uav_package.egg-info/top_level.txt
