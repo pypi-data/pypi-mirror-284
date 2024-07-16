@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: ml-pitch-models
+Version: 0.0.1
+Summary: Machine-learning models for monophonic pitch (F0) estimation
+License: MIT License
+Project-URL: Repository, https://github.com/tikuma-lsuhsc/python-ml-pitch-models
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: hmmlearn
+Provides-Extra: all_weights
+Requires-Dist: ml-pitch-models-data-fcn-929 ; extra == 'all_weights'
+Requires-Dist: ml-pitch-models-data-fcn-993 ; extra == 'all_weights'
+Requires-Dist: ml-pitch-models-data-fcn-1953 ; extra == 'all_weights'
+Requires-Dist: ml-pitch-models-data-crepe-full ; extra == 'all_weights'
+Requires-Dist: ml-pitch-models-data-crepe-large ; extra == 'all_weights'
+Requires-Dist: ml-pitch-models-data-crepe-medium ; extra == 'all_weights'
+Requires-Dist: ml-pitch-models-data-crepe-small ; extra == 'all_weights'
+Requires-Dist: ml-pitch-models-data-crepe-tiny ; extra == 'all_weights'
+Provides-Extra: crepe_full_weights
+Requires-Dist: ml-pitch-models-data-crepe-full ; extra == 'crepe_full_weights'
+Provides-Extra: crepe_large_weights
+Requires-Dist: ml-pitch-models-data-crepe-large ; extra == 'crepe_large_weights'
+Provides-Extra: crepe_medium_weights
+Requires-Dist: ml-pitch-models-data-crepe-medium ; extra == 'crepe_medium_weights'
+Provides-Extra: crepe_small_weights
+Requires-Dist: ml-pitch-models-data-crepe-small ; extra == 'crepe_small_weights'
+Provides-Extra: crepe_tiny_weights
+Requires-Dist: ml-pitch-models-data-crepe-tiny ; extra == 'crepe_tiny_weights'
+Provides-Extra: crepe_weights
+Requires-Dist: ml-pitch-models-data-crepe-full ; extra == 'crepe_weights'
+Requires-Dist: ml-pitch-models-data-crepe-large ; extra == 'crepe_weights'
+Requires-Dist: ml-pitch-models-data-crepe-medium ; extra == 'crepe_weights'
+Requires-Dist: ml-pitch-models-data-crepe-small ; extra == 'crepe_weights'
+Requires-Dist: ml-pitch-models-data-crepe-tiny ; extra == 'crepe_weights'
+Provides-Extra: default_weights
+Requires-Dist: ml-pitch-models-data-fcn-993 ; extra == 'default_weights'
+Provides-Extra: fcn_1953_weights
+Requires-Dist: ml-pitch-models-data-fcn-1953 ; extra == 'fcn_1953_weights'
+Provides-Extra: fcn_929_weights
+Requires-Dist: ml-pitch-models-data-fcn-929 ; extra == 'fcn_929_weights'
+Provides-Extra: fcn_993_weights
+Requires-Dist: ml-pitch-models-data-fcn-993 ; extra == 'fcn_993_weights'
+Provides-Extra: fcn_weights
+Requires-Dist: ml-pitch-models-data-fcn-929 ; extra == 'fcn_weights'
+Requires-Dist: ml-pitch-models-data-fcn-993 ; extra == 'fcn_weights'
+Requires-Dist: ml-pitch-models-data-fcn-1953 ; extra == 'fcn_weights'
+

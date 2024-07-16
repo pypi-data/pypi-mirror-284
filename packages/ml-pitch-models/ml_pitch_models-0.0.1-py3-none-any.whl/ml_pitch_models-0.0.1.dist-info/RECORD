@@ -1,0 +1,11 @@
+ml_pitch_models/__init__.py,sha256=vlItFwxCQfLzbsnzcNAZmBJVR9fRCFdu7GkS3m9OOvU,88
+ml_pitch_models/layers.py,sha256=9rEoEF9net7mjtJQdJ_qHc2Z_CI8rgBlUz6M4eHtXm8,2979
+ml_pitch_models/models.py,sha256=3Y93nic1EoxH57TJoPi52xC0vyrff18Mmtslx74K24A,22526
+ml_pitch_models/pretrained.py,sha256=jRmmOhWtkzafJ4o9XJJSHSGFKaRUtraRlfd6CwuVRwE,14036
+ml_pitch_models/stap.py,sha256=D4BHQfSbQeI3rByxIl0pU5Z_4I86pnkRVJlD6GhFN0I,33968
+ml_pitch_models/utils.py,sha256=kTVhaMK2_8f4xWgdnlPRifaDYzuCbkryYfRMSbOT9GE,7735
+ml_pitch_models-0.0.1.dist-info/LICENSE,sha256=uRN5SBSgLRM5yXAMX0SVX5fgpUk3_Z0Y8wMC6-XKUFk,1166
+ml_pitch_models-0.0.1.dist-info/METADATA,sha256=Cuq7_mKOz2rcKxV2FV84Zuhz6taEJKRZEUyFABiywOw,2840
+ml_pitch_models-0.0.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+ml_pitch_models-0.0.1.dist-info/top_level.txt,sha256=L-GLJvVCWnHiYiuxlThIqq2DVsSPBLNDwkgAllNxt0M,16
+ml_pitch_models-0.0.1.dist-info/RECORD,,
