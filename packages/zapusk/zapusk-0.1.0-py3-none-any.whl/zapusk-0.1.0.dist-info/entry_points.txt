@@ -1,0 +1,4 @@
+[console_scripts]
+zapusk=zapusk.client.__main__:main
+zapusk-server=zapusk.__main__:main
+
