@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: vinput
+Version: 0.1.1
+Summary: Python bindings for the libvinput library
+Author-email: Slendi <slendi@socopon.com>
+License: AGPLv3
+Project-URL: Homepage, https://github.com/xslendix/libvinput.py
+Description-Content-Type: text/markdown
+License-File: LICENSE
