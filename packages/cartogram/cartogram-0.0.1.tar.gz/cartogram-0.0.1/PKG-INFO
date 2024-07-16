@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: cartogram
+Version: 0.0.1
+Summary: Compute continous cartograms (anamorphic maps)
+Author-email: Christoph Fink <christoph.fink@christophfink.com>
+License: GPL-3.0-or-later
+Project-URL: Documentation, https://python-cartogram.readthedocs.org/
+Project-URL: Repository, https://github.com/austromorph/python-cartogram
+Project-URL: Change log, https://github.com/austromorph/python-cartogram/blob/main/CHANGELOG.md
+Project-URL: Bug tracker, https://github.com/austromorph/python-cartogram/issues
+Keywords: cartography,geodata,geoinformation,visualisation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: geopandas
+Requires-Dist: joblib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: shapely
+Provides-Extra: docs
+Requires-Dist: GitPython; extra == "docs"
+Requires-Dist: nbsphinx; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-book-theme; extra == "docs"
+Requires-Dist: sphinx-design; extra == "docs"
+Requires-Dist: sphinx-contrib-images; extra == "docs"
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-asyncio; extra == "tests"
+Requires-Dist: pytest-lazy-fixtures; extra == "tests"
