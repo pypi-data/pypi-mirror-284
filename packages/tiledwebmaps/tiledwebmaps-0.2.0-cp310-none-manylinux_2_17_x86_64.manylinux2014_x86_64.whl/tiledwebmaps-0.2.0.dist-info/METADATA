@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tiledwebmaps
+Version: 0.2.0
+Summary: A lightweight library for retrieving map images from a tile provider with custom resolution, location and bearing.
+Home-page: https://github.com/fferflo/tiledwebmaps
+Author: Florian Fervers
+Author-email: florian.fervers@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Provides-Extra: scripts
+Requires-Dist: requests ; extra == 'scripts'
+Requires-Dist: dbfread ; extra == 'scripts'
+Requires-Dist: pandas ; extra == 'scripts'
+Requires-Dist: openpyxl ; extra == 'scripts'
+Requires-Dist: pyunpack ; extra == 'scripts'
+Requires-Dist: imageio ; extra == 'scripts'
+Requires-Dist: tqdm ; extra == 'scripts'
+Requires-Dist: tinypl ; extra == 'scripts'
+Requires-Dist: beautifulsoup4 ; extra == 'scripts'
+Requires-Dist: pylibjpeg-openjpeg ; extra == 'scripts'
+Requires-Dist: imagecodecs ; extra == 'scripts'
+Requires-Dist: opencv-python ; extra == 'scripts'
+
