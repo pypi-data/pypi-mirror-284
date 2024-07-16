@@ -1,0 +1,13 @@
+varname==0.11.0
+typing_inspect==0.8.0
+
+[dev]
+pytest
+mypy
+pytest-cov
+flake8
+black
+
+[docs]
+sphinx
+sphinx_rtd_theme
