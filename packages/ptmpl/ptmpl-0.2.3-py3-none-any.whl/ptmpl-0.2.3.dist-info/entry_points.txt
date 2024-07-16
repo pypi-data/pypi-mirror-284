@@ -1,0 +1,3 @@
+[console_scripts]
+ptmpl = ptmpl.entry_points:main
+ptmpl_post_install = ptmpl.post_install:download_and_run_script
