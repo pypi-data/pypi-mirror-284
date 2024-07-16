@@ -1,0 +1,2 @@
+[console_scripts]
+gitexcely = gitexcely:cli
