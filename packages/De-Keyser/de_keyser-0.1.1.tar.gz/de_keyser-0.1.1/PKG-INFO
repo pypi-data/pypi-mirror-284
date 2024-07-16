@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: De_Keyser
+Version: 0.1.1
+Summary: A library for building projects in De Keyser
+Home-page: https://github.com/AndreasDeceuninck/De_Keyser/
+Author: Andreas Deceuninck
+Author-email: andreas.deceuninck112@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: datetime
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# De_Keyser

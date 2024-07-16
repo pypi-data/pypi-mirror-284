@@ -1,0 +1,8 @@
+numpy
+datetime
+matplotlib
+pandas
+
+[dev]
+twine
+pytest
