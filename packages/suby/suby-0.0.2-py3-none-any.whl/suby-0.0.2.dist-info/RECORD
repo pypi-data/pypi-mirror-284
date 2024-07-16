@@ -1,0 +1,11 @@
+suby/__init__.py,sha256=hKszfI2TDBrc1Pqyvs2ULp0B2XOIDa2V2Pw0OVQDxvw,285
+suby/callbacks.py,sha256=zdJ4nEG67xLeHkf3DXYMtoDI9TJ3g3SqCnQUWTfpjXg,203
+suby/errors.py,sha256=Ub0wSb98P4o5a09Y9dy35iJqh5SD1BlPbBDsiqa3mZ0,249
+suby/proxy_module.py,sha256=LvVc7UDWweFeUamwxnpqUQxGVoWdvlZ7pwfUyT8M75Y,5952
+suby/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suby/subprocess_result.py,sha256=7QLDi_N5Wjx81e-1Wr5hwS84dDi929GchmxOvvWdLuQ,341
+suby-0.0.2.dist-info/LICENSE,sha256=hO1-L0ahJfr904PJARa0KgyVkj_JDTyIoM13ECcf1bo,1067
+suby-0.0.2.dist-info/METADATA,sha256=vGbbroOt-CGd939GhNW6vI_r79nd--8pvya3jfBfUXg,12906
+suby-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+suby-0.0.2.dist-info/top_level.txt,sha256=IKscormur9IXv_AtU6O0QrUJHyKZG-Rvj8xPUSmNI4E,5
+suby-0.0.2.dist-info/RECORD,,
