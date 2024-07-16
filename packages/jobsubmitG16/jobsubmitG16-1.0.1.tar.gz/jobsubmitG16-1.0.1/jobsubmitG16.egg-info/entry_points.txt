@@ -1,0 +1,2 @@
+[console_scripts]
+jobsubmitG16 = jobsubmitG16.jobsubmitG16:main
