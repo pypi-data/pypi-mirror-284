@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cloudflarepy
+Version: 0.0.1
+Summary: Cloudflare API Python Wrapper
+Home-page: https://github.com/Pma10/Cloudflarepy
+Author: Pma10
+Author-email: pmavmak10@gmail.com
+Keywords: api,cloudflare,pma
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Requires-Dist: aiohttp
+
