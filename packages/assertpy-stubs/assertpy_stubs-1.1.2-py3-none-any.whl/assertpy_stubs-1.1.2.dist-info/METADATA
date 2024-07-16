@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: assertpy-stubs
+Version: 1.1.2
+Summary: Mypy|Pyright plugin and stubs for assertpy
+Home-page: https://github.com/socgnachilderic/assertpy-stubs
+License: MIT
+Keywords: mypy,pyright,assertpy,stubs
+Author: SOCGNA KOUYEM Childeric
+Author-email: socgnachilderic@proton.me
+Maintainer: SOCGNA KOUYEM Childeric
+Maintainer-email: socgnachilderic@proton.me
+Requires-Python: >=3.9
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: assertpy (>=1.1,<2.0)
+Requires-Dist: typing-extensions (>=4.12.2,<5.0.0)
+Project-URL: Repository, https://github.com/socgnachilderic/assertpy-stubs
+Description-Content-Type: text/markdown
+
+[![PyPI version](https://badge.fury.io/py/assertpy-stubs.svg)](https://badge.fury.io/py/assertpy-stubs)
+[![Code on Github](https://img.shields.io/badge/Code-GitHub-brightgreen)](https://github.com/socgnachilderic/assertpy-stubs)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![GitHub last commit](https://img.shields.io/github/last-commit/socgnachilderic/assertpy-stubs)
+
+# assertpy-stubs
+
+Add types for [assertpy](https://pypi.org/project/assertpy/) for mypy or pyright.
+
+## Installation
+
+```
+$ pip install assertpy-stubs
+```
+
+## Usage
+
+Mypy or pyright will automatically use the type annotations in this package, once it is
+installed. You just need to annotate your code:
+
+```python
+from assertpy import assert_that
+
+
+def test_something():
+    assert_that(1 + 2).is_equal_to(3)
+    assert_that("foobar").is_length(6).starts_with("foo").ends_with("bar")
+    assert_that(["a", "b", "c"]).contains("a").does_not_contain("x")
+```
+
+For general hints how to use type annotations, please read [Type Annotations in Python 3.8](https://medium.com/analytics-vidhya/type-annotations-in-python-3-8-3b401384403d)
+
