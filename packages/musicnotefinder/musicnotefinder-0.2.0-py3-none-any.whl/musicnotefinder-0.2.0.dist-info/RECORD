@@ -1,0 +1,16 @@
+music_duration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+music_duration/aubio.py,sha256=4IBton1jF1NHbiY5Udh2LFkaf12WRRUZXbzVcTkmc1g,1402
+music_duration/bestmix.py,sha256=A5Zw9XfmlISBqdJZOcEn-gLW_J0ARA3zbNYuUMKP_UQ,5652
+music_duration/duration.py,sha256=NWptS-4YbiQ7d2tbABrAe9fCp1oVv0Z3FzdHcLr-fr4,309
+music_duration/librosa.py,sha256=oqyqQIVjqyIwSjwsKoP4hXwmWTm227USbHfd_oo1Xj0,1597
+music_duration/soundfile.py,sha256=izP81hBWFcpKDXIBhnx-Jvw2c-_oM8Lqkw2lGGR_Nzk,2952
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_analyze_aubio.py,sha256=q8B6ls609WIN2PHd7IVKFixWBWUd5vPxBdyjLQHTkNo,1692
+tests/test_analyze_bestmix.py,sha256=3QrIkLdLzRrGHeTWfsQ_dupxIvVaDPFjgp5EoK8d2CI,3662
+tests/test_analyze_librosa.py,sha256=AgEt0D9kE5Drq5--VPyUuKNPo-8fRfkwLUzNZGR2DNM,1422
+tests/test_analyze_soundfile.py,sha256=S9R253ww_xLKQ4cisq43Q--e5DbpOF93dgAr4VMsc3I,1285
+tests/tests.py,sha256=f0Eei8fN2ZeUMNGIeVW_D4PNYcyJ03xBtwusXJ66qmY,882
+musicnotefinder-0.2.0.dist-info/METADATA,sha256=42YPQh36Nu-d519pl4wmefQ-2_ylkj1jnHxIYvGIiRU,746
+musicnotefinder-0.2.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+musicnotefinder-0.2.0.dist-info/top_level.txt,sha256=s4d24mJXuhayDhmL3uAXWgz3jlckXBR3SLphpAQB2Bw,21
+musicnotefinder-0.2.0.dist-info/RECORD,,
