@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Test Cases</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+
+        .styled-select {
+            position: relative;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .styled-select select {
+            width: 100%;
+            height: 40px;
+            padding: 0 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f8f9fa;
+            color: #333333;
+            font-size: 16px;
+            appearance: none;
+            cursor: pointer;
+            transition: border-color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .styled-select select:hover {
+            background-color: #e2e6ea;
+        }
+
+        .styled-select::after {
+            content: '\25BC';
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            pointer-events: none;
+            font-size: 16px;
+            color: #333333;
+        }
+
+        .upload-button {
+            width: 60px;
+            height: 60px;
+            background: radial-gradient(circle, rgba(248, 249, 250, 0.8), rgba(248, 249, 250, 0));
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s ease;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .upload-button:hover {
+            background: radial-gradient(circle, rgb(230, 230, 230), rgba(255, 255, 255, 0.774));
+        }
+
+        .hidden-input {
+            display: none;
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            stroke: #000000c2;
+            stroke-width: 2;
+            fill: none;
+        }
+
+        /* Animation lines */
+        .lines-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .line {
+            position: absolute;
+            background-color: #000;
+            transform-origin: center;
+            pointer-events: none;
+            opacity: 0;
+            animation: spreadLine 1.5s ease-out forwards;
+        }
+
+        @keyframes spreadLine {
+            0% {
+                transform: scaleX(0);
+                opacity: 1;
+            }
+            100% {
+                transform: scaleX(1);
+                opacity: 0;
+            }
+        }
+
+        .line-top {
+            top: 0;
+            left: 50%;
+            height: 2px;
+            width: 0;
+        }
+
+        .line-bottom {
+            bottom: 0;
+            left: 50%;
+            height: 2px;
+            width: 0;
+        }
+
+        .line-left {
+            top: 50%;
+            left: 0;
+            height: 0;
+            width: 2px;
+        }
+
+        .line-right {
+            top: 50%;
+            right: 0;
+            height: 0;
+            width: 2px;
+        }
+
+        .upload-button:hover .line-top,
+        .upload-button:hover .line-bottom,
+        .upload-button:hover .line-left,
+        .upload-button:hover .line-right {
+            background-color: #000;
+        }
+
+        .popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ffffff;
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            z-index: 999;
+        }
+
+        .popup-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .popup-header .popup-close {
+            cursor: pointer;
+            font-size: 20px;
+            color: #aaaaaa;
+        }
+
+        .popup-header .popup-close:hover {
+            color: #888888;
+        }
+
+        .popup-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333333;
+        }
+
+        .popup-content {
+            margin-top: 10px;
+            color: #333333;
+        }
+
+        .popup-button {
+            background-color: #186eca;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .popup-button:hover {
+            background-color: #155bb5;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Test Cases</h1>
+        <form id="upload-form" method="post" enctype="multipart/form-data" onsubmit="event.preventDefault(); sendImportRequest();">
+            {% csrf_token %}
+            <div class="styled-select">
+                <select id="project" name="project_id">
+                    {% for project in projects %}
+                        <option value="{{ project.id }}">{{ project.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <input id="file-input" class="hidden-input" type="file" name="file">
+            <button type="button" class="upload-button" onclick="triggerFileInput()">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path d="M12 2v14M5 9l7-7 7 7M5 19h14"/>
+                </svg>
+                <!-- SVG lines -->
+                <div class="lines-container">
+                    <div class="line line-top"></div>
+                    <div class="line line-bottom"></div>
+                    <div class="line line-left"></div>
+                    <div class="line line-right"></div>
+                </div>
+            </button>
+
+            <button type="button" class="upload-button" onclick="backToMain()">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"/>
+                </svg>
+            </button>
+        </form>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-header">
+            <span class="popup-title">Uploaded File</span>
+            <span class="popup-close">&times;</span>
+        </div>
+        <div class="popup-content" id="popup-content">
+            <!-- Uploaded file content -->
+        </div>
+        <button class="popup-button" onclick="closePopup()">Close</button>
+    </div>
+
+    <script>
+        function triggerFileInput() {
+            // Line animation on button click
+            document.querySelectorAll('.line').forEach(line => {
+                line.style.width = '100%';
+            });
+
+            setTimeout(() => {
+                document.getElementById('file-input').click();
+            }, 1500); // Trigger file input click after 1.5 seconds of animation
+        }
+
+        document.getElementById('file-input').addEventListener('change', function() {
+            document.getElementById('upload-form').submit();
+            
+        });
+        function backToMain() {
+            window.location.href = '/';
+        }
+
+        function sendImportRequest() {
+            const formData = new FormData();
+            const fileInput = document.getElementById('file-input');
+            const projectSelect = document.getElementById('project');
+            const selectedProjectId = projectSelect.options[projectSelect.selectedIndex].value;
+
+            formData.append('file', fileInput.files[0]);
+            formData.append('project_id', selectedProjectId);
+
+            fetch('/testcases/upload/', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}'
+                }
+            })
+            .then(window.location.href = '/')
+            .then(response => response.json())
+            .then(data => {
+                console.log('Response:', data);
+                showPopup(`File uploaded: ${data.filename}`); 
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showPopup('Error uploading file');
+            });
+        }
+
+        function showPopup(content) {
+            const popup = document.getElementById('popup');
+            const popupContent = document.getElementById('popup-content');
+            popupContent.textContent = content;
+            popup.style.display = 'block';
+        }
+
+        function closePopup() {
+            const popup = document.getElementById('popup');
+            popup.style.display = 'none';
+        }
+
+        document.querySelector('.popup-close').addEventListener('click', closePopup);
+
+        window.addEventListener('click', function(event) {
+            const popup = document.getElementById('popup');
+            if (event.target === popup) {
+                popup.style.display = 'none';
+            }
+        });
+
+        window.addEventListener('keydown', function(event) {
+            const popup = document.getElementById('popup');
+            if (event.key === 'Escape') {
+                popup.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
