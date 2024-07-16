@@ -1,0 +1,7 @@
+README.md
+setup.py
+core_Collector.egg-info/PKG-INFO
+core_Collector.egg-info/SOURCES.txt
+core_Collector.egg-info/dependency_links.txt
+core_Collector.egg-info/requires.txt
+core_Collector.egg-info/top_level.txt
