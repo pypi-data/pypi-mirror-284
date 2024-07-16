@@ -1,0 +1,9 @@
+conva_ai/__init__.py,sha256=bRV4pgUYvV835WT8LGttb-S_NSGoMZJaVjYtK8EjTzY,64
+conva_ai/base.py,sha256=uvNdMSewMdLICrPMhplBHqfJR_Oiu3dV6LP24X1RDiM,596
+conva_ai/client.py,sha256=zhIbrl3SwEVZkhsmxIfcHI1oW12xLlGdFA_RmCR3stY,4577
+conva_ai/context.py,sha256=G5Itr38Mw7Fuq80GFYRRT_G33rod2jmJbl_TP5ssSds,222
+conva_ai/response.py,sha256=e78Zo1iHuLU7AZ85m9jA_eUE_ztFHtKdwwvRRkKmqbo,624
+conva_ai-0.2.0.dist-info/METADATA,sha256=vWfgEsaeaeFOxDhWm0Qg7KwIbOPBbrZDyRxXuONBS7Q,3986
+conva_ai-0.2.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+conva_ai-0.2.0.dist-info/top_level.txt,sha256=HK95_MalDM45mIfdujrGNuvVJ5d9Pl674mIBPah4dGA,9
+conva_ai-0.2.0.dist-info/RECORD,,
