@@ -1,0 +1,12 @@
+typedai/__init__.py,sha256=8xte9ROFfCTe31mMpMoxcMtCaJ2mv6yLN2l6QrF09rg,143
+typedai/client.py,sha256=wl8X2AXHu2_EQ3nVgCJEvs542UojWJi0sGI57HHSJwU,888
+typedai/completions.py,sha256=g9Y8wlZA4ao0TeBbGBEoN6FwQ6xNMp8NpG3nxvrpF5o,4711
+typedai/config.py,sha256=EkuNpqytcYsqqg9SDv28nNABZHr972Xqt0GRVylc1WQ,1829
+typedai/errors.py,sha256=quffjEXt2tK75wKi7Ws46KP-zjnjS-1mlKx12YQy_nQ,833
+typedai/messages.py,sha256=d0eswfCYyLqL0DeewdvLJHvDuzbeGBbmWInGrE3-7e0,470
+typedai/models.py,sha256=rL34cuftHhQsJbeZsnD2DGQyC8C_aVWJxvTdMHHavWw,7977
+typedai/util.py,sha256=iqWbnzhANW3GM9NnwNDv6HXDEi0nT8tUXvxlaBw-wBU,1664
+eidolon_typedai-0.1.7.dist-info/LICENSE,sha256=KSjnKXGNpLLK_cwzlT0Dygc_pq4DFPSBI3aPYUinh80,1067
+eidolon_typedai-0.1.7.dist-info/METADATA,sha256=XvgMJNTEmRUFnTJzbLOwUKalgZ0rf6wBX8isdb69DYs,5062
+eidolon_typedai-0.1.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+eidolon_typedai-0.1.7.dist-info/RECORD,,
