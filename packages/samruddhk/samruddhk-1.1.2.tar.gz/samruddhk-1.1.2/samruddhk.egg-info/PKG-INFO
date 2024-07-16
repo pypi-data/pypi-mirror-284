@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: samruddhk
+Version: 1.1.2
+Summary: A collection of algorithms including BFS, DFS, Dijkstra's, etc.
+Home-page: https://github.com/SAMRUDDH15/samruddhk.git
+Author: SAMRUDDH K
+Author-email: samruddh.k52@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Samruddh K's Graph Algorithms Library
+
+This Python library provides various graph algorithms, including:
+
+- Topological sorting
+- Transitive closure
+- Breadth-first search (BFS) for reachable nodes
+- Checking connectivity of a graph
+- Dijkstra's algorithm for shortest paths
+- Kruskal's algorithm for Minimum Spanning Tree (MST)
+
+## Installation
+
+You can install this library using pip:
+
