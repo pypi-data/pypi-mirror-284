@@ -1,0 +1,12 @@
+example/statsbomb_skillcorner_data.py,sha256=P4xDTRWRlx0gFTdxScrg89pqZ-0nZ68y773nI4px2Cg,2574
+example/statsbomb_skillcorner_data_test.py,sha256=NLgdDXCr6PmHA6TXHMK0WrpcXCcwE2QtDWoRL-3CWQM,2758
+sports/__init__.py,sha256=Lu11Y_wWYRx2J4Hz1FagT4EUita-ZpKqm6s2-Ch15C4,24
+sports/event_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sports/event_data/load_data.py,sha256=akE49K-xiwXr-bIXDi1x2jnXUVPQDnm8jTqOERHbJgg,47109
+sports/event_data/main.py,sha256=Gf_CxXJ6mrYGClPaGVPqCFuAlIsr-HS5kZ544LsS9zI,30164
+sports/event_data/processing.py,sha256=4PQaTCsshETXu3pHiFQDuL5fiibzB3caBz3UvBG0HKc,54268
+openstarlab_preprocessing-0.1.1.dist-info/LICENSE.md,sha256=v3JFxylhpWyYQqJGYY_W88ZwwlVm52EW9DezA9CLhx0,11360
+openstarlab_preprocessing-0.1.1.dist-info/METADATA,sha256=E6YCWhb1N7mK5t281aGyIOeFIEjEnEYQBM2ZvfeYoXI,640
+openstarlab_preprocessing-0.1.1.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+openstarlab_preprocessing-0.1.1.dist-info/top_level.txt,sha256=rsqbeO-O3OzWI4EEW4U0BLrlhMCJAi2fGdVqTvTe9i4,15
+openstarlab_preprocessing-0.1.1.dist-info/RECORD,,
