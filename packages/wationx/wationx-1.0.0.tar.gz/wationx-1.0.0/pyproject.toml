@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wationx"
+version = "1.0.0"
+description = "This package provides a administrator connector to interact with the services of wation.net"
+readme = "README.md"
+requires-python = ">=3.5"
+authors = [
+    { name="Wation", email="Github@Wation.net" }
+]
+license = { text="MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "appdirs",
+    "requests",
+    "cryptography"
+]
+
+[project.urls]
+Homepage = "https://github.com/TheWation"
+
+[project.scripts]
+wationx = "wationx.cli:main"
