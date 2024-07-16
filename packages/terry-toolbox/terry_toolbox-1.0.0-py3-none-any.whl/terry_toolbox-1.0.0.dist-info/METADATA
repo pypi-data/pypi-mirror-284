@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: terry-toolbox
+Version: 1.0.0
+Summary: Python toolbox for Robotics and Machine Learning
+Author: terry97-guel
+Author-email: taerimyoon@korea.ac.kr
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: numpy
+
