@@ -1,0 +1,13 @@
+TrER/CVaR_calculate.py,sha256=6ch219xrXsVIyor-XWStKS46QYA2GwQVXc2XKioTVEg,8726
+TrER/IF_calculate.py,sha256=gg_WiKq-E3vu3WeM-fbePrYoVf8E-D4IXb6KVtk_30Y,2130
+TrER/__init__.py,sha256=Oe2V1gKux1ws67ztH82NQpAboymjvHVDD1Yt5TVNjzs,215
+TrER/gen_cvar.py,sha256=zgDNQfY_zGLQ1V7MLbNJn1AFH5hVHL4RcqMQMC_5bdM,5901
+TrER/main.py,sha256=tAfvhrv9bliNuZ-bFOqoEkSn783wE5dbaOd1Hkah_sU,19
+TrER/models.py,sha256=qx4b_IlxLpaC8nDXW-dGkGGHgO9qQskocwCwdkHNF2M,2384
+TrER/plots.py,sha256=5qCt3h7WmbjkSFgmfIzUtln5xSKh3vCiYIJwDr0CUBk,8025
+TrER/utils.py,sha256=81SGJ0meIQ4ZM4sVV_6k2p5ma10f-YUaZM1UaC6vLR8,1436
+TrER-0.1.41.dist-info/LICENSE,sha256=yiMTZyEjQFfMdMX5c3C7QrwVyc90zKc1sp0HKdvbjzk,1065
+TrER-0.1.41.dist-info/METADATA,sha256=7L-YBb3FeFrCjE0Gm8LY4_isSrR1ZXVCpRJuMddhn0k,1311
+TrER-0.1.41.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+TrER-0.1.41.dist-info/top_level.txt,sha256=AQXTJ-9iy52AVG1bxv2lW0DJxL52tinwXDYaxYd2clc,5
+TrER-0.1.41.dist-info/RECORD,,
