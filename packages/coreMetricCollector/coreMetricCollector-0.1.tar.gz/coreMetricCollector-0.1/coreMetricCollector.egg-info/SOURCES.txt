@@ -1,0 +1,7 @@
+README.md
+setup.py
+coreMetricCollector.egg-info/PKG-INFO
+coreMetricCollector.egg-info/SOURCES.txt
+coreMetricCollector.egg-info/dependency_links.txt
+coreMetricCollector.egg-info/requires.txt
+coreMetricCollector.egg-info/top_level.txt
